@@ -35,7 +35,7 @@ typedef void (^completionBlk)(BOOL);
 - (void)viewDidLoad
 {
     _elements = [[NSMutableArray alloc] init];
-    _currentItemID = 1;
+    _currentLevel = 1;
     _isGameFinished = FALSE;
     
     [self addElements];
@@ -57,7 +57,7 @@ typedef void (^completionBlk)(BOOL);
         [tElements addObject:[element saveDictionary]];
     }
     [data setObject:tElements forKey:@"data"];
-    [data writeToFile:@"/Users/chandanshettysp/Desktop/savedData.plist" atomically:YES];
+    [data writeToFile:@"/Users/chandanshetty/Desktop/savedData.plist" atomically:YES];
 }
 
 -(void)addElements

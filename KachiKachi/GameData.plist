@@ -548,5 +548,117 @@
 			</dict>
 		</dict>
 	</dict>
+	<key>item2</key>
+	<dict>
+		<key>noOfLevels</key>
+		<integer>1</integer>
+		<key>levels</key>
+		<dict>
+			<key>level1</key>
+			<dict>
+				<key>background</key>
+				<string>bg.jpg</string>
+				<key>elements</key>
+				<array>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{100, 100}, {-1,-1 }}</string>
+						<key>image</key>
+						<string>apple_2.png</string>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{0, 0}, {-1,-1 }}</string>
+						<key>image</key>
+						<string>apple_1.png</string>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{0, 0}, {-1,-1 }}</string>
+						<key>image</key>
+						<string>apple_3.png</string>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{0, 0}, {-1,-1 }}</string>
+						<key>image</key>
+						<string>apple_4.png</string>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{0, 0}, {-1,-1 }}</string>
+						<key>image</key>
+						<string>apple_5.png</string>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{0, 0}, {-1,-1 }}</string>
+						<key>image</key>
+						<string>apple_6.png</string>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{0, 0}, {-1,-1 }}</string>
+						<key>image</key>
+						<string>apple_7.png</string>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{0, 0}, {-1,-1 }}</string>
+						<key>image</key>
+						<string>apple_8.png</string>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{0, 0}, {-1,-1 }}</string>
+						<key>image</key>
+						<string>apple_1.png</string>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{0, 0}, {-1,-1 }}</string>
+						<key>image</key>
+						<string>apple_1.png</string>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{0, 0}, {-1,-1 }}</string>
+						<key>image</key>
+						<string>apple_1.png</string>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{0, 0}, {-1,-1 }}</string>
+						<key>image</key>
+						<string>apple_1.png</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

@@ -34,7 +34,7 @@
 {
     UIButton *button = (UIButton*)sender;
     KKGameSceneController *nextVC = (KKGameSceneController *)[segue destinationViewController];
-    nextVC.currentLevel = button.tag;
+    nextVC.currentItemID = button.tag;
 }
 
 @end

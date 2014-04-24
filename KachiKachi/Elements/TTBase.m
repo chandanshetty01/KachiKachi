@@ -183,7 +183,7 @@ POINT rotate_point(float cx,float cy,float angle,POINT p)
         [touchArry addObject:NSStringFromCGPoint(cPoint)];
     }
     
-    if(0){
+    if(1){
         touchArry = [NSMutableArray array];
         [touchArry addObject:NSStringFromCGPoint(CGPointMake(self.frame.origin.x, self.frame.origin.y))];
         [touchArry addObject:NSStringFromCGPoint(CGPointMake(self.frame.origin.x+self.frame.size.width, self.frame.origin.y))];
