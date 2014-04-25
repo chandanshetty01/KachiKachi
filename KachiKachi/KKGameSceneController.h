@@ -14,5 +14,6 @@
 @property(nonatomic,assign) NSInteger currentItemID;
 @property(nonatomic,assign) NSInteger currentLevel;
 @property (weak, nonatomic) IBOutlet UISwitch *switchBtn;
+@property (weak, nonatomic) IBOutlet UIButton *saveBtn;
 
 @end

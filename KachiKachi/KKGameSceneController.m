@@ -42,8 +42,10 @@ typedef void (^completionBlk)(BOOL);
     
 #ifdef DEVELOPMENT_MODE
     _switchBtn.hidden = NO;
+    _saveBtn.hidden = NO;
 #else
     _switchBtn.hidden = YES;
+    _saveBtn.hidden = YES;
 #endif
     
     [super viewDidLoad];
@@ -89,7 +91,9 @@ typedef void (^completionBlk)(BOOL);
 -(BOOL)isGameOver
 {
     BOOL gameOver = FALSE;
+#ifdef DEVELOPMENT_MODE
     return gameOver;
+#endif
 
     if([_elements count]-1 > 0 && _currentElement)
     {
@@ -133,7 +137,7 @@ typedef void (^completionBlk)(BOOL);
     }
     else if(_currentElement != nil)
     {
-        /*
+#ifndef DEVELOPMENT_MODE
         [UIView animateWithDuration:.5f animations:^{
             _currentElement.alpha = 0;
         } completion:^(BOOL finished) {
@@ -142,7 +146,7 @@ typedef void (^completionBlk)(BOOL);
                 block(YES);
             }
         }];
-         */
+#endif
     }
 }
 
