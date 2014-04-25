@@ -40,6 +40,12 @@ typedef void (^completionBlk)(BOOL);
     
     [self addElements];
     
+#ifdef DEVELOPMENT_MODE
+    _switchBtn.hidden = NO;
+#else
+    _switchBtn.hidden = YES;
+#endif
+    
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }

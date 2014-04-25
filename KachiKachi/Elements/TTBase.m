@@ -53,9 +53,11 @@
         //imageview.transform = CGAffineTransformMakeRotation(M_PI * self.angle / 180);
         [self addSubview:imageview];
         
+#ifdef DEVELOPMENT_MODE
         self.backgroundColor = [UIColor clearColor];
-        
-        //self.backgroundColor = [UIColor redColor];
+#else
+        self.backgroundColor = [UIColor clearColor];
+#endif
     }
     return self;
 }
@@ -183,6 +185,7 @@ POINT rotate_point(float cx,float cy,float angle,POINT p)
         [touchArry addObject:NSStringFromCGPoint(cPoint)];
     }
     
+#ifdef DEVELOPMENT_MODE
     if(1){
         touchArry = [NSMutableArray array];
         [touchArry addObject:NSStringFromCGPoint(CGPointMake(self.frame.origin.x, self.frame.origin.y))];
@@ -191,6 +194,8 @@ POINT rotate_point(float cx,float cy,float angle,POINT p)
         [touchArry addObject:NSStringFromCGPoint(CGPointMake(self.frame.origin.x, self.frame.origin.y+self.frame.size.width))];
         [touchArry addObject:NSStringFromCGPoint(CGPointMake(self.frame.origin.x, self.frame.origin.y))];
     }
+#else
+#endif
     
     if([self isPointInsidePolyGon:touchPoint andPoints:touchArry])
         return YES;
