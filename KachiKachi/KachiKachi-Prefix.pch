@@ -16,4 +16,4 @@
 #endif
 
 
-//#define DEVELOPMENT_MODE
+#define DEVELOPMENT_MODE

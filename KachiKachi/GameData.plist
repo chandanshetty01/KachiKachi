@@ -1156,5 +1156,277 @@
 			</dict>
 		</dict>
 	</dict>
+	<key>item3</key>
+	<dict>
+		<key>noOfLevels</key>
+		<integer>1</integer>
+		<key>levels</key>
+		<dict>
+			<key>level1</key>
+			<dict>
+				<key>background</key>
+				<string>leaves_bg.png</string>
+				<key>elements</key>
+				<array>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{0,200}, {-1,-1}}</string>
+						<key>image</key>
+						<string>leaf1a.png</string>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{0,200}, {-1,-1}}</string>
+						<key>image</key>
+						<string>leaf1b.png</string>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{0,200}, {-1,-1}}</string>
+						<key>image</key>
+						<string>leaf1c.png</string>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{0,200}, {-1,-1}}</string>
+						<key>image</key>
+						<string>leaf1d.png</string>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{0,200}, {-1,-1}}</string>
+						<key>image</key>
+						<string>leaf1e.png</string>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{0,200}, {-1,-1}}</string>
+						<key>image</key>
+						<string>leaf5a.png</string>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{0,200}, {-1,-1}}</string>
+						<key>image</key>
+						<string>leaf5b.png</string>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{0,200}, {-1,-1}}</string>
+						<key>image</key>
+						<string>leaf7a.png</string>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{0,200}, {-1,-1}}</string>
+						<key>image</key>
+						<string>leaf8a.png</string>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{0,200}, {-1,-1}}</string>
+						<key>image</key>
+						<string>leaf8b.png</string>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{0,200}, {-1,-1}}</string>
+						<key>image</key>
+						<string>leaf8c.png</string>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{0,200}, {-1,-1}}</string>
+						<key>image</key>
+						<string>leaf8d.png</string>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{0,200}, {-1,-1}}</string>
+						<key>image</key>
+						<string>leaf8e.png</string>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{0,200}, {-1,-1}}</string>
+						<key>image</key>
+						<string>leaf12a.png</string>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{0,200}, {-1,-1}}</string>
+						<key>image</key>
+						<string>leaf12b.png</string>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{0,200}, {-1,-1}}</string>
+						<key>image</key>
+						<string>leaf12c.png</string>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{0,200}, {-1,-1}}</string>
+						<key>image</key>
+						<string>leaf19a.png</string>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{0,200}, {-1,-1}}</string>
+						<key>image</key>
+						<string>leaf19b.png</string>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{0,200}, {-1,-1}}</string>
+						<key>image</key>
+						<string>leaf19c.png</string>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{0,200}, {-1,-1}}</string>
+						<key>image</key>
+						<string>leaf19d.png</string>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{0,200}, {-1,-1}}</string>
+						<key>image</key>
+						<string>leaf19e.png</string>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{0,200}, {-1,-1}}</string>
+						<key>image</key>
+						<string>leaf19f.png</string>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{0,200}, {-1,-1}}</string>
+						<key>image</key>
+						<string>leaf19g.png</string>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{0,200}, {-1,-1}}</string>
+						<key>image</key>
+						<string>leaf19h.png</string>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{0,200}, {-1,-1}}</string>
+						<key>image</key>
+						<string>leaf19i.png</string>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{0,200}, {-1,-1}}</string>
+						<key>image</key>
+						<string>leaf19j.png</string>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{0,200}, {-1,-1}}</string>
+						<key>image</key>
+						<string>leaf21a.png</string>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{0,200}, {-1,-1}}</string>
+						<key>image</key>
+						<string>leaf21b.png</string>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{0,200}, {-1,-1}}</string>
+						<key>image</key>
+						<string>leaf26a.png</string>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{0,200}, {-1,-1}}</string>
+						<key>image</key>
+						<string>leaf26b.png</string>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{0,200}, {-1,-1}}</string>
+						<key>image</key>
+						<string>leaf42a.png</string>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{0,200}, {-1,-1}}</string>
+						<key>image</key>
+						<string>leaf42b.png</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>
