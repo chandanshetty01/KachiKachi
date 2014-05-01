@@ -2202,308 +2202,1057 @@
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{109, 525}, {301, 114}}</string>
 						<key>image</key>
 						<string>1_left.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{50, 4}</string>
+							<string>{3, 48}</string>
+							<string>{3, 108}</string>
+							<string>{67, 109}</string>
+							<string>{91, 79}</string>
+							<string>{154, 85}</string>
+							<string>{151, 95}</string>
+							<string>{183, 103}</string>
+							<string>{193, 100}</string>
+							<string>{248, 113}</string>
+							<string>{294, 110}</string>
+							<string>{233, 77}</string>
+							<string>{297, 73}</string>
+							<string>{298, 60}</string>
+							<string>{228, 49}</string>
+							<string>{230, 18}</string>
+							<string>{228, 16}</string>
+							<string>{195, 6}</string>
+							<string>{175, 34}</string>
+							<string>{146, 37}</string>
+							<string>{137, 59}</string>
+							<string>{169, 69}</string>
+							<string>{97, 67}</string>
+							<string>{61, 5}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{454, 607}, {301, 114}}</string>
 						<key>image</key>
 						<string>1_right.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{4, 57}</string>
+							<string>{76, 49}</string>
+							<string>{69, 24}</string>
+							<string>{86, 22}</string>
+							<string>{100, 9}</string>
+							<string>{129, 36}</string>
+							<string>{153, 29}</string>
+							<string>{172, 55}</string>
+							<string>{140, 71}</string>
+							<string>{204, 65}</string>
+							<string>{193, 38}</string>
+							<string>{214, 49}</string>
+							<string>{240, 3}</string>
+							<string>{300, 53}</string>
+							<string>{299, 102}</string>
+							<string>{248, 111}</string>
+							<string>{205, 81}</string>
+							<string>{144, 83}</string>
+							<string>{153, 99}</string>
+							<string>{111, 102}</string>
+							<string>{63, 115}</string>
+							<string>{13, 110}</string>
+							<string>{75, 78}</string>
+							<string>{51, 72}</string>
+							<string>{2, 77}</string>
+						</array>
 					</dict>
-				</array>
-				<key>elements - 2</key>
-				<array>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
-						<key>image</key>
-						<string>1_left.png</string>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTBase</string>
-						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
-						<key>image</key>
-						<string>1_right.png</string>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTBase</string>
-						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{552, 347}, {114, 301}}</string>
 						<key>image</key>
 						<string>1_top.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{55, 298}</string>
+							<string>{68, 227}</string>
+							<string>{96, 232}</string>
+							<string>{107, 203}</string>
+							<string>{81, 170}</string>
+							<string>{86, 153}</string>
+							<string>{63, 135}</string>
+							<string>{45, 160}</string>
+							<string>{45, 160}</string>
+							<string>{49, 97}</string>
+							<string>{82, 112}</string>
+							<string>{72, 92}</string>
+							<string>{111, 61}</string>
+							<string>{65, 3}</string>
+							<string>{7, 15}</string>
+							<string>{3, 65}</string>
+							<string>{29, 94}</string>
+							<string>{32, 157}</string>
+							<string>{17, 151}</string>
+							<string>{4, 241}</string>
+							<string>{5, 286}</string>
+							<string>{40, 236}</string>
+							<string>{39, 298}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{51, 408}, {352, 204}}</string>
 						<key>image</key>
 						<string>2_left.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{67, 4}</string>
+							<string>{115, 84}</string>
+							<string>{149, 96}</string>
+							<string>{169, 80}</string>
+							<string>{152, 55}</string>
+							<string>{225, 69}</string>
+							<string>{271, 51}</string>
+							<string>{296, 92}</string>
+							<string>{251, 109}</string>
+							<string>{284, 143}</string>
+							<string>{299, 131}</string>
+							<string>{327, 155}</string>
+							<string>{348, 166}</string>
+							<string>{348, 184}</string>
+							<string>{317, 176}</string>
+							<string>{325, 201}</string>
+							<string>{193, 188}</string>
+							<string>{252, 174}</string>
+							<string>{231, 139}</string>
+							<string>{106, 111}</string>
+							<string>{81, 132}</string>
+							<string>{25, 118}</string>
+							<string>{3, 98}</string>
+							<string>{19, 46}</string>
+							<string>{33, 12}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{453, 399}, {352, 204}}</string>
 						<key>image</key>
 						<string>2_right.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{7, 160}</string>
+							<string>{121, 121}</string>
+							<string>{55, 93}</string>
+							<string>{84, 81}</string>
+							<string>{84, 57}</string>
+							<string>{136, 72}</string>
+							<string>{209, 53}</string>
+							<string>{202, 99}</string>
+							<string>{245, 84}</string>
+							<string>{245, 53}</string>
+							<string>{294, 2}</string>
+							<string>{353, 99}</string>
+							<string>{284, 131}</string>
+							<string>{246, 113}</string>
+							<string>{122, 137}</string>
+							<string>{120, 159}</string>
+							<string>{103, 177}</string>
+							<string>{168, 189}</string>
+							<string>{128, 200}</string>
+							<string>{96, 194}</string>
+							<string>{96, 202}</string>
+							<string>{31, 202}</string>
+							<string>{35, 176}</string>
+							<string>{18, 178}</string>
+							<string>{2, 181}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{561, 303}, {204, 352}}</string>
 						<key>image</key>
 						<string>2_top.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{114, 3}</string>
+							<string>{75, 79}</string>
+							<string>{96, 114}</string>
+							<string>{65, 234}</string>
+							<string>{27, 252}</string>
+							<string>{24, 193}</string>
+							<string>{5, 195}</string>
+							<string>{12, 327}</string>
+							<string>{32, 324}</string>
+							<string>{24, 349}</string>
+							<string>{42, 349}</string>
+							<string>{54, 324}</string>
+							<string>{78, 296}</string>
+							<string>{63, 286}</string>
+							<string>{87, 237}</string>
+							<string>{117, 299}</string>
+							<string>{149, 271}</string>
+							<string>{138, 218}</string>
+							<string>{156, 160}</string>
+							<string>{106, 150}</string>
+							<string>{119, 116}</string>
+							<string>{159, 107}</string>
+							<string>{202, 69}</string>
+							<string>{195, 35}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{279, 288}, {238, 107}}</string>
 						<key>image</key>
 						<string>3_left.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{55, 4}</string>
+							<string>{2, 40}</string>
+							<string>{33, 101}</string>
+							<string>{90, 69}</string>
+							<string>{159, 85}</string>
+							<string>{159, 106}</string>
+							<string>{171, 106}</string>
+							<string>{175, 91}</string>
+							<string>{233, 104}</string>
+							<string>{237, 87}</string>
+							<string>{145, 59}</string>
+							<string>{158, 31}</string>
+							<string>{135, 41}</string>
+							<string>{135, 41}</string>
+							<string>{131, 61}</string>
+							<string>{94, 52}</string>
+							<string>{90, 29}</string>
+							<string>{66, 7}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{35, 480}, {238, 107}}</string>
 						<key>image</key>
 						<string>3_right.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{3, 87}</string>
+							<string>{91, 61}</string>
+							<string>{80, 32}</string>
+							<string>{105, 43}</string>
+							<string>{109, 63}</string>
+							<string>{142, 54}</string>
+							<string>{153, 19}</string>
+							<string>{182, 4}</string>
+							<string>{238, 46}</string>
+							<string>{207, 97}</string>
+							<string>{145, 67}</string>
+							<string>{78, 90}</string>
+							<string>{72, 107}</string>
+							<string>{65, 90}</string>
+							<string>{9, 105}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{615, 365}, {107, 238}}</string>
 						<key>image</key>
 						<string>3_top.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{10, 33}</string>
+							<string>{73, 4}</string>
+							<string>{108, 54}</string>
+							<string>{56, 103}</string>
+							<string>{46, 128}</string>
+							<string>{77, 152}</string>
+							<string>{70, 159}</string>
+							<string>{46, 144}</string>
+							<string>{13, 235}</string>
+							<string>{3, 228}</string>
+							<string>{21, 176}</string>
+							<string>{2, 170}</string>
+							<string>{2, 159}</string>
+							<string>{21, 161}</string>
+							<string>{39, 90}</string>
+							<string>{9, 47}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{242, 691}, {238, 107}}</string>
 						<key>image</key>
 						<string>4_left.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{35, 10}</string>
+							<string>{4, 65}</string>
+							<string>{52, 107}</string>
+							<string>{95, 56}</string>
+							<string>{131, 47}</string>
+							<string>{148, 84}</string>
+							<string>{160, 77}</string>
+							<string>{147, 45}</string>
+							<string>{234, 20}</string>
+							<string>{229, 6}</string>
+							<string>{176, 18}</string>
+							<string>{169, 4}</string>
+							<string>{153, 27}</string>
+							<string>{86, 44}</string>
+							<string>{28, 9}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{499, 436}, {238, 107}}</string>
 						<key>image</key>
 						<string>4_right.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{4, 16}</string>
+							<string>{94, 46}</string>
+							<string>{76, 80}</string>
+							<string>{108, 65}</string>
+							<string>{108, 48}</string>
+							<string>{142, 60}</string>
+							<string>{182, 104}</string>
+							<string>{235, 70}</string>
+							<string>{208, 8}</string>
+							<string>{149, 39}</string>
+							<string>{78, 20}</string>
+							<string>{73, 4}</string>
+							<string>{57, 17}</string>
+							<string>{5, 8}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{102, 352}, {107, 238}}</string>
 						<key>image</key>
 						<string>4_top.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{44, 3}</string>
+							<string>{98, 39}</string>
+							<string>{71, 93}</string>
+							<string>{102, 230}</string>
+							<string>{93, 235}</string>
+							<string>{58, 141}</string>
+							<string>{29, 158}</string>
+							<string>{29, 153}</string>
+							<string>{37, 139}</string>
+							<string>{62, 133}</string>
+							<string>{52, 89}</string>
+							<string>{25, 86}</string>
+							<string>{2, 54}</string>
+							<string>{22, 27}</string>
+							<string>{41, 6}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{143, 572}, {452, 216}}</string>
 						<key>image</key>
 						<string>5_left.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{2, 53}</string>
+							<string>{73, 59}</string>
+							<string>{122, 99}</string>
+							<string>{229, 73}</string>
+							<string>{217, 35}</string>
+							<string>{261, 67}</string>
+							<string>{323, 52}</string>
+							<string>{270, 49}</string>
+							<string>{270, 6}</string>
+							<string>{310, 35}</string>
+							<string>{371, 18}</string>
+							<string>{378, 36}</string>
+							<string>{422, 31}</string>
+							<string>{448, 13}</string>
+							<string>{448, 32}</string>
+							<string>{432, 47}</string>
+							<string>{359, 52}</string>
+							<string>{418, 79}</string>
+							<string>{382, 100}</string>
+							<string>{298, 87}</string>
+							<string>{272, 84}</string>
+							<string>{269, 129}</string>
+							<string>{246, 126}</string>
+							<string>{239, 116}</string>
+							<string>{159, 137}</string>
+							<string>{204, 96}</string>
+							<string>{105, 127}</string>
+							<string>{125, 200}</string>
+							<string>{112, 204}</string>
+							<string>{104, 151}</string>
+							<string>{86, 210}</string>
+							<string>{57, 211}</string>
+							<string>{57, 192}</string>
+							<string>{24, 192}</string>
+							<string>{4, 122}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{234, 517}, {452, 216}}</string>
 						<key>image</key>
 						<string>5_right.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{3, 27}</string>
+							<string>{25, 45}</string>
+							<string>{91, 53}</string>
+							<string>{32, 80}</string>
+							<string>{86, 104}</string>
+							<string>{172, 80}</string>
+							<string>{187, 113}</string>
+							<string>{190, 131}</string>
+							<string>{216, 114}</string>
+							<string>{302, 139}</string>
+							<string>{256, 100}</string>
+							<string>{343, 126}</string>
+							<string>{362, 206}</string>
+							<string>{396, 215}</string>
+							<string>{398, 195}</string>
+							<string>{450, 159}</string>
+							<string>{442, 49}</string>
+							<string>{394, 51}</string>
+							<string>{355, 90}</string>
+							<string>{224, 74}</string>
+							<string>{234, 33}</string>
+							<string>{195, 70}</string>
+							<string>{183, 10}</string>
+							<string>{140, 37}</string>
+							<string>{80, 20}</string>
+							<string>{86, 41}</string>
+							<string>{31, 33}</string>
+							<string>{7, 13}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{168, 228}, {216, 452}}</string>
 						<key>image</key>
 						<string>5_top.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{3, 58}</string>
+							<string>{90, 5}</string>
+							<string>{162, 20}</string>
+							<string>{166, 66}</string>
+							<string>{199, 49}</string>
+							<string>{166, 86}</string>
+							<string>{126, 99}</string>
+							<string>{155, 116}</string>
+							<string>{132, 180}</string>
+							<string>{141, 228}</string>
+							<string>{179, 225}</string>
+							<string>{151, 258}</string>
+							<string>{167, 322}</string>
+							<string>{171, 278}</string>
+							<string>{211, 277}</string>
+							<string>{185, 313}</string>
+							<string>{197, 378}</string>
+							<string>{178, 351}</string>
+							<string>{184, 421}</string>
+							<string>{207, 449}</string>
+							<string>{188, 449}</string>
+							<string>{172, 429}</string>
+							<string>{165, 364}</string>
+							<string>{138, 421}</string>
+							<string>{110, 372}</string>
+							<string>{140, 285}</string>
+							<string>{87, 267}</string>
+							<string>{99, 243}</string>
+							<string>{80, 159}</string>
+							<string>{124, 205}</string>
+							<string>{91, 106}</string>
+							<string>{10, 126}</string>
+							<string>{10, 117}</string>
+							<string>{69, 105}</string>
+							<string>{8, 82}</string>
+							<string>{4, 61}</string>
+							<string>{26, 46}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{384, 597}, {190, 178}}</string>
 						<key>image</key>
 						<string>6_left.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{5, 79}</string>
+							<string>{14, 148}</string>
+							<string>{58, 170}</string>
+							<string>{113, 107}</string>
+							<string>{106, 92}</string>
+							<string>{189, 61}</string>
+							<string>{189, 47}</string>
+							<string>{125, 61}</string>
+							<string>{95, 79}</string>
+							<string>{69, 69}</string>
+							<string>{9, 76}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{451, 357}, {190, 178}}</string>
 						<key>image</key>
 						<string>6_right.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{4, 50}</string>
+							<string>{56, 58}</string>
+							<string>{99, 82}</string>
+							<string>{118, 71}</string>
+							<string>{187, 76}</string>
+							<string>{182, 146}</string>
+							<string>{140, 172}</string>
+							<string>{119, 167}</string>
+							<string>{79, 112}</string>
+							<string>{85, 87}</string>
+							<string>{40, 67}</string>
+							<string>{3, 63}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{458, 317}, {178, 190}}</string>
 						<key>image</key>
 						<string>6_top.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{95, 5}</string>
+							<string>{25, 25}</string>
+							<string>{6, 61}</string>
+							<string>{67, 110}</string>
+							<string>{89, 109}</string>
+							<string>{116, 187}</string>
+							<string>{134, 187}</string>
+							<string>{115, 113}</string>
+							<string>{100, 97}</string>
+							<string>{111, 74}</string>
+							<string>{104, 31}</string>
+							<string>{104, 31}</string>
+							<string>{100, 5}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{367, 360}, {404, 260}}</string>
 						<key>image</key>
 						<string>7_left.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{51, 5}</string>
+							<string>{2, 47}</string>
+							<string>{5, 88}</string>
+							<string>{93, 92}</string>
+							<string>{178, 198}</string>
+							<string>{251, 222}</string>
+							<string>{276, 209}</string>
+							<string>{285, 188}</string>
+							<string>{387, 258}</string>
+							<string>{397, 247}</string>
+							<string>{272, 157}</string>
+							<string>{254, 129}</string>
+							<string>{303, 94}</string>
+							<string>{280, 87}</string>
+							<string>{233, 100}</string>
+							<string>{191, 80}</string>
+							<string>{200, 109}</string>
+							<string>{233, 133}</string>
+							<string>{224, 147}</string>
+							<string>{170, 97}</string>
+							<string>{157, 63}</string>
+							<string>{118, 73}</string>
+							<string>{97, 62}</string>
+							<string>{71, 5}</string>
+							<string>{27, 8}</string>
+							<string>{6, 33}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{300, 498}, {404, 260}}</string>
 						<key>image</key>
 						<string>7_right.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{4, 246}</string>
+							<string>{132, 159}</string>
+							<string>{153, 126}</string>
+							<string>{102, 94}</string>
+							<string>{173, 94}</string>
+							<string>{217, 80}</string>
+							<string>{179, 140}</string>
+							<string>{226, 116}</string>
+							<string>{244, 64}</string>
+							<string>{282, 72}</string>
+							<string>{307, 49}</string>
+							<string>{338, 4}</string>
+							<string>{382, 11}</string>
+							<string>{402, 72}</string>
+							<string>{310, 102}</string>
+							<string>{269, 149}</string>
+							<string>{270, 171}</string>
+							<string>{237, 181}</string>
+							<string>{225, 205}</string>
+							<string>{175, 202}</string>
+							<string>{154, 225}</string>
+							<string>{130, 220}</string>
+							<string>{130, 188}</string>
+							<string>{18, 257}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{12, 341}, {260, 404}}</string>
 						<key>image</key>
 						<string>7_top.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{170, 9}</string>
+							<string>{171, 85}</string>
+							<string>{113, 136}</string>
+							<string>{86, 139}</string>
+							<string>{83, 168}</string>
+							<string>{73, 168}</string>
+							<string>{51, 197}</string>
+							<string>{62, 230}</string>
+							<string>{34, 252}</string>
+							<string>{56, 275}</string>
+							<string>{75, 266}</string>
+							<string>{69, 290}</string>
+							<string>{4, 388}</string>
+							<string>{16, 400}</string>
+							<string>{104, 277}</string>
+							<string>{134, 255}</string>
+							<string>{145, 289}</string>
+							<string>{173, 302}</string>
+							<string>{195, 158}</string>
+							<string>{193, 117}</string>
+							<string>{212, 97}</string>
+							<string>{259, 69}</string>
+							<string>{259, 40}</string>
+							<string>{224, 9}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{-8, 373}, {291, 233}}</string>
 						<key>image</key>
 						<string>8_left.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{6, 152}</string>
+							<string>{58, 135}</string>
+							<string>{92, 154}</string>
+							<string>{212, 20}</string>
+							<string>{268, 5}</string>
+							<string>{279, 25}</string>
+							<string>{164, 104}</string>
+							<string>{182, 159}</string>
+							<string>{152, 167}</string>
+							<string>{149, 117}</string>
+							<string>{95, 172}</string>
+							<string>{58, 232}</string>
+							<string>{3, 180}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{431, 442}, {291, 233}}</string>
 						<key>image</key>
 						<string>8_right.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{7, 17}</string>
+							<string>{140, 151}</string>
+							<string>{197, 138}</string>
+							<string>{228, 173}</string>
+							<string>{178, 231}</string>
+							<string>{128, 169}</string>
+							<string>{70, 113}</string>
+							<string>{76, 166}</string>
+							<string>{53, 166}</string>
+							<string>{44, 141}</string>
+							<string>{60, 101}</string>
+							<string>{3, 33}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{393, 291}, {233, 291}}</string>
 						<key>image</key>
 						<string>8_top.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{87, 6}</string>
+							<string>{28, 14}</string>
+							<string>{4, 56}</string>
+							<string>{112, 147}</string>
+							<string>{69, 151}</string>
+							<string>{69, 171}</string>
+							<string>{95, 181}</string>
+							<string>{128, 161}</string>
+							<string>{224, 275}</string>
+							<string>{232, 269}</string>
+							<string>{196, 192}</string>
+							<string>{82, 91}</string>
+							<string>{101, 45}</string>
+							<string>{75, 5}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{188, 395}, {338, 103}}</string>
 						<key>image</key>
 						<string>9_left.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{16, 4}</string>
+							<string>{3, 48}</string>
+							<string>{8, 95}</string>
+							<string>{65, 97}</string>
+							<string>{86, 58}</string>
+							<string>{330, 93}</string>
+							<string>{329, 71}</string>
+							<string>{241, 78}</string>
+							<string>{172, 56}</string>
+							<string>{165, 7}</string>
+							<string>{126, 7}</string>
+							<string>{155, 50}</string>
+							<string>{81, 37}</string>
+							<string>{19, 7}</string>
+							<string>{3, 42}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{525, 532}, {338, 103}}</string>
 						<key>image</key>
 						<string>9_right.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{3, 81}</string>
+							<string>{94, 53}</string>
+							<string>{104, 33}</string>
+							<string>{102, 6}</string>
+							<string>{139, 8}</string>
+							<string>{109, 52}</string>
+							<string>{185, 37}</string>
+							<string>{253, 5}</string>
+							<string>{271, 85}</string>
+							<string>{245, 100}</string>
+							<string>{208, 95}</string>
+							<string>{183, 57}</string>
+							<string>{4, 96}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{248, 370}, {103, 338}}</string>
 						<key>image</key>
 						<string>9_top.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{98, 6}</string>
+							<string>{50, 160}</string>
+							<string>{97, 131}</string>
+							<string>{101, 170}</string>
+							<string>{49, 176}</string>
+							<string>{25, 247}</string>
+							<string>{40, 327}</string>
+							<string>{22, 331}</string>
+							<string>{7, 250}</string>
+							<string>{48, 88}</string>
+							<string>{4, 41}</string>
+							<string>{23, 5}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{26, 561}, {362, 167}}</string>
 						<key>image</key>
 						<string>10_left.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{5, 47}</string>
+							<string>{115, 62}</string>
+							<string>{239, 55}</string>
+							<string>{256, 26}</string>
+							<string>{197, 5}</string>
+							<string>{339, 5}</string>
+							<string>{335, 43}</string>
+							<string>{360, 46}</string>
+							<string>{360, 61}</string>
+							<string>{274, 71}</string>
+							<string>{255, 96}</string>
+							<string>{294, 120}</string>
+							<string>{257, 151}</string>
+							<string>{214, 128}</string>
+							<string>{147, 136}</string>
+							<string>{148, 88}</string>
+							<string>{112, 98}</string>
+							<string>{91, 136}</string>
+							<string>{48, 166}</string>
+							<string>{22, 162}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{209, 579}, {362, 167}}</string>
 						<key>image</key>
 						<string>10_right.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{9, 57}</string>
+							<string>{121, 82}</string>
+							<string>{71, 117}</string>
+							<string>{100, 124}</string>
+							<string>{106, 150}</string>
+							<string>{154, 127}</string>
+							<string>{224, 134}</string>
+							<string>{219, 87}</string>
+							<string>{251, 93}</string>
+							<string>{317, 165}</string>
+							<string>{360, 101}</string>
+							<string>{344, 47}</string>
+							<string>{262, 48}</string>
+							<string>{258, 72}</string>
+							<string>{127, 55}</string>
+							<string>{106, 29}</string>
+							<string>{167, 8}</string>
+							<string>{31, 15}</string>
+							<string>{41, 44}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{436, 396}, {167, 362}}</string>
 						<key>image</key>
 						<string>10_top.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{4, 34}</string>
+							<string>{111, 8}</string>
+							<string>{130, 92}</string>
+							<string>{101, 114}</string>
+							<string>{109, 235}</string>
+							<string>{143, 255}</string>
+							<string>{164, 199}</string>
+							<string>{164, 336}</string>
+							<string>{127, 340}</string>
+							<string>{129, 358}</string>
+							<string>{110, 358}</string>
+							<string>{87, 257}</string>
+							<string>{47, 297}</string>
+							<string>{14, 249}</string>
+							<string>{41, 211}</string>
+							<string>{33, 148}</string>
+							<string>{81, 152}</string>
+							<string>{76, 115}</string>
+							<string>{13, 66}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{204, 551}, {152, 163}}</string>
 						<key>image</key>
 						<string>11_left.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{71, 5}</string>
+							<string>{98, 68}</string>
+							<string>{86, 81}</string>
+							<string>{149, 121}</string>
+							<string>{144, 139}</string>
+							<string>{74, 90}</string>
+							<string>{5, 78}</string>
+							<string>{4, 44}</string>
+							<string>{40, 6}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{286, 297}, {152, 163}}</string>
 						<key>image</key>
 						<string>11_right.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{10, 139}</string>
+							<string>{76, 92}</string>
+							<string>{147, 72}</string>
+							<string>{131, 20}</string>
+							<string>{66, 8}</string>
+							<string>{54, 83}</string>
+							<string>{6, 116}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{227, 417}, {163, 152}}</string>
 						<key>image</key>
 						<string>11_top.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{46, 141}</string>
+							<string>{86, 88}</string>
+							<string>{112, 99}</string>
+							<string>{161, 53}</string>
+							<string>{122, 7}</string>
+							<string>{87, 7}</string>
+							<string>{66, 71}</string>
+							<string>{27, 139}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{270, 500}, {301, 114}}</string>
 						<key>image</key>
 						<string>12_left.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{55, 4}</string>
+							<string>{4, 66}</string>
+							<string>{5, 109}</string>
+							<string>{69, 109}</string>
+							<string>{107, 82}</string>
+							<string>{152, 85}</string>
+							<string>{152, 103}</string>
+							<string>{288, 110}</string>
+							<string>{240, 75}</string>
+							<string>{300, 76}</string>
+							<string>{300, 59}</string>
+							<string>{232, 48}</string>
+							<string>{219, 12}</string>
+							<string>{172, 28}</string>
+							<string>{135, 52}</string>
+							<string>{153, 73}</string>
+							<string>{96, 65}</string>
+							<string>{72, 7}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{87, 592}, {301, 114}}</string>
 						<key>image</key>
 						<string>12_right.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{3, 59}</string>
+							<string>{75, 45}</string>
+							<string>{68, 29}</string>
+							<string>{99, 10}</string>
+							<string>{128, 33}</string>
+							<string>{152, 28}</string>
+							<string>{190, 68}</string>
+							<string>{253, 4}</string>
+							<string>{301, 62}</string>
+							<string>{299, 106}</string>
+							<string>{255, 111}</string>
+							<string>{198, 82}</string>
+							<string>{153, 82}</string>
+							<string>{152, 98}</string>
+							<string>{61, 112}</string>
+							<string>{16, 111}</string>
+							<string>{69, 76}</string>
+							<string>{3, 76}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{353, 464}, {114, 301}}</string>
 						<key>image</key>
 						<string>12_top.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{5, 6}</string>
+							<string>{83, 13}</string>
+							<string>{112, 58}</string>
+							<string>{48, 118}</string>
+							<string>{108, 213}</string>
+							<string>{62, 241}</string>
+							<string>{53, 297}</string>
+							<string>{36, 297}</string>
+							<string>{41, 233}</string>
+							<string>{6, 285}</string>
+							<string>{7, 194}</string>
+							<string>{30, 137}</string>
+							<string>{30, 87}</string>
+							<string>{5, 40}</string>
+						</array>
 					</dict>
 				</array>
 			</dict>
@@ -2525,265 +3274,669 @@
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{44, 522}, {126, 214}}</string>
 						<key>image</key>
 						<string>balloon1.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{53, 4}</string>
+							<string>{5, 43}</string>
+							<string>{5, 103}</string>
+							<string>{78, 159}</string>
+							<string>{73, 210}</string>
+							<string>{89, 210}</string>
+							<string>{99, 148}</string>
+							<string>{122, 101}</string>
+							<string>{122, 34}</string>
+							<string>{91, 6}</string>
+							<string>{65, 4}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{71, 434}, {93, 207}}</string>
 						<key>image</key>
 						<string>balloon2.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{30, 2}</string>
+							<string>{3, 37}</string>
+							<string>{5, 92}</string>
+							<string>{43, 136}</string>
+							<string>{65, 204}</string>
+							<string>{81, 203}</string>
+							<string>{59, 132}</string>
+							<string>{89, 85}</string>
+							<string>{92, 30}</string>
+							<string>{64, 4}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{128, 494}, {71, 121}}</string>
 						<key>image</key>
 						<string>balloon3.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{38, 4}</string>
+							<string>{4, 26}</string>
+							<string>{3, 64}</string>
+							<string>{16, 87}</string>
+							<string>{3, 112}</string>
+							<string>{13, 118}</string>
+							<string>{30, 90}</string>
+							<string>{68, 56}</string>
+							<string>{68, 17}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{236, 490}, {116, 220}}</string>
 						<key>image</key>
 						<string>balloon4.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{62, 3}</string>
+							<string>{20, 16}</string>
+							<string>{3, 48}</string>
+							<string>{3, 92}</string>
+							<string>{37, 142}</string>
+							<string>{6, 214}</string>
+							<string>{27, 217}</string>
+							<string>{55, 143}</string>
+							<string>{115, 88}</string>
+							<string>{113, 28}</string>
+							<string>{87, 5}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{248, 606}, {63, 77}}</string>
 						<key>image</key>
 						<string>balloon5.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{30, 0}</string>
+							<string>{5, 24}</string>
+							<string>{5, 72}</string>
+							<string>{39, 72}</string>
+							<string>{60, 52}</string>
+							<string>{63, 15}</string>
+							<string>{50, 5}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{388, 305}, {88, 160}}</string>
 						<key>image</key>
 						<string>balloon6.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{39, 3}</string>
+							<string>{5, 24}</string>
+							<string>{5, 81}</string>
+							<string>{51, 115}</string>
+							<string>{75, 158}</string>
+							<string>{86, 147}</string>
+							<string>{63, 107}</string>
+							<string>{86, 71}</string>
+							<string>{83, 19}</string>
+							<string>{66, 4}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{137, 372}, {155, 300}}</string>
 						<key>image</key>
 						<string>balloon7.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{74, 4}</string>
+							<string>{33, 7}</string>
+							<string>{4, 72}</string>
+							<string>{4, 127}</string>
+							<string>{101, 190}</string>
+							<string>{104, 295}</string>
+							<string>{122, 298}</string>
+							<string>{121, 183}</string>
+							<string>{150, 117}</string>
+							<string>{150, 47}</string>
+							<string>{106, 6}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{156, 525}, {128, 209}}</string>
 						<key>image</key>
 						<string>balloon8.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{86, 5}</string>
+							<string>{28, 5}</string>
+							<string>{2, 66}</string>
+							<string>{6, 111}</string>
+							<string>{79, 167}</string>
+							<string>{82, 204}</string>
+							<string>{104, 204}</string>
+							<string>{93, 155}</string>
+							<string>{93, 155}</string>
+							<string>{123, 105}</string>
+							<string>{122, 36}</string>
+							<string>{103, 15}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{236, 512}, {48, 59}}</string>
 						<key>image</key>
 						<string>balloon9.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{25, 1}</string>
+							<string>{5, 10}</string>
+							<string>{5, 50}</string>
+							<string>{36, 58}</string>
+							<string>{46, 45}</string>
+							<string>{47, 6}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{484, 453}, {74, 90}}</string>
 						<key>image</key>
 						<string>balloon10.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{39, 5}</string>
+							<string>{10, 11}</string>
+							<string>{3, 39}</string>
+							<string>{6, 66}</string>
+							<string>{50, 89}</string>
+							<string>{72, 62}</string>
+							<string>{72, 23}</string>
+							<string>{51, 3}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{252, 332}, {106, 129}}</string>
 						<key>image</key>
 						<string>balloon11.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{51, 5}</string>
+							<string>{11, 20}</string>
+							<string>{3, 59}</string>
+							<string>{6, 89}</string>
+							<string>{72, 125}</string>
+							<string>{105, 86}</string>
+							<string>{104, 36}</string>
+							<string>{75, 7}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{455, 500}, {69, 96}}</string>
 						<key>image</key>
 						<string>balloon12.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{20, 6}</string>
+							<string>{2, 33}</string>
+							<string>{4, 75}</string>
+							<string>{52, 94}</string>
+							<string>{66, 69}</string>
+							<string>{68, 22}</string>
+							<string>{46, 5}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{504, 542}, {57, 65}}</string>
 						<key>image</key>
 						<string>balloon13.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{29, 3}</string>
+							<string>{5, 23}</string>
+							<string>{6, 63}</string>
+							<string>{38, 62}</string>
+							<string>{57, 42}</string>
+							<string>{56, 11}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{279, 564}, {112, 201}}</string>
 						<key>image</key>
 						<string>balloon14.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{47, 4}</string>
+							<string>{4, 35}</string>
+							<string>{5, 88}</string>
+							<string>{69, 139}</string>
+							<string>{63, 198}</string>
+							<string>{80, 198}</string>
+							<string>{81, 134}</string>
+							<string>{108, 90}</string>
+							<string>{108, 36}</string>
+							<string>{75, 3}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{457, 486}, {76, 93}}</string>
 						<key>image</key>
 						<string>balloon15.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{46, 1}</string>
+							<string>{9, 14}</string>
+							<string>{2, 39}</string>
+							<string>{8, 75}</string>
+							<string>{27, 90}</string>
+							<string>{54, 84}</string>
+							<string>{75, 52}</string>
+							<string>{72, 19}</string>
+							<string>{57, 5}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{266, 402}, {100, 189}}</string>
 						<key>image</key>
 						<string>balloon16.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{51, 5}</string>
+							<string>{4, 36}</string>
+							<string>{3, 82}</string>
+							<string>{40, 125}</string>
+							<string>{27, 187}</string>
+							<string>{39, 187}</string>
+							<string>{54, 123}</string>
+							<string>{86, 98}</string>
+							<string>{98, 76}</string>
+							<string>{98, 35}</string>
+							<string>{74, 6}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{411, 603}, {103, 181}}</string>
 						<key>image</key>
 						<string>balloon17.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{48, 5}</string>
+							<string>{13, 21}</string>
+							<string>{4, 55}</string>
+							<string>{6, 85}</string>
+							<string>{63, 129}</string>
+							<string>{71, 182}</string>
+							<string>{85, 178}</string>
+							<string>{75, 125}</string>
+							<string>{103, 77}</string>
+							<string>{103, 35}</string>
+							<string>{68, 7}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{340, 412}, {76, 161}}</string>
 						<key>image</key>
 						<string>balloon18.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{34, 2}</string>
+							<string>{2, 39}</string>
+							<string>{2, 39}</string>
+							<string>{4, 67}</string>
+							<string>{44, 105}</string>
+							<string>{31, 157}</string>
+							<string>{47, 158}</string>
+							<string>{47, 158}</string>
+							<string>{57, 96}</string>
+							<string>{75, 48}</string>
+							<string>{74, 26}</string>
+							<string>{50, 7}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{391, 448}, {92, 118}}</string>
 						<key>image</key>
 						<string>balloon19.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{44, 3}</string>
+							<string>{9, 18}</string>
+							<string>{3, 59}</string>
+							<string>{17, 97}</string>
+							<string>{61, 118}</string>
+							<string>{89, 74}</string>
+							<string>{90, 31}</string>
+							<string>{62, 6}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{493, 383}, {73, 150}}</string>
 						<key>image</key>
 						<string>balloon20.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{34, 4}</string>
+							<string>{5, 32}</string>
+							<string>{3, 66}</string>
+							<string>{43, 99}</string>
+							<string>{52, 146}</string>
+							<string>{68, 147}</string>
+							<string>{59, 90}</string>
+							<string>{72, 63}</string>
+							<string>{70, 24}</string>
+							<string>{50, 4}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{502, 455}, {97, 122}}</string>
 						<key>image</key>
 						<string>balloon21.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{45, 3}</string>
+							<string>{4, 38}</string>
+							<string>{4, 82}</string>
+							<string>{37, 121}</string>
+							<string>{59, 121}</string>
+							<string>{95, 76}</string>
+							<string>{94, 29}</string>
+							<string>{72, 4}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{364, 532}, {125, 238}}</string>
 						<key>image</key>
 						<string>balloon22.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{58, 5}</string>
+							<string>{27, 9}</string>
+							<string>{3, 56}</string>
+							<string>{7, 102}</string>
+							<string>{89, 154}</string>
+							<string>{102, 235}</string>
+							<string>{119, 235}</string>
+							<string>{103, 141}</string>
+							<string>{124, 97}</string>
+							<string>{121, 38}</string>
+							<string>{81, 6}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{467, 573}, {59, 117}}</string>
 						<key>image</key>
 						<string>balloon23.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{26, 4}</string>
+							<string>{2, 27}</string>
+							<string>{9, 59}</string>
+							<string>{17, 74}</string>
+							<string>{21, 113}</string>
+							<string>{34, 113}</string>
+							<string>{27, 77}</string>
+							<string>{56, 46}</string>
+							<string>{54, 17}</string>
+							<string>{41, 4}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{324, 480}, {90, 112}}</string>
 						<key>image</key>
 						<string>balloon24.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{52, 3}</string>
+							<string>{17, 14}</string>
+							<string>{2, 48}</string>
+							<string>{6, 82}</string>
+							<string>{35, 110}</string>
+							<string>{67, 96}</string>
+							<string>{89, 64}</string>
+							<string>{89, 29}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{541, 433}, {65, 126}}</string>
 						<key>image</key>
 						<string>balloon25.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{41, 4}</string>
+							<string>{3, 29}</string>
+							<string>{10, 75}</string>
+							<string>{3, 121}</string>
+							<string>{13, 122}</string>
+							<string>{22, 79}</string>
+							<string>{62, 48}</string>
+							<string>{62, 13}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{441, 354}, {65, 126}}</string>
 						<key>image</key>
 						<string>balloon26.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{42, 4}</string>
+							<string>{14, 15}</string>
+							<string>{0, 31}</string>
+							<string>{8, 78}</string>
+							<string>{0, 123}</string>
+							<string>{13, 124}</string>
+							<string>{23, 82}</string>
+							<string>{64, 49}</string>
+							<string>{60, 8}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{499, 599}, {50, 58}}</string>
 						<key>image</key>
 						<string>balloon27.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{24, 3}</string>
+							<string>{3, 19}</string>
+							<string>{5, 55}</string>
+							<string>{32, 56}</string>
+							<string>{48, 39}</string>
+							<string>{39, 5}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{211, 350}, {43, 53}}</string>
 						<key>image</key>
 						<string>balloon28.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{13, 5}</string>
+							<string>{3, 26}</string>
+							<string>{20, 52}</string>
+							<string>{42, 50}</string>
+							<string>{40, 12}</string>
+							<string>{26, 5}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{516, 513}, {61, 120}}</string>
 						<key>image</key>
 						<string>balloon29.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{33, 3}</string>
+							<string>{9, 11}</string>
+							<string>{3, 35}</string>
+							<string>{3, 55}</string>
+							<string>{20, 75}</string>
+							<string>{23, 117}</string>
+							<string>{33, 117}</string>
+							<string>{28, 78}</string>
+							<string>{59, 49}</string>
+							<string>{59, 21}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{429, 383}, {91, 169}}</string>
 						<key>image</key>
 						<string>balloon30.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{38, 5}</string>
+							<string>{2, 46}</string>
+							<string>{6, 80}</string>
+							<string>{51, 113}</string>
+							<string>{52, 165}</string>
+							<string>{63, 167}</string>
+							<string>{64, 111}</string>
+							<string>{91, 71}</string>
+							<string>{89, 35}</string>
+							<string>{58, 2}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{348, 364}, {103, 173}}</string>
 						<key>image</key>
 						<string>balloon31.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{50, 4}</string>
+							<string>{16, 16}</string>
+							<string>{5, 67}</string>
+							<string>{14, 99}</string>
+							<string>{65, 128}</string>
+							<string>{80, 165}</string>
+							<string>{90, 166}</string>
+							<string>{77, 121}</string>
+							<string>{101, 74}</string>
+							<string>{100, 33}</string>
+							<string>{68, 4}</string>
+							<string>{44, 5}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{96, 328}, {91, 169}}</string>
 						<key>image</key>
 						<string>balloon32.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{38, 3}</string>
+							<string>{2, 41}</string>
+							<string>{5, 69}</string>
+							<string>{53, 113}</string>
+							<string>{54, 167}</string>
+							<string>{63, 167}</string>
+							<string>{60, 111}</string>
+							<string>{90, 69}</string>
+							<string>{90, 29}</string>
+							<string>{58, 5}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{502, 414}, {42, 94}}</string>
 						<key>image</key>
 						<string>balloon33.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{19, 4}</string>
+							<string>{37, 9}</string>
+							<string>{40, 43}</string>
+							<string>{30, 62}</string>
+							<string>{37, 91}</string>
+							<string>{29, 91}</string>
+							<string>{19, 62}</string>
+							<string>{3, 37}</string>
+							<string>{3, 16}</string>
+							<string>{18, 3}</string>
+						</array>
 					</dict>
 				</array>
 			</dict>

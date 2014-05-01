@@ -125,7 +125,7 @@ typedef void (^completionBlk)(BOOL);
     if([self isGameOver] && !_isGameFinished){
         _isGameFinished = YES;
         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Game Over"
-                                                        message:@"You haven't selected the top pencil"
+                                                        message:@"You haven't selected the top item"
                                                        delegate:self
                                               cancelButtonTitle:@"OK"
                                               otherButtonTitles:nil];
