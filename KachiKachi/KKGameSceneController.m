@@ -35,6 +35,9 @@ typedef void (^completionBlk)(BOOL);
 
 - (void)viewDidLoad
 {
+    [super viewDidLoad];
+    // Do any additional setup after loading the view.
+    
     _elements = [[NSMutableArray alloc] init];
     _currentLevel = 1;
     _isGameFinished = FALSE;
@@ -50,8 +53,6 @@ typedef void (^completionBlk)(BOOL);
 #endif
     
     [_switchBtn setOn:NO];
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
 }
 
 - (IBAction)handleSwitchBtn:(id)sender
@@ -81,6 +82,15 @@ typedef void (^completionBlk)(BOOL);
     
     UIImage *image = [UIImage imageNamed:[element objectForKey:@"background"]];
     self.background.image = image;
+    
+    image = [UIImage imageNamed:[element objectForKey:@"basket"]];
+    CGRect frame = CGRectZero;
+    frame.origin =CGPointFromString([element objectForKey:@"basket_frame"]);
+    frame.size = image.size;
+    
+    _basketImageView = [[UIImageView alloc] initWithFrame:frame];
+    _basketImageView.image = image;
+    [_background addSubview:_basketImageView];
 }
 
 -(void)generateElement:(NSDictionary*)data

@@ -12,6 +12,10 @@
 		<dict>
 			<key>level1</key>
 			<dict>
+				<key>basket</key>
+				<string>structured_pencil.png</string>
+				<key>basket_frame</key>
+				<string>{0,0}</string>
 				<key>background</key>
 				<string>bg.jpg</string>
 				<key>elements</key>
@@ -556,6 +560,10 @@
 		<dict>
 			<key>level1</key>
 			<dict>
+				<key>basket</key>
+				<string>tree.png</string>
+				<key>basket_frame</key>
+				<string>{400,50}</string>
 				<key>background</key>
 				<string>bg.jpg</string>
 				<key>elements</key>
@@ -1164,6 +1172,10 @@
 		<dict>
 			<key>level1</key>
 			<dict>
+				<key>basket</key>
+				<string>leaves_tree.png</string>
+				<key>basket_frame</key>
+				<string>{600,0}</string>
 				<key>background</key>
 				<string>leaves_bg.png</string>
 				<key>elements</key>
@@ -2194,6 +2206,10 @@
 		<dict>
 			<key>level1</key>
 			<dict>
+				<key>basket</key>
+				<string>vase.png</string>
+				<key>basket_frame</key>
+				<string>{700,100}</string>
 				<key>background</key>
 				<string>bg.jpg</string>
 				<key>elements</key>
@@ -3266,6 +3282,10 @@
 		<dict>
 			<key>level1</key>
 			<dict>
+				<key>basket</key>
+				<string>basket.png</string>
+				<key>basket_frame</key>
+				<string>{600,100}</string>
 				<key>background</key>
 				<string>bg.jpg</string>
 				<key>elements</key>
