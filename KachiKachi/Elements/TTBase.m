@@ -24,11 +24,11 @@
     if(self){
         
         self.imagePath = [inData objectForKey:@"image"];
-        UIImage *image = [UIImage imageNamed:_imagePath];
+        _image = [UIImage imageNamed:_imagePath];
         CGRect frame = CGRectFromString([inData objectForKey:@"frame"]);
         if(frame.size.width == -1 || frame.size.height == -1)
         {
-            frame.size = image.size;
+            frame.size = _image.size;
         }
         self.frame = frame;
         
@@ -47,11 +47,6 @@
         }
         
         self.angle = [[inData objectForKey:@"angle"] floatValue];
-        
-        UIImageView *imageview = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, self.frame.size.width, self.frame.size.height)];
-        imageview.image = image;
-        //imageview.transform = CGAffineTransformMakeRotation(M_PI * self.angle / 180);
-        [self addSubview:imageview];
         
 #ifdef DEVELOPMENT_MODE
         self.backgroundColor = [UIColor clearColor];
@@ -244,6 +239,34 @@ POINT rotate_point(float cx,float cy,float angle,POINT p)
     }
 
     _dragging = NO;
+}
+
+- (void)drawRect:(CGRect)rect {
+    
+    [_image drawInRect:rect];
+    
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    CGContextSetStrokeColorWithColor(context, [UIColor redColor].CGColor);
+    
+    // Draw them with a 2.0 stroke width so they are a bit more visible.
+    CGContextSetLineWidth(context, 2.0);
+    
+    int i = 0;
+    for(NSString* point in _touchPoints){
+        CGPoint cPoint = CGPointFromString(point);
+        //cPoint.x = cPoint.x+self.frame.origin.x;
+        //cPoint.y = cPoint.y+self.frame.origin.y;
+        
+        if(i == 0)
+            CGContextMoveToPoint(context, cPoint.x,cPoint.y); //start at this point
+        else
+            CGContextAddLineToPoint(context, cPoint.x, cPoint.y); //draw to this point
+        i++;
+    }
+    
+    // and now draw the Path!
+    CGContextStrokePath(context);
+    [super drawRect:rect];
 }
 
 @end

@@ -14,6 +14,7 @@
 @property(nonatomic,assign) CGFloat angle;
 @property(nonatomic,retain) NSString *imagePath;
 @property(nonatomic,assign) BOOL canSaveTouchPoints;
+@property(nonatomic,strong) UIImage *image;
 
 - (id)initWithData : (NSDictionary*)inData;
 
