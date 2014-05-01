@@ -49,7 +49,7 @@ typedef void (^completionBlk)(BOOL);
     _saveBtn.hidden = YES;
 #endif
     
-    
+    [_switchBtn setOn:NO];
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }

@@ -1172,257 +1172,1015 @@
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{104, 599}, {40, 60}}</string>
 						<key>image</key>
 						<string>leaf1a.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{25, 2}</string>
+							<string>{42, 25}</string>
+							<string>{32, 42}</string>
+							<string>{13, 40}</string>
+							<string>{-1, 20}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{102, 497}, {40, 51}}</string>
 						<key>image</key>
 						<string>leaf1b.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{17, 41}</string>
+							<string>{33, 23}</string>
+							<string>{27, 6}</string>
+							<string>{7, 18}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{276, 495}, {45, 63}}</string>
 						<key>image</key>
 						<string>leaf1c.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{6, 46}</string>
+							<string>{37, 38}</string>
+							<string>{46, 9}</string>
+							<string>{41, 5}</string>
+							<string>{10, 11}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{306, 480}, {40, 51}}</string>
 						<key>image</key>
 						<string>leaf1d.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{34, 5}</string>
+							<string>{34, 28}</string>
+							<string>{12, 43}</string>
+							<string>{8, 13}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{111, 517}, {40, 41}}</string>
 						<key>image</key>
 						<string>leaf1e.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{31, 26}</string>
+							<string>{25, 8}</string>
+							<string>{8, 6}</string>
+							<string>{9, 26}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{422, 468}, {40, 41}}</string>
+						<key>image</key>
+						<string>leaf1e.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{31, 26}</string>
+							<string>{25, 8}</string>
+							<string>{8, 6}</string>
+							<string>{9, 26}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{199, 570}, {41, 49}}</string>
 						<key>image</key>
 						<string>leaf5a.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{7, 18}</string>
+							<string>{24, 3}</string>
+							<string>{34, 21}</string>
+							<string>{25, 32}</string>
+							<string>{12, 32}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{180, 459}, {40, 41}}</string>
+						<key>image</key>
+						<string>leaf1e.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{31, 26}</string>
+							<string>{25, 8}</string>
+							<string>{8, 6}</string>
+							<string>{9, 26}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{448, 506}, {54, 49}}</string>
 						<key>image</key>
 						<string>leaf5b.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{18, 6}</string>
+							<string>{38, 13}</string>
+							<string>{38, 41}</string>
+							<string>{19, 48}</string>
+							<string>{5, 32}</string>
+							<string>{6, 9}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{343, 560}, {40, 41}}</string>
+						<key>image</key>
+						<string>leaf1e.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{31, 26}</string>
+							<string>{25, 8}</string>
+							<string>{8, 6}</string>
+							<string>{9, 26}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{193, 426}, {40, 40}}</string>
 						<key>image</key>
 						<string>leaf7a.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{8, 8}</string>
+							<string>{34, 8}</string>
+							<string>{30, 33}</string>
+							<string>{7, 32}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{467, 571}, {40, 40}}</string>
+						<key>image</key>
+						<string>leaf7a.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{8, 8}</string>
+							<string>{34, 8}</string>
+							<string>{30, 33}</string>
+							<string>{7, 32}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{192, 406}, {141, 125}}</string>
 						<key>image</key>
 						<string>leaf8a.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{50, 5}</string>
+							<string>{73, 35}</string>
+							<string>{120, 20}</string>
+							<string>{100, 68}</string>
+							<string>{138, 88}</string>
+							<string>{95, 107}</string>
+							<string>{106, 123}</string>
+							<string>{34, 113}</string>
+							<string>{5, 84}</string>
+							<string>{16, 73}</string>
+							<string>{4, 34}</string>
+							<string>{32, 43}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{107, 573}, {141, 125}}</string>
+						<key>image</key>
+						<string>leaf8a.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{50, 5}</string>
+							<string>{73, 35}</string>
+							<string>{120, 20}</string>
+							<string>{100, 68}</string>
+							<string>{138, 88}</string>
+							<string>{95, 107}</string>
+							<string>{106, 123}</string>
+							<string>{34, 113}</string>
+							<string>{5, 84}</string>
+							<string>{16, 73}</string>
+							<string>{4, 34}</string>
+							<string>{32, 43}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{199, 500}, {141, 125}}</string>
+						<key>image</key>
+						<string>leaf8a.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{50, 5}</string>
+							<string>{73, 35}</string>
+							<string>{120, 20}</string>
+							<string>{100, 68}</string>
+							<string>{138, 88}</string>
+							<string>{95, 107}</string>
+							<string>{106, 123}</string>
+							<string>{34, 113}</string>
+							<string>{5, 84}</string>
+							<string>{16, 73}</string>
+							<string>{4, 34}</string>
+							<string>{32, 43}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{117, 469}, {141, 125}}</string>
+						<key>image</key>
+						<string>leaf8a.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{50, 5}</string>
+							<string>{73, 35}</string>
+							<string>{120, 20}</string>
+							<string>{100, 68}</string>
+							<string>{138, 88}</string>
+							<string>{95, 107}</string>
+							<string>{106, 123}</string>
+							<string>{34, 113}</string>
+							<string>{5, 84}</string>
+							<string>{16, 73}</string>
+							<string>{4, 34}</string>
+							<string>{32, 43}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{291, 530}, {141, 125}}</string>
+						<key>image</key>
+						<string>leaf8a.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{50, 5}</string>
+							<string>{73, 35}</string>
+							<string>{120, 20}</string>
+							<string>{100, 68}</string>
+							<string>{138, 88}</string>
+							<string>{95, 107}</string>
+							<string>{106, 123}</string>
+							<string>{34, 113}</string>
+							<string>{5, 84}</string>
+							<string>{16, 73}</string>
+							<string>{4, 34}</string>
+							<string>{32, 43}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{197, 574}, {141, 125}}</string>
+						<key>image</key>
+						<string>leaf8a.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{50, 5}</string>
+							<string>{73, 35}</string>
+							<string>{120, 20}</string>
+							<string>{100, 68}</string>
+							<string>{138, 88}</string>
+							<string>{95, 107}</string>
+							<string>{106, 123}</string>
+							<string>{34, 113}</string>
+							<string>{5, 84}</string>
+							<string>{16, 73}</string>
+							<string>{4, 34}</string>
+							<string>{32, 43}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{492, 562}, {40, 40}}</string>
 						<key>image</key>
 						<string>leaf8b.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{35, 13}</string>
+							<string>{38, 36}</string>
+							<string>{6, 36}</string>
+							<string>{7, 19}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{489, 626}, {40, 40}}</string>
+						<key>image</key>
+						<string>leaf8b.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{35, 13}</string>
+							<string>{38, 36}</string>
+							<string>{6, 36}</string>
+							<string>{7, 19}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{363, 457}, {40, 40}}</string>
 						<key>image</key>
 						<string>leaf8c.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{6, 4}</string>
+							<string>{25, 4}</string>
+							<string>{37, 15}</string>
+							<string>{21, 37}</string>
+							<string>{5, 30}</string>
+							<string>{3, 14}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{343, 444}, {40, 40}}</string>
+						<key>image</key>
+						<string>leaf8c.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{6, 4}</string>
+							<string>{25, 4}</string>
+							<string>{37, 15}</string>
+							<string>{21, 37}</string>
+							<string>{5, 30}</string>
+							<string>{3, 14}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{386, 489}, {40, 40}}</string>
 						<key>image</key>
 						<string>leaf8d.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{34, 38}</string>
+							<string>{36, 22}</string>
+							<string>{36, 9}</string>
+							<string>{17, 5}</string>
+							<string>{5, 16}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{355, 520}, {40, 40}}</string>
+						<key>image</key>
+						<string>leaf8d.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{34, 38}</string>
+							<string>{36, 22}</string>
+							<string>{36, 9}</string>
+							<string>{17, 5}</string>
+							<string>{5, 16}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{293, 644}, {40, 40}}</string>
 						<key>image</key>
 						<string>leaf8e.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{8, 12}</string>
+							<string>{35, 7}</string>
+							<string>{35, 28}</string>
+							<string>{12, 38}</string>
+							<string>{4, 22}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{189, 658}, {40, 40}}</string>
+						<key>image</key>
+						<string>leaf8e.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{8, 12}</string>
+							<string>{35, 7}</string>
+							<string>{35, 28}</string>
+							<string>{12, 38}</string>
+							<string>{4, 22}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{387, 458}, {41, 41}}</string>
 						<key>image</key>
 						<string>leaf12a.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{18, 10}</string>
+							<string>{37, 15}</string>
+							<string>{34, 35}</string>
+							<string>{9, 37}</string>
+							<string>{8, 23}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{506, 562}, {41, 41}}</string>
+						<key>image</key>
+						<string>leaf12a.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{18, 10}</string>
+							<string>{37, 15}</string>
+							<string>{34, 35}</string>
+							<string>{9, 37}</string>
+							<string>{8, 23}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{352, 551}, {60, 40}}</string>
 						<key>image</key>
 						<string>leaf12b.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{26, 33}</string>
+							<string>{53, 33}</string>
+							<string>{58, 9}</string>
+							<string>{24, 3}</string>
+							<string>{19, 17}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{121, 560}, {60, 40}}</string>
+						<key>image</key>
+						<string>leaf12b.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{26, 33}</string>
+							<string>{53, 33}</string>
+							<string>{58, 9}</string>
+							<string>{24, 3}</string>
+							<string>{19, 17}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{269, 409}, {41, 43}}</string>
 						<key>image</key>
 						<string>leaf12c.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{23, 16}</string>
+							<string>{30, 32}</string>
+							<string>{9, 40}</string>
+							<string>{9, 24}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{482, 641}, {41, 43}}</string>
+						<key>image</key>
+						<string>leaf12c.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{23, 16}</string>
+							<string>{30, 32}</string>
+							<string>{9, 40}</string>
+							<string>{9, 24}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{364, 463}, {54, 51}}</string>
 						<key>image</key>
 						<string>leaf19a.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{17, 14}</string>
+							<string>{41, 9}</string>
+							<string>{48, 36}</string>
+							<string>{30, 47}</string>
+							<string>{7, 42}</string>
+							<string>{7, 23}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{182, 527}, {54, 51}}</string>
+						<key>image</key>
+						<string>leaf19a.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{17, 14}</string>
+							<string>{41, 9}</string>
+							<string>{48, 36}</string>
+							<string>{30, 47}</string>
+							<string>{7, 42}</string>
+							<string>{7, 23}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{122, 533}, {41, 44}}</string>
 						<key>image</key>
 						<string>leaf19b.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{18, 11}</string>
+							<string>{39, 19}</string>
+							<string>{30, 39}</string>
+							<string>{10, 41}</string>
+							<string>{3, 29}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{444, 653}, {41, 44}}</string>
+						<key>image</key>
+						<string>leaf19b.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{18, 11}</string>
+							<string>{39, 19}</string>
+							<string>{30, 39}</string>
+							<string>{10, 41}</string>
+							<string>{3, 29}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{230, 491}, {40, 41}}</string>
 						<key>image</key>
 						<string>leaf19c.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{6, 6}</string>
+							<string>{33, 6}</string>
+							<string>{34, 23}</string>
+							<string>{26, 35}</string>
+							<string>{7, 34}</string>
+							<string>{3, 24}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{456, 635}, {40, 41}}</string>
 						<key>image</key>
 						<string>leaf19d.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{33, 30}</string>
+							<string>{31, 7}</string>
+							<string>{7, 11}</string>
+							<string>{6, 26}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{266, 571}, {40, 41}}</string>
 						<key>image</key>
 						<string>leaf19e.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{14, 12}</string>
+							<string>{7, 18}</string>
+							<string>{6, 39}</string>
+							<string>{31, 39}</string>
+							<string>{35, 25}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{265, 671}, {40, 41}}</string>
 						<key>image</key>
 						<string>leaf19f.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{12, 5}</string>
+							<string>{26, 6}</string>
+							<string>{35, 22}</string>
+							<string>{13, 37}</string>
+							<string>{6, 21}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{497, 521}, {40, 41}}</string>
 						<key>image</key>
 						<string>leaf19g.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{6, 16}</string>
+							<string>{26, 7}</string>
+							<string>{34, 25}</string>
+							<string>{17, 37}</string>
+							<string>{6, 32}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{323, 430}, {40, 41}}</string>
 						<key>image</key>
 						<string>leaf19h.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{5, 20}</string>
+							<string>{16, 9}</string>
+							<string>{38, 16}</string>
+							<string>{32, 38}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{394, 676}, {40, 41}}</string>
 						<key>image</key>
 						<string>leaf19i.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{10, 2}</string>
+							<string>{33, 5}</string>
+							<string>{41, 23}</string>
+							<string>{33, 39}</string>
+							<string>{14, 39}</string>
+							<string>{3, 25}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{307, 441}, {40, 41}}</string>
 						<key>image</key>
 						<string>leaf19j.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{2, 6}</string>
+							<string>{32, 13}</string>
+							<string>{20, 33}</string>
+							<string>{5, 26}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{423, 568}, {66, 57}}</string>
 						<key>image</key>
 						<string>leaf21a.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{10, 24}</string>
+							<string>{23, 6}</string>
+							<string>{49, 6}</string>
+							<string>{49, 21}</string>
+							<string>{66, 28}</string>
+							<string>{50, 36}</string>
+							<string>{60, 54}</string>
+							<string>{39, 54}</string>
+							<string>{21, 49}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{452, 504}, {41, 40}}</string>
 						<key>image</key>
 						<string>leaf21b.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{18, 11}</string>
+							<string>{11, 29}</string>
+							<string>{28, 38}</string>
+							<string>{40, 17}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{433, 459}, {63, 68}}</string>
 						<key>image</key>
 						<string>leaf26a.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{35, 13}</string>
+							<string>{6, 29}</string>
+							<string>{6, 52}</string>
+							<string>{27, 65}</string>
+							<string>{55, 63}</string>
+							<string>{58, 43}</string>
+							<string>{46, 29}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{497, 586}, {63, 68}}</string>
+						<key>image</key>
+						<string>leaf26a.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{35, 13}</string>
+							<string>{6, 29}</string>
+							<string>{6, 52}</string>
+							<string>{27, 65}</string>
+							<string>{55, 63}</string>
+							<string>{58, 43}</string>
+							<string>{46, 29}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{134, 433}, {63, 68}}</string>
+						<key>image</key>
+						<string>leaf26a.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{35, 13}</string>
+							<string>{6, 29}</string>
+							<string>{6, 52}</string>
+							<string>{27, 65}</string>
+							<string>{55, 63}</string>
+							<string>{58, 43}</string>
+							<string>{46, 29}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{467, 513}, {63, 68}}</string>
+						<key>image</key>
+						<string>leaf26a.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{35, 13}</string>
+							<string>{6, 29}</string>
+							<string>{6, 52}</string>
+							<string>{27, 65}</string>
+							<string>{55, 63}</string>
+							<string>{58, 43}</string>
+							<string>{46, 29}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{440, 543}, {52, 55}}</string>
 						<key>image</key>
 						<string>leaf26b.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{5, 26}</string>
+							<string>{16, 23}</string>
+							<string>{13, 9}</string>
+							<string>{25, 14}</string>
+							<string>{35, 5}</string>
+							<string>{38, 16}</string>
+							<string>{50, 17}</string>
+							<string>{45, 29}</string>
+							<string>{50, 39}</string>
+							<string>{13, 43}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{452, 575}, {121, 72}}</string>
 						<key>image</key>
 						<string>leaf42a.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{5, 62}</string>
+							<string>{30, 12}</string>
+							<string>{71, 10}</string>
+							<string>{89, 44}</string>
+							<string>{59, 70}</string>
+							<string>{5, 65}</string>
+						</array>
 					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{0,200}, {-1,-1}}</string>
+						<string>{{363, 583}, {129, 135}}</string>
 						<key>image</key>
 						<string>leaf42b.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{44, 6}</string>
+							<string>{84, 29}</string>
+							<string>{104, 11}</string>
+							<string>{122, 54}</string>
+							<string>{65, 135}</string>
+							<string>{55, 111}</string>
+							<string>{17, 116}</string>
+							<string>{35, 78}</string>
+							<string>{2, 54}</string>
+							<string>{47, 49}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{294, 600}, {129, 135}}</string>
+						<key>image</key>
+						<string>leaf42b.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{44, 6}</string>
+							<string>{84, 29}</string>
+							<string>{104, 11}</string>
+							<string>{122, 54}</string>
+							<string>{65, 135}</string>
+							<string>{55, 111}</string>
+							<string>{17, 116}</string>
+							<string>{35, 78}</string>
+							<string>{2, 54}</string>
+							<string>{47, 49}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{260, 440}, {129, 135}}</string>
+						<key>image</key>
+						<string>leaf42b.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{44, 6}</string>
+							<string>{84, 29}</string>
+							<string>{104, 11}</string>
+							<string>{122, 54}</string>
+							<string>{65, 135}</string>
+							<string>{55, 111}</string>
+							<string>{17, 116}</string>
+							<string>{35, 78}</string>
+							<string>{2, 54}</string>
+							<string>{47, 49}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{355, 476}, {129, 135}}</string>
+						<key>image</key>
+						<string>leaf42b.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{44, 6}</string>
+							<string>{84, 29}</string>
+							<string>{104, 11}</string>
+							<string>{122, 54}</string>
+							<string>{65, 135}</string>
+							<string>{55, 111}</string>
+							<string>{17, 116}</string>
+							<string>{35, 78}</string>
+							<string>{2, 54}</string>
+							<string>{47, 49}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{87, 621}, {40, 60}}</string>
+						<key>image</key>
+						<string>leaf1a.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{25, 2}</string>
+							<string>{42, 25}</string>
+							<string>{32, 42}</string>
+							<string>{13, 40}</string>
+							<string>{-1, 20}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{191, 487}, {40, 51}}</string>
+						<key>image</key>
+						<string>leaf1b.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{17, 41}</string>
+							<string>{33, 23}</string>
+							<string>{27, 6}</string>
+							<string>{7, 18}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{85, 591}, {45, 63}}</string>
+						<key>image</key>
+						<string>leaf1c.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{6, 46}</string>
+							<string>{37, 38}</string>
+							<string>{46, 9}</string>
+							<string>{41, 5}</string>
+							<string>{10, 11}</string>
+						</array>
 					</dict>
 				</array>
 			</dict>

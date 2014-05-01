@@ -35,15 +35,6 @@
         self.touchPoints = [inData objectForKey:@"touchPoints"];
         if(self.touchPoints == nil){
             self.touchPoints = [NSMutableArray array];
-            /*
-            NSMutableArray *touchArry = [NSMutableArray array];
-            [touchArry addObject:NSStringFromCGPoint(CGPointMake(self.frame.origin.x, self.frame.origin.y))];
-            [touchArry addObject:NSStringFromCGPoint(CGPointMake(self.frame.origin.x+self.frame.size.width, self.frame.origin.y))];
-            [touchArry addObject:NSStringFromCGPoint(CGPointMake(self.frame.origin.x+self.frame.size.width, self.frame.origin.y+self.frame.size.height))];
-            [touchArry addObject:NSStringFromCGPoint(CGPointMake(self.frame.origin.x, self.frame.origin.y+self.frame.size.width))];
-            [touchArry addObject:NSStringFromCGPoint(CGPointMake(self.frame.origin.x, self.frame.origin.y))];
-            self.touchPoints = touchArry;
-             */
         }
         
         self.angle = [[inData objectForKey:@"angle"] floatValue];
@@ -67,87 +58,40 @@
     return dict;
 }
 
-/*
-POINT rotate_point(float cx,float cy,float angle,POINT p)
-{
-    float s = sin(angle);
-    float c = cos(angle);
-    
-    // translate point back to origin:
-    p.x -= cx;
-    p.y -= cy;
-    
-    // rotate point
-    float xnew = p.x * c - p.y * s;
-    float ynew = p.x * s + p.y * c;
-    
-    // translate point back:
-    p.x = xnew + cx;
-    p.y = ynew + cy;
-}
-*/
-
--(CGPoint)rotatePoint:(CGPoint)inPoint andAngle:(CGFloat)angle
-{
-    self.angle = 90;
-    inPoint = CGPointMake(100, 100);
-    CGPoint rotatedPoint;
-    rotatedPoint.x = (inPoint.x * cos(M_PI * self.angle / 180)) - (inPoint.y * sin(M_PI * self.angle / 180));
-    rotatedPoint.y =(inPoint.y * cos(M_PI * self.angle / 180)) + (inPoint.x * sin(M_PI * self.angle / 180));
-    return rotatedPoint;
-}
-
-// wn_PnPoly(): winding number test for a point in a polygon
-//      Input:   P = a point,
-//               V[] = vertex points of a polygon V[n+1] with V[n]=V[0]
-//      Return:  wn = the winding number (=0 only if P is outside V[])
-//http://www.softsurfer.com/Archive/algorithm_0103/algorithm_0103.htm
-
-// isLeft(): tests if a point is Left|On|Right of an infinite line.
-//    Input:  three points P0, P1, and P2
-//    Return: >0 for P2 left of the line through P0 and P1
-//            =0 for P2 on the line
-//            <0 for P2 right of the line
-//    See: the January 2001 Algorithm "Area of 2D and 3D Triangles and Polygons"
-
--(NSInteger) isLeft:(CGPoint)P0 andPoint1:(CGPoint)P1 andPoint2:(CGPoint)P2
-{
-    return ( (P1.x - P0.x) * (P2.y - P0.y)
-            - (P2.x - P0.x) * (P1.y - P0.y) );
-}
-
--(int)isPointInsidePolyGon:(CGPoint)P andPoints:(NSArray *)V
-{
-    int  wn = 0;    // the winding number counter
-    
-    
-    for(int i = 0 ; i < [V count]-1; i++)
-    {
-        CGPoint cPoint = CGPointFromString(V[i]);
-
-        if (cPoint.y <= P.y) {         // start y <= P.y
-            CGPoint nPoint = CGPointFromString(V[i+1]);
-            if (nPoint.y > P.y)      // an upward crossing
-                if([self isLeft:cPoint andPoint1:nPoint andPoint2:P] > 0)
-                    ++wn;            // have a valid up intersect        }
-        }
-        else {
-            CGPoint nPoint = CGPointFromString(V[i+1]);
-            // start y > P.y (no test needed)
-            if (nPoint.y <= P.y)     // a downward crossing
-                if([self isLeft:cPoint andPoint1:nPoint andPoint2:P] < 0)
-                    --wn;            // have a valid down intersect
-        }
-    }
-    
-    return wn;
-}
-
-/*
 -(BOOL)canHandleTouch:(CGPoint)touchPoint
 {
     CGMutablePathRef path = CGPathCreateMutable();
     int i = 0;
+
+#ifdef DEVELOPMENT_MODE
+    NSMutableArray *touchArry = [NSMutableArray array];
+    [touchArry addObject:NSStringFromCGPoint(CGPointMake(0, 0))];
+    [touchArry addObject:NSStringFromCGPoint(CGPointMake(self.frame.size.width,0))];
+    [touchArry addObject:NSStringFromCGPoint(CGPointMake(self.frame.size.width,self.frame.size.height))];
+    [touchArry addObject:NSStringFromCGPoint(CGPointMake(0, self.frame.size.height))];
+    [touchArry addObject:NSStringFromCGPoint(CGPointMake(0,0))];
+    
+    for(NSString* point in touchArry){
+        CGPoint cPoint = CGPointFromString(point);
+        cPoint.x = cPoint.x+self.frame.origin.x;
+        cPoint.y = cPoint.y+self.frame.origin.y;
+        
+        if(i == 0)
+            CGPathMoveToPoint(path, NULL, cPoint.x, cPoint.y);
+        else
+        {
+            CGPathAddLineToPoint(path, NULL, cPoint.x, cPoint.y);
+        }
+        i++;
+    }
+    CGPathCloseSubpath(path);
+    
+    if(CGPathContainsPoint(path, nil, touchPoint, NO))
+        return YES;
+    return NO;
+    
+#endif
+    
     for(NSString* point in _touchPoints){
         CGPoint cPoint = CGPointFromString(point);
         cPoint.x = cPoint.x+self.frame.origin.x;
@@ -163,38 +107,8 @@ POINT rotate_point(float cx,float cy,float angle,POINT p)
     }
     CGPathCloseSubpath(path);
     
-    CGAffineTransform transform= CGAffineTransformMakeRotation(M_PI * self.angle / 180);
     if(CGPathContainsPoint(path, nil, touchPoint, NO))
         return YES;
-    return NO;
-}
-*/
-- (BOOL)canHandleTouch:(CGPoint)touchPoint
-{
-    NSMutableArray *touchArry = [NSMutableArray array];
-    for(NSString* point in _touchPoints){
-        CGPoint cPoint = CGPointFromString(point);
-        cPoint.x = cPoint.x+self.frame.origin.x;
-        cPoint.y = cPoint.y+self.frame.origin.y;
-       // CGPoint rotatedPoint = [self rotatePoint:cPoint andAngle:self.angle];
-        [touchArry addObject:NSStringFromCGPoint(cPoint)];
-    }
-    
-#ifdef DEVELOPMENT_MODE
-    if(1){
-        touchArry = [NSMutableArray array];
-        [touchArry addObject:NSStringFromCGPoint(CGPointMake(self.frame.origin.x, self.frame.origin.y))];
-        [touchArry addObject:NSStringFromCGPoint(CGPointMake(self.frame.origin.x+self.frame.size.width, self.frame.origin.y))];
-        [touchArry addObject:NSStringFromCGPoint(CGPointMake(self.frame.origin.x+self.frame.size.width, self.frame.origin.y+self.frame.size.height))];
-        [touchArry addObject:NSStringFromCGPoint(CGPointMake(self.frame.origin.x, self.frame.origin.y+self.frame.size.width))];
-        [touchArry addObject:NSStringFromCGPoint(CGPointMake(self.frame.origin.x, self.frame.origin.y))];
-    }
-#else
-#endif
-    
-    if([self isPointInsidePolyGon:touchPoint andPoints:touchArry])
-        return YES;
-
     return NO;
 }
 
@@ -230,12 +144,10 @@ POINT rotate_point(float cx,float cy,float angle,POINT p)
 
 - (void)handleTouchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
     
-    if(_canSaveTouchPoints && [self.touchPoints count] < 4){
+    if(_canSaveTouchPoints){
         UITouch *touch = [[event allTouches] anyObject];
         CGPoint touchLocation = [touch locationInView:self];
         [self.touchPoints addObject:NSStringFromCGPoint(touchLocation)];
-        if([self.touchPoints count] == 4)
-            [self.touchPoints addObject:[self.touchPoints objectAtIndex:0]];
     }
 
     _dragging = NO;
@@ -245,28 +157,58 @@ POINT rotate_point(float cx,float cy,float angle,POINT p)
     
     [_image drawInRect:rect];
     
+#ifndef DEVELOPMENT_MODE
     CGContextRef context = UIGraphicsGetCurrentContext();
     CGContextSetStrokeColorWithColor(context, [UIColor redColor].CGColor);
     
     // Draw them with a 2.0 stroke width so they are a bit more visible.
     CGContextSetLineWidth(context, 2.0);
     
-    int i = 0;
-    for(NSString* point in _touchPoints){
-        CGPoint cPoint = CGPointFromString(point);
-        //cPoint.x = cPoint.x+self.frame.origin.x;
-        //cPoint.y = cPoint.y+self.frame.origin.y;
-        
+    int count = [_touchPoints count];
+    for (int i = 0 ; i < count; i++) {
+        CGPoint cPoint = CGPointFromString([_touchPoints objectAtIndex:i]);
         if(i == 0)
             CGContextMoveToPoint(context, cPoint.x,cPoint.y); //start at this point
         else
             CGContextAddLineToPoint(context, cPoint.x, cPoint.y); //draw to this point
-        i++;
     }
-    
+    CGContextClosePath(context);
+
     // and now draw the Path!
     CGContextStrokePath(context);
+#endif
     [super drawRect:rect];
 }
+
+/*
+ - (BOOL)canHandleTouch:(CGPoint)touchPoint
+ {
+ NSMutableArray *touchArry = [NSMutableArray array];
+ for(NSString* point in _touchPoints){
+ CGPoint cPoint = CGPointFromString(point);
+ cPoint.x = cPoint.x+self.frame.origin.x;
+ cPoint.y = cPoint.y+self.frame.origin.y;
+ // CGPoint rotatedPoint = [self rotatePoint:cPoint andAngle:self.angle];
+ [touchArry addObject:NSStringFromCGPoint(cPoint)];
+ }
+ 
+ #ifdef DEVELOPMENT_MODE
+ if(1){
+ touchArry = [NSMutableArray array];
+ [touchArry addObject:NSStringFromCGPoint(CGPointMake(self.frame.origin.x, self.frame.origin.y))];
+ [touchArry addObject:NSStringFromCGPoint(CGPointMake(self.frame.origin.x+self.frame.size.width, self.frame.origin.y))];
+ [touchArry addObject:NSStringFromCGPoint(CGPointMake(self.frame.origin.x+self.frame.size.width, self.frame.origin.y+self.frame.size.height))];
+ [touchArry addObject:NSStringFromCGPoint(CGPointMake(self.frame.origin.x, self.frame.origin.y+self.frame.size.width))];
+ [touchArry addObject:NSStringFromCGPoint(CGPointMake(self.frame.origin.x, self.frame.origin.y))];
+ }
+ #else
+ #endif
+ 
+ if([self isPointInsidePolyGon:touchPoint andPoints:touchArry])
+ return YES;
+ 
+ return NO;
+ }
+ */
 
 @end
