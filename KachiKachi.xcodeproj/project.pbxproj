@@ -27,6 +27,7 @@
 		A3A67EBF1902C95D00BFAF7B /* KKGameConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A67EBE1902C95D00BFAF7B /* KKGameConfigManager.m */; };
 		A3A67ED11902E3D300BFAF7B /* TTBase.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A67ECE1902E3D300BFAF7B /* TTBase.m */; };
 		A3A67ED21902E3D300BFAF7B /* TTPencil.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A67ED01902E3D300BFAF7B /* TTPencil.m */; };
+		A3FB4F4719125D070039585F /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FB4F4619125D070039585F /* Utility.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,8 @@
 		A3A67ECE1902E3D300BFAF7B /* TTBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTBase.m; sourceTree = "<group>"; };
 		A3A67ECF1902E3D300BFAF7B /* TTPencil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTPencil.h; sourceTree = "<group>"; };
 		A3A67ED01902E3D300BFAF7B /* TTPencil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTPencil.m; sourceTree = "<group>"; };
+		A3FB4F4519125D070039585F /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		A3FB4F4619125D070039585F /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +145,8 @@
 				A3A67ECC1902E3D300BFAF7B /* Elements */,
 				A3A67E931902B67700BFAF7B /* Images.xcassets */,
 				A3A67E7F1902B67700BFAF7B /* Supporting Files */,
+				A3FB4F4519125D070039585F /* Utility.h */,
+				A3FB4F4619125D070039585F /* Utility.m */,
 			);
 			path = KachiKachi;
 			sourceTree = "<group>";
@@ -285,6 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3FB4F4719125D070039585F /* Utility.m in Sources */,
 				A3A67EB71902BE7E00BFAF7B /* KKGameSceneController.m in Sources */,
 				A3A67E921902B67700BFAF7B /* ViewController.m in Sources */,
 				A3A67E891902B67700BFAF7B /* AppDelegate.m in Sources */,
@@ -429,6 +435,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KachiKachi/KachiKachi-Prefix.pch";
 				INFOPLIST_FILE = "KachiKachi/KachiKachi-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
@@ -443,6 +450,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KachiKachi/KachiKachi-Prefix.pch";
 				INFOPLIST_FILE = "KachiKachi/KachiKachi-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;

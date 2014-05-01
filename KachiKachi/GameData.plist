@@ -1456,6 +1456,25 @@
 						<key>image</key>
 						<string>1_right.png</string>
 					</dict>
+				</array>
+				<key>elements - 2</key>
+				<array>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{0,200}, {-1,-1}}</string>
+						<key>image</key>
+						<string>1_left.png</string>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{0,200}, {-1,-1}}</string>
+						<key>image</key>
+						<string>1_right.png</string>
+					</dict>
 					<dict>
 						<key>class</key>
 						<string>TTBase</string>

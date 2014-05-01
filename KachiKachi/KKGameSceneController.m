@@ -8,6 +8,7 @@
 
 #import "KKGameSceneController.h"
 #import "TTBase.h"
+#import "Utility.h"
 
 @interface KKGameSceneController ()
 
@@ -48,6 +49,7 @@ typedef void (^completionBlk)(BOOL);
     _saveBtn.hidden = YES;
 #endif
     
+    
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
@@ -65,7 +67,7 @@ typedef void (^completionBlk)(BOOL);
         [tElements addObject:[element saveDictionary]];
     }
     [data setObject:tElements forKey:@"data"];
-    [data writeToFile:@"/Users/chandanshetty/Desktop/savedData.plist" atomically:YES];
+    [data writeToFile:@"/Users/chandanshettysp/Desktop/savedData.plist" atomically:YES];
 }
 
 -(void)addElements
@@ -91,15 +93,20 @@ typedef void (^completionBlk)(BOOL);
 -(BOOL)isGameOver
 {
     BOOL gameOver = FALSE;
+    
+    NSMutableArray *intersectedElements = [self intersectedElements:_currentElement];
+    
 #ifdef DEVELOPMENT_MODE
     return gameOver;
 #endif
 
-    if([_elements count]-1 > 0 && _currentElement)
-    {
-        TTBase *element = (TTBase*)[_elements objectAtIndex:[_elements count]-1];
-        if(_currentElement != element){
-            gameOver = true ;
+    NSInteger currentElementIndex = [_elements indexOfObject:_currentElement];
+    for (TTBase *element in intersectedElements) {
+        NSInteger index = [_elements indexOfObject:element];
+        if(currentElementIndex < index)
+        {
+            gameOver = true;
+            break;
         }
     }
 
@@ -150,6 +157,39 @@ typedef void (^completionBlk)(BOOL);
     }
 }
 
+-(NSMutableArray*)intersectedElements:(TTBase*)currentElement
+{
+    NSMutableArray *intersectedElements = [NSMutableArray array];
+    
+    NSMutableArray *polygonB = [NSMutableArray array];
+    for(NSString *point in currentElement.touchPoints){
+        CGPoint cPoint = CGPointFromString(point);
+        cPoint.x = cPoint.x+currentElement.frame.origin.x;
+        cPoint.y = cPoint.y+currentElement.frame.origin.y;
+        // CGPoint rotatedPoint = [self rotatePoint:cPoint andAngle:self.angle];
+        [polygonB addObject:NSStringFromCGPoint(cPoint)];
+    }
+    
+    for (TTBase *element in _elements) {
+        if(![element isEqual:currentElement]){
+            
+            NSMutableArray *polygonA = [NSMutableArray array];
+            for(NSString *point in element.touchPoints){
+                CGPoint cPoint = CGPointFromString(point);
+                cPoint.x = cPoint.x+element.frame.origin.x;
+                cPoint.y = cPoint.y+element.frame.origin.y;
+                // CGPoint rotatedPoint = [self rotatePoint:cPoint andAngle:self.angle];
+                [polygonA addObject:NSStringFromCGPoint(cPoint)];
+            }
+            
+            BOOL isIntersected = [Utility isPolygonIntersected:polygonA andPolygon:polygonB];
+            if(isIntersected)
+                [intersectedElements addObject:element];
+        }
+    }
+    
+    return intersectedElements;
+}
 
 -(void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
