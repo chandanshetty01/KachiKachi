@@ -430,6 +430,7 @@
 				GCC_PREFIX_HEADER = "KachiKachi/KachiKachi-Prefix.pch";
 				INFOPLIST_FILE = "KachiKachi/KachiKachi-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -443,6 +444,7 @@
 				GCC_PREFIX_HEADER = "KachiKachi/KachiKachi-Prefix.pch";
 				INFOPLIST_FILE = "KachiKachi/KachiKachi-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
