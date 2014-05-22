@@ -5684,5 +5684,437 @@
 			</dict>
 		</dict>
 	</dict>
+	<key>item8</key>
+	<dict>
+		<key>noOfLevels</key>
+		<integer>1</integer>
+		<key>levels</key>
+		<dict>
+			<key>level1</key>
+			<dict>
+				<key>background</key>
+				<string>pen_background.png</string>
+				<key>basket_frame</key>
+				<string>{600,100}</string>
+				<key>elements</key>
+				<array>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{375, 320}, {138, 397}}</string>
+						<key>image</key>
+						<string>pen_2.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{3, 361}</string>
+							<string>{132, 5}</string>
+							<string>{135, 19}</string>
+							<string>{73, 258}</string>
+							<string>{77, 267}</string>
+							<string>{39, 383}</string>
+							<string>{16, 389}</string>
+							<string>{5, 389}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{245, 175}, {346, 237}}</string>
+						<key>image</key>
+						<string>pen_3.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{5, 217}</string>
+							<string>{270, 35}</string>
+							<string>{343, 5}</string>
+							<string>{289, 61}</string>
+							<string>{28, 234}</string>
+							<string>{6, 229}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{187, 260}, {470, 102}}</string>
+						<key>image</key>
+						<string>pen_4.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{6, 85}</string>
+							<string>{443, 5}</string>
+							<string>{465, 6}</string>
+							<string>{468, 24}</string>
+							<string>{283, 75}</string>
+							<string>{283, 67}</string>
+							<string>{130, 90}</string>
+							<string>{60, 98}</string>
+							<string>{5, 98}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{177, 478}, {464, 36}}</string>
+						<key>image</key>
+						<string>pen_5.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{5, 17}</string>
+							<string>{38, 27}</string>
+							<string>{101, 28}</string>
+							<string>{346, 30}</string>
+							<string>{462, 35}</string>
+							<string>{462, 3}</string>
+							<string>{101, 6}</string>
+							<string>{35, 10}</string>
+							<string>{9, 13}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{144, 545}, {432, 203}}</string>
+						<key>image</key>
+						<string>pen_6.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{25, 4}</string>
+							<string>{99, 32}</string>
+							<string>{428, 172}</string>
+							<string>{420, 201}</string>
+							<string>{309, 153}</string>
+							<string>{91, 59}</string>
+							<string>{15, 16}</string>
+							<string>{7, 5}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{347, 137}, {42, 422}}</string>
+						<key>image</key>
+						<string>pen_7.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{21, 7}</string>
+							<string>{5, 63}</string>
+							<string>{4, 149}</string>
+							<string>{12, 363}</string>
+							<string>{25, 411}</string>
+							<string>{37, 377}</string>
+							<string>{40, 75}</string>
+							<string>{32, 4}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{503, 280}, {37, 353}}</string>
+						<key>image</key>
+						<string>pen_8.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{6, 7}</string>
+							<string>{4, 26}</string>
+							<string>{4, 275}</string>
+							<string>{15, 344}</string>
+							<string>{31, 137}</string>
+							<string>{31, 28}</string>
+							<string>{20, 6}</string>
+							<string>{10, 9}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{307, 264}, {187, 339}}</string>
+						<key>image</key>
+						<string>pen_9.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{6, 22}</string>
+							<string>{6, 7}</string>
+							<string>{16, 4}</string>
+							<string>{116, 181}</string>
+							<string>{138, 203}</string>
+							<string>{184, 313}</string>
+							<string>{184, 336}</string>
+							<string>{171, 336}</string>
+							<string>{90, 194}</string>
+							<string>{13, 37}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{45, 154}, {374, 372}}</string>
+						<key>image</key>
+						<string>pen_10.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{5, 357}</string>
+							<string>{1, 367}</string>
+							<string>{76, 322}</string>
+							<string>{357, 25}</string>
+							<string>{374, 17}</string>
+							<string>{362, 5}</string>
+							<string>{208, 114}</string>
+							<string>{214, 128}</string>
+							<string>{56, 290}</string>
+							<string>{21, 336}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{164, 199}, {276, 442}}</string>
+						<key>image</key>
+						<string>pen_11.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{3, 6}</string>
+							<string>{6, 30}</string>
+							<string>{237, 435}</string>
+							<string>{267, 439}</string>
+							<string>{275, 406}</string>
+							<string>{201, 287}</string>
+							<string>{20, 18}</string>
+							<string>{6, 8}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{100, 100}, {0, 0}}</string>
+						<key>image</key>
+						<string>pen_12.png</string>
+						<key>touchPoints</key>
+						<array/>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{104, 130}, {42, 400}}</string>
+						<key>image</key>
+						<string>pen_13.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{3, 7}</string>
+							<string>{4, 316}</string>
+							<string>{16, 393}</string>
+							<string>{35, 155}</string>
+							<string>{37, 28}</string>
+							<string>{24, 5}</string>
+							<string>{17, 4}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{17, 188}, {315, 319}}</string>
+						<key>image</key>
+						<string>pen_14.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{285, 4}</string>
+							<string>{51, 239}</string>
+							<string>{4, 313}</string>
+							<string>{81, 270}</string>
+							<string>{312, 27}</string>
+							<string>{307, 14}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{201, 458}, {361, 263}}</string>
+						<key>image</key>
+						<string>pen_15.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{3, 246}</string>
+							<string>{346, 3}</string>
+							<string>{359, 22}</string>
+							<string>{25, 261}</string>
+							<string>{5, 258}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{173, 292}, {317, 374}}</string>
+						<key>image</key>
+						<string>pen_16.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{5, 353}</string>
+							<string>{295, 0}</string>
+							<string>{315, 15}</string>
+							<string>{18, 370}</string>
+							<string>{5, 373}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{100, 100}, {0, 0}}</string>
+						<key>image</key>
+						<string>pen_17.png</string>
+						<key>touchPoints</key>
+						<array/>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{31, 359}, {350, 297}}</string>
+						<key>image</key>
+						<string>pen_18.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{6, 15}</string>
+							<string>{6, 6}</string>
+							<string>{18, 5}</string>
+							<string>{302, 215}</string>
+							<string>{348, 271}</string>
+							<string>{346, 289}</string>
+							<string>{321, 293}</string>
+							<string>{104, 115}</string>
+							<string>{8, 16}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{124, 279}, {256, 454}}</string>
+						<key>image</key>
+						<string>pen_19.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{6, 9}</string>
+							<string>{6, 32}</string>
+							<string>{62, 161}</string>
+							<string>{76, 168}</string>
+							<string>{246, 450}</string>
+							<string>{255, 431}</string>
+							<string>{34, 6}</string>
+							<string>{13, 6}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{12, 344}, {353, 251}}</string>
+						<key>image</key>
+						<string>pen_20.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{4, 235}</string>
+							<string>{329, 4}</string>
+							<string>{352, 6}</string>
+							<string>{352, 26}</string>
+							<string>{22, 246}</string>
+							<string>{5, 246}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{13, 450}, {314, 297}}</string>
+						<key>image</key>
+						<string>pen_21.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{10, 26}</string>
+							<string>{26, 46}</string>
+							<string>{43, 66}</string>
+							<string>{250, 251}</string>
+							<string>{310, 283}</string>
+							<string>{270, 228}</string>
+							<string>{167, 135}</string>
+							<string>{44, 31}</string>
+							<string>{38, 31}</string>
+							<string>{17, 12}</string>
+							<string>{6, 22}</string>
+							<string>{13, 31}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{61, 294}, {300, 400}}</string>
+						<key>image</key>
+						<string>pen_22.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{5, 377}</string>
+							<string>{31, 397}</string>
+							<string>{299, 33}</string>
+							<string>{270, 5}</string>
+							<string>{166, 128}</string>
+							<string>{28, 336}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{92, 483}, {252, 134}}</string>
+						<key>image</key>
+						<string>pen_23.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{4, 11}</string>
+							<string>{232, 130}</string>
+							<string>{251, 127}</string>
+							<string>{252, 117}</string>
+							<string>{22, 6}</string>
+							<string>{6, 6}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>TTBase</string>
+						<key>frame</key>
+						<string>{{133, 381}, {362, 360}}</string>
+						<key>image</key>
+						<string>pen_1.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{343, 7}</string>
+							<string>{326, 16}</string>
+							<string>{316, 12}</string>
+							<string>{216, 105}</string>
+							<string>{226, 112}</string>
+							<string>{82, 256}</string>
+							<string>{4, 344}</string>
+							<string>{20, 356}</string>
+							<string>{361, 28}</string>
+						</array>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>
