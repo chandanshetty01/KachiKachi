@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "KKGameSceneController.h"
+#import "SoundManager.h"
 
 @interface ViewController ()
 
@@ -19,6 +20,16 @@
 {    
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    [SoundManager sharedManager].allowsBackgroundMusic = YES;
+    [[SoundManager sharedManager] prepareToPlay];
+    
+    [self playMusic];
+}
+
+-(void)playMusic
+{
+    [[SoundManager sharedManager] playMusic:@"track1" looping:YES];
 }
 
 - (void)didReceiveMemoryWarning

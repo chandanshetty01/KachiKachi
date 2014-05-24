@@ -9,6 +9,7 @@
 #import "KKGameSceneController.h"
 #import "TTBase.h"
 #import "Utility.h"
+#import "SoundManager.h"
 
 @interface KKGameSceneController ()
 
@@ -53,6 +54,8 @@ typedef void (^completionBlk)(BOOL);
 #endif
     
     [_switchBtn setOn:NO];
+    
+     [[SoundManager sharedManager] playMusic:@"track2" looping:YES];
 }
 
 - (IBAction)handleSwitchBtn:(id)sender
@@ -133,6 +136,9 @@ typedef void (^completionBlk)(BOOL);
 -(void)validateGamePlay:(completionBlk)block
 {
     if([self isGameOver] && !_isGameFinished){
+        
+        [[SoundManager sharedManager] playSound:@"sound2" looping:NO];
+
         _isGameFinished = YES;
         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Game Over"
                                                         message:@"You haven't selected the top item"
@@ -144,6 +150,8 @@ typedef void (^completionBlk)(BOOL);
     }
     else if([self isGameWon])
     {
+        [[SoundManager sharedManager] playSound:@"sound2" looping:NO];
+
         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Game Won"
                                                         message:@"Game completed"
                                                        delegate:self
@@ -155,6 +163,8 @@ typedef void (^completionBlk)(BOOL);
     else if(_currentElement != nil)
     {
 #ifndef DEVELOPMENT_MODE
+        [[SoundManager sharedManager] playSound:@"sound1" looping:NO];
+        
         [UIView animateWithDuration:.5f animations:^{
             _currentElement.alpha = 0;
         } completion:^(BOOL finished) {
