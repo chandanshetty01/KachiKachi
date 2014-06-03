@@ -39,6 +39,14 @@
         
         self.angle = [[inData objectForKey:@"angle"] floatValue];
         
+        NSDictionary *animation = [inData objectForKey:@"animation"];
+        if(animation){
+            _animationEndFrame = CGRectFromString([animation objectForKey:@"frame"]);
+            _animationAngle = [[animation objectForKey:@"scale"] floatValue];
+            _animationScale = [[animation objectForKey:@"rotateAngle"] floatValue];
+            _hasEndAnimation = YES;
+        }
+        
 #ifdef DEVELOPMENT_MODE
         self.backgroundColor = [UIColor clearColor];
 #else

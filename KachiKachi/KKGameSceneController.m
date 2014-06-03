@@ -10,6 +10,9 @@
 #import "TTBase.h"
 #import "Utility.h"
 #import "SoundManager.h"
+#import <Math.h>
+
+#define RADIANS(degrees) ((degrees * M_PI) / 180.0)
 
 @interface KKGameSceneController ()
 
@@ -55,7 +58,7 @@ typedef void (^completionBlk)(BOOL);
     
     [_switchBtn setOn:NO];
     
-     [[SoundManager sharedManager] playMusic:@"track2" looping:YES];
+    [[SoundManager sharedManager] playMusic:@"track2" looping:YES];
 }
 
 - (IBAction)handleSwitchBtn:(id)sender
@@ -112,7 +115,7 @@ typedef void (^completionBlk)(BOOL);
 #ifdef DEVELOPMENT_MODE
     return gameOver;
 #endif
-
+    
     NSInteger currentElementIndex = [_elements indexOfObject:_currentElement];
     for (TTBase *element in intersectedElements) {
         NSInteger index = [_elements indexOfObject:element];
@@ -122,7 +125,7 @@ typedef void (^completionBlk)(BOOL);
             break;
         }
     }
-
+    
     return gameOver;
 }
 
@@ -133,12 +136,55 @@ typedef void (^completionBlk)(BOOL);
     return FALSE;
 }
 
+
+-(CGFloat)degreesToRadian:(CGFloat)angle{
+    return angle * (3.14/180);
+}
+
+-(CGFloat)radianToDegree:(CGFloat)radian{
+    return radian * (180/3.14);
+}
+
+-(void)showElementDissapearAnimation:(completionBlk)block
+{
+    _currentElement.animationEndFrame = CGRectMake(0, 0, _currentElement.frame.size.width*.7, _currentElement.frame.size.height*.7);
+    _currentElement.animationAngle = 40;
+    
+    
+    if(_currentElement.hasEndAnimation){
+        [UIView animateWithDuration:1 animations:^{
+            _currentElement.frame = _currentElement.animationEndFrame;
+        } completion:^(BOOL finished) {
+            if(finished){
+                _currentElement.transform = CGAffineTransformIdentity;
+                [UIView animateWithDuration:2 animations:^{
+                    CGAffineTransform rightWobble = CGAffineTransformRotate(CGAffineTransformIdentity, RADIANS(_currentElement.animationAngle));
+                    _currentElement.transform = rightWobble;  // starting point
+                } completion:^(BOOL finished) {
+                    [_elements removeObject:_currentElement];
+                    block(YES);
+                }];
+            }
+        }];
+    }
+    else{
+        [UIView animateWithDuration:.5f animations:^{
+            _currentElement.alpha = 0;
+        } completion:^(BOOL finished) {
+            if(finished){
+                [_elements removeObject:_currentElement];
+                block(YES);
+            }
+        }];
+    }
+}
+
 -(void)validateGamePlay:(completionBlk)block
 {
     if([self isGameOver] && !_isGameFinished){
         
         [[SoundManager sharedManager] playSound:@"sound2" looping:NO];
-
+        
         _isGameFinished = YES;
         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Game Over"
                                                         message:@"You haven't selected the top item"
@@ -151,7 +197,7 @@ typedef void (^completionBlk)(BOOL);
     else if([self isGameWon])
     {
         [[SoundManager sharedManager] playSound:@"sound2" looping:NO];
-
+        
         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Game Won"
                                                         message:@"Game completed"
                                                        delegate:self
@@ -164,15 +210,7 @@ typedef void (^completionBlk)(BOOL);
     {
 #ifndef DEVELOPMENT_MODE
         [[SoundManager sharedManager] playSound:@"sound1" looping:NO];
-        
-        [UIView animateWithDuration:.5f animations:^{
-            _currentElement.alpha = 0;
-        } completion:^(BOOL finished) {
-            if(finished){
-                [_elements removeObject:_currentElement];
-                block(YES);
-            }
-        }];
+        [self showElementDissapearAnimation:block];
 #endif
     }
 }

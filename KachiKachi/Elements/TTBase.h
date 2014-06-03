@@ -9,12 +9,19 @@
 #import <UIKit/UIKit.h>
 
 @interface TTBase : UIView
+{
+    
+}
 
 @property(nonatomic,strong) NSMutableArray *touchPoints;
 @property(nonatomic,assign) CGFloat angle;
-@property(nonatomic,retain) NSString *imagePath;
+@property(nonatomic,strong) NSString *imagePath;
 @property(nonatomic,assign) BOOL canSaveTouchPoints;
 @property(nonatomic,strong) UIImage *image;
+@property(nonatomic,assign) CGRect animationEndFrame;
+@property(nonatomic,assign) CGFloat animationAngle;
+@property(nonatomic,assign) CGFloat animationScale;
+@property(nonatomic,assign) BOOL hasEndAnimation;
 
 - (id)initWithData : (NSDictionary*)inData;
 
