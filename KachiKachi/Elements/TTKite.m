@@ -21,11 +21,16 @@
 
 -(void)showAnimation:(completionBlk)completionBlk
 {
-    [UIView animateWithDuration:.5f animations:^{
-        self.alpha = 0;
-    } completion:^(BOOL finished) {
-        completionBlk(finished);
-    }];
+    [UIView animateWithDuration:0.8
+                          delay:0.2
+                        options:UIViewAnimationOptionCurveEaseInOut
+                     animations:^{
+                         CGRect frame = self.frame;
+                         frame.origin.y = -200;
+                         self.frame = frame;
+                     } completion:^(BOOL finished) {
+                         completionBlk(finished);
+                     }];
 }
 
 

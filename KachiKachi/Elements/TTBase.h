@@ -25,8 +25,6 @@ typedef void (^completionBlk)(BOOL);
 @property(nonatomic,assign) CGFloat animationScale;
 @property(nonatomic,assign) BOOL hasEndAnimation;
 
-- (id)initWithData : (NSDictionary*)inData;
-
 - (void)handleTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event;
 - (void)handleTouchesMoved:(NSSet *)touches withEvent:(UIEvent *)event;
 - (void)handleTouchesEnded:(NSSet *)touches withEvent:(UIEvent *)event;

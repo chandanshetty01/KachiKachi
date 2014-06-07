@@ -74,7 +74,7 @@
 {
     CGMutablePathRef path = CGPathCreateMutable();
     int i = 0;
-
+/*
 #ifndef DEVELOPMENT_MODE
     NSMutableArray *touchArry = [NSMutableArray array];
     [touchArry addObject:NSStringFromCGPoint(CGPointMake(0, 0))];
@@ -101,8 +101,8 @@
     if(CGPathContainsPoint(path, nil, touchPoint, NO))
         return YES;
     return NO;
-    
 #endif
+ */
     
     for(NSString* point in _touchPoints){
         CGPoint cPoint = CGPointFromString(point);
