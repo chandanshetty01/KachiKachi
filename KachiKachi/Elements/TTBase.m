@@ -48,7 +48,7 @@
         }
         
 #ifdef DEVELOPMENT_MODE
-        self.backgroundColor = [UIColor clearColor];
+        self.backgroundColor = [UIColor grayColor];
 #else
         self.backgroundColor = [UIColor clearColor];
 #endif
@@ -158,6 +158,9 @@
         [self.touchPoints addObject:NSStringFromCGPoint(touchLocation)];
     }
 
+#ifdef DEVELOPMENT_MODE
+    [self setNeedsDisplay];
+#endif
     _dragging = NO;
 }
 
@@ -165,7 +168,7 @@
     
     [_image drawInRect:rect];
     
-#ifndef DEVELOPMENT_MODE
+#ifdef DEVELOPMENT_MODE
     CGContextRef context = UIGraphicsGetCurrentContext();
     CGContextSetStrokeColorWithColor(context, [UIColor redColor].CGColor);
     
