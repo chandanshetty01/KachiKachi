@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+typedef void (^completionBlk)(BOOL);
+
 @interface TTBase : UIView
 {
     
@@ -32,5 +34,8 @@
 
 - (BOOL)canHandleTouch:(CGPoint)touchPoint;
 - (NSDictionary*)saveDictionary;
+
+-(void)setData : (NSDictionary*)inData;
+-(void)showAnimation:(completionBlk)completionBlk;
 
 @end

@@ -18,42 +18,46 @@
 
 @implementation TTBase
 
--(id)initWithData : (NSDictionary*)inData
+- (instancetype)init
 {
     self = [super init];
-    if(self){
+    if (self) {
         
-        self.imagePath = [inData objectForKey:@"image"];
-        _image = [UIImage imageNamed:_imagePath];
-        CGRect frame = CGRectFromString([inData objectForKey:@"frame"]);
-        if(frame.size.width == -1 || frame.size.height == -1)
-        {
-            frame.size = _image.size;
-        }
-        self.frame = frame;
-        
-        self.touchPoints = [inData objectForKey:@"touchPoints"];
-        if(self.touchPoints == nil){
-            self.touchPoints = [NSMutableArray array];
-        }
-        
-        self.angle = [[inData objectForKey:@"angle"] floatValue];
-        
-        NSDictionary *animation = [inData objectForKey:@"animation"];
-        if(animation){
-            _animationEndFrame = CGRectFromString([animation objectForKey:@"frame"]);
-            _animationAngle = [[animation objectForKey:@"scale"] floatValue];
-            _animationScale = [[animation objectForKey:@"rotateAngle"] floatValue];
-            _hasEndAnimation = YES;
-        }
-        
-#ifdef DEVELOPMENT_MODE
-        self.backgroundColor = [UIColor grayColor];
-#else
-        self.backgroundColor = [UIColor clearColor];
-#endif
     }
     return self;
+}
+
+-(void)setData : (NSDictionary*)inData
+{
+    self.imagePath = [inData objectForKey:@"image"];
+    _image = [UIImage imageNamed:_imagePath];
+    CGRect frame = CGRectFromString([inData objectForKey:@"frame"]);
+    if(frame.size.width == -1 || frame.size.height == -1)
+    {
+        frame.size = _image.size;
+    }
+    self.frame = frame;
+    
+    self.touchPoints = [inData objectForKey:@"touchPoints"];
+    if(self.touchPoints == nil){
+        self.touchPoints = [NSMutableArray array];
+    }
+    
+    self.angle = [[inData objectForKey:@"angle"] floatValue];
+    
+    NSDictionary *animation = [inData objectForKey:@"animation"];
+    if(animation){
+        _animationEndFrame = CGRectFromString([animation objectForKey:@"frame"]);
+        _animationAngle = [[animation objectForKey:@"scale"] floatValue];
+        _animationScale = [[animation objectForKey:@"rotateAngle"] floatValue];
+        _hasEndAnimation = YES;
+    }
+    
+#ifdef DEVELOPMENT_MODE
+    self.backgroundColor = [UIColor clearColor];
+#else
+    self.backgroundColor = [UIColor clearColor];
+#endif
 }
 
 -(NSDictionary*)saveDictionary
@@ -71,7 +75,7 @@
     CGMutablePathRef path = CGPathCreateMutable();
     int i = 0;
 
-#ifdef DEVELOPMENT_MODE
+#ifndef DEVELOPMENT_MODE
     NSMutableArray *touchArry = [NSMutableArray array];
     [touchArry addObject:NSStringFromCGPoint(CGPointMake(0, 0))];
     [touchArry addObject:NSStringFromCGPoint(CGPointMake(self.frame.size.width,0))];
@@ -142,7 +146,6 @@
         //self.transform = CGAffineTransformIdentity;
         self.frame = frame;
         //self.transform = CGAffineTransformIdentity;
-
     }
 }
 
@@ -189,6 +192,15 @@
     CGContextStrokePath(context);
 #endif
     [super drawRect:rect];
+}
+
+-(void)showAnimation:(completionBlk)completionBlk
+{
+    [UIView animateWithDuration:.5f animations:^{
+        self.alpha = 0;
+    } completion:^(BOOL finished) {
+        completionBlk(finished);
+    }];
 }
 
 /*

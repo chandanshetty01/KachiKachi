@@ -101,9 +101,10 @@ typedef void (^completionBlk)(BOOL);
 
 -(void)generateElement:(NSDictionary*)data
 {
-    TTBase *base = [[TTBase alloc] initWithData:data];
-    [self.view addSubview:base];
-    [_elements addObject:base];
+    TTBase *object = [[NSClassFromString([data objectForKey:@"class"]) alloc] init];
+    [object setData:data];
+    [self.view addSubview:object];
+    [_elements addObject:object];
 }
 
 -(BOOL)isGameOver
@@ -147,36 +148,12 @@ typedef void (^completionBlk)(BOOL);
 
 -(void)showElementDissapearAnimation:(completionBlk)block
 {
-    _currentElement.animationEndFrame = CGRectMake(0, 0, _currentElement.frame.size.width*.7, _currentElement.frame.size.height*.7);
-    _currentElement.animationAngle = 40;
-    
-    
-    if(_currentElement.hasEndAnimation){
-        [UIView animateWithDuration:1 animations:^{
-            _currentElement.frame = _currentElement.animationEndFrame;
-        } completion:^(BOOL finished) {
-            if(finished){
-                _currentElement.transform = CGAffineTransformIdentity;
-                [UIView animateWithDuration:2 animations:^{
-                    CGAffineTransform rightWobble = CGAffineTransformRotate(CGAffineTransformIdentity, RADIANS(_currentElement.animationAngle));
-                    _currentElement.transform = rightWobble;  // starting point
-                } completion:^(BOOL finished) {
-                    [_elements removeObject:_currentElement];
-                    block(YES);
-                }];
-            }
-        }];
-    }
-    else{
-        [UIView animateWithDuration:.5f animations:^{
-            _currentElement.alpha = 0;
-        } completion:^(BOOL finished) {
-            if(finished){
-                [_elements removeObject:_currentElement];
-                block(YES);
-            }
-        }];
-    }
+    [_currentElement showAnimation:^(BOOL finished) {
+        if(finished){
+            [_elements removeObject:_currentElement];
+            block(YES);
+        }
+    }];
 }
 
 -(void)validateGamePlay:(completionBlk)block
