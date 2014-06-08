@@ -1891,9 +1891,9 @@
 		<dict>
 			<key>level1</key>
 			<dict>
-				<key>basket</key>
+				<key>basket1</key>
 				<string>basket.png</string>
-				<key>basket_frame</key>
+				<key>basket_frame1</key>
 				<string>{600,100}</string>
 				<key>background</key>
 				<string>balloon_bg.png</string>
@@ -1901,7 +1901,7 @@
 				<array>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTBalloon</string>
 						<key>frame</key>
 						<string>{{44, 522}, {126, 214}}</string>
 						<key>image</key>
@@ -1923,7 +1923,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTBalloon</string>
 						<key>frame</key>
 						<string>{{71, 434}, {93, 207}}</string>
 						<key>image</key>
@@ -1944,7 +1944,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTBalloon</string>
 						<key>frame</key>
 						<string>{{128, 494}, {71, 121}}</string>
 						<key>image</key>
@@ -1964,7 +1964,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTBalloon</string>
 						<key>frame</key>
 						<string>{{236, 490}, {116, 220}}</string>
 						<key>image</key>
@@ -1986,7 +1986,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTBalloon</string>
 						<key>frame</key>
 						<string>{{248, 606}, {63, 77}}</string>
 						<key>image</key>
@@ -2004,7 +2004,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTBalloon</string>
 						<key>frame</key>
 						<string>{{388, 305}, {88, 160}}</string>
 						<key>image</key>
@@ -2025,7 +2025,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTBalloon</string>
 						<key>frame</key>
 						<string>{{137, 372}, {155, 300}}</string>
 						<key>image</key>
@@ -2047,7 +2047,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTBalloon</string>
 						<key>frame</key>
 						<string>{{156, 525}, {128, 209}}</string>
 						<key>image</key>
@@ -2070,7 +2070,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTBalloon</string>
 						<key>frame</key>
 						<string>{{236, 512}, {48, 59}}</string>
 						<key>image</key>
@@ -2087,7 +2087,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTBalloon</string>
 						<key>frame</key>
 						<string>{{484, 453}, {74, 90}}</string>
 						<key>image</key>
@@ -2106,7 +2106,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTBalloon</string>
 						<key>frame</key>
 						<string>{{252, 332}, {106, 129}}</string>
 						<key>image</key>
@@ -2125,7 +2125,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTBalloon</string>
 						<key>frame</key>
 						<string>{{455, 500}, {69, 96}}</string>
 						<key>image</key>
@@ -2143,7 +2143,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTBalloon</string>
 						<key>frame</key>
 						<string>{{504, 542}, {57, 65}}</string>
 						<key>image</key>
@@ -2160,7 +2160,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTBalloon</string>
 						<key>frame</key>
 						<string>{{279, 564}, {112, 201}}</string>
 						<key>image</key>
@@ -2181,7 +2181,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTBalloon</string>
 						<key>frame</key>
 						<string>{{457, 486}, {76, 93}}</string>
 						<key>image</key>
@@ -2201,7 +2201,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTBalloon</string>
 						<key>frame</key>
 						<string>{{266, 402}, {100, 189}}</string>
 						<key>image</key>
@@ -2223,7 +2223,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTBalloon</string>
 						<key>frame</key>
 						<string>{{411, 603}, {103, 181}}</string>
 						<key>image</key>
@@ -2245,7 +2245,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTBalloon</string>
 						<key>frame</key>
 						<string>{{340, 412}, {76, 161}}</string>
 						<key>image</key>
@@ -2268,7 +2268,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTBalloon</string>
 						<key>frame</key>
 						<string>{{391, 448}, {92, 118}}</string>
 						<key>image</key>
@@ -2287,7 +2287,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTBalloon</string>
 						<key>frame</key>
 						<string>{{493, 383}, {73, 150}}</string>
 						<key>image</key>
@@ -2308,7 +2308,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTBalloon</string>
 						<key>frame</key>
 						<string>{{502, 455}, {97, 122}}</string>
 						<key>image</key>
@@ -2327,7 +2327,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTBalloon</string>
 						<key>frame</key>
 						<string>{{364, 532}, {125, 238}}</string>
 						<key>image</key>
@@ -2349,7 +2349,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTBalloon</string>
 						<key>frame</key>
 						<string>{{467, 573}, {59, 117}}</string>
 						<key>image</key>
@@ -2370,7 +2370,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTBalloon</string>
 						<key>frame</key>
 						<string>{{324, 480}, {90, 112}}</string>
 						<key>image</key>
@@ -2389,7 +2389,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTBalloon</string>
 						<key>frame</key>
 						<string>{{541, 433}, {65, 126}}</string>
 						<key>image</key>
@@ -2408,7 +2408,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTBalloon</string>
 						<key>frame</key>
 						<string>{{441, 354}, {65, 126}}</string>
 						<key>image</key>
@@ -2428,7 +2428,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTBalloon</string>
 						<key>frame</key>
 						<string>{{499, 599}, {50, 58}}</string>
 						<key>image</key>
@@ -2445,7 +2445,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTBalloon</string>
 						<key>frame</key>
 						<string>{{211, 350}, {43, 53}}</string>
 						<key>image</key>
@@ -2462,7 +2462,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTBalloon</string>
 						<key>frame</key>
 						<string>{{516, 513}, {61, 120}}</string>
 						<key>image</key>
@@ -2483,7 +2483,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTBalloon</string>
 						<key>frame</key>
 						<string>{{429, 383}, {91, 169}}</string>
 						<key>image</key>
@@ -2504,7 +2504,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTBalloon</string>
 						<key>frame</key>
 						<string>{{348, 364}, {103, 173}}</string>
 						<key>image</key>
@@ -2527,7 +2527,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTBalloon</string>
 						<key>frame</key>
 						<string>{{96, 328}, {91, 169}}</string>
 						<key>image</key>
@@ -2548,7 +2548,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTBalloon</string>
 						<key>frame</key>
 						<string>{{502, 414}, {42, 94}}</string>
 						<key>image</key>

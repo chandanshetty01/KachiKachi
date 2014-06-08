@@ -33,6 +33,7 @@
 		A3B97D771930F91C0049DCEB /* sound2.caf in Resources */ = {isa = PBXBuildFile; fileRef = A3B97D721930F9000049DCEB /* sound2.caf */; };
 		A3B97D781930F91F0049DCEB /* sound1.caf in Resources */ = {isa = PBXBuildFile; fileRef = A3B97D711930F9000049DCEB /* sound1.caf */; };
 		A3D832C4194315ED00C0908C /* TTKite.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D832C3194315ED00C0908C /* TTKite.m */; };
+		A3E9E96E1944BA0A00898279 /* TTBalloon.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E9E96D1944BA0A00898279 /* TTBalloon.m */; };
 		A3FB4F4719125D070039585F /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FB4F4619125D070039585F /* Utility.m */; };
 /* End PBXBuildFile section */
 
@@ -84,6 +85,8 @@
 		A3B97D741930F9130049DCEB /* track2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = track2.caf; path = Sounds/track2.caf; sourceTree = "<group>"; };
 		A3D832C2194315ED00C0908C /* TTKite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTKite.h; sourceTree = "<group>"; };
 		A3D832C3194315ED00C0908C /* TTKite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTKite.m; sourceTree = "<group>"; };
+		A3E9E96C1944BA0A00898279 /* TTBalloon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTBalloon.h; sourceTree = "<group>"; };
+		A3E9E96D1944BA0A00898279 /* TTBalloon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTBalloon.m; sourceTree = "<group>"; };
 		A3FB4F4519125D070039585F /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
 		A3FB4F4619125D070039585F /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -208,6 +211,8 @@
 				A3A67ED01902E3D300BFAF7B /* TTPencil.m */,
 				A3D832C2194315ED00C0908C /* TTKite.h */,
 				A3D832C3194315ED00C0908C /* TTKite.m */,
+				A3E9E96C1944BA0A00898279 /* TTBalloon.h */,
+				A3E9E96D1944BA0A00898279 /* TTBalloon.m */,
 			);
 			path = Elements;
 			sourceTree = "<group>";
@@ -330,6 +335,7 @@
 				A3A67E921902B67700BFAF7B /* ViewController.m in Sources */,
 				A3A67E891902B67700BFAF7B /* AppDelegate.m in Sources */,
 				A3A67E851902B67700BFAF7B /* main.m in Sources */,
+				A3E9E96E1944BA0A00898279 /* TTBalloon.m in Sources */,
 				A3A67ED11902E3D300BFAF7B /* TTBase.m in Sources */,
 				A3B97D6B1930F7AD0049DCEB /* SoundManager.m in Sources */,
 				A3A67ED21902E3D300BFAF7B /* TTPencil.m in Sources */,
