@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A305F2A91945EAB800B62C6C /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = A305F2A81945EAB800B62C6C /* iTunesArtwork */; };
 		A3A67E791902B67700BFAF7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3A67E781902B67700BFAF7B /* Foundation.framework */; };
 		A3A67E7B1902B67700BFAF7B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3A67E7A1902B67700BFAF7B /* CoreGraphics.framework */; };
 		A3A67E7D1902B67700BFAF7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3A67E7C1902B67700BFAF7B /* UIKit.framework */; };
@@ -48,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A305F2A81945EAB800B62C6C /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		A305F2AA1945EBCB00B62C6C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = "../../../../../Users/chandanshettysp/Dropbox/kachi kachi/Images/Splash Pages/Default.png"; sourceTree = "<group>"; };
 		A3A67E751902B67700BFAF7B /* KachiKachi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KachiKachi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3A67E781902B67700BFAF7B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A3A67E7A1902B67700BFAF7B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -118,6 +121,7 @@
 		A3A67E6C1902B67700BFAF7B = {
 			isa = PBXGroup;
 			children = (
+				A305F2AA1945EBCB00B62C6C /* Default.png */,
 				A3A67E7E1902B67700BFAF7B /* KachiKachi */,
 				A3A67EA01902B67800BFAF7B /* KachiKachiTests */,
 				A3A67E771902B67700BFAF7B /* Frameworks */,
@@ -172,6 +176,7 @@
 		A3A67E7F1902B67700BFAF7B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A305F2A81945EAB800B62C6C /* iTunesArtwork */,
 				A3B97D731930F9130049DCEB /* track1.caf */,
 				A3B97D741930F9130049DCEB /* track2.caf */,
 				A3B97D711930F9000049DCEB /* sound1.caf */,
@@ -305,6 +310,7 @@
 				A3B97D751930F9130049DCEB /* track1.caf in Resources */,
 				A3B97D761930F9130049DCEB /* track2.caf in Resources */,
 				A3A67E8F1902B67700BFAF7B /* Main_iPad.storyboard in Resources */,
+				A305F2A91945EAB800B62C6C /* iTunesArtwork in Resources */,
 				A3A67EB91902C79B00BFAF7B /* GameData.plist in Resources */,
 				A3B97D781930F91F0049DCEB /* sound1.caf in Resources */,
 				A3A67E941902B67700BFAF7B /* Images.xcassets in Resources */,
