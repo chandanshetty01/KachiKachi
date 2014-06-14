@@ -18,6 +18,8 @@
 				<string>{600,0}</string>
 				<key>background</key>
 				<string>leaves_bg.png</string>
+				<key>life</key>
+				<real>4</real>
 				<key>elements</key>
 				<array>
 					<dict>
@@ -1052,6 +1054,8 @@
 				<string>{0,0}</string>
 				<key>background</key>
 				<string>bg.jpg</string>
+				<key>life</key>
+				<real>4</real>
 				<key>elements</key>
 				<array>
 					<dict>
@@ -1897,6 +1901,8 @@
 				<string>{600,100}</string>
 				<key>background</key>
 				<string>balloon_bg.png</string>
+				<key>life</key>
+				<real>4</real>
 				<key>elements</key>
 				<array>
 					<dict>
@@ -2585,6 +2591,8 @@
 				<string>{700,100}</string>
 				<key>background</key>
 				<string>balloon_bg.png</string>
+				<key>life</key>
+				<real>4</real>
 				<key>elements</key>
 				<array>
 					<dict>
@@ -3661,6 +3669,8 @@
 				<string>{400,50}</string>
 				<key>background</key>
 				<string>balloon_bg.png</string>
+				<key>life</key>
+				<real>4</real>
 				<key>elements</key>
 				<array>
 					<dict>
@@ -4273,6 +4283,8 @@
 				<string>{350,226}</string>
 				<key>background</key>
 				<string>disc_bg.png</string>
+				<key>life</key>
+				<real>4</real>
 				<key>elements</key>
 				<array>
 					<dict>
@@ -4596,6 +4608,8 @@
 			<dict>
 				<key>background</key>
 				<string>fish_bg.png</string>
+				<key>life</key>
+				<real>4</real>
 				<key>elements</key>
 				<array>
 					<dict>
@@ -5195,6 +5209,8 @@
 				<string>choc_BG.png</string>
 				<key>basket_frame</key>
 				<string>{600,100}</string>
+				<key>life</key>
+				<real>4</real>
 				<key>elements</key>
 				<array>
 					<dict>
@@ -6087,6 +6103,8 @@
 			<dict>
 				<key>background</key>
 				<string>ic_bg.png</string>
+				<key>life</key>
+				<real>4</real>
 				<key>elements</key>
 				<array>
 					<dict>
@@ -6996,6 +7014,8 @@
 			<dict>
 				<key>background</key>
 				<string>kites_bg.png</string>
+				<key>life</key>
+				<real>4</real>
 				<key>elements</key>
 				<array>
 					<dict>
@@ -7941,6 +7961,8 @@
 			<dict>
 				<key>background</key>
 				<string>pen_background.png</string>
+				<key>life</key>
+				<real>4</real>
 				<key>basket_frame</key>
 				<string>{600,100}</string>
 				<key>elements</key>
@@ -8373,6 +8395,8 @@
 			<dict>
 				<key>background</key>
 				<string>carrot_bg.png</string>
+				<key>life</key>
+				<real>4</real>
 				<key>basket_frame</key>
 				<string>{600,100}</string>
 				<key>elements</key>

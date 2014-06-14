@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A305F2A91945EAB800B62C6C /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = A305F2A81945EAB800B62C6C /* iTunesArtwork */; };
+		A305F2B71945F0DB00B62C6C /* KKGameStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A305F2B61945F0DB00B62C6C /* KKGameStateManager.m */; };
 		A3A67E791902B67700BFAF7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3A67E781902B67700BFAF7B /* Foundation.framework */; };
 		A3A67E7B1902B67700BFAF7B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3A67E7A1902B67700BFAF7B /* CoreGraphics.framework */; };
 		A3A67E7D1902B67700BFAF7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3A67E7C1902B67700BFAF7B /* UIKit.framework */; };
@@ -51,6 +52,8 @@
 /* Begin PBXFileReference section */
 		A305F2A81945EAB800B62C6C /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
 		A305F2AA1945EBCB00B62C6C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = "../../../../../Users/chandanshettysp/Dropbox/kachi kachi/Images/Splash Pages/Default.png"; sourceTree = "<group>"; };
+		A305F2B51945F0DB00B62C6C /* KKGameStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKGameStateManager.h; sourceTree = "<group>"; };
+		A305F2B61945F0DB00B62C6C /* KKGameStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKGameStateManager.m; sourceTree = "<group>"; };
 		A3A67E751902B67700BFAF7B /* KachiKachi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KachiKachi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3A67E781902B67700BFAF7B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A3A67E7A1902B67700BFAF7B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -118,6 +121,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A305F2B41945F0C100B62C6C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A305F2B51945F0DB00B62C6C /* KKGameStateManager.h */,
+				A305F2B61945F0DB00B62C6C /* KKGameStateManager.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		A3A67E6C1902B67700BFAF7B = {
 			isa = PBXGroup;
 			children = (
@@ -152,6 +164,7 @@
 		A3A67E7E1902B67700BFAF7B /* KachiKachi */ = {
 			isa = PBXGroup;
 			children = (
+				A305F2B41945F0C100B62C6C /* Classes */,
 				A3A67E871902B67700BFAF7B /* AppDelegate.h */,
 				A3A67E881902B67700BFAF7B /* AppDelegate.m */,
 				A3A67E8A1902B67700BFAF7B /* Main_iPhone.storyboard */,
@@ -342,6 +355,7 @@
 				A3A67E891902B67700BFAF7B /* AppDelegate.m in Sources */,
 				A3A67E851902B67700BFAF7B /* main.m in Sources */,
 				A3E9E96E1944BA0A00898279 /* TTBalloon.m in Sources */,
+				A305F2B71945F0DB00B62C6C /* KKGameStateManager.m in Sources */,
 				A3A67ED11902E3D300BFAF7B /* TTBase.m in Sources */,
 				A3B97D6B1930F7AD0049DCEB /* SoundManager.m in Sources */,
 				A3A67ED21902E3D300BFAF7B /* TTPencil.m in Sources */,
