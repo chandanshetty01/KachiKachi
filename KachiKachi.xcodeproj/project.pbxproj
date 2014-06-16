@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A305F2A91945EAB800B62C6C /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = A305F2A81945EAB800B62C6C /* iTunesArtwork */; };
 		A305F2B71945F0DB00B62C6C /* KKGameStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A305F2B61945F0DB00B62C6C /* KKGameStateManager.m */; };
+		A314CCE2194F2B620002BECC /* KKStageSelectController.m in Sources */ = {isa = PBXBuildFile; fileRef = A314CCE1194F2B620002BECC /* KKStageSelectController.m */; };
 		A3A67E791902B67700BFAF7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3A67E781902B67700BFAF7B /* Foundation.framework */; };
 		A3A67E7B1902B67700BFAF7B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3A67E7A1902B67700BFAF7B /* CoreGraphics.framework */; };
 		A3A67E7D1902B67700BFAF7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3A67E7C1902B67700BFAF7B /* UIKit.framework */; };
@@ -54,6 +55,8 @@
 		A305F2AA1945EBCB00B62C6C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = "../../../../../Users/chandanshettysp/Dropbox/kachi kachi/Images/Splash Pages/Default.png"; sourceTree = "<group>"; };
 		A305F2B51945F0DB00B62C6C /* KKGameStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKGameStateManager.h; sourceTree = "<group>"; };
 		A305F2B61945F0DB00B62C6C /* KKGameStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKGameStateManager.m; sourceTree = "<group>"; };
+		A314CCE0194F2B620002BECC /* KKStageSelectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKStageSelectController.h; sourceTree = "<group>"; };
+		A314CCE1194F2B620002BECC /* KKStageSelectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKStageSelectController.m; sourceTree = "<group>"; };
 		A3A67E751902B67700BFAF7B /* KachiKachi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KachiKachi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3A67E781902B67700BFAF7B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A3A67E7A1902B67700BFAF7B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -130,6 +133,16 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
+		A314CCDF194F2ACF0002BECC /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A314CCE0194F2B620002BECC /* KKStageSelectController.h */,
+				A314CCE1194F2B620002BECC /* KKStageSelectController.m */,
+			);
+			name = controllers;
+			path = Classes/controllers;
+			sourceTree = "<group>";
+		};
 		A3A67E6C1902B67700BFAF7B = {
 			isa = PBXGroup;
 			children = (
@@ -164,6 +177,7 @@
 		A3A67E7E1902B67700BFAF7B /* KachiKachi */ = {
 			isa = PBXGroup;
 			children = (
+				A314CCDF194F2ACF0002BECC /* controllers */,
 				A305F2B41945F0C100B62C6C /* Classes */,
 				A3A67E871902B67700BFAF7B /* AppDelegate.h */,
 				A3A67E881902B67700BFAF7B /* AppDelegate.m */,
@@ -351,6 +365,7 @@
 				A3D832C4194315ED00C0908C /* TTKite.m in Sources */,
 				A3FB4F4719125D070039585F /* Utility.m in Sources */,
 				A3A67EB71902BE7E00BFAF7B /* KKGameSceneController.m in Sources */,
+				A314CCE2194F2B620002BECC /* KKStageSelectController.m in Sources */,
 				A3A67E921902B67700BFAF7B /* ViewController.m in Sources */,
 				A3A67E891902B67700BFAF7B /* AppDelegate.m in Sources */,
 				A3A67E851902B67700BFAF7B /* main.m in Sources */,
