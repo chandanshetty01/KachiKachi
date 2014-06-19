@@ -11,6 +11,7 @@
 #import "Utility.h"
 #import "SoundManager.h"
 #import <Math.h>
+#import "AppDelegate.h"
 
 #define RADIANS(degrees) ((degrees * M_PI) / 180.0)
 
@@ -273,6 +274,16 @@ typedef void (^completionBlk)(BOOL);
     if(_currentElement)
         [_currentElement touchesCancelled:touches withEvent:event];
     _currentElement = nil;
+}
+
+- (IBAction)backButtonAction:(id)sender {
+    AppDelegate *appdelegate = APP_DELEGATE;
+    [appdelegate.navigationController popViewControllerAnimated:YES];
+}
+
+- (void)dealloc
+{
+    
 }
 
 - (void)didReceiveMemoryWarning

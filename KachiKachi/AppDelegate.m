@@ -14,6 +14,7 @@
 {
     // Override point for customization after application launch.
     _configuration = [[KKGameConfigManager alloc] init];
+    _navigationController = (UINavigationController*)[self.window rootViewController];
     
     return YES;
 }

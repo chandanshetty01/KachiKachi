@@ -6,15 +6,15 @@
 //  Copyright (c) 2014 Chanddan. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "KKLevelSelectViewController.h"
 #import "KKGameSceneController.h"
 #import "SoundManager.h"
 
-@interface ViewController ()
+@interface KKLevelSelectViewController ()
 
 @end
 
-@implementation ViewController
+@implementation KKLevelSelectViewController
 
 - (void)viewDidLoad
 {    
@@ -36,6 +36,15 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)backButtonAction:(id)sender {
+    AppDelegate *appdelegate = APP_DELEGATE;
+    [appdelegate.navigationController popViewControllerAnimated:YES];
+}
+
+- (void)dealloc
+{
 }
 
 #pragma mark - Navigation

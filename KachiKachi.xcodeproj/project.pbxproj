@@ -18,7 +18,7 @@
 		A3A67E891902B67700BFAF7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A67E881902B67700BFAF7B /* AppDelegate.m */; };
 		A3A67E8C1902B67700BFAF7B /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3A67E8A1902B67700BFAF7B /* Main_iPhone.storyboard */; };
 		A3A67E8F1902B67700BFAF7B /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3A67E8D1902B67700BFAF7B /* Main_iPad.storyboard */; };
-		A3A67E921902B67700BFAF7B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A67E911902B67700BFAF7B /* ViewController.m */; };
+		A3A67E921902B67700BFAF7B /* KKLevelSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A67E911902B67700BFAF7B /* KKLevelSelectViewController.m */; };
 		A3A67E941902B67700BFAF7B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3A67E931902B67700BFAF7B /* Images.xcassets */; };
 		A3A67E9B1902B67800BFAF7B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3A67E9A1902B67800BFAF7B /* XCTest.framework */; };
 		A3A67E9C1902B67800BFAF7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3A67E781902B67700BFAF7B /* Foundation.framework */; };
@@ -52,7 +52,6 @@
 
 /* Begin PBXFileReference section */
 		A305F2A81945EAB800B62C6C /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
-		A305F2AA1945EBCB00B62C6C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = "../../../../../Users/chandanshettysp/Dropbox/kachi kachi/Images/Splash Pages/Default.png"; sourceTree = "<group>"; };
 		A305F2B51945F0DB00B62C6C /* KKGameStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKGameStateManager.h; sourceTree = "<group>"; };
 		A305F2B61945F0DB00B62C6C /* KKGameStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKGameStateManager.m; sourceTree = "<group>"; };
 		A314CCE0194F2B620002BECC /* KKStageSelectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKStageSelectController.h; sourceTree = "<group>"; };
@@ -69,8 +68,8 @@
 		A3A67E881902B67700BFAF7B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A3A67E8B1902B67700BFAF7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		A3A67E8E1902B67700BFAF7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		A3A67E901902B67700BFAF7B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A3A67E911902B67700BFAF7B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A3A67E901902B67700BFAF7B /* KKLevelSelectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKLevelSelectViewController.h; sourceTree = "<group>"; };
+		A3A67E911902B67700BFAF7B /* KKLevelSelectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKLevelSelectViewController.m; sourceTree = "<group>"; };
 		A3A67E931902B67700BFAF7B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A3A67E991902B67800BFAF7B /* KachiKachiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KachiKachiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3A67E9A1902B67800BFAF7B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -146,7 +145,6 @@
 		A3A67E6C1902B67700BFAF7B = {
 			isa = PBXGroup;
 			children = (
-				A305F2AA1945EBCB00B62C6C /* Default.png */,
 				A3A67E7E1902B67700BFAF7B /* KachiKachi */,
 				A3A67EA01902B67800BFAF7B /* KachiKachiTests */,
 				A3A67E771902B67700BFAF7B /* Frameworks */,
@@ -188,8 +186,8 @@
 				A3A67EB81902C79B00BFAF7B /* GameData.plist */,
 				A3A67EBD1902C95D00BFAF7B /* KKGameConfigManager.h */,
 				A3A67EBE1902C95D00BFAF7B /* KKGameConfigManager.m */,
-				A3A67E901902B67700BFAF7B /* ViewController.h */,
-				A3A67E911902B67700BFAF7B /* ViewController.m */,
+				A3A67E901902B67700BFAF7B /* KKLevelSelectViewController.h */,
+				A3A67E911902B67700BFAF7B /* KKLevelSelectViewController.m */,
 				A3B97D681930F7AD0049DCEB /* Sound */,
 				A3A67ECC1902E3D300BFAF7B /* Elements */,
 				A3A67E931902B67700BFAF7B /* Images.xcassets */,
@@ -366,7 +364,7 @@
 				A3FB4F4719125D070039585F /* Utility.m in Sources */,
 				A3A67EB71902BE7E00BFAF7B /* KKGameSceneController.m in Sources */,
 				A314CCE2194F2B620002BECC /* KKStageSelectController.m in Sources */,
-				A3A67E921902B67700BFAF7B /* ViewController.m in Sources */,
+				A3A67E921902B67700BFAF7B /* KKLevelSelectViewController.m in Sources */,
 				A3A67E891902B67700BFAF7B /* AppDelegate.m in Sources */,
 				A3A67E851902B67700BFAF7B /* main.m in Sources */,
 				A3E9E96E1944BA0A00898279 /* TTBalloon.m in Sources */,
