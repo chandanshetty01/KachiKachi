@@ -24,7 +24,7 @@
 				<array>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{104, 599}, {40, 60}}</string>
 						<key>image</key>
@@ -40,7 +40,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{102, 497}, {40, 51}}</string>
 						<key>image</key>
@@ -55,7 +55,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{276, 495}, {45, 63}}</string>
 						<key>image</key>
@@ -71,7 +71,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{306, 480}, {40, 51}}</string>
 						<key>image</key>
@@ -86,7 +86,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{111, 517}, {40, 41}}</string>
 						<key>image</key>
@@ -101,7 +101,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{422, 468}, {40, 41}}</string>
 						<key>image</key>
@@ -116,7 +116,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{199, 570}, {41, 49}}</string>
 						<key>image</key>
@@ -132,7 +132,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{180, 459}, {40, 41}}</string>
 						<key>image</key>
@@ -147,7 +147,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{448, 506}, {54, 49}}</string>
 						<key>image</key>
@@ -164,7 +164,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{343, 560}, {40, 41}}</string>
 						<key>image</key>
@@ -179,7 +179,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{193, 426}, {40, 40}}</string>
 						<key>image</key>
@@ -194,7 +194,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{467, 571}, {40, 40}}</string>
 						<key>image</key>
@@ -209,7 +209,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{192, 406}, {141, 125}}</string>
 						<key>image</key>
@@ -232,7 +232,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{107, 573}, {141, 125}}</string>
 						<key>image</key>
@@ -255,7 +255,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{199, 500}, {141, 125}}</string>
 						<key>image</key>
@@ -278,7 +278,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{117, 469}, {141, 125}}</string>
 						<key>image</key>
@@ -301,7 +301,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{291, 530}, {141, 125}}</string>
 						<key>image</key>
@@ -324,7 +324,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{197, 574}, {141, 125}}</string>
 						<key>image</key>
@@ -347,7 +347,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{492, 562}, {40, 40}}</string>
 						<key>image</key>
@@ -362,7 +362,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{489, 626}, {40, 40}}</string>
 						<key>image</key>
@@ -377,7 +377,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{363, 457}, {40, 40}}</string>
 						<key>image</key>
@@ -394,7 +394,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{343, 444}, {40, 40}}</string>
 						<key>image</key>
@@ -411,7 +411,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{386, 489}, {40, 40}}</string>
 						<key>image</key>
@@ -427,7 +427,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{355, 520}, {40, 40}}</string>
 						<key>image</key>
@@ -443,7 +443,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{293, 644}, {40, 40}}</string>
 						<key>image</key>
@@ -459,7 +459,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{189, 658}, {40, 40}}</string>
 						<key>image</key>
@@ -475,7 +475,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{387, 458}, {41, 41}}</string>
 						<key>image</key>
@@ -491,7 +491,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{506, 562}, {41, 41}}</string>
 						<key>image</key>
@@ -507,7 +507,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{352, 551}, {60, 40}}</string>
 						<key>image</key>
@@ -523,7 +523,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{121, 560}, {60, 40}}</string>
 						<key>image</key>
@@ -539,7 +539,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{269, 409}, {41, 43}}</string>
 						<key>image</key>
@@ -554,7 +554,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{482, 641}, {41, 43}}</string>
 						<key>image</key>
@@ -569,7 +569,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{364, 463}, {54, 51}}</string>
 						<key>image</key>
@@ -586,7 +586,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{182, 527}, {54, 51}}</string>
 						<key>image</key>
@@ -603,7 +603,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{122, 533}, {41, 44}}</string>
 						<key>image</key>
@@ -619,7 +619,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{444, 653}, {41, 44}}</string>
 						<key>image</key>
@@ -635,7 +635,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{230, 491}, {40, 41}}</string>
 						<key>image</key>
@@ -652,7 +652,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{456, 635}, {40, 41}}</string>
 						<key>image</key>
@@ -667,7 +667,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{266, 571}, {40, 41}}</string>
 						<key>image</key>
@@ -683,7 +683,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{265, 671}, {40, 41}}</string>
 						<key>image</key>
@@ -699,7 +699,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{497, 521}, {40, 41}}</string>
 						<key>image</key>
@@ -715,7 +715,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{323, 430}, {40, 41}}</string>
 						<key>image</key>
@@ -730,7 +730,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{394, 676}, {40, 41}}</string>
 						<key>image</key>
@@ -747,7 +747,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{307, 441}, {40, 41}}</string>
 						<key>image</key>
@@ -762,7 +762,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{423, 568}, {66, 57}}</string>
 						<key>image</key>
@@ -782,7 +782,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{452, 504}, {41, 40}}</string>
 						<key>image</key>
@@ -797,7 +797,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{433, 459}, {63, 68}}</string>
 						<key>image</key>
@@ -815,7 +815,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{497, 586}, {63, 68}}</string>
 						<key>image</key>
@@ -833,7 +833,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{134, 433}, {63, 68}}</string>
 						<key>image</key>
@@ -851,7 +851,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{467, 513}, {63, 68}}</string>
 						<key>image</key>
@@ -869,7 +869,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{440, 543}, {52, 55}}</string>
 						<key>image</key>
@@ -890,7 +890,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{452, 575}, {121, 72}}</string>
 						<key>image</key>
@@ -907,7 +907,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{363, 583}, {129, 135}}</string>
 						<key>image</key>
@@ -928,7 +928,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{294, 600}, {129, 135}}</string>
 						<key>image</key>
@@ -949,7 +949,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{260, 440}, {129, 135}}</string>
 						<key>image</key>
@@ -970,7 +970,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{355, 476}, {129, 135}}</string>
 						<key>image</key>
@@ -991,7 +991,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{87, 621}, {40, 60}}</string>
 						<key>image</key>
@@ -1007,7 +1007,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{191, 487}, {40, 51}}</string>
 						<key>image</key>
@@ -1022,7 +1022,7 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTLeave</string>
 						<key>frame</key>
 						<string>{{85, 591}, {45, 63}}</string>
 						<key>image</key>
