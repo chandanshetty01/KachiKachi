@@ -17,9 +17,9 @@
 
 @interface KKGameSceneController ()
 
-
+@property(nonatomic,strong) NSMutableArray *deletedElements;
 @property(nonatomic,strong) NSMutableArray *elements;
-@property(nonatomic,strong) TTBase *currentElement;
+@property(nonatomic,assign) TTBase *currentElement;
 @property(nonatomic,assign) BOOL isGameFinished;
 
 @end
@@ -44,6 +44,8 @@ typedef void (^completionBlk)(BOOL);
     // Do any additional setup after loading the view.
     
     _elements = [[NSMutableArray alloc] init];
+    _deletedElements = [[NSMutableArray alloc] init];
+    
     _currentLevel = 1;
     _isGameFinished = FALSE;
     
@@ -149,11 +151,14 @@ typedef void (^completionBlk)(BOOL);
 
 -(void)showElementDissapearAnimation:(completionBlk)block
 {
-    [_currentElement showAnimation:^(BOOL finished) {
-        if(finished){
-            [_elements removeObject:_currentElement];
-            block(YES);
-        }
+    [_deletedElements enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+        [obj showAnimation:^(BOOL finished) {
+            if(finished){
+                [obj removeFromSuperview];
+                [_deletedElements removeObject:obj];
+                block(YES);
+            }
+        }];
     }];
 }
 
@@ -187,6 +192,8 @@ typedef void (^completionBlk)(BOOL);
     else if(_currentElement != nil)
     {
 #ifndef DEVELOPMENT_MODE
+        [_deletedElements addObject:_currentElement];
+        [_elements removeObject:_currentElement];
         [[SoundManager sharedManager] playSound:@"sound1" looping:NO];
         [self showElementDissapearAnimation:block];
 #endif

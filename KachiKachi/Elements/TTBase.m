@@ -42,7 +42,8 @@
     if(self.touchPoints == nil){
         self.touchPoints = [NSMutableArray array];
     }
-    
+    [self createPathRef];
+
     self.angle = [[inData objectForKey:@"angle"] floatValue];
     
     NSDictionary *animation = [inData objectForKey:@"animation"];
@@ -54,7 +55,7 @@
     }
     
 #ifdef DEVELOPMENT_MODE
-    self.backgroundColor = [UIColor clearColor];
+    self.backgroundColor = [UIColor grayColor];
 #else
     self.backgroundColor = [UIColor clearColor];
 #endif
@@ -70,12 +71,32 @@
     return dict;
 }
 
--(BOOL)canHandleTouch:(CGPoint)touchPoint
+-(void)createPathRef
 {
     CGMutablePathRef path = CGPathCreateMutable();
     int i = 0;
-/*
-#ifndef DEVELOPMENT_MODE
+    for(NSString* point in _touchPoints){
+        CGPoint cPoint = CGPointFromString(point);
+        cPoint.x = cPoint.x+self.frame.origin.x;
+        cPoint.y = cPoint.y+self.frame.origin.y;
+        
+        if(i == 0)
+            CGPathMoveToPoint(path, NULL, cPoint.x, cPoint.y);
+        else
+        {
+            CGPathAddLineToPoint(path, NULL, cPoint.x, cPoint.y);
+        }
+        i++;
+    }
+    CGPathCloseSubpath(path);
+    self.objectPath = path;
+}
+
+-(BOOL)canHandleTouch:(CGPoint)touchPoint
+{
+#ifdef DEVELOPMENT_MODE
+    CGMutablePathRef path = CGPathCreateMutable();
+    int i = 0;
     NSMutableArray *touchArry = [NSMutableArray array];
     [touchArry addObject:NSStringFromCGPoint(CGPointMake(0, 0))];
     [touchArry addObject:NSStringFromCGPoint(CGPointMake(self.frame.size.width,0))];
@@ -99,27 +120,15 @@
     CGPathCloseSubpath(path);
     
     if(CGPathContainsPoint(path, nil, touchPoint, NO))
+    {
+        CGPathRelease(path);
         return YES;
+    }
+    CGPathRelease(path);
     return NO;
 #endif
- */
     
-    for(NSString* point in _touchPoints){
-        CGPoint cPoint = CGPointFromString(point);
-        cPoint.x = cPoint.x+self.frame.origin.x;
-        cPoint.y = cPoint.y+self.frame.origin.y;
-        
-        if(i == 0)
-            CGPathMoveToPoint(path, NULL, cPoint.x, cPoint.y);
-        else
-        {
-            CGPathAddLineToPoint(path, NULL, cPoint.x, cPoint.y);
-        }
-        i++;
-    }
-    CGPathCloseSubpath(path);
-    
-    if(CGPathContainsPoint(path, nil, touchPoint, NO))
+    if(CGPathContainsPoint(self.objectPath, nil, touchPoint, NO))
         return YES;
     return NO;
 }
@@ -186,6 +195,7 @@
         else
             CGContextAddLineToPoint(context, cPoint.x, cPoint.y); //draw to this point
     }
+    //CGContextFillPath(context);
     CGContextClosePath(context);
 
     // and now draw the Path!
@@ -193,7 +203,7 @@
 #endif
     [super drawRect:rect];
 }
-
+ 
 -(void)showAnimation:(completionBlk)completionBlk
 {
     [UIView animateWithDuration:.5f animations:^{
@@ -233,5 +243,10 @@
  return NO;
  }
  */
+
+- (void)dealloc
+{
+    CGPathRelease(_objectPath);
+}
 
 @end
