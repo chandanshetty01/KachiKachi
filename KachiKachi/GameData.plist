@@ -6211,18 +6211,25 @@
 				<key>background</key>
 				<string>choc_BG.png</string>
 				<key>basket_frame</key>
-				<string>{600,100}</string>
+				<string>{204,371}</string>
+				<key>basket</key>
+				<string>bucket_front_part</string>
 				<key>life</key>
 				<real>4</real>
 				<key>elements</key>
 				<array>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTChoc</string>
 						<key>frame</key>
 						<string>{{597, 634}, {111, 53}}</string>
 						<key>image</key>
 						<string>choc_1.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{324, 404}, {111, 53}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{76, 3}</string>
@@ -6242,11 +6249,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTChoc</string>
 						<key>frame</key>
 						<string>{{156, 644}, {111, 53}}</string>
 						<key>image</key>
 						<string>choc_1.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{292, 367}, {111, 53}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{76, 3}</string>
@@ -6266,11 +6278,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTChoc</string>
 						<key>frame</key>
 						<string>{{480, 554}, {43, 96}}</string>
 						<key>image</key>
 						<string>choc_2.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{335, 366}, {43, 96}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{28, 21}</string>
@@ -6293,11 +6310,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTChoc</string>
 						<key>frame</key>
 						<string>{{320, 638}, {43, 96}}</string>
 						<key>image</key>
 						<string>choc_2.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{371, 365}, {43, 96}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{28, 21}</string>
@@ -6320,11 +6342,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTChoc</string>
 						<key>frame</key>
 						<string>{{105, 673}, {122, 55}}</string>
 						<key>image</key>
 						<string>choc_3.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{247, 361}, {122, 55}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{27, 36}</string>
@@ -6348,11 +6375,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTChoc</string>
 						<key>frame</key>
 						<string>{{640, 592}, {122, 55}}</string>
 						<key>image</key>
 						<string>choc_3.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{287, 396}, {122, 55}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{27, 36}</string>
@@ -6376,11 +6408,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTChoc</string>
 						<key>frame</key>
 						<string>{{639, 632}, {103, 105}}</string>
 						<key>image</key>
 						<string>choc_4.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{257, 340}, {103, 105}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{23, 74}</string>
@@ -6402,11 +6439,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTChoc</string>
 						<key>frame</key>
 						<string>{{280, 644}, {103, 105}}</string>
 						<key>image</key>
 						<string>choc_4.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{252, 334}, {103, 105}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{23, 74}</string>
@@ -6428,11 +6470,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTChoc</string>
 						<key>frame</key>
 						<string>{{266, 572}, {57, 79}}</string>
 						<key>image</key>
 						<string>choc_5.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{313, 381}, {57, 79}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{36, 51}</string>
@@ -6449,11 +6496,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTChoc</string>
 						<key>frame</key>
 						<string>{{599, 556}, {57, 79}}</string>
 						<key>image</key>
 						<string>choc_5.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{311, 383}, {57, 79}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{36, 51}</string>
@@ -6470,11 +6522,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTChoc</string>
 						<key>frame</key>
 						<string>{{573, 655}, {81, 79}}</string>
 						<key>image</key>
 						<string>choc_6.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{308, 378}, {81, 79}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{3, 21}</string>
@@ -6493,11 +6550,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTChoc</string>
 						<key>frame</key>
 						<string>{{162, 652}, {81, 79}}</string>
 						<key>image</key>
 						<string>choc_6.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{295, 377}, {81, 79}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{3, 21}</string>
@@ -6516,11 +6578,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTChoc</string>
 						<key>frame</key>
 						<string>{{498, 580}, {86, 97}}</string>
 						<key>image</key>
 						<string>choc_7.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{316, 367}, {86, 97}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{13, 3}</string>
@@ -6545,11 +6612,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTChoc</string>
 						<key>frame</key>
 						<string>{{275, 554}, {86, 97}}</string>
 						<key>image</key>
 						<string>choc_7.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{303, 358}, {86, 97}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{13, 3}</string>
@@ -6574,11 +6646,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTChoc</string>
 						<key>frame</key>
 						<string>{{703, 634}, {86, 97}}</string>
 						<key>image</key>
 						<string>choc_8.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{273, 347}, {86, 97}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{17, 95}</string>
@@ -6603,11 +6680,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTChoc</string>
 						<key>frame</key>
 						<string>{{619, 542}, {86, 97}}</string>
 						<key>image</key>
 						<string>choc_8.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{333, 366}, {86, 97}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{17, 95}</string>
@@ -6632,11 +6714,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTChoc</string>
 						<key>frame</key>
 						<string>{{446, 626}, {86, 92}}</string>
 						<key>image</key>
 						<string>choc_9_with_bonus.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{349, 363}, {86, 92}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{5, 26}</string>
@@ -6671,11 +6758,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTChoc</string>
 						<key>frame</key>
 						<string>{{214, 577}, {86, 92}}</string>
 						<key>image</key>
 						<string>choc_9_with_bonus.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{368, 348}, {86, 92}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{5, 26}</string>
@@ -6710,11 +6802,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTChoc</string>
 						<key>frame</key>
 						<string>{{555, 593}, {92, 86}}</string>
 						<key>image</key>
 						<string>choc_10_with_bonus.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{295, 364}, {92, 86}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{39, 68}</string>
@@ -6747,11 +6844,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTChoc</string>
 						<key>frame</key>
 						<string>{{345, 559}, {92, 86}}</string>
 						<key>image</key>
 						<string>choc_10_with_bonus.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{320, 379}, {92, 86}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{39, 68}</string>
@@ -6784,11 +6886,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTChoc</string>
 						<key>frame</key>
 						<string>{{259, 644}, {66, 81}}</string>
 						<key>image</key>
 						<string>choc_11.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{304, 377}, {66, 81}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{8, 80}</string>
@@ -6807,11 +6914,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTChoc</string>
 						<key>frame</key>
 						<string>{{414, 594}, {66, 81}}</string>
 						<key>image</key>
 						<string>choc_11.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{339, 382}, {66, 81}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{8, 80}</string>
@@ -6830,11 +6942,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTChoc</string>
 						<key>frame</key>
 						<string>{{284, 609}, {137, 63}}</string>
 						<key>image</key>
 						<string>choc_12.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{285, 385}, {137, 63}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{41, 27}</string>
@@ -6861,11 +6978,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTChoc</string>
 						<key>frame</key>
 						<string>{{377, 675}, {137, 63}}</string>
 						<key>image</key>
 						<string>choc_12.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{293, 391}, {137, 63}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{41, 27}</string>
@@ -6892,11 +7014,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTChoc</string>
 						<key>frame</key>
 						<string>{{510, 644}, {70, 53}}</string>
 						<key>image</key>
 						<string>choc_13.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{347, 402}, {70, 53}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{53, 51}</string>
@@ -6917,11 +7044,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTChoc</string>
 						<key>frame</key>
 						<string>{{348, 653}, {70, 53}}</string>
 						<key>image</key>
 						<string>choc_13.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{330, 408}, {70, 53}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{53, 51}</string>
@@ -6942,11 +7074,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTChoc</string>
 						<key>frame</key>
 						<string>{{528, 553}, {70, 53}}</string>
 						<key>image</key>
 						<string>choc_14.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{330, 379}, {70, 53}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{20, 51}</string>
@@ -6967,11 +7104,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTChoc</string>
 						<key>frame</key>
 						<string>{{235, 552}, {70, 53}}</string>
 						<key>image</key>
 						<string>choc_14.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{249, 371}, {70, 53}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{20, 51}</string>
@@ -6992,11 +7134,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTChoc</string>
 						<key>frame</key>
 						<string>{{516, 552}, {75, 73}}</string>
 						<key>image</key>
 						<string>choc_15.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{269, 359}, {75, 73}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{73, 65}</string>
@@ -7014,11 +7161,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTChoc</string>
 						<key>frame</key>
 						<string>{{427, 553}, {75, 73}}</string>
 						<key>image</key>
 						<string>choc_15.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{307, 356}, {75, 73}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{73, 65}</string>
@@ -7036,11 +7188,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTChoc</string>
 						<key>frame</key>
 						<string>{{130, 530}, {98, 123}}</string>
 						<key>image</key>
 						<string>choc_16.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{359, 324}, {98, 123}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{50, 34}</string>
@@ -7065,11 +7222,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTChoc</string>
 						<key>frame</key>
 						<string>{{557, 630}, {98, 123}}</string>
 						<key>image</key>
 						<string>choc_16.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{263, 321}, {98, 123}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{50, 34}</string>
