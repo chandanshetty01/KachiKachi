@@ -86,19 +86,20 @@ typedef void (^completionBlk)(BOOL);
 
 - (IBAction)handleMailBtn:(id)sender
 {
+    NSString* plistPath = [[[NSBundle mainBundle] bundlePath] stringByAppendingPathComponent:@"savedData.plist"];
+    
     NSMutableDictionary *data = [NSMutableDictionary dictionary];
     NSMutableArray *tElements = [NSMutableArray array];
     for (TTBase *element in _elements) {
         [tElements addObject:[element saveDictionary]];
     }
     [data setObject:tElements forKey:@"data"];
-    [data writeToFile:@"savedData.plist" atomically:YES];
+    [data writeToFile:plistPath atomically:YES];
     
     // Attach an image to the email
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"savedData" ofType:@"plist"];
-    NSData *myData = [NSData dataWithContentsOfFile:path];
+    NSData *myData = [NSData dataWithContentsOfFile:plistPath];
     NSString *attachmentMime = @"text/xml";
-    NSString *attachmentName = @"savedData";
+    NSString *attachmentName = @"savedData.plist";
     
     // Fill out the email body text
     NSString *emailBody = @"Hi, \n\n Check out new level data! \n\n\nRegards, \nKachi-Kachi";
