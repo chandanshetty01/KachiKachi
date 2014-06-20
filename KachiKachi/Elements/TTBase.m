@@ -128,7 +128,7 @@
     return NO;
 #endif
     
-    if(CGPathContainsPoint(self.objectPath, nil, touchPoint, NO))
+    if(self.userInteractionEnabled && CGPathContainsPoint(self.objectPath, nil, touchPoint, NO))
         return YES;
     return NO;
 }

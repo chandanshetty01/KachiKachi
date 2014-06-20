@@ -25,6 +25,7 @@ typedef void (^completionBlk)(BOOL);
 @property(nonatomic,assign) CGFloat animationScale;
 @property(nonatomic,assign) BOOL hasEndAnimation;
 @property(nonatomic,assign) CGMutablePathRef objectPath;
+@property(nonatomic,strong) completionBlk completionBlk;
 
 - (void)handleTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event;
 - (void)handleTouchesMoved:(NSSet *)touches withEvent:(UIEvent *)event;

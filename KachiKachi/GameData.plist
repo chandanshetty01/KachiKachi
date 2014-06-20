@@ -4276,7 +4276,7 @@
 				<key>basket</key>
 				<string>boat_front_side.png</string>
 				<key>basket_frame</key>
-				<string>{350,226}</string>
+				<string>{404,247}</string>
 				<key>background</key>
 				<string>disc_bg.png</string>
 				<key>life</key>
@@ -4285,11 +4285,16 @@
 				<array>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTDisc</string>
 						<key>frame</key>
 						<string>{{313, 645}, {66, 71}}</string>
 						<key>image</key>
 						<string>disc1.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{474, 241}, {66, 71}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{19, 3}</string>
@@ -4304,11 +4309,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTDisc</string>
 						<key>frame</key>
 						<string>{{402, 560}, {66, 71}}</string>
 						<key>image</key>
 						<string>disc1.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{441, 235}, {67, 71}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{19, 3}</string>
@@ -4323,11 +4333,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTDisc</string>
 						<key>frame</key>
 						<string>{{251, 546}, {66, 71}}</string>
 						<key>image</key>
 						<string>disc1.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{441, 235}, {67, 71}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{19, 3}</string>
@@ -4342,11 +4357,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTDisc</string>
 						<key>frame</key>
 						<string>{{253, 625}, {66, 71}}</string>
 						<key>image</key>
 						<string>disc1.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{436, 230}, {66, 71}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{19, 3}</string>
@@ -4361,11 +4381,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTDisc</string>
 						<key>frame</key>
 						<string>{{532, 573}, {67, 71}}</string>
 						<key>image</key>
 						<string>disc2.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{474, 241}, {66, 71}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{21, 5}</string>
@@ -4380,11 +4405,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTDisc</string>
 						<key>frame</key>
 						<string>{{369, 523}, {67, 71}}</string>
 						<key>image</key>
 						<string>disc2.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{441, 235}, {67, 71}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{21, 5}</string>
@@ -4399,11 +4429,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTDisc</string>
 						<key>frame</key>
 						<string>{{409, 597}, {67, 71}}</string>
 						<key>image</key>
 						<string>disc2.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{436, 230}, {66, 71}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{21, 5}</string>
@@ -4418,11 +4453,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTDisc</string>
 						<key>frame</key>
 						<string>{{286, 635}, {67, 71}}</string>
 						<key>image</key>
 						<string>disc2.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{490, 234}, {66, 71}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{21, 5}</string>
@@ -4437,11 +4477,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTDisc</string>
 						<key>frame</key>
 						<string>{{448, 516}, {67, 72}}</string>
 						<key>image</key>
 						<string>disc3.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{436, 230}, {66, 71}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{19, 5}</string>
@@ -4456,11 +4501,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTDisc</string>
 						<key>frame</key>
 						<string>{{309, 516}, {67, 72}}</string>
 						<key>image</key>
 						<string>disc3.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{474, 241}, {66, 71}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{19, 5}</string>
@@ -4475,11 +4525,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTDisc</string>
 						<key>frame</key>
 						<string>{{412, 539}, {67, 72}}</string>
 						<key>image</key>
 						<string>disc3.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{520, 236}, {67, 71}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{19, 5}</string>
@@ -4494,11 +4549,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTDisc</string>
 						<key>frame</key>
 						<string>{{404, 647}, {67, 72}}</string>
 						<key>image</key>
 						<string>disc3.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{490, 234}, {66, 71}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{19, 5}</string>
@@ -4513,11 +4573,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTDisc</string>
 						<key>frame</key>
 						<string>{{525, 607}, {66, 72}}</string>
 						<key>image</key>
 						<string>disc4.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{436, 230}, {66, 71}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{19, 5}</string>
@@ -4532,11 +4597,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTDisc</string>
 						<key>frame</key>
 						<string>{{488, 643}, {66, 72}}</string>
 						<key>image</key>
 						<string>disc4.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{520, 236}, {67, 71}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{19, 5}</string>
@@ -4551,11 +4621,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTDisc</string>
 						<key>frame</key>
 						<string>{{411, 516}, {66, 72}}</string>
 						<key>image</key>
 						<string>disc4.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{474, 241}, {66, 71}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{19, 5}</string>
@@ -4570,11 +4645,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTDisc</string>
 						<key>frame</key>
 						<string>{{294, 556}, {66, 72}}</string>
 						<key>image</key>
 						<string>disc4.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{490, 234}, {66, 71}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{19, 5}</string>
@@ -4589,11 +4669,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTDisc</string>
 						<key>frame</key>
 						<string>{{505, 575}, {67, 71}}</string>
 						<key>image</key>
 						<string>disc5.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{546, 220}, {66, 72}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{16, 4}</string>
@@ -4608,11 +4693,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTDisc</string>
 						<key>frame</key>
 						<string>{{317, 593}, {67, 71}}</string>
 						<key>image</key>
 						<string>disc5.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{490, 234}, {66, 71}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{16, 4}</string>
@@ -4627,11 +4717,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTDisc</string>
 						<key>frame</key>
 						<string>{{324, 552}, {67, 71}}</string>
 						<key>image</key>
 						<string>disc5.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{546, 220}, {66, 72}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{16, 4}</string>
@@ -4646,11 +4741,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTDisc</string>
 						<key>frame</key>
 						<string>{{271, 586}, {67, 71}}</string>
 						<key>image</key>
 						<string>disc5.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{474, 241}, {66, 71}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{16, 4}</string>
@@ -4665,11 +4765,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTDisc</string>
 						<key>frame</key>
 						<string>{{520, 524}, {67, 71}}</string>
 						<key>image</key>
 						<string>disc6.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{546, 220}, {66, 72}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{17, 1}</string>
@@ -4684,11 +4789,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTDisc</string>
 						<key>frame</key>
 						<string>{{368, 627}, {67, 71}}</string>
 						<key>image</key>
 						<string>disc6.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{546, 220}, {66, 72}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{17, 1}</string>
@@ -4703,11 +4813,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTDisc</string>
 						<key>frame</key>
 						<string>{{364, 565}, {67, 71}}</string>
 						<key>image</key>
 						<string>disc6.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{482, 228}, {67, 71}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{17, 1}</string>
@@ -4722,11 +4837,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTDisc</string>
 						<key>frame</key>
 						<string>{{342, 618}, {67, 71}}</string>
 						<key>image</key>
 						<string>disc6.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{520, 236}, {67, 71}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{17, 1}</string>
@@ -4741,11 +4861,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTDisc</string>
 						<key>frame</key>
 						<string>{{559, 487}, {66, 71}}</string>
 						<key>image</key>
 						<string>disc7.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{474, 241}, {66, 71}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{20, 3}</string>
@@ -4760,11 +4885,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTDisc</string>
 						<key>frame</key>
 						<string>{{274, 506}, {66, 71}}</string>
 						<key>image</key>
 						<string>disc7.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{520, 236}, {67, 71}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{20, 3}</string>
@@ -4779,11 +4909,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTDisc</string>
 						<key>frame</key>
 						<string>{{543, 531}, {66, 71}}</string>
 						<key>image</key>
 						<string>disc7.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{482, 228}, {67, 71}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{20, 3}</string>
@@ -4798,11 +4933,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTDisc</string>
 						<key>frame</key>
 						<string>{{513, 626}, {66, 71}}</string>
 						<key>image</key>
 						<string>disc7.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{497, 236}, {67, 72}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{20, 3}</string>
@@ -4817,11 +4957,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTDisc</string>
 						<key>frame</key>
 						<string>{{480, 541}, {66, 71}}</string>
 						<key>image</key>
 						<string>disc8.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{497, 236}, {67, 72}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{17, 3}</string>
@@ -4836,11 +4981,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTDisc</string>
 						<key>frame</key>
 						<string>{{468, 599}, {66, 71}}</string>
 						<key>image</key>
 						<string>disc8.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{497, 236}, {67, 72}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{17, 3}</string>
@@ -4855,11 +5005,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTDisc</string>
 						<key>frame</key>
 						<string>{{435, 624}, {66, 71}}</string>
 						<key>image</key>
 						<string>disc8.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{474, 241}, {66, 71}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{17, 3}</string>
@@ -4874,11 +5029,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTDisc</string>
 						<key>frame</key>
 						<string>{{440, 565}, {66, 71}}</string>
 						<key>image</key>
 						<string>disc8.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{482, 228}, {67, 71}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{17, 3}</string>
@@ -4896,11 +5056,16 @@
 				<array>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTDisc</string>
 						<key>frame</key>
 						<string>{{59, 498}, {66, 71}}</string>
 						<key>image</key>
 						<string>disc1.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{474, 241}, {66, 71}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{19, 3}</string>
@@ -4915,11 +5080,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTDisc</string>
 						<key>frame</key>
 						<string>{{510, 463}, {67, 71}}</string>
 						<key>image</key>
 						<string>disc2.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{482, 228}, {67, 71}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{21, 5}</string>
@@ -4934,11 +5104,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTDisc</string>
 						<key>frame</key>
 						<string>{{612, 609}, {67, 72}}</string>
 						<key>image</key>
 						<string>disc3.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{497, 236}, {67, 72}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{19, 5}</string>
@@ -4953,11 +5128,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTDisc</string>
 						<key>frame</key>
 						<string>{{710, 539}, {66, 72}}</string>
 						<key>image</key>
 						<string>disc4.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{546, 220}, {66, 72}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{19, 5}</string>
@@ -4972,11 +5152,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTDisc</string>
 						<key>frame</key>
 						<string>{{38, 579}, {67, 71}}</string>
 						<key>image</key>
 						<string>disc5.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{520, 236}, {67, 71}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{16, 4}</string>
@@ -4991,11 +5176,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTDisc</string>
 						<key>frame</key>
 						<string>{{374, 495}, {67, 71}}</string>
 						<key>image</key>
 						<string>disc6.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{441, 235}, {67, 71}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{17, 1}</string>
@@ -5010,11 +5200,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTDisc</string>
 						<key>frame</key>
 						<string>{{869, 589}, {66, 71}}</string>
 						<key>image</key>
 						<string>disc7.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{436, 230}, {66, 71}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{20, 3}</string>
@@ -5029,11 +5224,16 @@
 					</dict>
 					<dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTDisc</string>
 						<key>frame</key>
 						<string>{{630, 466}, {66, 71}}</string>
 						<key>image</key>
 						<string>disc8.png</string>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{490, 234}, {66, 71}}</string>
+						</dict>
 						<key>touchPoints</key>
 						<array>
 							<string>{17, 3}</string>

@@ -136,7 +136,7 @@ typedef void (^completionBlk)(BOOL);
     
     _basketImageView = [[UIImageView alloc] initWithFrame:frame];
     _basketImageView.image = image;
-    [_background addSubview:_basketImageView];
+    [self.view addSubview:_basketImageView];
 }
 
 -(void)generateElement:(NSDictionary*)data
@@ -188,13 +188,15 @@ typedef void (^completionBlk)(BOOL);
 
 -(void)showElementDissapearAnimation:(completionBlk)block
 {
-    [_deletedElements enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
-        [obj showAnimation:^(BOOL finished) {
-            if(finished){
+    [_deletedElements enumerateObjectsUsingBlock:^(TTBase *obj, NSUInteger idx, BOOL *stop) {
+        self.view.userInteractionEnabled = NO;
+        [obj showAnimation:^(BOOL canRemoveObject) {
+            if(canRemoveObject){
                 [obj removeFromSuperview];
-                [_deletedElements removeObject:obj];
-                block(YES);
             }
+            self.view.userInteractionEnabled = YES;
+            [_deletedElements removeObject:obj];
+            block(YES);
         }];
     }];
 }
@@ -288,17 +290,19 @@ typedef void (^completionBlk)(BOOL);
 
 -(void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
 {
-    if([self.switchBtn isOn])
-        _currentElement.canSaveTouchPoints = YES;
-    else
-        _currentElement.canSaveTouchPoints = NO;
-    
-    if(_currentElement)
-        [_currentElement handleTouchesEnded:touches withEvent:event];
-    
-    [self validateGamePlay:^(BOOL finished) {
-        _currentElement = nil;
-    }];
+    if(_currentElement.userInteractionEnabled){
+        if([self.switchBtn isOn])
+            _currentElement.canSaveTouchPoints = YES;
+        else
+            _currentElement.canSaveTouchPoints = NO;
+        
+        if(_currentElement)
+            [_currentElement handleTouchesEnded:touches withEvent:event];
+        
+        [self validateGamePlay:^(BOOL finished) {
+            _currentElement = nil;
+        }];
+    }
 }
 
 -(void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
@@ -327,7 +331,10 @@ typedef void (^completionBlk)(BOOL);
 
 - (void)dealloc
 {
-    
+    [_deletedElements enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+        [obj removeFromSuperview];
+        [_deletedElements removeObject:obj];;
+    }];
 }
 
 - (void)didReceiveMemoryWarning

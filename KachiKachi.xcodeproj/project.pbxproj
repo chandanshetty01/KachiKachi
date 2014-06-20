@@ -10,6 +10,7 @@
 		A305F2A91945EAB800B62C6C /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = A305F2A81945EAB800B62C6C /* iTunesArtwork */; };
 		A305F2B71945F0DB00B62C6C /* KKGameStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A305F2B61945F0DB00B62C6C /* KKGameStateManager.m */; };
 		A314CCE2194F2B620002BECC /* KKStageSelectController.m in Sources */ = {isa = PBXBuildFile; fileRef = A314CCE1194F2B620002BECC /* KKStageSelectController.m */; };
+		A36A12E7195495ED007F6355 /* TTDisc.m in Sources */ = {isa = PBXBuildFile; fileRef = A36A12E6195495ED007F6355 /* TTDisc.m */; };
 		A3A67E791902B67700BFAF7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3A67E781902B67700BFAF7B /* Foundation.framework */; };
 		A3A67E7B1902B67700BFAF7B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3A67E7A1902B67700BFAF7B /* CoreGraphics.framework */; };
 		A3A67E7D1902B67700BFAF7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3A67E7C1902B67700BFAF7B /* UIKit.framework */; };
@@ -58,6 +59,8 @@
 		A305F2B61945F0DB00B62C6C /* KKGameStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKGameStateManager.m; sourceTree = "<group>"; };
 		A314CCE0194F2B620002BECC /* KKStageSelectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKStageSelectController.h; sourceTree = "<group>"; };
 		A314CCE1194F2B620002BECC /* KKStageSelectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKStageSelectController.m; sourceTree = "<group>"; };
+		A36A12E5195495ED007F6355 /* TTDisc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTDisc.h; sourceTree = "<group>"; };
+		A36A12E6195495ED007F6355 /* TTDisc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTDisc.m; sourceTree = "<group>"; };
 		A3A67E751902B67700BFAF7B /* KachiKachi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KachiKachi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3A67E781902B67700BFAF7B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A3A67E7A1902B67700BFAF7B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -252,6 +255,8 @@
 				A3E9E96D1944BA0A00898279 /* TTBalloon.m */,
 				A3BE4D79195329EF00C466ED /* TTLeave.h */,
 				A3BE4D7A195329EF00C466ED /* TTLeave.m */,
+				A36A12E5195495ED007F6355 /* TTDisc.h */,
+				A36A12E6195495ED007F6355 /* TTDisc.m */,
 			);
 			path = Elements;
 			sourceTree = "<group>";
@@ -393,6 +398,7 @@
 				A3B97D6B1930F7AD0049DCEB /* SoundManager.m in Sources */,
 				A3A67ED21902E3D300BFAF7B /* TTPencil.m in Sources */,
 				A3A67EBF1902C95D00BFAF7B /* KKGameConfigManager.m in Sources */,
+				A36A12E7195495ED007F6355 /* TTDisc.m in Sources */,
 				A3F1005019546B080002CA97 /* KKMailComposerManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
