@@ -16,5 +16,6 @@
 @property (weak, nonatomic) IBOutlet UISwitch *switchBtn;
 @property (weak, nonatomic) IBOutlet UIButton *saveBtn;
 @property (strong, nonatomic) UIImageView *basketImageView;
+@property (weak, nonatomic) IBOutlet UIButton *mailButton;
 
 @end

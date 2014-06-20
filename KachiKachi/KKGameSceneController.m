@@ -12,6 +12,7 @@
 #import "SoundManager.h"
 #import <Math.h>
 #import "AppDelegate.h"
+#import "KKMailComposerManager.h"
 
 #define RADIANS(degrees) ((degrees * M_PI) / 180.0)
 
@@ -54,9 +55,11 @@ typedef void (^completionBlk)(BOOL);
 #ifdef DEVELOPMENT_MODE
     _switchBtn.hidden = NO;
     _saveBtn.hidden = NO;
+    _mailButton.hidden = NO;
 #else
     _switchBtn.hidden = YES;
     _saveBtn.hidden = YES;
+    _mailButton.hidden = YES;
 #endif
     
     [_switchBtn setOn:NO];
@@ -78,6 +81,39 @@ typedef void (^completionBlk)(BOOL);
     }
     [data setObject:tElements forKey:@"data"];
     [data writeToFile:@"/Users/chandanshettysp/Desktop/savedData.plist" atomically:YES];
+}
+
+
+- (IBAction)handleMailBtn:(id)sender
+{
+    NSMutableDictionary *data = [NSMutableDictionary dictionary];
+    NSMutableArray *tElements = [NSMutableArray array];
+    for (TTBase *element in _elements) {
+        [tElements addObject:[element saveDictionary]];
+    }
+    [data setObject:tElements forKey:@"data"];
+    [data writeToFile:@"savedData.plist" atomically:YES];
+    
+    // Attach an image to the email
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"savedData" ofType:@"plist"];
+    NSData *myData = [NSData dataWithContentsOfFile:path];
+    NSString *attachmentMime = @"text/xml";
+    NSString *attachmentName = @"savedData";
+    
+    // Fill out the email body text
+    NSString *emailBody = @"Hi, \n\n Check out new level data! \n\n\nRegards, \nKachi-Kachi";
+    NSString *emailSub = [NSString stringWithFormat:@"KACHI KACHI: Level %d Item %d",self.currentLevel,self.currentItemID];
+
+    NSArray *toRecipients = [NSArray arrayWithObject:@"chandanshetty01@gmail.com"];
+    NSArray *ccRecipients = [NSArray arrayWithObjects:@"26anil.kushwaha@gmail.com", @"ashishpra.pra@gmail.com", nil];
+    [[KKMailComposerManager sharedManager] displayMailComposerSheet:self
+                                                       toRecipients:toRecipients
+                                                       ccRecipients:ccRecipients
+                                                     attachmentData:myData
+                                                 attachmentMimeType:attachmentMime
+                                                 attachmentFileName:attachmentName
+                                                          emailBody:emailBody
+                                                       emailSubject:emailSub];
 }
 
 -(void)addElements

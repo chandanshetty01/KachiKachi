@@ -38,6 +38,7 @@
 		A3BE4D7B195329EF00C466ED /* TTLeave.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BE4D7A195329EF00C466ED /* TTLeave.m */; };
 		A3D832C4194315ED00C0908C /* TTKite.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D832C3194315ED00C0908C /* TTKite.m */; };
 		A3E9E96E1944BA0A00898279 /* TTBalloon.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E9E96D1944BA0A00898279 /* TTBalloon.m */; };
+		A3F1005019546B080002CA97 /* KKMailComposerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F1004F19546B080002CA97 /* KKMailComposerManager.m */; };
 		A3FB4F4719125D070039585F /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FB4F4619125D070039585F /* Utility.m */; };
 /* End PBXBuildFile section */
 
@@ -98,6 +99,8 @@
 		A3D832C3194315ED00C0908C /* TTKite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTKite.m; sourceTree = "<group>"; };
 		A3E9E96C1944BA0A00898279 /* TTBalloon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTBalloon.h; sourceTree = "<group>"; };
 		A3E9E96D1944BA0A00898279 /* TTBalloon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTBalloon.m; sourceTree = "<group>"; };
+		A3F1004E19546B080002CA97 /* KKMailComposerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKMailComposerManager.h; sourceTree = "<group>"; };
+		A3F1004F19546B080002CA97 /* KKMailComposerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKMailComposerManager.m; sourceTree = "<group>"; };
 		A3FB4F4519125D070039585F /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
 		A3FB4F4619125D070039585F /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -178,6 +181,7 @@
 		A3A67E7E1902B67700BFAF7B /* KachiKachi */ = {
 			isa = PBXGroup;
 			children = (
+				A3F1004A1954699C0002CA97 /* mail */,
 				A314CCDF194F2ACF0002BECC /* controllers */,
 				A305F2B41945F0C100B62C6C /* Classes */,
 				A3A67E871902B67700BFAF7B /* AppDelegate.h */,
@@ -259,6 +263,16 @@
 				A3B97D6A1930F7AD0049DCEB /* SoundManager.m */,
 			);
 			path = Sound;
+			sourceTree = "<group>";
+		};
+		A3F1004A1954699C0002CA97 /* mail */ = {
+			isa = PBXGroup;
+			children = (
+				A3F1004E19546B080002CA97 /* KKMailComposerManager.h */,
+				A3F1004F19546B080002CA97 /* KKMailComposerManager.m */,
+			);
+			name = mail;
+			path = Classes/mail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -379,6 +393,7 @@
 				A3B97D6B1930F7AD0049DCEB /* SoundManager.m in Sources */,
 				A3A67ED21902E3D300BFAF7B /* TTPencil.m in Sources */,
 				A3A67EBF1902C95D00BFAF7B /* KKGameConfigManager.m in Sources */,
+				A3F1005019546B080002CA97 /* KKMailComposerManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

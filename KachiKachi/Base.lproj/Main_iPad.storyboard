@@ -205,6 +205,16 @@
                                     <action selector="backButtonAction:" destination="TV7-K8-EP0" eventType="touchUpInside" id="Whv-ox-vuS"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BNG-a1-NMy">
+                                <rect key="frame" x="811" y="80" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Mail">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="handleMailBtn:" destination="TV7-K8-EP0" eventType="touchUpInside" id="wxl-xs-feN"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -213,6 +223,7 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
                         <outlet property="background" destination="jLt-cX-sdO" id="cuq-gE-lZ9"/>
+                        <outlet property="mailButton" destination="BNG-a1-NMy" id="O4r-L8-Js7"/>
                         <outlet property="saveBtn" destination="yfJ-ll-bby" id="s7j-Zz-GAg"/>
                         <outlet property="switchBtn" destination="OzG-is-W8j" id="r8T-Ag-UDI"/>
                     </connections>
