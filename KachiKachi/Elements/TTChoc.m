@@ -40,7 +40,7 @@
     CAAnimationGroup *group = [CAAnimationGroup animation];
     group.removedOnCompletion = YES;
     [group setAnimations:[NSArray arrayWithObjects:pathAnimation, nil]];
-    group.duration = 0.7f;
+    group.duration = 0.5f;
     group.delegate = self;
     [self.layer addAnimation:group forKey:@"savingAnimation"];
 }

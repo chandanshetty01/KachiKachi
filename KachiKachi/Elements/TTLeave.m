@@ -12,8 +12,8 @@
 
 -(void)showAnimation:(completionBlk)completionBlk
 {
-    [UIView animateWithDuration:0.8
-                          delay:0.2
+    [UIView animateWithDuration:0.5
+                          delay:0
                         options:UIViewAnimationOptionCurveEaseInOut
                      animations:^{
                          CGRect frame = self.frame;
