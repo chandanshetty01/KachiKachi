@@ -3680,605 +3680,1236 @@
 						<key>basket</key>
 						<string>tree.png</string>
 						<key>basket_frame</key>
-						<string>{400,50}</string>
+						<string>{420,20}</string>
 					</dict>
 				</array>
 				<key>background</key>
 				<string>balloon_bg.png</string>
 				<key>life</key>
 				<real>4</real>
+				<key>original_elements</key>
+				<array>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{962, 188}, {83, 91}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTApple</string>
+						<key>frame</key>
+						<string>{{217, 165}, {83, 91}}</string>
+						<key>image</key>
+						<string>apple_1.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{59, 4}</string>
+							<string>{29, 4}</string>
+							<string>{4, 25}</string>
+							<string>{4, 73}</string>
+							<string>{21, 89}</string>
+							<string>{65, 89}</string>
+							<string>{79, 70}</string>
+							<string>{81, 24}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{927, 350}, {89, 100}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTApple</string>
+						<key>frame</key>
+						<string>{{185, 278}, {89, 100}}</string>
+						<key>image</key>
+						<string>apple_2.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{73, 12}</string>
+							<string>{27, 8}</string>
+							<string>{6, 20}</string>
+							<string>{2, 33}</string>
+							<string>{4, 72}</string>
+							<string>{24, 89}</string>
+							<string>{68, 93}</string>
+							<string>{87, 65}</string>
+							<string>{87, 22}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{671, 30}, {112, 104}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTApple</string>
+						<key>frame</key>
+						<string>{{52, 186}, {112, 104}}</string>
+						<key>image</key>
+						<string>apple_3.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{38, 4}</string>
+							<string>{22, 22}</string>
+							<string>{18, 46}</string>
+							<string>{25, 69}</string>
+							<string>{39, 84}</string>
+							<string>{75, 85}</string>
+							<string>{95, 63}</string>
+							<string>{97, 26}</string>
+							<string>{82, 6}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{526, 195}, {79, 83}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTApple</string>
+						<key>frame</key>
+						<string>{{408, 415}, {79, 83}}</string>
+						<key>image</key>
+						<string>apple_4.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{66, 12}</string>
+							<string>{22, 12}</string>
+							<string>{4, 25}</string>
+							<string>{3, 65}</string>
+							<string>{15, 79}</string>
+							<string>{69, 82}</string>
+							<string>{76, 67}</string>
+							<string>{76, 22}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{823, 151}, {83, 91}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTApple</string>
+						<key>frame</key>
+						<string>{{328, 273}, {83, 91}}</string>
+						<key>image</key>
+						<string>apple_5.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{58, 5}</string>
+							<string>{25, 4}</string>
+							<string>{4, 28}</string>
+							<string>{3, 68}</string>
+							<string>{24, 90}</string>
+							<string>{66, 86}</string>
+							<string>{80, 65}</string>
+							<string>{80, 26}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{800, 360}, {93, 91}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTApple</string>
+						<key>frame</key>
+						<string>{{411, 553}, {93, 91}}</string>
+						<key>image</key>
+						<string>apple_6.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{72, 4}</string>
+							<string>{27, 3}</string>
+							<string>{0, 27}</string>
+							<string>{3, 62}</string>
+							<string>{17, 83}</string>
+							<string>{27, 89}</string>
+							<string>{77, 89}</string>
+							<string>{88, 70}</string>
+							<string>{91, 24}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{677, 280}, {65, 91}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTApple</string>
+						<key>frame</key>
+						<string>{{322, 395}, {65, 91}}</string>
+						<key>image</key>
+						<string>apple_7.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{63, 26}</string>
+							<string>{32, 15}</string>
+							<string>{4, 24}</string>
+							<string>{3, 71}</string>
+							<string>{13, 85}</string>
+							<string>{52, 88}</string>
+							<string>{63, 64}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{517, 374}, {91, 87}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTApple</string>
+						<key>frame</key>
+						<string>{{23, 488}, {91, 87}}</string>
+						<key>image</key>
+						<string>apple_8.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{70, 5}</string>
+							<string>{24, 5}</string>
+							<string>{6, 17}</string>
+							<string>{2, 68}</string>
+							<string>{24, 85}</string>
+							<string>{72, 88}</string>
+							<string>{91, 65}</string>
+							<string>{88, 19}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{487, 152}, {91, 87}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTApple</string>
+						<key>frame</key>
+						<string>{{204, 401}, {91, 87}}</string>
+						<key>image</key>
+						<string>apple_9.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{68, 5}</string>
+							<string>{21, 5}</string>
+							<string>{3, 18}</string>
+							<string>{3, 66}</string>
+							<string>{23, 85}</string>
+							<string>{71, 85}</string>
+							<string>{87, 65}</string>
+							<string>{90, 21}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{423, 264}, {77, 84}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTApple</string>
+						<key>frame</key>
+						<string>{{63, 364}, {77, 84}}</string>
+						<key>image</key>
+						<string>apple_10.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{58, 5}</string>
+							<string>{18, 6}</string>
+							<string>{8, 12}</string>
+							<string>{0, 40}</string>
+							<string>{3, 63}</string>
+							<string>{27, 83}</string>
+							<string>{62, 81}</string>
+							<string>{76, 65}</string>
+							<string>{76, 24}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{891, 227}, {112, 104}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTApple</string>
+						<key>frame</key>
+						<string>{{269, 526}, {112, 104}}</string>
+						<key>image</key>
+						<string>apple_11.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{81, 5}</string>
+							<string>{45, 2}</string>
+							<string>{27, 12}</string>
+							<string>{21, 38}</string>
+							<string>{21, 60}</string>
+							<string>{39, 79}</string>
+							<string>{58, 88}</string>
+							<string>{87, 80}</string>
+							<string>{96, 21}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{869, 527}, {77, 84}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTApple</string>
+						<key>frame</key>
+						<string>{{156, 521}, {77, 84}}</string>
+						<key>image</key>
+						<string>apple_12.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{3, 26}</string>
+							<string>{25, 3}</string>
+							<string>{54, 3}</string>
+							<string>{75, 26}</string>
+							<string>{75, 65}</string>
+							<string>{57, 83}</string>
+							<string>{28, 83}</string>
+							<string>{3, 62}</string>
+						</array>
+					</dict>
+				</array>
 				<key>elements</key>
 				<array>
 					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{962, 188}, {83, 91}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTApple</string>
 						<key>frame</key>
-						<string>{{546, 448}, {83, 91}}</string>
+						<string>{{76, 529}, {83, 91}}</string>
 						<key>image</key>
 						<string>apple_1.png</string>
 						<key>touchPoints</key>
 						<array>
-							<string>{6, 5}</string>
-							<string>{83, 7}</string>
-							<string>{79, 86}</string>
-							<string>{6, 87}</string>
-							<string>{6, 5}</string>
+							<string>{59, 4}</string>
+							<string>{29, 4}</string>
+							<string>{4, 25}</string>
+							<string>{4, 73}</string>
+							<string>{21, 89}</string>
+							<string>{65, 89}</string>
+							<string>{79, 70}</string>
+							<string>{81, 24}</string>
 						</array>
 					</dict>
 					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{962, 188}, {83, 91}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTApple</string>
 						<key>frame</key>
-						<string>{{139, 515}, {89, 100}}</string>
-						<key>image</key>
-						<string>apple_2.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{9, 9}</string>
-							<string>{83, 9}</string>
-							<string>{85, 88}</string>
-							<string>{6, 91}</string>
-							<string>{9, 9}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTBase</string>
-						<key>frame</key>
-						<string>{{350, 602}, {112, 104}}</string>
-						<key>image</key>
-						<string>apple_3.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{20, 10}</string>
-							<string>{104, 8}</string>
-							<string>{100, 82}</string>
-							<string>{16, 81}</string>
-							<string>{20, 10}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTBase</string>
-						<key>frame</key>
-						<string>{{475, 477}, {79, 83}}</string>
-						<key>image</key>
-						<string>apple_4.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{6, 10}</string>
-							<string>{76, 8}</string>
-							<string>{77, 81}</string>
-							<string>{4, 80}</string>
-							<string>{6, 10}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTBase</string>
-						<key>frame</key>
-						<string>{{240, 438}, {83, 91}}</string>
-						<key>image</key>
-						<string>apple_5.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{4, 3}</string>
-							<string>{79, 5}</string>
-							<string>{80, 88}</string>
-							<string>{5, 87}</string>
-							<string>{4, 3}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTBase</string>
-						<key>frame</key>
-						<string>{{408, 380}, {93, 91}}</string>
-						<key>image</key>
-						<string>apple_6.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{5, 7}</string>
-							<string>{87, 6}</string>
-							<string>{89, 85}</string>
-							<string>{6, 87}</string>
-							<string>{5, 7}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTBase</string>
-						<key>frame</key>
-						<string>{{426, 438}, {65, 91}}</string>
-						<key>image</key>
-						<string>apple_7.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{5, 9}</string>
-							<string>{62, 13}</string>
-							<string>{61, 85}</string>
-							<string>{8, 85}</string>
-							<string>{5, 9}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTBase</string>
-						<key>frame</key>
-						<string>{{0, 0}, {0, 0}}</string>
-						<key>image</key>
-						<string>apple_8.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{4, 6}</string>
-							<string>{86, 5}</string>
-							<string>{88, 84}</string>
-							<string>{6, 83}</string>
-							<string>{4, 6}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTBase</string>
-						<key>frame</key>
-						<string>{{304, 407}, {91, 87}}</string>
-						<key>image</key>
-						<string>apple_9.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{4, 6}</string>
-							<string>{86, 5}</string>
-							<string>{88, 84}</string>
-							<string>{6, 83}</string>
-							<string>{4, 6}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTBase</string>
-						<key>frame</key>
-						<string>{{531, 521}, {77, 84}}</string>
-						<key>image</key>
-						<string>apple_10.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{5, 6}</string>
-							<string>{73, 7}</string>
-							<string>{76, 81}</string>
-							<string>{5, 82}</string>
-							<string>{5, 6}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTBase</string>
-						<key>frame</key>
-						<string>{{286, 587}, {112, 104}}</string>
-						<key>image</key>
-						<string>apple_11.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{17, 8}</string>
-							<string>{99, 7}</string>
-							<string>{98, 83}</string>
-							<string>{21, 90}</string>
-							<string>{17, 8}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTBase</string>
-						<key>frame</key>
-						<string>{{123, 642}, {77, 84}}</string>
-						<key>image</key>
-						<string>apple_12.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{7, 7}</string>
-							<string>{72, 5}</string>
-							<string>{73, 80}</string>
-							<string>{3, 80}</string>
-							<string>{7, 7}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTBase</string>
-						<key>frame</key>
-						<string>{{485, 619}, {83, 91}}</string>
+						<string>{{345, 396}, {83, 91}}</string>
 						<key>image</key>
 						<string>apple_1.png</string>
 						<key>touchPoints</key>
 						<array>
-							<string>{6, 5}</string>
-							<string>{83, 7}</string>
-							<string>{79, 86}</string>
-							<string>{6, 87}</string>
-							<string>{6, 5}</string>
+							<string>{59, 4}</string>
+							<string>{29, 4}</string>
+							<string>{4, 25}</string>
+							<string>{4, 73}</string>
+							<string>{21, 89}</string>
+							<string>{65, 89}</string>
+							<string>{79, 70}</string>
+							<string>{81, 24}</string>
 						</array>
 					</dict>
 					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{962, 188}, {83, 91}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTApple</string>
 						<key>frame</key>
-						<string>{{205, 481}, {89, 100}}</string>
-						<key>image</key>
-						<string>apple_2.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{9, 9}</string>
-							<string>{83, 9}</string>
-							<string>{85, 88}</string>
-							<string>{6, 91}</string>
-							<string>{9, 9}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTBase</string>
-						<key>frame</key>
-						<string>{{77, 478}, {112, 104}}</string>
-						<key>image</key>
-						<string>apple_3.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{20, 10}</string>
-							<string>{104, 8}</string>
-							<string>{100, 82}</string>
-							<string>{16, 81}</string>
-							<string>{20, 10}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTBase</string>
-						<key>frame</key>
-						<string>{{471, 553}, {79, 83}}</string>
-						<key>image</key>
-						<string>apple_4.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{6, 10}</string>
-							<string>{76, 8}</string>
-							<string>{77, 81}</string>
-							<string>{4, 80}</string>
-							<string>{6, 10}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTBase</string>
-						<key>frame</key>
-						<string>{{248, 349}, {83, 91}}</string>
-						<key>image</key>
-						<string>apple_5.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{4, 3}</string>
-							<string>{79, 5}</string>
-							<string>{80, 88}</string>
-							<string>{5, 87}</string>
-							<string>{4, 3}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTBase</string>
-						<key>frame</key>
-						<string>{{45, 529}, {93, 91}}</string>
-						<key>image</key>
-						<string>apple_6.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{5, 7}</string>
-							<string>{87, 6}</string>
-							<string>{89, 85}</string>
-							<string>{6, 87}</string>
-							<string>{5, 7}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTBase</string>
-						<key>frame</key>
-						<string>{{248, 607}, {65, 91}}</string>
-						<key>image</key>
-						<string>apple_7.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{5, 9}</string>
-							<string>{62, 13}</string>
-							<string>{61, 85}</string>
-							<string>{8, 85}</string>
-							<string>{5, 9}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTBase</string>
-						<key>frame</key>
-						<string>{{0, 0}, {0, 0}}</string>
-						<key>image</key>
-						<string>apple_8.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{4, 6}</string>
-							<string>{86, 5}</string>
-							<string>{88, 84}</string>
-							<string>{6, 83}</string>
-							<string>{4, 6}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTBase</string>
-						<key>frame</key>
-						<string>{{0, 0}, {0, 0}}</string>
-						<key>image</key>
-						<string>apple_8.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{4, 6}</string>
-							<string>{86, 5}</string>
-							<string>{88, 84}</string>
-							<string>{6, 83}</string>
-							<string>{4, 6}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTBase</string>
-						<key>frame</key>
-						<string>{{482, 419}, {77, 84}}</string>
-						<key>image</key>
-						<string>apple_10.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{5, 6}</string>
-							<string>{73, 7}</string>
-							<string>{76, 81}</string>
-							<string>{5, 82}</string>
-							<string>{5, 6}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTBase</string>
-						<key>frame</key>
-						<string>{{295, 480}, {91, 87}}</string>
-						<key>image</key>
-						<string>apple_9.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{4, 6}</string>
-							<string>{86, 5}</string>
-							<string>{88, 84}</string>
-							<string>{6, 83}</string>
-							<string>{4, 6}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTBase</string>
-						<key>frame</key>
-						<string>{{352, 438}, {112, 104}}</string>
-						<key>image</key>
-						<string>apple_11.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{17, 8}</string>
-							<string>{99, 7}</string>
-							<string>{98, 83}</string>
-							<string>{21, 90}</string>
-							<string>{17, 8}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTBase</string>
-						<key>frame</key>
-						<string>{{427, 604}, {77, 84}}</string>
-						<key>image</key>
-						<string>apple_12.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{7, 7}</string>
-							<string>{72, 5}</string>
-							<string>{73, 80}</string>
-							<string>{3, 80}</string>
-							<string>{7, 7}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTBase</string>
-						<key>frame</key>
-						<string>{{64, 423}, {83, 91}}</string>
+						<string>{{229, 351}, {83, 91}}</string>
 						<key>image</key>
 						<string>apple_1.png</string>
 						<key>touchPoints</key>
 						<array>
-							<string>{6, 5}</string>
-							<string>{83, 7}</string>
-							<string>{79, 86}</string>
-							<string>{6, 87}</string>
-							<string>{6, 5}</string>
+							<string>{59, 4}</string>
+							<string>{29, 4}</string>
+							<string>{4, 25}</string>
+							<string>{4, 73}</string>
+							<string>{21, 89}</string>
+							<string>{65, 89}</string>
+							<string>{79, 70}</string>
+							<string>{81, 24}</string>
 						</array>
 					</dict>
 					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{962, 188}, {83, 91}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTApple</string>
 						<key>frame</key>
-						<string>{{144, 427}, {89, 100}}</string>
+						<string>{{220, 590}, {83, 91}}</string>
+						<key>image</key>
+						<string>apple_1.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{59, 4}</string>
+							<string>{29, 4}</string>
+							<string>{4, 25}</string>
+							<string>{4, 73}</string>
+							<string>{21, 89}</string>
+							<string>{65, 89}</string>
+							<string>{79, 70}</string>
+							<string>{81, 24}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{927, 350}, {89, 100}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTApple</string>
+						<key>frame</key>
+						<string>{{284, 585}, {89, 100}}</string>
 						<key>image</key>
 						<string>apple_2.png</string>
 						<key>touchPoints</key>
 						<array>
-							<string>{9, 9}</string>
-							<string>{83, 9}</string>
-							<string>{85, 88}</string>
-							<string>{6, 91}</string>
-							<string>{9, 9}</string>
+							<string>{73, 12}</string>
+							<string>{27, 8}</string>
+							<string>{6, 20}</string>
+							<string>{2, 33}</string>
+							<string>{4, 72}</string>
+							<string>{24, 89}</string>
+							<string>{68, 93}</string>
+							<string>{87, 65}</string>
+							<string>{87, 22}</string>
 						</array>
 					</dict>
 					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{927, 350}, {89, 100}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTApple</string>
 						<key>frame</key>
-						<string>{{155, 584}, {112, 104}}</string>
+						<string>{{159, 337}, {89, 100}}</string>
+						<key>image</key>
+						<string>apple_2.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{73, 12}</string>
+							<string>{27, 8}</string>
+							<string>{6, 20}</string>
+							<string>{2, 33}</string>
+							<string>{4, 72}</string>
+							<string>{24, 89}</string>
+							<string>{68, 93}</string>
+							<string>{87, 65}</string>
+							<string>{87, 22}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{671, 30}, {112, 104}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTApple</string>
+						<key>frame</key>
+						<string>{{268, 506}, {112, 104}}</string>
 						<key>image</key>
 						<string>apple_3.png</string>
 						<key>touchPoints</key>
 						<array>
-							<string>{20, 10}</string>
-							<string>{104, 8}</string>
-							<string>{100, 82}</string>
-							<string>{16, 81}</string>
-							<string>{20, 10}</string>
+							<string>{38, 4}</string>
+							<string>{22, 22}</string>
+							<string>{18, 46}</string>
+							<string>{25, 69}</string>
+							<string>{39, 84}</string>
+							<string>{75, 85}</string>
+							<string>{95, 63}</string>
+							<string>{97, 26}</string>
+							<string>{82, 6}</string>
 						</array>
 					</dict>
 					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{671, 30}, {112, 104}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTApple</string>
 						<key>frame</key>
-						<string>{{112, 367}, {79, 83}}</string>
+						<string>{{129, 570}, {112, 104}}</string>
+						<key>image</key>
+						<string>apple_3.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{38, 4}</string>
+							<string>{22, 22}</string>
+							<string>{18, 46}</string>
+							<string>{25, 69}</string>
+							<string>{39, 84}</string>
+							<string>{75, 85}</string>
+							<string>{95, 63}</string>
+							<string>{97, 26}</string>
+							<string>{82, 6}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{671, 30}, {112, 104}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTApple</string>
+						<key>frame</key>
+						<string>{{280, 399}, {112, 104}}</string>
+						<key>image</key>
+						<string>apple_3.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{38, 4}</string>
+							<string>{22, 22}</string>
+							<string>{18, 46}</string>
+							<string>{25, 69}</string>
+							<string>{39, 84}</string>
+							<string>{75, 85}</string>
+							<string>{95, 63}</string>
+							<string>{97, 26}</string>
+							<string>{82, 6}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{526, 195}, {79, 83}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTApple</string>
+						<key>frame</key>
+						<string>{{183, 435}, {79, 83}}</string>
 						<key>image</key>
 						<string>apple_4.png</string>
 						<key>touchPoints</key>
 						<array>
-							<string>{6, 10}</string>
-							<string>{76, 8}</string>
-							<string>{77, 81}</string>
-							<string>{4, 80}</string>
-							<string>{6, 10}</string>
+							<string>{66, 12}</string>
+							<string>{22, 12}</string>
+							<string>{4, 25}</string>
+							<string>{3, 65}</string>
+							<string>{15, 79}</string>
+							<string>{69, 82}</string>
+							<string>{76, 67}</string>
+							<string>{76, 22}</string>
 						</array>
 					</dict>
 					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{526, 195}, {79, 83}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTApple</string>
 						<key>frame</key>
-						<string>{{187, 374}, {83, 91}}</string>
+						<string>{{381, 495}, {79, 83}}</string>
+						<key>image</key>
+						<string>apple_4.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{66, 12}</string>
+							<string>{22, 12}</string>
+							<string>{4, 25}</string>
+							<string>{3, 65}</string>
+							<string>{15, 79}</string>
+							<string>{69, 82}</string>
+							<string>{76, 67}</string>
+							<string>{76, 22}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{823, 151}, {83, 91}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTApple</string>
+						<key>frame</key>
+						<string>{{350, 557}, {83, 91}}</string>
 						<key>image</key>
 						<string>apple_5.png</string>
 						<key>touchPoints</key>
 						<array>
-							<string>{4, 3}</string>
-							<string>{79, 5}</string>
-							<string>{80, 88}</string>
-							<string>{5, 87}</string>
-							<string>{4, 3}</string>
+							<string>{58, 5}</string>
+							<string>{25, 4}</string>
+							<string>{4, 28}</string>
+							<string>{3, 68}</string>
+							<string>{24, 90}</string>
+							<string>{66, 86}</string>
+							<string>{80, 65}</string>
+							<string>{80, 26}</string>
 						</array>
 					</dict>
 					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{823, 151}, {83, 91}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTApple</string>
 						<key>frame</key>
-						<string>{{407, 511}, {93, 91}}</string>
+						<string>{{231, 381}, {83, 91}}</string>
+						<key>image</key>
+						<string>apple_5.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{58, 5}</string>
+							<string>{25, 4}</string>
+							<string>{4, 28}</string>
+							<string>{3, 68}</string>
+							<string>{24, 90}</string>
+							<string>{66, 86}</string>
+							<string>{80, 65}</string>
+							<string>{80, 26}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{800, 360}, {93, 91}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTApple</string>
+						<key>frame</key>
+						<string>{{86, 593}, {93, 91}}</string>
 						<key>image</key>
 						<string>apple_6.png</string>
 						<key>touchPoints</key>
 						<array>
-							<string>{5, 7}</string>
-							<string>{87, 6}</string>
-							<string>{89, 85}</string>
-							<string>{6, 87}</string>
-							<string>{5, 7}</string>
+							<string>{72, 4}</string>
+							<string>{27, 3}</string>
+							<string>{0, 27}</string>
+							<string>{3, 62}</string>
+							<string>{17, 83}</string>
+							<string>{27, 89}</string>
+							<string>{77, 89}</string>
+							<string>{88, 70}</string>
+							<string>{91, 24}</string>
 						</array>
 					</dict>
 					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{800, 360}, {93, 91}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTApple</string>
 						<key>frame</key>
-						<string>{{120, 562}, {65, 91}}</string>
+						<string>{{288, 358}, {93, 91}}</string>
+						<key>image</key>
+						<string>apple_6.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{72, 4}</string>
+							<string>{27, 3}</string>
+							<string>{0, 27}</string>
+							<string>{3, 62}</string>
+							<string>{17, 83}</string>
+							<string>{27, 89}</string>
+							<string>{77, 89}</string>
+							<string>{88, 70}</string>
+							<string>{91, 24}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{800, 360}, {93, 91}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTApple</string>
+						<key>frame</key>
+						<string>{{359, 436}, {93, 91}}</string>
+						<key>image</key>
+						<string>apple_6.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{72, 4}</string>
+							<string>{27, 3}</string>
+							<string>{0, 27}</string>
+							<string>{3, 62}</string>
+							<string>{17, 83}</string>
+							<string>{27, 89}</string>
+							<string>{77, 89}</string>
+							<string>{88, 70}</string>
+							<string>{91, 24}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{677, 280}, {65, 91}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTApple</string>
+						<key>frame</key>
+						<string>{{336, 507}, {65, 91}}</string>
 						<key>image</key>
 						<string>apple_7.png</string>
 						<key>touchPoints</key>
 						<array>
-							<string>{5, 9}</string>
-							<string>{62, 13}</string>
-							<string>{61, 85}</string>
-							<string>{8, 85}</string>
-							<string>{5, 9}</string>
+							<string>{63, 26}</string>
+							<string>{32, 15}</string>
+							<string>{4, 24}</string>
+							<string>{3, 71}</string>
+							<string>{13, 85}</string>
+							<string>{52, 88}</string>
+							<string>{63, 64}</string>
 						</array>
 					</dict>
 					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{677, 280}, {65, 91}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTApple</string>
 						<key>frame</key>
-						<string>{{0, 0}, {0, 0}}</string>
+						<string>{{332, 409}, {65, 91}}</string>
+						<key>image</key>
+						<string>apple_7.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{63, 26}</string>
+							<string>{32, 15}</string>
+							<string>{4, 24}</string>
+							<string>{3, 71}</string>
+							<string>{13, 85}</string>
+							<string>{52, 88}</string>
+							<string>{63, 64}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{517, 374}, {91, 87}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTApple</string>
+						<key>frame</key>
+						<string>{{35, 394}, {91, 87}}</string>
 						<key>image</key>
 						<string>apple_8.png</string>
 						<key>touchPoints</key>
 						<array>
-							<string>{4, 6}</string>
-							<string>{86, 5}</string>
-							<string>{88, 84}</string>
-							<string>{6, 83}</string>
-							<string>{4, 6}</string>
+							<string>{70, 5}</string>
+							<string>{24, 5}</string>
+							<string>{6, 17}</string>
+							<string>{2, 68}</string>
+							<string>{24, 85}</string>
+							<string>{72, 88}</string>
+							<string>{91, 65}</string>
+							<string>{88, 19}</string>
 						</array>
 					</dict>
 					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{517, 374}, {91, 87}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTApple</string>
 						<key>frame</key>
-						<string>{{232, 550}, {91, 87}}</string>
+						<string>{{223, 542}, {91, 87}}</string>
+						<key>image</key>
+						<string>apple_8.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{70, 5}</string>
+							<string>{24, 5}</string>
+							<string>{6, 17}</string>
+							<string>{2, 68}</string>
+							<string>{24, 85}</string>
+							<string>{72, 88}</string>
+							<string>{91, 65}</string>
+							<string>{88, 19}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{517, 374}, {91, 87}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTApple</string>
+						<key>frame</key>
+						<string>{{118, 424}, {91, 87}}</string>
+						<key>image</key>
+						<string>apple_8.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{70, 5}</string>
+							<string>{24, 5}</string>
+							<string>{6, 17}</string>
+							<string>{2, 68}</string>
+							<string>{24, 85}</string>
+							<string>{72, 88}</string>
+							<string>{91, 65}</string>
+							<string>{88, 19}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{487, 152}, {91, 87}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTApple</string>
+						<key>frame</key>
+						<string>{{87, 367}, {91, 87}}</string>
 						<key>image</key>
 						<string>apple_9.png</string>
 						<key>touchPoints</key>
 						<array>
-							<string>{4, 6}</string>
-							<string>{86, 5}</string>
-							<string>{88, 84}</string>
-							<string>{6, 83}</string>
-							<string>{4, 6}</string>
+							<string>{68, 5}</string>
+							<string>{21, 5}</string>
+							<string>{3, 18}</string>
+							<string>{3, 66}</string>
+							<string>{23, 85}</string>
+							<string>{71, 85}</string>
+							<string>{87, 65}</string>
+							<string>{90, 21}</string>
 						</array>
 					</dict>
 					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{487, 152}, {91, 87}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTApple</string>
 						<key>frame</key>
-						<string>{{333, 656}, {77, 84}}</string>
+						<string>{{233, 488}, {91, 87}}</string>
+						<key>image</key>
+						<string>apple_9.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{68, 5}</string>
+							<string>{21, 5}</string>
+							<string>{3, 18}</string>
+							<string>{3, 66}</string>
+							<string>{23, 85}</string>
+							<string>{71, 85}</string>
+							<string>{87, 65}</string>
+							<string>{90, 21}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{423, 264}, {77, 84}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTApple</string>
+						<key>frame</key>
+						<string>{{107, 547}, {77, 84}}</string>
 						<key>image</key>
 						<string>apple_10.png</string>
 						<key>touchPoints</key>
 						<array>
-							<string>{5, 6}</string>
-							<string>{73, 7}</string>
-							<string>{76, 81}</string>
-							<string>{5, 82}</string>
-							<string>{5, 6}</string>
+							<string>{58, 5}</string>
+							<string>{18, 6}</string>
+							<string>{8, 12}</string>
+							<string>{0, 40}</string>
+							<string>{3, 63}</string>
+							<string>{27, 83}</string>
+							<string>{62, 81}</string>
+							<string>{76, 65}</string>
+							<string>{76, 24}</string>
 						</array>
 					</dict>
 					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{423, 264}, {77, 84}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTApple</string>
 						<key>frame</key>
-						<string>{{327, 538}, {112, 104}}</string>
+						<string>{{180, 385}, {77, 84}}</string>
+						<key>image</key>
+						<string>apple_10.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{58, 5}</string>
+							<string>{18, 6}</string>
+							<string>{8, 12}</string>
+							<string>{0, 40}</string>
+							<string>{3, 63}</string>
+							<string>{27, 83}</string>
+							<string>{62, 81}</string>
+							<string>{76, 65}</string>
+							<string>{76, 24}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{423, 264}, {77, 84}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTApple</string>
+						<key>frame</key>
+						<string>{{244, 430}, {77, 84}}</string>
+						<key>image</key>
+						<string>apple_10.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{58, 5}</string>
+							<string>{18, 6}</string>
+							<string>{8, 12}</string>
+							<string>{0, 40}</string>
+							<string>{3, 63}</string>
+							<string>{27, 83}</string>
+							<string>{62, 81}</string>
+							<string>{76, 65}</string>
+							<string>{76, 24}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{891, 227}, {112, 104}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTApple</string>
+						<key>frame</key>
+						<string>{{34, 481}, {112, 104}}</string>
 						<key>image</key>
 						<string>apple_11.png</string>
 						<key>touchPoints</key>
 						<array>
-							<string>{17, 8}</string>
-							<string>{99, 7}</string>
-							<string>{98, 83}</string>
-							<string>{21, 90}</string>
-							<string>{17, 8}</string>
+							<string>{81, 5}</string>
+							<string>{45, 2}</string>
+							<string>{27, 12}</string>
+							<string>{21, 38}</string>
+							<string>{21, 60}</string>
+							<string>{39, 79}</string>
+							<string>{58, 88}</string>
+							<string>{87, 80}</string>
+							<string>{96, 21}</string>
 						</array>
 					</dict>
 					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{891, 227}, {112, 104}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
 						<key>class</key>
-						<string>TTBase</string>
+						<string>TTApple</string>
 						<key>frame</key>
-						<string>{{330, 343}, {77, 84}}</string>
+						<string>{{128, 506}, {112, 104}}</string>
+						<key>image</key>
+						<string>apple_11.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{81, 5}</string>
+							<string>{45, 2}</string>
+							<string>{27, 12}</string>
+							<string>{21, 38}</string>
+							<string>{21, 60}</string>
+							<string>{39, 79}</string>
+							<string>{58, 88}</string>
+							<string>{87, 80}</string>
+							<string>{96, 21}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{891, 227}, {112, 104}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTApple</string>
+						<key>frame</key>
+						<string>{{103, 481}, {112, 104}}</string>
+						<key>image</key>
+						<string>apple_11.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{81, 5}</string>
+							<string>{45, 2}</string>
+							<string>{27, 12}</string>
+							<string>{21, 38}</string>
+							<string>{21, 60}</string>
+							<string>{39, 79}</string>
+							<string>{58, 88}</string>
+							<string>{87, 80}</string>
+							<string>{96, 21}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{869, 527}, {77, 84}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTApple</string>
+						<key>frame</key>
+						<string>{{318, 458}, {77, 84}}</string>
 						<key>image</key>
 						<string>apple_12.png</string>
 						<key>touchPoints</key>
 						<array>
-							<string>{7, 7}</string>
-							<string>{72, 5}</string>
-							<string>{73, 80}</string>
-							<string>{3, 80}</string>
-							<string>{7, 7}</string>
+							<string>{3, 26}</string>
+							<string>{25, 3}</string>
+							<string>{54, 3}</string>
+							<string>{75, 26}</string>
+							<string>{75, 65}</string>
+							<string>{57, 83}</string>
+							<string>{28, 83}</string>
+							<string>{3, 62}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{869, 527}, {77, 84}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTApple</string>
+						<key>frame</key>
+						<string>{{79, 420}, {77, 84}}</string>
+						<key>image</key>
+						<string>apple_12.png</string>
+						<key>touchPoints</key>
+						<array>
+							<string>{3, 26}</string>
+							<string>{25, 3}</string>
+							<string>{54, 3}</string>
+							<string>{75, 26}</string>
+							<string>{75, 65}</string>
+							<string>{57, 83}</string>
+							<string>{28, 83}</string>
+							<string>{3, 62}</string>
 						</array>
 					</dict>
 				</array>
