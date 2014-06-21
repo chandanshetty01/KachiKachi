@@ -55,7 +55,7 @@
     }
     
 #ifdef DEVELOPMENT_MODE
-    self.backgroundColor = [UIColor grayColor];
+    self.backgroundColor = [UIColor clearColor];
 #else
     self.backgroundColor = [UIColor clearColor];
 #endif
@@ -68,6 +68,13 @@
     [dict setObject:NSStringFromClass([self class]) forKey:@"class"];
     [dict setObject:NSStringFromCGRect(self.frame) forKey:@"frame"];
     [dict setObject:self.touchPoints forKey:@"touchPoints"];
+    
+    NSMutableDictionary *animation = [NSMutableDictionary dictionary];
+    [animation setObject:NSStringFromCGRect(_animationEndFrame) forKey:@"frame"];
+    [animation setObject:[NSString stringWithFormat:@"%f",_animationAngle] forKey:@"rotateAngle"];
+    [animation setObject:[NSString stringWithFormat:@"%f",_animationScale] forKey:@"scale"];
+    [dict setObject:animation forKey:@"animation"];
+
     return dict;
 }
 

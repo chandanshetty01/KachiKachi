@@ -7,7 +7,8 @@
 //
 
 #import "TTBase.h"
+#import "TTDisc.h"
 
-@interface TTFish : TTBase
+@interface TTFish : TTDisc
 
 @end
