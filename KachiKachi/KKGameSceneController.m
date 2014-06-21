@@ -99,8 +99,10 @@ typedef void (^completionBlk)(BOOL);
 {
     TTBase *object = [[NSClassFromString([data objectForKey:@"class"]) alloc] init];
     [object setData:data];
-    [self.view addSubview:object];
-    [_elements addObject:object];
+    if(object.image){
+        [self.view addSubview:object];
+        [_elements addObject:object];
+    }
 }
 
 -(BOOL)isGameOver
