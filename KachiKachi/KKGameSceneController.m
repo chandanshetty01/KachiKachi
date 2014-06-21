@@ -67,56 +67,6 @@ typedef void (^completionBlk)(BOOL);
     [[SoundManager sharedManager] playMusic:@"track2" looping:YES];
 }
 
-- (IBAction)handleSwitchBtn:(id)sender
-{
-    
-}
-
-- (IBAction)handleSaveBtn:(id)sender
-{
-    NSMutableDictionary *data = [NSMutableDictionary dictionary];
-    NSMutableArray *tElements = [NSMutableArray array];
-    for (TTBase *element in _elements) {
-        [tElements addObject:[element saveDictionary]];
-    }
-    [data setObject:tElements forKey:@"data"];
-    [data writeToFile:@"/Users/chandanshettysp/Desktop/savedData.plist" atomically:YES];
-}
-
-
-- (IBAction)handleMailBtn:(id)sender
-{
-    NSString* plistPath = [[[NSBundle mainBundle] bundlePath] stringByAppendingPathComponent:@"savedData.plist"];
-    
-    NSMutableDictionary *data = [NSMutableDictionary dictionary];
-    NSMutableArray *tElements = [NSMutableArray array];
-    for (TTBase *element in _elements) {
-        [tElements addObject:[element saveDictionary]];
-    }
-    [data setObject:tElements forKey:@"data"];
-    [data writeToFile:plistPath atomically:YES];
-    
-    // Attach an image to the email
-    NSData *myData = [NSData dataWithContentsOfFile:plistPath];
-    NSString *attachmentMime = @"text/xml";
-    NSString *attachmentName = @"savedData.plist";
-    
-    // Fill out the email body text
-    NSString *emailBody = @"Hi, \n\n Check out new level data! \n\n\nRegards, \nKachi-Kachi";
-    NSString *emailSub = [NSString stringWithFormat:@"KACHI KACHI: Level %d Item %d",self.currentLevel,self.currentItemID];
-
-    NSArray *toRecipients = [NSArray arrayWithObject:@"chandanshetty01@gmail.com"];
-    NSArray *ccRecipients = [NSArray arrayWithObjects:@"26anil.kushwaha@gmail.com", @"ashishpra.pra@gmail.com", nil];
-    [[KKMailComposerManager sharedManager] displayMailComposerSheet:self
-                                                       toRecipients:toRecipients
-                                                       ccRecipients:ccRecipients
-                                                     attachmentData:myData
-                                                 attachmentMimeType:attachmentMime
-                                                 attachmentFileName:attachmentName
-                                                          emailBody:emailBody
-                                                       emailSubject:emailSub];
-}
-
 -(void)addElements
 {
     AppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
@@ -129,14 +79,20 @@ typedef void (^completionBlk)(BOOL);
     UIImage *image = [UIImage imageNamed:[element objectForKey:@"background"]];
     self.background.image = image;
     
-    image = [UIImage imageNamed:[element objectForKey:@"basket"]];
-    CGRect frame = CGRectZero;
-    frame.origin =CGPointFromString([element objectForKey:@"basket_frame"]);
-    frame.size = image.size;
     
-    _basketImageView = [[UIImageView alloc] initWithFrame:frame];
-    _basketImageView.image = image;
-    [self.view addSubview:_basketImageView];
+    self.baskets = [element objectForKey:@"baskets"];
+    [_baskets enumerateObjectsUsingBlock:^(NSDictionary *basket, NSUInteger idx, BOOL *stop) {
+        UIImage *image = [UIImage imageNamed:[basket objectForKey:@"basket"]];
+        CGRect frame = CGRectZero;
+        frame.origin =CGPointFromString([basket objectForKey:@"basket_frame"]);
+        frame.size = image.size;
+        
+        UIImageView *basketView = [[UIImageView alloc] initWithFrame:frame];
+        basketView.image = image;
+        [self.view addSubview:basketView];
+    }];
+    
+
 }
 
 -(void)generateElement:(NSDictionary*)data
@@ -343,6 +299,53 @@ typedef void (^completionBlk)(BOOL);
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)handleSwitchBtn:(id)sender
+{
+    
+}
 
+- (IBAction)handleSaveBtn:(id)sender
+{
+    NSMutableDictionary *data = [NSMutableDictionary dictionary];
+    NSMutableArray *tElements = [NSMutableArray array];
+    for (TTBase *element in _elements) {
+        [tElements addObject:[element saveDictionary]];
+    }
+    [data setObject:tElements forKey:@"data"];
+    [data writeToFile:@"/Users/chandanshettysp/Desktop/savedData.plist" atomically:YES];
+}
+
+- (IBAction)handleMailBtn:(id)sender
+{
+    NSString* plistPath = [[[NSBundle mainBundle] bundlePath] stringByAppendingPathComponent:@"savedData.plist"];
+    
+    NSMutableDictionary *data = [NSMutableDictionary dictionary];
+    NSMutableArray *tElements = [NSMutableArray array];
+    for (TTBase *element in _elements) {
+        [tElements addObject:[element saveDictionary]];
+    }
+    [data setObject:tElements forKey:@"data"];
+    [data writeToFile:plistPath atomically:YES];
+    
+    // Attach an image to the email
+    NSData *myData = [NSData dataWithContentsOfFile:plistPath];
+    NSString *attachmentMime = @"text/xml";
+    NSString *attachmentName = @"savedData.plist";
+    
+    // Fill out the email body text
+    NSString *emailBody = @"Hi, \n\n Check out new level data! \n\n\nRegards, \nKachi-Kachi";
+    NSString *emailSub = [NSString stringWithFormat:@"KACHI KACHI: Level %d Item %d",self.currentLevel,self.currentItemID];
+    
+    NSArray *toRecipients = [NSArray arrayWithObject:@"chandanshetty01@gmail.com"];
+    NSArray *ccRecipients = [NSArray arrayWithObjects:@"26anil.kushwaha@gmail.com", @"ashishpra.pra@gmail.com", nil];
+    [[KKMailComposerManager sharedManager] displayMailComposerSheet:self
+                                                       toRecipients:toRecipients
+                                                       ccRecipients:ccRecipients
+                                                     attachmentData:myData
+                                                 attachmentMimeType:attachmentMime
+                                                 attachmentFileName:attachmentName
+                                                          emailBody:emailBody
+                                                       emailSubject:emailSub];
+}
 
 @end

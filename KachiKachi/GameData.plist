@@ -12,10 +12,15 @@
 		<dict>
 			<key>level1</key>
 			<dict>
-				<key>basket</key>
-				<string>leaves_tree.png</string>
-				<key>basket_frame</key>
-				<string>{600,0}</string>
+				<key>baskets</key>
+				<array>
+					<dict>
+						<key>basket</key>
+						<string>leaves_tree.png</string>
+						<key>basket_frame</key>
+						<string>{600,0}</string>
+					</dict>
+				</array>
 				<key>background</key>
 				<string>leaves_bg.png</string>
 				<key>life</key>
@@ -1891,10 +1896,15 @@
 		<dict>
 			<key>level1</key>
 			<dict>
-				<key>basket1</key>
-				<string>basket.png</string>
-				<key>basket_frame1</key>
-				<string>{600,100}</string>
+				<key>baskets</key>
+				<array>
+					<dict>
+						<key>basket1</key>
+						<string>basket.png</string>
+						<key>basket_frame1</key>
+						<string>{600,100}</string>
+					</dict>
+				</array>
 				<key>background</key>
 				<string>balloon_bg.png</string>
 				<key>life</key>
@@ -2581,10 +2591,15 @@
 		<dict>
 			<key>level1</key>
 			<dict>
-				<key>basket</key>
-				<string>vase.png</string>
-				<key>basket_frame</key>
-				<string>{700,100}</string>
+				<key>baskets</key>
+				<array>
+					<dict>
+						<key>basket</key>
+						<string>vase.png</string>
+						<key>basket_frame</key>
+						<string>{700,100}</string>
+					</dict>
+				</array>
 				<key>background</key>
 				<string>balloon_bg.png</string>
 				<key>life</key>
@@ -3659,10 +3674,15 @@
 		<dict>
 			<key>level1</key>
 			<dict>
-				<key>basket</key>
-				<string>tree.png</string>
-				<key>basket_frame</key>
-				<string>{400,50}</string>
+				<key>baskets</key>
+				<array>
+					<dict>
+						<key>basket</key>
+						<string>tree.png</string>
+						<key>basket_frame</key>
+						<string>{400,50}</string>
+					</dict>
+				</array>
 				<key>background</key>
 				<string>balloon_bg.png</string>
 				<key>life</key>
@@ -4273,10 +4293,15 @@
 		<dict>
 			<key>level1</key>
 			<dict>
-				<key>basket</key>
-				<string>boat_front_side.png</string>
-				<key>basket_frame</key>
-				<string>{404,247}</string>
+				<key>baskets</key>
+				<array>
+					<dict>
+						<key>basket</key>
+						<string>boat_front_side.png</string>
+						<key>basket_frame</key>
+						<string>{404,247}</string>
+					</dict>
+				</array>
 				<key>background</key>
 				<string>disc_bg.png</string>
 				<key>life</key>
@@ -6208,12 +6233,17 @@
 		<dict>
 			<key>level1</key>
 			<dict>
+				<key>baskets</key>
+				<array>
+					<dict>
+						<key>basket</key>
+						<string>bucket_front_part</string>
+						<key>basket_frame</key>
+						<string>{204,371}</string>
+					</dict>
+				</array>
 				<key>background</key>
 				<string>choc_BG.png</string>
-				<key>basket_frame</key>
-				<string>{204,371}</string>
-				<key>basket</key>
-				<string>bucket_front_part</string>
 				<key>life</key>
 				<real>4</real>
 				<key>elements</key>
@@ -9318,8 +9348,6 @@
 				<string>pen_background.png</string>
 				<key>life</key>
 				<real>4</real>
-				<key>basket_frame</key>
-				<string>{600,100}</string>
 				<key>elements</key>
 				<array>
 					<dict>
@@ -9752,8 +9780,6 @@
 				<string>carrot_bg.png</string>
 				<key>life</key>
 				<real>4</real>
-				<key>basket_frame</key>
-				<string>{600,100}</string>
 				<key>elements</key>
 				<array>
 					<dict>

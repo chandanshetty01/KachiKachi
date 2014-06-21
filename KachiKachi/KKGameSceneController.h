@@ -15,7 +15,7 @@
 @property(nonatomic,assign) NSInteger currentLevel;
 @property (weak, nonatomic) IBOutlet UISwitch *switchBtn;
 @property (weak, nonatomic) IBOutlet UIButton *saveBtn;
-@property (strong, nonatomic) UIImageView *basketImageView;
+@property (strong, nonatomic) NSMutableArray *baskets;
 @property (weak, nonatomic) IBOutlet UIButton *mailButton;
 
 @end
