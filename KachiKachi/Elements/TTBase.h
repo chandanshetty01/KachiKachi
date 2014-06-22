@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "KKItemModal.h"
 
 typedef void (^completionBlk)(BOOL);
 
@@ -27,6 +28,8 @@ typedef void (^completionBlk)(BOOL);
 @property(nonatomic,assign) CGMutablePathRef objectPath;
 @property(nonatomic,strong) completionBlk completionBlk;
 
+- (void)initWithModal:(KKItemModal*)itemModal;
+
 - (void)handleTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event;
 - (void)handleTouchesMoved:(NSSet *)touches withEvent:(UIEvent *)event;
 - (void)handleTouchesEnded:(NSSet *)touches withEvent:(UIEvent *)event;
@@ -34,8 +37,6 @@ typedef void (^completionBlk)(BOOL);
 
 - (BOOL)canHandleTouch:(CGPoint)touchPoint;
 - (NSDictionary*)saveDictionary;
-
--(void)setData : (NSDictionary*)inData;
--(void)showAnimation:(completionBlk)completionBlk;
+- (void)showAnimation:(completionBlk)completionBlk;
 
 @end

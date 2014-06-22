@@ -16,7 +16,15 @@
 
 @implementation KKGameStateManager
 
-
++ (id) sharedManager
+{
+    static dispatch_once_t pred = 0;
+    __strong static id _sharedObject = nil;
+    dispatch_once(&pred, ^{
+        _sharedObject = [[self alloc] init];
+    });
+    return _sharedObject;
+}
 
 - (instancetype)init
 {

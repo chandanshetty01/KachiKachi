@@ -27,26 +27,26 @@
     return self;
 }
 
--(void)setData : (NSDictionary*)inData
+- (void)initWithModal:(KKItemModal*)itemModal
 {
-    self.imagePath = [inData objectForKey:@"image"];
+    self.imagePath = itemModal.imagePath;
     _image = [UIImage imageNamed:_imagePath];
-    CGRect frame = CGRectFromString([inData objectForKey:@"frame"]);
+    CGRect frame = itemModal.frame;
     if(frame.size.width == -1 || frame.size.height == -1)
     {
         frame.size = _image.size;
     }
     self.frame = frame;
     
-    self.touchPoints = [inData objectForKey:@"touchPoints"];
+    self.touchPoints = [itemModal.touchPoints mutableCopy];
     if(self.touchPoints == nil){
         self.touchPoints = [NSMutableArray array];
     }
     [self createPathRef];
-
-    self.angle = [[inData objectForKey:@"angle"] floatValue];
     
-    NSDictionary *animation = [inData objectForKey:@"animation"];
+    self.angle = itemModal.angle;
+    
+    NSDictionary *animation = itemModal.animation;
     if(animation){
         _animationEndFrame = CGRectFromString([animation objectForKey:@"frame"]);
         _animationAngle = [[animation objectForKey:@"scale"] floatValue];

@@ -19,8 +19,9 @@ const NSString *kNoOfItems;
 
 @property(nonatomic,assign,readonly) NSInteger noOfItems;
 
--(NSMutableDictionary*)itemWithId:(NSInteger)inItemID;
--(NSMutableDictionary*)elementForLevel:(NSInteger)inLevelID forItem:(NSInteger)inItemID;
++(id)sharedManager;
+-(NSMutableDictionary*)stageWithID:(NSInteger)stageID;
+-(NSMutableDictionary*)levelWithID:(NSInteger)inLevelID andStage:(NSInteger)stageID;
 
 @end
 

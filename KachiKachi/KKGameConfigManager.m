@@ -24,6 +24,16 @@ const NSString *kNoOfItems = @"noOfItems";
 
 @implementation KKGameConfigManager
 
++ (id) sharedManager
+{
+    static dispatch_once_t pred = 0;
+    __strong static id _sharedObject = nil;
+    dispatch_once(&pred, ^{
+        _sharedObject = [[self alloc] init];
+    });
+    return _sharedObject;
+}
+
 -(id)init
 {
     self =[super init];
@@ -46,45 +56,27 @@ const NSString *kNoOfItems = @"noOfItems";
     return self;
 }
 
--(NSMutableDictionary*)itemWithId:(NSInteger)inItemID
+-(NSMutableDictionary*)stageWithID:(NSInteger)stageID
 {
-    NSMutableDictionary *item = nil;
-    item = [_configuration objectForKey:[NSString stringWithFormat:@"item%d",inItemID]];
-    if(item)
-    {
-        
-    }
-    
-    return item;
+    NSMutableDictionary *stage = nil;
+    stage = [_configuration objectForKey:[NSString stringWithFormat:@"Stage%d",stageID]];
+    return stage;
 }
 
--(NSMutableDictionary*)levelForID:(NSInteger)inLevelID forItem:(NSInteger)inItemID
+-(NSMutableDictionary*)levelWithID:(NSInteger)levelID andStage:(NSInteger)stageID
 {
-    NSMutableDictionary *levels = nil;
+    NSMutableDictionary *level = nil;
     
-    NSMutableDictionary *item = [self itemWithId:inItemID];
-    if(item){
-        levels = [item objectForKey:kLevels];
+    NSMutableDictionary *stage = [self stageWithID:stageID];
+    if(stage){
+        NSMutableDictionary *levels = [stage objectForKey:@"levels"];
         if(levels){
-            
+            level = [levels objectForKey:[NSString stringWithFormat:@"level%d",levelID]];
         }
     }
     
-    return levels;
+    return level;
 }
-
--(NSMutableDictionary*)elementForLevel:(NSInteger)inLevelID forItem:(NSInteger)inItemID
-{
-    NSMutableDictionary *element = nil;
-    
-    NSMutableDictionary *levels = [self levelForID:inLevelID forItem:inItemID];
-    if(levels){
-        element = [levels objectForKey:[NSString stringWithFormat:@"level%d",inLevelID]];
-    }
-    
-    return element;
-}
-
 
 
 @end

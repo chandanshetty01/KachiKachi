@@ -9,6 +9,7 @@
 #import "KKLevelSelectViewController.h"
 #import "KKGameSceneController.h"
 #import "SoundManager.h"
+#import "KKLevelModal.h"
 
 @interface KKLevelSelectViewController ()
 
@@ -43,19 +44,28 @@
     [appdelegate.navigationController popViewControllerAnimated:YES];
 }
 
-- (void)dealloc
+-(KKLevelModal*)currentLevelData:(NSInteger)levelID
 {
+    KKLevelModal *levelModel = nil;
+    KKGameConfigManager *config = [KKGameConfigManager sharedManager];
+    NSDictionary *level = [config levelWithID:levelID andStage:self.currentStage];
+    levelModel = [[KKLevelModal alloc] initWithDictionary:level];
+    return levelModel;
 }
+
 
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    UIButton *button = (UIButton*)sender;
+    UIButton *btn = (UIButton*)sender;
     KKGameSceneController *nextVC = (KKGameSceneController *)[segue destinationViewController];
-    if([nextVC respondsToSelector:@selector(setCurrentItemID:)])
-        nextVC.currentItemID = button.tag;
+    nextVC.levelModel = [self currentLevelData:btn.tag];
+}
+
+- (void)dealloc
+{
 }
 
 @end

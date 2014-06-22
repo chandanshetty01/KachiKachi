@@ -10,4 +10,6 @@
 
 @interface KKLevelSelectViewController : UIViewController
 
+@property(nonatomic,assign) NSInteger currentStage;
+
 @end

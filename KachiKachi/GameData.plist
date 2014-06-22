@@ -2,12 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>noOfItems</key>
-	<integer>11</integer>
-	<key>item1</key>
+	<key>Stage1</key>
 	<dict>
-		<key>noOfLevels</key>
-		<integer>1</integer>
 		<key>levels</key>
 		<dict>
 			<key>level1</key>
@@ -1043,15 +1039,7 @@
 					</dict>
 				</array>
 			</dict>
-		</dict>
-	</dict>
-	<key>item2</key>
-	<dict>
-		<key>noOfLevels</key>
-		<integer>1</integer>
-		<key>levels</key>
-		<dict>
-			<key>level1</key>
+			<key>level2</key>
 			<dict>
 				<key>background</key>
 				<string>balloon_bg.png</string>
@@ -1886,15 +1874,7 @@
 					</dict>
 				</array>
 			</dict>
-		</dict>
-	</dict>
-	<key>item3</key>
-	<dict>
-		<key>noOfLevels</key>
-		<integer>1</integer>
-		<key>levels</key>
-		<dict>
-			<key>level1</key>
+			<key>level3</key>
 			<dict>
 				<key>baskets</key>
 				<array>
@@ -2878,15 +2858,7 @@
 					</dict>
 				</array>
 			</dict>
-		</dict>
-	</dict>
-	<key>item4</key>
-	<dict>
-		<key>noOfLevels</key>
-		<integer>1</integer>
-		<key>levels</key>
-		<dict>
-			<key>level1</key>
+			<key>level4</key>
 			<dict>
 				<key>baskets</key>
 				<array>
@@ -4285,15 +4257,7 @@
 					</dict>
 				</array>
 			</dict>
-		</dict>
-	</dict>
-	<key>item5</key>
-	<dict>
-		<key>noOfLevels</key>
-		<integer>1</integer>
-		<key>levels</key>
-		<dict>
-			<key>level1</key>
+			<key>level5</key>
 			<dict>
 				<key>baskets</key>
 				<array>
@@ -5535,15 +5499,7 @@
 					</dict>
 				</array>
 			</dict>
-		</dict>
-	</dict>
-	<key>item6</key>
-	<dict>
-		<key>noOfLevels</key>
-		<integer>1</integer>
-		<key>levels</key>
-		<dict>
-			<key>level1</key>
+			<key>level6</key>
 			<dict>
 				<key>baskets</key>
 				<array>
@@ -6525,15 +6481,7 @@
 					</dict>
 				</array>
 			</dict>
-		</dict>
-	</dict>
-	<key>item7</key>
-	<dict>
-		<key>noOfLevels</key>
-		<integer>1</integer>
-		<key>levels</key>
-		<dict>
-			<key>level1</key>
+			<key>level7</key>
 			<dict>
 				<key>background</key>
 				<string>fish_bg.png</string>
@@ -7889,15 +7837,7 @@
 					</dict>
 				</array>
 			</dict>
-		</dict>
-	</dict>
-	<key>item8</key>
-	<dict>
-		<key>noOfLevels</key>
-		<integer>1</integer>
-		<key>levels</key>
-		<dict>
-			<key>level1</key>
+			<key>level8</key>
 			<dict>
 				<key>baskets</key>
 				<array>
@@ -8952,15 +8892,7 @@
 					</dict>
 				</array>
 			</dict>
-		</dict>
-	</dict>
-	<key>item9</key>
-	<dict>
-		<key>noOfLevels</key>
-		<integer>1</integer>
-		<key>levels</key>
-		<dict>
-			<key>level1</key>
+			<key>level9</key>
 			<dict>
 				<key>background</key>
 				<string>ic_bg.png</string>
@@ -10053,15 +9985,7 @@
 					</dict>
 				</array>
 			</dict>
-		</dict>
-	</dict>
-	<key>item10</key>
-	<dict>
-		<key>noOfLevels</key>
-		<integer>1</integer>
-		<key>levels</key>
-		<dict>
-			<key>level1</key>
+			<key>level10</key>
 			<dict>
 				<key>background</key>
 				<string>kites_bg.png</string>
@@ -11000,15 +10924,7 @@
 					</dict>
 				</array>
 			</dict>
-		</dict>
-	</dict>
-	<key>item11</key>
-	<dict>
-		<key>noOfLevels</key>
-		<integer>1</integer>
-		<key>levels</key>
-		<dict>
-			<key>level1</key>
+			<key>level11</key>
 			<dict>
 				<key>background</key>
 				<string>pen_background.png</string>
@@ -11658,15 +11574,7 @@
 					</dict>
 				</array>
 			</dict>
-		</dict>
-	</dict>
-	<key>item12</key>
-	<dict>
-		<key>noOfLevels</key>
-		<integer>1</integer>
-		<key>levels</key>
-		<dict>
-			<key>level1</key>
+			<key>level12</key>
 			<dict>
 				<key>background</key>
 				<string>carrot_bg.png</string>
@@ -12806,5 +12714,9 @@
 			</dict>
 		</dict>
 	</dict>
+	<key>Stage2</key>
+	<dict/>
+	<key>Stage3</key>
+	<dict/>
 </dict>
 </plist>

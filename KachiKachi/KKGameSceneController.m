@@ -13,6 +13,7 @@
 #import <Math.h>
 #import "AppDelegate.h"
 #import "KKMailComposerManager.h"
+#import "KKItemModal.h"
 
 #define RADIANS(degrees) ((degrees * M_PI) / 180.0)
 
@@ -69,19 +70,15 @@ typedef void (^completionBlk)(BOOL);
 
 -(void)addElements
 {
-    AppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
-    NSMutableDictionary *element = [appDelegate.configuration elementForLevel:_currentLevel forItem:_currentItemID];
-    NSMutableArray *elements = [element objectForKey:@"elements"];
-    [elements enumerateObjectsUsingBlock:^(NSDictionary *obj, NSUInteger idx, BOOL *stop) {
+    [self.levelModel.items enumerateObjectsUsingBlock:^(KKItemModal *obj, NSUInteger idx, BOOL *stop) {
         [self generateElement:obj];
     }];
     
-    UIImage *image = [UIImage imageNamed:[element objectForKey:@"background"]];
+    UIImage *image = [UIImage imageNamed:self.levelModel.backgroundImage];
     self.background.image = image;
     
     
-    self.baskets = [element objectForKey:@"baskets"];
-    [_baskets enumerateObjectsUsingBlock:^(NSDictionary *basket, NSUInteger idx, BOOL *stop) {
+    [self.levelModel.baskets enumerateObjectsUsingBlock:^(NSDictionary *basket, NSUInteger idx, BOOL *stop) {
         UIImage *image = [UIImage imageNamed:[basket objectForKey:@"basket"]];
         CGRect frame = CGRectZero;
         frame.origin =CGPointFromString([basket objectForKey:@"basket_frame"]);
@@ -93,10 +90,11 @@ typedef void (^completionBlk)(BOOL);
     }];
 }
 
--(void)generateElement:(NSDictionary*)data
+-(void)generateElement:(KKItemModal*)itemModel
 {
-    TTBase *object = [[NSClassFromString([data objectForKey:@"class"]) alloc] init];
-    [object setData:data];
+//    NSString *clasName = ;
+    TTBase *object = [[NSClassFromString(itemModel.className) alloc] init];
+    [object initWithModal:itemModel];
     if(object.image){
         [self.view addSubview:object];
         [_elements addObject:object];
