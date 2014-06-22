@@ -16,6 +16,7 @@ typedef void (^completionBlk)(BOOL);
     
 }
 
+@property(nonatomic,strong) KKItemModal *itemModal;
 @property(nonatomic,strong) NSMutableArray *touchPoints;
 @property(nonatomic,assign) CGFloat angle;
 @property(nonatomic,strong) NSString *imagePath;
@@ -36,7 +37,7 @@ typedef void (^completionBlk)(BOOL);
 - (void)handleTouchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event;
 
 - (BOOL)canHandleTouch:(CGPoint)touchPoint;
-- (NSDictionary*)saveDictionary;
+- (NSMutableDictionary*)saveDictionary;
 - (void)showAnimation:(completionBlk)completionBlk;
 
 @end

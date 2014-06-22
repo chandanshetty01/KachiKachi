@@ -13,6 +13,20 @@
     
 }
 
-+ (id) sharedManager;
++(id)sharedManager;
+
+-(NSInteger)currentLevelNumber;
+-(NSInteger)currentStageNumber;
+-(void)setCurrentLevel:(NSInteger)currentLevel andStage:(NSInteger)stage;
+-(void)setRemainingLife:(NSInteger)life;
+-(void)markUnlocked:(NSInteger)level stage:(NSInteger)stage;
+-(void)markCompleted:(NSInteger)level stage:(NSInteger)stage;
+-(void)setData:(NSMutableDictionary*)data level:(NSInteger)level stage:(NSInteger)stage;
+-(BOOL)isLevelUnlocked:(NSInteger)level stage:(NSInteger)stage;
+-(BOOL)isLevelCompleted:(NSInteger)level stage:(NSInteger)stage;
+-(NSMutableDictionary*)gameData:(NSInteger)level stage:(NSInteger)stage;
+
+-(void)save;
+-(void)load;
 
 @end

@@ -9,13 +9,16 @@
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
 #import "KKLevelModal.h"
+#import "TTBase.h"
 
 @interface KKGameSceneController : UIViewController
 
 @property(nonatomic,strong) KKLevelModal *levelModel;
 
+@property(nonatomic,strong) NSMutableArray *elements;
+@property(nonatomic,assign) TTBase *currentElement;
 @property (weak, nonatomic) IBOutlet UIImageView *background;
-@property(nonatomic,assign) NSInteger currentItemID;
+@property(nonatomic,assign) NSInteger currentStage;
 @property(nonatomic,assign) NSInteger currentLevel;
 @property (weak, nonatomic) IBOutlet UISwitch *switchBtn;
 @property (weak, nonatomic) IBOutlet UIButton *saveBtn;

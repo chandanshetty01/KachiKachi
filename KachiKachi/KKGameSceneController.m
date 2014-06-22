@@ -14,14 +14,13 @@
 #import "AppDelegate.h"
 #import "KKMailComposerManager.h"
 #import "KKItemModal.h"
+#import "KKGameStateManager.h"
 
 #define RADIANS(degrees) ((degrees * M_PI) / 180.0)
 
 @interface KKGameSceneController ()
 
 @property(nonatomic,strong) NSMutableArray *deletedElements;
-@property(nonatomic,strong) NSMutableArray *elements;
-@property(nonatomic,assign) TTBase *currentElement;
 @property(nonatomic,assign) BOOL isGameFinished;
 
 @end
@@ -48,7 +47,9 @@ typedef void (^completionBlk)(BOOL);
     _elements = [[NSMutableArray alloc] init];
     _deletedElements = [[NSMutableArray alloc] init];
     
-    _currentLevel = 1;
+    self.currentLevel = [[KKGameStateManager sharedManager] currentLevelNumber];
+    self.currentStage = [[KKGameStateManager sharedManager] currentStageNumber];
+    
     _isGameFinished = FALSE;
     
     [self addElements];
@@ -76,7 +77,6 @@ typedef void (^completionBlk)(BOOL);
     
     UIImage *image = [UIImage imageNamed:self.levelModel.backgroundImage];
     self.background.image = image;
-    
     
     [self.levelModel.baskets enumerateObjectsUsingBlock:^(NSDictionary *basket, NSUInteger idx, BOOL *stop) {
         UIImage *image = [UIImage imageNamed:[basket objectForKey:@"basket"]];
@@ -155,10 +155,26 @@ typedef void (^completionBlk)(BOOL);
     }];
 }
 
+-(void)saveLevelData
+{
+    NSMutableDictionary *levelDict = [self.levelModel savedDictionary];
+    NSMutableArray *elements = [NSMutableArray array];
+    [self.elements enumerateObjectsUsingBlock:^(TTBase *obj, NSUInteger idx, BOOL *stop) {
+        NSMutableDictionary *levelDict = [obj saveDictionary];
+        [elements addObject:levelDict];
+    }];
+    [levelDict setObject:elements forKey:@"elements"];
+    
+    [[KKGameStateManager sharedManager] setData:levelDict level:self.currentLevel stage:self.currentStage];
+    
+    [[KKGameStateManager sharedManager]save];
+}
+
 -(void)validateGamePlay:(completionBlk)block
 {
     if([self isGameOver] && !_isGameFinished){
         
+        [self saveLevelData];
         [[SoundManager sharedManager] playSound:@"sound2" looping:NO];
         
         _isGameFinished = YES;
@@ -172,6 +188,8 @@ typedef void (^completionBlk)(BOOL);
     }
     else if([self isGameWon])
     {
+        [[KKGameStateManager sharedManager] markCompleted:self.currentLevel stage:self.currentStage];
+        [self saveLevelData];
         [[SoundManager sharedManager] playSound:@"sound2" looping:NO];
         
         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Game Won"
@@ -279,6 +297,7 @@ typedef void (^completionBlk)(BOOL);
 }
 
 - (IBAction)backButtonAction:(id)sender {
+    [self saveLevelData];
     AppDelegate *appdelegate = APP_DELEGATE;
     [appdelegate.navigationController popViewControllerAnimated:YES];
 }
@@ -335,7 +354,7 @@ typedef void (^completionBlk)(BOOL);
     
     // Fill out the email body text
     NSString *emailBody = @"Hi, \n\n Check out new level data! \n\n\nRegards, \nKachi-Kachi";
-    NSString *emailSub = [NSString stringWithFormat:@"KACHI KACHI: Level %d Item %d",self.currentLevel,self.currentItemID];
+    NSString *emailSub = [NSString stringWithFormat:@"KACHI KACHI: Level %d Stage %d",self.currentLevel,self.currentStage];
     
     NSArray *toRecipients = [NSArray arrayWithObject:@"chandanshetty01@gmail.com"];
     NSArray *ccRecipients = [NSArray arrayWithObjects:@"26anil.kushwaha@gmail.com", @"ashishpra.pra@gmail.com", nil];

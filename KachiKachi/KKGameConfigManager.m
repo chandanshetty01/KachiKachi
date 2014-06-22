@@ -50,8 +50,6 @@ const NSString *kNoOfItems = @"noOfItems";
         {
             NSLog(@"Error reading plist: %@, format: %d", strerrorDesc, plistFormat);
         }
-        
-        _noOfItems = [[_configuration objectForKey:kNoOfItems] intValue];
     }
     return self;
 }

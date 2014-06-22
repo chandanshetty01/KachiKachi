@@ -17,8 +17,6 @@ const NSString *kNoOfItems;
 
 @interface KKGameConfigManager : NSObject
 
-@property(nonatomic,assign,readonly) NSInteger noOfItems;
-
 +(id)sharedManager;
 -(NSMutableDictionary*)stageWithID:(NSInteger)stageID;
 -(NSMutableDictionary*)levelWithID:(NSInteger)inLevelID andStage:(NSInteger)stageID;

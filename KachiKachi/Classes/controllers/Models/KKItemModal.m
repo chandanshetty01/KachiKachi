@@ -25,4 +25,17 @@
     return self;
 }
 
+-(NSMutableDictionary*)savedDictionary
+{
+    NSMutableDictionary *dict = [NSMutableDictionary dictionary];
+    [dict setObject:self.className forKey:@"class"];
+    [dict setObject:NSStringFromCGRect(self.frame) forKey:@"frame"];
+    [dict setObject:self.imagePath forKey:@"image"];
+    [dict setObject:self.touchPoints forKey:@"touchPoints"];
+    [dict setObject:[NSString stringWithFormat:@"%f",self.angle] forKey:@"angle"];
+    if(self.animation)
+        [dict setObject:self.animation forKey:@"animation"];
+    return dict;
+}
+
 @end

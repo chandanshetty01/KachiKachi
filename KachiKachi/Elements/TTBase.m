@@ -29,6 +29,8 @@
 
 - (void)initWithModal:(KKItemModal*)itemModal
 {
+    self.itemModal = itemModal;
+    
     self.imagePath = itemModal.imagePath;
     _image = [UIImage imageNamed:_imagePath];
     CGRect frame = itemModal.frame;
@@ -61,7 +63,7 @@
 #endif
 }
 
--(NSDictionary*)saveDictionary
+-(NSMutableDictionary*)saveDictionary
 {
     NSMutableDictionary *dict = [NSMutableDictionary dictionary];
     [dict setObject:_imagePath forKey:@"image"];

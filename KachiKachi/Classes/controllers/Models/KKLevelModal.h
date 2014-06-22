@@ -10,11 +10,14 @@
 
 @interface KKLevelModal : NSObject
 
+@property(nonatomic,assign)NSInteger levelID;
+@property(nonatomic,assign)NSInteger stageID;
 @property(nonatomic,strong)NSArray *baskets;
 @property(nonatomic,strong)NSString *backgroundImage;
 @property(nonatomic,assign)NSInteger life;
 @property(nonatomic,strong)NSMutableArray *items;
 
-- (instancetype)initWithDictionary:(NSDictionary*)data;
+-(instancetype)initWithDictionary:(NSDictionary*)data;
+-(NSMutableDictionary*)savedDictionary;
 
 @end

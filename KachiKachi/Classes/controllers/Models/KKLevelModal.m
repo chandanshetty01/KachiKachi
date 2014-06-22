@@ -28,4 +28,21 @@
     return self;
 }
 
+-(NSMutableDictionary*)savedDictionary
+{
+    NSMutableDictionary *dict = [NSMutableDictionary dictionary];
+    NSMutableArray *elements = [NSMutableArray array];
+    [self.items enumerateObjectsUsingBlock:^(KKItemModal *obj, NSUInteger idx, BOOL *stop) {
+        NSDictionary *itemDict = [obj savedDictionary];
+        [elements addObject:itemDict];
+    }];
+    [dict setObject:elements forKey:@"elements"];
+    if(self.baskets)
+        [dict setObject:self.baskets forKey:@"baskets"];
+    if(self.backgroundImage)
+        [dict setObject:self.backgroundImage forKey:@"background"];
+    [dict setObject:[NSString stringWithFormat:@"%d",self.life] forKey:@"life"];
+    return dict;
+}
+
 @end

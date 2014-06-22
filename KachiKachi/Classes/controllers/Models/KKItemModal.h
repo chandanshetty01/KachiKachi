@@ -18,5 +18,6 @@
 @property(nonatomic,strong) NSDictionary *animation;
 
 -(id)initWithDictionary:(NSDictionary*)data;
+-(NSMutableDictionary*)savedDictionary;
 
 @end

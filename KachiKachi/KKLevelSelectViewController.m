@@ -10,6 +10,7 @@
 #import "KKGameSceneController.h"
 #import "SoundManager.h"
 #import "KKLevelModal.h"
+#import "kkGameStateManager.h"
 
 @interface KKLevelSelectViewController ()
 
@@ -46,13 +47,26 @@
 
 -(KKLevelModal*)currentLevelData:(NSInteger)levelID
 {
-    KKLevelModal *levelModel = nil;
-    KKGameConfigManager *config = [KKGameConfigManager sharedManager];
-    NSDictionary *level = [config levelWithID:levelID andStage:self.currentStage];
-    levelModel = [[KKLevelModal alloc] initWithDictionary:level];
-    return levelModel;
+    NSMutableDictionary *levelDict = [[KKGameStateManager sharedManager] gameData:levelID stage:_currentStage];
+    if(levelDict == nil)
+    {
+        KKLevelModal *levelModel = nil;
+        KKGameConfigManager *config = [KKGameConfigManager sharedManager];
+        NSDictionary *level = [config levelWithID:levelID andStage:self.currentStage];
+        levelModel = [[KKLevelModal alloc] initWithDictionary:level];
+        levelModel.levelID = levelID;
+        levelModel.stageID =  _currentStage;
+        return levelModel;
+    }
+    else
+    {
+        KKLevelModal *levelModel = nil;
+        levelModel = [[KKLevelModal alloc] initWithDictionary:levelDict];
+        levelModel.levelID = levelID;
+        levelModel.stageID =  _currentStage;
+        return levelModel;
+    }
 }
-
 
 #pragma mark - Navigation
 
@@ -62,6 +76,8 @@
     UIButton *btn = (UIButton*)sender;
     KKGameSceneController *nextVC = (KKGameSceneController *)[segue destinationViewController];
     nextVC.levelModel = [self currentLevelData:btn.tag];
+    
+    [[KKGameStateManager sharedManager] setCurrentLevel:btn.tag andStage:_currentStage];
 }
 
 - (void)dealloc
