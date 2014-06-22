@@ -446,6 +446,9 @@ NSString *const SoundDidFinishPlayingNotification = @"SoundDidFinishPlayingNotif
 
 - (void)playMusic:(id)soundOrName looping:(BOOL)looping fadeIn:(BOOL)fadeIn
 {
+#ifdef DISABLE_SOUND
+    return;
+#endif
     Sound *music = [soundOrName isKindOfClass:[Sound class]]? soundOrName: [Sound soundNamed:soundOrName];
     if (![music.URL isEqual:_currentMusic.URL])
     {
@@ -474,7 +477,7 @@ NSString *const SoundDidFinishPlayingNotification = @"SoundDidFinishPlayingNotif
 }
 
 - (void)playMusic:(id)soundOrName
-{       
+{
     [self playMusic:soundOrName looping:YES fadeIn:YES];
 }
 
@@ -498,6 +501,9 @@ NSString *const SoundDidFinishPlayingNotification = @"SoundDidFinishPlayingNotif
 
 - (void)playSound:(id)soundOrName looping:(BOOL)looping fadeIn:(BOOL)fadeIn
 {
+#ifdef DISABLE_SOUND
+    return;
+#endif
     Sound *sound = [soundOrName isKindOfClass:[Sound class]]? soundOrName: [Sound soundNamed:soundOrName];
     if (![_currentSounds containsObject:sound])
     {

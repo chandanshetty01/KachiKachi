@@ -17,5 +17,8 @@
 @property (weak, nonatomic) IBOutlet UIButton *saveBtn;
 @property (strong, nonatomic) NSMutableArray *baskets;
 @property (weak, nonatomic) IBOutlet UIButton *mailButton;
+@property (weak, nonatomic) IBOutlet UIButton *homeButton;
+@property (weak, nonatomic) IBOutlet UIButton *backButton;
+@property (weak, nonatomic) IBOutlet UIImageView *bottomStrip;
 
 @end

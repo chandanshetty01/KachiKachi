@@ -17,3 +17,4 @@
 
 
 //#define DEVELOPMENT_MODE
+#define DISABLE_SOUND

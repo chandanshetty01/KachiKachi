@@ -89,10 +89,8 @@ typedef void (^completionBlk)(BOOL);
         
         UIImageView *basketView = [[UIImageView alloc] initWithFrame:frame];
         basketView.image = image;
-        [self.view addSubview:basketView];
+        [self.view insertSubview:basketView belowSubview:self.bottomStrip];
     }];
-    
-
 }
 
 -(void)generateElement:(NSDictionary*)data
@@ -285,6 +283,9 @@ typedef void (^completionBlk)(BOOL);
 - (IBAction)backButtonAction:(id)sender {
     AppDelegate *appdelegate = APP_DELEGATE;
     [appdelegate.navigationController popViewControllerAnimated:YES];
+}
+
+- (IBAction)restartButtonAction:(id)sender {
 }
 
 - (void)dealloc
