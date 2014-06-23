@@ -31,4 +31,9 @@
                      }];
 }
 
+- (void)setPickedObjectPosition
+{
+    self.frame = self.animationEndFrame;
+}
+
 @end

@@ -56,6 +56,8 @@
         _hasEndAnimation = YES;
     }
     
+    self.isPicked = itemModal.isPicked;
+
 #ifdef DEVELOPMENT_MODE
     self.backgroundColor = [UIColor clearColor];
 #else
@@ -70,6 +72,7 @@
     [dict setObject:NSStringFromClass([self class]) forKey:@"class"];
     [dict setObject:NSStringFromCGRect(self.frame) forKey:@"frame"];
     [dict setObject:self.touchPoints forKey:@"touchPoints"];
+    [dict setObject:[NSNumber numberWithBool:self.isPicked] forKey:@"isPicked"];
     
     NSMutableDictionary *animation = [NSMutableDictionary dictionary];
     [animation setObject:NSStringFromCGRect(_animationEndFrame) forKey:@"frame"];
@@ -137,7 +140,7 @@
     return NO;
 #endif
     
-    if(self.userInteractionEnabled && CGPathContainsPoint(self.objectPath, nil, touchPoint, NO))
+    if(!self.isPicked && self.userInteractionEnabled && CGPathContainsPoint(self.objectPath, nil, touchPoint, NO))
         return YES;
     return NO;
 }
@@ -211,6 +214,11 @@
     CGContextStrokePath(context);
 #endif
     [super drawRect:rect];
+}
+
+- (void)setPickedObjectPosition
+{
+    self.alpha = 0;
 }
  
 -(void)showAnimation:(completionBlk)completionBlk

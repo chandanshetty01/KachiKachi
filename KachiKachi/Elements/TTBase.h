@@ -28,6 +28,7 @@ typedef void (^completionBlk)(BOOL);
 @property(nonatomic,assign) BOOL hasEndAnimation;
 @property(nonatomic,assign) CGMutablePathRef objectPath;
 @property(nonatomic,strong) completionBlk completionBlk;
+@property(nonatomic,assign) BOOL isPicked;
 
 - (void)initWithModal:(KKItemModal*)itemModal;
 
@@ -39,5 +40,6 @@ typedef void (^completionBlk)(BOOL);
 - (BOOL)canHandleTouch:(CGPoint)touchPoint;
 - (NSMutableDictionary*)saveDictionary;
 - (void)showAnimation:(completionBlk)completionBlk;
+- (void)setPickedObjectPosition;
 
 @end

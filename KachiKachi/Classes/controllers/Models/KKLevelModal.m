@@ -24,6 +24,8 @@
             if(item)
                 [self.items addObject:item];
         }];
+        self.isLevelCompleted = [[data objectForKey:@"isLevelCompleted"] boolValue];
+        self.isLevelUnlocked = [[data objectForKey:@"isLevelUnlocked"] boolValue];
     }
     return self;
 }
@@ -42,6 +44,9 @@
     if(self.backgroundImage)
         [dict setObject:self.backgroundImage forKey:@"background"];
     [dict setObject:[NSString stringWithFormat:@"%d",self.life] forKey:@"life"];
+    [dict setObject:[NSNumber numberWithBool:self.isLevelCompleted] forKey:@"isLevelCompleted"];
+    [dict setObject:[NSNumber numberWithBool:self.isLevelUnlocked] forKey:@"isLevelUnlocked"];
+
     return dict;
 }
 

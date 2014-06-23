@@ -25,6 +25,6 @@
 @property (weak, nonatomic) IBOutlet UIButton *mailButton;
 @property (weak, nonatomic) IBOutlet UIButton *homeButton;
 @property (weak, nonatomic) IBOutlet UIButton *backButton;
-@property (weak, nonatomic) IBOutlet UIImageView *bottomStrip;
+@property (weak, nonatomic) IBOutlet UIView *bottomStrip;
 
 @end

@@ -86,7 +86,8 @@ typedef void (^completionBlk)(BOOL);
         
         UIImageView *basketView = [[UIImageView alloc] initWithFrame:frame];
         basketView.image = image;
-        [self.view insertSubview:basketView belowSubview:self.bottomStrip];
+        [self.view addSubview:basketView];
+        [self.view bringSubviewToFront:self.bottomStrip];
     }];
 }
 
@@ -97,7 +98,13 @@ typedef void (^completionBlk)(BOOL);
     [object initWithModal:itemModel];
     if(object.image){
         [self.view addSubview:object];
-        [_elements addObject:object];
+        if(!object.isPicked){
+            [_elements addObject:object];
+        }
+        else{
+            [object setPickedObjectPosition];
+            [_deletedElements addObject:object];
+        }
     }
 }
 
@@ -143,15 +150,21 @@ typedef void (^completionBlk)(BOOL);
 -(void)showElementDissapearAnimation:(completionBlk)block
 {
     [_deletedElements enumerateObjectsUsingBlock:^(TTBase *obj, NSUInteger idx, BOOL *stop) {
-        self.view.userInteractionEnabled = NO;
-        [obj showAnimation:^(BOOL canRemoveObject) {
-            if(canRemoveObject){
-                [obj removeFromSuperview];
-            }
-            self.view.userInteractionEnabled = YES;
-            [_deletedElements removeObject:obj];
-            block(YES);
-        }];
+        if(!obj.isPicked){
+            self.view.userInteractionEnabled = NO;
+            [obj showAnimation:^(BOOL canRemoveObject) {
+                
+                /*
+                 if(canRemoveObject){
+                 [obj removeFromSuperview];
+                 }
+                 [_deletedElements removeObject:obj];
+                 */
+                self.view.userInteractionEnabled = YES;
+                
+                block(YES);
+            }];
+        }
     }];
 }
 
@@ -160,6 +173,10 @@ typedef void (^completionBlk)(BOOL);
     NSMutableDictionary *levelDict = [self.levelModel savedDictionary];
     NSMutableArray *elements = [NSMutableArray array];
     [self.elements enumerateObjectsUsingBlock:^(TTBase *obj, NSUInteger idx, BOOL *stop) {
+        NSMutableDictionary *levelDict = [obj saveDictionary];
+        [elements addObject:levelDict];
+    }];
+    [self.deletedElements enumerateObjectsUsingBlock:^(TTBase *obj, NSUInteger idx, BOOL *stop) {
         NSMutableDictionary *levelDict = [obj saveDictionary];
         [elements addObject:levelDict];
     }];
@@ -188,7 +205,7 @@ typedef void (^completionBlk)(BOOL);
     }
     else if([self isGameWon])
     {
-        [[KKGameStateManager sharedManager] markCompleted:self.currentLevel stage:self.currentStage];
+        self.levelModel.isLevelCompleted = YES;
         [self saveLevelData];
         [[SoundManager sharedManager] playSound:@"sound2" looping:NO];
         
@@ -207,6 +224,7 @@ typedef void (^completionBlk)(BOOL);
         [_elements removeObject:_currentElement];
         [[SoundManager sharedManager] playSound:@"sound1" looping:NO];
         [self showElementDissapearAnimation:block];
+        _currentElement.isPicked = YES;
 #endif
     }
 }
@@ -307,6 +325,10 @@ typedef void (^completionBlk)(BOOL);
 
 - (void)dealloc
 {
+    [_elements enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+        [obj removeFromSuperview];
+        [_elements removeObject:obj];;
+    }];
     [_deletedElements enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
         [obj removeFromSuperview];
         [_deletedElements removeObject:obj];;
@@ -331,6 +353,7 @@ typedef void (^completionBlk)(BOOL);
     for (TTBase *element in _elements) {
         [tElements addObject:[element saveDictionary]];
     }
+    
     [data setObject:tElements forKey:@"data"];
     [data writeToFile:@"/Users/chandanshettysp/Desktop/savedData.plist" atomically:YES];
 }

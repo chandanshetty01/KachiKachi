@@ -21,8 +21,8 @@
 #define kKKCurrentStage @"KKCurrentStage"
 #define kKKCurrentLife @"KKCurrentLife"
 #define kKKLevels  @"levels"
-#define kKKLevelIsCompleted  @"kKKLevelIsCompleted"
-#define kKKLevelIsUnlocked  @"kKKLevelIsUnlocked"
+#define kKKLevelIsCompleted  @"isLevelCompleted"
+#define kKKLevelIsUnlocked  @"isLevelUnlocked"
 
 + (id) sharedManager
 {
@@ -150,7 +150,7 @@
 
 -(void)setData:(NSMutableDictionary*)data level:(NSInteger)level stage:(NSInteger)stage
 {
-    NSMutableDictionary *levelsDict = [self levelsDictionary:level];
+    NSMutableDictionary *levelsDict = [self levelsDictionary:stage];
     if (levelsDict) {
         [levelsDict setObject:data forKey:[NSString stringWithFormat:@"level%d",level]];
     }
@@ -159,7 +159,7 @@
 -(NSMutableDictionary*)gameData:(NSInteger)level stage:(NSInteger)stage
 {
     NSMutableDictionary *levelDict = nil;
-    NSMutableDictionary *levelsDict = [self levelsDictionary:level];
+    NSMutableDictionary *levelsDict = [self levelsDictionary:stage];
     if(levelsDict){
         levelDict = [levelsDict objectForKey:[NSString stringWithFormat:@"level%d",level]];
     }

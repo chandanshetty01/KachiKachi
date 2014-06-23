@@ -16,6 +16,7 @@
 @property(nonatomic,strong) NSArray *touchPoints;
 @property(nonatomic,assign) CGFloat angle;
 @property(nonatomic,strong) NSDictionary *animation;
+@property(nonatomic,assign) BOOL isPicked;
 
 -(id)initWithDictionary:(NSDictionary*)data;
 -(NSMutableDictionary*)savedDictionary;

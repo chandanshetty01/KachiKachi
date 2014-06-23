@@ -21,6 +21,7 @@
         self.touchPoints = [data objectForKey:@"touchPoints"];
         self.angle = [[data objectForKey:@"angle"] floatValue];
         self.animation = [data objectForKey:@"animation"];
+        self.isPicked = [[data objectForKey:@"isPicked"] boolValue];
     }
     return self;
 }
@@ -33,6 +34,7 @@
     [dict setObject:self.imagePath forKey:@"image"];
     [dict setObject:self.touchPoints forKey:@"touchPoints"];
     [dict setObject:[NSString stringWithFormat:@"%f",self.angle] forKey:@"angle"];
+    [dict setObject:[NSNumber numberWithBool:self.isPicked] forKey:@"isPicked"];
     if(self.animation)
         [dict setObject:self.animation forKey:@"animation"];
     return dict;
