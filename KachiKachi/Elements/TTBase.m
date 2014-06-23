@@ -147,12 +147,14 @@
 
 - (void)handleTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
     
+#ifdef DEVELOPMENT_MODE
     UITouch *touch = [[event allTouches] anyObject];
     CGPoint touchLocation = [touch locationInView:self];
     
     _dragging = YES;
     _oldX = touchLocation.x;
     _oldY = touchLocation.y;
+#endif
 }
 
 - (void)handleTouchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
@@ -164,9 +166,7 @@
         CGRect frame = self.frame;
         frame.origin.x = self.frame.origin.x + touchLocation.x - _oldX;
         frame.origin.y =  self.frame.origin.y + touchLocation.y - _oldY;
-        //self.transform = CGAffineTransformIdentity;
         self.frame = frame;
-        //self.transform = CGAffineTransformIdentity;
     }
 }
 
