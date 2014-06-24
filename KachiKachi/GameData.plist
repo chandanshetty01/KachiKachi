@@ -24,1017 +24,1294 @@
 				<key>elements</key>
 				<array>
 					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{867, 433}, {54, 49}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
 						<key>class</key>
 						<string>TTLeave</string>
 						<key>frame</key>
-						<string>{{104, 599}, {40, 60}}</string>
-						<key>image</key>
-						<string>leaf1a.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{25, 2}</string>
-							<string>{42, 25}</string>
-							<string>{32, 42}</string>
-							<string>{13, 40}</string>
-							<string>{-1, 20}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTLeave</string>
-						<key>frame</key>
-						<string>{{102, 497}, {40, 51}}</string>
-						<key>image</key>
-						<string>leaf1b.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{17, 41}</string>
-							<string>{33, 23}</string>
-							<string>{27, 6}</string>
-							<string>{7, 18}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTLeave</string>
-						<key>frame</key>
-						<string>{{276, 495}, {45, 63}}</string>
-						<key>image</key>
-						<string>leaf1c.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{6, 46}</string>
-							<string>{37, 38}</string>
-							<string>{46, 9}</string>
-							<string>{41, 5}</string>
-							<string>{10, 11}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTLeave</string>
-						<key>frame</key>
-						<string>{{306, 480}, {40, 51}}</string>
-						<key>image</key>
-						<string>leaf1d.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{34, 5}</string>
-							<string>{34, 28}</string>
-							<string>{12, 43}</string>
-							<string>{8, 13}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTLeave</string>
-						<key>frame</key>
-						<string>{{111, 517}, {40, 41}}</string>
-						<key>image</key>
-						<string>leaf1e.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{31, 26}</string>
-							<string>{25, 8}</string>
-							<string>{8, 6}</string>
-							<string>{9, 26}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTLeave</string>
-						<key>frame</key>
-						<string>{{422, 468}, {40, 41}}</string>
-						<key>image</key>
-						<string>leaf1e.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{31, 26}</string>
-							<string>{25, 8}</string>
-							<string>{8, 6}</string>
-							<string>{9, 26}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTLeave</string>
-						<key>frame</key>
-						<string>{{199, 570}, {41, 49}}</string>
-						<key>image</key>
-						<string>leaf5a.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{7, 18}</string>
-							<string>{24, 3}</string>
-							<string>{34, 21}</string>
-							<string>{25, 32}</string>
-							<string>{12, 32}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTLeave</string>
-						<key>frame</key>
-						<string>{{180, 459}, {40, 41}}</string>
-						<key>image</key>
-						<string>leaf1e.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{31, 26}</string>
-							<string>{25, 8}</string>
-							<string>{8, 6}</string>
-							<string>{9, 26}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTLeave</string>
-						<key>frame</key>
-						<string>{{448, 506}, {54, 49}}</string>
+						<string>{{206, 325}, {54, 49}}</string>
 						<key>image</key>
 						<string>leaf5b.png</string>
+						<key>isPicked</key>
+						<false/>
 						<key>touchPoints</key>
 						<array>
-							<string>{18, 6}</string>
-							<string>{38, 13}</string>
-							<string>{38, 41}</string>
-							<string>{19, 48}</string>
-							<string>{5, 32}</string>
-							<string>{6, 9}</string>
+							<string>{51, 29}</string>
+							<string>{37, 27}</string>
+							<string>{31, 9}</string>
+							<string>{14, 5}</string>
+							<string>{14, 18}</string>
+							<string>{8, 18}</string>
+							<string>{8, 36}</string>
+							<string>{27, 44}</string>
+							<string>{36, 32}</string>
 						</array>
 					</dict>
 					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{849, 93}, {141, 125}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
 						<key>class</key>
 						<string>TTLeave</string>
 						<key>frame</key>
-						<string>{{343, 560}, {40, 41}}</string>
-						<key>image</key>
-						<string>leaf1e.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{31, 26}</string>
-							<string>{25, 8}</string>
-							<string>{8, 6}</string>
-							<string>{9, 26}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTLeave</string>
-						<key>frame</key>
-						<string>{{193, 426}, {40, 40}}</string>
-						<key>image</key>
-						<string>leaf7a.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{8, 8}</string>
-							<string>{34, 8}</string>
-							<string>{30, 33}</string>
-							<string>{7, 32}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTLeave</string>
-						<key>frame</key>
-						<string>{{467, 571}, {40, 40}}</string>
-						<key>image</key>
-						<string>leaf7a.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{8, 8}</string>
-							<string>{34, 8}</string>
-							<string>{30, 33}</string>
-							<string>{7, 32}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTLeave</string>
-						<key>frame</key>
-						<string>{{192, 406}, {141, 125}}</string>
+						<string>{{181, 347}, {141, 125}}</string>
 						<key>image</key>
 						<string>leaf8a.png</string>
+						<key>isPicked</key>
+						<false/>
 						<key>touchPoints</key>
 						<array>
-							<string>{50, 5}</string>
-							<string>{73, 35}</string>
-							<string>{120, 20}</string>
-							<string>{100, 68}</string>
-							<string>{138, 88}</string>
-							<string>{95, 107}</string>
-							<string>{106, 123}</string>
-							<string>{34, 113}</string>
-							<string>{5, 84}</string>
-							<string>{16, 73}</string>
-							<string>{4, 34}</string>
-							<string>{32, 43}</string>
+							<string>{114, 23}</string>
+							<string>{69, 41}</string>
+							<string>{65, 26}</string>
+							<string>{49, 7}</string>
+							<string>{40, 19}</string>
+							<string>{33, 38}</string>
+							<string>{30, 55}</string>
+							<string>{18, 45}</string>
+							<string>{4, 37}</string>
+							<string>{19, 84}</string>
+							<string>{3, 84}</string>
+							<string>{51, 122}</string>
+							<string>{104, 121}</string>
+							<string>{91, 107}</string>
+							<string>{133, 88}</string>
+							<string>{97, 68}</string>
 						</array>
 					</dict>
 					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{656, 464}, {54, 51}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
 						<key>class</key>
 						<string>TTLeave</string>
 						<key>frame</key>
-						<string>{{107, 573}, {141, 125}}</string>
-						<key>image</key>
-						<string>leaf8a.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{50, 5}</string>
-							<string>{73, 35}</string>
-							<string>{120, 20}</string>
-							<string>{100, 68}</string>
-							<string>{138, 88}</string>
-							<string>{95, 107}</string>
-							<string>{106, 123}</string>
-							<string>{34, 113}</string>
-							<string>{5, 84}</string>
-							<string>{16, 73}</string>
-							<string>{4, 34}</string>
-							<string>{32, 43}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTLeave</string>
-						<key>frame</key>
-						<string>{{199, 500}, {141, 125}}</string>
-						<key>image</key>
-						<string>leaf8a.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{50, 5}</string>
-							<string>{73, 35}</string>
-							<string>{120, 20}</string>
-							<string>{100, 68}</string>
-							<string>{138, 88}</string>
-							<string>{95, 107}</string>
-							<string>{106, 123}</string>
-							<string>{34, 113}</string>
-							<string>{5, 84}</string>
-							<string>{16, 73}</string>
-							<string>{4, 34}</string>
-							<string>{32, 43}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTLeave</string>
-						<key>frame</key>
-						<string>{{117, 469}, {141, 125}}</string>
-						<key>image</key>
-						<string>leaf8a.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{50, 5}</string>
-							<string>{73, 35}</string>
-							<string>{120, 20}</string>
-							<string>{100, 68}</string>
-							<string>{138, 88}</string>
-							<string>{95, 107}</string>
-							<string>{106, 123}</string>
-							<string>{34, 113}</string>
-							<string>{5, 84}</string>
-							<string>{16, 73}</string>
-							<string>{4, 34}</string>
-							<string>{32, 43}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTLeave</string>
-						<key>frame</key>
-						<string>{{291, 530}, {141, 125}}</string>
-						<key>image</key>
-						<string>leaf8a.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{50, 5}</string>
-							<string>{73, 35}</string>
-							<string>{120, 20}</string>
-							<string>{100, 68}</string>
-							<string>{138, 88}</string>
-							<string>{95, 107}</string>
-							<string>{106, 123}</string>
-							<string>{34, 113}</string>
-							<string>{5, 84}</string>
-							<string>{16, 73}</string>
-							<string>{4, 34}</string>
-							<string>{32, 43}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTLeave</string>
-						<key>frame</key>
-						<string>{{197, 574}, {141, 125}}</string>
-						<key>image</key>
-						<string>leaf8a.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{50, 5}</string>
-							<string>{73, 35}</string>
-							<string>{120, 20}</string>
-							<string>{100, 68}</string>
-							<string>{138, 88}</string>
-							<string>{95, 107}</string>
-							<string>{106, 123}</string>
-							<string>{34, 113}</string>
-							<string>{5, 84}</string>
-							<string>{16, 73}</string>
-							<string>{4, 34}</string>
-							<string>{32, 43}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTLeave</string>
-						<key>frame</key>
-						<string>{{492, 562}, {40, 40}}</string>
-						<key>image</key>
-						<string>leaf8b.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{35, 13}</string>
-							<string>{38, 36}</string>
-							<string>{6, 36}</string>
-							<string>{7, 19}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTLeave</string>
-						<key>frame</key>
-						<string>{{489, 626}, {40, 40}}</string>
-						<key>image</key>
-						<string>leaf8b.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{35, 13}</string>
-							<string>{38, 36}</string>
-							<string>{6, 36}</string>
-							<string>{7, 19}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTLeave</string>
-						<key>frame</key>
-						<string>{{363, 457}, {40, 40}}</string>
-						<key>image</key>
-						<string>leaf8c.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{6, 4}</string>
-							<string>{25, 4}</string>
-							<string>{37, 15}</string>
-							<string>{21, 37}</string>
-							<string>{5, 30}</string>
-							<string>{3, 14}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTLeave</string>
-						<key>frame</key>
-						<string>{{343, 444}, {40, 40}}</string>
-						<key>image</key>
-						<string>leaf8c.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{6, 4}</string>
-							<string>{25, 4}</string>
-							<string>{37, 15}</string>
-							<string>{21, 37}</string>
-							<string>{5, 30}</string>
-							<string>{3, 14}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTLeave</string>
-						<key>frame</key>
-						<string>{{386, 489}, {40, 40}}</string>
-						<key>image</key>
-						<string>leaf8d.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{34, 38}</string>
-							<string>{36, 22}</string>
-							<string>{36, 9}</string>
-							<string>{17, 5}</string>
-							<string>{5, 16}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTLeave</string>
-						<key>frame</key>
-						<string>{{355, 520}, {40, 40}}</string>
-						<key>image</key>
-						<string>leaf8d.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{34, 38}</string>
-							<string>{36, 22}</string>
-							<string>{36, 9}</string>
-							<string>{17, 5}</string>
-							<string>{5, 16}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTLeave</string>
-						<key>frame</key>
-						<string>{{293, 644}, {40, 40}}</string>
-						<key>image</key>
-						<string>leaf8e.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{8, 12}</string>
-							<string>{35, 7}</string>
-							<string>{35, 28}</string>
-							<string>{12, 38}</string>
-							<string>{4, 22}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTLeave</string>
-						<key>frame</key>
-						<string>{{189, 658}, {40, 40}}</string>
-						<key>image</key>
-						<string>leaf8e.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{8, 12}</string>
-							<string>{35, 7}</string>
-							<string>{35, 28}</string>
-							<string>{12, 38}</string>
-							<string>{4, 22}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTLeave</string>
-						<key>frame</key>
-						<string>{{387, 458}, {41, 41}}</string>
-						<key>image</key>
-						<string>leaf12a.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{18, 10}</string>
-							<string>{37, 15}</string>
-							<string>{34, 35}</string>
-							<string>{9, 37}</string>
-							<string>{8, 23}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTLeave</string>
-						<key>frame</key>
-						<string>{{506, 562}, {41, 41}}</string>
-						<key>image</key>
-						<string>leaf12a.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{18, 10}</string>
-							<string>{37, 15}</string>
-							<string>{34, 35}</string>
-							<string>{9, 37}</string>
-							<string>{8, 23}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTLeave</string>
-						<key>frame</key>
-						<string>{{352, 551}, {60, 40}}</string>
-						<key>image</key>
-						<string>leaf12b.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{26, 33}</string>
-							<string>{53, 33}</string>
-							<string>{58, 9}</string>
-							<string>{24, 3}</string>
-							<string>{19, 17}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTLeave</string>
-						<key>frame</key>
-						<string>{{121, 560}, {60, 40}}</string>
-						<key>image</key>
-						<string>leaf12b.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{26, 33}</string>
-							<string>{53, 33}</string>
-							<string>{58, 9}</string>
-							<string>{24, 3}</string>
-							<string>{19, 17}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTLeave</string>
-						<key>frame</key>
-						<string>{{269, 409}, {41, 43}}</string>
-						<key>image</key>
-						<string>leaf12c.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{23, 16}</string>
-							<string>{30, 32}</string>
-							<string>{9, 40}</string>
-							<string>{9, 24}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTLeave</string>
-						<key>frame</key>
-						<string>{{482, 641}, {41, 43}}</string>
-						<key>image</key>
-						<string>leaf12c.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{23, 16}</string>
-							<string>{30, 32}</string>
-							<string>{9, 40}</string>
-							<string>{9, 24}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTLeave</string>
-						<key>frame</key>
-						<string>{{364, 463}, {54, 51}}</string>
+						<string>{{249, 434}, {54, 51}}</string>
 						<key>image</key>
 						<string>leaf19a.png</string>
+						<key>isPicked</key>
+						<false/>
 						<key>touchPoints</key>
 						<array>
-							<string>{17, 14}</string>
-							<string>{41, 9}</string>
-							<string>{48, 36}</string>
-							<string>{30, 47}</string>
-							<string>{7, 42}</string>
-							<string>{7, 23}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTLeave</string>
-						<key>frame</key>
-						<string>{{182, 527}, {54, 51}}</string>
-						<key>image</key>
-						<string>leaf19a.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{17, 14}</string>
-							<string>{41, 9}</string>
-							<string>{48, 36}</string>
-							<string>{30, 47}</string>
-							<string>{7, 42}</string>
-							<string>{7, 23}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTLeave</string>
-						<key>frame</key>
-						<string>{{122, 533}, {41, 44}}</string>
-						<key>image</key>
-						<string>leaf19b.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{18, 11}</string>
-							<string>{39, 19}</string>
-							<string>{30, 39}</string>
-							<string>{10, 41}</string>
-							<string>{3, 29}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTLeave</string>
-						<key>frame</key>
-						<string>{{444, 653}, {41, 44}}</string>
-						<key>image</key>
-						<string>leaf19b.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{18, 11}</string>
-							<string>{39, 19}</string>
-							<string>{30, 39}</string>
-							<string>{10, 41}</string>
-							<string>{3, 29}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTLeave</string>
-						<key>frame</key>
-						<string>{{230, 491}, {40, 41}}</string>
-						<key>image</key>
-						<string>leaf19c.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{6, 6}</string>
-							<string>{33, 6}</string>
-							<string>{34, 23}</string>
-							<string>{26, 35}</string>
-							<string>{7, 34}</string>
-							<string>{3, 24}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTLeave</string>
-						<key>frame</key>
-						<string>{{456, 635}, {40, 41}}</string>
-						<key>image</key>
-						<string>leaf19d.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{33, 30}</string>
-							<string>{31, 7}</string>
-							<string>{7, 11}</string>
-							<string>{6, 26}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTLeave</string>
-						<key>frame</key>
-						<string>{{266, 571}, {40, 41}}</string>
-						<key>image</key>
-						<string>leaf19e.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{14, 12}</string>
-							<string>{7, 18}</string>
+							<string>{3, 8}</string>
+							<string>{11, 19}</string>
+							<string>{4, 24}</string>
 							<string>{6, 39}</string>
-							<string>{31, 39}</string>
-							<string>{35, 25}</string>
+							<string>{15, 40}</string>
+							<string>{24, 48}</string>
+							<string>{32, 37}</string>
+							<string>{48, 45}</string>
+							<string>{40, 31}</string>
+							<string>{51, 22}</string>
+							<string>{38, 8}</string>
 						</array>
 					</dict>
 					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{726, 22}, {66, 57}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
 						<key>class</key>
 						<string>TTLeave</string>
 						<key>frame</key>
-						<string>{{265, 671}, {40, 41}}</string>
-						<key>image</key>
-						<string>leaf19f.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{12, 5}</string>
-							<string>{26, 6}</string>
-							<string>{35, 22}</string>
-							<string>{13, 37}</string>
-							<string>{6, 21}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTLeave</string>
-						<key>frame</key>
-						<string>{{497, 521}, {40, 41}}</string>
-						<key>image</key>
-						<string>leaf19g.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{6, 16}</string>
-							<string>{26, 7}</string>
-							<string>{34, 25}</string>
-							<string>{17, 37}</string>
-							<string>{6, 32}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTLeave</string>
-						<key>frame</key>
-						<string>{{323, 430}, {40, 41}}</string>
-						<key>image</key>
-						<string>leaf19h.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{5, 20}</string>
-							<string>{16, 9}</string>
-							<string>{38, 16}</string>
-							<string>{32, 38}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTLeave</string>
-						<key>frame</key>
-						<string>{{394, 676}, {40, 41}}</string>
-						<key>image</key>
-						<string>leaf19i.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{10, 2}</string>
-							<string>{33, 5}</string>
-							<string>{41, 23}</string>
-							<string>{33, 39}</string>
-							<string>{14, 39}</string>
-							<string>{3, 25}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTLeave</string>
-						<key>frame</key>
-						<string>{{307, 441}, {40, 41}}</string>
-						<key>image</key>
-						<string>leaf19j.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{2, 6}</string>
-							<string>{32, 13}</string>
-							<string>{20, 33}</string>
-							<string>{5, 26}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTLeave</string>
-						<key>frame</key>
-						<string>{{423, 568}, {66, 57}}</string>
+						<string>{{297, 383}, {66, 57}}</string>
 						<key>image</key>
 						<string>leaf21a.png</string>
+						<key>isPicked</key>
+						<false/>
 						<key>touchPoints</key>
 						<array>
-							<string>{10, 24}</string>
-							<string>{23, 6}</string>
-							<string>{49, 6}</string>
-							<string>{49, 21}</string>
-							<string>{66, 28}</string>
-							<string>{50, 36}</string>
-							<string>{60, 54}</string>
-							<string>{39, 54}</string>
-							<string>{21, 49}</string>
+							<string>{18, 35}</string>
+							<string>{12, 22}</string>
+							<string>{19, 19}</string>
+							<string>{22, 5}</string>
+							<string>{31, 16}</string>
+							<string>{37, 10}</string>
+							<string>{48, 3}</string>
+							<string>{44, 22}</string>
+							<string>{59, 27}</string>
+							<string>{53, 38}</string>
+							<string>{57, 50}</string>
+							<string>{42, 48}</string>
+							<string>{41, 56}</string>
+							<string>{17, 42}</string>
 						</array>
 					</dict>
 					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{890, -17}, {63, 68}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
 						<key>class</key>
 						<string>TTLeave</string>
 						<key>frame</key>
-						<string>{{452, 504}, {41, 40}}</string>
-						<key>image</key>
-						<string>leaf21b.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{18, 11}</string>
-							<string>{11, 29}</string>
-							<string>{28, 38}</string>
-							<string>{40, 17}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTLeave</string>
-						<key>frame</key>
-						<string>{{433, 459}, {63, 68}}</string>
-						<key>image</key>
-						<string>leaf26a.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{35, 13}</string>
-							<string>{6, 29}</string>
-							<string>{6, 52}</string>
-							<string>{27, 65}</string>
-							<string>{55, 63}</string>
-							<string>{58, 43}</string>
-							<string>{46, 29}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTLeave</string>
-						<key>frame</key>
-						<string>{{497, 586}, {63, 68}}</string>
+						<string>{{143, 463}, {63, 68}}</string>
 						<key>image</key>
 						<string>leaf26a.png</string>
+						<key>isPicked</key>
+						<false/>
 						<key>touchPoints</key>
 						<array>
-							<string>{35, 13}</string>
-							<string>{6, 29}</string>
-							<string>{6, 52}</string>
+							<string>{44, 9}</string>
+							<string>{39, 9}</string>
+							<string>{34, 24}</string>
+							<string>{24, 19}</string>
+							<string>{5, 24}</string>
+							<string>{4, 45}</string>
+							<string>{7, 53}</string>
+							<string>{18, 50}</string>
+							<string>{24, 60}</string>
 							<string>{27, 65}</string>
-							<string>{55, 63}</string>
-							<string>{58, 43}</string>
-							<string>{46, 29}</string>
+							<string>{36, 54}</string>
+							<string>{52, 61}</string>
+							<string>{48, 44}</string>
+							<string>{58, 41}</string>
+							<string>{39, 25}</string>
 						</array>
 					</dict>
 					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{752, 388}, {52, 55}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
 						<key>class</key>
 						<string>TTLeave</string>
 						<key>frame</key>
-						<string>{{134, 433}, {63, 68}}</string>
-						<key>image</key>
-						<string>leaf26a.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{35, 13}</string>
-							<string>{6, 29}</string>
-							<string>{6, 52}</string>
-							<string>{27, 65}</string>
-							<string>{55, 63}</string>
-							<string>{58, 43}</string>
-							<string>{46, 29}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTLeave</string>
-						<key>frame</key>
-						<string>{{467, 513}, {63, 68}}</string>
-						<key>image</key>
-						<string>leaf26a.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{35, 13}</string>
-							<string>{6, 29}</string>
-							<string>{6, 52}</string>
-							<string>{27, 65}</string>
-							<string>{55, 63}</string>
-							<string>{58, 43}</string>
-							<string>{46, 29}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTLeave</string>
-						<key>frame</key>
-						<string>{{440, 543}, {52, 55}}</string>
+						<string>{{155, 500}, {52, 55}}</string>
 						<key>image</key>
 						<string>leaf26b.png</string>
+						<key>isPicked</key>
+						<false/>
 						<key>touchPoints</key>
 						<array>
-							<string>{5, 26}</string>
-							<string>{16, 23}</string>
-							<string>{13, 9}</string>
-							<string>{25, 14}</string>
-							<string>{35, 5}</string>
-							<string>{38, 16}</string>
-							<string>{50, 17}</string>
-							<string>{45, 29}</string>
-							<string>{50, 39}</string>
-							<string>{13, 43}</string>
+							<string>{30, 50}</string>
+							<string>{30, 37}</string>
+							<string>{17, 40}</string>
+							<string>{10, 29}</string>
+							<string>{13, 20}</string>
+							<string>{13, 10}</string>
+							<string>{24, 14}</string>
+							<string>{32, 1}</string>
+							<string>{40, 15}</string>
+							<string>{52, 17}</string>
 						</array>
 					</dict>
 					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{579, 62}, {121, 72}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
 						<key>class</key>
 						<string>TTLeave</string>
 						<key>frame</key>
-						<string>{{452, 575}, {121, 72}}</string>
+						<string>{{254, 350}, {121, 72}}</string>
 						<key>image</key>
 						<string>leaf42a.png</string>
+						<key>isPicked</key>
+						<false/>
 						<key>touchPoints</key>
 						<array>
-							<string>{5, 62}</string>
-							<string>{30, 12}</string>
-							<string>{71, 10}</string>
-							<string>{89, 44}</string>
-							<string>{59, 70}</string>
-							<string>{5, 65}</string>
+							<string>{121, 14}</string>
+							<string>{116, 3}</string>
+							<string>{74, 23}</string>
+							<string>{60, 9}</string>
+							<string>{38, 7}</string>
+							<string>{20, 18}</string>
+							<string>{9, 53}</string>
+							<string>{6, 62}</string>
+							<string>{47, 70}</string>
+							<string>{71, 61}</string>
+							<string>{82, 38}</string>
+							<string>{79, 29}</string>
+							<string>{111, 13}</string>
 						</array>
 					</dict>
 					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{627, 197}, {129, 135}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
 						<key>class</key>
 						<string>TTLeave</string>
 						<key>frame</key>
-						<string>{{363, 583}, {129, 135}}</string>
+						<string>{{125, 377}, {129, 135}}</string>
 						<key>image</key>
 						<string>leaf42b.png</string>
+						<key>isPicked</key>
+						<false/>
 						<key>touchPoints</key>
 						<array>
-							<string>{44, 6}</string>
-							<string>{84, 29}</string>
-							<string>{104, 11}</string>
-							<string>{122, 54}</string>
-							<string>{65, 135}</string>
-							<string>{55, 111}</string>
-							<string>{17, 116}</string>
-							<string>{35, 78}</string>
-							<string>{2, 54}</string>
-							<string>{47, 49}</string>
+							<string>{105, 80}</string>
+							<string>{126, 48}</string>
+							<string>{124, 43}</string>
+							<string>{113, 44}</string>
+							<string>{103, 4}</string>
+							<string>{90, 29}</string>
+							<string>{47, 5}</string>
+							<string>{43, 46}</string>
+							<string>{7, 59}</string>
+							<string>{33, 78}</string>
+							<string>{35, 87}</string>
+							<string>{15, 118}</string>
+							<string>{54, 111}</string>
+							<string>{59, 129}</string>
+							<string>{91, 113}</string>
 						</array>
 					</dict>
 					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{726, 22}, {66, 57}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
 						<key>class</key>
 						<string>TTLeave</string>
 						<key>frame</key>
-						<string>{{294, 600}, {129, 135}}</string>
+						<string>{{290, 338}, {66, 57}}</string>
+						<key>image</key>
+						<string>leaf21a.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{18, 35}</string>
+							<string>{12, 22}</string>
+							<string>{19, 19}</string>
+							<string>{22, 5}</string>
+							<string>{31, 16}</string>
+							<string>{37, 10}</string>
+							<string>{48, 3}</string>
+							<string>{44, 22}</string>
+							<string>{59, 27}</string>
+							<string>{53, 38}</string>
+							<string>{57, 50}</string>
+							<string>{42, 48}</string>
+							<string>{41, 56}</string>
+							<string>{17, 42}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{890, -17}, {63, 68}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTLeave</string>
+						<key>frame</key>
+						<string>{{280, 389}, {63, 68}}</string>
+						<key>image</key>
+						<string>leaf26a.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{44, 9}</string>
+							<string>{39, 9}</string>
+							<string>{34, 24}</string>
+							<string>{24, 19}</string>
+							<string>{5, 24}</string>
+							<string>{4, 45}</string>
+							<string>{7, 53}</string>
+							<string>{18, 50}</string>
+							<string>{24, 60}</string>
+							<string>{27, 65}</string>
+							<string>{36, 54}</string>
+							<string>{52, 61}</string>
+							<string>{48, 44}</string>
+							<string>{58, 41}</string>
+							<string>{39, 25}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{726, 22}, {66, 57}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTLeave</string>
+						<key>frame</key>
+						<string>{{193, 451}, {66, 57}}</string>
+						<key>image</key>
+						<string>leaf21a.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{18, 35}</string>
+							<string>{12, 22}</string>
+							<string>{19, 19}</string>
+							<string>{22, 5}</string>
+							<string>{31, 16}</string>
+							<string>{37, 10}</string>
+							<string>{48, 3}</string>
+							<string>{44, 22}</string>
+							<string>{59, 27}</string>
+							<string>{53, 38}</string>
+							<string>{57, 50}</string>
+							<string>{42, 48}</string>
+							<string>{41, 56}</string>
+							<string>{17, 42}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{656, 464}, {54, 51}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTLeave</string>
+						<key>frame</key>
+						<string>{{311, 406}, {54, 51}}</string>
+						<key>image</key>
+						<string>leaf19a.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{3, 8}</string>
+							<string>{11, 19}</string>
+							<string>{4, 24}</string>
+							<string>{6, 39}</string>
+							<string>{15, 40}</string>
+							<string>{24, 48}</string>
+							<string>{32, 37}</string>
+							<string>{48, 45}</string>
+							<string>{40, 31}</string>
+							<string>{51, 22}</string>
+							<string>{38, 8}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{726, 22}, {66, 57}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTLeave</string>
+						<key>frame</key>
+						<string>{{262, 446}, {66, 57}}</string>
+						<key>image</key>
+						<string>leaf21a.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{18, 35}</string>
+							<string>{12, 22}</string>
+							<string>{19, 19}</string>
+							<string>{22, 5}</string>
+							<string>{31, 16}</string>
+							<string>{37, 10}</string>
+							<string>{48, 3}</string>
+							<string>{44, 22}</string>
+							<string>{59, 27}</string>
+							<string>{53, 38}</string>
+							<string>{57, 50}</string>
+							<string>{42, 48}</string>
+							<string>{41, 56}</string>
+							<string>{17, 42}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{867, 433}, {54, 49}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTLeave</string>
+						<key>frame</key>
+						<string>{{161, 366}, {54, 49}}</string>
+						<key>image</key>
+						<string>leaf5b.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{51, 29}</string>
+							<string>{37, 27}</string>
+							<string>{31, 9}</string>
+							<string>{14, 5}</string>
+							<string>{14, 18}</string>
+							<string>{8, 18}</string>
+							<string>{8, 36}</string>
+							<string>{27, 44}</string>
+							<string>{36, 32}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{867, 433}, {54, 49}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTLeave</string>
+						<key>frame</key>
+						<string>{{320, 328}, {54, 49}}</string>
+						<key>image</key>
+						<string>leaf5b.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{51, 29}</string>
+							<string>{37, 27}</string>
+							<string>{31, 9}</string>
+							<string>{14, 5}</string>
+							<string>{14, 18}</string>
+							<string>{8, 18}</string>
+							<string>{8, 36}</string>
+							<string>{27, 44}</string>
+							<string>{36, 32}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{726, 22}, {66, 57}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTLeave</string>
+						<key>frame</key>
+						<string>{{153, 333}, {66, 57}}</string>
+						<key>image</key>
+						<string>leaf21a.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{18, 35}</string>
+							<string>{12, 22}</string>
+							<string>{19, 19}</string>
+							<string>{22, 5}</string>
+							<string>{31, 16}</string>
+							<string>{37, 10}</string>
+							<string>{48, 3}</string>
+							<string>{44, 22}</string>
+							<string>{59, 27}</string>
+							<string>{53, 38}</string>
+							<string>{57, 50}</string>
+							<string>{42, 48}</string>
+							<string>{41, 56}</string>
+							<string>{17, 42}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{726, 22}, {66, 57}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTLeave</string>
+						<key>frame</key>
+						<string>{{133, 379}, {66, 57}}</string>
+						<key>image</key>
+						<string>leaf21a.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{18, 35}</string>
+							<string>{12, 22}</string>
+							<string>{19, 19}</string>
+							<string>{22, 5}</string>
+							<string>{31, 16}</string>
+							<string>{37, 10}</string>
+							<string>{48, 3}</string>
+							<string>{44, 22}</string>
+							<string>{59, 27}</string>
+							<string>{53, 38}</string>
+							<string>{57, 50}</string>
+							<string>{42, 48}</string>
+							<string>{41, 56}</string>
+							<string>{17, 42}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{752, 388}, {52, 55}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTLeave</string>
+						<key>frame</key>
+						<string>{{293, 311}, {52, 55}}</string>
+						<key>image</key>
+						<string>leaf26b.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{30, 50}</string>
+							<string>{30, 37}</string>
+							<string>{17, 40}</string>
+							<string>{10, 29}</string>
+							<string>{13, 20}</string>
+							<string>{13, 10}</string>
+							<string>{24, 14}</string>
+							<string>{32, 1}</string>
+							<string>{40, 15}</string>
+							<string>{52, 17}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{627, 197}, {129, 135}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTLeave</string>
+						<key>frame</key>
+						<string>{{378, 379}, {129, 135}}</string>
 						<key>image</key>
 						<string>leaf42b.png</string>
+						<key>isPicked</key>
+						<false/>
 						<key>touchPoints</key>
 						<array>
-							<string>{44, 6}</string>
-							<string>{84, 29}</string>
-							<string>{104, 11}</string>
-							<string>{122, 54}</string>
-							<string>{65, 135}</string>
-							<string>{55, 111}</string>
-							<string>{17, 116}</string>
-							<string>{35, 78}</string>
-							<string>{2, 54}</string>
-							<string>{47, 49}</string>
+							<string>{105, 80}</string>
+							<string>{126, 48}</string>
+							<string>{124, 43}</string>
+							<string>{113, 44}</string>
+							<string>{103, 4}</string>
+							<string>{90, 29}</string>
+							<string>{47, 5}</string>
+							<string>{43, 46}</string>
+							<string>{7, 59}</string>
+							<string>{33, 78}</string>
+							<string>{35, 87}</string>
+							<string>{15, 118}</string>
+							<string>{54, 111}</string>
+							<string>{59, 129}</string>
+							<string>{91, 113}</string>
 						</array>
 					</dict>
 					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{752, 388}, {52, 55}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
 						<key>class</key>
 						<string>TTLeave</string>
 						<key>frame</key>
-						<string>{{260, 440}, {129, 135}}</string>
+						<string>{{407, 373}, {52, 55}}</string>
+						<key>image</key>
+						<string>leaf26b.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{30, 50}</string>
+							<string>{30, 37}</string>
+							<string>{17, 40}</string>
+							<string>{10, 29}</string>
+							<string>{13, 20}</string>
+							<string>{13, 10}</string>
+							<string>{24, 14}</string>
+							<string>{32, 1}</string>
+							<string>{40, 15}</string>
+							<string>{52, 17}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{890, -17}, {63, 68}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTLeave</string>
+						<key>frame</key>
+						<string>{{420, 465}, {63, 68}}</string>
+						<key>image</key>
+						<string>leaf26a.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{44, 9}</string>
+							<string>{39, 9}</string>
+							<string>{34, 24}</string>
+							<string>{24, 19}</string>
+							<string>{5, 24}</string>
+							<string>{4, 45}</string>
+							<string>{7, 53}</string>
+							<string>{18, 50}</string>
+							<string>{24, 60}</string>
+							<string>{27, 65}</string>
+							<string>{36, 54}</string>
+							<string>{52, 61}</string>
+							<string>{48, 44}</string>
+							<string>{58, 41}</string>
+							<string>{39, 25}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{579, 62}, {121, 72}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTLeave</string>
+						<key>frame</key>
+						<string>{{329, 389}, {121, 72}}</string>
+						<key>image</key>
+						<string>leaf42a.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{121, 14}</string>
+							<string>{116, 3}</string>
+							<string>{74, 23}</string>
+							<string>{60, 9}</string>
+							<string>{38, 7}</string>
+							<string>{20, 18}</string>
+							<string>{9, 53}</string>
+							<string>{6, 62}</string>
+							<string>{47, 70}</string>
+							<string>{71, 61}</string>
+							<string>{82, 38}</string>
+							<string>{79, 29}</string>
+							<string>{111, 13}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{890, -17}, {63, 68}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTLeave</string>
+						<key>frame</key>
+						<string>{{300, 442}, {63, 68}}</string>
+						<key>image</key>
+						<string>leaf26a.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{44, 9}</string>
+							<string>{39, 9}</string>
+							<string>{34, 24}</string>
+							<string>{24, 19}</string>
+							<string>{5, 24}</string>
+							<string>{4, 45}</string>
+							<string>{7, 53}</string>
+							<string>{18, 50}</string>
+							<string>{24, 60}</string>
+							<string>{27, 65}</string>
+							<string>{36, 54}</string>
+							<string>{52, 61}</string>
+							<string>{48, 44}</string>
+							<string>{58, 41}</string>
+							<string>{39, 25}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{890, -17}, {63, 68}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTLeave</string>
+						<key>frame</key>
+						<string>{{353, 360}, {63, 68}}</string>
+						<key>image</key>
+						<string>leaf26a.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{44, 9}</string>
+							<string>{39, 9}</string>
+							<string>{34, 24}</string>
+							<string>{24, 19}</string>
+							<string>{5, 24}</string>
+							<string>{4, 45}</string>
+							<string>{7, 53}</string>
+							<string>{18, 50}</string>
+							<string>{24, 60}</string>
+							<string>{27, 65}</string>
+							<string>{36, 54}</string>
+							<string>{52, 61}</string>
+							<string>{48, 44}</string>
+							<string>{58, 41}</string>
+							<string>{39, 25}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{890, -17}, {63, 68}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTLeave</string>
+						<key>frame</key>
+						<string>{{179, 297}, {63, 68}}</string>
+						<key>image</key>
+						<string>leaf26a.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{44, 9}</string>
+							<string>{39, 9}</string>
+							<string>{34, 24}</string>
+							<string>{24, 19}</string>
+							<string>{5, 24}</string>
+							<string>{4, 45}</string>
+							<string>{7, 53}</string>
+							<string>{18, 50}</string>
+							<string>{24, 60}</string>
+							<string>{27, 65}</string>
+							<string>{36, 54}</string>
+							<string>{52, 61}</string>
+							<string>{48, 44}</string>
+							<string>{58, 41}</string>
+							<string>{39, 25}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{726, 22}, {66, 57}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTLeave</string>
+						<key>frame</key>
+						<string>{{445, 367}, {66, 57}}</string>
+						<key>image</key>
+						<string>leaf21a.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{18, 35}</string>
+							<string>{12, 22}</string>
+							<string>{19, 19}</string>
+							<string>{22, 5}</string>
+							<string>{31, 16}</string>
+							<string>{37, 10}</string>
+							<string>{48, 3}</string>
+							<string>{44, 22}</string>
+							<string>{59, 27}</string>
+							<string>{53, 38}</string>
+							<string>{57, 50}</string>
+							<string>{42, 48}</string>
+							<string>{41, 56}</string>
+							<string>{17, 42}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{867, 433}, {54, 49}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTLeave</string>
+						<key>frame</key>
+						<string>{{354, 349}, {54, 49}}</string>
+						<key>image</key>
+						<string>leaf5b.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{51, 29}</string>
+							<string>{37, 27}</string>
+							<string>{31, 9}</string>
+							<string>{14, 5}</string>
+							<string>{14, 18}</string>
+							<string>{8, 18}</string>
+							<string>{8, 36}</string>
+							<string>{27, 44}</string>
+							<string>{36, 32}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{867, 433}, {54, 49}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTLeave</string>
+						<key>frame</key>
+						<string>{{334, 454}, {54, 49}}</string>
+						<key>image</key>
+						<string>leaf5b.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{51, 29}</string>
+							<string>{37, 27}</string>
+							<string>{31, 9}</string>
+							<string>{14, 5}</string>
+							<string>{14, 18}</string>
+							<string>{8, 18}</string>
+							<string>{8, 36}</string>
+							<string>{27, 44}</string>
+							<string>{36, 32}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{726, 22}, {66, 57}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTLeave</string>
+						<key>frame</key>
+						<string>{{268, 470}, {66, 57}}</string>
+						<key>image</key>
+						<string>leaf21a.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{18, 35}</string>
+							<string>{12, 22}</string>
+							<string>{19, 19}</string>
+							<string>{22, 5}</string>
+							<string>{31, 16}</string>
+							<string>{37, 10}</string>
+							<string>{48, 3}</string>
+							<string>{44, 22}</string>
+							<string>{59, 27}</string>
+							<string>{53, 38}</string>
+							<string>{57, 50}</string>
+							<string>{42, 48}</string>
+							<string>{41, 56}</string>
+							<string>{17, 42}</string>
+						</array>
+					</dict>
+				</array>
+				<key>original_elements</key>
+				<array>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{867, 433}, {54, 49}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTLeave</string>
+						<key>frame</key>
+						<string>{{313, 525}, {54, 49}}</string>
+						<key>image</key>
+						<string>leaf5b.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{51, 29}</string>
+							<string>{37, 27}</string>
+							<string>{31, 9}</string>
+							<string>{14, 5}</string>
+							<string>{14, 18}</string>
+							<string>{8, 18}</string>
+							<string>{8, 36}</string>
+							<string>{27, 44}</string>
+							<string>{36, 32}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{849, 93}, {141, 125}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTLeave</string>
+						<key>frame</key>
+						<string>{{320, 355}, {141, 125}}</string>
+						<key>image</key>
+						<string>leaf8a.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{114, 23}</string>
+							<string>{69, 41}</string>
+							<string>{65, 26}</string>
+							<string>{49, 7}</string>
+							<string>{40, 19}</string>
+							<string>{33, 38}</string>
+							<string>{30, 55}</string>
+							<string>{18, 45}</string>
+							<string>{4, 37}</string>
+							<string>{19, 84}</string>
+							<string>{3, 84}</string>
+							<string>{51, 122}</string>
+							<string>{104, 121}</string>
+							<string>{91, 107}</string>
+							<string>{133, 88}</string>
+							<string>{97, 68}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{656, 464}, {54, 51}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTLeave</string>
+						<key>frame</key>
+						<string>{{516, 513}, {54, 51}}</string>
+						<key>image</key>
+						<string>leaf19a.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{3, 8}</string>
+							<string>{11, 19}</string>
+							<string>{4, 24}</string>
+							<string>{6, 39}</string>
+							<string>{15, 40}</string>
+							<string>{24, 48}</string>
+							<string>{32, 37}</string>
+							<string>{48, 45}</string>
+							<string>{40, 31}</string>
+							<string>{51, 22}</string>
+							<string>{38, 8}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{726, 22}, {66, 57}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTLeave</string>
+						<key>frame</key>
+						<string>{{510, 337}, {66, 57}}</string>
+						<key>image</key>
+						<string>leaf21a.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{18, 35}</string>
+							<string>{12, 22}</string>
+							<string>{19, 19}</string>
+							<string>{22, 5}</string>
+							<string>{31, 16}</string>
+							<string>{37, 10}</string>
+							<string>{48, 3}</string>
+							<string>{44, 22}</string>
+							<string>{59, 27}</string>
+							<string>{53, 38}</string>
+							<string>{57, 50}</string>
+							<string>{42, 48}</string>
+							<string>{41, 56}</string>
+							<string>{17, 42}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{890, -17}, {63, 68}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTLeave</string>
+						<key>frame</key>
+						<string>{{91, 277}, {63, 68}}</string>
+						<key>image</key>
+						<string>leaf26a.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{44, 9}</string>
+							<string>{39, 9}</string>
+							<string>{34, 24}</string>
+							<string>{24, 19}</string>
+							<string>{5, 24}</string>
+							<string>{4, 45}</string>
+							<string>{7, 53}</string>
+							<string>{18, 50}</string>
+							<string>{24, 60}</string>
+							<string>{27, 65}</string>
+							<string>{36, 54}</string>
+							<string>{52, 61}</string>
+							<string>{48, 44}</string>
+							<string>{58, 41}</string>
+							<string>{39, 25}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{752, 388}, {52, 55}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTLeave</string>
+						<key>frame</key>
+						<string>{{593, 587}, {52, 55}}</string>
+						<key>image</key>
+						<string>leaf26b.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{30, 50}</string>
+							<string>{30, 37}</string>
+							<string>{17, 40}</string>
+							<string>{10, 29}</string>
+							<string>{13, 20}</string>
+							<string>{13, 10}</string>
+							<string>{24, 14}</string>
+							<string>{32, 1}</string>
+							<string>{40, 15}</string>
+							<string>{52, 17}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{579, 62}, {121, 72}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTLeave</string>
+						<key>frame</key>
+						<string>{{415, 206}, {121, 72}}</string>
+						<key>image</key>
+						<string>leaf42a.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{121, 14}</string>
+							<string>{116, 3}</string>
+							<string>{74, 23}</string>
+							<string>{60, 9}</string>
+							<string>{38, 7}</string>
+							<string>{20, 18}</string>
+							<string>{9, 53}</string>
+							<string>{6, 62}</string>
+							<string>{47, 70}</string>
+							<string>{71, 61}</string>
+							<string>{82, 38}</string>
+							<string>{79, 29}</string>
+							<string>{111, 13}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{627, 197}, {129, 135}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTLeave</string>
+						<key>frame</key>
+						<string>{{223, 176}, {129, 135}}</string>
 						<key>image</key>
 						<string>leaf42b.png</string>
+						<key>isPicked</key>
+						<false/>
 						<key>touchPoints</key>
 						<array>
-							<string>{44, 6}</string>
-							<string>{84, 29}</string>
-							<string>{104, 11}</string>
-							<string>{122, 54}</string>
-							<string>{65, 135}</string>
-							<string>{55, 111}</string>
-							<string>{17, 116}</string>
-							<string>{35, 78}</string>
-							<string>{2, 54}</string>
-							<string>{47, 49}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTLeave</string>
-						<key>frame</key>
-						<string>{{355, 476}, {129, 135}}</string>
-						<key>image</key>
-						<string>leaf42b.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{44, 6}</string>
-							<string>{84, 29}</string>
-							<string>{104, 11}</string>
-							<string>{122, 54}</string>
-							<string>{65, 135}</string>
-							<string>{55, 111}</string>
-							<string>{17, 116}</string>
-							<string>{35, 78}</string>
-							<string>{2, 54}</string>
-							<string>{47, 49}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTLeave</string>
-						<key>frame</key>
-						<string>{{87, 621}, {40, 60}}</string>
-						<key>image</key>
-						<string>leaf1a.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{25, 2}</string>
-							<string>{42, 25}</string>
-							<string>{32, 42}</string>
-							<string>{13, 40}</string>
-							<string>{-1, 20}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTLeave</string>
-						<key>frame</key>
-						<string>{{191, 487}, {40, 51}}</string>
-						<key>image</key>
-						<string>leaf1b.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{17, 41}</string>
-							<string>{33, 23}</string>
-							<string>{27, 6}</string>
-							<string>{7, 18}</string>
-						</array>
-					</dict>
-					<dict>
-						<key>class</key>
-						<string>TTLeave</string>
-						<key>frame</key>
-						<string>{{85, 591}, {45, 63}}</string>
-						<key>image</key>
-						<string>leaf1c.png</string>
-						<key>touchPoints</key>
-						<array>
-							<string>{6, 46}</string>
-							<string>{37, 38}</string>
-							<string>{46, 9}</string>
-							<string>{41, 5}</string>
-							<string>{10, 11}</string>
+							<string>{105, 80}</string>
+							<string>{126, 48}</string>
+							<string>{124, 43}</string>
+							<string>{113, 44}</string>
+							<string>{103, 4}</string>
+							<string>{90, 29}</string>
+							<string>{47, 5}</string>
+							<string>{43, 46}</string>
+							<string>{7, 59}</string>
+							<string>{33, 78}</string>
+							<string>{35, 87}</string>
+							<string>{15, 118}</string>
+							<string>{54, 111}</string>
+							<string>{59, 129}</string>
+							<string>{91, 113}</string>
 						</array>
 					</dict>
 				</array>

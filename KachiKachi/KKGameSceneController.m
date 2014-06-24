@@ -16,6 +16,8 @@
 #import "KKItemModal.h"
 #import "KKGameStateManager.h"
 
+#define RANDOM_SEED() srandom(time(NULL))
+#define RANDOM_INT(__MIN__, __MAX__) ((__MIN__) + random() % ((__MAX__+1) - (__MIN__)))
 #define RADIANS(degrees) ((degrees * M_PI) / 180.0)
 
 @interface KKGameSceneController ()
@@ -58,10 +60,12 @@ typedef void (^completionBlk)(BOOL);
     _switchBtn.hidden = NO;
     _saveBtn.hidden = NO;
     _mailButton.hidden = NO;
+    _addButton.hidden = NO;
 #else
     _switchBtn.hidden = YES;
     _saveBtn.hidden = YES;
     _mailButton.hidden = YES;
+    _addButton.hidden = YES;
 #endif
     
     [_switchBtn setOn:NO];
@@ -345,6 +349,26 @@ typedef void (^completionBlk)(BOOL);
 - (IBAction)handleSwitchBtn:(id)sender
 {
     
+}
+
+- (IBAction)handleAddBtn:(id)sender
+{
+    RANDOM_SEED();
+    int r = arc4random() % [_elements count]-1;
+    
+    TTBase *tObject = [_elements objectAtIndex:r];
+    KKItemModal *itemModel = tObject.itemModal;
+    
+    CGRect frame = itemModel.frame;
+    frame.origin = CGPointMake(100, 100);
+    itemModel.frame = frame;
+    
+    TTBase *newObject = [[NSClassFromString(itemModel.className) alloc] init];
+    [newObject initWithModal:itemModel];
+    if(newObject.image){
+        [self.view addSubview:newObject];
+        [_elements addObject:newObject];
+    }
 }
 
 - (IBAction)handleSaveBtn:(id)sender

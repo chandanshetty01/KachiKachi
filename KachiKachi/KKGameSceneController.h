@@ -26,5 +26,6 @@
 @property (weak, nonatomic) IBOutlet UIButton *homeButton;
 @property (weak, nonatomic) IBOutlet UIButton *backButton;
 @property (weak, nonatomic) IBOutlet UIView *bottomStrip;
+@property (weak, nonatomic) IBOutlet UIButton *addButton;
 
 @end

@@ -8,7 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import "TTBase.h"
+#import "TTApple.h"
 
-@interface TTLeave : TTBase
+@interface TTLeave : TTApple
 
 @end

@@ -59,7 +59,7 @@
     self.isPicked = itemModal.isPicked;
 
 #ifdef DEVELOPMENT_MODE
-    self.backgroundColor = [UIColor clearColor];
+    self.backgroundColor = [UIColor grayColor];
 #else
     self.backgroundColor = [UIColor clearColor];
 #endif

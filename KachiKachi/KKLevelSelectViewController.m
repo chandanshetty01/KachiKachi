@@ -48,6 +48,9 @@
 -(KKLevelModal*)currentLevelData:(NSInteger)levelID
 {
     NSMutableDictionary *levelDict = [[KKGameStateManager sharedManager] gameData:levelID stage:_currentStage];
+#ifdef DEVELOPMENT_MODE
+    levelDict = nil;
+#endif
     if(levelDict == nil)
     {
         KKLevelModal *levelModel = nil;
