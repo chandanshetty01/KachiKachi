@@ -173,12 +173,12 @@ typedef void (^completionBlk)(BOOL);
     NSMutableDictionary *levelDict = [self.levelModel savedDictionary];
     NSMutableArray *elements = [NSMutableArray array];
     [self.elements enumerateObjectsUsingBlock:^(TTBase *obj, NSUInteger idx, BOOL *stop) {
-        NSMutableDictionary *levelDict = [obj saveDictionary];
-        [elements addObject:levelDict];
+        NSMutableDictionary *itemDict = [obj saveDictionary];
+        [elements addObject:itemDict];
     }];
     [self.deletedElements enumerateObjectsUsingBlock:^(TTBase *obj, NSUInteger idx, BOOL *stop) {
-        NSMutableDictionary *levelDict = [obj saveDictionary];
-        [elements addObject:levelDict];
+        NSMutableDictionary *itemDict = [obj saveDictionary];
+        [elements addObject:itemDict];
     }];
     [levelDict setObject:elements forKey:@"elements"];
     
@@ -206,6 +206,7 @@ typedef void (^completionBlk)(BOOL);
     else if([self isGameWon])
     {
         self.levelModel.isLevelCompleted = YES;
+        [[KKGameStateManager sharedManager] markUnlocked:self.currentLevel+1 stage:self.currentStage];
         [self saveLevelData];
         [[SoundManager sharedManager] playSound:@"sound2" looping:NO];
         
