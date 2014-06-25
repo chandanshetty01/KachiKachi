@@ -354,7 +354,7 @@ typedef void (^completionBlk)(BOOL);
 - (IBAction)handleAddBtn:(id)sender
 {
     RANDOM_SEED();
-    int r = arc4random() % [_elements count]-1;
+    int r = abs(arc4random() % [_elements count]-1);
     
     TTBase *tObject = [_elements objectAtIndex:r];
     KKItemModal *itemModel = tObject.itemModal;
