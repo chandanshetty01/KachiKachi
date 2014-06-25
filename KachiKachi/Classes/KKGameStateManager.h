@@ -25,6 +25,7 @@
 -(BOOL)isLevelUnlocked:(NSInteger)level stage:(NSInteger)stage;
 -(BOOL)isLevelCompleted:(NSInteger)level stage:(NSInteger)stage;
 -(NSMutableDictionary*)gameData:(NSInteger)level stage:(NSInteger)stage;
+-(NSMutableDictionary*)levelsDictionary:(NSInteger)stage;
 
 -(void)save;
 -(void)load;

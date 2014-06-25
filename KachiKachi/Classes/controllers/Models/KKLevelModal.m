@@ -15,6 +15,8 @@
 {
     self = [super init];
     if (self) {
+        self.levelID = [[data objectForKey:@"ID"] intValue];
+        self.menuIconImage = [data objectForKey:@"menuImage"];
         self.baskets = [data objectForKey:@"baskets"];
         self.backgroundImage = [data objectForKey:@"background"];
         self.life = [[data objectForKey:@"life"] intValue];
@@ -46,7 +48,8 @@
     [dict setObject:[NSString stringWithFormat:@"%d",self.life] forKey:@"life"];
     [dict setObject:[NSNumber numberWithBool:self.isLevelCompleted] forKey:@"isLevelCompleted"];
     [dict setObject:[NSNumber numberWithBool:self.isLevelUnlocked] forKey:@"isLevelUnlocked"];
-
+    [dict setObject:[NSString stringWithFormat:@"%d",self.levelID] forKey:@"ID"];
+    [dict setObject:self.menuIconImage forKey:@"menuImage"];
     return dict;
 }
 

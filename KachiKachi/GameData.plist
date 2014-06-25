@@ -8,6 +8,10 @@
 		<dict>
 			<key>level1</key>
 			<dict>
+				<key>ID</key>
+				<string>1</string>
+				<key>menuImage</key>
+				<string>Menu_1.png</string>
 				<key>baskets</key>
 				<array>
 					<dict>
@@ -1318,6 +1322,10 @@
 			</dict>
 			<key>level2</key>
 			<dict>
+				<key>ID</key>
+				<string>2</string>
+				<key>menuImage</key>
+				<string>Menu_2.png</string>
 				<key>background</key>
 				<string>balloon_bg.png</string>
 				<key>life</key>
@@ -2153,6 +2161,10 @@
 			</dict>
 			<key>level3</key>
 			<dict>
+				<key>ID</key>
+				<string>3</string>
+				<key>menuImage</key>
+				<string>Menu_3.png</string>
 				<key>baskets</key>
 				<array>
 					<dict>
@@ -3137,6 +3149,10 @@
 			</dict>
 			<key>level4</key>
 			<dict>
+				<key>ID</key>
+				<string>4</string>
+				<key>menuImage</key>
+				<string>Menu_4.png</string>
 				<key>baskets</key>
 				<array>
 					<dict>
@@ -4536,6 +4552,10 @@
 			</dict>
 			<key>level5</key>
 			<dict>
+				<key>ID</key>
+				<string>5</string>
+				<key>menuImage</key>
+				<string>Menu_5.png</string>
 				<key>baskets</key>
 				<array>
 					<dict>
@@ -5778,6 +5798,10 @@
 			</dict>
 			<key>level6</key>
 			<dict>
+				<key>ID</key>
+				<string>6</string>
+				<key>menuImage</key>
+				<string>Menu_6.png</string>
 				<key>baskets</key>
 				<array>
 					<dict>
@@ -6760,6 +6784,10 @@
 			</dict>
 			<key>level7</key>
 			<dict>
+				<key>ID</key>
+				<string>7</string>
+				<key>menuImage</key>
+				<string>Menu_7.png</string>
 				<key>background</key>
 				<string>fish_bg.png</string>
 				<key>baskets</key>
@@ -6784,7 +6812,7 @@
 					</dict>
 				</array>
 				<key>life</key>
-				<real>4</real>
+				<integer>4</integer>
 				<key>elements</key>
 				<array>
 					<dict>
@@ -8116,6 +8144,10 @@
 			</dict>
 			<key>level8</key>
 			<dict>
+				<key>ID</key>
+				<string>8</string>
+				<key>menuImage</key>
+				<string>Menu_8.png</string>
 				<key>baskets</key>
 				<array>
 					<dict>
@@ -9171,6 +9203,10 @@
 			</dict>
 			<key>level9</key>
 			<dict>
+				<key>ID</key>
+				<string>9</string>
+				<key>menuImage</key>
+				<string>Menu_9.png</string>
 				<key>background</key>
 				<string>ic_bg.png</string>
 				<key>life</key>
@@ -10264,6 +10300,10 @@
 			</dict>
 			<key>level10</key>
 			<dict>
+				<key>ID</key>
+				<string>10</string>
+				<key>menuImage</key>
+				<string>Menu_10.png</string>
 				<key>background</key>
 				<string>kites_bg.png</string>
 				<key>life</key>
@@ -11203,6 +11243,10 @@
 			</dict>
 			<key>level11</key>
 			<dict>
+				<key>ID</key>
+				<string>11</string>
+				<key>menuImage</key>
+				<string>Menu_11.png</string>
 				<key>background</key>
 				<string>pen_background.png</string>
 				<key>life</key>
@@ -11853,6 +11897,10 @@
 			</dict>
 			<key>level12</key>
 			<dict>
+				<key>ID</key>
+				<string>12</string>
+				<key>menuImage</key>
+				<string>Menu_12.png</string>
 				<key>background</key>
 				<string>carrot_bg.png</string>
 				<key>life</key>

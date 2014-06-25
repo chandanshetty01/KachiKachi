@@ -26,7 +26,6 @@
 		A3A67E891902B67700BFAF7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A67E881902B67700BFAF7B /* AppDelegate.m */; };
 		A3A67E8C1902B67700BFAF7B /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3A67E8A1902B67700BFAF7B /* Main_iPhone.storyboard */; };
 		A3A67E8F1902B67700BFAF7B /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3A67E8D1902B67700BFAF7B /* Main_iPad.storyboard */; };
-		A3A67E921902B67700BFAF7B /* KKLevelSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A67E911902B67700BFAF7B /* KKLevelSelectViewController.m */; };
 		A3A67E941902B67700BFAF7B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3A67E931902B67700BFAF7B /* Images.xcassets */; };
 		A3A67E9B1902B67800BFAF7B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3A67E9A1902B67800BFAF7B /* XCTest.framework */; };
 		A3A67E9C1902B67800BFAF7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3A67E781902B67700BFAF7B /* Foundation.framework */; };
@@ -48,6 +47,8 @@
 		A3E9E96E1944BA0A00898279 /* TTBalloon.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E9E96D1944BA0A00898279 /* TTBalloon.m */; };
 		A3F1005019546B080002CA97 /* KKMailComposerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F1004F19546B080002CA97 /* KKMailComposerManager.m */; };
 		A3FB4F4719125D070039585F /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FB4F4619125D070039585F /* Utility.m */; };
+		A3FF1532195B0796007CE275 /* KKLevelSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FF1531195B0796007CE275 /* KKLevelSelectViewController.m */; };
+		A3FF1535195B07B8007CE275 /* KKCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FF1534195B07B8007CE275 /* KKCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,8 +95,6 @@
 		A3A67E881902B67700BFAF7B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A3A67E8B1902B67700BFAF7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		A3A67E8E1902B67700BFAF7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		A3A67E901902B67700BFAF7B /* KKLevelSelectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = KKLevelSelectViewController.h; path = ../../KKLevelSelectViewController.h; sourceTree = "<group>"; };
-		A3A67E911902B67700BFAF7B /* KKLevelSelectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = KKLevelSelectViewController.m; path = ../../KKLevelSelectViewController.m; sourceTree = "<group>"; };
 		A3A67E931902B67700BFAF7B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A3A67E991902B67800BFAF7B /* KachiKachiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KachiKachiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3A67E9A1902B67800BFAF7B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -127,6 +126,10 @@
 		A3F1004F19546B080002CA97 /* KKMailComposerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKMailComposerManager.m; sourceTree = "<group>"; };
 		A3FB4F4519125D070039585F /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
 		A3FB4F4619125D070039585F /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		A3FF1530195B0796007CE275 /* KKLevelSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKLevelSelectViewController.h; sourceTree = "<group>"; };
+		A3FF1531195B0796007CE275 /* KKLevelSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKLevelSelectViewController.m; sourceTree = "<group>"; };
+		A3FF1533195B07B8007CE275 /* KKCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKCollectionViewCell.h; sourceTree = "<group>"; };
+		A3FF1534195B07B8007CE275 /* KKCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,11 +170,10 @@
 		A314CCDF194F2ACF0002BECC /* controllers */ = {
 			isa = PBXGroup;
 			children = (
+				A3FF152F195B0796007CE275 /* levelSelect */,
 				A3335FBF1956C2BD000AA5B7 /* Models */,
 				A314CCE0194F2B620002BECC /* KKStageSelectController.h */,
 				A314CCE1194F2B620002BECC /* KKStageSelectController.m */,
-				A3A67E901902B67700BFAF7B /* KKLevelSelectViewController.h */,
-				A3A67E911902B67700BFAF7B /* KKLevelSelectViewController.m */,
 				A3A67EB51902BE7E00BFAF7B /* KKGameSceneController.h */,
 				A3A67EB61902BE7E00BFAF7B /* KKGameSceneController.m */,
 			);
@@ -323,6 +325,18 @@
 			path = Classes/mail;
 			sourceTree = "<group>";
 		};
+		A3FF152F195B0796007CE275 /* levelSelect */ = {
+			isa = PBXGroup;
+			children = (
+				A3FF1530195B0796007CE275 /* KKLevelSelectViewController.h */,
+				A3FF1531195B0796007CE275 /* KKLevelSelectViewController.m */,
+				A3FF1533195B07B8007CE275 /* KKCollectionViewCell.h */,
+				A3FF1534195B07B8007CE275 /* KKCollectionViewCell.m */,
+			);
+			name = levelSelect;
+			path = KachiKachi/Classes/levelSelect;
+			sourceTree = SOURCE_ROOT;
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -431,16 +445,17 @@
 				A3FB4F4719125D070039585F /* Utility.m in Sources */,
 				A3A67EB71902BE7E00BFAF7B /* KKGameSceneController.m in Sources */,
 				A314CCE2194F2B620002BECC /* KKStageSelectController.m in Sources */,
-				A3A67E921902B67700BFAF7B /* KKLevelSelectViewController.m in Sources */,
 				A3335FBE1955F09A000AA5B7 /* TTCarrot.m in Sources */,
 				A3A67E891902B67700BFAF7B /* AppDelegate.m in Sources */,
 				A3335FC51956C96F000AA5B7 /* KKItemModal.m in Sources */,
+				A3FF1532195B0796007CE275 /* KKLevelSelectViewController.m in Sources */,
 				A3A67E851902B67700BFAF7B /* main.m in Sources */,
 				A3335FC21956C2D1000AA5B7 /* KKLevelModal.m in Sources */,
 				A3E9E96E1944BA0A00898279 /* TTBalloon.m in Sources */,
 				A36A12ED1954C090007F6355 /* TTChoc.m in Sources */,
 				A305F2B71945F0DB00B62C6C /* KKGameStateManager.m in Sources */,
 				A36A12F319556DD6007F6355 /* TTApple.m in Sources */,
+				A3FF1535195B07B8007CE275 /* KKCollectionViewCell.m in Sources */,
 				A3BE4D7B195329EF00C466ED /* TTLeave.m in Sources */,
 				A36A12F01955510B007F6355 /* TTFish.m in Sources */,
 				A3A67ED11902E3D300BFAF7B /* TTBase.m in Sources */,

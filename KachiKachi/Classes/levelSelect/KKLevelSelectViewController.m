@@ -11,6 +11,7 @@
 #import "SoundManager.h"
 #import "KKLevelModal.h"
 #import "kkGameStateManager.h"
+#import "KKCollectionViewCell.h"
 
 @interface KKLevelSelectViewController ()
 
@@ -25,6 +26,17 @@
     
     [SoundManager sharedManager].allowsBackgroundMusic = YES;
     [[SoundManager sharedManager] prepareToPlay];
+    
+    self.levelModals = [NSMutableArray array];
+    
+    NSMutableDictionary *levels = [[KKGameConfigManager sharedManager] getAllLevels:self.currentStage];
+    NSArray *keys = [levels allKeys];
+    [keys enumerateObjectsUsingBlock:^(NSString *key, NSUInteger idx, BOOL *stop) {
+        NSMutableDictionary *level = [levels objectForKey:key];
+        KKLevelModal *levelModel = [[KKLevelModal alloc] initWithDictionary:level];
+        levelModel.stageID =  _currentStage;
+        [self.levelModals addObject:levelModel];
+    }];
     
     [self playMusic];
 }
@@ -71,12 +83,33 @@
     }
 }
 
+#pragma mark - UICollectionView methods -
+
+
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
+    return self.levelModals.count;
+}
+
+- (UICollectionViewCell *)collectionView:(UICollectionView *)inCollectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
+    static NSString *identifier = @"collectionViewCell";
+    KKCollectionViewCell *cell = [inCollectionView dequeueReusableCellWithReuseIdentifier:identifier forIndexPath:indexPath];
+    cell.tag = [indexPath row];
+    
+    KKLevelModal *level = [self.levelModals objectAtIndex:[indexPath row]];
+    cell.tag = level.levelID;
+    //setImage:[UIImage imageNamed:level.menuIconImage] forState:UIControlStateNormal
+    [cell.menuImage setImage:[UIImage imageNamed:level.menuIconImage]];
+    cell.menuImage.contentMode = UIViewContentModeCenter;
+    
+    return cell;
+}
+
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    UIButton *btn = (UIButton*)sender;
+    UIView *btn = (UIView*)sender;
     KKGameSceneController *nextVC = (KKGameSceneController *)[segue destinationViewController];
     nextVC.levelModel = [self currentLevelData:btn.tag];
     

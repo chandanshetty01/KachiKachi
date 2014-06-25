@@ -61,18 +61,25 @@ const NSString *kNoOfItems = @"noOfItems";
     return stage;
 }
 
--(NSMutableDictionary*)levelWithID:(NSInteger)levelID andStage:(NSInteger)stageID
+-(NSMutableDictionary*)getAllLevels:(NSInteger)stageID
 {
-    NSMutableDictionary *level = nil;
+    NSMutableDictionary *levels = nil;
     
     NSMutableDictionary *stage = [self stageWithID:stageID];
     if(stage){
-        NSMutableDictionary *levels = [stage objectForKey:@"levels"];
-        if(levels){
-            level = [levels objectForKey:[NSString stringWithFormat:@"level%d",levelID]];
-        }
+        levels = [stage objectForKey:@"levels"];
     }
     
+    return levels;
+}
+
+-(NSMutableDictionary*)levelWithID:(NSInteger)levelID andStage:(NSInteger)stageID
+{
+    NSMutableDictionary *level = nil;
+    NSMutableDictionary *levels = [self getAllLevels:stageID];
+    if(levels){
+        level = [levels objectForKey:[NSString stringWithFormat:@"level%d",levelID]];
+    }
     return level;
 }
 

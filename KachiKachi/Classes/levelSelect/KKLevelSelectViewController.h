@@ -11,5 +11,6 @@
 @interface KKLevelSelectViewController : UIViewController
 
 @property(nonatomic,assign) NSInteger currentStage;
+@property(nonatomic,strong) NSMutableArray *levelModals;
 
 @end

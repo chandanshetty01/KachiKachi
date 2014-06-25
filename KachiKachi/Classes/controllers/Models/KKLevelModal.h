@@ -18,7 +18,7 @@
 @property(nonatomic,strong)NSMutableArray *items;
 @property(nonatomic,assign)BOOL isLevelCompleted;
 @property(nonatomic,assign)BOOL isLevelUnlocked;
-
+@property(nonatomic,strong)NSString* menuIconImage;
 
 -(instancetype)initWithDictionary:(NSDictionary*)data;
 -(NSMutableDictionary*)savedDictionary;
