@@ -30,7 +30,20 @@
     self.levelModals = [NSMutableArray array];
     
     NSMutableDictionary *levels = [[KKGameConfigManager sharedManager] getAllLevels:self.currentStage];
+    
     NSArray *keys = [levels allKeys];
+    keys = [levels keysSortedByValueUsingComparator: ^(NSDictionary *obj1, NSDictionary *obj2) {
+        int val1 = [[obj1 objectForKey:@"ID"] intValue];
+        int val2 = [[obj2 objectForKey:@"ID"] intValue];
+        if(val1 > val2)
+            return NSOrderedDescending;
+        else if(val1 < val2)
+            return NSOrderedAscending;
+        else
+            return NSOrderedSame;
+
+    }];
+    
     [keys enumerateObjectsUsingBlock:^(NSString *key, NSUInteger idx, BOOL *stop) {
         NSMutableDictionary *level = [levels objectForKey:key];
         KKLevelModal *levelModel = [[KKLevelModal alloc] initWithDictionary:level];
