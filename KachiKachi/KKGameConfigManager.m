@@ -77,6 +77,7 @@ const NSString *kNoOfItems = @"noOfItems";
 {
     NSMutableDictionary *level = nil;
     NSMutableDictionary *levels = [self getAllLevels:stageID];
+        
     if(levels){
         level = [levels objectForKey:[NSString stringWithFormat:@"level%d",levelID]];
     }

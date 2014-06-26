@@ -87,11 +87,19 @@ typedef void (^completionBlk)(BOOL);
         CGRect frame = CGRectZero;
         frame.origin =CGPointFromString([basket objectForKey:@"basket_frame"]);
         frame.size = image.size;
-        
+
         UIImageView *basketView = [[UIImageView alloc] initWithFrame:frame];
         basketView.image = image;
-        [self.view addSubview:basketView];
-        [self.view bringSubviewToFront:self.bottomStrip];
+        
+        KKItemModal *item = [self.levelModel.items objectAtIndex:0];
+        if([item.className isEqualToString:@"TTBird"]){
+            [self.view insertSubview:basketView aboveSubview:self.background];
+        }
+        else{
+            [self.view addSubview:basketView];
+            [self.view bringSubviewToFront:self.bottomStrip];
+        }
+
     }];
 }
 
@@ -379,7 +387,7 @@ typedef void (^completionBlk)(BOOL);
         [tElements addObject:[element saveDictionary]];
     }
     
-    [data setObject:tElements forKey:@"data"];
+    [data setObject:tElements forKey:@"elements"];
     [data writeToFile:@"/Users/chandanshettysp/Desktop/savedData.plist" atomically:YES];
 }
 

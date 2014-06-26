@@ -50,6 +50,7 @@
 		A3FF1532195B0796007CE275 /* KKLevelSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FF1531195B0796007CE275 /* KKLevelSelectViewController.m */; };
 		A3FF1535195B07B8007CE275 /* KKCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FF1534195B07B8007CE275 /* KKCollectionViewCell.m */; };
 		A3FF1538195B2191007CE275 /* TTBall.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FF1537195B2191007CE275 /* TTBall.m */; };
+		A3FF153B195C4F48007CE275 /* TTBird.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FF153A195C4F48007CE275 /* TTBird.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -133,6 +134,8 @@
 		A3FF1534195B07B8007CE275 /* KKCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKCollectionViewCell.m; sourceTree = "<group>"; };
 		A3FF1536195B2191007CE275 /* TTBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTBall.h; sourceTree = "<group>"; };
 		A3FF1537195B2191007CE275 /* TTBall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTBall.m; sourceTree = "<group>"; };
+		A3FF1539195C4F48007CE275 /* TTBird.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTBird.h; sourceTree = "<group>"; };
+		A3FF153A195C4F48007CE275 /* TTBird.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTBird.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -307,6 +310,8 @@
 				A3335FBD1955F09A000AA5B7 /* TTCarrot.m */,
 				A3FF1536195B2191007CE275 /* TTBall.h */,
 				A3FF1537195B2191007CE275 /* TTBall.m */,
+				A3FF1539195C4F48007CE275 /* TTBird.h */,
+				A3FF153A195C4F48007CE275 /* TTBird.m */,
 			);
 			path = Elements;
 			sourceTree = "<group>";
@@ -450,6 +455,7 @@
 				A3FB4F4719125D070039585F /* Utility.m in Sources */,
 				A3A67EB71902BE7E00BFAF7B /* KKGameSceneController.m in Sources */,
 				A314CCE2194F2B620002BECC /* KKStageSelectController.m in Sources */,
+				A3FF153B195C4F48007CE275 /* TTBird.m in Sources */,
 				A3335FBE1955F09A000AA5B7 /* TTCarrot.m in Sources */,
 				A3A67E891902B67700BFAF7B /* AppDelegate.m in Sources */,
 				A3335FC51956C96F000AA5B7 /* KKItemModal.m in Sources */,
