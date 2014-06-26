@@ -92,14 +92,16 @@ typedef void (^completionBlk)(BOOL);
         basketView.image = image;
         
         KKItemModal *item = [self.levelModel.items objectAtIndex:0];
-        if([item.className isEqualToString:@"TTBird"]){
+        if([item.className isEqualToString:@"TTBird"] ||
+           ([item.className isEqualToString:@"TTCandle"] && [[basket objectForKey:@"basket"] isEqualToString:@"candle_basket2.png"]))
+        {
             [self.view insertSubview:basketView aboveSubview:self.background];
         }
-        else{
+        else
+        {
             [self.view addSubview:basketView];
             [self.view bringSubviewToFront:self.bottomStrip];
         }
-
     }];
 }
 
