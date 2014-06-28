@@ -7,7 +7,8 @@
 //
 
 #import "TTBase.h"
+#import "TTUmbrella.h"
 
-@interface TTBrush : TTBase
+@interface TTBrush : TTUmbrella
 
 @end

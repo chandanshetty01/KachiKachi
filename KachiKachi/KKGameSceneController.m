@@ -98,7 +98,8 @@ typedef void (^completionBlk)(BOOL);
         if([item.className isEqualToString:@"TTBird"] ||
            ([item.className isEqualToString:@"TTCandle"] && [[basket objectForKey:@"basket"] isEqualToString:@"candle_basket2.png"]) ||
            ([item.className isEqualToString:@"TTDvd"] && [[basket objectForKey:@"basket"] isEqualToString:@"cd_basket1.png"]) ||
-           ([item.className isEqualToString:@"TTUmbrella"]))
+           ([item.className isEqualToString:@"TTUmbrella"]) ||
+           ([item.className isEqualToString:@"TTBrush"] && ([[basket objectForKey:@"basket"] isEqualToString:@"toothbrush_container1.png"] || [[basket objectForKey:@"basket"] isEqualToString:@"toothbrush_container2.png"])))
         {
             [self.view insertSubview:basketView aboveSubview:self.background];
         }
