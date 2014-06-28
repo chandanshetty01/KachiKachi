@@ -41,5 +41,5 @@ typedef void (^completionBlk)(BOOL);
 - (NSMutableDictionary*)saveDictionary;
 - (void)showAnimation:(completionBlk)completionBlk;
 - (void)setPickedObjectPosition;
-
+- (void)shakeAnimation;
 @end

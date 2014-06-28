@@ -141,6 +141,7 @@ typedef void (^completionBlk)(BOOL);
         NSInteger index = [_elements indexOfObject:element];
         if(currentElementIndex < index)
         {
+            [_currentElement shakeAnimation];
             gameOver = true;
             break;
         }
@@ -207,6 +208,16 @@ typedef void (^completionBlk)(BOOL);
     [[KKGameStateManager sharedManager]save];
 }
 
+-(void)showGameOverAlert
+{
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Game Over"
+                                                    message:@"You haven't selected the top item"
+                                                   delegate:self
+                                          cancelButtonTitle:@"OK"
+                                          otherButtonTitles:nil];
+    [alert show];
+}
+
 -(void)validateGamePlay:(completionBlk)block
 {
     if([self isGameOver] && !_isGameFinished){
@@ -215,12 +226,7 @@ typedef void (^completionBlk)(BOOL);
         [[SoundManager sharedManager] playSound:@"sound2" looping:NO];
         
         _isGameFinished = YES;
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Game Over"
-                                                        message:@"You haven't selected the top item"
-                                                       delegate:self
-                                              cancelButtonTitle:@"OK"
-                                              otherButtonTitles:nil];
-        [alert show];
+        [self performSelector:@selector(showGameOverAlert) withObject:nil afterDelay:0.5];
         block(YES);
     }
     else if([self isGameWon])
