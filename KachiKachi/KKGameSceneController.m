@@ -24,6 +24,7 @@
 
 @property(nonatomic,strong) NSMutableArray *deletedElements;
 @property(nonatomic,assign) BOOL isGameFinished;
+@property(nonatomic,weak) TTBase* topElement;
 
 @end
 
@@ -79,6 +80,8 @@ typedef void (^completionBlk)(BOOL);
         [self generateElement:obj];
     }];
     
+    self.topElement = [self.elements lastObject];
+    
     UIImage *image = [UIImage imageNamed:self.levelModel.backgroundImage];
     self.background.image = image;
     
@@ -93,7 +96,8 @@ typedef void (^completionBlk)(BOOL);
         
         KKItemModal *item = [self.levelModel.items objectAtIndex:0];
         if([item.className isEqualToString:@"TTBird"] ||
-           ([item.className isEqualToString:@"TTCandle"] && [[basket objectForKey:@"basket"] isEqualToString:@"candle_basket2.png"]))
+           ([item.className isEqualToString:@"TTCandle"] && [[basket objectForKey:@"basket"] isEqualToString:@"candle_basket2.png"]) ||
+           ([item.className isEqualToString:@"TTDvd"] && [[basket objectForKey:@"basket"] isEqualToString:@"cd_basket1.png"]))
         {
             [self.view insertSubview:basketView aboveSubview:self.background];
         }
@@ -168,12 +172,14 @@ typedef void (^completionBlk)(BOOL);
             self.view.userInteractionEnabled = NO;
             [obj showAnimation:^(BOOL canRemoveObject) {
                 
-                /*
-                 if(canRemoveObject){
-                 [obj removeFromSuperview];
-                 }
-                 [_deletedElements removeObject:obj];
-                 */
+                if([self.deletedElements count] > 2)
+                {
+                    UIView *lastObject = [self.deletedElements objectAtIndex:[self.deletedElements count]-2];
+                    if(lastObject){
+                        [self.view insertSubview:obj aboveSubview:lastObject];
+                    }
+                }
+
                 self.view.userInteractionEnabled = YES;
                 
                 block(YES);
