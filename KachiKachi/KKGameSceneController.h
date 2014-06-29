@@ -16,7 +16,7 @@
 @property(nonatomic,strong) KKLevelModal *levelModel;
 
 @property(nonatomic,strong) NSMutableArray *elements;
-@property(nonatomic,assign) TTBase *currentElement;
+@property(nonatomic,weak) TTBase *currentElement;
 @property (weak, nonatomic) IBOutlet UIImageView *background;
 @property(nonatomic,assign) NSInteger currentStage;
 @property(nonatomic,assign) NSInteger currentLevel;

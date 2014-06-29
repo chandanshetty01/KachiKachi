@@ -144,6 +144,7 @@ typedef void (^completionBlk)(BOOL);
         if(currentElementIndex < index)
         {
             [_currentElement shakeAnimation];
+            self.currentElement = nil;
             gameOver = true;
             break;
         }
@@ -227,6 +228,7 @@ typedef void (^completionBlk)(BOOL);
         [self saveLevelData];
         [[SoundManager sharedManager] playSound:@"sound2" looping:NO];
         
+        self.currentElement = nil;
         _isGameFinished = YES;
         [self performSelector:@selector(showGameOverAlert) withObject:nil afterDelay:0.5];
         block(YES);
@@ -294,6 +296,9 @@ typedef void (^completionBlk)(BOOL);
 
 -(void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
+    if(self.isGameFinished)
+        return;
+    
     UITouch *touch = [[event allTouches] anyObject];
     CGPoint touchLocation = [touch locationInView:self.view];
     
@@ -354,6 +359,7 @@ typedef void (^completionBlk)(BOOL);
 
 - (void)dealloc
 {
+    self.currentElement = nil;
     [_elements enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
         [obj removeFromSuperview];
         [_elements removeObject:obj];;
