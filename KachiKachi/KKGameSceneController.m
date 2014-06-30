@@ -48,12 +48,13 @@ typedef void (^completionBlk)(BOOL);
     // Do any additional setup after loading the view.
     
     _elements = [[NSMutableArray alloc] init];
-    _deletedElements = [[NSMutableArray alloc] init];
+    self.deletedElements = [[NSMutableArray alloc] init];
     
     self.currentLevel = [[KKGameStateManager sharedManager] currentLevelNumber];
     self.currentStage = [[KKGameStateManager sharedManager] currentStageNumber];
     
     _isGameFinished = FALSE;
+    self.noOfLifesRemaining = self.levelModel.life;
     
     [self addElements];
     
@@ -72,6 +73,7 @@ typedef void (^completionBlk)(BOOL);
     [_switchBtn setOn:NO];
     
     [[SoundManager sharedManager] playMusic:@"track2" looping:YES];
+    [self updateUI];
 }
 
 -(void)addElements
@@ -113,18 +115,14 @@ typedef void (^completionBlk)(BOOL);
 
 -(void)generateElement:(KKItemModal*)itemModel
 {
-//    NSString *clasName = ;
     TTBase *object = [[NSClassFromString(itemModel.className) alloc] init];
     [object initWithModal:itemModel];
     if(object.image){
         [self.view addSubview:object];
-        if(!object.isPicked){
-            [_elements addObject:object];
-        }
-        else{
+        if(object.isPicked){
             [object setPickedObjectPosition];
-            [_deletedElements addObject:object];
         }
+        [_elements addObject:object];
     }
 }
 
@@ -153,9 +151,19 @@ typedef void (^completionBlk)(BOOL);
     return gameOver;
 }
 
+-(BOOL)noOfObjectsToBePicked
+{
+    __block int count = 0;
+    [self.elements enumerateObjectsUsingBlock:^(TTBase *obj, NSUInteger idx, BOOL *stop) {
+        if(!obj.isPicked)
+            count++;
+    }];
+    return count;
+}
+
 -(BOOL)isGameWon
 {
-    if([_elements count] == 1)
+    if([self noOfObjectsToBePicked] <= 1)
         return TRUE;
     return FALSE;
 }
@@ -171,40 +179,37 @@ typedef void (^completionBlk)(BOOL);
 
 -(void)showElementDissapearAnimation:(completionBlk)block
 {
-    [_deletedElements enumerateObjectsUsingBlock:^(TTBase *obj, NSUInteger idx, BOOL *stop) {
+    [self.deletedElements enumerateObjectsUsingBlock:^(TTBase *obj, NSUInteger idx, BOOL *stop) {
         if(!obj.isPicked){
+            obj.isPicked = YES;
             self.view.userInteractionEnabled = NO;
             [obj showAnimation:^(BOOL canRemoveObject) {
-                
-                if([self.deletedElements count] > 2)
-                {
-                    UIView *lastObject = [self.deletedElements objectAtIndex:[self.deletedElements count]-2];
-                    if(lastObject){
-                        [self.view insertSubview:obj aboveSubview:lastObject];
-                    }
-                }
-
+                [self.deletedElements removeObject:obj];
                 self.view.userInteractionEnabled = YES;
-                
                 block(YES);
             }];
         }
     }];
 }
 
+-(void)updateUI
+{
+    self.lifeLabel.text = [NSString stringWithFormat:@"LIFE: %d",self.noOfLifesRemaining];
+}
+
 -(void)saveLevelData
 {
     NSMutableDictionary *levelDict = [self.levelModel savedDictionary];
-    NSMutableArray *elements = [NSMutableArray array];
-    [self.elements enumerateObjectsUsingBlock:^(TTBase *obj, NSUInteger idx, BOOL *stop) {
-        NSMutableDictionary *itemDict = [obj saveDictionary];
-        [elements addObject:itemDict];
-    }];
-    [self.deletedElements enumerateObjectsUsingBlock:^(TTBase *obj, NSUInteger idx, BOOL *stop) {
-        NSMutableDictionary *itemDict = [obj saveDictionary];
-        [elements addObject:itemDict];
-    }];
-    [levelDict setObject:elements forKey:@"elements"];
+    
+    if([self.elements count] > 0)
+    {
+        NSMutableArray *elements = [NSMutableArray array];
+        [self.elements enumerateObjectsUsingBlock:^(TTBase *obj, NSUInteger idx, BOOL *stop) {
+            NSMutableDictionary *itemDict = [obj saveDictionary];
+            [elements addObject:itemDict];
+        }];
+        [levelDict setObject:elements forKey:@"elements"];
+    }
     
     [[KKGameStateManager sharedManager] setData:levelDict level:self.currentLevel stage:self.currentStage];
     
@@ -223,14 +228,23 @@ typedef void (^completionBlk)(BOOL);
 
 -(void)validateGamePlay:(completionBlk)block
 {
-    if([self isGameOver] && !_isGameFinished){
-        
-        [self saveLevelData];
+    if([self isGameOver] && !_isGameFinished)
+    {
+        self.noOfLifesRemaining--;
+        self.levelModel.life = self.noOfLifesRemaining;
+        [[KKGameStateManager sharedManager] setRemainingLife:self.noOfLifesRemaining];
         [[SoundManager sharedManager] playSound:@"sound2" looping:NO];
+        [self updateUI];
         
-        self.currentElement = nil;
-        _isGameFinished = YES;
-        [self performSelector:@selector(showGameOverAlert) withObject:nil afterDelay:0.5];
+        if(self.noOfLifesRemaining <= 0)
+        {
+            self.currentElement = nil;
+            _isGameFinished = YES;
+            [self restartGame];
+            [self saveLevelData];
+            [self performSelector:@selector(showGameOverAlert) withObject:nil afterDelay:0.5];
+        }
+
         block(YES);
     }
     else if([self isGameWon])
@@ -251,13 +265,21 @@ typedef void (^completionBlk)(BOOL);
     else if(_currentElement != nil)
     {
 #ifndef DEVELOPMENT_MODE
-        [_deletedElements addObject:_currentElement];
-        [_elements removeObject:_currentElement];
+        [self.deletedElements addObject:_currentElement];
         [[SoundManager sharedManager] playSound:@"sound1" looping:NO];
         [self showElementDissapearAnimation:block];
-        _currentElement.isPicked = YES;
 #endif
     }
+}
+
+-(void)restartGame
+{
+    [self.elements removeAllObjects];
+    KKGameConfigManager *config = [KKGameConfigManager sharedManager];
+    NSDictionary *level = [config levelWithID:self.currentLevel andStage:self.currentStage];
+    self.levelModel = [[KKLevelModal alloc] initWithDictionary:level];
+    self.levelModel.levelID = self.currentLevel;
+    self.levelModel.stageID =  self.currentStage;
 }
 
 -(NSMutableArray*)intersectedElements:(TTBase*)currentElement
@@ -360,13 +382,10 @@ typedef void (^completionBlk)(BOOL);
 - (void)dealloc
 {
     self.currentElement = nil;
+    [_deletedElements removeAllObjects];
     [_elements enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
         [obj removeFromSuperview];
         [_elements removeObject:obj];;
-    }];
-    [_deletedElements enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
-        [obj removeFromSuperview];
-        [_deletedElements removeObject:obj];;
     }];
 }
 

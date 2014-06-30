@@ -21,7 +21,6 @@
 		A3A67E791902B67700BFAF7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3A67E781902B67700BFAF7B /* Foundation.framework */; };
 		A3A67E7B1902B67700BFAF7B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3A67E7A1902B67700BFAF7B /* CoreGraphics.framework */; };
 		A3A67E7D1902B67700BFAF7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3A67E7C1902B67700BFAF7B /* UIKit.framework */; };
-		A3A67E831902B67700BFAF7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3A67E811902B67700BFAF7B /* InfoPlist.strings */; };
 		A3A67E851902B67700BFAF7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A67E841902B67700BFAF7B /* main.m */; };
 		A3A67E891902B67700BFAF7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A67E881902B67700BFAF7B /* AppDelegate.m */; };
 		A3A67E8C1902B67700BFAF7B /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3A67E8A1902B67700BFAF7B /* Main_iPhone.storyboard */; };
@@ -30,13 +29,12 @@
 		A3A67E9B1902B67800BFAF7B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3A67E9A1902B67800BFAF7B /* XCTest.framework */; };
 		A3A67E9C1902B67800BFAF7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3A67E781902B67700BFAF7B /* Foundation.framework */; };
 		A3A67E9D1902B67800BFAF7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3A67E7C1902B67700BFAF7B /* UIKit.framework */; };
-		A3A67EA51902B67800BFAF7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3A67EA31902B67800BFAF7B /* InfoPlist.strings */; };
-		A3A67EA71902B67800BFAF7B /* KachiKachiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A67EA61902B67800BFAF7B /* KachiKachiTests.m */; };
 		A3A67EB71902BE7E00BFAF7B /* KKGameSceneController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A67EB61902BE7E00BFAF7B /* KKGameSceneController.m */; };
 		A3A67EB91902C79B00BFAF7B /* GameData.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3A67EB81902C79B00BFAF7B /* GameData.plist */; };
 		A3A67EBF1902C95D00BFAF7B /* KKGameConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A67EBE1902C95D00BFAF7B /* KKGameConfigManager.m */; };
 		A3A67ED11902E3D300BFAF7B /* TTBase.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A67ECE1902E3D300BFAF7B /* TTBase.m */; };
 		A3A67ED21902E3D300BFAF7B /* TTPencil.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A67ED01902E3D300BFAF7B /* TTPencil.m */; };
+		A3B3C4EC1961B52700B62BD4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3B3C4EA1961B52700B62BD4 /* InfoPlist.strings */; };
 		A3B97D6B1930F7AD0049DCEB /* SoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B97D6A1930F7AD0049DCEB /* SoundManager.m */; };
 		A3B97D751930F9130049DCEB /* track1.caf in Resources */ = {isa = PBXBuildFile; fileRef = A3B97D731930F9130049DCEB /* track1.caf */; };
 		A3B97D761930F9130049DCEB /* track2.caf in Resources */ = {isa = PBXBuildFile; fileRef = A3B97D741930F9130049DCEB /* track2.caf */; };
@@ -106,9 +104,6 @@
 		A3A67E931902B67700BFAF7B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A3A67E991902B67800BFAF7B /* KachiKachiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KachiKachiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3A67E9A1902B67800BFAF7B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		A3A67EA21902B67800BFAF7B /* KachiKachiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KachiKachiTests-Info.plist"; sourceTree = "<group>"; };
-		A3A67EA41902B67800BFAF7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A3A67EA61902B67800BFAF7B /* KachiKachiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KachiKachiTests.m; sourceTree = "<group>"; };
 		A3A67EB51902BE7E00BFAF7B /* KKGameSceneController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KKGameSceneController.h; path = ../../KKGameSceneController.h; sourceTree = "<group>"; };
 		A3A67EB61902BE7E00BFAF7B /* KKGameSceneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KKGameSceneController.m; path = ../../KKGameSceneController.m; sourceTree = "<group>"; };
 		A3A67EB81902C79B00BFAF7B /* GameData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GameData.plist; sourceTree = "<group>"; };
@@ -118,6 +113,7 @@
 		A3A67ECE1902E3D300BFAF7B /* TTBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTBase.m; sourceTree = "<group>"; };
 		A3A67ECF1902E3D300BFAF7B /* TTPencil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTPencil.h; sourceTree = "<group>"; };
 		A3A67ED01902E3D300BFAF7B /* TTPencil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTPencil.m; sourceTree = "<group>"; };
+		A3B3C4EB1961B52700B62BD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
 		A3B97D691930F7AD0049DCEB /* SoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundManager.h; sourceTree = "<group>"; };
 		A3B97D6A1930F7AD0049DCEB /* SoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundManager.m; sourceTree = "<group>"; };
 		A3B97D711930F9000049DCEB /* sound1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = sound1.caf; path = Sounds/sound1.caf; sourceTree = "<group>"; };
@@ -286,7 +282,6 @@
 		A3A67EA01902B67800BFAF7B /* KachiKachiTests */ = {
 			isa = PBXGroup;
 			children = (
-				A3A67EA61902B67800BFAF7B /* KachiKachiTests.m */,
 				A3A67EA11902B67800BFAF7B /* Supporting Files */,
 			);
 			path = KachiKachiTests;
@@ -295,8 +290,7 @@
 		A3A67EA11902B67800BFAF7B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A3A67EA21902B67800BFAF7B /* KachiKachiTests-Info.plist */,
-				A3A67EA31902B67800BFAF7B /* InfoPlist.strings */,
+				A3B3C4E91961B52700B62BD4 /* en.lproj */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -345,6 +339,15 @@
 			);
 			path = Elements;
 			sourceTree = "<group>";
+		};
+		A3B3C4E91961B52700B62BD4 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				A3B3C4EA1961B52700B62BD4 /* InfoPlist.strings */,
+			);
+			name = en.lproj;
+			path = KachiKachi/en.lproj;
+			sourceTree = SOURCE_ROOT;
 		};
 		A3B97D681930F7AD0049DCEB /* Sound */ = {
 			isa = PBXGroup;
@@ -462,7 +465,7 @@
 				A3A67E941902B67700BFAF7B /* Images.xcassets in Resources */,
 				A3B97D771930F91C0049DCEB /* sound2.caf in Resources */,
 				A3A67E8C1902B67700BFAF7B /* Main_iPhone.storyboard in Resources */,
-				A3A67E831902B67700BFAF7B /* InfoPlist.strings in Resources */,
+				A3B3C4EC1961B52700B62BD4 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,7 +473,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3A67EA51902B67800BFAF7B /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,7 +522,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3A67EA71902B67800BFAF7B /* KachiKachiTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -559,10 +560,10 @@
 			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
-		A3A67EA31902B67800BFAF7B /* InfoPlist.strings */ = {
+		A3B3C4EA1961B52700B62BD4 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A3A67EA41902B67800BFAF7B /* en */,
+				A3B3C4EB1961B52700B62BD4 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";

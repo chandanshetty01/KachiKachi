@@ -21,6 +21,7 @@ const NSString *kNoOfItems;
 -(NSMutableDictionary*)stageWithID:(NSInteger)stageID;
 -(NSMutableDictionary*)levelWithID:(NSInteger)inLevelID andStage:(NSInteger)stageID;
 -(NSMutableDictionary*)getAllLevels:(NSInteger)stageID;
+-(NSInteger)noOfLifesInLevel:(NSInteger)levelID stage:(NSInteger)stageID;
 
 @end
 

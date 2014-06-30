@@ -27,5 +27,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *backButton;
 @property (weak, nonatomic) IBOutlet UIView *bottomStrip;
 @property (weak, nonatomic) IBOutlet UIButton *addButton;
+@property (weak, nonatomic) IBOutlet UILabel *lifeLabel;
+@property (nonatomic,assign) NSInteger noOfLifesRemaining;
 
 @end

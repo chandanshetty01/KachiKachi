@@ -59,10 +59,10 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="6f2-cS-YPR"/>
                                 </connections>
                             </collectionView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xOE-lc-pzj">
-                                <rect key="frame" x="18" y="20" width="40" height="40"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xOE-lc-pzj">
+                                <rect key="frame" x="20" y="20" width="40" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Back">
+                                <state key="normal" image="bottom_details">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -135,7 +135,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zsD-91-N22">
                                         <rect key="frame" x="952" y="0.0" width="52" height="52"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="bottom_details">
+                                        <state key="normal" image="bottom_back">
                                             <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -154,6 +154,13 @@
                                             <action selector="restartButtonAction:" destination="TV7-K8-EP0" eventType="touchUpInside" id="07j-GW-V7f"/>
                                         </connections>
                                     </button>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LIFE:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="agv-rG-qLi">
+                                        <rect key="frame" x="20" y="11" width="75" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </view>
@@ -179,6 +186,7 @@
                         <outlet property="background" destination="jLt-cX-sdO" id="cuq-gE-lZ9"/>
                         <outlet property="bottomStrip" destination="xkP-5Z-HhB" id="pAK-6c-BP4"/>
                         <outlet property="homeButton" destination="zsD-91-N22" id="0Il-k7-q0Q"/>
+                        <outlet property="lifeLabel" destination="agv-rG-qLi" id="sf7-tg-ovP"/>
                         <outlet property="mailButton" destination="BNG-a1-NMy" id="O4r-L8-Js7"/>
                         <outlet property="saveBtn" destination="yfJ-ll-bby" id="s7j-Zz-GAg"/>
                         <outlet property="switchBtn" destination="OzG-is-W8j" id="r8T-Ag-UDI"/>
