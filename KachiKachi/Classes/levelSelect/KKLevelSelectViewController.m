@@ -68,6 +68,7 @@
 - (IBAction)backButtonAction:(id)sender {
     AppDelegate *appdelegate = APP_DELEGATE;
     [appdelegate.navigationController popViewControllerAnimated:YES];
+    [Flurry logEvent:@"BackButton - Level Select"];
 }
 
 -(KKLevelModal*)currentLevelData:(NSInteger)levelID
@@ -125,8 +126,10 @@
     UIView *btn = (UIView*)sender;
     KKGameSceneController *nextVC = (KKGameSceneController *)[segue destinationViewController];
     nextVC.levelModel = [self currentLevelData:btn.tag];
-    
     [[KKGameStateManager sharedManager] setCurrentLevel:btn.tag andStage:_currentStage];
+    
+    NSString *levelSelected = [NSString stringWithFormat:@"Level-%dStage-%d",btn.tag,_currentStage];
+    [Flurry logEvent:levelSelected];
 }
 
 - (void)dealloc

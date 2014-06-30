@@ -12,6 +12,16 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [Flurry startSession:FLURRY_TEST];
+    NSString *versionString = [[NSBundle mainBundle] objectForInfoDictionaryKey:(NSString*)kCFBundleVersionKey];
+    [Flurry setAppVersion:versionString];
+    
+    CFUUIDRef uuid = CFUUIDCreate(NULL);
+    //uniqueIdentifier = ( NSString*)CFUUIDCreateString(NULL, uuid);- for non- ARC
+    NSString *uniqueIdentifier = ( NSString*)CFBridgingRelease(CFUUIDCreateString(NULL, uuid));// for ARC
+    CFRelease(uuid);
+    [Flurry setUserID:uniqueIdentifier];
+    
     // Override point for customization after application launch.
     _configuration = [[KKGameConfigManager alloc] init];
     _navigationController = (UINavigationController*)[self.window rootViewController];

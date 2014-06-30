@@ -5,10 +5,13 @@
 //
 
 #import <Availability.h>
+#import "Flurry.h"
 
 #ifndef __IPHONE_5_0
 #warning "This project uses features only available in iOS SDK 5.0 and later."
 #endif
+
+#define FLURRY_TEST @"SD5DMTVFJFQH9K5D6WH7"
 
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
