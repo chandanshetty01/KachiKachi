@@ -79,6 +79,7 @@ typedef void (^completionBlk)(BOOL);
     [self updateUI];
     
     [self levelStartedFlurryLog];
+    [self startLifeInfoFlurryEvent];
 }
 
 -(void)levelStartedFlurryLog
@@ -293,7 +294,6 @@ typedef void (^completionBlk)(BOOL);
 {
     if([self isGameOver] && !_isGameFinished)
     {
-        [Flurry logEvent:LEVEL_INFO_LIFE timed:YES];
         self.noOfLifesRemaining--;
         self.levelModel.life = self.noOfLifesRemaining;
         [[KKGameStateManager sharedManager] setRemainingLife:self.noOfLifesRemaining];
