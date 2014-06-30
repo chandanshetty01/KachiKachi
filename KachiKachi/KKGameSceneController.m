@@ -89,7 +89,6 @@ typedef void (^completionBlk)(BOOL);
     NSDictionary *dict = [NSDictionary dictionaryWithObjects:@[level,stage]
                                                      forKeys:@[@"level", @"stage"]];
     [Flurry logEvent:LEVEL_INFO withParameters:dict timed:YES];
-    [self startLifeInfoFlurryEvent];
 }
 
 -(void)levelEndedFlurryLog:(NSNumber*)status
@@ -114,7 +113,6 @@ typedef void (^completionBlk)(BOOL);
     }
 
     [Flurry endTimedEvent:LEVEL_INFO withParameters:dict];
-    [self startLifeInfoFlurryEvent];
 }
 
 

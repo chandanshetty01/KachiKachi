@@ -46,6 +46,11 @@
     KKLevelSelectViewController *nextVC = (KKLevelSelectViewController *)[segue destinationViewController];
     if([nextVC respondsToSelector:@selector(setCurrentStage:)])
         nextVC.currentStage = button.tag;
+    
+    NSNumber *stage = [NSNumber numberWithInt:button.tag];
+    NSDictionary *dict = [NSDictionary dictionaryWithObjects:@[stage]
+                                                     forKeys:@[@"stage"]];
+    [Flurry logEvent:@"StageSelect" withParameters:dict];
 }
 
 @end

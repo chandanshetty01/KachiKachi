@@ -128,8 +128,12 @@
     nextVC.levelModel = [self currentLevelData:btn.tag];
     [[KKGameStateManager sharedManager] setCurrentLevel:btn.tag andStage:_currentStage];
     
-    NSString *levelSelected = [NSString stringWithFormat:@"Level-%dStage-%d",btn.tag,_currentStage];
-    [Flurry logEvent:levelSelected];
+    
+    NSNumber *level = [NSNumber numberWithInt:btn.tag];
+    NSNumber *stage = [NSNumber numberWithInt:self.currentStage];
+    NSDictionary *dict = [NSDictionary dictionaryWithObjects:@[level,stage]
+                                                     forKeys:@[@"level", @"stage"]];
+    [Flurry logEvent:@"LevelSelect" withParameters:dict];
 }
 
 - (void)dealloc
