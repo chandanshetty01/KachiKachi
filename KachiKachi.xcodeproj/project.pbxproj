@@ -13,6 +13,8 @@
 		A3335FBE1955F09A000AA5B7 /* TTCarrot.m in Sources */ = {isa = PBXBuildFile; fileRef = A3335FBD1955F09A000AA5B7 /* TTCarrot.m */; };
 		A3335FC21956C2D1000AA5B7 /* KKLevelModal.m in Sources */ = {isa = PBXBuildFile; fileRef = A3335FC11956C2D1000AA5B7 /* KKLevelModal.m */; };
 		A3335FC51956C96F000AA5B7 /* KKItemModal.m in Sources */ = {isa = PBXBuildFile; fileRef = A3335FC41956C96F000AA5B7 /* KKItemModal.m */; };
+		A357D7A9196301350037C2B4 /* libFlurry_5.1.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A357D7A7196301350037C2B4 /* libFlurry_5.1.0.a */; };
+		A357D7AB196301A70037C2B4 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A357D7AA196301A70037C2B4 /* Crashlytics.framework */; };
 		A36A12E7195495ED007F6355 /* TTDisc.m in Sources */ = {isa = PBXBuildFile; fileRef = A36A12E6195495ED007F6355 /* TTDisc.m */; };
 		A36A12EA1954BB89007F6355 /* TTCandy.m in Sources */ = {isa = PBXBuildFile; fileRef = A36A12E91954BB89007F6355 /* TTCandy.m */; };
 		A36A12ED1954C090007F6355 /* TTChoc.m in Sources */ = {isa = PBXBuildFile; fileRef = A36A12EC1954C090007F6355 /* TTChoc.m */; };
@@ -35,7 +37,6 @@
 		A3A67ED11902E3D300BFAF7B /* TTBase.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A67ECE1902E3D300BFAF7B /* TTBase.m */; };
 		A3A67ED21902E3D300BFAF7B /* TTPencil.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A67ED01902E3D300BFAF7B /* TTPencil.m */; };
 		A3B3C4EC1961B52700B62BD4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3B3C4EA1961B52700B62BD4 /* InfoPlist.strings */; };
-		A3B3C4F11961C24400B62BD4 /* libFlurry_5.1.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B3C4F01961C24400B62BD4 /* libFlurry_5.1.0.a */; };
 		A3B3C4F71961C4C100B62BD4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B3C4F61961C4C100B62BD4 /* SystemConfiguration.framework */; };
 		A3B97D6B1930F7AD0049DCEB /* SoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B97D6A1930F7AD0049DCEB /* SoundManager.m */; };
 		A3B97D751930F9130049DCEB /* track1.caf in Resources */ = {isa = PBXBuildFile; fileRef = A3B97D731930F9130049DCEB /* track1.caf */; };
@@ -81,6 +82,9 @@
 		A3335FC11956C2D1000AA5B7 /* KKLevelModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKLevelModal.m; sourceTree = "<group>"; };
 		A3335FC31956C96F000AA5B7 /* KKItemModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKItemModal.h; sourceTree = "<group>"; };
 		A3335FC41956C96F000AA5B7 /* KKItemModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKItemModal.m; sourceTree = "<group>"; };
+		A357D7A6196301350037C2B4 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
+		A357D7A7196301350037C2B4 /* libFlurry_5.1.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_5.1.0.a; sourceTree = "<group>"; };
+		A357D7AA196301A70037C2B4 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = SOURCE_ROOT; };
 		A36A12E5195495ED007F6355 /* TTDisc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTDisc.h; sourceTree = "<group>"; };
 		A36A12E6195495ED007F6355 /* TTDisc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTDisc.m; sourceTree = "<group>"; };
 		A36A12E81954BB89007F6355 /* TTCandy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTCandy.h; sourceTree = "<group>"; };
@@ -116,11 +120,10 @@
 		A3A67ECF1902E3D300BFAF7B /* TTPencil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTPencil.h; sourceTree = "<group>"; };
 		A3A67ED01902E3D300BFAF7B /* TTPencil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTPencil.m; sourceTree = "<group>"; };
 		A3B3C4EB1961B52700B62BD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
-		A3B3C4EF1961C24400B62BD4 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
-		A3B3C4F01961C24400B62BD4 /* libFlurry_5.1.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_5.1.0.a; sourceTree = "<group>"; };
 		A3B3C4F21961C2F600B62BD4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		A3B3C4F41961C31C00B62BD4 /* libsystem_network.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsystem_network.dylib; path = usr/lib/system/libsystem_network.dylib; sourceTree = SDKROOT; };
 		A3B3C4F61961C4C100B62BD4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A3B3C4F91962F96600B62BD4 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		A3B97D691930F7AD0049DCEB /* SoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundManager.h; sourceTree = "<group>"; };
 		A3B97D6A1930F7AD0049DCEB /* SoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundManager.m; sourceTree = "<group>"; };
 		A3B97D711930F9000049DCEB /* sound1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = sound1.caf; path = Sounds/sound1.caf; sourceTree = "<group>"; };
@@ -165,9 +168,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3B3C4F71961C4C100B62BD4 /* SystemConfiguration.framework in Frameworks */,
-				A3B3C4F11961C24400B62BD4 /* libFlurry_5.1.0.a in Frameworks */,
+				A357D7A9196301350037C2B4 /* libFlurry_5.1.0.a in Frameworks */,
 				A3A67E7B1902B67700BFAF7B /* CoreGraphics.framework in Frameworks */,
 				A3A67E7D1902B67700BFAF7B /* UIKit.framework in Frameworks */,
+				A357D7AB196301A70037C2B4 /* Crashlytics.framework in Frameworks */,
 				A3A67E791902B67700BFAF7B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,6 +225,24 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		A357D7A3196301350037C2B4 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				A357D7AA196301A70037C2B4 /* Crashlytics.framework */,
+				A357D7A5196301350037C2B4 /* Flurry */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		A357D7A5196301350037C2B4 /* Flurry */ = {
+			isa = PBXGroup;
+			children = (
+				A357D7A6196301350037C2B4 /* Flurry.h */,
+				A357D7A7196301350037C2B4 /* libFlurry_5.1.0.a */,
+			);
+			path = Flurry;
+			sourceTree = "<group>";
+		};
 		A3A67E6C1902B67700BFAF7B = {
 			isa = PBXGroup;
 			children = (
@@ -243,6 +265,7 @@
 		A3A67E771902B67700BFAF7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A3B3C4F91962F96600B62BD4 /* Crashlytics.framework */,
 				A3B3C4F61961C4C100B62BD4 /* SystemConfiguration.framework */,
 				A3B3C4F41961C31C00B62BD4 /* libsystem_network.dylib */,
 				A3B3C4F21961C2F600B62BD4 /* CFNetwork.framework */,
@@ -257,7 +280,7 @@
 		A3A67E7E1902B67700BFAF7B /* KachiKachi */ = {
 			isa = PBXGroup;
 			children = (
-				A3B3C4ED1961C24400B62BD4 /* Third Party */,
+				A357D7A3196301350037C2B4 /* ThirdParty */,
 				A3F1004A1954699C0002CA97 /* mail */,
 				A314CCDF194F2ACF0002BECC /* controllers */,
 				A305F2B41945F0C100B62C6C /* Classes */,
@@ -362,23 +385,6 @@
 			path = KachiKachi/en.lproj;
 			sourceTree = SOURCE_ROOT;
 		};
-		A3B3C4ED1961C24400B62BD4 /* Third Party */ = {
-			isa = PBXGroup;
-			children = (
-				A3B3C4EE1961C24400B62BD4 /* Flurry */,
-			);
-			path = "Third Party";
-			sourceTree = "<group>";
-		};
-		A3B3C4EE1961C24400B62BD4 /* Flurry */ = {
-			isa = PBXGroup;
-			children = (
-				A3B3C4EF1961C24400B62BD4 /* Flurry.h */,
-				A3B3C4F01961C24400B62BD4 /* libFlurry_5.1.0.a */,
-			);
-			path = Flurry;
-			sourceTree = "<group>";
-		};
 		A3B97D681930F7AD0049DCEB /* Sound */ = {
 			isa = PBXGroup;
 			children = (
@@ -420,6 +426,7 @@
 				A3A67E711902B67700BFAF7B /* Sources */,
 				A3A67E721902B67700BFAF7B /* Frameworks */,
 				A3A67E731902B67700BFAF7B /* Resources */,
+				A3B3C4F81962F79100B62BD4 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -507,6 +514,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A3B3C4F81962F79100B62BD4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = "./Crashlytics.framework/run ef1df6810a8ae85dc6971ad31a2311a71214d012 c6faaa2cc18e8a76c8c012d105a704a016c7f22a38ce681934ab9d777a54e1d0";
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A3A67E711902B67700BFAF7B /* Sources */ = {
@@ -678,6 +701,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/KachiKachi/ThirdParty",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KachiKachi/KachiKachi-Prefix.pch";
 				INFOPLIST_FILE = "KachiKachi/KachiKachi-Info.plist";
@@ -687,6 +715,7 @@
 					"$(PROJECT_DIR)/KachiKachi/Third",
 					Party/Flurry,
 					"$(SDKROOT)/usr/lib/system",
+					"$(PROJECT_DIR)/KachiKachi/ThirdParty/Flurry",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 2;
@@ -699,6 +728,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/KachiKachi/ThirdParty",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KachiKachi/KachiKachi-Prefix.pch";
 				INFOPLIST_FILE = "KachiKachi/KachiKachi-Info.plist";
@@ -708,6 +742,7 @@
 					"$(PROJECT_DIR)/KachiKachi/Third",
 					Party/Flurry,
 					"$(SDKROOT)/usr/lib/system",
+					"$(PROJECT_DIR)/KachiKachi/ThirdParty/Flurry",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 2;

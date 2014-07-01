@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <Crashlytics/Crashlytics.h>
 
 @implementation AppDelegate
 
@@ -21,6 +22,8 @@
     NSString *uniqueIdentifier = ( NSString*)CFBridgingRelease(CFUUIDCreateString(NULL, uuid));// for ARC
     CFRelease(uuid);
     [Flurry setUserID:uniqueIdentifier];
+    
+    [Crashlytics startWithAPIKey:@"ef1df6810a8ae85dc6971ad31a2311a71214d012"];
     
     // Override point for customization after application launch.
     _configuration = [[KKGameConfigManager alloc] init];

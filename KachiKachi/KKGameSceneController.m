@@ -15,6 +15,7 @@
 #import "KKMailComposerManager.h"
 #import "KKItemModal.h"
 #import "KKGameStateManager.h"
+#import <Crashlytics/Crashlytics.h>
 
 #define RANDOM_SEED() srandom(time(NULL))
 #define RANDOM_INT(__MIN__, __MAX__) ((__MIN__) + random() % ((__MAX__+1) - (__MIN__)))
