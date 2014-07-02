@@ -15,6 +15,7 @@
 		A3335FC51956C96F000AA5B7 /* KKItemModal.m in Sources */ = {isa = PBXBuildFile; fileRef = A3335FC41956C96F000AA5B7 /* KKItemModal.m */; };
 		A357D7A9196301350037C2B4 /* libFlurry_5.1.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A357D7A7196301350037C2B4 /* libFlurry_5.1.0.a */; };
 		A357D7AB196301A70037C2B4 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A357D7AA196301A70037C2B4 /* Crashlytics.framework */; };
+		A35DD6F419644730008D445C /* TTBottle.m in Sources */ = {isa = PBXBuildFile; fileRef = A35DD6F319644730008D445C /* TTBottle.m */; };
 		A36A12E7195495ED007F6355 /* TTDisc.m in Sources */ = {isa = PBXBuildFile; fileRef = A36A12E6195495ED007F6355 /* TTDisc.m */; };
 		A36A12EA1954BB89007F6355 /* TTCandy.m in Sources */ = {isa = PBXBuildFile; fileRef = A36A12E91954BB89007F6355 /* TTCandy.m */; };
 		A36A12ED1954C090007F6355 /* TTChoc.m in Sources */ = {isa = PBXBuildFile; fileRef = A36A12EC1954C090007F6355 /* TTChoc.m */; };
@@ -85,6 +86,8 @@
 		A357D7A6196301350037C2B4 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
 		A357D7A7196301350037C2B4 /* libFlurry_5.1.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_5.1.0.a; sourceTree = "<group>"; };
 		A357D7AA196301A70037C2B4 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = SOURCE_ROOT; };
+		A35DD6F219644730008D445C /* TTBottle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTBottle.h; sourceTree = "<group>"; };
+		A35DD6F319644730008D445C /* TTBottle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTBottle.m; sourceTree = "<group>"; };
 		A36A12E5195495ED007F6355 /* TTDisc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTDisc.h; sourceTree = "<group>"; };
 		A36A12E6195495ED007F6355 /* TTDisc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTDisc.m; sourceTree = "<group>"; };
 		A36A12E81954BB89007F6355 /* TTCandy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTCandy.h; sourceTree = "<group>"; };
@@ -372,6 +375,8 @@
 				A3FF1549195E672C007CE275 /* TTKey.m */,
 				A3FF154B195E6737007CE275 /* TTBrush.h */,
 				A3FF154C195E6737007CE275 /* TTBrush.m */,
+				A35DD6F219644730008D445C /* TTBottle.h */,
+				A35DD6F319644730008D445C /* TTBottle.m */,
 			);
 			path = Elements;
 			sourceTree = "<group>";
@@ -556,6 +561,7 @@
 				A305F2B71945F0DB00B62C6C /* KKGameStateManager.m in Sources */,
 				A36A12F319556DD6007F6355 /* TTApple.m in Sources */,
 				A3FF1535195B07B8007CE275 /* KKCollectionViewCell.m in Sources */,
+				A35DD6F419644730008D445C /* TTBottle.m in Sources */,
 				A3BE4D7B195329EF00C466ED /* TTLeave.m in Sources */,
 				A36A12F01955510B007F6355 /* TTFish.m in Sources */,
 				A3A67ED11902E3D300BFAF7B /* TTBase.m in Sources */,

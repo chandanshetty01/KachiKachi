@@ -29843,6 +29843,1844 @@
 					</dict>
 				</array>
 			</dict>
+			<key>level20</key>
+			<dict>
+				<key>ID</key>
+				<string>20</string>
+				<key>menuImage</key>
+				<string>Menu_24.png</string>
+				<key>background</key>
+				<string>bottle_bg.png</string>
+				<key>life</key>
+				<real>4</real>
+				<key>elements</key>
+				<array>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{205, 123}, {55, 152}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{702, 499}, {55, 152}}</string>
+						<key>image</key>
+						<string>bottle_1.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{37, 148}</string>
+							<string>{6, 144}</string>
+							<string>{2, 50}</string>
+							<string>{11, 42}</string>
+							<string>{11, 29}</string>
+							<string>{4, 13}</string>
+							<string>{9, 7}</string>
+							<string>{54, 4}</string>
+							<string>{43, 15}</string>
+							<string>{46, 37}</string>
+							<string>{40, 45}</string>
+							<string>{29, 29}</string>
+							<string>{38, 53}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{312, 132}, {69, 149}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{835, 339}, {69, 149}}</string>
+						<key>image</key>
+						<string>bottle_2.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{4, 4}</string>
+							<string>{47, 2}</string>
+							<string>{51, 26}</string>
+							<string>{60, 43}</string>
+							<string>{68, 49}</string>
+							<string>{67, 146}</string>
+							<string>{19, 148}</string>
+							<string>{17, 52}</string>
+							<string>{32, 42}</string>
+							<string>{32, 30}</string>
+							<string>{38, 27}</string>
+							<string>{34, 10}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{382, 170}, {51, 123}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{766, 288}, {51, 123}}</string>
+						<key>image</key>
+						<string>bottle_3.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{37, 3}</string>
+							<string>{13, 3}</string>
+							<string>{11, 18}</string>
+							<string>{16, 55}</string>
+							<string>{3, 70}</string>
+							<string>{4, 97}</string>
+							<string>{17, 115}</string>
+							<string>{40, 120}</string>
+							<string>{50, 99}</string>
+							<string>{50, 69}</string>
+							<string>{38, 61}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{350, 158}, {52, 136}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{798, 308}, {52, 136}}</string>
+						<key>image</key>
+						<string>bottle_4.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{21, 3}</string>
+							<string>{36, 4}</string>
+							<string>{40, 17}</string>
+							<string>{50, 45}</string>
+							<string>{51, 133}</string>
+							<string>{6, 132}</string>
+							<string>{1, 46}</string>
+							<string>{7, 25}</string>
+							<string>{18, 17}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{245, 149}, {67, 130}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{823, 342}, {67, 130}}</string>
+						<key>image</key>
+						<string>bottle_5.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{39, 10}</string>
+							<string>{27, 15}</string>
+							<string>{19, 20}</string>
+							<string>{16, 35}</string>
+							<string>{1, 103}</string>
+							<string>{3, 125}</string>
+							<string>{57, 129}</string>
+							<string>{64, 47}</string>
+							<string>{67, 25}</string>
+							<string>{49, 7}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{314, 148}, {71, 143}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{674, 364}, {71, 143}}</string>
+						<key>image</key>
+						<string>bottle_6.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{44, 3}</string>
+							<string>{44, 57}</string>
+							<string>{60, 85}</string>
+							<string>{64, 140}</string>
+							<string>{8, 138}</string>
+							<string>{9, 92}</string>
+							<string>{27, 56}</string>
+							<string>{27, 6}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{387, 128}, {43, 150}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{733, 288}, {43, 150}}</string>
+						<key>image</key>
+						<string>bottle_7.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{34, 3}</string>
+							<string>{11, 6}</string>
+							<string>{11, 25}</string>
+							<string>{3, 36}</string>
+							<string>{3, 149}</string>
+							<string>{40, 149}</string>
+							<string>{42, 33}</string>
+							<string>{32, 25}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{425, 111}, {43, 176}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{805, 340}, {43, 176}}</string>
+						<key>image</key>
+						<string>bottle_8.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{33, 47}</string>
+							<string>{41, 65}</string>
+							<string>{41, 174}</string>
+							<string>{3, 173}</string>
+							<string>{2, 62}</string>
+							<string>{12, 48}</string>
+							<string>{13, 6}</string>
+							<string>{33, 3}</string>
+							<string>{29, 47}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{456, 139}, {41, 145}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{684, 299}, {41, 145}}</string>
+						<key>image</key>
+						<string>bottle_9.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{30, 3}</string>
+							<string>{32, 49}</string>
+							<string>{39, 56}</string>
+							<string>{39, 143}</string>
+							<string>{3, 142}</string>
+							<string>{5, 57}</string>
+							<string>{11, 44}</string>
+							<string>{15, 4}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{334, 126}, {57, 139}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{728, 464}, {57, 139}}</string>
+						<key>image</key>
+						<string>bottle_10.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{38, 4}</string>
+							<string>{20, 4}</string>
+							<string>{18, 50}</string>
+							<string>{2, 63}</string>
+							<string>{5, 136}</string>
+							<string>{56, 136}</string>
+							<string>{53, 59}</string>
+							<string>{40, 45}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{414, 150}, {35, 137}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{798, 517}, {35, 137}}</string>
+						<key>image</key>
+						<string>bottle_11.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{28, 3}</string>
+							<string>{10, 3}</string>
+							<string>{8, 54}</string>
+							<string>{3, 65}</string>
+							<string>{3, 136}</string>
+							<string>{32, 134}</string>
+							<string>{34, 61}</string>
+							<string>{28, 55}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{385, 142}, {46, 149}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{796, 341}, {46, 149}}</string>
+						<key>image</key>
+						<string>bottle_12.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{34, 3}</string>
+							<string>{14, 3}</string>
+							<string>{16, 34}</string>
+							<string>{3, 49}</string>
+							<string>{5, 145}</string>
+							<string>{43, 147}</string>
+							<string>{45, 44}</string>
+							<string>{35, 31}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{361, 123}, {53, 171}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{737, 338}, {53, 171}}</string>
+						<key>image</key>
+						<string>bottle_13.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{40, 5}</string>
+							<string>{37, 22}</string>
+							<string>{43, 47}</string>
+							<string>{52, 59}</string>
+							<string>{50, 153}</string>
+							<string>{44, 162}</string>
+							<string>{14, 163}</string>
+							<string>{5, 151}</string>
+							<string>{4, 63}</string>
+							<string>{15, 47}</string>
+							<string>{17, 22}</string>
+							<string>{19, 8}</string>
+							<string>{23, 5}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{310, 92}, {54, 196}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{707, 345}, {54, 196}}</string>
+						<key>image</key>
+						<string>bottle_14.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{39, 4}</string>
+							<string>{16, 3}</string>
+							<string>{16, 20}</string>
+							<string>{11, 54}</string>
+							<string>{2, 78}</string>
+							<string>{2, 193}</string>
+							<string>{52, 193}</string>
+							<string>{53, 81}</string>
+							<string>{44, 53}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{440, 102}, {99, 172}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{733, 404}, {99, 172}}</string>
+						<key>image</key>
+						<string>bottle_15.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{94, 171}</string>
+							<string>{90, 163}</string>
+							<string>{98, 146}</string>
+							<string>{92, 123}</string>
+							<string>{79, 100}</string>
+							<string>{75, 44}</string>
+							<string>{92, 37}</string>
+							<string>{76, 22}</string>
+							<string>{33, 3}</string>
+							<string>{22, -1}</string>
+							<string>{17, 13}</string>
+							<string>{28, 21}</string>
+							<string>{23, 27}</string>
+							<string>{21, 35}</string>
+							<string>{3, 60}</string>
+							<string>{4, 67}</string>
+							<string>{32, 45}</string>
+							<string>{55, 41}</string>
+							<string>{51, 64}</string>
+							<string>{48, 82}</string>
+							<string>{44, 101}</string>
+							<string>{32, 128}</string>
+							<string>{27, 143}</string>
+							<string>{31, 159}</string>
+							<string>{30, 169}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{240, 120}, {90, 174}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{804, 415}, {90, 174}}</string>
+						<key>image</key>
+						<string>bottle_16.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{65, 5}</string>
+							<string>{65, 22}</string>
+							<string>{75, 41}</string>
+							<string>{73, 162}</string>
+							<string>{21, 161}</string>
+							<string>{18, 42}</string>
+							<string>{31, 19}</string>
+							<string>{31, 5}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{334, 126}, {57, 139}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{736, 211}, {57, 139}}</string>
+						<key>image</key>
+						<string>bottle_10.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{38, 4}</string>
+							<string>{20, 4}</string>
+							<string>{18, 50}</string>
+							<string>{2, 63}</string>
+							<string>{5, 136}</string>
+							<string>{56, 136}</string>
+							<string>{53, 59}</string>
+							<string>{40, 45}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{382, 170}, {51, 123}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{638, 408}, {51, 123}}</string>
+						<key>image</key>
+						<string>bottle_3.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{37, 3}</string>
+							<string>{13, 3}</string>
+							<string>{11, 18}</string>
+							<string>{16, 55}</string>
+							<string>{3, 70}</string>
+							<string>{4, 97}</string>
+							<string>{17, 115}</string>
+							<string>{40, 120}</string>
+							<string>{50, 99}</string>
+							<string>{50, 69}</string>
+							<string>{38, 61}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{425, 111}, {43, 176}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{867, 282}, {43, 176}}</string>
+						<key>image</key>
+						<string>bottle_8.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{33, 47}</string>
+							<string>{41, 65}</string>
+							<string>{41, 174}</string>
+							<string>{3, 173}</string>
+							<string>{2, 62}</string>
+							<string>{12, 48}</string>
+							<string>{13, 6}</string>
+							<string>{33, 3}</string>
+							<string>{29, 47}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{387, 128}, {43, 150}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{795, 234}, {43, 150}}</string>
+						<key>image</key>
+						<string>bottle_7.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{34, 3}</string>
+							<string>{11, 6}</string>
+							<string>{11, 25}</string>
+							<string>{3, 36}</string>
+							<string>{3, 149}</string>
+							<string>{40, 149}</string>
+							<string>{42, 33}</string>
+							<string>{32, 25}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{425, 111}, {43, 176}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{661, 254}, {43, 176}}</string>
+						<key>image</key>
+						<string>bottle_8.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{33, 47}</string>
+							<string>{41, 65}</string>
+							<string>{41, 174}</string>
+							<string>{3, 173}</string>
+							<string>{2, 62}</string>
+							<string>{12, 48}</string>
+							<string>{13, 6}</string>
+							<string>{33, 3}</string>
+							<string>{29, 47}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{334, 126}, {57, 139}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{696, 257}, {57, 139}}</string>
+						<key>image</key>
+						<string>bottle_10.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{38, 4}</string>
+							<string>{20, 4}</string>
+							<string>{18, 50}</string>
+							<string>{2, 63}</string>
+							<string>{5, 136}</string>
+							<string>{56, 136}</string>
+							<string>{53, 59}</string>
+							<string>{40, 45}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{361, 123}, {53, 171}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{869, 402}, {53, 171}}</string>
+						<key>image</key>
+						<string>bottle_13.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{40, 5}</string>
+							<string>{37, 22}</string>
+							<string>{43, 47}</string>
+							<string>{52, 59}</string>
+							<string>{50, 153}</string>
+							<string>{44, 162}</string>
+							<string>{14, 163}</string>
+							<string>{5, 151}</string>
+							<string>{4, 63}</string>
+							<string>{15, 47}</string>
+							<string>{17, 22}</string>
+							<string>{19, 8}</string>
+							<string>{23, 5}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{205, 123}, {55, 152}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{843, 266}, {55, 152}}</string>
+						<key>image</key>
+						<string>bottle_1.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{37, 148}</string>
+							<string>{6, 144}</string>
+							<string>{2, 50}</string>
+							<string>{11, 42}</string>
+							<string>{11, 29}</string>
+							<string>{4, 13}</string>
+							<string>{9, 7}</string>
+							<string>{54, 4}</string>
+							<string>{43, 15}</string>
+							<string>{46, 37}</string>
+							<string>{40, 45}</string>
+							<string>{29, 29}</string>
+							<string>{38, 53}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{425, 111}, {43, 176}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{671, 459}, {43, 176}}</string>
+						<key>image</key>
+						<string>bottle_8.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{33, 47}</string>
+							<string>{41, 65}</string>
+							<string>{41, 174}</string>
+							<string>{3, 173}</string>
+							<string>{2, 62}</string>
+							<string>{12, 48}</string>
+							<string>{13, 6}</string>
+							<string>{33, 3}</string>
+							<string>{29, 47}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{334, 126}, {57, 139}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{937, 298}, {57, 139}}</string>
+						<key>image</key>
+						<string>bottle_10.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{38, 4}</string>
+							<string>{20, 4}</string>
+							<string>{18, 50}</string>
+							<string>{2, 63}</string>
+							<string>{5, 136}</string>
+							<string>{56, 136}</string>
+							<string>{53, 59}</string>
+							<string>{40, 45}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{385, 142}, {46, 149}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{680, 550}, {46, 149}}</string>
+						<key>image</key>
+						<string>bottle_12.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{34, 3}</string>
+							<string>{14, 3}</string>
+							<string>{16, 34}</string>
+							<string>{3, 49}</string>
+							<string>{5, 145}</string>
+							<string>{43, 147}</string>
+							<string>{45, 44}</string>
+							<string>{35, 31}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{382, 170}, {51, 123}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{745, 530}, {51, 123}}</string>
+						<key>image</key>
+						<string>bottle_3.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{37, 3}</string>
+							<string>{13, 3}</string>
+							<string>{11, 18}</string>
+							<string>{16, 55}</string>
+							<string>{3, 70}</string>
+							<string>{4, 97}</string>
+							<string>{17, 115}</string>
+							<string>{40, 120}</string>
+							<string>{50, 99}</string>
+							<string>{50, 69}</string>
+							<string>{38, 61}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{385, 142}, {46, 149}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{922, 527}, {46, 149}}</string>
+						<key>image</key>
+						<string>bottle_12.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{34, 3}</string>
+							<string>{14, 3}</string>
+							<string>{16, 34}</string>
+							<string>{3, 49}</string>
+							<string>{5, 145}</string>
+							<string>{43, 147}</string>
+							<string>{45, 44}</string>
+							<string>{35, 31}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{310, 92}, {54, 196}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{879, 136}, {54, 196}}</string>
+						<key>image</key>
+						<string>bottle_14.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{39, 4}</string>
+							<string>{16, 3}</string>
+							<string>{16, 20}</string>
+							<string>{11, 54}</string>
+							<string>{2, 78}</string>
+							<string>{2, 193}</string>
+							<string>{52, 193}</string>
+							<string>{53, 81}</string>
+							<string>{44, 53}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{334, 126}, {57, 139}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{640, 298}, {57, 139}}</string>
+						<key>image</key>
+						<string>bottle_10.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{38, 4}</string>
+							<string>{20, 4}</string>
+							<string>{18, 50}</string>
+							<string>{2, 63}</string>
+							<string>{5, 136}</string>
+							<string>{56, 136}</string>
+							<string>{53, 59}</string>
+							<string>{40, 45}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{314, 148}, {71, 143}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{755, 143}, {71, 143}}</string>
+						<key>image</key>
+						<string>bottle_6.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{44, 3}</string>
+							<string>{44, 57}</string>
+							<string>{60, 85}</string>
+							<string>{64, 140}</string>
+							<string>{8, 138}</string>
+							<string>{9, 92}</string>
+							<string>{27, 56}</string>
+							<string>{27, 6}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{350, 158}, {52, 136}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{632, 457}, {52, 136}}</string>
+						<key>image</key>
+						<string>bottle_4.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{21, 3}</string>
+							<string>{36, 4}</string>
+							<string>{40, 17}</string>
+							<string>{50, 45}</string>
+							<string>{51, 133}</string>
+							<string>{6, 132}</string>
+							<string>{1, 46}</string>
+							<string>{7, 25}</string>
+							<string>{18, 17}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{425, 111}, {43, 176}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{920, 195}, {43, 176}}</string>
+						<key>image</key>
+						<string>bottle_8.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{33, 47}</string>
+							<string>{41, 65}</string>
+							<string>{41, 174}</string>
+							<string>{3, 173}</string>
+							<string>{2, 62}</string>
+							<string>{12, 48}</string>
+							<string>{13, 6}</string>
+							<string>{33, 3}</string>
+							<string>{29, 47}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{240, 120}, {90, 174}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{825, 507}, {90, 174}}</string>
+						<key>image</key>
+						<string>bottle_16.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{65, 5}</string>
+							<string>{65, 22}</string>
+							<string>{75, 41}</string>
+							<string>{73, 162}</string>
+							<string>{21, 161}</string>
+							<string>{18, 42}</string>
+							<string>{31, 19}</string>
+							<string>{31, 5}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{334, 126}, {57, 139}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{904, 452}, {57, 139}}</string>
+						<key>image</key>
+						<string>bottle_10.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{38, 4}</string>
+							<string>{20, 4}</string>
+							<string>{18, 50}</string>
+							<string>{2, 63}</string>
+							<string>{5, 136}</string>
+							<string>{56, 136}</string>
+							<string>{53, 59}</string>
+							<string>{40, 45}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{205, 123}, {55, 152}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{918, 390}, {55, 152}}</string>
+						<key>image</key>
+						<string>bottle_1.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{37, 148}</string>
+							<string>{6, 144}</string>
+							<string>{2, 50}</string>
+							<string>{11, 42}</string>
+							<string>{11, 29}</string>
+							<string>{4, 13}</string>
+							<string>{9, 7}</string>
+							<string>{54, 4}</string>
+							<string>{43, 15}</string>
+							<string>{46, 37}</string>
+							<string>{40, 45}</string>
+							<string>{29, 29}</string>
+							<string>{38, 53}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{334, 126}, {57, 139}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{901, 273}, {57, 139}}</string>
+						<key>image</key>
+						<string>bottle_10.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{38, 4}</string>
+							<string>{20, 4}</string>
+							<string>{18, 50}</string>
+							<string>{2, 63}</string>
+							<string>{5, 136}</string>
+							<string>{56, 136}</string>
+							<string>{53, 59}</string>
+							<string>{40, 45}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{312, 132}, {69, 149}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{674, 197}, {69, 149}}</string>
+						<key>image</key>
+						<string>bottle_2.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{4, 4}</string>
+							<string>{47, 2}</string>
+							<string>{51, 26}</string>
+							<string>{60, 43}</string>
+							<string>{68, 49}</string>
+							<string>{67, 146}</string>
+							<string>{19, 148}</string>
+							<string>{17, 52}</string>
+							<string>{32, 42}</string>
+							<string>{32, 30}</string>
+							<string>{38, 27}</string>
+							<string>{34, 10}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{350, 158}, {52, 136}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{891, 353}, {52, 136}}</string>
+						<key>image</key>
+						<string>bottle_4.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{21, 3}</string>
+							<string>{36, 4}</string>
+							<string>{40, 17}</string>
+							<string>{50, 45}</string>
+							<string>{51, 133}</string>
+							<string>{6, 132}</string>
+							<string>{1, 46}</string>
+							<string>{7, 25}</string>
+							<string>{18, 17}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{425, 111}, {43, 176}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{816, 170}, {43, 176}}</string>
+						<key>image</key>
+						<string>bottle_8.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{33, 47}</string>
+							<string>{41, 65}</string>
+							<string>{41, 174}</string>
+							<string>{3, 173}</string>
+							<string>{2, 62}</string>
+							<string>{12, 48}</string>
+							<string>{13, 6}</string>
+							<string>{33, 3}</string>
+							<string>{29, 47}</string>
+						</array>
+					</dict>
+				</array>
+				<key>original_elements</key>
+				<array>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{205, 123}, {55, 152}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{205, 123}, {55, 152}}</string>
+						<key>image</key>
+						<string>bottle_1.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{37, 148}</string>
+							<string>{6, 144}</string>
+							<string>{2, 50}</string>
+							<string>{11, 42}</string>
+							<string>{11, 29}</string>
+							<string>{4, 13}</string>
+							<string>{9, 7}</string>
+							<string>{54, 4}</string>
+							<string>{43, 15}</string>
+							<string>{46, 37}</string>
+							<string>{40, 45}</string>
+							<string>{29, 29}</string>
+							<string>{38, 53}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{312, 132}, {69, 149}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{312, 132}, {69, 149}}</string>
+						<key>image</key>
+						<string>bottle_2.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{4, 4}</string>
+							<string>{47, 2}</string>
+							<string>{51, 26}</string>
+							<string>{60, 43}</string>
+							<string>{68, 49}</string>
+							<string>{67, 146}</string>
+							<string>{19, 148}</string>
+							<string>{17, 52}</string>
+							<string>{32, 42}</string>
+							<string>{32, 30}</string>
+							<string>{38, 27}</string>
+							<string>{34, 10}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{382, 170}, {51, 123}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{382, 170}, {51, 123}}</string>
+						<key>image</key>
+						<string>bottle_3.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{37, 3}</string>
+							<string>{13, 3}</string>
+							<string>{11, 18}</string>
+							<string>{16, 55}</string>
+							<string>{3, 70}</string>
+							<string>{4, 97}</string>
+							<string>{17, 115}</string>
+							<string>{40, 120}</string>
+							<string>{50, 99}</string>
+							<string>{50, 69}</string>
+							<string>{38, 61}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{350, 158}, {52, 136}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{350, 158}, {52, 136}}</string>
+						<key>image</key>
+						<string>bottle_4.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{21, 3}</string>
+							<string>{36, 4}</string>
+							<string>{40, 17}</string>
+							<string>{50, 45}</string>
+							<string>{51, 133}</string>
+							<string>{6, 132}</string>
+							<string>{1, 46}</string>
+							<string>{7, 25}</string>
+							<string>{18, 17}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{245, 149}, {67, 130}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{245, 149}, {67, 130}}</string>
+						<key>image</key>
+						<string>bottle_5.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{39, 10}</string>
+							<string>{27, 15}</string>
+							<string>{19, 20}</string>
+							<string>{16, 35}</string>
+							<string>{1, 103}</string>
+							<string>{3, 125}</string>
+							<string>{57, 129}</string>
+							<string>{64, 47}</string>
+							<string>{67, 25}</string>
+							<string>{49, 7}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{314, 148}, {71, 143}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{314, 148}, {71, 143}}</string>
+						<key>image</key>
+						<string>bottle_6.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{44, 3}</string>
+							<string>{44, 57}</string>
+							<string>{60, 85}</string>
+							<string>{64, 140}</string>
+							<string>{8, 138}</string>
+							<string>{9, 92}</string>
+							<string>{27, 56}</string>
+							<string>{27, 6}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{387, 128}, {43, 150}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{387, 128}, {43, 150}}</string>
+						<key>image</key>
+						<string>bottle_7.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{34, 3}</string>
+							<string>{11, 6}</string>
+							<string>{11, 25}</string>
+							<string>{3, 36}</string>
+							<string>{3, 149}</string>
+							<string>{40, 149}</string>
+							<string>{42, 33}</string>
+							<string>{32, 25}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{425, 111}, {43, 176}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{425, 111}, {43, 176}}</string>
+						<key>image</key>
+						<string>bottle_8.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{33, 47}</string>
+							<string>{41, 65}</string>
+							<string>{41, 174}</string>
+							<string>{3, 173}</string>
+							<string>{2, 62}</string>
+							<string>{12, 48}</string>
+							<string>{13, 6}</string>
+							<string>{33, 3}</string>
+							<string>{29, 47}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{456, 139}, {41, 145}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{456, 139}, {41, 145}}</string>
+						<key>image</key>
+						<string>bottle_9.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{30, 3}</string>
+							<string>{32, 49}</string>
+							<string>{39, 56}</string>
+							<string>{39, 143}</string>
+							<string>{3, 142}</string>
+							<string>{5, 57}</string>
+							<string>{11, 44}</string>
+							<string>{15, 4}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{334, 126}, {57, 139}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{334, 126}, {57, 139}}</string>
+						<key>image</key>
+						<string>bottle_10.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{38, 4}</string>
+							<string>{20, 4}</string>
+							<string>{18, 50}</string>
+							<string>{2, 63}</string>
+							<string>{5, 136}</string>
+							<string>{56, 136}</string>
+							<string>{53, 59}</string>
+							<string>{40, 45}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{414, 150}, {35, 137}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{414, 150}, {35, 137}}</string>
+						<key>image</key>
+						<string>bottle_11.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{28, 3}</string>
+							<string>{10, 3}</string>
+							<string>{8, 54}</string>
+							<string>{3, 65}</string>
+							<string>{3, 136}</string>
+							<string>{32, 134}</string>
+							<string>{34, 61}</string>
+							<string>{28, 55}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{385, 142}, {46, 149}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{385, 142}, {46, 149}}</string>
+						<key>image</key>
+						<string>bottle_12.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{34, 3}</string>
+							<string>{14, 3}</string>
+							<string>{16, 34}</string>
+							<string>{3, 49}</string>
+							<string>{5, 145}</string>
+							<string>{43, 147}</string>
+							<string>{45, 44}</string>
+							<string>{35, 31}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{361, 123}, {53, 171}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{361, 123}, {53, 171}}</string>
+						<key>image</key>
+						<string>bottle_13.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{40, 5}</string>
+							<string>{37, 22}</string>
+							<string>{43, 47}</string>
+							<string>{52, 59}</string>
+							<string>{50, 153}</string>
+							<string>{44, 162}</string>
+							<string>{14, 163}</string>
+							<string>{5, 151}</string>
+							<string>{4, 63}</string>
+							<string>{15, 47}</string>
+							<string>{17, 22}</string>
+							<string>{19, 8}</string>
+							<string>{23, 5}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{310, 92}, {54, 196}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{310, 92}, {54, 196}}</string>
+						<key>image</key>
+						<string>bottle_14.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{39, 4}</string>
+							<string>{16, 3}</string>
+							<string>{16, 20}</string>
+							<string>{11, 54}</string>
+							<string>{2, 78}</string>
+							<string>{2, 193}</string>
+							<string>{52, 193}</string>
+							<string>{53, 81}</string>
+							<string>{44, 53}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{440, 102}, {99, 172}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{440, 102}, {99, 172}}</string>
+						<key>image</key>
+						<string>bottle_15.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{94, 171}</string>
+							<string>{90, 163}</string>
+							<string>{98, 146}</string>
+							<string>{92, 123}</string>
+							<string>{79, 100}</string>
+							<string>{75, 44}</string>
+							<string>{92, 37}</string>
+							<string>{76, 22}</string>
+							<string>{33, 3}</string>
+							<string>{22, -1}</string>
+							<string>{17, 13}</string>
+							<string>{28, 21}</string>
+							<string>{23, 27}</string>
+							<string>{21, 35}</string>
+							<string>{3, 60}</string>
+							<string>{4, 67}</string>
+							<string>{32, 45}</string>
+							<string>{55, 41}</string>
+							<string>{51, 64}</string>
+							<string>{48, 82}</string>
+							<string>{44, 101}</string>
+							<string>{32, 128}</string>
+							<string>{27, 143}</string>
+							<string>{31, 159}</string>
+							<string>{30, 169}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{240, 120}, {90, 174}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{240, 120}, {90, 174}}</string>
+						<key>image</key>
+						<string>bottle_16.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{65, 5}</string>
+							<string>{65, 22}</string>
+							<string>{75, 41}</string>
+							<string>{73, 162}</string>
+							<string>{21, 161}</string>
+							<string>{18, 42}</string>
+							<string>{31, 19}</string>
+							<string>{31, 5}</string>
+						</array>
+					</dict>
+				</array>
+			</dict>
 		</dict>
 	</dict>
 	<key>Stage2</key>
