@@ -50,7 +50,7 @@
                                         <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <connections>
                                             <outlet property="menuImage" destination="rbV-Aj-VcZ" id="AmU-N5-S0s"/>
-                                            <segue destination="TV7-K8-EP0" kind="push" id="0ze-Vs-tYb"/>
+                                            <segue destination="TV7-K8-EP0" kind="push" id="guL-Ls-B7P"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -69,16 +69,66 @@
                                     <action selector="backButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MHQ-cG-EzQ"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2g4-PE-XvT">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="select_a_level.png" translatesAutoresizingMaskIntoConstraints="NO" id="Mnz-Im-16P">
+                                        <rect key="frame" x="266" y="134" width="493" height="70"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lavels_box_bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="rkn-aG-dBy">
+                                        <rect key="frame" x="176" y="204" width="672" height="430"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yXb-mZ-dDM">
+                                        <rect key="frame" x="234" y="272" width="556" height="96"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" backgroundImage="easy_button.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="handleButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kor-MG-lcz"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E3o-5M-RuI">
+                                        <rect key="frame" x="234" y="371" width="556" height="96"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" backgroundImage="medium_button">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="handleButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9wS-0c-9dl"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PHR-uJ-XiE">
+                                        <rect key="frame" x="234" y="470" width="556" height="96"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" backgroundImage="advance_button">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="handleButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iIJ-NV-spi"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.73999999999999999" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <navigationItem key="navigationItem" id="rZ0-qU-mVH"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="collectionView" destination="ONC-T1-vni" id="dcf-jh-eDV"/>
+                        <outlet property="stageSelectView" destination="2g4-PE-XvT" id="MnU-dd-gIV"/>
+                        <segue destination="xWv-ho-mhL" kind="push" id="mxH-aS-aih"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1691" y="-4571"/>
+            <point key="canvasLocation" x="-1951" y="-4747"/>
         </scene>
         <!--Game Scene Controller-->
         <scene sceneID="O3p-qo-ojf">
@@ -265,7 +315,7 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="ekd-Ri-PZw" kind="relationship" relationship="rootViewController" id="zkR-1W-2H1"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Red-7J-X4w"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZzN-u9-Gtw" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -275,9 +325,14 @@
     </scenes>
     <resources>
         <image name="Menu_bg" width="1024" height="768"/>
+        <image name="advance_button" width="556" height="96"/>
         <image name="bottom_back" width="32" height="32"/>
         <image name="bottom_details" width="32" height="32"/>
         <image name="bottom_strip" width="768" height="52"/>
+        <image name="easy_button.png" width="1024" height="768"/>
+        <image name="lavels_box_bg.png" width="1024" height="768"/>
+        <image name="medium_button" width="556" height="96"/>
+        <image name="select_a_level.png" width="1024" height="768"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
@@ -285,6 +340,6 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="UfS-Xd-W96"/>
+        <segue reference="y9g-T0-VF2"/>
     </inferredMetricsTieBreakers>
 </document>

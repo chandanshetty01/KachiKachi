@@ -14,21 +14,18 @@
 #import "KKCollectionViewCell.h"
 
 @interface KKLevelSelectViewController ()
+@property (weak, nonatomic) IBOutlet UIView *stageSelectView;
+@property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
 
 @end
 
 @implementation KKLevelSelectViewController
 
-- (void)viewDidLoad
-{    
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-    
-    [SoundManager sharedManager].allowsBackgroundMusic = YES;
-    [[SoundManager sharedManager] prepareToPlay];
-    
+-(void)loadLevelsForStage
+{
+    self.levelModals = nil;
     self.levelModals = [NSMutableArray array];
-    
+
     NSMutableDictionary *levels = [[KKGameConfigManager sharedManager] getAllLevels:self.currentStage];
     
     NSArray *keys = [levels allKeys];
@@ -41,7 +38,7 @@
             return NSOrderedAscending;
         else
             return NSOrderedSame;
-
+        
     }];
     
     [keys enumerateObjectsUsingBlock:^(NSString *key, NSUInteger idx, BOOL *stop) {
@@ -51,7 +48,43 @@
         [self.levelModals addObject:levelModel];
     }];
     
+    [self.collectionView reloadData];
+}
+
+- (void)viewDidLoad
+{    
+    [super viewDidLoad];
+	// Do any additional setup after loading the view, typically from a nib.
+        
+    [self showStageSelectionDialog];
+
+    [SoundManager sharedManager].allowsBackgroundMusic = YES;
+    [[SoundManager sharedManager] prepareToPlay];
+    
+    self.currentStage = 1;//default
+    [self loadLevelsForStage];
     [self playMusic];
+}
+
+-(void)showStageSelectionDialog
+{
+    self.stageSelectView.hidden = NO;
+
+    [UIView animateWithDuration:0.5
+                     animations:^{
+                         self.stageSelectView.alpha = 1;
+                     } completion:^(BOOL finished) {
+                     }];
+}
+
+-(void)hideStageSelectionDialog
+{
+    [UIView animateWithDuration:0.5
+                     animations:^{
+                         self.stageSelectView.alpha = 0.0;
+                     } completion:^(BOOL finished) {
+                         self.stageSelectView.hidden = YES;
+                     }];
 }
 
 -(void)playMusic
@@ -65,9 +98,13 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)backButtonAction:(id)sender {
-    AppDelegate *appdelegate = APP_DELEGATE;
-    [appdelegate.navigationController popViewControllerAnimated:YES];
+- (IBAction)backButtonAction:(id)sender
+{
+//    AppDelegate *appdelegate = APP_DELEGATE;
+//    [appdelegate.navigationController popViewControllerAnimated:YES];
+
+    [self showStageSelectionDialog];
+    
     [Flurry logEvent:@"BackButton - Level Select"];
 }
 
@@ -134,6 +171,18 @@
     NSDictionary *dict = [NSDictionary dictionaryWithObjects:@[level,stage]
                                                      forKeys:@[@"level", @"stage"]];
     [Flurry logEvent:@"LevelSelect" withParameters:dict];
+}
+
+- (IBAction)handleButtonAction:(UIButton*)sender
+{
+    self.currentStage = sender.tag;
+    [self hideStageSelectionDialog];
+    [self loadLevelsForStage];
+    
+    NSNumber *stage = [NSNumber numberWithInt:self.currentStage];
+    NSDictionary *dict = [NSDictionary dictionaryWithObject:stage
+                                                     forKey:@[@"stage"]];
+    [Flurry logEvent:@"StageSelect" withParameters:dict];
 }
 
 - (void)dealloc
