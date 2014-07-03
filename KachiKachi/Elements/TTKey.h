@@ -6,8 +6,8 @@
 //  Copyright (c) 2014 Chanddan. All rights reserved.
 //
 
-#import "TTBase.h"
+#import "TTDvd.h"
 
-@interface TTKey : TTBase
+@interface TTKey : TTDvd
 
 @end
