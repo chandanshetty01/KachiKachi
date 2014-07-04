@@ -171,6 +171,9 @@
 
 - (BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(id)sender
 {
+#ifdef ENABLE_ALL_LEVELS
+    return YES;
+#endif
     UIView *btn = (UIView*)sender;
     KKLevelModal *modal = [self currentLevelData:btn.tag];
     if(modal){
