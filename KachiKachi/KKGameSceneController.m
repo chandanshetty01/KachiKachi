@@ -485,7 +485,7 @@ typedef void (^completionBlk)(BOOL);
     }
     
     for (TTBase *element in _elements) {
-        if(![element isEqual:currentElement]){
+        if(![element isEqual:currentElement] && !element.isPicked){
             
             NSMutableArray *polygonA = [NSMutableArray array];
             for(NSString *point in element.touchPoints){
