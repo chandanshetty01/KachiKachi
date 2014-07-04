@@ -56,7 +56,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
         
-    [self hideStageSelectionDialog];
+    [self showStageSelectionDialog];
 
     [SoundManager sharedManager].allowsBackgroundMusic = YES;
     [[SoundManager sharedManager] prepareToPlay];
