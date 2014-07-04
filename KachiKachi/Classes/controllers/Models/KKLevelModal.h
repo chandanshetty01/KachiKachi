@@ -8,6 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
+typedef enum {
+    eNormalMode = 0,
+    eTimerMode,
+}EGAMEMODE;
+
 @interface KKLevelModal : NSObject
 
 @property(nonatomic,assign)NSInteger levelID;
@@ -20,6 +25,7 @@
 @property(nonatomic,assign)BOOL isLevelUnlocked;
 @property(nonatomic,strong)NSString* menuIconImage;
 @property(nonatomic,assign)NSInteger duration;
+@property(nonatomic,assign)EGAMEMODE gameMode;
 
 -(instancetype)initWithDictionary:(NSDictionary*)data;
 -(NSMutableDictionary*)savedDictionary;

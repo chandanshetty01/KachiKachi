@@ -191,7 +191,11 @@
     KKGameSceneController *nextVC = (KKGameSceneController *)[segue destinationViewController];
     KKLevelModal *modal = [self currentLevelData:btn.tag];
     if(modal){
-        if(modal.isLevelUnlocked){
+        BOOL isLevelUnlocked = modal.isLevelUnlocked;
+#ifdef ENABLE_ALL_LEVELS
+        isLevelUnlocked = YES;
+#endif
+        if(isLevelUnlocked){
             nextVC.levelModel = [self currentLevelData:btn.tag];
             [[KKGameStateManager sharedManager] setCurrentLevel:btn.tag andStage:_currentStage];
             NSNumber *level = [NSNumber numberWithInt:btn.tag];
@@ -209,6 +213,9 @@
     NSInteger stage = sender.tag;
     
     BOOL isLocked = [[KKGameStateManager sharedManager] isStageLocked:stage];
+#ifdef ENABLE_ALL_LEVELS
+    isLocked = NO;
+#endif
     if(!isLocked){
         self.currentStage = sender.tag;
         

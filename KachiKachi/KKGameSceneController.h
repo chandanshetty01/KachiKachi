@@ -12,10 +12,6 @@
 #import "TTBase.h"
 #import "TimerObject.h"
 
-typedef enum {
-    eNormalMode,
-    eTimerMode,
-}EGAMEMODE;
 
 @interface KKGameSceneController : UIViewController
 
@@ -38,5 +34,4 @@ typedef enum {
 @property (nonatomic,assign) NSInteger duration;
 @property (nonatomic,assign) EGAMEMODE gameMode;
 @property (nonatomic,strong) TimerObject *timer;
-@property (nonatomic,assign) NSTimeInterval remainingTime;
 @end

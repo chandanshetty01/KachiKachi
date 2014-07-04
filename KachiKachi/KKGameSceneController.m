@@ -57,17 +57,16 @@ typedef void (^completionBlk)(BOOL);
     
     self.currentLevel = [[KKGameStateManager sharedManager] currentLevelNumber];
     self.currentStage = [[KKGameStateManager sharedManager] currentStageNumber];
+    self.gameMode = [[KKGameConfigManager sharedManager] gameModeForLevel:self.currentLevel stage:self.currentStage];
     
     _isGameFinished = FALSE;
     self.noOfLifesRemaining = self.levelModel.life;
     self.duration = self.levelModel.duration;
-    self.remainingTime = self.duration;
-    if(self.duration > 0){
-        self.gameMode = eTimerMode;
-        [self updateTimer:self.remainingTime];
+    
+    if(self.gameMode == eTimerMode){
+        [self updateTimer:self.levelModel.duration];
     }
     else{
-        self.gameMode = eNormalMode;
     }
     
     [self addElements];
@@ -102,7 +101,7 @@ typedef void (^completionBlk)(BOOL);
 
 -(void)startTimer
 {
-    self.timer = [[TimerObject alloc] initWithDuration:self.remainingTime fireInterval:1.0f];
+    self.timer = [[TimerObject alloc] initWithDuration:self.levelModel.duration fireInterval:1.0f];
     [self.timer startTimer];
     self.timer.delegate = self;
     self.timerLabel.hidden = NO;
@@ -125,8 +124,8 @@ typedef void (^completionBlk)(BOOL);
 #pragma mark - Timer delegates -
 -(void)timerDidCompleted:(TimerObject*)timer
 {
-    self.remainingTime = 0;
-    [self updateTimer:self.remainingTime];
+    self.levelModel.duration = 0;
+    [self updateTimer:self.levelModel.duration];
     [self validateGamePlay:^(BOOL finished) {
         _currentElement = nil;
     }];
@@ -134,8 +133,8 @@ typedef void (^completionBlk)(BOOL);
 
 -(void)timerDidTick:(NSTimeInterval)remainingInteval andTimer:(TimerObject*)timer
 {
-    self.remainingTime = remainingInteval;
-    [self updateTimer:self.remainingTime];
+    self.levelModel.duration = remainingInteval;
+    [self updateTimer:self.levelModel.duration];
 }
 
 -(void)levelStartedFlurryLog
@@ -253,7 +252,7 @@ typedef void (^completionBlk)(BOOL);
     
     if(gameOver == false && self.gameMode == eTimerMode)
     {
-        if(self.remainingTime <= 0)
+        if(self.levelModel.duration <= 0)
             gameOver = true;
     }
     
@@ -328,19 +327,11 @@ typedef void (^completionBlk)(BOOL);
     [[KKGameStateManager sharedManager]save];
 }
 
--(void)showGameOverAlert
+-(void)showGameOverAlert:(NSDictionary*)data
 {
     [self levelEndedFlurryLog:@1];
     
-    NSString *msg = @"You haven't selected the top item";
-    if(self.gameMode == eTimerMode){
-        if(self.remainingTime <= 0)
-            msg = @"You ran out of TIME!";
-    }
-    else{
-        
-    }
-    
+    NSString *msg = [data objectForKey:@"msg"];
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Game Over"
                                                     message:msg
                                                    delegate:self
@@ -372,27 +363,19 @@ typedef void (^completionBlk)(BOOL);
     [Flurry endTimedEvent:LEVEL_INFO_LIFE withParameters:dict];
 }
 
--(void)unlockNextLevel
-{
-    NSInteger nextlevel = self.currentLevel+1;
-    NSInteger noOfLevels = [[KKGameConfigManager sharedManager] totalNumberOfLevelsInStage:self.currentStage];
-    if(nextlevel <= noOfLevels){
-        [[KKGameStateManager sharedManager] markUnlocked:self.currentLevel stage:self.currentStage];
-        [[KKGameStateManager sharedManager] markUnlocked:self.currentLevel+1 stage:self.currentStage];
-    }
-    else{
-            [[KKGameStateManager sharedManager] unlockStage:self.currentStage+1];
-    }
-}
 
 -(void)validateGamePlay:(completionBlk)block
 {
     if([self isGameOver] && !_isGameFinished)
     {
+        NSDictionary *data = @{@"msg":@"You haven't selected the top item!"};
+
         BOOL canShowGameOverAlert = NO;
         if (self.gameMode == eTimerMode) {
-            if(self.remainingTime <= 0)
+            if(self.levelModel.duration <= 0){
+                data = @{@"msg":@"You ran out of TIME!"};
                 canShowGameOverAlert = YES;
+            }
         }
 
         self.noOfLifesRemaining--;
@@ -415,7 +398,7 @@ typedef void (^completionBlk)(BOOL);
             _isGameFinished = YES;
             [self restartGame];
             [self saveLevelData];
-            [self performSelector:@selector(showGameOverAlert) withObject:nil afterDelay:0.5];
+            [self performSelector:@selector(showGameOverAlert:) withObject:data afterDelay:0.5];
         }
         block(YES);
     }
@@ -430,7 +413,6 @@ typedef void (^completionBlk)(BOOL);
                                                          forKeys:@[@"level", @"stage",@"life"]];
         [Flurry logEvent:LEVEL_WON withParameters:dict];
         
-        self.levelModel.isLevelCompleted = YES;
         [self unlockNextLevel];
         [self saveLevelData];
         [[SoundManager sharedManager] playSound:@"sound2" looping:NO];
@@ -459,9 +441,34 @@ typedef void (^completionBlk)(BOOL);
     [self.elements removeAllObjects];
     KKGameConfigManager *config = [KKGameConfigManager sharedManager];
     NSDictionary *level = [config levelWithID:self.currentLevel andStage:self.currentStage];
+    BOOL isLevelCompleted = self.levelModel.isLevelCompleted;
     self.levelModel = [[KKLevelModal alloc] initWithDictionary:level];
     self.levelModel.levelID = self.currentLevel;
     self.levelModel.stageID =  self.currentStage;
+    self.levelModel.isLevelUnlocked = YES;
+    self.levelModel.isLevelCompleted = isLevelCompleted;
+}
+
+-(void)unlockNextLevel
+{
+    //Dont reset the entire thing... just reset items
+    [self.elements removeAllObjects];
+    KKGameConfigManager *config = [KKGameConfigManager sharedManager];
+    NSDictionary *level = [config levelWithID:self.currentLevel andStage:self.currentStage];
+    self.levelModel = [[KKLevelModal alloc] initWithDictionary:level];
+    self.levelModel.isLevelUnlocked = YES;
+    self.levelModel.isLevelCompleted = YES;
+    
+    self.levelModel.duration = [[KKGameConfigManager sharedManager] durationForLevel:self.currentLevel stage:self.currentStage];
+    NSInteger nextlevel = self.currentLevel+1;
+    NSInteger noOfLevels = [[KKGameConfigManager sharedManager] totalNumberOfLevelsInStage:self.currentStage];
+    if(nextlevel <= noOfLevels){
+        [[KKGameStateManager sharedManager] markUnlocked:self.currentLevel stage:self.currentStage];
+        [[KKGameStateManager sharedManager] markUnlocked:self.currentLevel+1 stage:self.currentStage];
+    }
+    else{
+        [[KKGameStateManager sharedManager] unlockStage:self.currentStage+1];
+    }
 }
 
 -(NSMutableArray*)intersectedElements:(TTBase*)currentElement

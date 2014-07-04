@@ -29,6 +29,7 @@
         self.isLevelCompleted = [[data objectForKey:@"isLevelCompleted"] boolValue];
         self.isLevelUnlocked = [[data objectForKey:@"isLevelUnlocked"] boolValue];
         self.duration = [[data objectForKey:@"duration"] intValue];
+        self.gameMode = [[data objectForKey:@"gameMode"] intValue];
     }
     return self;
 }
@@ -52,6 +53,8 @@
     [dict setObject:[NSString stringWithFormat:@"%d",self.levelID] forKey:@"ID"];
     [dict setObject:self.menuIconImage forKey:@"menuImage"];
     [dict setObject:[NSString stringWithFormat:@"%d",self.duration] forKey:@"duration"];
+    [dict setObject:[NSString stringWithFormat:@"%d",self.gameMode] forKey:@"gameMode"];
+
     return dict;
 }
 

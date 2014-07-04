@@ -26,6 +26,6 @@ const NSString *kNoOfItems;
 -(BOOL)isStageLocked:(NSInteger)stage;
 -(NSInteger)totalNumberOfLevelsInStage:(NSInteger)stage;
 -(NSDictionary*)initialGameConfiguration;
-
+-(NSInteger)gameModeForLevel:(NSInteger)levelID stage:(NSInteger)stageID;
 @end
 

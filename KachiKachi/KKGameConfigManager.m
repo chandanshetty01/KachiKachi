@@ -105,6 +105,12 @@ const NSString *kNoOfItems = @"noOfItems";
     return [[level objectForKey:@"duration"] integerValue];
 }
 
+-(NSInteger)gameModeForLevel:(NSInteger)levelID stage:(NSInteger)stageID
+{
+    NSDictionary *level = [self levelWithID:levelID andStage:stageID];
+    return [[level objectForKey:@"gameMode"] integerValue];
+}
+
 -(NSMutableDictionary*)levelWithID:(NSInteger)levelID andStage:(NSInteger)stageID
 {
     NSMutableDictionary *level = nil;
