@@ -152,37 +152,78 @@
     [cell.menuImage setImage:[UIImage imageNamed:level.menuIconImage]];
     cell.menuImage.contentMode = UIViewContentModeCenter;
     
+    if(level.isLevelUnlocked){
+        
+    }
+    else{
+        cell.alpha = 0.6;
+    }
+    
     return cell;
 }
 
 #pragma mark - Navigation
+
+- (BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(id)sender
+{
+    UIView *btn = (UIView*)sender;
+    KKLevelModal *modal = [self currentLevelData:btn.tag];
+    if(modal){
+        return modal.isLevelUnlocked;
+    }
+    return NO;
+}
+
+//- (BOOL)canPerformUnwindSegueAction:(SEL)action fromViewController:(UIViewController *)fromViewController withSender:(id)sender NS_AVAILABLE_IOS(6_0)
+//{
+//    return YES;
+//}
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     UIView *btn = (UIView*)sender;
     KKGameSceneController *nextVC = (KKGameSceneController *)[segue destinationViewController];
-    nextVC.levelModel = [self currentLevelData:btn.tag];
-    [[KKGameStateManager sharedManager] setCurrentLevel:btn.tag andStage:_currentStage];
-    
-    
-    NSNumber *level = [NSNumber numberWithInt:btn.tag];
-    NSNumber *stage = [NSNumber numberWithInt:self.currentStage];
-    NSDictionary *dict = [NSDictionary dictionaryWithObjects:@[level,stage]
-                                                     forKeys:@[@"level", @"stage"]];
-    [Flurry logEvent:@"LevelSelect" withParameters:dict];
+    KKLevelModal *modal = [self currentLevelData:btn.tag];
+    if(modal){
+        if(modal.isLevelUnlocked){
+            nextVC.levelModel = [self currentLevelData:btn.tag];
+            [[KKGameStateManager sharedManager] setCurrentLevel:btn.tag andStage:_currentStage];
+            NSNumber *level = [NSNumber numberWithInt:btn.tag];
+            NSNumber *stage = [NSNumber numberWithInt:self.currentStage];
+            NSDictionary *dict = [NSDictionary dictionaryWithObjects:@[level,stage]
+                                                             forKeys:@[@"level", @"stage"]];
+            [Flurry logEvent:@"LevelSelect" withParameters:dict];
+        }
+    }
+
 }
 
 - (IBAction)handleButtonAction:(UIButton*)sender
 {
-    self.currentStage = sender.tag;
-    [self hideStageSelectionDialog];
-    [self loadLevelsForStage];
+    NSInteger stage = sender.tag;
     
-    NSNumber *stage = [NSNumber numberWithInt:self.currentStage];
-    NSDictionary *dict = [NSDictionary dictionaryWithObject:stage
-                                                     forKey:@[@"stage"]];
-    [Flurry logEvent:@"StageSelect" withParameters:dict];
+    BOOL isLocked = [[KKGameStateManager sharedManager] isStageLocked:stage];
+    if(!isLocked){
+        self.currentStage = sender.tag;
+        
+        [self hideStageSelectionDialog];
+        [self loadLevelsForStage];
+        
+        NSNumber *stage = [NSNumber numberWithInt:self.currentStage];
+        NSDictionary *dict = [NSDictionary dictionaryWithObject:stage
+                                                         forKey:@[@"stage"]];
+        [Flurry logEvent:@"StageSelect" withParameters:dict];
+    }
+    else{
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Stage Locked!"
+                                                        message:@"Complete all levels in previous stage to unlock the stage"
+                                                       delegate:nil
+                                              cancelButtonTitle:@"OK"
+                                              otherButtonTitles:nil];
+        
+        [alert show];
+    }
 }
 
 - (void)dealloc

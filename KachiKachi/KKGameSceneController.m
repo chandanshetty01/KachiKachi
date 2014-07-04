@@ -372,6 +372,19 @@ typedef void (^completionBlk)(BOOL);
     [Flurry endTimedEvent:LEVEL_INFO_LIFE withParameters:dict];
 }
 
+-(void)unlockNextLevel
+{
+    NSInteger nextlevel = self.currentLevel+1;
+    NSInteger noOfLevels = [[KKGameConfigManager sharedManager] totalNumberOfLevelsInStage:self.currentStage];
+    if(nextlevel <= noOfLevels){
+        [[KKGameStateManager sharedManager] markUnlocked:self.currentLevel stage:self.currentStage];
+            [[KKGameStateManager sharedManager] markUnlocked:self.currentLevel+1 stage:self.currentStage];
+    }
+    else{
+            [[KKGameStateManager sharedManager] unlockStage:self.currentStage+1];
+    }
+}
+
 -(void)validateGamePlay:(completionBlk)block
 {
     if([self isGameOver] && !_isGameFinished)
@@ -418,7 +431,7 @@ typedef void (^completionBlk)(BOOL);
         [Flurry logEvent:LEVEL_WON withParameters:dict];
         
         self.levelModel.isLevelCompleted = YES;
-        [[KKGameStateManager sharedManager] markUnlocked:self.currentLevel+1 stage:self.currentStage];
+        [self unlockNextLevel];
         [self saveLevelData];
         [[SoundManager sharedManager] playSound:@"sound2" looping:NO];
         [self stopTimer];

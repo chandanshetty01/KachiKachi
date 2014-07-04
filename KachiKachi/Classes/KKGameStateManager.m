@@ -7,6 +7,7 @@
 //
 
 #import "KKGameStateManager.h"
+#import "KKGameConfigManager.h"
 
 @interface KKGameStateManager()
 
@@ -76,6 +77,8 @@
     NSMutableDictionary *stageDict = [self.savedGameData objectForKey:key];
     if(stageDict == nil){
         stageDict = [NSMutableDictionary dictionary];
+        BOOL isLocked = [[KKGameConfigManager sharedManager] isStageLocked:stage];
+        [stageDict setObject:[NSNumber numberWithBool:isLocked] forKey:@"locked"];
         [self.savedGameData setObject:stageDict forKey:key];
     }
     return stageDict;
@@ -116,6 +119,29 @@
     if(levelDict){
         [levelDict setObject:[NSNumber numberWithBool:YES] forKey:kKKLevelIsUnlocked];
     }
+}
+
+-(NSInteger)totalNumberOfLevelsInStage:(NSInteger)stage
+{
+    NSDictionary *levels = [self levelsDictionary:stage];
+    return [[levels allKeys] count];
+}
+
+-(void)unlockStage:(NSInteger)stage
+{
+    NSMutableDictionary *stageDict = [self stageDictionary:stage];
+    if(stageDict){
+        [stageDict setObject:[NSNumber numberWithBool:NO] forKey:@"locked"];
+    }
+}
+
+-(BOOL)isStageLocked:(NSInteger)stage
+{
+    NSMutableDictionary *stageDict = [self stageDictionary:stage];
+    if(stageDict){
+        return [[stageDict objectForKey:@"locked"] boolValue];
+    }
+    return false;
 }
 
 -(void)markCompleted:(NSInteger)level stage:(NSInteger)stage

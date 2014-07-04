@@ -61,6 +61,15 @@ const NSString *kNoOfItems = @"noOfItems";
     return stage;
 }
 
+-(BOOL)isStageLocked:(NSInteger)stage
+{
+    NSMutableDictionary *stageDict = [self stageWithID:stage];
+    if(stageDict)
+        return [[stageDict objectForKey:@"locked"] boolValue];
+    else
+        return false;
+}
+
 -(NSMutableDictionary*)getAllLevels:(NSInteger)stageID
 {
     NSMutableDictionary *levels = nil;

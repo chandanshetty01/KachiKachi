@@ -4,6 +4,8 @@
 <dict>
 	<key>Stage1</key>
 	<dict>
+		<key>locked</key>
+		<false/>
 		<key>levels</key>
 		<dict>
 			<key>level1</key>
@@ -12,6 +14,10 @@
 				<string>1</string>
 				<key>menuImage</key>
 				<string>Menu_1.png</string>
+				<key>isLevelCompleted</key>
+				<false/>
+				<key>isLevelUnlocked</key>
+				<true/>
 				<key>baskets</key>
 				<array>
 					<dict>
@@ -1326,6 +1332,10 @@
 				<string>2</string>
 				<key>menuImage</key>
 				<string>Menu_2.png</string>
+				<key>isLevelCompleted</key>
+				<false/>
+				<key>isLevelUnlocked</key>
+				<false/>
 				<key>background</key>
 				<string>balloon_bg.png</string>
 				<key>life</key>
@@ -2165,6 +2175,10 @@
 				<string>3</string>
 				<key>menuImage</key>
 				<string>Menu_3.png</string>
+				<key>isLevelCompleted</key>
+				<false/>
+				<key>isLevelUnlocked</key>
+				<false/>
 				<key>baskets</key>
 				<array>
 					<dict>
@@ -3153,6 +3167,10 @@
 				<string>4</string>
 				<key>menuImage</key>
 				<string>Menu_4.png</string>
+				<key>isLevelCompleted</key>
+				<false/>
+				<key>isLevelUnlocked</key>
+				<false/>
 				<key>baskets</key>
 				<array>
 					<dict>
@@ -4556,6 +4574,10 @@
 				<string>5</string>
 				<key>menuImage</key>
 				<string>Menu_5.png</string>
+				<key>isLevelCompleted</key>
+				<false/>
+				<key>isLevelUnlocked</key>
+				<false/>
 				<key>baskets</key>
 				<array>
 					<dict>
@@ -5802,6 +5824,10 @@
 				<string>6</string>
 				<key>menuImage</key>
 				<string>Menu_6.png</string>
+				<key>isLevelCompleted</key>
+				<false/>
+				<key>isLevelUnlocked</key>
+				<false/>
 				<key>baskets</key>
 				<array>
 					<dict>
@@ -6790,6 +6816,10 @@
 				<string>Menu_7.png</string>
 				<key>background</key>
 				<string>fish_bg.png</string>
+				<key>isLevelCompleted</key>
+				<false/>
+				<key>isLevelUnlocked</key>
+				<false/>
 				<key>baskets</key>
 				<array>
 					<dict>
@@ -8148,6 +8178,10 @@
 				<string>8</string>
 				<key>menuImage</key>
 				<string>Menu_8.png</string>
+				<key>isLevelCompleted</key>
+				<false/>
+				<key>isLevelUnlocked</key>
+				<false/>
 				<key>baskets</key>
 				<array>
 					<dict>
@@ -9209,6 +9243,10 @@
 				<string>Menu_9.png</string>
 				<key>background</key>
 				<string>ic_bg.png</string>
+				<key>isLevelCompleted</key>
+				<false/>
+				<key>isLevelUnlocked</key>
+				<false/>
 				<key>life</key>
 				<real>4</real>
 				<key>elements</key>
@@ -10306,6 +10344,10 @@
 				<string>Menu_10.png</string>
 				<key>background</key>
 				<string>kites_bg.png</string>
+				<key>isLevelCompleted</key>
+				<false/>
+				<key>isLevelUnlocked</key>
+				<false/>
 				<key>life</key>
 				<real>4</real>
 				<key>elements</key>
@@ -11249,6 +11291,10 @@
 				<string>Menu_20.png</string>
 				<key>background</key>
 				<string>pen_background.png</string>
+				<key>isLevelCompleted</key>
+				<false/>
+				<key>isLevelUnlocked</key>
+				<false/>
 				<key>life</key>
 				<real>4</real>
 				<key>elements</key>
@@ -11903,6 +11949,10 @@
 				<string>Menu_15.png</string>
 				<key>background</key>
 				<string>carrot_bg.png</string>
+				<key>isLevelCompleted</key>
+				<false/>
+				<key>isLevelUnlocked</key>
+				<false/>
 				<key>life</key>
 				<real>4</real>
 				<key>elements</key>
@@ -13045,6 +13095,10 @@
 				<string>Menu_13.png</string>
 				<key>background</key>
 				<string>background.png</string>
+				<key>isLevelCompleted</key>
+				<false/>
+				<key>isLevelUnlocked</key>
+				<false/>
 				<key>life</key>
 				<real>4</real>
 				<key>baskets</key>
@@ -15498,6 +15552,10 @@
 				<string>Menu_14.png</string>
 				<key>background</key>
 				<string>background.png</string>
+				<key>isLevelCompleted</key>
+				<false/>
+				<key>isLevelUnlocked</key>
+				<false/>
 				<key>life</key>
 				<real>4</real>
 				<key>baskets</key>
@@ -17878,6 +17936,10 @@
 				<string>Menu_22.png</string>
 				<key>background</key>
 				<string>candle_bg.png</string>
+				<key>isLevelCompleted</key>
+				<false/>
+				<key>isLevelUnlocked</key>
+				<false/>
 				<key>life</key>
 				<real>4</real>
 				<key>baskets</key>
@@ -19898,6 +19960,10 @@
 				<string>Menu_16.png</string>
 				<key>background</key>
 				<string>cd_bg.png</string>
+				<key>isLevelCompleted</key>
+				<false/>
+				<key>isLevelUnlocked</key>
+				<false/>
 				<key>life</key>
 				<real>4</real>
 				<key>baskets</key>
@@ -22123,6 +22189,10 @@
 				<string>Menu_17.png</string>
 				<key>background</key>
 				<string>galaxy.png</string>
+				<key>isLevelCompleted</key>
+				<false/>
+				<key>isLevelUnlocked</key>
+				<false/>
 				<key>life</key>
 				<real>4</real>
 				<key>baskets</key>
@@ -24807,6 +24877,10 @@
 				<string>Menu_19.png</string>
 				<key>background</key>
 				<string>umbrella_bg.png</string>
+				<key>isLevelCompleted</key>
+				<false/>
+				<key>isLevelUnlocked</key>
+				<false/>
 				<key>life</key>
 				<real>4</real>
 				<key>baskets</key>
@@ -27482,6 +27556,10 @@
 				<string>Menu_18.png</string>
 				<key>background</key>
 				<string>toothbrush_bg.png</string>
+				<key>isLevelCompleted</key>
+				<false/>
+				<key>isLevelUnlocked</key>
+				<false/>
 				<key>life</key>
 				<real>4</real>
 				<key>baskets</key>
@@ -29851,6 +29929,10 @@
 				<string>Menu_24.png</string>
 				<key>background</key>
 				<string>bottle_bg.png</string>
+				<key>isLevelCompleted</key>
+				<false/>
+				<key>isLevelUnlocked</key>
+				<false/>
 				<key>life</key>
 				<real>4</real>
 				<key>elements</key>
@@ -31689,6 +31771,10 @@
 				<string>Menu_23.png</string>
 				<key>background</key>
 				<string>keys_bg.png</string>
+				<key>isLevelCompleted</key>
+				<false/>
+				<key>isLevelUnlocked</key>
+				<false/>
 				<key>life</key>
 				<real>4</real>
 				<key>baskets</key>
@@ -34365,8 +34451,14 @@
 		</dict>
 	</dict>
 	<key>Stage2</key>
-	<dict/>
+	<dict>
+		<key>locked</key>
+		<true/>
+	</dict>
 	<key>Stage3</key>
-	<dict/>
+	<dict>
+		<key>locked</key>
+		<true/>
+	</dict>
 </dict>
 </plist>
