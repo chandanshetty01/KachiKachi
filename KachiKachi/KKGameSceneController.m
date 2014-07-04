@@ -155,21 +155,21 @@ typedef void (^completionBlk)(BOOL);
     NSNumber *stage = [NSNumber numberWithInt:self.currentStage];
     if([status intValue] == 1)
     {
-        NSString *wonMsg = [NSString stringWithFormat:@"Stage%dLevel%d-LOST",self.currentStage,self.currentLevel];
+        NSString *wonMsg = [NSString stringWithFormat:@"stage%dLevel%d-LOST",self.currentStage,self.currentLevel];
         [Flurry logEvent:wonMsg];
         dict = [NSDictionary dictionaryWithObjects:@[level,stage,@"LOST"]
                                                          forKeys:@[@"level", @"stage",@"status"]];
     }
     else if([status intValue] == 2)
     {
-        NSString *wonMsg = [NSString stringWithFormat:@"Stage%dLevel%d-WON",self.currentStage,self.currentLevel];
+        NSString *wonMsg = [NSString stringWithFormat:@"stage%dLevel%d-WON",self.currentStage,self.currentLevel];
         [Flurry logEvent:wonMsg];
         dict = [NSDictionary dictionaryWithObjects:@[level,stage,@"WON"]
                                            forKeys:@[@"level", @"stage",@"status"]];
     }
     else
     {
-        NSString *wonMsg = [NSString stringWithFormat:@"Stage%dLevel%d-LEFT",self.currentStage,self.currentLevel];
+        NSString *wonMsg = [NSString stringWithFormat:@"stage%dLevel%d-LEFT",self.currentStage,self.currentLevel];
         [Flurry logEvent:wonMsg];
         dict = [NSDictionary dictionaryWithObjects:@[level,stage,@"LEFT"]
                                            forKeys:@[@"level", @"stage",@"status"]];
@@ -378,7 +378,7 @@ typedef void (^completionBlk)(BOOL);
     NSInteger noOfLevels = [[KKGameConfigManager sharedManager] totalNumberOfLevelsInStage:self.currentStage];
     if(nextlevel <= noOfLevels){
         [[KKGameStateManager sharedManager] markUnlocked:self.currentLevel stage:self.currentStage];
-            [[KKGameStateManager sharedManager] markUnlocked:self.currentLevel+1 stage:self.currentStage];
+        [[KKGameStateManager sharedManager] markUnlocked:self.currentLevel+1 stage:self.currentStage];
     }
     else{
             [[KKGameStateManager sharedManager] unlockStage:self.currentStage+1];

@@ -2,7 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Stage1</key>
+	<key>stage1</key>
 	<dict>
 		<key>locked</key>
 		<false/>
@@ -34450,12 +34450,12 @@
 			</dict>
 		</dict>
 	</dict>
-	<key>Stage2</key>
+	<key>stage2</key>
 	<dict>
 		<key>locked</key>
 		<true/>
 	</dict>
-	<key>Stage3</key>
+	<key>stage3</key>
 	<dict>
 		<key>locked</key>
 		<true/>

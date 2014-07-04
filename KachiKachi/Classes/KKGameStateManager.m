@@ -43,8 +43,7 @@
         self.savedGameData = [[NSUserDefaults standardUserDefaults] objectForKey:kKKRootDictionary];
         if(self.savedGameData == nil)
         {
-            self.savedGameData = [NSMutableDictionary dictionary];
-
+            self.savedGameData = [[NSMutableDictionary alloc] initWithDictionary:[[KKGameConfigManager sharedManager] initialGameConfiguration]];
         }
     }
     return self;
@@ -119,12 +118,6 @@
     if(levelDict){
         [levelDict setObject:[NSNumber numberWithBool:YES] forKey:kKKLevelIsUnlocked];
     }
-}
-
--(NSInteger)totalNumberOfLevelsInStage:(NSInteger)stage
-{
-    NSDictionary *levels = [self levelsDictionary:stage];
-    return [[levels allKeys] count];
 }
 
 -(void)unlockStage:(NSInteger)stage

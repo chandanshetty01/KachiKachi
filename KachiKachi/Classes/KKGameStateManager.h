@@ -17,7 +17,6 @@
 
 -(NSInteger)currentLevelNumber;
 -(NSInteger)currentStageNumber;
--(NSInteger)totalNumberOfLevelsInStage:(NSInteger)stage;
 -(BOOL)isStageLocked:(NSInteger)stage;
 -(void)unlockStage:(NSInteger)stage;
 -(void)setCurrentLevel:(NSInteger)currentLevel andStage:(NSInteger)stage;

@@ -26,7 +26,7 @@
     self.levelModals = nil;
     self.levelModals = [NSMutableArray array];
 
-    NSMutableDictionary *levels = [[KKGameConfigManager sharedManager] getAllLevels:self.currentStage];
+    NSMutableDictionary *levels = [[KKGameStateManager sharedManager] levelsDictionary:self.currentStage];
     
     NSArray *keys = [levels allKeys];
     keys = [levels keysSortedByValueUsingComparator: ^(NSDictionary *obj1, NSDictionary *obj2) {
@@ -62,8 +62,13 @@
     [[SoundManager sharedManager] prepareToPlay];
     
     self.currentStage = 1;//default
-    [self loadLevelsForStage];
+    //[self loadLevelsForStage];
     [self playMusic];
+}
+
+-(void)viewDidAppear:(BOOL)animated
+{
+    [self loadLevelsForStage];
 }
 
 -(void)showStageSelectionDialog
@@ -153,7 +158,7 @@
     cell.menuImage.contentMode = UIViewContentModeCenter;
     
     if(level.isLevelUnlocked){
-        
+        cell.alpha = 1.0;
     }
     else{
         cell.alpha = 0.6;

@@ -54,10 +54,15 @@ const NSString *kNoOfItems = @"noOfItems";
     return self;
 }
 
+-(NSDictionary*)initialGameConfiguration
+{
+    return _configuration;
+}
+
 -(NSMutableDictionary*)stageWithID:(NSInteger)stageID
 {
     NSMutableDictionary *stage = nil;
-    stage = [_configuration objectForKey:[NSString stringWithFormat:@"Stage%d",stageID]];
+    stage = [_configuration objectForKey:[NSString stringWithFormat:@"stage%d",stageID]];
     return stage;
 }
 
@@ -68,6 +73,12 @@ const NSString *kNoOfItems = @"noOfItems";
         return [[stageDict objectForKey:@"locked"] boolValue];
     else
         return false;
+}
+
+-(NSInteger)totalNumberOfLevelsInStage:(NSInteger)stage
+{
+    NSDictionary *levels = [self getAllLevels:stage];
+    return [[levels allKeys] count];
 }
 
 -(NSMutableDictionary*)getAllLevels:(NSInteger)stageID
