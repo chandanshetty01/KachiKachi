@@ -211,6 +211,13 @@
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8tR-ws-mrs">
+                                        <rect key="frame" x="412" y="6" width="200" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </view>
@@ -240,6 +247,7 @@
                         <outlet property="mailButton" destination="BNG-a1-NMy" id="O4r-L8-Js7"/>
                         <outlet property="saveBtn" destination="yfJ-ll-bby" id="s7j-Zz-GAg"/>
                         <outlet property="switchBtn" destination="OzG-is-W8j" id="r8T-Ag-UDI"/>
+                        <outlet property="timerLabel" destination="8tR-ws-mrs" id="wPD-5k-Pl1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D87-Xc-TmY" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -10,6 +10,12 @@
 #import "AppDelegate.h"
 #import "KKLevelModal.h"
 #import "TTBase.h"
+#import "TimerObject.h"
+
+typedef enum {
+    eNormalMode,
+    eTimerMode,
+}EGAMEMODE;
 
 @interface KKGameSceneController : UIViewController
 
@@ -29,5 +35,8 @@
 @property (weak, nonatomic) IBOutlet UIButton *addButton;
 @property (weak, nonatomic) IBOutlet UILabel *lifeLabel;
 @property (nonatomic,assign) NSInteger noOfLifesRemaining;
-
+@property (nonatomic,assign) NSInteger duration;
+@property (nonatomic,assign) EGAMEMODE gameMode;
+@property (nonatomic,strong) TimerObject *timer;
+@property (nonatomic,assign) NSTimeInterval remainingTime;
 @end

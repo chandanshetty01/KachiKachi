@@ -19,6 +19,7 @@
 @property(nonatomic,assign)BOOL isLevelCompleted;
 @property(nonatomic,assign)BOOL isLevelUnlocked;
 @property(nonatomic,strong)NSString* menuIconImage;
+@property(nonatomic,assign)NSInteger duration;
 
 -(instancetype)initWithDictionary:(NSDictionary*)data;
 -(NSMutableDictionary*)savedDictionary;

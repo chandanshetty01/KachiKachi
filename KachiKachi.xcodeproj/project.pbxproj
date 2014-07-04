@@ -13,6 +13,7 @@
 		A3335FBE1955F09A000AA5B7 /* TTCarrot.m in Sources */ = {isa = PBXBuildFile; fileRef = A3335FBD1955F09A000AA5B7 /* TTCarrot.m */; };
 		A3335FC21956C2D1000AA5B7 /* KKLevelModal.m in Sources */ = {isa = PBXBuildFile; fileRef = A3335FC11956C2D1000AA5B7 /* KKLevelModal.m */; };
 		A3335FC51956C96F000AA5B7 /* KKItemModal.m in Sources */ = {isa = PBXBuildFile; fileRef = A3335FC41956C96F000AA5B7 /* KKItemModal.m */; };
+		A33D53D31966758A00D65131 /* TimerObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A33D53D21966758A00D65131 /* TimerObject.m */; };
 		A357D7A9196301350037C2B4 /* libFlurry_5.1.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A357D7A7196301350037C2B4 /* libFlurry_5.1.0.a */; };
 		A357D7AB196301A70037C2B4 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A357D7AA196301A70037C2B4 /* Crashlytics.framework */; };
 		A35DD6F419644730008D445C /* TTBottle.m in Sources */ = {isa = PBXBuildFile; fileRef = A35DD6F319644730008D445C /* TTBottle.m */; };
@@ -83,6 +84,8 @@
 		A3335FC11956C2D1000AA5B7 /* KKLevelModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKLevelModal.m; sourceTree = "<group>"; };
 		A3335FC31956C96F000AA5B7 /* KKItemModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKItemModal.h; sourceTree = "<group>"; };
 		A3335FC41956C96F000AA5B7 /* KKItemModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKItemModal.m; sourceTree = "<group>"; };
+		A33D53D11966758A00D65131 /* TimerObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerObject.h; sourceTree = "<group>"; };
+		A33D53D21966758A00D65131 /* TimerObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerObject.m; sourceTree = "<group>"; };
 		A357D7A6196301350037C2B4 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
 		A357D7A7196301350037C2B4 /* libFlurry_5.1.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_5.1.0.a; sourceTree = "<group>"; };
 		A357D7AA196301A70037C2B4 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = SOURCE_ROOT; };
@@ -195,6 +198,7 @@
 		A305F2B41945F0C100B62C6C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				A33D53D01966756600D65131 /* Timer */,
 				A3A67EBD1902C95D00BFAF7B /* KKGameConfigManager.h */,
 				A3A67EBE1902C95D00BFAF7B /* KKGameConfigManager.m */,
 				A305F2B51945F0DB00B62C6C /* KKGameStateManager.h */,
@@ -226,6 +230,15 @@
 				A3335FC41956C96F000AA5B7 /* KKItemModal.m */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		A33D53D01966756600D65131 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				A33D53D11966758A00D65131 /* TimerObject.h */,
+				A33D53D21966758A00D65131 /* TimerObject.m */,
+			);
+			path = Timer;
 			sourceTree = "<group>";
 		};
 		A357D7A3196301350037C2B4 /* ThirdParty */ = {
@@ -563,6 +576,7 @@
 				A3FF1535195B07B8007CE275 /* KKCollectionViewCell.m in Sources */,
 				A35DD6F419644730008D445C /* TTBottle.m in Sources */,
 				A3BE4D7B195329EF00C466ED /* TTLeave.m in Sources */,
+				A33D53D31966758A00D65131 /* TimerObject.m in Sources */,
 				A36A12F01955510B007F6355 /* TTFish.m in Sources */,
 				A3A67ED11902E3D300BFAF7B /* TTBase.m in Sources */,
 				A3B97D6B1930F7AD0049DCEB /* SoundManager.m in Sources */,

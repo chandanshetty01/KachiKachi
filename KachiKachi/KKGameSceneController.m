@@ -30,6 +30,7 @@
 @property(nonatomic,strong) NSMutableArray *deletedElements;
 @property(nonatomic,assign) BOOL isGameFinished;
 @property(nonatomic,weak) TTBase* topElement;
+@property (weak, nonatomic) IBOutlet UILabel *timerLabel;
 
 @end
 
@@ -59,6 +60,15 @@ typedef void (^completionBlk)(BOOL);
     
     _isGameFinished = FALSE;
     self.noOfLifesRemaining = self.levelModel.life;
+    self.duration = self.levelModel.duration;
+    self.remainingTime = self.duration;
+    if(self.duration > 0){
+        self.gameMode = eTimerMode;
+        [self updateTimer:self.remainingTime];
+    }
+    else{
+        self.gameMode = eNormalMode;
+    }
     
     [self addElements];
     
@@ -79,8 +89,53 @@ typedef void (^completionBlk)(BOOL);
     [[SoundManager sharedManager] playMusic:@"track2" looping:YES];
     [self updateUI];
     
+    if(self.gameMode == eTimerMode){
+        [self startTimer];
+    }
+    else{
+        self.timerLabel.hidden = YES;
+    }
+    
     [self levelStartedFlurryLog];
     [self startLifeInfoFlurryEvent];
+}
+
+-(void)startTimer
+{
+    self.timer = [[TimerObject alloc] initWithDuration:self.remainingTime fireInterval:1.0f];
+    [self.timer startTimer];
+    self.timer.delegate = self;
+    self.timerLabel.hidden = NO;
+}
+
+-(void)stopTimer
+{
+    if(self.timer){
+        [self.timer pauseTimer];
+        self.timer = nil;
+    }
+}
+
+-(void)updateTimer:(NSInteger)remainingTime
+{
+    NSString *time = [NSString stringWithFormat:@"%d",remainingTime];
+    [self.timerLabel setText:time];
+}
+
+#pragma mark - Timer delegates -
+-(void)timerDidCompleted:(TimerObject*)timer
+{
+    self.remainingTime = 0;
+    [self updateTimer:self.remainingTime];
+    [self validateGamePlay:^(BOOL finished) {
+        _currentElement = nil;
+    }];
+}
+
+-(void)timerDidTick:(NSTimeInterval)remainingInteval andTimer:(TimerObject*)timer
+{
+    self.remainingTime = remainingInteval;
+    [self updateTimer:self.remainingTime];
 }
 
 -(void)levelStartedFlurryLog
@@ -100,16 +155,22 @@ typedef void (^completionBlk)(BOOL);
     NSNumber *stage = [NSNumber numberWithInt:self.currentStage];
     if([status intValue] == 1)
     {
+        NSString *wonMsg = [NSString stringWithFormat:@"Stage%dLevel%d-LOST",self.currentStage,self.currentLevel];
+        [Flurry logEvent:wonMsg];
         dict = [NSDictionary dictionaryWithObjects:@[level,stage,@"LOST"]
                                                          forKeys:@[@"level", @"stage",@"status"]];
     }
     else if([status intValue] == 2)
     {
+        NSString *wonMsg = [NSString stringWithFormat:@"Stage%dLevel%d-WON",self.currentStage,self.currentLevel];
+        [Flurry logEvent:wonMsg];
         dict = [NSDictionary dictionaryWithObjects:@[level,stage,@"WON"]
                                            forKeys:@[@"level", @"stage",@"status"]];
     }
     else
     {
+        NSString *wonMsg = [NSString stringWithFormat:@"Stage%dLevel%d-LEFT",self.currentStage,self.currentLevel];
+        [Flurry logEvent:wonMsg];
         dict = [NSDictionary dictionaryWithObjects:@[level,stage,@"LEFT"]
                                            forKeys:@[@"level", @"stage",@"status"]];
     }
@@ -190,6 +251,12 @@ typedef void (^completionBlk)(BOOL);
         }
     }
     
+    if(gameOver == false && self.gameMode == eTimerMode)
+    {
+        if(self.remainingTime <= 0)
+            gameOver = true;
+    }
+    
     return gameOver;
 }
 
@@ -264,11 +331,22 @@ typedef void (^completionBlk)(BOOL);
 -(void)showGameOverAlert
 {
     [self levelEndedFlurryLog:@1];
+    
+    NSString *msg = @"You haven't selected the top item";
+    if(self.gameMode == eTimerMode){
+        if(self.remainingTime <= 0)
+            msg = @"You ran out of TIME!";
+    }
+    else{
+        
+    }
+    
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Game Over"
-                                                    message:@"You haven't selected the top item"
+                                                    message:msg
                                                    delegate:self
                                           cancelButtonTitle:@"OK"
                                           otherButtonTitles:nil];
+    
     [alert show];
 }
 
@@ -298,6 +376,12 @@ typedef void (^completionBlk)(BOOL);
 {
     if([self isGameOver] && !_isGameFinished)
     {
+        BOOL canShowGameOverAlert = NO;
+        if (self.gameMode == eTimerMode) {
+            if(self.remainingTime <= 0)
+                canShowGameOverAlert = YES;
+        }
+
         self.noOfLifesRemaining--;
         self.levelModel.life = self.noOfLifesRemaining;
         [[KKGameStateManager sharedManager] setRemainingLife:self.noOfLifesRemaining];
@@ -307,8 +391,13 @@ typedef void (^completionBlk)(BOOL);
         [self endLifeInfoFlurryEvent];
         [self startLifeInfoFlurryEvent];
         
-        if(self.noOfLifesRemaining <= 0)
-        {
+        if(self.noOfLifesRemaining <= 0){
+            canShowGameOverAlert = YES;
+        }
+        
+        if(canShowGameOverAlert){
+            
+            [self stopTimer];
             self.currentElement = nil;
             _isGameFinished = YES;
             [self restartGame];
@@ -332,7 +421,8 @@ typedef void (^completionBlk)(BOOL);
         [[KKGameStateManager sharedManager] markUnlocked:self.currentLevel+1 stage:self.currentStage];
         [self saveLevelData];
         [[SoundManager sharedManager] playSound:@"sound2" looping:NO];
-        
+        [self stopTimer];
+
         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Game Won"
                                                         message:@"Game completed"
                                                        delegate:self

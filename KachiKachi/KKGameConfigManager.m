@@ -79,6 +79,12 @@ const NSString *kNoOfItems = @"noOfItems";
     return [[level objectForKey:@"life"] integerValue];
 }
 
+-(NSInteger)durationForLevel:(NSInteger)levelID stage:(NSInteger)stageID
+{
+    NSDictionary *level = [self levelWithID:levelID andStage:stageID];
+    return [[level objectForKey:@"duration"] integerValue];
+}
+
 -(NSMutableDictionary*)levelWithID:(NSInteger)levelID andStage:(NSInteger)stageID
 {
     NSMutableDictionary *level = nil;
