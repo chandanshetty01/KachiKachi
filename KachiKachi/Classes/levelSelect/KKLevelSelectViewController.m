@@ -185,7 +185,11 @@
     UIView *btn = (UIView*)sender;
     KKLevelModal *modal = [self currentLevelData:btn.tag];
     if(modal){
+    [Flurry logEvent:[NSString stringWithFormat:@"Level-%d(Selected)",btn.tag]];
         return modal.isLevelUnlocked;
+    }
+    else{
+        [Flurry logEvent:[NSString stringWithFormat:@"Level-%d(Locked)",btn.tag]];
     }
     return NO;
 }
@@ -222,12 +226,14 @@
 - (IBAction)handleButtonAction:(UIButton*)sender
 {
     NSInteger stage = sender.tag;
-    
+
     BOOL isLocked = [[KKGameStateManager sharedManager] isStageLocked:stage];
 #ifdef ENABLE_ALL_LEVELS
     isLocked = NO;
 #endif
     if(!isLocked){
+        [Flurry logEvent:[NSString stringWithFormat:@"StageSelect-%d(Selected)",stage]];
+
         self.currentStage = sender.tag;
         
         [self hideStageSelectionDialog];
@@ -239,6 +245,8 @@
         [Flurry logEvent:@"StageSelect" withParameters:dict];
     }
     else{
+        [Flurry logEvent:[NSString stringWithFormat:@"StageSelect-%d(Locked)",stage]];
+
         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Stage Locked!"
                                                         message:@"Complete all levels in previous stage to unlock the stage"
                                                        delegate:nil
