@@ -11,7 +11,7 @@
 #import "KKLevelModal.h"
 #import "TTBase.h"
 #import "TimerObject.h"
-
+#import "AdViewController.h"
 
 @interface KKGameSceneController : UIViewController
 
@@ -34,4 +34,5 @@
 @property (nonatomic,assign) NSInteger duration;
 @property (nonatomic,assign) EGAMEMODE gameMode;
 @property (nonatomic,strong) TimerObject *timer;
+@property (nonatomic,strong) AdViewController *adViewController;
 @end

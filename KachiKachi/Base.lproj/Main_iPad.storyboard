@@ -130,6 +130,27 @@
             </objects>
             <point key="canvasLocation" x="-1951" y="-4747"/>
         </scene>
+        <!--Ad View Controller-->
+        <scene sceneID="sv7-qU-T3E">
+            <objects>
+                <viewController storyboardIdentifier="adViewController" autoresizesArchivedViewToFullSize="NO" id="ZNC-vA-exs" customClass="AdViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qag-7c-g8L"/>
+                        <viewControllerLayoutGuide type="bottom" id="OPp-nH-Npz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hP4-19-zb1">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="100"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="1024" height="100"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c9W-cT-cU7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-536" y="-4322"/>
+        </scene>
         <!--Game Scene Controller-->
         <scene sceneID="O3p-qo-ojf">
             <objects>

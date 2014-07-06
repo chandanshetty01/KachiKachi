@@ -52,6 +52,12 @@ typedef void (^completionBlk)(BOOL);
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    self.adViewController = [[UIStoryboard storyboardWithName:@"Main_iPad" bundle:nil] instantiateViewControllerWithIdentifier:@"adViewController"];
+    [self.view addSubview:self.adViewController.view];
+    CGRect frame = self.adViewController.view.frame;
+    frame.origin = CGPointZero;
+    self.adViewController.view.frame = frame;
+    
     _elements = [[NSMutableArray alloc] init];
     self.deletedElements = [[NSMutableArray alloc] init];
     
