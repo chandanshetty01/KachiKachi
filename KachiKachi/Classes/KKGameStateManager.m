@@ -199,4 +199,20 @@
     _savedGameData = [[NSUserDefaults standardUserDefaults] objectForKey:kKKRootDictionary];
 }
 
+-(BOOL)isSoundEnabled
+{
+    NSNumber *isOn = [[NSUserDefaults standardUserDefaults] objectForKey:@"isSoundEnabled"];
+    if(isOn)
+        return [isOn boolValue];
+    else
+        return YES;
+}
+
+-(void)setSoundEnabled:(BOOL)value
+{
+    NSNumber *isOn = [NSNumber numberWithBool:value];
+    [[NSUserDefaults standardUserDefaults] setObject:isOn forKey:@"isSoundEnabled"];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+}
+
 @end

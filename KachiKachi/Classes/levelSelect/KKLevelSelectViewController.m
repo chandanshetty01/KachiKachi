@@ -63,6 +63,10 @@
     
     self.currentStage = 1;//default
     //[self loadLevelsForStage];
+    
+    BOOL isOn = [[KKGameStateManager sharedManager] isSoundEnabled];
+    [self.soundSwitch setOn:isOn];
+
     [self playMusic];
 }
 
@@ -158,10 +162,10 @@
     cell.menuImage.contentMode = UIViewContentModeCenter;
     
     if(level.isLevelUnlocked){
-        cell.alpha = 1.0;
+        cell.lockHolderView.hidden = YES;
     }
     else{
-        cell.alpha = 0.6;
+        cell.lockHolderView.hidden = NO;
     }
     
     return cell;
@@ -239,6 +243,11 @@
         
         [alert show];
     }
+}
+
+- (IBAction)handleSoundSwitch:(UISwitch*)sender
+{
+    [[KKGameStateManager sharedManager] setSoundEnabled:sender.isOn];
 }
 
 - (void)dealloc

@@ -12,5 +12,6 @@
 
 @property(nonatomic,assign) NSInteger currentStage;
 @property(nonatomic,strong) NSMutableArray *levelModals;
+@property (weak, nonatomic) IBOutlet UISwitch *soundSwitch;
 
 @end

@@ -29,6 +29,9 @@
 -(NSMutableDictionary*)gameData:(NSInteger)level stage:(NSInteger)stage;
 -(NSMutableDictionary*)levelsDictionary:(NSInteger)stage;
 
+-(BOOL)isSoundEnabled;
+-(void)setSoundEnabled:(BOOL)value;
+
 -(void)save;
 -(void)load;
 

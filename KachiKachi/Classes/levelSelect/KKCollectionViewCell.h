@@ -10,5 +10,8 @@
 
 @interface KKCollectionViewCell : UICollectionViewCell
 @property (weak, nonatomic) IBOutlet UIImageView *menuImage;
+@property (weak, nonatomic) IBOutlet UIView *lockHolderView;
+@property (weak, nonatomic) IBOutlet UIImageView *lockImageBg;
+@property (weak, nonatomic) IBOutlet UIImageView *lockBg;
 
 @end
