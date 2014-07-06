@@ -486,9 +486,6 @@ NSString *const SoundDidFinishPlayingNotification = @"SoundDidFinishPlayingNotif
 
 - (void)stopMusic:(BOOL)fadeOut
 {
-    if([[KKGameStateManager sharedManager] isSoundEnabled] == NO)
-        return;
-    
     if (fadeOut)
     {
         [_currentMusic fadeOut:_musicFadeDuration];

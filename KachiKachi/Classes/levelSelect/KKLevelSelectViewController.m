@@ -57,9 +57,6 @@
 	// Do any additional setup after loading the view, typically from a nib.
         
     [self showStageSelectionDialog];
-
-    [SoundManager sharedManager].allowsBackgroundMusic = YES;
-    [[SoundManager sharedManager] prepareToPlay];
     
     self.currentStage = 1;//default
     //[self loadLevelsForStage];
@@ -98,7 +95,14 @@
 
 -(void)playMusic
 {
+    [SoundManager sharedManager].allowsBackgroundMusic = YES;
+    [[SoundManager sharedManager] prepareToPlay];
     [[SoundManager sharedManager] playMusic:@"track1" looping:YES];
+}
+
+-(void)stopMusic
+{
+    [[SoundManager sharedManager] stopMusic];
 }
 
 - (void)didReceiveMemoryWarning
@@ -248,6 +252,11 @@
 - (IBAction)handleSoundSwitch:(UISwitch*)sender
 {
     [[KKGameStateManager sharedManager] setSoundEnabled:sender.isOn];
+
+    if(sender.isOn)
+       [self playMusic];
+    else
+        [self stopMusic];
 }
 
 - (void)dealloc
