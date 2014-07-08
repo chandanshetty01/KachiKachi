@@ -147,7 +147,7 @@ typedef void (^completionBlk)(BOOL);
 
 -(void)levelStartedFlurryLog
 {
-    NSNumber *level = [NSNumber numberWithInt:self.currentLevel];
+    NSString *level = self.levelModel.name;
     NSNumber *stage = [NSNumber numberWithInt:self.currentStage];
     
     NSDictionary *dict = [NSDictionary dictionaryWithObjects:@[level,stage]
@@ -162,21 +162,21 @@ typedef void (^completionBlk)(BOOL);
     NSNumber *stage = [NSNumber numberWithInt:self.currentStage];
     if([status intValue] == 1)
     {
-        NSString *wonMsg = [NSString stringWithFormat:@"stage%dLevel%d-LOST",self.currentStage,self.currentLevel];
+        NSString *wonMsg = [NSString stringWithFormat:@"stage%dLevel%@-LOST",self.currentStage,self.levelModel.name];
         [Flurry logEvent:wonMsg];
         dict = [NSDictionary dictionaryWithObjects:@[level,stage,@"LOST"]
                                                          forKeys:@[@"level", @"stage",@"status"]];
     }
     else if([status intValue] == 2)
     {
-        NSString *wonMsg = [NSString stringWithFormat:@"stage%dLevel%d-WON",self.currentStage,self.currentLevel];
+        NSString *wonMsg = [NSString stringWithFormat:@"stage%dLevel%@-WON",self.currentStage,self.levelModel.name];
         [Flurry logEvent:wonMsg];
         dict = [NSDictionary dictionaryWithObjects:@[level,stage,@"WON"]
                                            forKeys:@[@"level", @"stage",@"status"]];
     }
     else
     {
-        NSString *wonMsg = [NSString stringWithFormat:@"stage%dLevel%d-LEFT",self.currentStage,self.currentLevel];
+        NSString *wonMsg = [NSString stringWithFormat:@"stage%dLevel%@-LEFT",self.currentStage,self.levelModel.name];
         [Flurry logEvent:wonMsg];
         dict = [NSDictionary dictionaryWithObjects:@[level,stage,@"LEFT"]
                                            forKeys:@[@"level", @"stage",@"status"]];
@@ -351,7 +351,7 @@ typedef void (^completionBlk)(BOOL);
 
 -(void)startLifeInfoFlurryEvent
 {
-    NSNumber *level = [NSNumber numberWithInt:self.currentLevel];
+    NSString *level = self.levelModel.name;
     NSNumber *stage = [NSNumber numberWithInt:self.currentStage];
     NSNumber *life = [NSNumber numberWithInt:self.noOfLifesRemaining];
     
@@ -414,7 +414,7 @@ typedef void (^completionBlk)(BOOL);
     {
         [self levelEndedFlurryLog:@2];
 
-        NSNumber *level = [NSNumber numberWithInt:self.currentLevel];
+        NSString *level = self.levelModel.name;
         NSNumber *stage = [NSNumber numberWithInt:self.currentStage];
         NSNumber *life = [NSNumber numberWithInt:self.noOfLifesRemaining];
         NSDictionary *dict = [NSDictionary dictionaryWithObjects:@[level,stage,life]

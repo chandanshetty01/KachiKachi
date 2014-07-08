@@ -185,11 +185,11 @@
     UIView *btn = (UIView*)sender;
     KKLevelModal *modal = [self currentLevelData:btn.tag];
     if(modal){
-    [Flurry logEvent:[NSString stringWithFormat:@"Level-%d(Selected)",btn.tag]];
+    [Flurry logEvent:[NSString stringWithFormat:@"Level-%@(Selected)",modal.name]];
         return modal.isLevelUnlocked;
     }
     else{
-        [Flurry logEvent:[NSString stringWithFormat:@"Level-%d(Locked)",btn.tag]];
+        [Flurry logEvent:[NSString stringWithFormat:@"Level-%@(Locked)",modal.name]];
     }
     return NO;
 }
@@ -213,7 +213,7 @@
         if(isLevelUnlocked){
             nextVC.levelModel = [self currentLevelData:btn.tag];
             [[KKGameStateManager sharedManager] setCurrentLevel:btn.tag andStage:_currentStage];
-            NSNumber *level = [NSNumber numberWithInt:btn.tag];
+            NSString *level = nextVC.levelModel.name;
             NSNumber *stage = [NSNumber numberWithInt:self.currentStage];
             NSDictionary *dict = [NSDictionary dictionaryWithObjects:@[level,stage]
                                                              forKeys:@[@"level", @"stage"]];

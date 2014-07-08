@@ -26,6 +26,7 @@ typedef enum {
 @property(nonatomic,strong)NSString* menuIconImage;
 @property(nonatomic,assign)NSInteger duration;
 @property(nonatomic,assign)EGAMEMODE gameMode;
+@property(nonatomic,strong)NSString* name;
 
 -(instancetype)initWithDictionary:(NSDictionary*)data;
 -(NSMutableDictionary*)savedDictionary;
