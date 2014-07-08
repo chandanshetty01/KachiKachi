@@ -12,8 +12,10 @@
 #endif
 
 #define FLURRY_TEST @"SD5DMTVFJFQH9K5D6WH7"
+#define APP_URL @""
 
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
 #endif
+

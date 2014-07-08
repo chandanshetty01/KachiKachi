@@ -26,7 +26,7 @@
                         options:UIViewAnimationOptionCurveEaseInOut
                      animations:^{
                          CGRect frame = self.frame;
-                         frame.origin.y = -200;
+                         frame.origin.y = -500;
                          self.frame = frame;
                      } completion:^(BOOL finished) {
                          completionBlk(finished);

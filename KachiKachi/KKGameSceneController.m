@@ -16,6 +16,8 @@
 #import "KKItemModal.h"
 #import "KKGameStateManager.h"
 #import <Crashlytics/Crashlytics.h>
+#import "CustomIOS7AlertView.h"
+#import <Social/Social.h>
 
 #define RANDOM_SEED() srandom(time(NULL))
 #define RANDOM_INT(__MIN__, __MAX__) ((__MIN__) + random() % ((__MAX__+1) - (__MIN__)))
@@ -371,6 +373,130 @@ typedef void (^completionBlk)(BOOL);
     [Flurry endTimedEvent:LEVEL_INFO_LIFE withParameters:dict];
 }
 
+#pragma mark - social integration
+
+-(void)facebookShare
+{
+    SLComposeViewController *fbController=[SLComposeViewController composeViewControllerForServiceType:SLServiceTypeFacebook];
+    
+    if([SLComposeViewController isAvailableForServiceType:SLServiceTypeFacebook])
+    {
+        SLComposeViewControllerCompletionHandler __block completionHandler=^(SLComposeViewControllerResult result){
+            
+            [fbController dismissViewControllerAnimated:YES completion:nil];
+            
+            switch(result){
+                case SLComposeViewControllerResultCancelled:
+                default:
+                {
+                    [Flurry logEvent:@"facebook-cancelled"];
+                    [self moveToLevelSelectScene];
+                }
+                    break;
+                case SLComposeViewControllerResultDone:
+                {
+                    [Flurry logEvent:@"facebook-posted"];
+                    [self moveToLevelSelectScene];
+                }
+                    break;
+            }};
+        
+        NSString *mode = @"Easy";
+        switch (self.levelModel.stageID) {
+            case 2:
+                mode = @"Timed";
+                break;
+            case 3:
+                mode = @"Hard";
+                break;
+            default:
+                break;
+        }
+        NSString *msg = [NSString stringWithFormat:@"Check out KachiKachi, I have just completed level %@ in %@ mode",self.levelModel.name,mode];
+        [fbController addImage:[UIImage imageNamed:@"share_icon.png"]];
+        [fbController setInitialText:msg];
+        [fbController addURL:[NSURL URLWithString:APP_URL]];
+        [fbController setCompletionHandler:completionHandler];
+        [self presentViewController:fbController animated:YES completion:nil];
+    }
+    else{
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Facebook not configured"
+                                                        message:@"Please check whether Facebook account is enabled in settings"
+                                                       delegate:nil
+                                              cancelButtonTitle:@"Ok"
+                                              otherButtonTitles:nil];
+        [alert show];
+    }
+    
+}
+
+-(void)twitterShare
+{
+    SLComposeViewController *shareController=[SLComposeViewController composeViewControllerForServiceType:SLServiceTypeTwitter];
+    
+    if([SLComposeViewController isAvailableForServiceType:SLServiceTypeTwitter])
+    {
+        SLComposeViewControllerCompletionHandler __block completionHandler=^(SLComposeViewControllerResult result){
+            
+            [shareController dismissViewControllerAnimated:YES completion:nil];
+            
+            switch(result){
+                case SLComposeViewControllerResultCancelled:
+                default:
+                {
+                    [Flurry logEvent:@"Twitter-cancelled"];
+                    [self moveToLevelSelectScene];
+                    
+                }
+                    break;
+                case SLComposeViewControllerResultDone:
+                {
+                    [Flurry logEvent:@"Twitter-posted"];
+                    [self moveToLevelSelectScene];
+                }
+                    break;
+            }};
+        
+        NSString *mode = @"Easy";
+        switch (self.levelModel.stageID) {
+            case 2:
+                mode = @"Timed";
+                break;
+            case 3:
+                mode = @"Hard";
+                break;
+            default:
+                break;
+        }
+        NSString *msg = [NSString stringWithFormat:@"Check out KachiKachi, I have just completed level %@ in %@ mode",self.levelModel.name,mode];
+        [shareController addImage:[UIImage imageNamed:@"share_icon.png"]];
+        [shareController setInitialText:msg];
+        [shareController addURL:[NSURL URLWithString:APP_URL]];
+        [shareController setCompletionHandler:completionHandler];
+        [self presentViewController:shareController animated:YES completion:nil];
+    }
+    else{
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Twitter not configured"
+                                                        message:@"Please check whether Twitter account is enabled in settings"
+                                                       delegate:nil
+                                              cancelButtonTitle:@"Ok"
+                                              otherButtonTitles:nil];
+        [alert show];
+    }
+}
+
+-(void)showGameWonAlert
+{
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Game Won!"
+                                                    message:@"Congrats, You completed the level"
+                                                   delegate:self
+                                          cancelButtonTitle:@"Play next level"
+                                          otherButtonTitles:nil];
+    alert.tag = 100;
+    [alert addButtonWithTitle:@"Share in Facebook"];
+    [alert addButtonWithTitle:@"Tweet"];
+    [alert show];
+}
 
 -(void)validateGamePlay:(completionBlk)block
 {
@@ -425,13 +551,7 @@ typedef void (^completionBlk)(BOOL);
         [self saveLevelData];
         [[SoundManager sharedManager] playSound:@"sound2" looping:NO];
         [self stopTimer];
-
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Game Won"
-                                                        message:@"Game completed"
-                                                       delegate:self
-                                              cancelButtonTitle:@"OK"
-                                              otherButtonTitles:nil];
-        [alert show];
+        [self showGameWonAlert];
         block(YES);
     }
     else if(_currentElement != nil)
@@ -554,10 +674,38 @@ typedef void (^completionBlk)(BOOL);
         [_currentElement handleTouchesMoved:touches withEvent:event];
 }
 
+-(void)moveToLevelSelectScene
+{
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
 {
-    _isGameFinished = NO;
-    [self.navigationController popViewControllerAnimated:YES];
+    if(alertView.tag == 100)
+    {
+        switch (buttonIndex) {
+            case 0:
+            {
+                _isGameFinished = NO;
+                [self moveToLevelSelectScene];
+            }
+                break;
+            case 1:
+                [self facebookShare];
+                break;
+            case 2:
+                [self twitterShare];
+                break;
+                
+            default:
+                break;
+        }
+    }
+    else
+    {
+        _isGameFinished = NO;
+        [self moveToLevelSelectScene];
+    }
 }
 
 -(void)touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event
@@ -619,7 +767,7 @@ typedef void (^completionBlk)(BOOL);
 }
 
 - (IBAction)handleSaveBtn:(id)sender
-{
+{    
     NSMutableDictionary *data = [NSMutableDictionary dictionary];
     NSMutableArray *tElements = [NSMutableArray array];
     for (TTBase *element in _elements) {
