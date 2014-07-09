@@ -9,13 +9,16 @@
 #import "AppDelegate.h"
 #import <Crashlytics/Crashlytics.h>
 
+#define DEVELOPMENT_MODE
+#define ENABLE_ALL_LEVELS
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     NSString *versionString = [[NSBundle mainBundle] objectForInfoDictionaryKey:(NSString*)kCFBundleVersionKey];
     [Flurry setAppVersion:versionString];
-    [Flurry startSession:FLURRY_TEST];
+    [Flurry startSession:FLURRY_ID];
 
     CFUUIDRef uuid = CFUUIDCreate(NULL);
     //uniqueIdentifier = ( NSString*)CFUUIDCreateString(NULL, uuid);- for non- ARC
