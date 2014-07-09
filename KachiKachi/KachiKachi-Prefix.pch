@@ -11,11 +11,10 @@
 #warning "This project uses features only available in iOS SDK 5.0 and later."
 #endif
 
-#define FLURRY_TEST @"SD5DMTVFJFQH9K5D6WH7"
+#define FLURRY_TEST @"M5NYWZ2G2Z28MYT7SZVB"
 #define APP_URL @""
 
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
 #endif
-

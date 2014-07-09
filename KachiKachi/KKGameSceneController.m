@@ -16,7 +16,6 @@
 #import "KKItemModal.h"
 #import "KKGameStateManager.h"
 #import <Crashlytics/Crashlytics.h>
-#import "CustomIOS7AlertView.h"
 #import <Social/Social.h>
 
 #define RANDOM_SEED() srandom(time(NULL))
@@ -104,9 +103,6 @@ typedef void (^completionBlk)(BOOL);
     else{
         self.timerLabel.hidden = YES;
     }
-    
-    [self levelStartedFlurryLog];
-    [self startLifeInfoFlurryEvent];
 }
 
 -(void)startTimer
@@ -147,46 +143,20 @@ typedef void (^completionBlk)(BOOL);
     [self updateTimer:self.levelModel.duration];
 }
 
--(void)levelStartedFlurryLog
+-(void)postFlurry:(NSString*)status
 {
-    NSString *level = self.levelModel.name;
-    NSNumber *stage = [NSNumber numberWithInt:self.currentStage];
+    NSMutableDictionary *levelInfo = [[NSMutableDictionary alloc] init];
+    if(self.gameMode == eTimerMode)
+        [levelInfo setObject:[NSNumber numberWithInt:self.levelModel.duration] forKey:@"duration"];
+    [levelInfo setObject:status forKey:@"status"];
+    [levelInfo setObject:[NSNumber numberWithInt:self.levelModel.life] forKey:@"remaining_life"];
     
-    NSDictionary *dict = [NSDictionary dictionaryWithObjects:@[level,stage]
-                                                     forKeys:@[@"level", @"stage"]];
-    [Flurry logEvent:LEVEL_INFO withParameters:dict timed:YES];
+    NSMutableDictionary *levelDict = [[NSMutableDictionary alloc] init];
+    [levelDict setObject:levelInfo forKey:[NSString stringWithFormat:@"Level(%@)",self.levelModel.name]];
+    
+    NSString *key = [NSString stringWithFormat:@"Stage(%d)",self.levelModel.stageID];
+    [Flurry logEvent:key withParameters:levelDict];
 }
-
--(void)levelEndedFlurryLog:(NSNumber*)status
-{
-    NSDictionary *dict = nil;
-    NSNumber *level = [NSNumber numberWithInt:self.currentLevel];
-    NSNumber *stage = [NSNumber numberWithInt:self.currentStage];
-    if([status intValue] == 1)
-    {
-        NSString *wonMsg = [NSString stringWithFormat:@"stage%dLevel%@-LOST",self.currentStage,self.levelModel.name];
-        [Flurry logEvent:wonMsg];
-        dict = [NSDictionary dictionaryWithObjects:@[level,stage,@"LOST"]
-                                                         forKeys:@[@"level", @"stage",@"status"]];
-    }
-    else if([status intValue] == 2)
-    {
-        NSString *wonMsg = [NSString stringWithFormat:@"stage%dLevel%@-WON",self.currentStage,self.levelModel.name];
-        [Flurry logEvent:wonMsg];
-        dict = [NSDictionary dictionaryWithObjects:@[level,stage,@"WON"]
-                                           forKeys:@[@"level", @"stage",@"status"]];
-    }
-    else
-    {
-        NSString *wonMsg = [NSString stringWithFormat:@"stage%dLevel%@-LEFT",self.currentStage,self.levelModel.name];
-        [Flurry logEvent:wonMsg];
-        dict = [NSDictionary dictionaryWithObjects:@[level,stage,@"LEFT"]
-                                           forKeys:@[@"level", @"stage",@"status"]];
-    }
-
-    [Flurry endTimedEvent:LEVEL_INFO withParameters:dict];
-}
-
 
 -(void)addElements
 {
@@ -339,7 +309,7 @@ typedef void (^completionBlk)(BOOL);
 
 -(void)showGameOverAlert:(NSDictionary*)data
 {
-    [self levelEndedFlurryLog:@1];
+    [self postFlurry:@"LOST"];
     
     NSString *msg = [data objectForKey:@"msg"];
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Game Over"
@@ -349,28 +319,6 @@ typedef void (^completionBlk)(BOOL);
                                           otherButtonTitles:nil];
     
     [alert show];
-}
-
--(void)startLifeInfoFlurryEvent
-{
-    NSString *level = self.levelModel.name;
-    NSNumber *stage = [NSNumber numberWithInt:self.currentStage];
-    NSNumber *life = [NSNumber numberWithInt:self.noOfLifesRemaining];
-    
-    NSDictionary *dict = [NSDictionary dictionaryWithObjects:@[level,stage,life]
-                                                     forKeys:@[@"level", @"stage",@"life"]];
-    [Flurry logEvent:LEVEL_INFO_LIFE withParameters:dict timed:YES];
-}
-
--(void)endLifeInfoFlurryEvent
-{
-    NSNumber *level = [NSNumber numberWithInt:self.currentLevel];
-    NSNumber *stage = [NSNumber numberWithInt:self.currentStage];
-    NSNumber *life = [NSNumber numberWithInt:self.noOfLifesRemaining];
-    
-    NSDictionary *dict = [NSDictionary dictionaryWithObjects:@[level,stage,life]
-                                       forKeys:@[@"level", @"stage",@"life"]];
-    [Flurry endTimedEvent:LEVEL_INFO_LIFE withParameters:dict];
 }
 
 #pragma mark - social integration
@@ -518,9 +466,6 @@ typedef void (^completionBlk)(BOOL);
         [[SoundManager sharedManager] playSound:@"sound2" looping:NO];
         [self updateUI];
         
-        [self endLifeInfoFlurryEvent];
-        [self startLifeInfoFlurryEvent];
-        
         if(self.noOfLifesRemaining <= 0){
             canShowGameOverAlert = YES;
         }
@@ -538,15 +483,8 @@ typedef void (^completionBlk)(BOOL);
     }
     else if([self isGameWon])
     {
-        [self levelEndedFlurryLog:@2];
+        [self postFlurry:@"WON"];
 
-        NSString *level = self.levelModel.name;
-        NSNumber *stage = [NSNumber numberWithInt:self.currentStage];
-        NSNumber *life = [NSNumber numberWithInt:self.noOfLifesRemaining];
-        NSDictionary *dict = [NSDictionary dictionaryWithObjects:@[level,stage,life]
-                                                         forKeys:@[@"level", @"stage",@"life"]];
-        [Flurry logEvent:LEVEL_WON withParameters:dict];
-        
         [self unlockNextLevel];
         [self saveLevelData];
         [[SoundManager sharedManager] playSound:@"sound2" looping:NO];
@@ -715,14 +653,17 @@ typedef void (^completionBlk)(BOOL);
     _currentElement = nil;
 }
 
-- (IBAction)backButtonAction:(id)sender {
-    [self levelEndedFlurryLog:@3];
+- (IBAction)backButtonAction:(id)sender
+{
+    [self postFlurry:@"LEFT"];
     [self saveLevelData];
     AppDelegate *appdelegate = APP_DELEGATE;
     [appdelegate.navigationController popViewControllerAnimated:YES];
 }
 
-- (IBAction)restartButtonAction:(id)sender {
+- (IBAction)restartButtonAction:(id)sender
+{
+    
 }
 
 - (void)dealloc
