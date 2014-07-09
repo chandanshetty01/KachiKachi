@@ -117,7 +117,6 @@
 //    [appdelegate.navigationController popViewControllerAnimated:YES];
 
     [self showStageSelectionDialog];
-    
     [Flurry logEvent:@"BackButton - Level Select"];
 }
 
@@ -185,7 +184,6 @@
     UIView *btn = (UIView*)sender;
     KKLevelModal *modal = [self currentLevelData:btn.tag];
     if(modal){
-    [Flurry logEvent:[NSString stringWithFormat:@"Level-%@(Selected)",modal.name]];
         return modal.isLevelUnlocked;
     }
     else{
@@ -213,11 +211,6 @@
         if(isLevelUnlocked){
             nextVC.levelModel = [self currentLevelData:btn.tag];
             [[KKGameStateManager sharedManager] setCurrentLevel:btn.tag andStage:_currentStage];
-            NSString *level = nextVC.levelModel.name;
-            NSNumber *stage = [NSNumber numberWithInt:self.currentStage];
-            NSDictionary *dict = [NSDictionary dictionaryWithObjects:@[level,stage]
-                                                             forKeys:@[@"level", @"stage"]];
-            [Flurry logEvent:@"LevelSelect" withParameters:dict];
         }
     }
 
@@ -235,14 +228,8 @@
         [Flurry logEvent:[NSString stringWithFormat:@"StageSelect-%d(Selected)",stage]];
 
         self.currentStage = sender.tag;
-        
         [self hideStageSelectionDialog];
         [self loadLevelsForStage];
-        
-        NSNumber *stage = [NSNumber numberWithInt:self.currentStage];
-        NSDictionary *dict = [NSDictionary dictionaryWithObject:stage
-                                                         forKey:@[@"stage"]];
-        [Flurry logEvent:@"StageSelect" withParameters:dict];
     }
     else{
         [Flurry logEvent:[NSString stringWithFormat:@"StageSelect-%d(Locked)",stage]];
