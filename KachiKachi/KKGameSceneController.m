@@ -151,11 +151,8 @@ typedef void (^completionBlk)(BOOL);
     [levelInfo setObject:status forKey:@"status"];
     [levelInfo setObject:[NSNumber numberWithInt:self.levelModel.life] forKey:@"remaining_life"];
     
-    NSMutableDictionary *levelDict = [[NSMutableDictionary alloc] init];
-    [levelDict setObject:levelInfo forKey:[NSString stringWithFormat:@"Level(%@)",self.levelModel.name]];
-    
-    NSString *key = [NSString stringWithFormat:@"Stage(%d)",self.levelModel.stageID];
-    [Flurry logEvent:key withParameters:levelDict];
+    NSString *key = [NSString stringWithFormat:@"Level(%@)Stage(%d)",self.levelModel.name,self.levelModel.stageID];
+    [Flurry logEvent:key withParameters:levelInfo];
 }
 
 -(void)addElements

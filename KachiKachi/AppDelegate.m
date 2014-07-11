@@ -9,9 +9,6 @@
 #import "AppDelegate.h"
 #import <Crashlytics/Crashlytics.h>
 
-#define DEVELOPMENT_MODE
-#define ENABLE_ALL_LEVELS
-
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
