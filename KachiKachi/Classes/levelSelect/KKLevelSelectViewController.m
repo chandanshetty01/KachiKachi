@@ -25,8 +25,6 @@
 {    
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    
-    [self loadLevelsForStage];
 }
 
 -(void)loadLevelsForStage
@@ -62,12 +60,6 @@
 -(void)viewDidAppear:(BOOL)animated
 {
     [self loadLevelsForStage];
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 - (IBAction)backButtonAction:(id)sender
@@ -149,12 +141,6 @@
     return NO;
 }
 
-//- (BOOL)canPerformUnwindSegueAction:(SEL)action fromViewController:(UIViewController *)fromViewController withSender:(id)sender NS_AVAILABLE_IOS(6_0)
-//{
-//    return YES;
-//}
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     UIView *btn = (UIView*)sender;
@@ -171,6 +157,12 @@
         }
     }
 
+}
+
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
 }
 
 - (void)dealloc
