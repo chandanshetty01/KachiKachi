@@ -7,11 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "KKLevelModal.h"
 
 @interface KKLevelSelectViewController : UIViewController
 
 @property(nonatomic,assign) NSInteger currentStage;
 @property(nonatomic,strong) NSMutableArray *levelModals;
-@property (weak, nonatomic) IBOutlet UISwitch *soundSwitch;
+@property(nonatomic,strong) KKLevelModal *levelModal;
 
 @end

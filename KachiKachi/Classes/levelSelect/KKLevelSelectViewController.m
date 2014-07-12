@@ -14,18 +14,26 @@
 #import "KKCollectionViewCell.h"
 
 @interface KKLevelSelectViewController ()
-@property (weak, nonatomic) IBOutlet UIView *stageSelectView;
+
 @property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
 
 @end
 
 @implementation KKLevelSelectViewController
 
+- (void)viewDidLoad
+{    
+    [super viewDidLoad];
+	// Do any additional setup after loading the view, typically from a nib.
+    
+    [self loadLevelsForStage];
+}
+
 -(void)loadLevelsForStage
 {
     self.levelModals = nil;
     self.levelModals = [NSMutableArray array];
-
+    
     NSMutableDictionary *levels = [[KKGameStateManager sharedManager] levelsDictionary:self.currentStage];
     
     NSArray *keys = [levels allKeys];
@@ -44,65 +52,16 @@
     [keys enumerateObjectsUsingBlock:^(NSString *key, NSUInteger idx, BOOL *stop) {
         NSMutableDictionary *level = [levels objectForKey:key];
         KKLevelModal *levelModel = [[KKLevelModal alloc] initWithDictionary:level];
-        levelModel.stageID =  _currentStage;
+        levelModel.stageID =  self.currentStage;
         [self.levelModals addObject:levelModel];
     }];
     
     [self.collectionView reloadData];
 }
 
-- (void)viewDidLoad
-{    
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-        
-    [self showStageSelectionDialog];
-    
-    self.currentStage = 1;//default
-    //[self loadLevelsForStage];
-    
-    BOOL isOn = [[KKGameStateManager sharedManager] isSoundEnabled];
-    [self.soundSwitch setOn:isOn];
-
-    [self playMusic];
-}
-
 -(void)viewDidAppear:(BOOL)animated
 {
     [self loadLevelsForStage];
-}
-
--(void)showStageSelectionDialog
-{
-    self.stageSelectView.hidden = NO;
-
-    [UIView animateWithDuration:0.5
-                     animations:^{
-                         self.stageSelectView.alpha = 1;
-                     } completion:^(BOOL finished) {
-                     }];
-}
-
--(void)hideStageSelectionDialog
-{
-    [UIView animateWithDuration:0.5
-                     animations:^{
-                         self.stageSelectView.alpha = 0.0;
-                     } completion:^(BOOL finished) {
-                         self.stageSelectView.hidden = YES;
-                     }];
-}
-
--(void)playMusic
-{
-    [SoundManager sharedManager].allowsBackgroundMusic = YES;
-    [[SoundManager sharedManager] prepareToPlay];
-    [[SoundManager sharedManager] playMusic:@"track1" looping:YES];
-}
-
--(void)stopMusic
-{
-    [[SoundManager sharedManager] stopMusic];
 }
 
 - (void)didReceiveMemoryWarning
@@ -113,16 +72,14 @@
 
 - (IBAction)backButtonAction:(id)sender
 {
-//    AppDelegate *appdelegate = APP_DELEGATE;
-//    [appdelegate.navigationController popViewControllerAnimated:YES];
-
-    [self showStageSelectionDialog];
     [Flurry logEvent:@"BackButton - Level Select"];
+    AppDelegate *appdelegate = APP_DELEGATE;
+    [appdelegate.navigationController popViewControllerAnimated:YES];
 }
 
 -(KKLevelModal*)currentLevelData:(NSInteger)levelID
 {
-    NSMutableDictionary *levelDict = [[KKGameStateManager sharedManager] gameData:levelID stage:_currentStage];
+    NSMutableDictionary *levelDict = [[KKGameStateManager sharedManager] gameData:levelID stage:self.currentStage];
 #ifdef DEVELOPMENT_MODE
     levelDict = nil;
 #endif
@@ -133,7 +90,7 @@
         NSDictionary *level = [config levelWithID:levelID andStage:self.currentStage];
         levelModel = [[KKLevelModal alloc] initWithDictionary:level];
         levelModel.levelID = levelID;
-        levelModel.stageID =  _currentStage;
+        levelModel.stageID =  self.currentStage;
         return levelModel;
     }
     else
@@ -141,7 +98,7 @@
         KKLevelModal *levelModel = nil;
         levelModel = [[KKLevelModal alloc] initWithDictionary:levelDict];
         levelModel.levelID = levelID;
-        levelModel.stageID =  _currentStage;
+        levelModel.stageID =  self.currentStage;
         return levelModel;
     }
 }
@@ -210,48 +167,10 @@
 #endif
         if(isLevelUnlocked){
             nextVC.levelModel = [self currentLevelData:btn.tag];
-            [[KKGameStateManager sharedManager] setCurrentLevel:btn.tag andStage:_currentStage];
+            [[KKGameStateManager sharedManager] setCurrentLevel:btn.tag andStage:sefl.currentStage];
         }
     }
 
-}
-
-- (IBAction)handleButtonAction:(UIButton*)sender
-{
-    NSInteger stage = sender.tag;
-
-    BOOL isLocked = [[KKGameStateManager sharedManager] isStageLocked:stage];
-#ifdef ENABLE_ALL_LEVELS
-    isLocked = NO;
-#endif
-    if(!isLocked){
-        [Flurry logEvent:[NSString stringWithFormat:@"StageSelect-%d(Selected)",stage]];
-
-        self.currentStage = sender.tag;
-        [self hideStageSelectionDialog];
-        [self loadLevelsForStage];
-    }
-    else{
-        [Flurry logEvent:[NSString stringWithFormat:@"StageSelect-%d(Locked)",stage]];
-
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Stage Locked!"
-                                                        message:@"Complete all levels in previous stage to unlock the stage"
-                                                       delegate:nil
-                                              cancelButtonTitle:@"OK"
-                                              otherButtonTitles:nil];
-        
-        [alert show];
-    }
-}
-
-- (IBAction)handleSoundSwitch:(UISwitch*)sender
-{
-    [[KKGameStateManager sharedManager] setSoundEnabled:sender.isOn];
-
-    if(sender.isOn)
-       [self playMusic];
-    else
-        [self stopMusic];
 }
 
 - (void)dealloc

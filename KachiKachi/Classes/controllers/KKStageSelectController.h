@@ -10,4 +10,7 @@
 
 @interface KKStageSelectController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UISwitch *soundSwitch;
+@property (nonatomic,assign) NSInteger currentStage;
+
 @end
