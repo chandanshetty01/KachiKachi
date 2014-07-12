@@ -10,6 +10,14 @@
 		A305F2A91945EAB800B62C6C /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = A305F2A81945EAB800B62C6C /* iTunesArtwork */; };
 		A305F2B71945F0DB00B62C6C /* KKGameStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A305F2B61945F0DB00B62C6C /* KKGameStateManager.m */; };
 		A314CCE2194F2B620002BECC /* KKStageSelectController.m in Sources */ = {isa = PBXBuildFile; fileRef = A314CCE1194F2B620002BECC /* KKStageSelectController.m */; };
+		A31B47C41971A70B00EF6BF8 /* libUserVoice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A31B47C31971A70B00EF6BF8 /* libUserVoice.a */; };
+		A31B484B1971A81D00EF6BF8 /* UserVoice.strings in Resources */ = {isa = PBXBuildFile; fileRef = A31B48241971A81D00EF6BF8 /* UserVoice.strings */; };
+		A31B484C1971A81D00EF6BF8 /* uv_article.png in Resources */ = {isa = PBXBuildFile; fileRef = A31B48421971A81D00EF6BF8 /* uv_article.png */; };
+		A31B484D1971A81D00EF6BF8 /* uv_article@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A31B48431971A81D00EF6BF8 /* uv_article@2x.png */; };
+		A31B484E1971A81D00EF6BF8 /* uv_heart.png in Resources */ = {isa = PBXBuildFile; fileRef = A31B48441971A81D00EF6BF8 /* uv_heart.png */; };
+		A31B484F1971A81D00EF6BF8 /* uv_heart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A31B48451971A81D00EF6BF8 /* uv_heart@2x.png */; };
+		A31B48501971A81D00EF6BF8 /* uv_idea.png in Resources */ = {isa = PBXBuildFile; fileRef = A31B48461971A81D00EF6BF8 /* uv_idea.png */; };
+		A31B48511971A81D00EF6BF8 /* uv_idea@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A31B48471971A81D00EF6BF8 /* uv_idea@2x.png */; };
 		A3335FBE1955F09A000AA5B7 /* TTCarrot.m in Sources */ = {isa = PBXBuildFile; fileRef = A3335FBD1955F09A000AA5B7 /* TTCarrot.m */; };
 		A3335FC21956C2D1000AA5B7 /* KKLevelModal.m in Sources */ = {isa = PBXBuildFile; fileRef = A3335FC11956C2D1000AA5B7 /* KKLevelModal.m */; };
 		A3335FC51956C96F000AA5B7 /* KKItemModal.m in Sources */ = {isa = PBXBuildFile; fileRef = A3335FC41956C96F000AA5B7 /* KKItemModal.m */; };
@@ -81,6 +89,49 @@
 		A305F2B61945F0DB00B62C6C /* KKGameStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKGameStateManager.m; sourceTree = "<group>"; };
 		A314CCE0194F2B620002BECC /* KKStageSelectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKStageSelectController.h; sourceTree = "<group>"; };
 		A314CCE1194F2B620002BECC /* KKStageSelectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKStageSelectController.m; sourceTree = "<group>"; };
+		A31B46F81971A50800EF6BF8 /* UserVoice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserVoice.h; sourceTree = "<group>"; };
+		A31B46F91971A50800EF6BF8 /* UVConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UVConfig.h; sourceTree = "<group>"; };
+		A31B46FA1971A50800EF6BF8 /* UVDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UVDelegate.h; sourceTree = "<group>"; };
+		A31B46FB1971A50800EF6BF8 /* UVStyleSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UVStyleSheet.h; sourceTree = "<group>"; };
+		A31B47C31971A70B00EF6BF8 /* libUserVoice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUserVoice.a; sourceTree = "<group>"; };
+		A31B48251971A81D00EF6BF8 /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/UserVoice.strings; sourceTree = "<group>"; };
+		A31B48261971A81D00EF6BF8 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/UserVoice.strings; sourceTree = "<group>"; };
+		A31B48271971A81D00EF6BF8 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/UserVoice.strings; sourceTree = "<group>"; };
+		A31B48281971A81D00EF6BF8 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/UserVoice.strings; sourceTree = "<group>"; };
+		A31B48291971A81D00EF6BF8 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/UserVoice.strings; sourceTree = "<group>"; };
+		A31B482A1971A81D00EF6BF8 /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/UserVoice.strings"; sourceTree = "<group>"; };
+		A31B482B1971A81D00EF6BF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/UserVoice.strings; sourceTree = "<group>"; };
+		A31B482C1971A81D00EF6BF8 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/UserVoice.strings; sourceTree = "<group>"; };
+		A31B482D1971A81D00EF6BF8 /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/UserVoice.strings; sourceTree = "<group>"; };
+		A31B482E1971A81D00EF6BF8 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/UserVoice.strings; sourceTree = "<group>"; };
+		A31B482F1971A81D00EF6BF8 /* hr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hr; path = hr.lproj/UserVoice.strings; sourceTree = "<group>"; };
+		A31B48301971A81D00EF6BF8 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/UserVoice.strings; sourceTree = "<group>"; };
+		A31B48311971A81D00EF6BF8 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/UserVoice.strings; sourceTree = "<group>"; };
+		A31B48321971A81D00EF6BF8 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/UserVoice.strings; sourceTree = "<group>"; };
+		A31B48331971A81D00EF6BF8 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/UserVoice.strings; sourceTree = "<group>"; };
+		A31B48341971A81D00EF6BF8 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/UserVoice.strings; sourceTree = "<group>"; };
+		A31B48351971A81D00EF6BF8 /* ms */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ms; path = ms.lproj/UserVoice.strings; sourceTree = "<group>"; };
+		A31B48361971A81D00EF6BF8 /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/UserVoice.strings; sourceTree = "<group>"; };
+		A31B48371971A81D00EF6BF8 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/UserVoice.strings; sourceTree = "<group>"; };
+		A31B48381971A81D00EF6BF8 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/UserVoice.strings; sourceTree = "<group>"; };
+		A31B48391971A81D00EF6BF8 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/UserVoice.strings"; sourceTree = "<group>"; };
+		A31B483A1971A81D00EF6BF8 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/UserVoice.strings; sourceTree = "<group>"; };
+		A31B483B1971A81D00EF6BF8 /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/UserVoice.strings; sourceTree = "<group>"; };
+		A31B483C1971A81D00EF6BF8 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/UserVoice.strings; sourceTree = "<group>"; };
+		A31B483D1971A81D00EF6BF8 /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/UserVoice.strings; sourceTree = "<group>"; };
+		A31B483E1971A81D00EF6BF8 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/UserVoice.strings; sourceTree = "<group>"; };
+		A31B483F1971A81D00EF6BF8 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/UserVoice.strings; sourceTree = "<group>"; };
+		A31B48401971A81D00EF6BF8 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/UserVoice.strings; sourceTree = "<group>"; };
+		A31B48411971A81D00EF6BF8 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/UserVoice.strings; sourceTree = "<group>"; };
+		A31B48421971A81D00EF6BF8 /* uv_article.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uv_article.png; sourceTree = "<group>"; };
+		A31B48431971A81D00EF6BF8 /* uv_article@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "uv_article@2x.png"; sourceTree = "<group>"; };
+		A31B48441971A81D00EF6BF8 /* uv_heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uv_heart.png; sourceTree = "<group>"; };
+		A31B48451971A81D00EF6BF8 /* uv_heart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "uv_heart@2x.png"; sourceTree = "<group>"; };
+		A31B48461971A81D00EF6BF8 /* uv_idea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uv_idea.png; sourceTree = "<group>"; };
+		A31B48471971A81D00EF6BF8 /* uv_idea@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "uv_idea@2x.png"; sourceTree = "<group>"; };
+		A31B48481971A81D00EF6BF8 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/UserVoice.strings; sourceTree = "<group>"; };
+		A31B48491971A81D00EF6BF8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/UserVoice.strings"; sourceTree = "<group>"; };
+		A31B484A1971A81D00EF6BF8 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/UserVoice.strings"; sourceTree = "<group>"; };
 		A3335FBC1955F09A000AA5B7 /* TTCarrot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTCarrot.h; sourceTree = "<group>"; };
 		A3335FBD1955F09A000AA5B7 /* TTCarrot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTCarrot.m; sourceTree = "<group>"; };
 		A3335FC01956C2D1000AA5B7 /* KKLevelModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKLevelModal.h; sourceTree = "<group>"; };
@@ -208,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3B3C4F71961C4C100B62BD4 /* SystemConfiguration.framework in Frameworks */,
+				A31B47C41971A70B00EF6BF8 /* libUserVoice.a in Frameworks */,
 				A357D7A9196301350037C2B4 /* libFlurry_5.1.0.a in Frameworks */,
 				A3A67E7B1902B67700BFAF7B /* CoreGraphics.framework in Frameworks */,
 				A3A67E7D1902B67700BFAF7B /* UIKit.framework in Frameworks */,
@@ -258,6 +310,41 @@
 			path = Classes/controllers;
 			sourceTree = "<group>";
 		};
+		A31B46F61971A50800EF6BF8 /* UserVoice */ = {
+			isa = PBXGroup;
+			children = (
+				A31B47C31971A70B00EF6BF8 /* libUserVoice.a */,
+				A31B46F71971A50800EF6BF8 /* Include */,
+			);
+			path = UserVoice;
+			sourceTree = "<group>";
+		};
+		A31B46F71971A50800EF6BF8 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				A31B46F81971A50800EF6BF8 /* UserVoice.h */,
+				A31B46F91971A50800EF6BF8 /* UVConfig.h */,
+				A31B46FA1971A50800EF6BF8 /* UVDelegate.h */,
+				A31B46FB1971A50800EF6BF8 /* UVStyleSheet.h */,
+			);
+			path = Include;
+			sourceTree = "<group>";
+		};
+		A31B48231971A81D00EF6BF8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A31B48241971A81D00EF6BF8 /* UserVoice.strings */,
+				A31B48421971A81D00EF6BF8 /* uv_article.png */,
+				A31B48431971A81D00EF6BF8 /* uv_article@2x.png */,
+				A31B48441971A81D00EF6BF8 /* uv_heart.png */,
+				A31B48451971A81D00EF6BF8 /* uv_heart@2x.png */,
+				A31B48461971A81D00EF6BF8 /* uv_idea.png */,
+				A31B48471971A81D00EF6BF8 /* uv_idea@2x.png */,
+			);
+			name = Resources;
+			path = UserVoice/Resources;
+			sourceTree = "<group>";
+		};
 		A3335FBF1956C2BD000AA5B7 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -281,6 +368,8 @@
 		A357D7A3196301350037C2B4 /* ThirdParty */ = {
 			isa = PBXGroup;
 			children = (
+				A31B48231971A81D00EF6BF8 /* Resources */,
+				A31B46F61971A50800EF6BF8 /* UserVoice */,
 				A3868765196915B50091C7E9 /* Ads */,
 				A357D7AA196301A70037C2B4 /* Crashlytics.framework */,
 				A357D7A5196301350037C2B4 /* Flurry */,
@@ -608,6 +697,37 @@
 			knownRegions = (
 				en,
 				Base,
+				ca,
+				cs,
+				da,
+				de,
+				el,
+				"en-GB",
+				es,
+				fi,
+				fr,
+				hr,
+				hu,
+				id,
+				it,
+				ja,
+				ko,
+				ms,
+				nb,
+				nl,
+				pl,
+				"pt-PT",
+				pt,
+				ro,
+				ru,
+				sk,
+				sv,
+				th,
+				tr,
+				uk,
+				vi,
+				"zh-Hans",
+				"zh-Hant",
 			);
 			mainGroup = A3A67E6C1902B67700BFAF7B;
 			productRefGroup = A3A67E761902B67700BFAF7B /* Products */;
@@ -627,10 +747,17 @@
 			files = (
 				A3B97D751930F9130049DCEB /* track1.caf in Resources */,
 				A3B97D761930F9130049DCEB /* track2.caf in Resources */,
+				A31B484E1971A81D00EF6BF8 /* uv_heart.png in Resources */,
 				A3868789196915B50091C7E9 /* README.txt in Resources */,
 				A3A67E8F1902B67700BFAF7B /* Main_iPad.storyboard in Resources */,
+				A31B484C1971A81D00EF6BF8 /* uv_article.png in Resources */,
 				A305F2A91945EAB800B62C6C /* iTunesArtwork in Resources */,
 				A3A67EB91902C79B00BFAF7B /* GameData.plist in Resources */,
+				A31B484B1971A81D00EF6BF8 /* UserVoice.strings in Resources */,
+				A31B484D1971A81D00EF6BF8 /* uv_article@2x.png in Resources */,
+				A31B48501971A81D00EF6BF8 /* uv_idea.png in Resources */,
+				A31B484F1971A81D00EF6BF8 /* uv_heart@2x.png in Resources */,
+				A31B48511971A81D00EF6BF8 /* uv_idea@2x.png in Resources */,
 				A3B97D781930F91F0049DCEB /* sound1.caf in Resources */,
 				A3A67E941902B67700BFAF7B /* Images.xcassets in Resources */,
 				A3B97D771930F91C0049DCEB /* sound2.caf in Resources */,
@@ -725,6 +852,45 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		A31B48241971A81D00EF6BF8 /* UserVoice.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A31B48251971A81D00EF6BF8 /* ca */,
+				A31B48261971A81D00EF6BF8 /* cs */,
+				A31B48271971A81D00EF6BF8 /* da */,
+				A31B48281971A81D00EF6BF8 /* de */,
+				A31B48291971A81D00EF6BF8 /* el */,
+				A31B482A1971A81D00EF6BF8 /* en-GB */,
+				A31B482B1971A81D00EF6BF8 /* en */,
+				A31B482C1971A81D00EF6BF8 /* es */,
+				A31B482D1971A81D00EF6BF8 /* fi */,
+				A31B482E1971A81D00EF6BF8 /* fr */,
+				A31B482F1971A81D00EF6BF8 /* hr */,
+				A31B48301971A81D00EF6BF8 /* hu */,
+				A31B48311971A81D00EF6BF8 /* id */,
+				A31B48321971A81D00EF6BF8 /* it */,
+				A31B48331971A81D00EF6BF8 /* ja */,
+				A31B48341971A81D00EF6BF8 /* ko */,
+				A31B48351971A81D00EF6BF8 /* ms */,
+				A31B48361971A81D00EF6BF8 /* nb */,
+				A31B48371971A81D00EF6BF8 /* nl */,
+				A31B48381971A81D00EF6BF8 /* pl */,
+				A31B48391971A81D00EF6BF8 /* pt-PT */,
+				A31B483A1971A81D00EF6BF8 /* pt */,
+				A31B483B1971A81D00EF6BF8 /* ro */,
+				A31B483C1971A81D00EF6BF8 /* ru */,
+				A31B483D1971A81D00EF6BF8 /* sk */,
+				A31B483E1971A81D00EF6BF8 /* sv */,
+				A31B483F1971A81D00EF6BF8 /* th */,
+				A31B48401971A81D00EF6BF8 /* tr */,
+				A31B48411971A81D00EF6BF8 /* uk */,
+				A31B48481971A81D00EF6BF8 /* vi */,
+				A31B48491971A81D00EF6BF8 /* zh-Hans */,
+				A31B484A1971A81D00EF6BF8 /* zh-Hant */,
+			);
+			name = UserVoice.strings;
+			sourceTree = "<group>";
+		};
 		A3A67E811902B67700BFAF7B /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -855,6 +1021,7 @@
 					"$(SDKROOT)/usr/lib/system",
 					"$(PROJECT_DIR)/KachiKachi/ThirdParty/Flurry",
 					"$(PROJECT_DIR)/KachiKachi/ThirdParty/Ads/GoogleMobileAdsSdkiOS-6.9.3",
+					"$(PROJECT_DIR)/KachiKachi/ThirdParty/UserVoice",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 2;
@@ -883,6 +1050,7 @@
 					"$(SDKROOT)/usr/lib/system",
 					"$(PROJECT_DIR)/KachiKachi/ThirdParty/Flurry",
 					"$(PROJECT_DIR)/KachiKachi/ThirdParty/Ads/GoogleMobileAdsSdkiOS-6.9.3",
+					"$(PROJECT_DIR)/KachiKachi/ThirdParty/UserVoice",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 2;

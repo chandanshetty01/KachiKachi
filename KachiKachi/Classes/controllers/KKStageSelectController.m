@@ -10,6 +10,7 @@
 #import "KKLevelSelectViewController.h"
 #import "SoundManager.h"
 #import "KKGameStateManager.h"
+#import "UserVoice.h"
 
 @interface KKStageSelectController ()
 
@@ -63,7 +64,9 @@
 
 - (IBAction)handleSupportBtn:(id)sender
 {
-    
+    UVConfig *config = [UVConfig configWithSite:@"chandanshetty01.uservoice.com"];
+    [UserVoice initialize:config];
+    [UserVoice presentUserVoiceInterfaceForParentViewController:self];
 }
 
 - (BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(UIButton*)sender

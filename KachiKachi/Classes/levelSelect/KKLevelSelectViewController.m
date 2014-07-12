@@ -25,6 +25,8 @@
 {    
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    [self loadLevelsForStage];
 }
 
 -(void)loadLevelsForStage
@@ -59,7 +61,7 @@
 
 -(void)viewDidAppear:(BOOL)animated
 {
-    [self loadLevelsForStage];
+    [self.collectionView reloadData];
 }
 
 - (IBAction)backButtonAction:(id)sender
