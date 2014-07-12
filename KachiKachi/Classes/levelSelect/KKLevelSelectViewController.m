@@ -61,7 +61,7 @@
 
 -(void)viewDidAppear:(BOOL)animated
 {
-    [self.collectionView reloadData];
+    [self loadLevelsForStage];
 }
 
 - (IBAction)backButtonAction:(id)sender
