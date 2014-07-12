@@ -167,7 +167,7 @@
 #endif
         if(isLevelUnlocked){
             nextVC.levelModel = [self currentLevelData:btn.tag];
-            [[KKGameStateManager sharedManager] setCurrentLevel:btn.tag andStage:sefl.currentStage];
+            [[KKGameStateManager sharedManager] setCurrentLevel:btn.tag andStage:self.currentStage];
         }
     }
 
