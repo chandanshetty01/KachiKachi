@@ -30,6 +30,12 @@
 		A36A12ED1954C090007F6355 /* TTChoc.m in Sources */ = {isa = PBXBuildFile; fileRef = A36A12EC1954C090007F6355 /* TTChoc.m */; };
 		A36A12F01955510B007F6355 /* TTFish.m in Sources */ = {isa = PBXBuildFile; fileRef = A36A12EF1955510B007F6355 /* TTFish.m */; };
 		A36A12F319556DD6007F6355 /* TTApple.m in Sources */ = {isa = PBXBuildFile; fileRef = A36A12F219556DD6007F6355 /* TTApple.m */; };
+		A38222D9197261AA00D7A856 /* NSData+MKBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = A38222CE197261AA00D7A856 /* NSData+MKBase64.m */; };
+		A38222DA197261AA00D7A856 /* SFHFKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A38222D0197261AA00D7A856 /* SFHFKeychainUtils.m */; };
+		A38222DB197261AA00D7A856 /* MKSKProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = A38222D2197261AA00D7A856 /* MKSKProduct.m */; };
+		A38222DC197261AA00D7A856 /* MKSKSubscriptionProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = A38222D4197261AA00D7A856 /* MKSKSubscriptionProduct.m */; };
+		A38222DD197261AA00D7A856 /* MKStoreKitConfigs.plist in Resources */ = {isa = PBXBuildFile; fileRef = A38222D6197261AA00D7A856 /* MKStoreKitConfigs.plist */; };
+		A38222DE197261AA00D7A856 /* MKStoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A38222D8197261AA00D7A856 /* MKStoreManager.m */; };
 		A3868788196915B50091C7E9 /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3868786196915B50091C7E9 /* libGoogleAdMobAds.a */; };
 		A3868789196915B50091C7E9 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = A3868787196915B50091C7E9 /* README.txt */; };
 		A386878C196915E50091C7E9 /* AdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A386878B196915E50091C7E9 /* AdViewController.m */; };
@@ -155,6 +161,18 @@
 		A36A12EF1955510B007F6355 /* TTFish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTFish.m; sourceTree = "<group>"; };
 		A36A12F119556DD6007F6355 /* TTApple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTApple.h; sourceTree = "<group>"; };
 		A36A12F219556DD6007F6355 /* TTApple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTApple.m; sourceTree = "<group>"; };
+		A38222CD197261AA00D7A856 /* NSData+MKBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+MKBase64.h"; sourceTree = "<group>"; };
+		A38222CE197261AA00D7A856 /* NSData+MKBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+MKBase64.m"; sourceTree = "<group>"; };
+		A38222CF197261AA00D7A856 /* SFHFKeychainUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFHFKeychainUtils.h; sourceTree = "<group>"; };
+		A38222D0197261AA00D7A856 /* SFHFKeychainUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFHFKeychainUtils.m; sourceTree = "<group>"; };
+		A38222D1197261AA00D7A856 /* MKSKProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKSKProduct.h; sourceTree = "<group>"; };
+		A38222D2197261AA00D7A856 /* MKSKProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKSKProduct.m; sourceTree = "<group>"; };
+		A38222D3197261AA00D7A856 /* MKSKSubscriptionProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKSKSubscriptionProduct.h; sourceTree = "<group>"; };
+		A38222D4197261AA00D7A856 /* MKSKSubscriptionProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKSKSubscriptionProduct.m; sourceTree = "<group>"; };
+		A38222D5197261AA00D7A856 /* MKStoreKitConfigs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKStoreKitConfigs.h; sourceTree = "<group>"; };
+		A38222D6197261AA00D7A856 /* MKStoreKitConfigs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MKStoreKitConfigs.plist; sourceTree = "<group>"; };
+		A38222D7197261AA00D7A856 /* MKStoreManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKStoreManager.h; sourceTree = "<group>"; };
+		A38222D8197261AA00D7A856 /* MKStoreManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKStoreManager.m; sourceTree = "<group>"; };
 		A3868769196915B50091C7E9 /* DFPBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFPBannerView.h; sourceTree = "<group>"; };
 		A386876A196915B50091C7E9 /* DFPExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFPExtras.h; sourceTree = "<group>"; };
 		A386876B196915B50091C7E9 /* DFPInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFPInterstitial.h; sourceTree = "<group>"; };
@@ -368,6 +386,7 @@
 		A357D7A3196301350037C2B4 /* ThirdParty */ = {
 			isa = PBXGroup;
 			children = (
+				A38222CB197261AA00D7A856 /* inAppPurchase */,
 				A31B48231971A81D00EF6BF8 /* Resources */,
 				A31B46F61971A50800EF6BF8 /* UserVoice */,
 				A3868765196915B50091C7E9 /* Ads */,
@@ -384,6 +403,33 @@
 				A357D7A7196301350037C2B4 /* libFlurry_5.1.0.a */,
 			);
 			path = Flurry;
+			sourceTree = "<group>";
+		};
+		A38222CB197261AA00D7A856 /* inAppPurchase */ = {
+			isa = PBXGroup;
+			children = (
+				A38222CC197261AA00D7A856 /* Externals */,
+				A38222D1197261AA00D7A856 /* MKSKProduct.h */,
+				A38222D2197261AA00D7A856 /* MKSKProduct.m */,
+				A38222D3197261AA00D7A856 /* MKSKSubscriptionProduct.h */,
+				A38222D4197261AA00D7A856 /* MKSKSubscriptionProduct.m */,
+				A38222D5197261AA00D7A856 /* MKStoreKitConfigs.h */,
+				A38222D6197261AA00D7A856 /* MKStoreKitConfigs.plist */,
+				A38222D7197261AA00D7A856 /* MKStoreManager.h */,
+				A38222D8197261AA00D7A856 /* MKStoreManager.m */,
+			);
+			path = inAppPurchase;
+			sourceTree = "<group>";
+		};
+		A38222CC197261AA00D7A856 /* Externals */ = {
+			isa = PBXGroup;
+			children = (
+				A38222CD197261AA00D7A856 /* NSData+MKBase64.h */,
+				A38222CE197261AA00D7A856 /* NSData+MKBase64.m */,
+				A38222CF197261AA00D7A856 /* SFHFKeychainUtils.h */,
+				A38222D0197261AA00D7A856 /* SFHFKeychainUtils.m */,
+			);
+			path = Externals;
 			sourceTree = "<group>";
 		};
 		A3868765196915B50091C7E9 /* Ads */ = {
@@ -745,6 +791,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A38222DD197261AA00D7A856 /* MKStoreKitConfigs.plist in Resources */,
 				A3B97D751930F9130049DCEB /* track1.caf in Resources */,
 				A3B97D761930F9130049DCEB /* track2.caf in Resources */,
 				A31B484E1971A81D00EF6BF8 /* uv_heart.png in Resources */,
@@ -797,16 +844,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3D832C4194315ED00C0908C /* TTKite.m in Sources */,
+				A38222DC197261AA00D7A856 /* MKSKSubscriptionProduct.m in Sources */,
 				A3FF1544195E6711007CE275 /* TTStar.m in Sources */,
 				A3FB4F4719125D070039585F /* Utility.m in Sources */,
+				A38222DB197261AA00D7A856 /* MKSKProduct.m in Sources */,
 				A3A67EB71902BE7E00BFAF7B /* KKGameSceneController.m in Sources */,
 				A314CCE2194F2B620002BECC /* KKStageSelectController.m in Sources */,
 				A3FF1547195E6720007CE275 /* TTUmbrella.m in Sources */,
 				A3FF153B195C4F48007CE275 /* TTBird.m in Sources */,
 				A3335FBE1955F09A000AA5B7 /* TTCarrot.m in Sources */,
 				A386878C196915E50091C7E9 /* AdViewController.m in Sources */,
+				A38222DE197261AA00D7A856 /* MKStoreManager.m in Sources */,
 				A3A67E891902B67700BFAF7B /* AppDelegate.m in Sources */,
 				A3335FC51956C96F000AA5B7 /* KKItemModal.m in Sources */,
+				A38222D9197261AA00D7A856 /* NSData+MKBase64.m in Sources */,
 				A3FF1532195B0796007CE275 /* KKLevelSelectViewController.m in Sources */,
 				A3FF153E195C791E007CE275 /* TTCandle.m in Sources */,
 				A3A67E851902B67700BFAF7B /* main.m in Sources */,
@@ -814,6 +865,7 @@
 				A3E9E96E1944BA0A00898279 /* TTBalloon.m in Sources */,
 				A36A12ED1954C090007F6355 /* TTChoc.m in Sources */,
 				A3FF154D195E6737007CE275 /* TTBrush.m in Sources */,
+				A38222DA197261AA00D7A856 /* SFHFKeychainUtils.m in Sources */,
 				A305F2B71945F0DB00B62C6C /* KKGameStateManager.m in Sources */,
 				A36A12F319556DD6007F6355 /* TTApple.m in Sources */,
 				A3FF1535195B07B8007CE275 /* KKCollectionViewCell.m in Sources */,
@@ -1005,6 +1057,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -1034,6 +1087,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",

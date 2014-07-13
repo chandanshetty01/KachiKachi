@@ -69,30 +69,104 @@
     [UserVoice presentUserVoiceInterfaceForParentViewController:self];
 }
 
+-(void)purchaseALert:(NSInteger)stageID
+{
+    NSString *money = nil;
+    NSString *msg = [NSString stringWithFormat:@"Complete all previous levels to unlock this stage or unlock by purchasing package(REMOVE ADS + UNLOCK STAGE) with %@",money];
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Unlock Stage!"
+                                                    message:msg
+                                                   delegate:self
+                                          cancelButtonTitle:@"OK"
+                                          otherButtonTitles:nil];
+    alert.tag = stageID;
+    [alert show];
+}
+
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+    if(alertView.tag == 2)
+    {
+        [self purchase:2];
+    }
+    else if(alertView.tag == 3)
+    {
+        [self purchase:3];
+    }
+}
+
+-(void)purchase:(NSInteger)stageID
+{
+    NSString *featureID = nil;
+    if(stageID == 2)
+        featureID = kTimedMode;
+    else if(stageID == 3)
+        featureID = kAdvancedMode;
+        
+    [[MKStoreManager sharedManager] buyFeature:featureID
+                                    onComplete:^(NSString* purchasedFeature,
+                                                 NSData* purchasedReceipt,
+                                                 NSArray* availableDownloads)
+     {
+         self.currentStage = stageID;
+         if(stageID == 2){
+             [self performSegueWithIdentifier:@"stage2Seague" sender:self];
+         }
+         else if(stageID == 3){
+             [self performSegueWithIdentifier:@"stage3Seague" sender:self];
+         }
+         NSLog(@"Purchased: %@", purchasedFeature);
+     }
+                                   onCancelled:^
+     {
+         NSLog(@"User Cancelled Transaction");
+     }];
+    
+    /*
+    //test
+    if(stageID == 2){
+        self.currentStage = stageID;
+        [self performSegueWithIdentifier:@"stage2Seague" sender:self];
+    }
+    else if(stageID == 3){
+        self.currentStage = stageID;
+        [self performSegueWithIdentifier:@"stage3Seague" sender:self];
+    }
+     */
+}
+
 - (BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(UIButton*)sender
 {
-    NSInteger stage = sender.tag;
-    
-    BOOL isLocked = [[KKGameStateManager sharedManager] isStageLocked:stage];
 #ifdef ENABLE_ALL_LEVELS
-    isLocked = NO;
+    return YES;
 #endif
-    if(!isLocked){
+    
+    NSInteger stage = sender.tag;
+    BOOL isLocked = [[KKGameStateManager sharedManager] isStageLocked:stage];
+    if(!isLocked)
+    {
         [Flurry logEvent:[NSString stringWithFormat:@"StageSelect-%d(Selected)",stage]];
-        
         self.currentStage = sender.tag;
         return YES;
     }
-    else{
+    else
+    {
         [Flurry logEvent:[NSString stringWithFormat:@"StageSelect-%d(Locked)",stage]];
         
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Stage Locked!"
-                                                        message:@"Complete all levels in previous stage to unlock the stage"
-                                                       delegate:nil
-                                              cancelButtonTitle:@"OK"
-                                              otherButtonTitles:nil];
+        NSString *featureID = nil;
+        if(stage == 2)
+            featureID = kTimedMode;
+        else if(stage == 3)
+            featureID = kAdvancedMode;
         
-        [alert show];
+        if([MKStoreManager isFeaturePurchased:featureID])
+        {
+            self.currentStage = sender.tag;
+            return YES;
+        }
+        else
+        {
+            [self purchaseALert:stage];
+        }
     }
     
     return NO;
@@ -103,11 +177,9 @@
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    UIButton *button = (UIButton*)sender;
-    
     KKLevelSelectViewController *nextVC = (KKLevelSelectViewController *)[segue destinationViewController];
     if([nextVC respondsToSelector:@selector(setCurrentStage:)])
-        nextVC.currentStage = button.tag;
+        nextVC.currentStage = self.currentStage;
 }
 
 - (void)didReceiveMemoryWarning
