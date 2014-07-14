@@ -64,9 +64,11 @@
 
 - (IBAction)handleSupportBtn:(id)sender
 {
+#ifdef ENABLE_USERVOICE
     UVConfig *config = [UVConfig configWithSite:@"chandanshetty01.uservoice.com"];
     [UserVoice initialize:config];
     [UserVoice presentUserVoiceInterfaceForParentViewController:self];
+#endif
 }
 
 -(void)purchaseALert:(NSInteger)stageID
