@@ -8,11 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import "KKGameConfigManager.h"
+#import "iRate.h"
 
 #define APP_DELEGATE (AppDelegate *)[[UIApplication sharedApplication] delegate]
 
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate,iRateDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 @property (strong, nonatomic,readonly) KKGameConfigManager *configuration;

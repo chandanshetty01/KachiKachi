@@ -177,8 +177,8 @@
 - (IBAction)handleShareButton:(id)sender {
     
     // Fill out the email body text
-    NSString *emailBody = [NSString stringWithFormat:@"Check out new game Kachi Kachi %@!",APP_URL];
-    NSString *emailSub = @"Try KACHI KACHI its Awesome!";
+    NSString *emailBody = [NSString stringWithFormat:NSLocalizedString(@"TELL_A_FRIEND_MSG", nil),APP_URL];
+    NSString *emailSub = NSLocalizedString(@"TELL_A_FRIEND_TITLE", nil);
     
     [[KKMailComposerManager sharedManager] displayMailComposerSheet:self
                                                        toRecipients:nil

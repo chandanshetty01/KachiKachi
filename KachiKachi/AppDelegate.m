@@ -29,6 +29,9 @@
     _configuration = [[KKGameConfigManager alloc] init];
     _navigationController = (UINavigationController*)[self.window rootViewController];
     
+    //enable preview mode
+    [iRate sharedInstance].delegate = self;
+    
     return YES;
 }
 							
@@ -58,5 +61,38 @@
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
+#pragma mark -iRate delegate - 
+
+- (void)iRateCouldNotConnectToAppStore:(NSError *)error
+{
+    [Flurry logEvent:@"Rate-ConnectionError"];
+}
+
+- (void)iRateDidPromptForRating
+{
+    [Flurry logEvent:@"Rate-Prompted"];
+}
+
+- (void)iRateUserDidAttemptToRateApp
+{
+    [Flurry logEvent:@"Rate-AttemptToRate"];
+}
+
+- (void)iRateUserDidDeclineToRateApp
+{
+    [Flurry logEvent:@"Rate-Declined"];
+}
+
+- (void)iRateUserDidRequestReminderToRateApp
+{
+    [Flurry logEvent:@"Rate-RemindMeLater"];
+}
+
+- (void)iRateDidOpenAppStore
+{
+    [Flurry logEvent:@"Rate-OpenAppStore"];
+}
+
 
 @end
