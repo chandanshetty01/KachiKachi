@@ -1,0 +1,34 @@
+/* 
+  Localizable.strings
+  KachiKachi
+
+  Created by Chandan on 08/08/2013.
+  Copyright (c) 2014 Chanddan. All rights reserved.
+*/
+
+"PLAY_NEXT_LEVEL" = "Play next level";
+"PLAY_NEXT_STAGE" = "Play next Stage";
+"CONGRATS_STAGE_COMPLETION" = "Congrats, You completed all the levels in this stage!";
+"CONGRATS_LEVEL_COMPLETION" = "Congrats, You completed the level!";
+
+"FACEBOOK_SHARE" = "Share in Facebook";
+"TWEET" = "Tweet";
+
+"GAME_OVER" = "Game Over";
+"GAME_OVER_MSG" = "You haven't selected the top item!";
+"GAME_OVER_MSG_TIME" = "You ran out of TIME!";
+
+"LIFE" = "LIFE: %d";
+
+"FB_SHARE_MSG" = "Check out KachiKachi, I have just completed level %@ in %@ mode";
+"FB_NOT_CONFIGURED_TITLE" = "Facebook not configured";
+"FB_NOT_CONFIGURED_MSG" = "Please check whether Facebook account is enabled in settings";
+
+"TWITTER_SHARE_MSG" = "Check out KachiKachi, I have just completed level %@ in %@ mode";
+"TWITTER_NOT_CONFIGURED_TITLE" = "Twitter not configured";
+"TWITTER_NOT_CONFIGURED_MSG" = "Please check whether Twitter account is enabled in settings";
+
+"GAME_WON" = "Game Won!";
+
+"UNLOCK_STAGE_TITLE" = "Unlock Stage!";
+"UNLOCK_STAGE" = "Complete all previous levels to unlock this stage or unlock by purchasing package(REMOVE ADS + UNLOCK STAGE) with %@";

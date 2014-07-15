@@ -74,8 +74,8 @@
 -(void)purchaseALert:(NSInteger)stageID
 {
     NSString *money = nil;
-    NSString *msg = [NSString stringWithFormat:@"Complete all previous levels to unlock this stage or unlock by purchasing package(REMOVE ADS + UNLOCK STAGE) with %@",money];
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Unlock Stage!"
+    NSString *msg = [NSString stringWithFormat:NSLocalizedString(@"UNLOCK_STAGE", nil),money];
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"UNLOCK_STAGE_TITLE", nil)
                                                     message:msg
                                                    delegate:self
                                           cancelButtonTitle:@"OK"

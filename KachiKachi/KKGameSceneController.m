@@ -251,7 +251,7 @@ typedef void (^completionBlk)(BOOL);
 #ifdef DEVELOPMENT_MODE
     return false;
 #endif
-    if([self noOfObjectsToBePicked] <= 1)
+    if([self noOfObjectsToBePicked] <= 2)
         return TRUE;
     return FALSE;
 }
@@ -282,7 +282,7 @@ typedef void (^completionBlk)(BOOL);
 
 -(void)updateUI
 {
-    self.lifeLabel.text = [NSString stringWithFormat:@"LIFE: %d",self.noOfLifesRemaining];
+    self.lifeLabel.text = [NSString stringWithFormat:NSLocalizedString(@"LIFE", nil),self.noOfLifesRemaining];
 }
 
 -(void)saveLevelData
@@ -309,7 +309,7 @@ typedef void (^completionBlk)(BOOL);
     [self postFlurry:@"LOST"];
     
     NSString *msg = [data objectForKey:@"msg"];
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Game Over"
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"GAME_OVER", nil)
                                                     message:msg
                                                    delegate:self
                                           cancelButtonTitle:@"OK"
@@ -357,7 +357,7 @@ typedef void (^completionBlk)(BOOL);
             default:
                 break;
         }
-        NSString *msg = [NSString stringWithFormat:@"Check out KachiKachi, I have just completed level %@ in %@ mode",self.levelModel.name,mode];
+        NSString *msg = [NSString stringWithFormat:NSLocalizedString(@"FB_SHARE_MSG", nil),self.levelModel.name,mode];
         [fbController addImage:[UIImage imageNamed:@"share_icon.png"]];
         [fbController setInitialText:msg];
         [fbController addURL:[NSURL URLWithString:APP_URL]];
@@ -365,8 +365,8 @@ typedef void (^completionBlk)(BOOL);
         [self presentViewController:fbController animated:YES completion:nil];
     }
     else{
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Facebook not configured"
-                                                        message:@"Please check whether Facebook account is enabled in settings"
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"FB_NOT_CONFIGURED_TITLE", nil)
+                                                        message:NSLocalizedString(@"FB_NOT_CONFIGURED_MSG", nil)
                                                        delegate:nil
                                               cancelButtonTitle:@"Ok"
                                               otherButtonTitles:nil];
@@ -413,7 +413,7 @@ typedef void (^completionBlk)(BOOL);
             default:
                 break;
         }
-        NSString *msg = [NSString stringWithFormat:@"Check out KachiKachi, I have just completed level %@ in %@ mode",self.levelModel.name,mode];
+        NSString *msg = [NSString stringWithFormat:NSLocalizedString(@"TWITTER_SHARE_MSG", nil),self.levelModel.name,mode];
         [shareController addImage:[UIImage imageNamed:@"share_icon.png"]];
         [shareController setInitialText:msg];
         [shareController addURL:[NSURL URLWithString:APP_URL]];
@@ -421,8 +421,8 @@ typedef void (^completionBlk)(BOOL);
         [self presentViewController:shareController animated:YES completion:nil];
     }
     else{
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Twitter not configured"
-                                                        message:@"Please check whether Twitter account is enabled in settings"
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"TWITTER_NOT_CONFIGURED_TITLE", nil)
+                                                        message:NSLocalizedString(@"TWITTER_NOT_CONFIGURED_MSG", nil)
                                                        delegate:nil
                                               cancelButtonTitle:@"Ok"
                                               otherButtonTitles:nil];
@@ -432,14 +432,22 @@ typedef void (^completionBlk)(BOOL);
 
 -(void)showGameWonAlert
 {
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Game Won!"
-                                                    message:@"Congrats, You completed the level"
+    NSString *btnTitle = NSLocalizedString(@"PLAY_NEXT_LEVEL", nil);
+    NSString *msg = NSLocalizedString(@"CONGRATS_LEVEL_COMPLETION", nil);
+    if(self.currentLevel >= [[KKGameConfigManager sharedManager] totalNumberOfLevelsInStage:self.currentStage]-1){
+        msg = NSLocalizedString(@"CONGRATS_STAGE_COMPLETION", nil);
+        btnTitle = NSLocalizedString(@"PLAY_NEXT_STAGE", nil);
+    }
+    
+        
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"GAME_WON", nil)
+                                                    message:msg
                                                    delegate:self
-                                          cancelButtonTitle:@"Play next level"
+                                          cancelButtonTitle:btnTitle
                                           otherButtonTitles:nil];
     alert.tag = 100;
-    [alert addButtonWithTitle:@"Share in Facebook"];
-    [alert addButtonWithTitle:@"Tweet"];
+    [alert addButtonWithTitle:NSLocalizedString(@"FACEBOOK_SHARE", nil)];
+    [alert addButtonWithTitle:NSLocalizedString(@"TWEET", nil)];
     [alert show];
 }
 
@@ -447,12 +455,12 @@ typedef void (^completionBlk)(BOOL);
 {
     if([self isGameOver] && !_isGameFinished)
     {
-        NSDictionary *data = @{@"msg":@"You haven't selected the top item!"};
+        NSDictionary *data = @{@"msg":NSLocalizedString(@"GAME_OVER_MSG", nil)};
 
         BOOL canShowGameOverAlert = NO;
         if (self.gameMode == eTimerMode) {
             if(self.levelModel.duration <= 0){
-                data = @{@"msg":@"You ran out of TIME!"};
+                data = @{@"msg":NSLocalizedString(@"GAME_OVER_MSG_TIME", nil)};
                 canShowGameOverAlert = YES;
             }
         }

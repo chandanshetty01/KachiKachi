@@ -19,7 +19,7 @@
     return self;
 }
 
-
+/*
 -(void)showAnimation:(completionBlk)completionBlk
 {
     [UIView animateWithDuration:.2f animations:^{
@@ -44,5 +44,6 @@
         }];
     }];
 }
+ */
 
 @end
