@@ -45,13 +45,13 @@
         [picker setSubject:emailSubject];
         
         // Set up recipients
- 
-        [picker setToRecipients:toRecipients];
-        [picker setCcRecipients:ccRecipients];
+        if(toRecipients)
+            [picker setToRecipients:toRecipients];
+        if(ccRecipients)
+            [picker setCcRecipients:ccRecipients];
         
-        // Attach an image to the email
-        [picker addAttachmentData:attachmentData mimeType:attachmentMimeType fileName:attachmentFileName];
-        
+        if(attachmentData)
+            [picker addAttachmentData:attachmentData mimeType:attachmentMimeType fileName:attachmentFileName];
         // Fill out the email body text
         [picker setMessageBody:emailBody isHTML:NO];
         

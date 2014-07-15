@@ -11,6 +11,7 @@
 #import "SoundManager.h"
 #import "KKGameStateManager.h"
 #import "UserVoice.h"
+#import "KKMailComposerManager.h"
 
 @interface KKStageSelectController ()
 
@@ -172,6 +173,21 @@
     }
     
     return NO;
+}
+- (IBAction)handleShareButton:(id)sender {
+    
+    // Fill out the email body text
+    NSString *emailBody = [NSString stringWithFormat:@"Check out new game Kachi Kachi %@!",APP_URL];
+    NSString *emailSub = @"Try KACHI KACHI its Awesome!";
+    
+    [[KKMailComposerManager sharedManager] displayMailComposerSheet:self
+                                                       toRecipients:nil
+                                                       ccRecipients:nil
+                                                     attachmentData:nil
+                                                 attachmentMimeType:nil
+                                                 attachmentFileName:nil
+                                                          emailBody:emailBody
+                                                       emailSubject:emailSub];
 }
 
 #pragma mark - Navigation
