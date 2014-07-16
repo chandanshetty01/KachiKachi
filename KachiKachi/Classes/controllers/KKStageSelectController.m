@@ -145,13 +145,13 @@
     BOOL isLocked = [[KKGameStateManager sharedManager] isStageLocked:stage];
     if(!isLocked)
     {
-        [Flurry logEvent:[NSString stringWithFormat:@"StageSelect-%d(Selected)",stage]];
+        [Flurry logEvent:[NSString stringWithFormat:@"StageSelect-%ld(Selected)",(long)stage]];
         self.currentStage = sender.tag;
         return YES;
     }
     else
     {
-        [Flurry logEvent:[NSString stringWithFormat:@"StageSelect-%d(Locked)",stage]];
+        [Flurry logEvent:[NSString stringWithFormat:@"StageSelect-%ld(Locked)",(long)stage]];
         
         NSString *featureID = nil;
         if(stage == 2)

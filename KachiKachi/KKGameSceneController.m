@@ -66,7 +66,7 @@ typedef void (^completionBlk)(BOOL);
     
     self.currentLevel = [[KKGameStateManager sharedManager] currentLevelNumber];
     self.currentStage = [[KKGameStateManager sharedManager] currentStageNumber];
-    self.gameMode = [[KKGameConfigManager sharedManager] gameModeForLevel:self.currentLevel stage:self.currentStage];
+    self.gameMode = (EGAMEMODE)[[KKGameConfigManager sharedManager] gameModeForLevel:self.currentLevel stage:self.currentStage];
     
     _isGameFinished = FALSE;
     self.noOfLifesRemaining = self.levelModel.life;
@@ -123,7 +123,7 @@ typedef void (^completionBlk)(BOOL);
 
 -(void)updateTimer:(NSInteger)remainingTime
 {
-    NSString *time = [NSString stringWithFormat:@"%d",remainingTime];
+    NSString *time = [NSString stringWithFormat:@"%ld",(long)remainingTime];
     [self.timerLabel setText:time];
 }
 
@@ -151,7 +151,7 @@ typedef void (^completionBlk)(BOOL);
     [levelInfo setObject:status forKey:@"status"];
     [levelInfo setObject:[NSNumber numberWithInt:self.levelModel.life] forKey:@"remaining_life"];
     
-    NSString *key = [NSString stringWithFormat:@"Level(%@)Stage(%d)",self.levelModel.name,self.levelModel.stageID];
+    NSString *key = [NSString stringWithFormat:@"Level(%@)Stage(%ld)",self.levelModel.name,(long)self.levelModel.stageID];
     [Flurry logEvent:key withParameters:levelInfo];
 }
 
@@ -236,7 +236,7 @@ typedef void (^completionBlk)(BOOL);
     return gameOver;
 }
 
--(BOOL)noOfObjectsToBePicked
+-(NSInteger)noOfObjectsToBePicked
 {
     __block int count = 0;
     [self.elements enumerateObjectsUsingBlock:^(TTBase *obj, NSUInteger idx, BOOL *stop) {
@@ -743,7 +743,7 @@ typedef void (^completionBlk)(BOOL);
     
     // Fill out the email body text
     NSString *emailBody = @"Hi, \n\n Check out new level data! \n\n\nRegards, \nKachi-Kachi";
-    NSString *emailSub = [NSString stringWithFormat:@"KACHI KACHI: Level %d Stage %d",self.currentLevel,self.currentStage];
+    NSString *emailSub = [NSString stringWithFormat:@"KACHI KACHI: Level %ld Stage %ld",(long)self.currentLevel,(long)self.currentStage];
     
     NSArray *toRecipients = [NSArray arrayWithObject:@"chandanshetty01@gmail.com"];
     NSArray *ccRecipients = [NSArray arrayWithObjects:@"26anil.kushwaha@gmail.com", @"ashishpra.pra@gmail.com", nil];
