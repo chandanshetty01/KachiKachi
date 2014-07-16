@@ -187,11 +187,15 @@
 
 -(void)save
 {
-    [[NSUserDefaults standardUserDefaults] setObject:_savedGameData forKey:kKKRootDictionary];
-    [[NSUserDefaults standardUserDefaults] synchronize];
-    
+    dispatch_async(dispatch_get_global_queue( DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        [[NSUserDefaults standardUserDefaults] setObject:_savedGameData forKey:kKKRootDictionary];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+    });
+        
+#ifdef DEVELOPMENT_MODE
     //test code
     [_savedGameData writeToFile:@"/Users/chandanshettysp/Desktop/kachikachi.plist" atomically:YES];
+#endif
 }
 
 -(void)load
