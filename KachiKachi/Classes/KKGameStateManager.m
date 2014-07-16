@@ -51,8 +51,8 @@
 
 -(void)setCurrentLevel:(NSInteger)currentLevel andStage:(NSInteger)stage
 {
-    [self.savedGameData setObject:[NSString stringWithFormat:@"%d",currentLevel] forKey:kKKCurrentLevel];
-    [self.savedGameData setObject:[NSString stringWithFormat:@"%d",stage] forKey:kKKCurrentStage];
+    [self.savedGameData setObject:[NSString stringWithFormat:@"%ld",(long)currentLevel] forKey:kKKCurrentLevel];
+    [self.savedGameData setObject:[NSString stringWithFormat:@"%ld",(long)stage] forKey:kKKCurrentStage];
 }
 
 -(NSInteger)currentLevelNumber
@@ -67,12 +67,12 @@
 
 -(void)setRemainingLife:(NSInteger)life
 {
-    [self.savedGameData setObject:[NSString stringWithFormat:@"%d",life] forKey:kKKCurrentLife];
+    [self.savedGameData setObject:[NSString stringWithFormat:@"%ld",(long)life] forKey:kKKCurrentLife];
 }
 
 -(NSMutableDictionary*)stageDictionary:(NSInteger)stage
 {
-    NSString *key = [NSString stringWithFormat:@"stage%d",stage];
+    NSString *key = [NSString stringWithFormat:@"stage%ld",(long)stage];
     NSMutableDictionary *stageDict = [self.savedGameData objectForKey:key];
     if(stageDict == nil){
         stageDict = [NSMutableDictionary dictionary];
@@ -100,7 +100,7 @@
 -(NSMutableDictionary*)levelDictionary:(NSInteger)level stage:(NSInteger)stage
 {
     NSMutableDictionary *levelDict = nil;
-    NSString *key = [NSString stringWithFormat:@"level%d",level];
+    NSString *key = [NSString stringWithFormat:@"level%ld",(long)level];
     NSMutableDictionary *levelsDict = [self levelsDictionary:stage];
     if(levelsDict){
         levelDict = [levelsDict objectForKey:key];
@@ -171,7 +171,7 @@
 {
     NSMutableDictionary *levelsDict = [self levelsDictionary:stage];
     if (levelsDict) {
-        [levelsDict setObject:data forKey:[NSString stringWithFormat:@"level%d",level]];
+        [levelsDict setObject:data forKey:[NSString stringWithFormat:@"level%ld",(long)level]];
     }
 }
 
@@ -180,7 +180,7 @@
     NSMutableDictionary *levelDict = nil;
     NSMutableDictionary *levelsDict = [self levelsDictionary:stage];
     if(levelsDict){
-        levelDict = [levelsDict objectForKey:[NSString stringWithFormat:@"level%d",level]];
+        levelDict = [levelsDict objectForKey:[NSString stringWithFormat:@"level%ld",(long)level]];
     }
     return levelDict;
 }

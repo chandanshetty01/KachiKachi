@@ -48,12 +48,12 @@
         [dict setObject:self.baskets forKey:@"baskets"];
     if(self.backgroundImage)
         [dict setObject:self.backgroundImage forKey:@"background"];
-    [dict setObject:[NSString stringWithFormat:@"%d",self.life] forKey:@"life"];
+    [dict setObject:[NSString stringWithFormat:@"%ld",(long)self.life] forKey:@"life"];
     [dict setObject:[NSNumber numberWithBool:self.isLevelCompleted] forKey:@"isLevelCompleted"];
     [dict setObject:[NSNumber numberWithBool:self.isLevelUnlocked] forKey:@"isLevelUnlocked"];
-    [dict setObject:[NSString stringWithFormat:@"%d",self.levelID] forKey:@"ID"];
+    [dict setObject:[NSString stringWithFormat:@"%ld",(long)self.levelID] forKey:@"ID"];
     [dict setObject:self.menuIconImage forKey:@"menuImage"];
-    [dict setObject:[NSString stringWithFormat:@"%d",self.duration] forKey:@"duration"];
+    [dict setObject:[NSString stringWithFormat:@"%ld",(long)self.duration] forKey:@"duration"];
     [dict setObject:[NSString stringWithFormat:@"%d",self.gameMode] forKey:@"gameMode"];
     [dict setObject:self.name forKey:@"name"];
 

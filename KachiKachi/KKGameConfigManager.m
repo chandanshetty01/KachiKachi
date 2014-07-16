@@ -48,7 +48,7 @@ const NSString *kNoOfItems = @"noOfItems";
         _configuration = (NSDictionary *)[NSPropertyListSerialization propertyListFromData:plistXML mutabilityOption:NSPropertyListMutableContainersAndLeaves format:&plistFormat errorDescription:&strerrorDesc];
         if (!_configuration)
         {
-            NSLog(@"Error reading plist: %@, format: %d", strerrorDesc, plistFormat);
+            NSLog(@"Error reading plist: %@, format: %lu", strerrorDesc, plistFormat);
         }
     }
     return self;
@@ -62,7 +62,7 @@ const NSString *kNoOfItems = @"noOfItems";
 -(NSMutableDictionary*)stageWithID:(NSInteger)stageID
 {
     NSMutableDictionary *stage = nil;
-    stage = [_configuration objectForKey:[NSString stringWithFormat:@"stage%d",stageID]];
+    stage = [_configuration objectForKey:[NSString stringWithFormat:@"stage%ld",(long)stageID]];
     return stage;
 }
 
@@ -117,7 +117,7 @@ const NSString *kNoOfItems = @"noOfItems";
     NSMutableDictionary *levels = [self getAllLevels:stageID];
         
     if(levels){
-        level = [levels objectForKey:[NSString stringWithFormat:@"level%d",levelID]];
+        level = [levels objectForKey:[NSString stringWithFormat:@"level%ld",(long)levelID]];
     }
     return level;
 }
