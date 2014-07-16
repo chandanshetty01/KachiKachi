@@ -66,6 +66,7 @@
     [group setAnimations:[NSArray arrayWithObjects:pathAnimation, nil]];
     group.duration = 0.5f;
     group.delegate = self;
+    self.layer.position = endPoint;
     [self.layer addAnimation:group forKey:@"savingAnimation"];
 }
 

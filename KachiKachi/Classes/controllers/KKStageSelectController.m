@@ -138,6 +138,7 @@
 - (BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(UIButton*)sender
 {
 #ifdef ENABLE_ALL_LEVELS
+    self.currentStage = sender.tag;
     return YES;
 #endif
     
