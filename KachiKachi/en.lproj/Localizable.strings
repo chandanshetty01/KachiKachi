@@ -15,16 +15,17 @@
 "TWEET" = "Tweet";
 
 "GAME_OVER" = "Game Over";
-"GAME_OVER_MSG" = "You haven't selected the top item!";
+"GAME_OVER_MSG" = "You ran out of LIFE";
 "GAME_OVER_MSG_TIME" = "You have ran out of TIME!";
 
-"LIFE" = "LIFE: %d";
+"LIFE" = "LIFE REMAINING: %d";
+"TIME" = "TIME REMAINING: %d";
 
 "FB_SHARE_MSG" = "Check out KachiKachi, I have just completed level %@ in %@ mode";
 "FB_NOT_CONFIGURED_TITLE" = "Facebook is not configured";
 "FB_NOT_CONFIGURED_MSG" = "Please check whether Facebook account is enabled in settings";
 
-"TWITTER_SHARE_MSG" = "Check out KachiKachi, I have just completed level %@ in %@ mode";
+"TWITTER_SHARE_MSG" = "Check out #KachiKachi, I have just completed level %@ in %@ mode";
 "TWITTER_NOT_CONFIGURED_TITLE" = "Twitter is not configured";
 "TWITTER_NOT_CONFIGURED_MSG" = "Please check whether Twitter account is enabled in settings";
 
@@ -35,3 +36,9 @@
 
 "TELL_A_FRIEND_MSG" = "Check out our new game Kachi Kachi %@!";
 "TELL_A_FRIEND_TITLE" = "Try KACHI KACHI its Awesome!";
+
+"HOW_TO_PLAY" = "How to play!";
+"TUTORIAL_1" = "Pick only the top object otherwise you will lose a LIFE!, currently you have 4 LIFE Remaining";
+"TUTORIAL_2" = "Keep an eye on TIME REMAINING, pick all the objects before TIME ran out";
+
+

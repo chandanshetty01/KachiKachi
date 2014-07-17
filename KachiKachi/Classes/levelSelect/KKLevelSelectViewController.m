@@ -36,8 +36,7 @@
     
     NSMutableDictionary *levels = [[KKGameStateManager sharedManager] levelsDictionary:self.currentStage];
     
-    NSArray *keys = [levels allKeys];
-    keys = [levels keysSortedByValueUsingComparator: ^(NSDictionary *obj1, NSDictionary *obj2) {
+    NSArray *keys = [levels keysSortedByValueUsingComparator: ^(NSDictionary *obj1, NSDictionary *obj2) {
         int val1 = [[obj1 objectForKey:@"ID"] intValue];
         int val2 = [[obj2 objectForKey:@"ID"] intValue];
         if(val1 > val2)

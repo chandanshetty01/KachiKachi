@@ -26,6 +26,12 @@
 #define LEVEL_INFO_LIFE @"levelLife"
 #define LEVEL_WON @"levelWon"
 
+typedef enum {
+    eGameWonAlertID = 100,
+    eGameLostAlertID,
+    eTutorialAlertID
+}ALERT_ID;
+
 @interface KKGameSceneController ()
 
 @property(nonatomic,strong) NSMutableArray *deletedElements;
@@ -73,9 +79,11 @@ typedef void (^completionBlk)(BOOL);
     self.duration = self.levelModel.duration;
     
     if(self.gameMode == eTimerMode){
+        [self showTutorial:2];
         [self updateTimer:self.levelModel.duration];
     }
     else{
+        [self showTutorial:1];
     }
     
     [self addElements];
@@ -98,11 +106,46 @@ typedef void (^completionBlk)(BOOL);
     [self updateUI];
     
     if(self.gameMode == eTimerMode){
-        [self startTimer];
     }
     else{
         self.timerLabel.hidden = YES;
     }
+}
+
+-(void)showTutorial : (NSInteger)tutorialID
+{
+    if(tutorialID == 1){
+        BOOL isTutorialShown = [[[NSUserDefaults standardUserDefaults] objectForKey:@"TUTORIAL_1"] boolValue];
+        if(!isTutorialShown){
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"HOW_TO_PLAY", nil)
+                                                            message:NSLocalizedString(@"TUTORIAL_1", nil)
+                                                           delegate:nil
+                                                  cancelButtonTitle:@"OK"
+                                                  otherButtonTitles:nil];
+            
+            [alert show];
+            [[NSUserDefaults standardUserDefaults] setObject:@YES forKey:@"TUTORIAL_1"];
+            [[NSUserDefaults standardUserDefaults] synchronize];
+        }
+    }
+    else if(tutorialID == 2){
+        BOOL isTutorialShown = [[[NSUserDefaults standardUserDefaults] objectForKey:@"TUTORIAL_2"] boolValue];
+        if(!isTutorialShown){
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"HOW_TO_PLAY", nil)
+                                                            message:NSLocalizedString(@"TUTORIAL_2", nil)
+                                                           delegate:self
+                                                  cancelButtonTitle:@"OK"
+                                                  otherButtonTitles:nil];
+            alert.tag = eTutorialAlertID;
+            [alert show];
+            [[NSUserDefaults standardUserDefaults] setObject:@YES forKey:@"TUTORIAL_2"];
+            [[NSUserDefaults standardUserDefaults] synchronize];
+        }
+        else{
+            [self startTimer];
+        }
+    }
+
 }
 
 -(void)startTimer
@@ -123,7 +166,7 @@ typedef void (^completionBlk)(BOOL);
 
 -(void)updateTimer:(NSInteger)remainingTime
 {
-    NSString *time = [NSString stringWithFormat:@"%ld",(long)remainingTime];
+    NSString *time = [NSString stringWithFormat:NSLocalizedString(@"TIME", @"time remainging %d"),(long)remainingTime];
     [self.timerLabel setText:time];
 }
 
@@ -314,7 +357,7 @@ typedef void (^completionBlk)(BOOL);
                                                    delegate:self
                                           cancelButtonTitle:@"OK"
                                           otherButtonTitles:nil];
-    
+    alert.tag = eGameLostAlertID;
     [alert show];
 }
 
@@ -445,7 +488,7 @@ typedef void (^completionBlk)(BOOL);
                                                    delegate:self
                                           cancelButtonTitle:btnTitle
                                           otherButtonTitles:nil];
-    alert.tag = 100;
+    alert.tag = eGameWonAlertID;
     [alert addButtonWithTitle:NSLocalizedString(@"FACEBOOK_SHARE", nil)];
     [alert addButtonWithTitle:NSLocalizedString(@"TWEET", nil)];
     [alert show];
@@ -624,30 +667,42 @@ typedef void (^completionBlk)(BOOL);
 
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
 {
-    if(alertView.tag == 100)
-    {
-        switch (buttonIndex) {
-            case 0:
-            {
-                _isGameFinished = NO;
-                [self moveToLevelSelectScene];
+    switch (alertView.tag) {
+        case eGameWonAlertID:
+        {
+            switch (buttonIndex) {
+                case 0:
+                {
+                    _isGameFinished = NO;
+                    [self moveToLevelSelectScene];
+                }
+                    break;
+                case 1:
+                    [self facebookShare];
+                    break;
+                case 2:
+                    [self twitterShare];
+                    break;
+                    
+                default:
+                    break;
             }
-                break;
-            case 1:
-                [self facebookShare];
-                break;
-            case 2:
-                [self twitterShare];
-                break;
-                
-            default:
-                break;
         }
-    }
-    else
-    {
-        _isGameFinished = NO;
-        [self moveToLevelSelectScene];
+            break;
+        case eGameLostAlertID:
+        {
+            _isGameFinished = NO;
+            [self moveToLevelSelectScene];
+        }
+            break;
+        case eTutorialAlertID:
+        {
+            [self startTimer];
+        }
+            break;
+            
+        default:
+            break;
     }
 }
 

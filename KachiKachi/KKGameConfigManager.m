@@ -48,7 +48,7 @@ const NSString *kNoOfItems = @"noOfItems";
         _configuration = (NSDictionary *)[NSPropertyListSerialization propertyListFromData:plistXML mutabilityOption:NSPropertyListMutableContainersAndLeaves format:&plistFormat errorDescription:&strerrorDesc];
         if (!_configuration)
         {
-            NSLog(@"Error reading plist: %@, format: %lu", strerrorDesc, plistFormat);
+            NSLog(@"Error reading plist: %@, format: %u", strerrorDesc, plistFormat);
         }
     }
     return self;
