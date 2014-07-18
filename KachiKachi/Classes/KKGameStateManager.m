@@ -203,9 +203,25 @@
     _savedGameData = [[NSUserDefaults standardUserDefaults] objectForKey:kKKRootDictionary];
 }
 
--(BOOL)isSoundEnabled
+-(BOOL)isMusicEnabled
 {
     NSNumber *isOn = [[NSUserDefaults standardUserDefaults] objectForKey:@"isSoundEnabled"];
+    if(isOn)
+        return [isOn boolValue];
+    else
+        return YES;
+}
+
+-(void)setMusicEnabled:(BOOL)value
+{
+    NSNumber *isOn = [NSNumber numberWithBool:value];
+    [[NSUserDefaults standardUserDefaults] setObject:isOn forKey:@"isSoundEnabled"];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+}
+
+-(BOOL)isSoundEnabled
+{
+    NSNumber *isOn = [[NSUserDefaults standardUserDefaults] objectForKey:@"isMusicEnabled"];
     if(isOn)
         return [isOn boolValue];
     else
@@ -215,7 +231,7 @@
 -(void)setSoundEnabled:(BOOL)value
 {
     NSNumber *isOn = [NSNumber numberWithBool:value];
-    [[NSUserDefaults standardUserDefaults] setObject:isOn forKey:@"isSoundEnabled"];
+    [[NSUserDefaults standardUserDefaults] setObject:isOn forKey:@"isMusicEnabled"];
     [[NSUserDefaults standardUserDefaults] synchronize];
 }
 

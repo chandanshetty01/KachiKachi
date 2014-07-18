@@ -24,6 +24,8 @@
 				<string>balloon_bg.png</string>
 				<key>life</key>
 				<real>4</real>
+				<key>sound</key>
+				<string>pencil.wav</string>
 				<key>elements</key>
 				<array>
 					<dict>
@@ -1757,6 +1759,8 @@
 				<string>balloon_bg.png</string>
 				<key>life</key>
 				<real>4</real>
+				<key>sound</key>
+				<string>balloon.wav</string>
 				<key>elements</key>
 				<array>
 					<dict>
@@ -2751,6 +2755,8 @@
 				<string>balloon_bg.png</string>
 				<key>life</key>
 				<real>4</real>
+				<key>sound</key>
+				<string>dvd.wav</string>
 				<key>original_elements</key>
 				<array>
 					<dict>
@@ -3994,6 +4000,8 @@
 				<false/>
 				<key>life</key>
 				<real>4</real>
+				<key>sound</key>
+				<string>bottle.wav</string>
 				<key>elements</key>
 				<array>
 					<dict>
@@ -5847,6 +5855,8 @@
 				<string>leaves_bg.png</string>
 				<key>life</key>
 				<real>4</real>
+				<key>sound</key>
+				<string>dvd.wav</string>
 				<key>elements</key>
 				<array>
 					<dict>
@@ -7167,6 +7177,8 @@
 				<string>disc_bg.png</string>
 				<key>life</key>
 				<real>4</real>
+				<key>sound</key>
+				<string>disc.wav</string>
 				<key>elements</key>
 				<array>
 					<dict>
@@ -8363,6 +8375,8 @@
 				</array>
 				<key>life</key>
 				<integer>4</integer>
+				<key>sound</key>
+				<string>fish.wav</string>
 				<key>elements</key>
 				<array>
 					<dict>
@@ -9717,6 +9731,8 @@
 				<string>choc_BG.png</string>
 				<key>life</key>
 				<real>4</real>
+				<key>sound</key>
+				<string>dvd.wav</string>
 				<key>elements</key>
 				<array>
 					<dict>
@@ -10965,6 +10981,8 @@
 				<false/>
 				<key>life</key>
 				<real>4</real>
+				<key>sound</key>
+				<string>dvd.wav</string>
 				<key>elements</key>
 				<array>
 					<dict>
@@ -12141,6 +12159,8 @@
 				<false/>
 				<key>life</key>
 				<real>4</real>
+				<key>sound</key>
+				<string>kite.wav</string>
 				<key>elements</key>
 				<array>
 					<dict>
@@ -13090,6 +13110,8 @@
 				<false/>
 				<key>life</key>
 				<real>4</real>
+				<key>sound</key>
+				<string>pencil.wav</string>
 				<key>elements</key>
 				<array>
 					<dict>
@@ -13792,6 +13814,8 @@
 				<false/>
 				<key>life</key>
 				<real>4</real>
+				<key>sound</key>
+				<string>pencil.wav</string>
 				<key>elements</key>
 				<array>
 					<dict>
@@ -14940,6 +14964,8 @@
 				<false/>
 				<key>life</key>
 				<real>4</real>
+				<key>sound</key>
+				<string>bottle.wav</string>
 				<key>baskets</key>
 				<array>
 					<dict>
@@ -17399,6 +17425,8 @@
 				<false/>
 				<key>life</key>
 				<real>4</real>
+				<key>sound</key>
+				<string>bird.wav</string>
 				<key>baskets</key>
 				<array>
 					<dict>
@@ -19785,6 +19813,8 @@
 				<false/>
 				<key>life</key>
 				<real>4</real>
+				<key>sound</key>
+				<string>candle.wav</string>
 				<key>baskets</key>
 				<array>
 					<dict>
@@ -21811,6 +21841,8 @@
 				<false/>
 				<key>life</key>
 				<real>4</real>
+				<key>sound</key>
+				<string>dvd.wav</string>
 				<key>baskets</key>
 				<array>
 					<dict>
@@ -24042,6 +24074,8 @@
 				<false/>
 				<key>life</key>
 				<real>4</real>
+				<key>sound</key>
+				<string>star.wav</string>
 				<key>baskets</key>
 				<array>
 					<dict>
@@ -26732,6 +26766,8 @@
 				<false/>
 				<key>life</key>
 				<real>4</real>
+				<key>sound</key>
+				<string>dvd.wav</string>
 				<key>baskets</key>
 				<array>
 					<dict>
@@ -29413,6 +29449,8 @@
 				<false/>
 				<key>life</key>
 				<real>4</real>
+				<key>sound</key>
+				<string>dvd.wav</string>
 				<key>baskets</key>
 				<array>
 					<dict>
@@ -31795,6 +31833,8 @@
 				</array>
 				<key>background</key>
 				<string>balloon_bg.png</string>
+				<key>sound</key>
+				<string>candle.wav</string>
 				<key>life</key>
 				<real>4</real>
 				<key>elements</key>
@@ -33269,6 +33309,8 @@
 				<false/>
 				<key>life</key>
 				<real>4</real>
+				<key>sound</key>
+				<string>key.wav</string>
 				<key>baskets</key>
 				<array>
 					<dict>
@@ -35952,6 +35994,8 @@
 				<string>1</string>
 				<key>name</key>
 				<string>pencil</string>
+				<key>sound</key>
+				<string>pencil.wav</string>
 				<key>menuImage</key>
 				<string>Menu_2.png</string>
 				<key>isLevelCompleted</key>
@@ -37245,6 +37289,8 @@
 				<string>2</string>
 				<key>name</key>
 				<string>balloon</string>
+				<key>sound</key>
+				<string>balloon.wav</string>
 				<key>menuImage</key>
 				<string>Menu_3.png</string>
 				<key>isLevelCompleted</key>
@@ -39367,6 +39413,8 @@
 				<string>3</string>
 				<key>name</key>
 				<string>apple</string>
+				<key>sound</key>
+				<string>dvd.wav</string>
 				<key>menuImage</key>
 				<string>Menu_5.png</string>
 				<key>isLevelCompleted</key>
@@ -41332,6 +41380,8 @@
 				<string>4</string>
 				<key>name</key>
 				<string>bottle</string>
+				<key>sound</key>
+				<string>bottle.wav</string>
 				<key>menuImage</key>
 				<string>Menu_24.png</string>
 				<key>background</key>
@@ -43362,6 +43412,8 @@
 				<string>5</string>
 				<key>name</key>
 				<string>leaves</string>
+				<key>sound</key>
+				<string>dvd.wav</string>
 				<key>menuImage</key>
 				<string>Menu_1.png</string>
 				<key>isLevelCompleted</key>
@@ -45595,6 +45647,8 @@
 				<string>6</string>
 				<key>name</key>
 				<string>disc</string>
+				<key>sound</key>
+				<string>disc.wav</string>
 				<key>menuImage</key>
 				<string>Menu_6.png</string>
 				<key>isLevelCompleted</key>
@@ -47638,6 +47692,8 @@
 				<string>7</string>
 				<key>name</key>
 				<string>fish</string>
+				<key>sound</key>
+				<string>fish.wav</string>
 				<key>menuImage</key>
 				<string>Menu_7.png</string>
 				<key>background</key>
@@ -49667,6 +49723,8 @@
 				<string>8</string>
 				<key>name</key>
 				<string>choclates</string>
+				<key>sound</key>
+				<string>dvd.wav</string>
 				<key>menuImage</key>
 				<string>Menu_8.png</string>
 				<key>isLevelCompleted</key>
@@ -52147,6 +52205,8 @@
 				<string>9</string>
 				<key>name</key>
 				<string>icecream</string>
+				<key>sound</key>
+				<string>dvd.wav</string>
 				<key>menuImage</key>
 				<string>Menu_9.png</string>
 				<key>background</key>
@@ -54226,6 +54286,8 @@
 				<string>10</string>
 				<key>name</key>
 				<string>kites</string>
+				<key>sound</key>
+				<string>kite.wav</string>
 				<key>menuImage</key>
 				<string>Menu_10.png</string>
 				<key>background</key>
@@ -55774,6 +55836,8 @@
 				<string>11</string>
 				<key>name</key>
 				<string>pen</string>
+				<key>sound</key>
+				<string>pencil.wav</string>
 				<key>menuImage</key>
 				<string>Menu_20.png</string>
 				<key>background</key>
@@ -57123,6 +57187,8 @@
 				<string>12</string>
 				<key>name</key>
 				<string>carrot</string>
+				<key>sound</key>
+				<string>pencil.wav</string>
 				<key>menuImage</key>
 				<string>Menu_15.png</string>
 				<key>background</key>
@@ -59181,6 +59247,8 @@
 				<string>13</string>
 				<key>name</key>
 				<string>ball</string>
+				<key>sound</key>
+				<string>bottle.wav</string>
 				<key>menuImage</key>
 				<string>Menu_13.png</string>
 				<key>background</key>
@@ -61672,6 +61740,8 @@
 				<string>14</string>
 				<key>name</key>
 				<string>bird</string>
+				<key>sound</key>
+				<string>bird.wav</string>
 				<key>menuImage</key>
 				<string>Menu_14.png</string>
 				<key>background</key>
@@ -63848,6 +63918,8 @@
 				<string>15</string>
 				<key>name</key>
 				<string>candle</string>
+				<key>sound</key>
+				<string>candle.wav</string>
 				<key>menuImage</key>
 				<string>Menu_22.png</string>
 				<key>background</key>
@@ -65413,6 +65485,8 @@
 				<string>16</string>
 				<key>name</key>
 				<string>DVD</string>
+				<key>sound</key>
+				<string>dvd.wav</string>
 				<key>menuImage</key>
 				<string>Menu_16.png</string>
 				<key>background</key>
@@ -67557,6 +67631,8 @@
 				<string>Menu_17.png</string>
 				<key>name</key>
 				<string>stars</string>
+				<key>sound</key>
+				<string>star.wav</string>
 				<key>background</key>
 				<string>galaxy.png</string>
 				<key>isLevelCompleted</key>
@@ -70504,6 +70580,8 @@
 				<string>Menu_19.png</string>
 				<key>name</key>
 				<string>umbrella</string>
+				<key>sound</key>
+				<string>dvd.wav</string>
 				<key>background</key>
 				<string>umbrella_bg.png</string>
 				<key>isLevelCompleted</key>
@@ -72755,6 +72833,8 @@
 				<string>19</string>
 				<key>name</key>
 				<string>toothbrush</string>
+				<key>sound</key>
+				<string>dvd.wav</string>
 				<key>menuImage</key>
 				<string>Menu_18.png</string>
 				<key>background</key>
@@ -74880,6 +74960,8 @@
 				<string>20</string>
 				<key>name</key>
 				<string>flowers</string>
+				<key>sound</key>
+				<string>candle.wav</string>
 				<key>menuImage</key>
 				<string>Menu_4.png</string>
 				<key>isLevelCompleted</key>
@@ -77000,6 +77082,8 @@
 				<string>21</string>
 				<key>name</key>
 				<string>keys</string>
+				<key>sound</key>
+				<string>key.wav</string>
 				<key>menuImage</key>
 				<string>Menu_23.png</string>
 				<key>background</key>
@@ -79492,12 +79576,12 @@
 			</dict>
 		</dict>
 		<key>locked</key>
-		<true/>
+		<false/>
 	</dict>
 	<key>stage3</key>
 	<dict>
 		<key>locked</key>
-		<true/>
+		<false/>
 		<key>levels</key>
 		<dict>
 			<key>level1</key>
@@ -79506,6 +79590,8 @@
 				<string>1</string>
 				<key>name</key>
 				<string>pencil</string>
+				<key>sound</key>
+				<string>pencil.wav</string>
 				<key>menuImage</key>
 				<string>Menu_2.png</string>
 				<key>isLevelCompleted</key>
@@ -81771,6 +81857,8 @@
 				<string>2</string>
 				<key>name</key>
 				<string>balloon</string>
+				<key>sound</key>
+				<string>balloon.wav</string>
 				<key>menuImage</key>
 				<string>Menu_3.png</string>
 				<key>isLevelCompleted</key>
@@ -85166,6 +85254,8 @@
 				<string>3</string>
 				<key>name</key>
 				<string>apple</string>
+				<key>sound</key>
+				<string>dvd.wav</string>
 				<key>menuImage</key>
 				<string>Menu_5.png</string>
 				<key>isLevelCompleted</key>
@@ -87389,6 +87479,8 @@
 				<string>4</string>
 				<key>name</key>
 				<string>bottle</string>
+				<key>sound</key>
+				<string>bottle.wav</string>
 				<key>menuImage</key>
 				<string>Menu_24.png</string>
 				<key>background</key>
@@ -89631,6 +89723,8 @@
 				<string>5</string>
 				<key>name</key>
 				<string>leaves</string>
+				<key>sound</key>
+				<string>dvd.wav</string>
 				<key>menuImage</key>
 				<string>Menu_1.png</string>
 				<key>isLevelCompleted</key>
@@ -92376,6 +92470,8 @@
 				<string>6</string>
 				<key>name</key>
 				<string>disc</string>
+				<key>sound</key>
+				<string>disc.wav</string>
 				<key>menuImage</key>
 				<string>Menu_6.png</string>
 				<key>isLevelCompleted</key>
@@ -95199,6 +95295,8 @@
 				<string>7</string>
 				<key>name</key>
 				<string>fish</string>
+				<key>sound</key>
+				<string>fish.wav</string>
 				<key>menuImage</key>
 				<string>Menu_7.png</string>
 				<key>background</key>
@@ -97696,6 +97794,8 @@
 				<string>8</string>
 				<key>name</key>
 				<string>choclates</string>
+				<key>sound</key>
+				<string>dvd.wav</string>
 				<key>menuImage</key>
 				<string>Menu_8.png</string>
 				<key>isLevelCompleted</key>
@@ -100545,6 +100645,8 @@
 				<string>9</string>
 				<key>name</key>
 				<string>icecream</string>
+				<key>sound</key>
+				<string>dvd.wav</string>
 				<key>menuImage</key>
 				<string>Menu_9.png</string>
 				<key>background</key>
@@ -103390,6 +103492,8 @@
 				<string>10</string>
 				<key>name</key>
 				<string>kites</string>
+				<key>sound</key>
+				<string>kite.wav</string>
 				<key>menuImage</key>
 				<string>Menu_10.png</string>
 				<key>background</key>
@@ -105749,6 +105853,8 @@
 				<string>11</string>
 				<key>name</key>
 				<string>pen</string>
+				<key>sound</key>
+				<string>pencil.wav</string>
 				<key>menuImage</key>
 				<string>Menu_20.png</string>
 				<key>background</key>
@@ -107588,6 +107694,8 @@
 				<string>12</string>
 				<key>name</key>
 				<string>carrot</string>
+				<key>sound</key>
+				<string>pencil.wav</string>
 				<key>menuImage</key>
 				<string>Menu_15.png</string>
 				<key>background</key>
@@ -110129,6 +110237,8 @@
 				<string>13</string>
 				<key>name</key>
 				<string>ball</string>
+				<key>sound</key>
+				<string>bottle.wav</string>
 				<key>menuImage</key>
 				<string>Menu_13.png</string>
 				<key>background</key>
@@ -113398,6 +113508,8 @@
 				<string>14</string>
 				<key>name</key>
 				<string>bird</string>
+				<key>sound</key>
+				<string>bird.wav</string>
 				<key>menuImage</key>
 				<string>Menu_14.png</string>
 				<key>background</key>
@@ -115952,6 +116064,8 @@
 				<string>15</string>
 				<key>name</key>
 				<string>candle</string>
+				<key>sound</key>
+				<string>candle.wav</string>
 				<key>menuImage</key>
 				<string>Menu_22.png</string>
 				<key>background</key>
@@ -118115,6 +118229,8 @@
 				<string>16</string>
 				<key>name</key>
 				<string>DVD</string>
+				<key>sound</key>
+				<string>dvd.wav</string>
 				<key>menuImage</key>
 				<string>Menu_16.png</string>
 				<key>background</key>
@@ -120572,6 +120688,8 @@
 				<string>Menu_17.png</string>
 				<key>name</key>
 				<string>stars</string>
+				<key>sound</key>
+				<string>star.wav</string>
 				<key>background</key>
 				<string>galaxy.png</string>
 				<key>isLevelCompleted</key>
@@ -124385,6 +124503,8 @@
 				<string>Menu_19.png</string>
 				<key>name</key>
 				<string>umbrella</string>
+				<key>sound</key>
+				<string>dvd.wav</string>
 				<key>background</key>
 				<string>umbrella_bg.png</string>
 				<key>isLevelCompleted</key>
@@ -128267,6 +128387,8 @@
 				<string>19</string>
 				<key>name</key>
 				<string>toothbrush</string>
+				<key>sound</key>
+				<string>dvd.wav</string>
 				<key>menuImage</key>
 				<string>Menu_18.png</string>
 				<key>background</key>
@@ -130717,6 +130839,8 @@
 				<string>20</string>
 				<key>name</key>
 				<string>flowers</string>
+				<key>sound</key>
+				<string>candle.wav</string>
 				<key>menuImage</key>
 				<string>Menu_4.png</string>
 				<key>isLevelCompleted</key>
@@ -133525,6 +133649,8 @@
 				<string>21</string>
 				<key>name</key>
 				<string>keys</string>
+				<key>sound</key>
+				<string>key.wav</string>
 				<key>menuImage</key>
 				<string>Menu_23.png</string>
 				<key>background</key>

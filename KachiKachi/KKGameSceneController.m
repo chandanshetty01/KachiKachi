@@ -18,7 +18,7 @@
 #import <Crashlytics/Crashlytics.h>
 #import <Social/Social.h>
 
-#define RANDOM_SEED() srandom(time(NULL))
+#define RANDOM_SEED() srandom((unsigned)time(NULL))
 #define RANDOM_INT(__MIN__, __MAX__) ((__MIN__) + random() % ((__MAX__+1) - (__MIN__)))
 #define RADIANS(degrees) ((degrees * M_PI) / 180.0)
 
@@ -102,7 +102,7 @@ typedef void (^completionBlk)(BOOL);
     
     [_switchBtn setOn:NO];
     
-    [[SoundManager sharedManager] playMusic:@"track2" looping:YES];
+    [[SoundManager sharedManager] playMusic:@"lovesong"];
     [self updateUI];
     
     if(self.gameMode == eTimerMode){
@@ -190,9 +190,9 @@ typedef void (^completionBlk)(BOOL);
 {
     NSMutableDictionary *levelInfo = [[NSMutableDictionary alloc] init];
     if(self.gameMode == eTimerMode)
-        [levelInfo setObject:[NSNumber numberWithInt:self.levelModel.duration] forKey:@"duration"];
+        [levelInfo setObject:[NSNumber numberWithInt:(int)self.levelModel.duration] forKey:@"duration"];
     [levelInfo setObject:status forKey:@"status"];
-    [levelInfo setObject:[NSNumber numberWithInt:self.levelModel.life] forKey:@"remaining_life"];
+    [levelInfo setObject:[NSNumber numberWithInt:(int)self.levelModel.life] forKey:@"remaining_life"];
     
     NSString *key = [NSString stringWithFormat:@"Level(%@)Stage(%ld)",self.levelModel.name,(long)self.levelModel.stageID];
     [Flurry logEvent:key withParameters:levelInfo];
@@ -349,6 +349,8 @@ typedef void (^completionBlk)(BOOL);
 
 -(void)showGameOverAlert:(NSDictionary*)data
 {
+    [[SoundManager sharedManager] playSound:@"wrong" looping:NO];
+
     [self postFlurry:@"LOST"];
     
     NSString *msg = [data objectForKey:@"msg"];
@@ -475,6 +477,8 @@ typedef void (^completionBlk)(BOOL);
 
 -(void)showGameWonAlert
 {
+    [[SoundManager sharedManager] playSound:@"won" looping:NO];
+
     NSString *btnTitle = NSLocalizedString(@"PLAY_NEXT_LEVEL", nil);
     NSString *msg = NSLocalizedString(@"CONGRATS_LEVEL_COMPLETION", nil);
     if(self.currentLevel >= [[KKGameConfigManager sharedManager] totalNumberOfLevelsInStage:self.currentStage]-1){
@@ -494,6 +498,11 @@ typedef void (^completionBlk)(BOOL);
     [alert show];
 }
 
+-(void)playSound:(NSString*)soundFile
+{
+    [[SoundManager sharedManager] playSound:soundFile looping:NO];
+}
+
 -(void)validateGamePlay:(completionBlk)block
 {
     if([self isGameOver] && !_isGameFinished)
@@ -511,7 +520,7 @@ typedef void (^completionBlk)(BOOL);
         self.noOfLifesRemaining--;
         self.levelModel.life = self.noOfLifesRemaining;
         [[KKGameStateManager sharedManager] setRemainingLife:self.noOfLifesRemaining];
-        [[SoundManager sharedManager] playSound:@"sound2" looping:NO];
+        [[SoundManager sharedManager] playSound:@"wrong" looping:NO];
         [self updateUI];
         
         if(self.noOfLifesRemaining <= 0){
@@ -535,16 +544,15 @@ typedef void (^completionBlk)(BOOL);
 
         [self unlockNextLevel];
         [self saveLevelData];
-        [[SoundManager sharedManager] playSound:@"sound2" looping:NO];
         [self stopTimer];
         [self showGameWonAlert];
         block(YES);
     }
     else if(_currentElement != nil)
     {
+        [self playSound:self.levelModel.soundfile];
 #ifndef DEVELOPMENT_MODE
         [self.deletedElements addObject:_currentElement];
-        [[SoundManager sharedManager] playSound:@"sound1" looping:NO];
         [self showElementDissapearAnimation:block];
 #endif
     }
@@ -627,7 +635,7 @@ typedef void (^completionBlk)(BOOL);
     UITouch *touch = [[event allTouches] anyObject];
     CGPoint touchLocation = [touch locationInView:self.view];
     
-    for (int i = [_elements count]-1; i >= 0; i--) {
+    for (int i = (int)[_elements count]-1; i >= 0; i--) {
         TTBase *element = (TTBase*)[_elements objectAtIndex:i];
         if([element canHandleTouch:touchLocation]){
             _currentElement = element;
@@ -667,6 +675,8 @@ typedef void (^completionBlk)(BOOL);
 
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
 {
+    [[SoundManager sharedManager] playSound:@"tap" looping:NO];
+
     switch (alertView.tag) {
         case eGameWonAlertID:
         {
@@ -715,6 +725,8 @@ typedef void (^completionBlk)(BOOL);
 
 - (IBAction)backButtonAction:(id)sender
 {
+    [[SoundManager sharedManager] playSound:@"tap" looping:NO];
+
     [self postFlurry:@"LEFT"];
     [self saveLevelData];
     AppDelegate *appdelegate = APP_DELEGATE;

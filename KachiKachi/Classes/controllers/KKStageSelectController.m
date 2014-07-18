@@ -33,19 +33,17 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    BOOL isOn = [[KKGameStateManager sharedManager] isSoundEnabled];
+    BOOL isOn = [[KKGameStateManager sharedManager] isMusicEnabled];
     [self.soundSwitch setOn:isOn];
     
     [self playMusic];
 }
 
-
-
 -(void)playMusic
 {
     [SoundManager sharedManager].allowsBackgroundMusic = YES;
     [[SoundManager sharedManager] prepareToPlay];
-    [[SoundManager sharedManager] playMusic:@"track1" looping:YES];
+    [[SoundManager sharedManager] playMusic:@"FunkGameLoop"];
 }
 
 -(void)stopMusic
@@ -55,7 +53,9 @@
 
 - (IBAction)handleSwitchBtn:(UISwitch*)sender
 {
-    [[KKGameStateManager sharedManager] setSoundEnabled:sender.isOn];
+    [[SoundManager sharedManager] playSound:@"tap" looping:NO];
+
+    [[KKGameStateManager sharedManager] setMusicEnabled:sender.isOn];
     
     if(sender.isOn)
         [self playMusic];
@@ -63,8 +63,16 @@
         [self stopMusic];
 }
 
+- (IBAction)handleSoundSwitchBtn:(UISwitch *)sender
+{
+    [[KKGameStateManager sharedManager] setSoundEnabled:sender.isOn];
+    
+    [[SoundManager sharedManager] playSound:@"tap" looping:NO];
+}
+
 - (IBAction)handleSupportBtn:(id)sender
 {
+    [[SoundManager sharedManager] playSound:@"tap" looping:NO];
     UVConfig *config = [UVConfig configWithSite:@"aismobileapps.uservoice.com"];
     [UserVoice initialize:config];
     [UserVoice presentUserVoiceInterfaceForParentViewController:self];
@@ -85,6 +93,8 @@
 
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
 {
+    [[SoundManager sharedManager] playSound:@"tap" looping:NO];
+
     if(alertView.tag == 2)
     {
         [self purchase:2];
@@ -115,6 +125,9 @@
          else if(stageID == 3){
              [self performSegueWithIdentifier:@"stage3Seague" sender:self];
          }
+         
+         [[SoundManager sharedManager] playSound:@"won" looping:NO];
+
          NSLog(@"Purchased: %@", purchasedFeature);
      }
                                    onCancelled:^
@@ -137,6 +150,8 @@
 
 - (BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(UIButton*)sender
 {
+    [[SoundManager sharedManager] playSound:@"tap" looping:NO];
+
 #ifdef ENABLE_ALL_LEVELS
     self.currentStage = sender.tag;
     return YES;
@@ -173,8 +188,11 @@
     
     return NO;
 }
+
 - (IBAction)handleShareButton:(id)sender {
     
+    [[SoundManager sharedManager] playSound:@"tap" looping:NO];
+
     // Fill out the email body text
     NSString *emailBody = [NSString stringWithFormat:NSLocalizedString(@"TELL_A_FRIEND_MSG", nil),APP_URL];
     NSString *emailSub = NSLocalizedString(@"TELL_A_FRIEND_TITLE", nil);

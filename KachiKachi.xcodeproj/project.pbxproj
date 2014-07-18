@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48E71B241979A81900A2E7E8 /* balloon.wav in Resources */ = {isa = PBXBuildFile; fileRef = 48E71B141979A81900A2E7E8 /* balloon.wav */; };
+		48E71B251979A81900A2E7E8 /* bird.wav in Resources */ = {isa = PBXBuildFile; fileRef = 48E71B151979A81900A2E7E8 /* bird.wav */; };
+		48E71B261979A81900A2E7E8 /* bottle.wav in Resources */ = {isa = PBXBuildFile; fileRef = 48E71B161979A81900A2E7E8 /* bottle.wav */; };
+		48E71B271979A81900A2E7E8 /* candle.wav in Resources */ = {isa = PBXBuildFile; fileRef = 48E71B171979A81900A2E7E8 /* candle.wav */; };
+		48E71B281979A81900A2E7E8 /* disc.wav in Resources */ = {isa = PBXBuildFile; fileRef = 48E71B181979A81900A2E7E8 /* disc.wav */; };
+		48E71B291979A81900A2E7E8 /* dvd.wav in Resources */ = {isa = PBXBuildFile; fileRef = 48E71B191979A81900A2E7E8 /* dvd.wav */; };
+		48E71B2A1979A81900A2E7E8 /* fish.wav in Resources */ = {isa = PBXBuildFile; fileRef = 48E71B1A1979A81900A2E7E8 /* fish.wav */; };
+		48E71B2B1979A81900A2E7E8 /* FunkGameLoop.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 48E71B1B1979A81900A2E7E8 /* FunkGameLoop.m4a */; };
+		48E71B2C1979A81900A2E7E8 /* key.wav in Resources */ = {isa = PBXBuildFile; fileRef = 48E71B1C1979A81900A2E7E8 /* key.wav */; };
+		48E71B2D1979A81900A2E7E8 /* kite.wav in Resources */ = {isa = PBXBuildFile; fileRef = 48E71B1D1979A81900A2E7E8 /* kite.wav */; };
+		48E71B2E1979A81900A2E7E8 /* lovesong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 48E71B1E1979A81900A2E7E8 /* lovesong.mp3 */; };
+		48E71B2F1979A81900A2E7E8 /* pencil.wav in Resources */ = {isa = PBXBuildFile; fileRef = 48E71B1F1979A81900A2E7E8 /* pencil.wav */; };
+		48E71B301979A81900A2E7E8 /* star.wav in Resources */ = {isa = PBXBuildFile; fileRef = 48E71B201979A81900A2E7E8 /* star.wav */; };
+		48E71B311979A81900A2E7E8 /* tap.wav in Resources */ = {isa = PBXBuildFile; fileRef = 48E71B211979A81900A2E7E8 /* tap.wav */; };
+		48E71B321979A81900A2E7E8 /* won.caf in Resources */ = {isa = PBXBuildFile; fileRef = 48E71B221979A81900A2E7E8 /* won.caf */; };
+		48E71B331979A81900A2E7E8 /* wrong.wav in Resources */ = {isa = PBXBuildFile; fileRef = 48E71B231979A81900A2E7E8 /* wrong.wav */; };
 		A305F2A91945EAB800B62C6C /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = A305F2A81945EAB800B62C6C /* iTunesArtwork */; };
 		A305F2B71945F0DB00B62C6C /* KKGameStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A305F2B61945F0DB00B62C6C /* KKGameStateManager.m */; };
 		A314CCE2194F2B620002BECC /* KKStageSelectController.m in Sources */ = {isa = PBXBuildFile; fileRef = A314CCE1194F2B620002BECC /* KKStageSelectController.m */; };
@@ -61,10 +77,6 @@
 		A3B3C4EC1961B52700B62BD4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3B3C4EA1961B52700B62BD4 /* InfoPlist.strings */; };
 		A3B3C4F71961C4C100B62BD4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B3C4F61961C4C100B62BD4 /* SystemConfiguration.framework */; };
 		A3B97D6B1930F7AD0049DCEB /* SoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B97D6A1930F7AD0049DCEB /* SoundManager.m */; };
-		A3B97D751930F9130049DCEB /* track1.caf in Resources */ = {isa = PBXBuildFile; fileRef = A3B97D731930F9130049DCEB /* track1.caf */; };
-		A3B97D761930F9130049DCEB /* track2.caf in Resources */ = {isa = PBXBuildFile; fileRef = A3B97D741930F9130049DCEB /* track2.caf */; };
-		A3B97D771930F91C0049DCEB /* sound2.caf in Resources */ = {isa = PBXBuildFile; fileRef = A3B97D721930F9000049DCEB /* sound2.caf */; };
-		A3B97D781930F91F0049DCEB /* sound1.caf in Resources */ = {isa = PBXBuildFile; fileRef = A3B97D711930F9000049DCEB /* sound1.caf */; };
 		A3BE4D7B195329EF00C466ED /* TTLeave.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BE4D7A195329EF00C466ED /* TTLeave.m */; };
 		A3D832C4194315ED00C0908C /* TTKite.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D832C3194315ED00C0908C /* TTKite.m */; };
 		A3E9E96E1944BA0A00898279 /* TTBalloon.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E9E96D1944BA0A00898279 /* TTBalloon.m */; };
@@ -93,6 +105,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		48E71B141979A81900A2E7E8 /* balloon.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = balloon.wav; sourceTree = "<group>"; };
+		48E71B151979A81900A2E7E8 /* bird.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bird.wav; sourceTree = "<group>"; };
+		48E71B161979A81900A2E7E8 /* bottle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bottle.wav; sourceTree = "<group>"; };
+		48E71B171979A81900A2E7E8 /* candle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = candle.wav; sourceTree = "<group>"; };
+		48E71B181979A81900A2E7E8 /* disc.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = disc.wav; sourceTree = "<group>"; };
+		48E71B191979A81900A2E7E8 /* dvd.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dvd.wav; sourceTree = "<group>"; };
+		48E71B1A1979A81900A2E7E8 /* fish.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fish.wav; sourceTree = "<group>"; };
+		48E71B1B1979A81900A2E7E8 /* FunkGameLoop.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = FunkGameLoop.m4a; sourceTree = "<group>"; };
+		48E71B1C1979A81900A2E7E8 /* key.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = key.wav; sourceTree = "<group>"; };
+		48E71B1D1979A81900A2E7E8 /* kite.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = kite.wav; sourceTree = "<group>"; };
+		48E71B1E1979A81900A2E7E8 /* lovesong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lovesong.mp3; sourceTree = "<group>"; };
+		48E71B1F1979A81900A2E7E8 /* pencil.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pencil.wav; sourceTree = "<group>"; };
+		48E71B201979A81900A2E7E8 /* star.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = star.wav; sourceTree = "<group>"; };
+		48E71B211979A81900A2E7E8 /* tap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tap.wav; sourceTree = "<group>"; };
+		48E71B221979A81900A2E7E8 /* won.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = won.caf; sourceTree = "<group>"; };
+		48E71B231979A81900A2E7E8 /* wrong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = wrong.wav; sourceTree = "<group>"; };
 		A305F2A81945EAB800B62C6C /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
 		A305F2B51945F0DB00B62C6C /* KKGameStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKGameStateManager.h; sourceTree = "<group>"; };
 		A305F2B61945F0DB00B62C6C /* KKGameStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKGameStateManager.m; sourceTree = "<group>"; };
@@ -242,10 +270,6 @@
 		A3B3C4F91962F96600B62BD4 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		A3B97D691930F7AD0049DCEB /* SoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundManager.h; sourceTree = "<group>"; };
 		A3B97D6A1930F7AD0049DCEB /* SoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundManager.m; sourceTree = "<group>"; };
-		A3B97D711930F9000049DCEB /* sound1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = sound1.caf; path = Sounds/sound1.caf; sourceTree = "<group>"; };
-		A3B97D721930F9000049DCEB /* sound2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = sound2.caf; path = Sounds/sound2.caf; sourceTree = "<group>"; };
-		A3B97D731930F9130049DCEB /* track1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = track1.caf; path = Sounds/track1.caf; sourceTree = "<group>"; };
-		A3B97D741930F9130049DCEB /* track2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = track2.caf; path = Sounds/track2.caf; sourceTree = "<group>"; };
 		A3BE4D79195329EF00C466ED /* TTLeave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTLeave.h; sourceTree = "<group>"; };
 		A3BE4D7A195329EF00C466ED /* TTLeave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTLeave.m; sourceTree = "<group>"; };
 		A3D832C2194315ED00C0908C /* TTKite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTKite.h; sourceTree = "<group>"; };
@@ -307,6 +331,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		48E71B131979A81900A2E7E8 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				48E71B141979A81900A2E7E8 /* balloon.wav */,
+				48E71B151979A81900A2E7E8 /* bird.wav */,
+				48E71B161979A81900A2E7E8 /* bottle.wav */,
+				48E71B171979A81900A2E7E8 /* candle.wav */,
+				48E71B181979A81900A2E7E8 /* disc.wav */,
+				48E71B191979A81900A2E7E8 /* dvd.wav */,
+				48E71B1A1979A81900A2E7E8 /* fish.wav */,
+				48E71B1B1979A81900A2E7E8 /* FunkGameLoop.m4a */,
+				48E71B1C1979A81900A2E7E8 /* key.wav */,
+				48E71B1D1979A81900A2E7E8 /* kite.wav */,
+				48E71B1E1979A81900A2E7E8 /* lovesong.mp3 */,
+				48E71B1F1979A81900A2E7E8 /* pencil.wav */,
+				48E71B201979A81900A2E7E8 /* star.wav */,
+				48E71B211979A81900A2E7E8 /* tap.wav */,
+				48E71B221979A81900A2E7E8 /* won.caf */,
+				48E71B231979A81900A2E7E8 /* wrong.wav */,
+			);
+			name = sounds;
+			path = Sounds/sounds;
+			sourceTree = "<group>";
+		};
 		A305F2B41945F0C100B62C6C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -585,11 +633,8 @@
 		A3A67E7F1902B67700BFAF7B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				48E71B131979A81900A2E7E8 /* sounds */,
 				A305F2A81945EAB800B62C6C /* iTunesArtwork */,
-				A3B97D731930F9130049DCEB /* track1.caf */,
-				A3B97D741930F9130049DCEB /* track2.caf */,
-				A3B97D711930F9000049DCEB /* sound1.caf */,
-				A3B97D721930F9000049DCEB /* sound2.caf */,
 				A3A67E801902B67700BFAF7B /* KachiKachi-Info.plist */,
 				A3A67E811902B67700BFAF7B /* InfoPlist.strings */,
 				A3A67E841902B67700BFAF7B /* main.m */,
@@ -813,27 +858,39 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48E71B301979A81900A2E7E8 /* star.wav in Resources */,
+				48E71B2C1979A81900A2E7E8 /* key.wav in Resources */,
 				A38222DD197261AA00D7A856 /* MKStoreKitConfigs.plist in Resources */,
-				A3B97D751930F9130049DCEB /* track1.caf in Resources */,
-				A3B97D761930F9130049DCEB /* track2.caf in Resources */,
 				A31B484E1971A81D00EF6BF8 /* uv_heart.png in Resources */,
 				A3868789196915B50091C7E9 /* README.txt in Resources */,
+				48E71B271979A81900A2E7E8 /* candle.wav in Resources */,
 				A38222E11974B95200D7A856 /* Localizable.strings in Resources */,
+				48E71B331979A81900A2E7E8 /* wrong.wav in Resources */,
+				48E71B281979A81900A2E7E8 /* disc.wav in Resources */,
+				48E71B2E1979A81900A2E7E8 /* lovesong.mp3 in Resources */,
+				48E71B2A1979A81900A2E7E8 /* fish.wav in Resources */,
+				48E71B261979A81900A2E7E8 /* bottle.wav in Resources */,
+				48E71B311979A81900A2E7E8 /* tap.wav in Resources */,
 				A3A67E8F1902B67700BFAF7B /* Main_iPad.storyboard in Resources */,
 				A31B484C1971A81D00EF6BF8 /* uv_article.png in Resources */,
+				48E71B241979A81900A2E7E8 /* balloon.wav in Resources */,
 				A305F2A91945EAB800B62C6C /* iTunesArtwork in Resources */,
 				A3A67EB91902C79B00BFAF7B /* GameData.plist in Resources */,
 				A31B484B1971A81D00EF6BF8 /* UserVoice.strings in Resources */,
+				48E71B2F1979A81900A2E7E8 /* pencil.wav in Resources */,
+				48E71B321979A81900A2E7E8 /* won.caf in Resources */,
+				48E71B251979A81900A2E7E8 /* bird.wav in Resources */,
 				A31B484D1971A81D00EF6BF8 /* uv_article@2x.png in Resources */,
 				A31B48501971A81D00EF6BF8 /* uv_idea.png in Resources */,
 				A31B484F1971A81D00EF6BF8 /* uv_heart@2x.png in Resources */,
 				A31B48511971A81D00EF6BF8 /* uv_idea@2x.png in Resources */,
-				A3B97D781930F91F0049DCEB /* sound1.caf in Resources */,
 				A3A67E941902B67700BFAF7B /* Images.xcassets in Resources */,
-				A3B97D771930F91C0049DCEB /* sound2.caf in Resources */,
 				A3A67E8C1902B67700BFAF7B /* Main_iPhone.storyboard in Resources */,
 				A3B3C4EC1961B52700B62BD4 /* InfoPlist.strings in Resources */,
 				A38222E819756B5E00D7A856 /* iRate.bundle in Resources */,
+				48E71B2D1979A81900A2E7E8 /* kite.wav in Resources */,
+				48E71B291979A81900A2E7E8 /* dvd.wav in Resources */,
+				48E71B2B1979A81900A2E7E8 /* FunkGameLoop.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -849,14 +906,14 @@
 /* Begin PBXShellScriptBuildPhase section */
 		A3B3C4F81962F79100B62BD4 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			files = (
 			);
 			inputPaths = (
 			);
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = "./Crashlytics.framework/run ef1df6810a8ae85dc6971ad31a2311a71214d012 c6faaa2cc18e8a76c8c012d105a704a016c7f22a38ce681934ab9d777a54e1d0";
 			shellScript = "";
 		};
@@ -1090,8 +1147,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ashish Prajapati (WYZSNN3FK4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ashish Prajapati (WYZSNN3FK4)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -1122,8 +1179,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ashish Prajapati (WYZSNN3FK4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ashish Prajapati (WYZSNN3FK4)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",

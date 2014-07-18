@@ -22,6 +22,7 @@
         self.angle = [[data objectForKey:@"angle"] floatValue];
         self.animation = [data objectForKey:@"animation"];
         self.isPicked = [[data objectForKey:@"isPicked"] boolValue];
+        
     }
     return self;
 }

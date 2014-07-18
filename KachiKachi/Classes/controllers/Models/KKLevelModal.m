@@ -31,6 +31,7 @@
         self.duration = [[data objectForKey:@"duration"] intValue];
         self.gameMode = [[data objectForKey:@"gameMode"] intValue];
         self.name = [data objectForKey:@"name"];
+        self.soundfile = [data objectForKey:@"sound"];
     }
     return self;
 }
@@ -56,6 +57,7 @@
     [dict setObject:[NSString stringWithFormat:@"%ld",(long)self.duration] forKey:@"duration"];
     [dict setObject:[NSString stringWithFormat:@"%d",self.gameMode] forKey:@"gameMode"];
     [dict setObject:self.name forKey:@"name"];
+    [dict setObject:self.soundfile forKey:@"sound"];
 
     return dict;
 }

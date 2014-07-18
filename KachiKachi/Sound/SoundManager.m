@@ -71,16 +71,41 @@ NSString *const SoundDidFinishPlayingNotification = @"SoundDidFinishPlayingNotif
 
 @implementation Sound
 
-+ (instancetype)soundNamed:(NSString *)name
++ (instancetype)soundNamed:(NSString *)inName
 {
-    NSString *path = name;
+    NSString *path = inName;
     if (![path isAbsolutePath])
     {
-        if ([[name pathExtension] isEqualToString:@""])
+        if ([[inName pathExtension] isEqualToString:@""])
         {
-            name = [name stringByAppendingPathExtension:@"caf"];
+            NSString *name = [inName stringByAppendingPathExtension:@"caf"];
+            path = [[NSBundle mainBundle] pathForResource:name ofType:@""];
+
+            if(path == nil)
+            {
+                //try m4a
+                name = [inName stringByAppendingPathExtension:@"mp3"];
+                path = [[NSBundle mainBundle] pathForResource:name ofType:@""];
+            }
+            
+            if(path == nil)
+            {
+                //try m4a
+                name = [inName stringByAppendingPathExtension:@"m4a"];
+                path = [[NSBundle mainBundle] pathForResource:name ofType:@""];
+            }
+            
+            if(path == nil)
+            {
+                //try m4a
+                name = [inName stringByAppendingPathExtension:@"wav"];
+                path = [[NSBundle mainBundle] pathForResource:name ofType:@""];
+            }
         }
-        path = [[NSBundle mainBundle] pathForResource:name ofType:@""];
+        else
+        {
+            path = [[NSBundle mainBundle] pathForResource:inName ofType:@""];
+        }
     }
     return [self soundWithContentsOfFile:path];
 }
@@ -422,7 +447,7 @@ NSString *const SoundDidFinishPlayingNotification = @"SoundDidFinishPlayingNotif
 
 - (void)prepareToPlay
 {
-    if([[KKGameStateManager sharedManager] isSoundEnabled] == NO)
+    if([[KKGameStateManager sharedManager] isMusicEnabled] == NO)
         return;
     
     @autoreleasepool
@@ -449,9 +474,6 @@ NSString *const SoundDidFinishPlayingNotification = @"SoundDidFinishPlayingNotif
 
 - (void)playMusic:(id)soundOrName looping:(BOOL)looping fadeIn:(BOOL)fadeIn
 {
-    if([[KKGameStateManager sharedManager] isSoundEnabled] == NO)
-        return;
-    
     Sound *music = [soundOrName isKindOfClass:[Sound class]]? soundOrName: [Sound soundNamed:soundOrName];
     if (![music.URL isEqual:_currentMusic.URL])
     {
@@ -475,12 +497,18 @@ NSString *const SoundDidFinishPlayingNotification = @"SoundDidFinishPlayingNotif
 }
 
 - (void)playMusic:(id)soundOrName looping:(BOOL)looping
-{       
+{
+    if([[KKGameStateManager sharedManager] isMusicEnabled] == NO)
+        return;
+    
     [self playMusic:soundOrName looping:looping fadeIn:YES];
 }
 
 - (void)playMusic:(id)soundOrName
 {
+    if([[KKGameStateManager sharedManager] isMusicEnabled] == NO)
+        return;
+    
     [self playMusic:soundOrName looping:YES fadeIn:YES];
 }
 
@@ -504,9 +532,6 @@ NSString *const SoundDidFinishPlayingNotification = @"SoundDidFinishPlayingNotif
 
 - (void)playSound:(id)soundOrName looping:(BOOL)looping fadeIn:(BOOL)fadeIn
 {
-    if([[KKGameStateManager sharedManager] isSoundEnabled] == NO)
-        return;
-    
     Sound *sound = [soundOrName isKindOfClass:[Sound class]]? soundOrName: [Sound soundNamed:soundOrName];
     if (![_currentSounds containsObject:sound])
     {
@@ -527,11 +552,17 @@ NSString *const SoundDidFinishPlayingNotification = @"SoundDidFinishPlayingNotif
 
 - (void)playSound:(id)soundOrName looping:(BOOL)looping
 {
+    if([[KKGameStateManager sharedManager] isSoundEnabled] == NO)
+        return;
+    
     [self playSound:soundOrName looping:looping fadeIn:NO];
 }
 
 - (void)playSound:(id)soundOrName
 {
+    if([[KKGameStateManager sharedManager] isSoundEnabled] == NO)
+        return;
+    
     [self playSound:soundOrName looping:NO fadeIn:NO];
 }
 

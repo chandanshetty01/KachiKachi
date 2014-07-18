@@ -65,6 +65,8 @@
 
 - (IBAction)backButtonAction:(id)sender
 {
+    [[SoundManager sharedManager] playSound:@"tap" looping:NO];
+
     [Flurry logEvent:@"BackButton - Level Select"];
     AppDelegate *appdelegate = APP_DELEGATE;
     [appdelegate.navigationController popViewControllerAnimated:YES];
@@ -128,6 +130,8 @@
 
 - (BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(id)sender
 {
+    [[SoundManager sharedManager] playSound:@"tap" looping:NO];
+
 #ifdef ENABLE_ALL_LEVELS
     return YES;
 #endif
