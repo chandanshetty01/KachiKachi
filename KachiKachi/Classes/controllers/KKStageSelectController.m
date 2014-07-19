@@ -35,7 +35,10 @@
     
     BOOL isOn = [[KKGameStateManager sharedManager] isMusicEnabled];
     [self.soundSwitch setOn:isOn];
-    
+}
+
+-(void)viewDidAppear:(BOOL)animated
+{
     [self playMusic];
 }
 
