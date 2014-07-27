@@ -83,7 +83,25 @@
 
 -(void)purchaseALert:(NSInteger)stageID
 {
-    NSString *money = nil;
+    NSString *money = @"0.99$";
+
+    SKProduct *product = nil;
+    NSMutableArray *products = [MKStoreManager sharedManager].purchasableObjects;
+    if([products count] > 1){
+        
+        if(stageID == 2)
+            product = [products objectAtIndex:0];
+        else
+            product = [products objectAtIndex:1];
+    }
+    
+    if(product){
+        NSNumberFormatter *numberFormatter = [[NSNumberFormatter alloc] init];
+        [numberFormatter setFormatterBehavior:NSNumberFormatterBehavior10_4];
+        [numberFormatter setNumberStyle:NSNumberFormatterCurrencyStyle];
+        [numberFormatter setLocale:product.priceLocale];
+        money = [numberFormatter stringFromNumber:product.price];
+    }
 
     NSString *title = nil;
     NSString *desc = nil;
@@ -109,6 +127,16 @@
     [alert show];
 }
 
+-(void)showAlertForError:(NSError*)error
+{
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"ERROR",nil)
+                                                    message:[error localizedDescription]
+                                                   delegate:nil
+                                          cancelButtonTitle:NSLocalizedString(@"OK", nil)
+                                          otherButtonTitles:nil];
+    [alert show];
+}
+
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
 {
     [[SoundManager sharedManager] playSound:@"tap" looping:NO];
@@ -116,30 +144,68 @@
     if(alertView.tag == 2)
     {
         if(buttonIndex == 0){
+            [Flurry logEvent:[NSString stringWithFormat:@"InApp-Cancel-Stage%d",alertView.tag]];
+            //Cancel
+        }
+        else if(buttonIndex == 2){
+            [Flurry logEvent:[NSString stringWithFormat:@"InApp-Restore-Stage%d",alertView.tag]];
+
+            //Restore
+            [[MKStoreManager sharedManager] restorePreviousTransactionsOnComplete:^{
+                [self provideContent:alertView.tag];
+            } onError:^(NSError *error) {
+                [self showAlertForError:error];
+            }];
+        }
+        else{
+            
+            //Buy
             [self purchase:2];
-        }
-        else if(buttonIndex == 1)
-        {
-            
-        }
-        else
-        {
-            
         }
     }
     else if(alertView.tag == 3)
     {
         if(buttonIndex == 0){
+            [Flurry logEvent:[NSString stringWithFormat:@"InApp-Restore-Stage%d",alertView.tag]];
+
+            //cancel
+        }
+        else if(buttonIndex == 2){
+            [Flurry logEvent:[NSString stringWithFormat:@"InApp-Restore-Restore%d",alertView.tag]];
+
+            //restore
+            [[MKStoreManager sharedManager] restorePreviousTransactionsOnComplete:^{
+                [self provideContent:alertView.tag];
+            } onError:^(NSError *error) {
+                [self showAlertForError:error];
+            }];
+        }
+        else{
+            //Buy
             [self purchase:3];
         }
-        else if(buttonIndex == 1)
-        {
-            
+    }
+}
+
+-(void)provideContent:(NSInteger)stageID
+{
+    NSString *featureID = nil;
+    if(stageID == 2)
+        featureID = kTimedMode;
+    else if(stageID == 3)
+        featureID = kAdvancedMode;
+    
+    if([MKStoreManager isFeaturePurchased:featureID])
+    {
+        self.currentStage = stageID;
+        if(stageID == 2){
+            [self performSegueWithIdentifier:@"stage2Seague" sender:self];
         }
-        else
-        {
-            
+        else if(stageID == 3){
+            [self performSegueWithIdentifier:@"stage3Seague" sender:self];
         }
+        
+        [[SoundManager sharedManager] playSound:@"won" looping:NO];
     }
 }
 
@@ -150,40 +216,19 @@
         featureID = kTimedMode;
     else if(stageID == 3)
         featureID = kAdvancedMode;
-        
+    
     [[MKStoreManager sharedManager] buyFeature:featureID
                                     onComplete:^(NSString* purchasedFeature,
                                                  NSData* purchasedReceipt,
                                                  NSArray* availableDownloads)
      {
-         self.currentStage = stageID;
-         if(stageID == 2){
-             [self performSegueWithIdentifier:@"stage2Seague" sender:self];
-         }
-         else if(stageID == 3){
-             [self performSegueWithIdentifier:@"stage3Seague" sender:self];
-         }
-         
-         [[SoundManager sharedManager] playSound:@"won" looping:NO];
-
-         NSLog(@"Purchased: %@", purchasedFeature);
+         [Flurry logEvent:[NSString stringWithFormat:@"Purchased-Stage(%d)",stageID]];
+         [self provideContent:stageID];
      }
                                    onCancelled:^
      {
-         NSLog(@"User Cancelled Transaction");
+         [Flurry logEvent:[NSString stringWithFormat:@"Purchase-Cacelled(%d)",stageID]];
      }];
-    
-    /*
-    //test
-    if(stageID == 2){
-        self.currentStage = stageID;
-        [self performSegueWithIdentifier:@"stage2Seague" sender:self];
-    }
-    else if(stageID == 3){
-        self.currentStage = stageID;
-        [self performSegueWithIdentifier:@"stage3Seague" sender:self];
-    }
-     */
 }
 
 - (BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(UIButton*)sender

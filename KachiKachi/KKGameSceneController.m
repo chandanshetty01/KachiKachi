@@ -17,6 +17,7 @@
 #import "KKGameStateManager.h"
 #import <Crashlytics/Crashlytics.h>
 #import <Social/Social.h>
+#import "MKStoreManager.h"
 
 #define RANDOM_SEED() srandom((unsigned)time(NULL))
 #define RANDOM_INT(__MIN__, __MAX__) ((__MIN__) + random() % ((__MAX__+1) - (__MIN__)))
@@ -58,20 +59,28 @@ typedef void (^completionBlk)(BOOL);
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-#ifndef DEVELOPMENT_MODE
-    self.adViewController = [[UIStoryboard storyboardWithName:@"Main_iPad" bundle:nil] instantiateViewControllerWithIdentifier:@"adViewController"];
-    [self.view addSubview:self.adViewController.view];
-    CGRect frame = self.adViewController.view.frame;
-    frame.origin = CGPointZero;
-    self.adViewController.view.frame = frame;
-#endif
-    
     _elements = [[NSMutableArray alloc] init];
     self.deletedElements = [[NSMutableArray alloc] init];
     
     self.currentLevel = [[KKGameStateManager sharedManager] currentLevelNumber];
     self.currentStage = [[KKGameStateManager sharedManager] currentStageNumber];
+    
+#ifndef DEVELOPMENT_MODE
+    if([MKStoreManager isFeaturePurchased:kTimedMode] || [MKStoreManager isFeaturePurchased:kAdvancedMode])
+    {
+        //If purchased do not show any Ads
+    }
+    else{
+        //show Ads
+        self.adViewController = [[UIStoryboard storyboardWithName:@"Main_iPad" bundle:nil] instantiateViewControllerWithIdentifier:@"adViewController"];
+        [self.view addSubview:self.adViewController.view];
+        CGRect frame = self.adViewController.view.frame;
+        frame.origin = CGPointZero;
+        self.adViewController.view.frame = frame;
+    }
+#endif
+    
+
     self.gameMode = (EGAMEMODE)[[KKGameConfigManager sharedManager] gameModeForLevel:self.currentLevel stage:self.currentStage];
     
     _isGameFinished = FALSE;

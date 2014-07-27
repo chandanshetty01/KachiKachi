@@ -183,6 +183,7 @@
 		A357D7AA196301A70037C2B4 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = SOURCE_ROOT; };
 		A35DD6F219644730008D445C /* TTBottle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTBottle.h; sourceTree = "<group>"; };
 		A35DD6F319644730008D445C /* TTBottle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTBottle.m; sourceTree = "<group>"; };
+		A3644FA01984EBC900FBD566 /* KachiKachi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = KachiKachi.entitlements; sourceTree = "<group>"; };
 		A36A12E5195495ED007F6355 /* TTDisc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTDisc.h; sourceTree = "<group>"; };
 		A36A12E6195495ED007F6355 /* TTDisc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTDisc.m; sourceTree = "<group>"; };
 		A36A12E81954BB89007F6355 /* TTCandy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTCandy.h; sourceTree = "<group>"; };
@@ -615,6 +616,7 @@
 		A3A67E7E1902B67700BFAF7B /* KachiKachi */ = {
 			isa = PBXGroup;
 			children = (
+				A3644FA01984EBC900FBD566 /* KachiKachi.entitlements */,
 				A357D7A3196301350037C2B4 /* ThirdParty */,
 				A3F1004A1954699C0002CA97 /* mail */,
 				A314CCDF194F2ACF0002BECC /* controllers */,
@@ -803,6 +805,9 @@
 						DevelopmentTeam = J3X836PV78;
 						SystemCapabilities = {
 							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
 								enabled = 1;
 							};
 						};
@@ -1156,6 +1161,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = KachiKachi/KachiKachi.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1188,6 +1194,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = KachiKachi/KachiKachi.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (

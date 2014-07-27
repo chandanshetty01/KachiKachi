@@ -31,13 +31,13 @@
 
 "GAME_WON" = "Game Won!";
 
-"UNLOCK_STAGE_MEDIUM" = "Unlock Medium Mode!";
-"UNLOCK_STAGE_MEDIUM_DESC" = "Unlock by Medium Mode and Remove Ads for %@ or Complete all levels in Easy mode";
+"UNLOCK_STAGE_MEDIUM" = "Unlock 'Medium' Stage!";
+"UNLOCK_STAGE_MEDIUM_DESC" = "Unlock 'Medium' Stage and Remove 'Ads' for %@ or Complete all levels in 'Easy' Stage to play 'Medium' Stage";
 
-"UNLOCK_STAGE_ADVANCED" = "Unlock Advanced Stage!";
-"UNLOCK_STAGE_ADVANCED_DESC" = "Unlock by Advanced Mode and Remove Ads for %@ or Complete all levels in Medium mode";
+"UNLOCK_STAGE_ADVANCED" = "Unlock 'Advance' Stage!";
+"UNLOCK_STAGE_ADVANCED_DESC" = "Unlock 'Advance' Stage and Remove 'Ads' for %@ or Complete all levels in 'Medium' Stage to Play 'Advance' Stage";
 
-"TELL_A_FRIEND_MSG" = "Check out our new game Kachi Kachi %@!";
+"TELL_A_FRIEND_MSG" = "Check out our new game 'Kachi Kachi' (%@)!";
 "TELL_A_FRIEND_TITLE" = "Try KACHI KACHI its Awesome!";
 
 "HOW_TO_PLAY" = "How to play!";
@@ -47,4 +47,6 @@
 "CANCEL" = "Cancel";
 "BUY" = "Buy";
 "RESTORE" = "Restore";
+"OK" = "Ok";
 
+"ERROR" = "Unknown Error";
