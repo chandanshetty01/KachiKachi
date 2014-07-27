@@ -84,12 +84,27 @@
 -(void)purchaseALert:(NSInteger)stageID
 {
     NSString *money = nil;
-    NSString *msg = [NSString stringWithFormat:NSLocalizedString(@"UNLOCK_STAGE", nil),money];
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"UNLOCK_STAGE_TITLE", nil)
-                                                    message:msg
+
+    NSString *title = nil;
+    NSString *desc = nil;
+    if(stageID == 2){
+        title = NSLocalizedString(@"UNLOCK_STAGE_MEDIUM", nil);
+        desc = [NSString stringWithFormat:NSLocalizedString(@"UNLOCK_STAGE_MEDIUM_DESC", nil),money];
+    }
+    else{
+        title = NSLocalizedString(@"UNLOCK_STAGE_ADVANCED", nil);
+        desc = [NSString stringWithFormat:NSLocalizedString(@"UNLOCK_STAGE_ADVANCED_DESC", nil),money];
+    }
+    
+
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:title
+                                                    message:desc
                                                    delegate:self
-                                          cancelButtonTitle:@"OK"
+                                          cancelButtonTitle:NSLocalizedString(@"CANCEL", nil)
                                           otherButtonTitles:nil];
+    [alert addButtonWithTitle:NSLocalizedString(@"BUY", nil)];
+    [alert addButtonWithTitle:NSLocalizedString(@"RESTORE", nil)];
+    
     alert.tag = stageID;
     [alert show];
 }
@@ -100,11 +115,31 @@
 
     if(alertView.tag == 2)
     {
-        [self purchase:2];
+        if(buttonIndex == 0){
+            [self purchase:2];
+        }
+        else if(buttonIndex == 1)
+        {
+            
+        }
+        else
+        {
+            
+        }
     }
     else if(alertView.tag == 3)
     {
-        [self purchase:3];
+        if(buttonIndex == 0){
+            [self purchase:3];
+        }
+        else if(buttonIndex == 1)
+        {
+            
+        }
+        else
+        {
+            
+        }
     }
 }
 

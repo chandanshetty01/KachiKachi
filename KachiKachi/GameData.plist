@@ -79576,12 +79576,12 @@
 			</dict>
 		</dict>
 		<key>locked</key>
-		<false/>
+		<true/>
 	</dict>
 	<key>stage3</key>
 	<dict>
 		<key>locked</key>
-		<false/>
+		<true/>
 		<key>levels</key>
 		<dict>
 			<key>level1</key>

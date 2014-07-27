@@ -31,8 +31,11 @@
 
 "GAME_WON" = "Game Won!";
 
-"UNLOCK_STAGE_TITLE" = "Unlock Stage!";
-"UNLOCK_STAGE" = "Please complete all previous levels to unlock this stage or unlock by purchasing package with %@";
+"UNLOCK_STAGE_MEDIUM" = "Unlock Medium Mode!";
+"UNLOCK_STAGE_MEDIUM_DESC" = "Unlock by Medium Mode and Remove Ads for %@ or Complete all levels in Easy mode";
+
+"UNLOCK_STAGE_ADVANCED" = "Unlock Advanced Stage!";
+"UNLOCK_STAGE_ADVANCED_DESC" = "Unlock by Advanced Mode and Remove Ads for %@ or Complete all levels in Medium mode";
 
 "TELL_A_FRIEND_MSG" = "Check out our new game Kachi Kachi %@!";
 "TELL_A_FRIEND_TITLE" = "Try KACHI KACHI its Awesome!";
@@ -41,4 +44,7 @@
 "TUTORIAL_1" = "Pick only the top object otherwise you will lose a LIFE!, currently you have 4 LIFE Remaining";
 "TUTORIAL_2" = "Keep an eye on TIME REMAINING, pick all the objects before TIME ran out";
 
+"CANCEL" = "Cancel";
+"BUY" = "Buy";
+"RESTORE" = "Restore";
 

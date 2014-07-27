@@ -9,8 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "MKStoreManager.h"
 
-#define kTimedMode @""
-#define kAdvancedMode @""
+#define kTimedMode @"com.kachikachi.mediumlevel"
+#define kAdvancedMode @"com.kachikachi.advancestage"
 
 @interface KKStageSelectController : UIViewController
 

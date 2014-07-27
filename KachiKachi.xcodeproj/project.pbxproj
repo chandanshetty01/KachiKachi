@@ -78,6 +78,7 @@
 		A3B3C4F71961C4C100B62BD4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B3C4F61961C4C100B62BD4 /* SystemConfiguration.framework */; };
 		A3B97D6B1930F7AD0049DCEB /* SoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B97D6A1930F7AD0049DCEB /* SoundManager.m */; };
 		A3BE4D7B195329EF00C466ED /* TTLeave.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BE4D7A195329EF00C466ED /* TTLeave.m */; };
+		A3D79A0819835ED40016DA23 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D79A0719835ED40016DA23 /* StoreKit.framework */; };
 		A3D832C4194315ED00C0908C /* TTKite.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D832C3194315ED00C0908C /* TTKite.m */; };
 		A3E9E96E1944BA0A00898279 /* TTBalloon.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E9E96D1944BA0A00898279 /* TTBalloon.m */; };
 		A3F1005019546B080002CA97 /* KKMailComposerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F1004F19546B080002CA97 /* KKMailComposerManager.m */; };
@@ -272,6 +273,7 @@
 		A3B97D6A1930F7AD0049DCEB /* SoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundManager.m; sourceTree = "<group>"; };
 		A3BE4D79195329EF00C466ED /* TTLeave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTLeave.h; sourceTree = "<group>"; };
 		A3BE4D7A195329EF00C466ED /* TTLeave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTLeave.m; sourceTree = "<group>"; };
+		A3D79A0719835ED40016DA23 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		A3D832C2194315ED00C0908C /* TTKite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTKite.h; sourceTree = "<group>"; };
 		A3D832C3194315ED00C0908C /* TTKite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTKite.m; sourceTree = "<group>"; };
 		A3E9E96C1944BA0A00898279 /* TTBalloon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTBalloon.h; sourceTree = "<group>"; };
@@ -307,6 +309,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3D79A0819835ED40016DA23 /* StoreKit.framework in Frameworks */,
 				A3B3C4F71961C4C100B62BD4 /* SystemConfiguration.framework in Frameworks */,
 				A31B47C41971A70B00EF6BF8 /* libUserVoice.a in Frameworks */,
 				A357D7A9196301350037C2B4 /* libFlurry_5.1.0.a in Frameworks */,
@@ -596,6 +599,7 @@
 		A3A67E771902B67700BFAF7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A3D79A0719835ED40016DA23 /* StoreKit.framework */,
 				A3B3C4F91962F96600B62BD4 /* Crashlytics.framework */,
 				A3B3C4F61961C4C100B62BD4 /* SystemConfiguration.framework */,
 				A3B3C4F41961C31C00B62BD4 /* libsystem_network.dylib */,
@@ -796,7 +800,12 @@
 				ORGANIZATIONNAME = Chanddan;
 				TargetAttributes = {
 					A3A67E741902B67700BFAF7B = {
-						DevelopmentTeam = CNTLGGQX2J;
+						DevelopmentTeam = J3X836PV78;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
 					};
 					A3A67E981902B67800BFAF7B = {
 						TestTargetID = A3A67E741902B67700BFAF7B;
@@ -1147,8 +1156,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Ashish Prajapati (WYZSNN3FK4)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ashish Prajapati (WYZSNN3FK4)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -1179,8 +1188,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Ashish Prajapati (WYZSNN3FK4)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ashish Prajapati (WYZSNN3FK4)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
