@@ -102,10 +102,10 @@
             </objects>
             <point key="canvasLocation" x="-1959" y="-4147"/>
         </scene>
-        <!--Ad View Controller-->
+        <!--I Ad View Controller-->
         <scene sceneID="sv7-qU-T3E">
             <objects>
-                <viewController storyboardIdentifier="adViewController" autoresizesArchivedViewToFullSize="NO" id="ZNC-vA-exs" customClass="AdViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="adViewController" autoresizesArchivedViewToFullSize="NO" id="ZNC-vA-exs" customClass="iAdViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hP4-19-zb1">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="100"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>

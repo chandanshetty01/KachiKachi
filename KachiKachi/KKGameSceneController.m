@@ -74,6 +74,7 @@ typedef void (^completionBlk)(BOOL);
         //show Ads
         self.adViewController = [[UIStoryboard storyboardWithName:@"Main_iPad" bundle:nil] instantiateViewControllerWithIdentifier:@"adViewController"];
         [self.view addSubview:self.adViewController.view];
+        self.adViewController.delegate = self;
         CGRect frame = self.adViewController.view.frame;
         frame.origin = CGPointZero;
         self.adViewController.view.frame = frame;
@@ -159,17 +160,21 @@ typedef void (^completionBlk)(BOOL);
 
 -(void)startTimer
 {
-    self.timer = [[TimerObject alloc] initWithDuration:self.levelModel.duration fireInterval:1.0f];
-    [self.timer startTimer];
-    self.timer.delegate = self;
-    self.timerLabel.hidden = NO;
+    if(self.gameMode == eTimerMode){
+        self.timer = [[TimerObject alloc] initWithDuration:self.levelModel.duration fireInterval:1.0f];
+        [self.timer startTimer];
+        self.timer.delegate = self;
+        self.timerLabel.hidden = NO;
+    }
 }
 
 -(void)stopTimer
 {
-    if(self.timer){
-        [self.timer pauseTimer];
-        self.timer = nil;
+    if(self.gameMode == eTimerMode){
+        if(self.timer){
+            [self.timer pauseTimer];
+            self.timer = nil;
+        }
     }
 }
 
@@ -800,6 +805,16 @@ typedef void (^completionBlk)(BOOL);
     [data writeToFile:@"/Users/chandanshettysp/Desktop/savedData.plist" atomically:YES];
 }
 
+-(void)pauseGame
+{
+    [self stopTimer];
+}
+
+-(void)resumeGame
+{
+    [self startTimer];
+}
+
 - (IBAction)handleMailBtn:(id)sender
 {
     NSString* plistPath = [[[NSBundle mainBundle] bundlePath] stringByAppendingPathComponent:@"savedData.plist"];
@@ -832,5 +847,19 @@ typedef void (^completionBlk)(BOOL);
                                                           emailBody:emailBody
                                                        emailSubject:emailSub];
 }
+
+#pragma - mark iAd delegates -
+
+- (BOOL)bannerViewActionShouldBegin:(ADBannerView *)banner willLeaveApplication:(BOOL)willLeave
+{
+    [self pauseGame];
+    return YES;
+}
+
+- (void)bannerViewActionDidFinish:(ADBannerView *)banner
+{
+    [self resumeGame];
+}
+
 
 @end
