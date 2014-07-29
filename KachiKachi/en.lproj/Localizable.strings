@@ -41,7 +41,7 @@
 "TELL_A_FRIEND_TITLE" = "Try KACHI KACHI its Awesome!";
 
 "HOW_TO_PLAY" = "How to play!";
-"TUTORIAL_1" = "Pick only the top object otherwise you will lose a LIFE!, currently you have 4 LIFE Remaining";
+"TUTORIAL_1" = "Pick the Pencil which is on TOP of all other Pencils otherwise you will lose a LIFE!, currently you have 4 LIFE REMAINING";
 "TUTORIAL_2" = "Keep an eye on TIME REMAINING, pick all the objects before TIME ran out";
 
 "CANCEL" = "Cancel";
