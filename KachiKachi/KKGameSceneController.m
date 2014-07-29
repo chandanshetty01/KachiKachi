@@ -303,7 +303,7 @@ typedef void (^completionBlk)(BOOL);
 #ifdef DEVELOPMENT_MODE
     return false;
 #endif
-    if([self noOfObjectsToBePicked] <= 2)
+    if([self noOfObjectsToBePicked] <= 1)
         return TRUE;
     return FALSE;
 }
@@ -412,7 +412,7 @@ typedef void (^completionBlk)(BOOL);
                 break;
         }
         NSString *msg = [NSString stringWithFormat:NSLocalizedString(@"FB_SHARE_MSG", nil),self.levelModel.name,mode];
-        [fbController addImage:[UIImage imageNamed:@"share_icon.png"]];
+        //[fbController addImage:[UIImage imageNamed:@"share_icon.png"]];
         [fbController setInitialText:msg];
         [fbController addURL:[NSURL URLWithString:APP_URL]];
         [fbController setCompletionHandler:completionHandler];
@@ -468,7 +468,7 @@ typedef void (^completionBlk)(BOOL);
                 break;
         }
         NSString *msg = [NSString stringWithFormat:NSLocalizedString(@"TWITTER_SHARE_MSG", nil),self.levelModel.name,mode];
-        [shareController addImage:[UIImage imageNamed:@"share_icon.png"]];
+        //[shareController addImage:[UIImage imageNamed:@"share_icon.png"]];
         [shareController setInitialText:msg];
         [shareController addURL:[NSURL URLWithString:APP_URL]];
         [shareController setCompletionHandler:completionHandler];
