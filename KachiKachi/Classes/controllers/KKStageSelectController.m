@@ -144,11 +144,11 @@
     if(alertView.tag == 2)
     {
         if(buttonIndex == 0){
-            [Flurry logEvent:[NSString stringWithFormat:@"InApp-Cancel-Stage%d",alertView.tag]];
+            [Flurry logEvent:[NSString stringWithFormat:@"InApp-Cancel-Stage%ld",(long)alertView.tag]];
             //Cancel
         }
         else if(buttonIndex == 2){
-            [Flurry logEvent:[NSString stringWithFormat:@"InApp-Restore-Stage%d",alertView.tag]];
+            [Flurry logEvent:[NSString stringWithFormat:@"InApp-Restore-Stage%ld",(long)alertView.tag]];
 
             //Restore
             [[MKStoreManager sharedManager] restorePreviousTransactionsOnComplete:^{
@@ -166,12 +166,12 @@
     else if(alertView.tag == 3)
     {
         if(buttonIndex == 0){
-            [Flurry logEvent:[NSString stringWithFormat:@"InApp-Restore-Stage%d",alertView.tag]];
+            [Flurry logEvent:[NSString stringWithFormat:@"InApp-Restore-Stage%ld",(long)alertView.tag]];
 
             //cancel
         }
         else if(buttonIndex == 2){
-            [Flurry logEvent:[NSString stringWithFormat:@"InApp-Restore-Restore%d",alertView.tag]];
+            [Flurry logEvent:[NSString stringWithFormat:@"InApp-Restore-Restore%ld",(long)alertView.tag]];
 
             //restore
             [[MKStoreManager sharedManager] restorePreviousTransactionsOnComplete:^{
@@ -222,12 +222,12 @@
                                                  NSData* purchasedReceipt,
                                                  NSArray* availableDownloads)
      {
-         [Flurry logEvent:[NSString stringWithFormat:@"Purchased-Stage(%d)",stageID]];
+         [Flurry logEvent:[NSString stringWithFormat:@"Purchased-Stage(%ld)",(long)stageID]];
          [self provideContent:stageID];
      }
                                    onCancelled:^
      {
-         [Flurry logEvent:[NSString stringWithFormat:@"Purchase-Cacelled(%d)",stageID]];
+         [Flurry logEvent:[NSString stringWithFormat:@"Purchase-Cacelled(%ld)",(long)stageID]];
      }];
 }
 

@@ -1069,11 +1069,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/KachiKachi/Third",
-					Party/Flurry,
 					"$(SDKROOT)/usr/lib/system",
 					"$(PROJECT_DIR)/KachiKachi/ThirdParty/Flurry",
-					"$(PROJECT_DIR)/KachiKachi/ThirdParty/Ads/GoogleMobileAdsSdkiOS-6.9.3",
 					"$(PROJECT_DIR)/KachiKachi/ThirdParty/UserVoice",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1102,11 +1099,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/KachiKachi/Third",
-					Party/Flurry,
 					"$(SDKROOT)/usr/lib/system",
 					"$(PROJECT_DIR)/KachiKachi/ThirdParty/Flurry",
-					"$(PROJECT_DIR)/KachiKachi/ThirdParty/Ads/GoogleMobileAdsSdkiOS-6.9.3",
 					"$(PROJECT_DIR)/KachiKachi/ThirdParty/UserVoice",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
