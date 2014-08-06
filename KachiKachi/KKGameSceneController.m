@@ -365,8 +365,6 @@ typedef void (^completionBlk)(BOOL);
 {
     [[SoundManager sharedManager] playSound:@"wrong" looping:NO];
 
-    [self postFlurry:@"LOST"];
-    
     NSString *msg = [data objectForKey:@"msg"];
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"GAME_OVER", nil)
                                                     message:msg
@@ -542,7 +540,7 @@ typedef void (^completionBlk)(BOOL);
         }
         
         if(canShowGameOverAlert){
-            
+            [self postFlurry:@"LOST"];
             [self stopTimer];
             self.currentElement = nil;
             _isGameFinished = YES;
