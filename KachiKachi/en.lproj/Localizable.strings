@@ -50,3 +50,7 @@
 "OK" = "Ok";
 
 "ERROR" = "Unknown Error";
+
+"EASY" = "EASY";
+"MEDIUM" = "MEDIUM";
+"ADVANCE" = "ADVANCE";

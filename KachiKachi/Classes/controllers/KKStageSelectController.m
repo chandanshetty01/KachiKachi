@@ -14,6 +14,9 @@
 #import "KKMailComposerManager.h"
 
 @interface KKStageSelectController ()
+@property (weak, nonatomic) IBOutlet UILabel *easyTitle;
+@property (weak, nonatomic) IBOutlet UILabel *mediumTitle;
+@property (weak, nonatomic) IBOutlet UILabel *advancedTitle;
 
 @end
 
@@ -32,6 +35,10 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    self.easyTitle.text = NSLocalizedString(@"EASY", nil);
+    self.mediumTitle.text = NSLocalizedString(@"MEDIUM", nil);
+    self.advancedTitle.text = NSLocalizedString(@"ADVANCE", nil);
     
     BOOL isOn = [[KKGameStateManager sharedManager] isMusicEnabled];
     [self.soundSwitch setOn:isOn];

@@ -12,7 +12,12 @@
 #warning "This project uses features only available in iOS SDK 5.0 and later."
 #endif
 
+#ifdef DEBUG
+#define FLURRY_ID @""
+#else
 #define FLURRY_ID @"M5NYWZ2G2Z28MYT7SZVB"
+#endif
+
 #define APP_URL @"https://itunes.apple.com/app/id898616807"
 #define kTimedMode @"com.kachikachi.mediumlevel"
 #define kAdvancedMode @"com.kachikachi.advancestage"
