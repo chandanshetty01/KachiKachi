@@ -13,7 +13,7 @@
 #endif
 
 #ifdef DEBUG
-#define FLURRY_ID @""
+#define FLURRY_ID @"8HPHNCZ2KSR9C5NYWR95"
 #else
 #define FLURRY_ID @"M5NYWZ2G2Z28MYT7SZVB"
 #endif

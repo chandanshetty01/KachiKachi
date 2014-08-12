@@ -45,14 +45,21 @@
 
 #pragma mark Ad banner implementation
 
+-(void)logFlurry:(NSString*)string
+{
+    NSDictionary *dictionay = [NSMutableDictionary dictionary];
+    [dictionay setValue:string forKey:@"status"];
+    [Flurry logEvent:@"Ads" withParameters:dictionay];
+}
+
 - (void)bannerViewDidLoadAd:(ADBannerView *)banner
 {
-    [Flurry logEvent:@"adRecieved"];
+    [self logFlurry:@"adRecieved"];
 }
 
 - (void)bannerView:(ADBannerView *)banner didFailToReceiveAdWithError:(NSError *)error
 {
-    [Flurry logEvent:@"failedToRecieveAd"];
+    [self logFlurry:@"failedToRecieveAd"];
 }
 
 - (BOOL)bannerViewActionShouldBegin:(ADBannerView *)banner willLeaveApplication:(BOOL)willLeave
