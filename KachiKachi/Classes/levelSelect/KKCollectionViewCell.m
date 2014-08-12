@@ -15,6 +15,8 @@
     self = [super initWithFrame:frame];
     if (self) {
         // Initialization code
+        
+        self.starsLabel.text = NSLocalizedString(@"STARS", nil);
     }
     return self;
 }

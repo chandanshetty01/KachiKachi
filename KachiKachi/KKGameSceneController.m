@@ -554,7 +554,11 @@ typedef void (^completionBlk)(BOOL);
     {
         [self postFlurry:@"WON"];
 
+        NSInteger stars = [self updateStars];
         [self unlockNextLevel];
+        
+        //Add level save related data after unlockNextLevel
+        self.levelModel.noOfStars = stars;
         [self saveLevelData];
         [self stopTimer];
         [self showGameWonAlert];
@@ -568,6 +572,26 @@ typedef void (^completionBlk)(BOOL);
         [self showElementDissapearAnimation:block];
 #endif
     }
+}
+
+-(NSInteger)updateStars
+{
+    NSInteger oldStar = self.levelModel.noOfStars;
+    
+    NSInteger newStar = oldStar;
+    NSInteger life = [[KKGameConfigManager sharedManager] noOfLifesInLevel:self.currentLevel stage:self.currentStage];
+    CGFloat percent = ((self.levelModel.life)/(CGFloat)life)*100;
+    if(percent >= 100)
+        newStar = 3;
+    else if(percent >= 50)
+        newStar = 2;
+    else
+        newStar = 1;
+    
+    if (newStar > oldStar) {
+        oldStar = newStar;
+    }
+    return oldStar;
 }
 
 -(void)restartGame

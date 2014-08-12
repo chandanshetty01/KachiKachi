@@ -52,6 +52,36 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="220" height="200"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
+                                                <view contentMode="scaleToFill" id="0WR-sS-9Oo">
+                                                    <rect key="frame" x="122" y="0.0" width="88" height="40"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <subviews>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="score_and_moves_bg" id="0G7-qs-mfE">
+                                                            <rect key="frame" x="0.0" y="0.0" width="88" height="40"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        </imageView>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="move" id="5FI-VK-UKp">
+                                                            <rect key="frame" x="67" y="22" width="15" height="15"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        </imageView>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="move" id="6bx-1I-0pk">
+                                                            <rect key="frame" x="47" y="22" width="15" height="15"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        </imageView>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="move" id="sfL-8f-TCD">
+                                                            <rect key="frame" x="27" y="22" width="15" height="15"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        </imageView>
+                                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="STARS" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="wfM-67-egq">
+                                                            <rect key="frame" x="0.0" y="0.0" width="82" height="21"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                </view>
                                                 <view contentMode="scaleToFill" id="jtq-3g-qhR">
                                                     <rect key="frame" x="10" y="0.0" width="200" height="200"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -76,6 +106,11 @@
                                             <outlet property="lockHolderView" destination="jtq-3g-qhR" id="MYL-ht-STx"/>
                                             <outlet property="lockImageBg" destination="zpo-2E-z0D" id="Uk8-tz-OA4"/>
                                             <outlet property="menuImage" destination="rbV-Aj-VcZ" id="AmU-N5-S0s"/>
+                                            <outlet property="star1ImageView" destination="5FI-VK-UKp" id="3c0-uk-8GB"/>
+                                            <outlet property="star2ImageView" destination="6bx-1I-0pk" id="p8t-Lg-rAk"/>
+                                            <outlet property="star3ImageView" destination="sfL-8f-TCD" id="jhE-Zf-Jud"/>
+                                            <outlet property="starDisplayView" destination="0WR-sS-9Oo" id="9J6-U7-Q81"/>
+                                            <outlet property="starsLabel" destination="wfM-67-egq" id="wQX-Hs-pRd"/>
                                             <segue destination="TV7-K8-EP0" kind="push" id="guL-Ls-B7P"/>
                                         </connections>
                                     </collectionViewCell>
@@ -413,6 +448,8 @@
         <image name="lock.png" width="1024" height="768"/>
         <image name="lock_bg.png" width="1024" height="768"/>
         <image name="medium_1" width="247" height="214"/>
+        <image name="move" width="15" height="15"/>
+        <image name="score_and_moves_bg" width="88" height="40"/>
         <image name="support" width="50" height="50"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

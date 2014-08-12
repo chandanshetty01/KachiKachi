@@ -105,6 +105,34 @@
     return self.levelModals.count;
 }
 
+-(void)updateStarsView:(KKCollectionViewCell*)cell andModal:(KKLevelModal*)levelModal
+{
+    if(levelModal.noOfStars > 0){
+        cell.starDisplayView.hidden = NO;
+        if(levelModal.noOfStars == 3){
+            cell.star1ImageView.hidden = NO;
+            cell.star2ImageView.hidden = NO;
+            cell.star3ImageView.hidden = NO;
+        }
+        else if(levelModal.noOfStars == 2){
+            cell.star1ImageView.hidden = NO;
+            cell.star2ImageView.hidden = NO;
+            cell.star3ImageView.hidden = YES;
+        }
+        else if(levelModal.noOfStars == 1){
+            cell.star1ImageView.hidden = NO;
+            cell.star2ImageView.hidden = YES;
+            cell.star3ImageView.hidden = YES;
+        }
+        else{
+            cell.starDisplayView.hidden = YES;
+        }
+    }
+    else{
+        cell.starDisplayView.hidden = YES;
+    }
+}
+
 - (UICollectionViewCell *)collectionView:(UICollectionView *)inCollectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     static NSString *identifier = @"collectionViewCell";
     KKCollectionViewCell *cell = [inCollectionView dequeueReusableCellWithReuseIdentifier:identifier forIndexPath:indexPath];
@@ -115,6 +143,7 @@
     //setImage:[UIImage imageNamed:level.menuIconImage] forState:UIControlStateNormal
     [cell.menuImage setImage:[UIImage imageNamed:level.menuIconImage]];
     cell.menuImage.contentMode = UIViewContentModeCenter;
+    [self updateStarsView:cell andModal:level];
     
     if(level.isLevelUnlocked){
         cell.lockHolderView.hidden = YES;

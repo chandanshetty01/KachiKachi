@@ -13,5 +13,10 @@
 @property (weak, nonatomic) IBOutlet UIView *lockHolderView;
 @property (weak, nonatomic) IBOutlet UIImageView *lockImageBg;
 @property (weak, nonatomic) IBOutlet UIImageView *lockBg;
+@property (weak, nonatomic) IBOutlet UIView *starDisplayView;
+@property (weak, nonatomic) IBOutlet UILabel *starsLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *star1ImageView;
+@property (weak, nonatomic) IBOutlet UIImageView *star2ImageView;
+@property (weak, nonatomic) IBOutlet UIImageView *star3ImageView;
 
 @end

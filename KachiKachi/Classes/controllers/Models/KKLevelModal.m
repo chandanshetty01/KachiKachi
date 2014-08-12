@@ -16,6 +16,11 @@
     self = [super init];
     if (self) {
         self.levelID = [[data objectForKey:@"ID"] intValue];
+        NSNumber *stars = [data objectForKey:@"stars"];
+        if(stars)
+            self.noOfStars = [stars intValue];
+        else
+            self.noOfStars = -1;
         self.menuIconImage = [data objectForKey:@"menuImage"];
         self.baskets = [data objectForKey:@"baskets"];
         self.backgroundImage = [data objectForKey:@"background"];
@@ -50,6 +55,7 @@
     if(self.backgroundImage)
         [dict setObject:self.backgroundImage forKey:@"background"];
     [dict setObject:[NSString stringWithFormat:@"%ld",(long)self.life] forKey:@"life"];
+    [dict setObject:[NSNumber numberWithInt:(int)self.noOfStars] forKey:@"stars"];
     [dict setObject:[NSNumber numberWithBool:self.isLevelCompleted] forKey:@"isLevelCompleted"];
     [dict setObject:[NSNumber numberWithBool:self.isLevelUnlocked] forKey:@"isLevelUnlocked"];
     [dict setObject:[NSString stringWithFormat:@"%ld",(long)self.levelID] forKey:@"ID"];

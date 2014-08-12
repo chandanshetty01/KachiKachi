@@ -28,6 +28,7 @@ typedef enum {
 @property(nonatomic,assign)EGAMEMODE gameMode;
 @property(nonatomic,strong)NSString* name;
 @property(nonatomic,strong)NSString *soundfile;
+@property(nonatomic,assign)NSInteger noOfStars;
 
 -(instancetype)initWithDictionary:(NSDictionary*)data;
 -(NSMutableDictionary*)savedDictionary;
