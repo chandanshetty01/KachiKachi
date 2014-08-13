@@ -53,26 +53,32 @@
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                                 <view contentMode="scaleToFill" id="0WR-sS-9Oo">
-                                                    <rect key="frame" x="122" y="0.0" width="88" height="40"/>
+                                                    <rect key="frame" x="66" y="146" width="88" height="20"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <subviews>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="score_and_moves_bg" id="0G7-qs-mfE">
-                                                            <rect key="frame" x="0.0" y="0.0" width="88" height="40"/>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="0G7-qs-mfE">
+                                                            <rect key="frame" x="0.0" y="0.0" width="88" height="20"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.31" colorSpace="calibratedRGB"/>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                    <integer key="value" value="5"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                            </userDefinedRuntimeAttributes>
                                                         </imageView>
                                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="move" id="5FI-VK-UKp">
-                                                            <rect key="frame" x="67" y="22" width="15" height="15"/>
+                                                            <rect key="frame" x="57" y="3" width="15" height="15"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         </imageView>
                                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="move" id="6bx-1I-0pk">
-                                                            <rect key="frame" x="47" y="22" width="15" height="15"/>
+                                                            <rect key="frame" x="37" y="3" width="15" height="15"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         </imageView>
                                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="move" id="sfL-8f-TCD">
-                                                            <rect key="frame" x="27" y="22" width="15" height="15"/>
+                                                            <rect key="frame" x="17" y="3" width="15" height="15"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         </imageView>
-                                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="STARS" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="wfM-67-egq">
+                                                        <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="STARS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="wfM-67-egq">
                                                             <rect key="frame" x="0.0" y="0.0" width="82" height="21"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
@@ -238,6 +244,13 @@
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8Oc-sF-xd2">
+                                        <rect key="frame" x="387" y="11" width="251" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </view>
@@ -266,6 +279,7 @@
                         <outlet property="homeButton" destination="zsD-91-N22" id="0Il-k7-q0Q"/>
                         <outlet property="lifeLabel" destination="agv-rG-qLi" id="sf7-tg-ovP"/>
                         <outlet property="mailButton" destination="BNG-a1-NMy" id="O4r-L8-Js7"/>
+                        <outlet property="pointsEarned" destination="8Oc-sF-xd2" id="GkM-z4-f43"/>
                         <outlet property="saveBtn" destination="yfJ-ll-bby" id="s7j-Zz-GAg"/>
                         <outlet property="switchBtn" destination="OzG-is-W8j" id="r8T-Ag-UDI"/>
                         <outlet property="timerLabel" destination="8tR-ws-mrs" id="wPD-5k-Pl1"/>
@@ -449,7 +463,6 @@
         <image name="lock_bg.png" width="1024" height="768"/>
         <image name="medium_1" width="247" height="214"/>
         <image name="move" width="15" height="15"/>
-        <image name="score_and_moves_bg" width="88" height="40"/>
         <image name="support" width="50" height="50"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

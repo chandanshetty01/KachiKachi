@@ -20,6 +20,8 @@
 -(BOOL)isStageLocked:(NSInteger)stage;
 -(void)unlockStage:(NSInteger)stage;
 -(void)setCurrentLevel:(NSInteger)currentLevel andStage:(NSInteger)stage;
+-(void)setGamePoints:(NSInteger)points;
+-(NSInteger)gamePoints;
 -(void)setRemainingLife:(NSInteger)life;
 -(void)markUnlocked:(NSInteger)level stage:(NSInteger)stage;
 -(void)markCompleted:(NSInteger)level stage:(NSInteger)stage;

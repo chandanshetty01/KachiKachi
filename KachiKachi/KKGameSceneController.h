@@ -31,6 +31,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *addButton;
 @property (weak, nonatomic) IBOutlet UILabel *lifeLabel;
 @property (nonatomic,assign) NSInteger noOfLifesRemaining;
+@property (nonatomic,assign) NSInteger points;
 @property (nonatomic,assign) NSInteger duration;
 @property (nonatomic,assign) EGAMEMODE gameMode;
 @property (nonatomic,strong) TimerObject *timer;

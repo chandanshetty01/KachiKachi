@@ -24,6 +24,7 @@
 #define kKKLevels  @"levels"
 #define kKKLevelIsCompleted  @"isLevelCompleted"
 #define kKKLevelIsUnlocked  @"isLevelUnlocked"
+#define kKKpointsEarned  @"pointsEarned"
 
 + (id) sharedManager
 {
@@ -63,6 +64,16 @@
 -(NSInteger)currentStageNumber
 {
     return [[self.savedGameData objectForKey:kKKCurrentStage] intValue];
+}
+
+-(void)setGamePoints:(NSInteger)points
+{
+    [self.savedGameData setObject:[NSNumber numberWithInteger:points] forKey:kKKpointsEarned];
+}
+
+-(NSInteger)gamePoints
+{
+    return [[self.savedGameData objectForKey:kKKpointsEarned] intValue];
 }
 
 -(void)setRemainingLife:(NSInteger)life

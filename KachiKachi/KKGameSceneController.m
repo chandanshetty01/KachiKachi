@@ -39,6 +39,7 @@ typedef enum {
 @property(nonatomic,assign) BOOL isGameFinished;
 @property(nonatomic,weak) TTBase* topElement;
 @property (weak, nonatomic) IBOutlet UILabel *timerLabel;
+@property (weak, nonatomic) IBOutlet UILabel *pointsEarned;
 
 @end
 
@@ -64,6 +65,8 @@ typedef void (^completionBlk)(BOOL);
     
     self.currentLevel = [[KKGameStateManager sharedManager] currentLevelNumber];
     self.currentStage = [[KKGameStateManager sharedManager] currentStageNumber];
+    self.points = [[KKGameStateManager sharedManager] gamePoints];
+    [self updatePointsEarned:0];
     
 #ifndef DEVELOPMENT_MODE
     if([MKStoreManager isFeaturePurchased:kTimedMode] || [MKStoreManager isFeaturePurchased:kAdvancedMode])
@@ -176,6 +179,13 @@ typedef void (^completionBlk)(BOOL);
             self.timer = nil;
         }
     }
+}
+
+-(void)updatePointsEarned:(NSInteger)inPoints
+{
+    self.points = self.points + inPoints;
+    [[KKGameStateManager sharedManager] setGamePoints:self.points];
+    self.pointsEarned.text = [NSString stringWithFormat:NSLocalizedString(@"POINTSEARNED", nil),self.points];
 }
 
 -(void)updateTimer:(NSInteger)remainingTime
@@ -515,6 +525,11 @@ typedef void (^completionBlk)(BOOL);
     [[SoundManager sharedManager] playSound:soundFile looping:NO];
 }
 
+-(void)saveGame
+{
+    [self saveLevelData];
+}
+
 -(void)validateGamePlay:(completionBlk)block
 {
     if([self isGameOver] && !_isGameFinished)
@@ -544,8 +559,10 @@ typedef void (^completionBlk)(BOOL);
             [self stopTimer];
             self.currentElement = nil;
             _isGameFinished = YES;
+            NSInteger stars = self.levelModel.noOfStars;
             [self restartGame];
-            [self saveLevelData];
+            self.levelModel.noOfStars = stars;
+            [self saveGame];
             [self performSelector:@selector(showGameOverAlert:) withObject:data afterDelay:0.5];
         }
         block(YES);
@@ -559,7 +576,7 @@ typedef void (^completionBlk)(BOOL);
         
         //Add level save related data after unlockNextLevel
         self.levelModel.noOfStars = stars;
-        [self saveLevelData];
+        [self saveGame];
         [self stopTimer];
         [self showGameWonAlert];
         block(YES);
@@ -571,6 +588,18 @@ typedef void (^completionBlk)(BOOL);
         [self.deletedElements addObject:_currentElement];
         [self showElementDissapearAnimation:block];
 #endif
+    }
+}
+
+-(void)updatePoints:(NSInteger)oldStar andNewStar:(NSInteger)newStar
+{
+    NSInteger points = 0;
+    if(oldStar == -1)
+        oldStar = 0;
+        
+    points = (newStar-oldStar)*10;
+    if(points > 0){
+        [self updatePointsEarned:points];
     }
 }
 
@@ -588,6 +617,8 @@ typedef void (^completionBlk)(BOOL);
     else
         newStar = 1;
     
+    [self updatePoints:oldStar andNewStar:newStar];
+
     if (newStar > oldStar) {
         oldStar = newStar;
     }
@@ -764,7 +795,7 @@ typedef void (^completionBlk)(BOOL);
     [[SoundManager sharedManager] playSound:@"tap" looping:NO];
 
     [self postFlurry:@"LEFT"];
-    [self saveLevelData];
+    [self saveGame];
     AppDelegate *appdelegate = APP_DELEGATE;
     [appdelegate.navigationController popViewControllerAnimated:YES];
 }

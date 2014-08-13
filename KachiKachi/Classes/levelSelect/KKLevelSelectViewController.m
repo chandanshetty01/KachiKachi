@@ -115,13 +115,13 @@
             cell.star3ImageView.hidden = NO;
         }
         else if(levelModal.noOfStars == 2){
-            cell.star1ImageView.hidden = NO;
+            cell.star1ImageView.hidden = YES;
             cell.star2ImageView.hidden = NO;
-            cell.star3ImageView.hidden = YES;
+            cell.star3ImageView.hidden = NO;
         }
         else if(levelModal.noOfStars == 1){
-            cell.star1ImageView.hidden = NO;
-            cell.star2ImageView.hidden = YES;
+            cell.star1ImageView.hidden = YES;
+            cell.star2ImageView.hidden = NO;
             cell.star3ImageView.hidden = YES;
         }
         else{

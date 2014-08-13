@@ -56,3 +56,4 @@
 "ADVANCE" = "ADVANCE";
 
 "STARS" = "STARS";
+"POINTSEARNED" = "POINTS: %d";
