@@ -57,3 +57,14 @@
 
 "STARS" = "STARS";
 "POINTSEARNED" = "POINTS: %d";
+
+"REPLAY" = "Replay";
+"UNLOCK_NEXT_LEVEL" = "Unlock Next Level";
+"MAIN_MENU" = "Main Menu";
+
+"UNLOCK_TEXT" = "Do you want to Unlock Next Level through points earned?";
+"UNLOCK" = "Unlock";
+
+"NO_POINTS_TITLE" = "Buy Points";
+"NO_POINTS" = "You don't have enough points to Unlock Next Level";
+"BUY_POINTS" = "Buy %d Points for %@";

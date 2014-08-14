@@ -27,11 +27,21 @@
 #define LEVEL_INFO_LIFE @"levelLife"
 #define LEVEL_WON @"levelWon"
 
+const NSInteger kPointsToUnlockLevel = 100;
+
 typedef enum {
     eGameWonAlertID = 100,
     eGameLostAlertID,
-    eTutorialAlertID
+    eTutorialAlertID,
+    eUnlockNextLevelID,
+    ePurchasePointsID
 }ALERT_ID;
+
+typedef enum {
+    ePurchasePoints100ID,
+    ePurchasePoints200ID,
+    ePurchasePoints400ID
+}PURCHASEPOINTS_ID;
 
 @interface KKGameSceneController ()
 
@@ -379,8 +389,10 @@ typedef void (^completionBlk)(BOOL);
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"GAME_OVER", nil)
                                                     message:msg
                                                    delegate:self
-                                          cancelButtonTitle:@"OK"
+                                          cancelButtonTitle:NSLocalizedString(@"MAIN_MENU", nil)
                                           otherButtonTitles:nil];
+    [alert addButtonWithTitle:NSLocalizedString(@"UNLOCK_NEXT_LEVEL", nil)];
+    //[alert addButtonWithTitle:NSLocalizedString(@"REPLAY", nil)];
     alert.tag = eGameLostAlertID;
     [alert show];
 }
@@ -606,16 +618,28 @@ typedef void (^completionBlk)(BOOL);
 -(NSInteger)updateStars
 {
     NSInteger oldStar = self.levelModel.noOfStars;
-    
     NSInteger newStar = oldStar;
-    NSInteger life = [[KKGameConfigManager sharedManager] noOfLifesInLevel:self.currentLevel stage:self.currentStage];
-    CGFloat percent = ((self.levelModel.life)/(CGFloat)life)*100;
-    if(percent >= 100)
-        newStar = 3;
-    else if(percent >= 50)
-        newStar = 2;
-    else
-        newStar = 1;
+    
+    if(self.gameMode == eTimerMode){
+        CGFloat duration = [[KKGameConfigManager sharedManager] durationForLevel:self.currentLevel stage:self.currentStage];
+        CGFloat percent = ((self.levelModel.duration)/(CGFloat)duration)*100;
+        if(percent >= 90)
+            newStar = 3;
+        else if(percent >= 80)
+            newStar = 2;
+        else
+            newStar = 1;
+    }
+    else{
+        NSInteger life = [[KKGameConfigManager sharedManager] noOfLifesInLevel:self.currentLevel stage:self.currentStage];
+        CGFloat percent = ((self.levelModel.life)/(CGFloat)life)*100;
+        if(percent >= 100)
+            newStar = 3;
+        else if(percent >= 50)
+            newStar = 2;
+        else
+            newStar = 1;
+    }
     
     [self updatePoints:oldStar andNewStar:newStar];
 
@@ -740,6 +764,54 @@ typedef void (^completionBlk)(BOOL);
     [self.navigationController popViewControllerAnimated:YES];
 }
 
+-(void)unlockNextLevelThroughPoints
+{
+    if(self.points >= kPointsToUnlockLevel){
+        [self updatePointsEarned:-kPointsToUnlockLevel];
+        [self unlockNextLevel];
+        [self saveGame];
+        [self stopTimer];
+        _isGameFinished = NO;
+        [self moveToLevelSelectScene];
+    }
+    else{
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"NO_POINTS_TITLE", nil)
+                                                        message:NSLocalizedString(@"NO_POINTS", nil)
+                                                       delegate:self
+                                              cancelButtonTitle:nil
+                                              otherButtonTitles:nil];
+        [alert addButtonWithTitle:NSLocalizedString(@"UNLOCK_NEXT_LEVEL", nil)];
+        [alert addButtonWithTitle:NSLocalizedString(@"UNLOCK_NEXT_LEVEL", nil)];
+        [alert addButtonWithTitle:NSLocalizedString(@"UNLOCK_NEXT_LEVEL", nil)];
+        [alert addButtonWithTitle:NSLocalizedString(@"MAIN_MENU", nil)];
+        alert.tag = ePurchasePointsID;
+        [alert show];
+    }
+}
+
+-(void)purchasePoints:(PURCHASEPOINTS_ID)inIndex
+{
+    switch (inIndex) {
+        case ePurchasePoints100ID:{
+        }
+            break;
+        case ePurchasePoints200ID:{
+        }
+            break;
+        case ePurchasePoints400ID:{
+        }
+            break;
+            
+        default:
+            break;
+    }
+}
+
+-(void)replayLevel
+{
+    
+}
+
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
 {
     [[SoundManager sharedManager] playSound:@"tap" looping:NO];
@@ -768,15 +840,90 @@ typedef void (^completionBlk)(BOOL);
             break;
         case eGameLostAlertID:
         {
-            _isGameFinished = NO;
-            [self moveToLevelSelectScene];
+            switch (buttonIndex) {
+                case 0:{
+                    _isGameFinished = NO;
+                    [self moveToLevelSelectScene];
+                }
+                    break;
+                case 1:{
+                    //Unlock Next Level
+                    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"UNLOCK_NEXT_LEVEL", nil)
+                                                                    message:NSLocalizedString(@"UNLOCK_TEXT", nil)
+                                                                   delegate:self
+                                                          cancelButtonTitle:NSLocalizedString(@"MAIN_MENU", nil)
+                                                          otherButtonTitles:NSLocalizedString(@"UNLOCK", nil), nil];
+                    //[alert addButtonWithTitle:NSLocalizedString(@"REPLAY", nil)];
+                    alert.tag = eUnlockNextLevelID;
+                    [alert show];
+                }
+                    break;
+                case 2:{
+                    //Replay
+                    [self replayLevel];
+                }
+                    break;
+                    
+                default:
+                    break;
+            }
         }
             break;
+            
+        case eUnlockNextLevelID:{
+            switch (buttonIndex) {
+                case 0:{
+                    _isGameFinished = NO;
+                    [self moveToLevelSelectScene];
+                }
+                    break;
+                case 1:{
+                    [self unlockNextLevelThroughPoints];
+                }
+                    break;
+                case 2:{
+                    //replay
+                    [self replayLevel];
+                }
+                    break;
+                    
+                default:
+                    break;
+            }
+        }
+            break;
+            
         case eTutorialAlertID:
         {
             [self startTimer];
         }
             break;
+            
+        case ePurchasePointsID:{
+            switch (buttonIndex) {
+                case 0:{
+
+                }
+                    break;
+                case 1:{
+                    [self unlockNextLevelThroughPoints];
+                }
+                    break;
+                case 2:{
+                    [self unlockNextLevelThroughPoints];
+                }
+                    break;
+                case 3:{
+                    _isGameFinished = NO;
+                    [self moveToLevelSelectScene];
+                }
+                    break;
+                    
+                default:
+                    break;
+            }
+
+        }
             
         default:
             break;

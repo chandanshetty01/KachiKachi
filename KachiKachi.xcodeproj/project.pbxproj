@@ -48,6 +48,7 @@
 		A36A12ED1954C090007F6355 /* TTChoc.m in Sources */ = {isa = PBXBuildFile; fileRef = A36A12EC1954C090007F6355 /* TTChoc.m */; };
 		A36A12F01955510B007F6355 /* TTFish.m in Sources */ = {isa = PBXBuildFile; fileRef = A36A12EF1955510B007F6355 /* TTFish.m */; };
 		A36A12F319556DD6007F6355 /* TTApple.m in Sources */ = {isa = PBXBuildFile; fileRef = A36A12F219556DD6007F6355 /* TTApple.m */; };
+		A36C8E3C199CFE9B0071142B /* KKCustomAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A36C8E3B199CFE9B0071142B /* KKCustomAlertViewController.m */; };
 		A38222D9197261AA00D7A856 /* NSData+MKBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = A38222CE197261AA00D7A856 /* NSData+MKBase64.m */; };
 		A38222DA197261AA00D7A856 /* SFHFKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A38222D0197261AA00D7A856 /* SFHFKeychainUtils.m */; };
 		A38222DB197261AA00D7A856 /* MKSKProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = A38222D2197261AA00D7A856 /* MKSKProduct.m */; };
@@ -196,6 +197,8 @@
 		A36A12EF1955510B007F6355 /* TTFish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTFish.m; sourceTree = "<group>"; };
 		A36A12F119556DD6007F6355 /* TTApple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTApple.h; sourceTree = "<group>"; };
 		A36A12F219556DD6007F6355 /* TTApple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTApple.m; sourceTree = "<group>"; };
+		A36C8E3A199CFE9B0071142B /* KKCustomAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKCustomAlertViewController.h; sourceTree = "<group>"; };
+		A36C8E3B199CFE9B0071142B /* KKCustomAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKCustomAlertViewController.m; sourceTree = "<group>"; };
 		A38222CD197261AA00D7A856 /* NSData+MKBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+MKBase64.h"; sourceTree = "<group>"; };
 		A38222CE197261AA00D7A856 /* NSData+MKBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+MKBase64.m"; sourceTree = "<group>"; };
 		A38222CF197261AA00D7A856 /* SFHFKeychainUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFHFKeychainUtils.h; sourceTree = "<group>"; };
@@ -353,6 +356,8 @@
 				A314CCE1194F2B620002BECC /* KKStageSelectController.m */,
 				A3A67EB51902BE7E00BFAF7B /* KKGameSceneController.h */,
 				A3A67EB61902BE7E00BFAF7B /* KKGameSceneController.m */,
+				A36C8E3A199CFE9B0071142B /* KKCustomAlertViewController.h */,
+				A36C8E3B199CFE9B0071142B /* KKCustomAlertViewController.m */,
 			);
 			name = controllers;
 			path = Classes/controllers;
@@ -838,6 +843,7 @@
 				A3FB4F4719125D070039585F /* Utility.m in Sources */,
 				A38222DB197261AA00D7A856 /* MKSKProduct.m in Sources */,
 				A3A67EB71902BE7E00BFAF7B /* KKGameSceneController.m in Sources */,
+				A36C8E3C199CFE9B0071142B /* KKCustomAlertViewController.m in Sources */,
 				A314CCE2194F2B620002BECC /* KKStageSelectController.m in Sources */,
 				A3FF1547195E6720007CE275 /* TTUmbrella.m in Sources */,
 				A3FF153B195C4F48007CE275 /* TTBird.m in Sources */,

@@ -31,6 +31,7 @@
     
     //enable preview mode
     [iRate sharedInstance].delegate = self;
+    [iRate sharedInstance].appStoreID = APPSTORE_ID;
     
     return YES;
 }
