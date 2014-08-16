@@ -68,3 +68,6 @@
 "NO_POINTS_TITLE" = "Buy Points";
 "NO_POINTS" = "You don't have enough points to Unlock Next Level";
 "BUY_POINTS" = "Buy %d Points for %@";
+
+"POINTS_SUCCESS" = "Points Added Successfully";
+"POINTS_SUCCESS_MSG" = "%d points added, you have total %d points";

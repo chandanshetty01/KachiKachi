@@ -74,6 +74,7 @@
 		A3A67EBF1902C95D00BFAF7B /* KKGameConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A67EBE1902C95D00BFAF7B /* KKGameConfigManager.m */; };
 		A3A67ED11902E3D300BFAF7B /* TTBase.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A67ECE1902E3D300BFAF7B /* TTBase.m */; };
 		A3A67ED21902E3D300BFAF7B /* TTPencil.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A67ED01902E3D300BFAF7B /* TTPencil.m */; };
+		A3A8DFF6199E5279001FF20D /* ILTranslucentView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A8DFF5199E5279001FF20D /* ILTranslucentView.m */; };
 		A3B3C4EC1961B52700B62BD4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3B3C4EA1961B52700B62BD4 /* InfoPlist.strings */; };
 		A3B3C4F71961C4C100B62BD4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B3C4F61961C4C100B62BD4 /* SystemConfiguration.framework */; };
 		A3B97D6B1930F7AD0049DCEB /* SoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B97D6A1930F7AD0049DCEB /* SoundManager.m */; };
@@ -239,6 +240,8 @@
 		A3A67ECE1902E3D300BFAF7B /* TTBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTBase.m; sourceTree = "<group>"; };
 		A3A67ECF1902E3D300BFAF7B /* TTPencil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTPencil.h; sourceTree = "<group>"; };
 		A3A67ED01902E3D300BFAF7B /* TTPencil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTPencil.m; sourceTree = "<group>"; };
+		A3A8DFF4199E5279001FF20D /* ILTranslucentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILTranslucentView.h; sourceTree = "<group>"; };
+		A3A8DFF5199E5279001FF20D /* ILTranslucentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILTranslucentView.m; sourceTree = "<group>"; };
 		A3B3C4EB1961B52700B62BD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
 		A3B3C4F21961C2F600B62BD4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		A3B3C4F41961C31C00B62BD4 /* libsystem_network.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsystem_network.dylib; path = usr/lib/system/libsystem_network.dylib; sourceTree = SDKROOT; };
@@ -336,6 +339,8 @@
 		A305F2B41945F0C100B62C6C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				A3A8DFF4199E5279001FF20D /* ILTranslucentView.h */,
+				A3A8DFF5199E5279001FF20D /* ILTranslucentView.m */,
 				A33D53D01966756600D65131 /* Timer */,
 				A3A67EBD1902C95D00BFAF7B /* KKGameConfigManager.h */,
 				A3A67EBE1902C95D00BFAF7B /* KKGameConfigManager.m */,
@@ -874,6 +879,7 @@
 				A3A67ED21902E3D300BFAF7B /* TTPencil.m in Sources */,
 				A3A67EBF1902C95D00BFAF7B /* KKGameConfigManager.m in Sources */,
 				A36A12E7195495ED007F6355 /* TTDisc.m in Sources */,
+				A3A8DFF6199E5279001FF20D /* ILTranslucentView.m in Sources */,
 				A3FF1541195DDC2D007CE275 /* TTDvd.m in Sources */,
 				A3FF154A195E672C007CE275 /* TTKey.m in Sources */,
 				A3F1005019546B080002CA97 /* KKMailComposerManager.m in Sources */,

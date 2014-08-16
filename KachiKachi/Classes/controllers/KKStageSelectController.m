@@ -12,6 +12,7 @@
 #import "KKGameStateManager.h"
 #import "UserVoice.h"
 #import "KKMailComposerManager.h"
+#import "KKCustomAlertViewController.h"
 
 @interface KKStageSelectController ()
 @property (weak, nonatomic) IBOutlet UILabel *easyTitle;
@@ -76,7 +77,6 @@
 - (IBAction)handleSoundSwitchBtn:(UISwitch *)sender
 {
     [[KKGameStateManager sharedManager] setSoundEnabled:sender.isOn];
-    
     [[SoundManager sharedManager] playSound:@"tap" looping:NO];
 }
 

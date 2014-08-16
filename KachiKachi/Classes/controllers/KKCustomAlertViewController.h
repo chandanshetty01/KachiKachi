@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-typedef void(^completionBlk)(NSInteger index);
+typedef void(^completionBlkWithInteger)(NSInteger index);
 
 @interface KKCustomAlertViewController : UIViewController
 {
@@ -16,8 +16,12 @@ typedef void(^completionBlk)(NSInteger index);
 }
 @property(nonatomic,assign)BOOL canDismissOnButtonPress;
 
--(void)showAlertWithTitle:(NSString*)title message:(NSString*)message inController:(UIViewController*)controller completion:(completionBlk)blk;
--(void)removeController;
+-(void)showAlertWithTitle:(NSString*)title
+                  message:(NSString*)message
+              buttonTitle:(NSString*)btnTitle
+             inController:(UIViewController*)controller
+               completion:(completionBlkWithInteger)blk;
+-(void)removeController:(completionBlkWithInteger)blk;
 -(void)addButtonWithTitle:(NSString *)title;
 
 @end

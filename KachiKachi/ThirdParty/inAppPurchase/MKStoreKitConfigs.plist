@@ -7,5 +7,29 @@
 		<string>com.kachikachi.mediumlevel</string>
 		<string>com.kachikachi.advancestage</string>
 	</array>
+	<key>Consumables</key>
+	<dict>
+		<key>com.kachikachi.buy100points</key>
+		<dict>
+			<key>Count</key>
+			<integer>1</integer>
+			<key>Name</key>
+			<string>Buy 100 Points</string>
+		</dict>
+		<key>com.kachikachi.buy200points</key>
+		<dict>
+			<key>Count</key>
+			<integer>1</integer>
+			<key>Name</key>
+			<string>Buy 200 Points</string>
+		</dict>
+		<key>com.kachikachi.buy400points</key>
+		<dict>
+			<key>Count</key>
+			<integer>1</integer>
+			<key>Name</key>
+			<string>Buy 400 Points</string>
+		</dict>
+	</dict>
 </dict>
 </plist>

@@ -18,6 +18,7 @@
 #import <Crashlytics/Crashlytics.h>
 #import <Social/Social.h>
 #import "MKStoreManager.h"
+#import "KKCustomAlertViewController.h"
 
 #define RANDOM_SEED() srandom((unsigned)time(NULL))
 #define RANDOM_INT(__MIN__, __MAX__) ((__MIN__) + random() % ((__MAX__+1) - (__MIN__)))
@@ -381,20 +382,49 @@ typedef void (^completionBlk)(BOOL);
     [[KKGameStateManager sharedManager]save];
 }
 
+-(void)showUnlockAlert
+{
+    //Unlock Next Level
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"UNLOCK_NEXT_LEVEL", nil)
+                                                    message:NSLocalizedString(@"UNLOCK_TEXT", nil)
+                                                   delegate:self
+                                          cancelButtonTitle:NSLocalizedString(@"CANCEL", nil)
+                                          otherButtonTitles:NSLocalizedString(@"UNLOCK", nil), nil];
+    //[alert addButtonWithTitle:NSLocalizedString(@"REPLAY", nil)];
+    alert.tag = eUnlockNextLevelID;
+    [alert show];
+}
+
 -(void)showGameOverAlert:(NSDictionary*)data
 {
     [[SoundManager sharedManager] playSound:@"wrong" looping:NO];
 
     NSString *msg = [data objectForKey:@"msg"];
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"GAME_OVER", nil)
-                                                    message:msg
-                                                   delegate:self
-                                          cancelButtonTitle:NSLocalizedString(@"MAIN_MENU", nil)
-                                          otherButtonTitles:nil];
-    [alert addButtonWithTitle:NSLocalizedString(@"UNLOCK_NEXT_LEVEL", nil)];
-    //[alert addButtonWithTitle:NSLocalizedString(@"REPLAY", nil)];
-    alert.tag = eGameLostAlertID;
-    [alert show];
+    
+    UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main_iPad" bundle:nil];
+    KKCustomAlertViewController *alertview = [storyBoard instantiateViewControllerWithIdentifier:@"KKCustomAlertViewController"];
+    alertview.view.tag = 1;
+    alertview.canDismissOnButtonPress = NO;
+    [alertview addButtonWithTitle:NSLocalizedString(@"MAIN_MENU", nil)];
+    [alertview showAlertWithTitle:NSLocalizedString(@"GAME_OVER", nil)
+                          message:msg
+                      buttonTitle:NSLocalizedString(@"UNLOCK_NEXT_LEVEL", nil)
+                     inController:self
+                       completion:^(NSInteger index) {
+                           if(index == 0){
+                               [self showUnlockAlert];
+                           }
+                           else if(index == 1){
+                               [alertview removeController:^(NSInteger index) {
+                                   //Main Menu
+                                   _isGameFinished = NO;
+                                   [self moveToLevelSelectScene];
+                               }];
+                           }
+                           else if(index == 2){
+                               [self replayLevel];
+                           }
+                       }];
 }
 
 #pragma mark - social integration
@@ -764,6 +794,53 @@ typedef void (^completionBlk)(BOOL);
     [self.navigationController popViewControllerAnimated:YES];
 }
 
+-(void)purchase:(PURCHASEPOINTS_ID)inID
+{
+    NSString *featureID = nil;
+    if(inID == ePurchasePoints100ID)
+        featureID = kBuy100Points;
+    else if(inID == ePurchasePoints200ID)
+        featureID = kBuy200Points;
+    else
+        featureID = kBuy400Points;
+
+    [[MKStoreManager sharedManager] buyFeature:featureID
+                                    onComplete:^(NSString* purchasedFeature,
+                                                 NSData* purchasedReceipt,
+                                                 NSArray* availableDownloads)
+     {
+         [Flurry logEvent:[NSString stringWithFormat:@"Bought %@",featureID]];
+         [self provideContent:inID];
+     }
+                                   onCancelled:^
+     {
+         [Flurry logEvent:[NSString stringWithFormat:@"Cancelled Buying %@",featureID]];
+     }];
+}
+
+-(void)provideContent:(PURCHASEPOINTS_ID)inID
+{
+    NSInteger points = 100;
+    if(inID == ePurchasePoints100ID){
+        points = 100;
+    }
+    else if(inID == ePurchasePoints200ID){
+        points = 200;
+    }
+    else if(inID == ePurchasePoints400ID){
+        points = 400;
+    }
+    [self updatePointsEarned:points];
+    
+    NSString *msg = [NSString stringWithFormat:NSLocalizedString(@"POINTS_SUCCESS_MSG", nil),points,[[KKGameStateManager sharedManager] gamePoints]];
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"POINTS_SUCCESS", nil)
+                                                    message:msg
+                                                   delegate:nil
+                                          cancelButtonTitle:NSLocalizedString(@"OK", nil)
+                                          otherButtonTitles:nil];
+    [alert show];
+}
+
 -(void)unlockNextLevelThroughPoints
 {
     if(self.points >= kPointsToUnlockLevel){
@@ -780,30 +857,12 @@ typedef void (^completionBlk)(BOOL);
                                                        delegate:self
                                               cancelButtonTitle:nil
                                               otherButtonTitles:nil];
-        [alert addButtonWithTitle:NSLocalizedString(@"UNLOCK_NEXT_LEVEL", nil)];
-        [alert addButtonWithTitle:NSLocalizedString(@"UNLOCK_NEXT_LEVEL", nil)];
-        [alert addButtonWithTitle:NSLocalizedString(@"UNLOCK_NEXT_LEVEL", nil)];
-        [alert addButtonWithTitle:NSLocalizedString(@"MAIN_MENU", nil)];
+        [alert addButtonWithTitle:NSLocalizedString(@"BUY_POINTS", "Buy %d Points for %@")];
+        [alert addButtonWithTitle:NSLocalizedString(@"BUY_POINTS", "Buy %d Points for %@")];
+        [alert addButtonWithTitle:NSLocalizedString(@"BUY_POINTS", "Buy %d Points for %@")];
+        [alert addButtonWithTitle:NSLocalizedString(@"CANCEL", nil)];
         alert.tag = ePurchasePointsID;
         [alert show];
-    }
-}
-
--(void)purchasePoints:(PURCHASEPOINTS_ID)inIndex
-{
-    switch (inIndex) {
-        case ePurchasePoints100ID:{
-        }
-            break;
-        case ePurchasePoints200ID:{
-        }
-            break;
-        case ePurchasePoints400ID:{
-        }
-            break;
-            
-        default:
-            break;
     }
 }
 
@@ -838,52 +897,15 @@ typedef void (^completionBlk)(BOOL);
             }
         }
             break;
-        case eGameLostAlertID:
-        {
-            switch (buttonIndex) {
-                case 0:{
-                    _isGameFinished = NO;
-                    [self moveToLevelSelectScene];
-                }
-                    break;
-                case 1:{
-                    //Unlock Next Level
-                    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"UNLOCK_NEXT_LEVEL", nil)
-                                                                    message:NSLocalizedString(@"UNLOCK_TEXT", nil)
-                                                                   delegate:self
-                                                          cancelButtonTitle:NSLocalizedString(@"MAIN_MENU", nil)
-                                                          otherButtonTitles:NSLocalizedString(@"UNLOCK", nil), nil];
-                    //[alert addButtonWithTitle:NSLocalizedString(@"REPLAY", nil)];
-                    alert.tag = eUnlockNextLevelID;
-                    [alert show];
-                }
-                    break;
-                case 2:{
-                    //Replay
-                    [self replayLevel];
-                }
-                    break;
-                    
-                default:
-                    break;
-            }
-        }
-            break;
-            
+
         case eUnlockNextLevelID:{
             switch (buttonIndex) {
                 case 0:{
-                    _isGameFinished = NO;
-                    [self moveToLevelSelectScene];
+                    //Cancel
                 }
                     break;
                 case 1:{
                     [self unlockNextLevelThroughPoints];
-                }
-                    break;
-                case 2:{
-                    //replay
-                    [self replayLevel];
                 }
                     break;
                     
@@ -902,20 +924,19 @@ typedef void (^completionBlk)(BOOL);
         case ePurchasePointsID:{
             switch (buttonIndex) {
                 case 0:{
-
+                    [self purchase:ePurchasePoints100ID];
                 }
                     break;
                 case 1:{
-                    [self unlockNextLevelThroughPoints];
+                    [self purchase:ePurchasePoints200ID];
                 }
                     break;
                 case 2:{
-                    [self unlockNextLevelThroughPoints];
+                    [self purchase:ePurchasePoints400ID];
                 }
                     break;
                 case 3:{
-                    _isGameFinished = NO;
-                    [self moveToLevelSelectScene];
+
                 }
                     break;
                     
