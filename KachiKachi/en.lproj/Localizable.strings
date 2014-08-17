@@ -71,3 +71,6 @@
 
 "POINTS_SUCCESS" = "Points Added Successfully";
 "POINTS_SUCCESS_MSG" = "%d points added, you have total %d points";
+
+"MAIL_ERROR_TITLE" = "Can't send Mail";
+"MAIL_NO_CONFIGURED" = "Mail is not configured, please configure your mail Account";

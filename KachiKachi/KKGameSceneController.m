@@ -457,7 +457,7 @@ typedef void (^completionBlk)(BOOL);
             }};
         
         NSString *mode = @"Easy";
-        switch (self.levelModel.stageID) {
+        switch (self.currentStage) {
             case 2:
                 mode = @"Timed";
                 break;
@@ -513,7 +513,7 @@ typedef void (^completionBlk)(BOOL);
             }};
         
         NSString *mode = @"Easy";
-        switch (self.levelModel.stageID) {
+        switch (self.currentStage) {
             case 2:
                 mode = @"Timed";
                 break;

@@ -57,6 +57,19 @@
         
         [inController presentViewController:picker animated:YES completion:NULL];
     }
+    else{
+        [self displayComposerSheet];
+    }
+}
+
+-(void)displayComposerSheet
+{
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"MAIL_ERROR_TITLE", nil)
+                                                    message:NSLocalizedString(@"MAIL_NO_CONFIGURED", nil)
+                                                   delegate:nil
+                                          cancelButtonTitle:NSLocalizedString(@"OK", nil)
+                                          otherButtonTitles:nil];
+    [alert show];
 }
 
 #pragma mark - Delegate Methods
