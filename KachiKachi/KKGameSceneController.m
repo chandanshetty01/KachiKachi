@@ -135,6 +135,15 @@ typedef void (^completionBlk)(BOOL);
     else{
         self.timerLabel.hidden = YES;
     }
+    
+    [self stageInformationFlurry];
+}
+
+-(void)stageInformationFlurry
+{
+    NSMutableDictionary *levelInfo = [[NSMutableDictionary alloc] init];
+    [levelInfo setObject:[NSString stringWithFormat:@"%@",self.levelModel.name] forKey:[NSString stringWithFormat:@"%ld",(long)self.currentStage]];
+    [Flurry logEvent:@"stage_information" withParameters:levelInfo];
 }
 
 -(void)showTutorial : (NSInteger)tutorialID
