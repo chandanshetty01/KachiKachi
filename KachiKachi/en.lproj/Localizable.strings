@@ -32,10 +32,10 @@
 "GAME_WON" = "Game Won!";
 
 "UNLOCK_STAGE_MEDIUM" = "Unlock 'Medium' Stage!";
-"UNLOCK_STAGE_MEDIUM_DESC" = "Unlock 'Medium' Stage and Remove 'Ads' for %@ or Complete all levels in 'Easy' Stage to play 'Medium' Stage";
+"UNLOCK_STAGE_MEDIUM_DESC" = "Unlock 'Medium' Stage and Remove 'Ads' for %@";
 
 "UNLOCK_STAGE_ADVANCED" = "Unlock 'Advance' Stage!";
-"UNLOCK_STAGE_ADVANCED_DESC" = "Unlock 'Advance' Stage and Remove 'Ads' for %@ or Complete all levels in 'Medium' Stage to Play 'Advance' Stage";
+"UNLOCK_STAGE_ADVANCED_DESC" = "Unlock 'Advance' Stage and Remove 'Ads' for %@";
 
 "TELL_A_FRIEND_MSG" = "Check out our new game 'Kachi Kachi' (%@)!";
 "TELL_A_FRIEND_TITLE" = "Try KACHI KACHI its Awesome!";

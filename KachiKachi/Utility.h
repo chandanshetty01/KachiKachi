@@ -7,12 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "MKStoreManager.h"
 
 @interface Utility : NSObject
+
++(id)sharedManager;
 
 +(BOOL)isPolygonIntersected:(NSArray*)polygonA andPolygon:(NSArray*)polygonB;
 +(BOOL)isLineCollided:(CGPoint)A1 secondPoint:(CGPoint)A2 thirdPoint:(CGPoint)B1 fourthPoint:(CGPoint)B2
                andOut:(double*) outPoint;
 +(double)getPerpDot:(CGPoint)a secondPoint:(CGPoint)b;
+
+-(SKProduct*)productWithID:(NSString*)inID;
 
 @end

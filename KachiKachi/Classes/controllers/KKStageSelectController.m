@@ -13,6 +13,7 @@
 #import "UserVoice.h"
 #import "KKMailComposerManager.h"
 #import "KKCustomAlertViewController.h"
+#import "Utility.h"
 
 @interface KKStageSelectController ()
 @property (weak, nonatomic) IBOutlet UILabel *easyTitle;
@@ -93,14 +94,10 @@
     NSString *money = @"0.99$";
 
     SKProduct *product = nil;
-    NSMutableArray *products = [MKStoreManager sharedManager].purchasableObjects;
-    if([products count] > 1){
-        
-        if(stageID == 2)
-            product = [products objectAtIndex:0];
-        else
-            product = [products objectAtIndex:1];
-    }
+    if(stageID == 2)
+        product = [[Utility sharedManager] productWithID:kTimedMode];
+    else
+        product = [[Utility sharedManager] productWithID:kAdvancedMode];
     
     if(product){
         NSNumberFormatter *numberFormatter = [[NSNumberFormatter alloc] init];

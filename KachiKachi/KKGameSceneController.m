@@ -19,6 +19,7 @@
 #import <Social/Social.h>
 #import "MKStoreManager.h"
 #import "KKCustomAlertViewController.h"
+#import "Utility.h"
 
 #define RANDOM_SEED() srandom((unsigned)time(NULL))
 #define RANDOM_INT(__MIN__, __MAX__) ((__MIN__) + random() % ((__MAX__+1) - (__MIN__)))
@@ -852,14 +853,46 @@ typedef void (^completionBlk)(BOOL);
         [self moveToLevelSelectScene];
     }
     else{
+        NSString *money1 = @"0.99$";
+        NSString *money2 = @"1.99$";
+        NSString *money3 = @"2.99$";
+
+        SKProduct *product = nil;
+        product = [[Utility sharedManager] productWithID:kBuy100Points];
+        if(product){
+            NSNumberFormatter *numberFormatter = [[NSNumberFormatter alloc] init];
+            [numberFormatter setFormatterBehavior:NSNumberFormatterBehavior10_4];
+            [numberFormatter setNumberStyle:NSNumberFormatterCurrencyStyle];
+            [numberFormatter setLocale:product.priceLocale];
+            money1 = [numberFormatter stringFromNumber:product.price];
+        }
+        
+        product = [[Utility sharedManager] productWithID:kBuy200Points];
+        if(product){
+            NSNumberFormatter *numberFormatter = [[NSNumberFormatter alloc] init];
+            [numberFormatter setFormatterBehavior:NSNumberFormatterBehavior10_4];
+            [numberFormatter setNumberStyle:NSNumberFormatterCurrencyStyle];
+            [numberFormatter setLocale:product.priceLocale];
+            money2 = [numberFormatter stringFromNumber:product.price];
+        }
+        
+        product = [[Utility sharedManager] productWithID:kBuy400Points];
+        if(product){
+            NSNumberFormatter *numberFormatter = [[NSNumberFormatter alloc] init];
+            [numberFormatter setFormatterBehavior:NSNumberFormatterBehavior10_4];
+            [numberFormatter setNumberStyle:NSNumberFormatterCurrencyStyle];
+            [numberFormatter setLocale:product.priceLocale];
+            money3 = [numberFormatter stringFromNumber:product.price];
+        }
+        
         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"NO_POINTS_TITLE", nil)
                                                         message:NSLocalizedString(@"NO_POINTS", nil)
                                                        delegate:self
                                               cancelButtonTitle:nil
                                               otherButtonTitles:nil];
-        [alert addButtonWithTitle:NSLocalizedString(@"BUY_POINTS", "Buy %d Points for %@")];
-        [alert addButtonWithTitle:NSLocalizedString(@"BUY_POINTS", "Buy %d Points for %@")];
-        [alert addButtonWithTitle:NSLocalizedString(@"BUY_POINTS", "Buy %d Points for %@")];
+        [alert addButtonWithTitle:[NSString stringWithFormat:NSLocalizedString(@"BUY_POINTS", "Buy %d Points for %@"),100,money1]];
+        [alert addButtonWithTitle:[NSString stringWithFormat:NSLocalizedString(@"BUY_POINTS", "Buy %d Points for %@"),200,money2]];
+        [alert addButtonWithTitle:[NSString stringWithFormat:NSLocalizedString(@"BUY_POINTS", "Buy %d Points for %@"),400,money3]];
         [alert addButtonWithTitle:NSLocalizedString(@"CANCEL", nil)];
         alert.tag = ePurchasePointsID;
         [alert show];

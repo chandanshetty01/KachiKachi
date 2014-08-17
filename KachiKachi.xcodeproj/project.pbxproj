@@ -75,6 +75,7 @@
 		A3A67ED11902E3D300BFAF7B /* TTBase.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A67ECE1902E3D300BFAF7B /* TTBase.m */; };
 		A3A67ED21902E3D300BFAF7B /* TTPencil.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A67ED01902E3D300BFAF7B /* TTPencil.m */; };
 		A3A8DFF6199E5279001FF20D /* ILTranslucentView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A8DFF5199E5279001FF20D /* ILTranslucentView.m */; };
+		A3A8DFFD19A07662001FF20D /* PushApps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3A8DFFC19A07662001FF20D /* PushApps.framework */; };
 		A3B3C4EC1961B52700B62BD4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3B3C4EA1961B52700B62BD4 /* InfoPlist.strings */; };
 		A3B3C4F71961C4C100B62BD4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B3C4F61961C4C100B62BD4 /* SystemConfiguration.framework */; };
 		A3B97D6B1930F7AD0049DCEB /* SoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B97D6A1930F7AD0049DCEB /* SoundManager.m */; };
@@ -242,6 +243,7 @@
 		A3A67ED01902E3D300BFAF7B /* TTPencil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTPencil.m; sourceTree = "<group>"; };
 		A3A8DFF4199E5279001FF20D /* ILTranslucentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILTranslucentView.h; sourceTree = "<group>"; };
 		A3A8DFF5199E5279001FF20D /* ILTranslucentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILTranslucentView.m; sourceTree = "<group>"; };
+		A3A8DFFC19A07662001FF20D /* PushApps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PushApps.framework; sourceTree = "<group>"; };
 		A3B3C4EB1961B52700B62BD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
 		A3B3C4F21961C2F600B62BD4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		A3B3C4F41961C31C00B62BD4 /* libsystem_network.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsystem_network.dylib; path = usr/lib/system/libsystem_network.dylib; sourceTree = SDKROOT; };
@@ -287,6 +289,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3A8DFFD19A07662001FF20D /* PushApps.framework in Frameworks */,
 				A32F4E6B1987F7F8009A20F9 /* iAd.framework in Frameworks */,
 				A3D79A0819835ED40016DA23 /* StoreKit.framework in Frameworks */,
 				A3B3C4F71961C4C100B62BD4 /* SystemConfiguration.framework in Frameworks */,
@@ -426,6 +429,7 @@
 		A357D7A3196301350037C2B4 /* ThirdParty */ = {
 			isa = PBXGroup;
 			children = (
+				A3A8DFFA19A07662001FF20D /* PushApp */,
 				A38222E419756B5E00D7A856 /* iRate */,
 				A38222CB197261AA00D7A856 /* inAppPurchase */,
 				A31B48231971A81D00EF6BF8 /* Resources */,
@@ -618,6 +622,22 @@
 			path = Elements;
 			sourceTree = "<group>";
 		};
+		A3A8DFFA19A07662001FF20D /* PushApp */ = {
+			isa = PBXGroup;
+			children = (
+				A3A8DFFB19A07662001FF20D /* SDK */,
+			);
+			path = PushApp;
+			sourceTree = "<group>";
+		};
+		A3A8DFFB19A07662001FF20D /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				A3A8DFFC19A07662001FF20D /* PushApps.framework */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
 		A3B3C4E91961B52700B62BD4 /* en.lproj */ = {
 			isa = PBXGroup;
 			children = (
@@ -713,6 +733,9 @@
 								enabled = 1;
 							};
 							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
 								enabled = 1;
 							};
 						};
@@ -1068,12 +1091,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = KachiKachi/KachiKachi.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Aismobileapps (J3X836PV78)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Aismobileapps (J3X836PV78)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/KachiKachi/ThirdParty",
+					"$(PROJECT_DIR)/KachiKachi/ThirdParty/PushApp/SDK",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KachiKachi/KachiKachi-Prefix.pch";
@@ -1086,7 +1110,7 @@
 					"$(PROJECT_DIR)/KachiKachi/ThirdParty/UserVoice",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "94CFD235-E4ED-4216-887C-376781CDA917";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
@@ -1098,12 +1122,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = KachiKachi/KachiKachi.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Aismobileapps (J3X836PV78)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Aismobileapps (J3X836PV78)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/KachiKachi/ThirdParty",
+					"$(PROJECT_DIR)/KachiKachi/ThirdParty/PushApp/SDK",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KachiKachi/KachiKachi-Prefix.pch";
@@ -1116,7 +1141,7 @@
 					"$(PROJECT_DIR)/KachiKachi/ThirdParty/UserVoice",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "94CFD235-E4ED-4216-887C-376781CDA917";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
