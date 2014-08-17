@@ -15,7 +15,7 @@
 "TWEET" = "Tweet";
 
 "GAME_OVER" = "Game Over";
-"GAME_OVER_MSG" = "You ran out of LIFE";
+"GAME_OVER_MSG" = "You ran out of LIFE!";
 "GAME_OVER_MSG_TIME" = "You have ran out of TIME!";
 
 "LIFE" = "LIFE REMAINING: %d";

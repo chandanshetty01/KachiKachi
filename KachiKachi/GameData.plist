@@ -79601,7 +79601,7 @@
 				<key>background</key>
 				<string>balloon_bg.png</string>
 				<key>life</key>
-				<integer>2</integer>
+				<integer>3</integer>
 				<key>gameMode</key>
 				<string>1</string>
 				<key>duration</key>
@@ -81877,7 +81877,7 @@
 				<key>background</key>
 				<string>balloon_bg.png</string>
 				<key>life</key>
-				<integer>2</integer>
+				<integer>3</integer>
 				<key>gameMode</key>
 				<string>1</string>
 				<key>duration</key>
@@ -85274,7 +85274,7 @@
 				<key>background</key>
 				<string>balloon_bg.png</string>
 				<key>life</key>
-				<integer>2</integer>
+				<integer>3</integer>
 				<key>gameMode</key>
 				<string>1</string>
 				<key>duration</key>
@@ -87490,7 +87490,7 @@
 				<key>isLevelUnlocked</key>
 				<false/>
 				<key>life</key>
-				<integer>2</integer>
+				<integer>3</integer>
 				<key>gameMode</key>
 				<string>1</string>
 				<key>duration</key>
@@ -89743,7 +89743,7 @@
 				<key>background</key>
 				<string>leaves_bg.png</string>
 				<key>life</key>
-				<integer>2</integer>
+				<integer>3</integer>
 				<key>gameMode</key>
 				<string>1</string>
 				<key>duration</key>
@@ -92490,7 +92490,7 @@
 				<key>background</key>
 				<string>disc_bg.png</string>
 				<key>life</key>
-				<integer>2</integer>
+				<integer>3</integer>
 				<key>duration</key>
 				<string>120</string>
 				<key>gameMode</key>
@@ -95327,7 +95327,7 @@
 					</dict>
 				</array>
 				<key>life</key>
-				<integer>2</integer>
+				<integer>3</integer>
 				<key>duration</key>
 				<string>120</string>
 				<key>gameMode</key>
@@ -97814,7 +97814,7 @@
 				<key>background</key>
 				<string>choc_BG.png</string>
 				<key>life</key>
-				<integer>2</integer>
+				<integer>3</integer>
 				<key>duration</key>
 				<string>120</string>
 				<key>gameMode</key>
@@ -100656,7 +100656,7 @@
 				<key>isLevelUnlocked</key>
 				<false/>
 				<key>life</key>
-				<integer>2</integer>
+				<integer>3</integer>
 				<key>duration</key>
 				<string>120</string>
 				<key>gameMode</key>
@@ -103503,7 +103503,7 @@
 				<key>isLevelUnlocked</key>
 				<false/>
 				<key>life</key>
-				<integer>2</integer>
+				<integer>3</integer>
 				<key>duration</key>
 				<string>120</string>
 				<key>gameMode</key>
@@ -105864,7 +105864,7 @@
 				<key>isLevelUnlocked</key>
 				<false/>
 				<key>life</key>
-				<integer>2</integer>
+				<integer>3</integer>
 				<key>duration</key>
 				<string>120</string>
 				<key>gameMode</key>
@@ -107705,7 +107705,7 @@
 				<key>isLevelUnlocked</key>
 				<false/>
 				<key>life</key>
-				<integer>2</integer>
+				<integer>3</integer>
 				<key>duration</key>
 				<string>120</string>
 				<key>gameMode</key>
@@ -110248,7 +110248,7 @@
 				<key>isLevelUnlocked</key>
 				<false/>
 				<key>life</key>
-				<integer>2</integer>
+				<integer>3</integer>
 				<key>duration</key>
 				<string>120</string>
 				<key>gameMode</key>
@@ -113519,7 +113519,7 @@
 				<key>isLevelUnlocked</key>
 				<false/>
 				<key>life</key>
-				<integer>2</integer>
+				<integer>3</integer>
 				<key>duration</key>
 				<string>120</string>
 				<key>gameMode</key>
@@ -116075,7 +116075,7 @@
 				<key>isLevelUnlocked</key>
 				<false/>
 				<key>life</key>
-				<integer>2</integer>
+				<integer>3</integer>
 				<key>duration</key>
 				<string>120</string>
 				<key>gameMode</key>
@@ -118240,7 +118240,7 @@
 				<key>isLevelUnlocked</key>
 				<false/>
 				<key>life</key>
-				<integer>2</integer>
+				<integer>3</integer>
 				<key>duration</key>
 				<string>120</string>
 				<key>gameMode</key>
@@ -120697,7 +120697,7 @@
 				<key>isLevelUnlocked</key>
 				<false/>
 				<key>life</key>
-				<integer>2</integer>
+				<integer>3</integer>
 				<key>duration</key>
 				<string>120</string>
 				<key>gameMode</key>
@@ -124512,7 +124512,7 @@
 				<key>isLevelUnlocked</key>
 				<false/>
 				<key>life</key>
-				<integer>2</integer>
+				<integer>3</integer>
 				<key>duration</key>
 				<string>120</string>
 				<key>gameMode</key>
@@ -128398,7 +128398,7 @@
 				<key>isLevelUnlocked</key>
 				<false/>
 				<key>life</key>
-				<integer>2</integer>
+				<integer>3</integer>
 				<key>duration</key>
 				<string>120</string>
 				<key>gameMode</key>
@@ -130859,7 +130859,7 @@
 				<key>background</key>
 				<string>balloon_bg.png</string>
 				<key>life</key>
-				<integer>2</integer>
+				<integer>3</integer>
 				<key>duration</key>
 				<string>120</string>
 				<key>gameMode</key>
@@ -133660,7 +133660,7 @@
 				<key>isLevelUnlocked</key>
 				<false/>
 				<key>life</key>
-				<integer>2</integer>
+				<integer>3</integer>
 				<key>duration</key>
 				<string>120</string>
 				<key>gameMode</key>
