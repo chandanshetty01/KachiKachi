@@ -1110,7 +1110,7 @@
 					"$(PROJECT_DIR)/KachiKachi/ThirdParty/UserVoice",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "ffb7495c-57be-474e-a0ec-0ef4e71afaeb";
+				PROVISIONING_PROFILE = "de5028f4-9d15-4ab0-b0d0-e39234a005a4";
 				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
@@ -1141,7 +1141,7 @@
 					"$(PROJECT_DIR)/KachiKachi/ThirdParty/UserVoice",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "ffb7495c-57be-474e-a0ec-0ef4e71afaeb";
+				PROVISIONING_PROFILE = "16e342de-c8cf-4f60-9632-fb9ae796904e";
 				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};

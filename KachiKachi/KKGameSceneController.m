@@ -103,13 +103,17 @@ typedef void (^completionBlk)(BOOL);
     self.noOfLifesRemaining = self.levelModel.life;
     self.duration = self.levelModel.duration;
     
+    CGRect pointsFrame = self.pointsEarned.frame;
     if(self.gameMode == eTimerMode){
         [self showTutorial:2];
         [self updateTimer:self.levelModel.duration];
     }
     else{
+        self.pointsEarned.textAlignment = NSTextAlignmentCenter;
+        pointsFrame.origin.x = 387;
         [self showTutorial:1];
     }
+    self.pointsEarned.frame = pointsFrame;
     
     [self addElements];
     
