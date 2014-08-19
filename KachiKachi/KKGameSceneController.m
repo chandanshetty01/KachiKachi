@@ -412,33 +412,51 @@ typedef void (^completionBlk)(BOOL);
 -(void)showGameOverAlert:(NSDictionary*)data
 {
     [[SoundManager sharedManager] playSound:@"wrong" looping:NO];
-
     NSString *msg = [data objectForKey:@"msg"];
-    
     UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main_iPad" bundle:nil];
     KKCustomAlertViewController *alertview = [storyBoard instantiateViewControllerWithIdentifier:@"KKCustomAlertViewController"];
     alertview.view.tag = 1;
     alertview.canDismissOnButtonPress = NO;
-    [alertview addButtonWithTitle:NSLocalizedString(@"MAIN_MENU", nil)];
-    [alertview showAlertWithTitle:NSLocalizedString(@"GAME_OVER", nil)
-                          message:msg
-                      buttonTitle:NSLocalizedString(@"UNLOCK_NEXT_LEVEL", nil)
-                     inController:self
-                       completion:^(NSInteger index) {
-                           if(index == 0){
-                               [self showUnlockAlert];
-                           }
-                           else if(index == 1){
-                               [alertview removeController:^(NSInteger index) {
-                                   //Main Menu
-                                   _isGameFinished = NO;
-                                   [self moveToLevelSelectScene];
-                               }];
-                           }
-                           else if(index == 2){
-                               [self replayLevel];
-                           }
-                       }];
+    
+    BOOL isNextLevelUnlocked = [self isNextLevelUnlocked];
+    if(!isNextLevelUnlocked){
+        [alertview addButtonWithTitle:NSLocalizedString(@"MAIN_MENU", nil)];
+        [alertview showAlertWithTitle:NSLocalizedString(@"GAME_OVER", nil)
+                              message:msg
+                          buttonTitle:NSLocalizedString(@"UNLOCK_NEXT_LEVEL", nil)
+                         inController:self
+                           completion:^(NSInteger index) {
+                               if(index == 0){
+                                   [self showUnlockAlert];
+                               }
+                               else if(index == 1){
+                                   [alertview removeController:^(NSInteger index) {
+                                       //Main Menu
+                                       _isGameFinished = NO;
+                                       [self moveToLevelSelectScene];
+                                   }];
+                               }
+                               else if(index == 2){
+                                   [self replayLevel];
+                               }
+                           }];
+    }
+    else{
+        [alertview showAlertWithTitle:NSLocalizedString(@"GAME_OVER", nil)
+                              message:msg
+                          buttonTitle:NSLocalizedString(@"MAIN_MENU", nil)
+                         inController:self
+                           completion:^(NSInteger index) {
+                               if(index == 0){
+                                   [alertview removeController:^(NSInteger index) {
+                                       //Main Menu
+                                       _isGameFinished = NO;
+                                       [self moveToLevelSelectScene];
+                                   }];
+                               }
+                           }];
+    }
+
 }
 
 #pragma mark - social integration
@@ -704,6 +722,20 @@ typedef void (^completionBlk)(BOOL);
     self.levelModel.stageID =  self.currentStage;
     self.levelModel.isLevelUnlocked = YES;
     self.levelModel.isLevelCompleted = isLevelCompleted;
+}
+
+-(BOOL)isNextLevelUnlocked
+{
+    BOOL isUnlocked = NO;
+    NSInteger nextlevel = self.currentLevel+1;
+    NSInteger noOfLevels = [[KKGameConfigManager sharedManager] totalNumberOfLevelsInStage:self.currentStage];
+    if(nextlevel <= noOfLevels){
+        isUnlocked = [[KKGameStateManager sharedManager] isLevelUnlocked:self.currentLevel+1 stage:self.currentStage];
+    }
+    else{
+        isUnlocked = ![[KKGameStateManager sharedManager] isStageLocked:self.currentStage+1];
+    }
+    return isUnlocked;
 }
 
 -(void)unlockNextLevel
