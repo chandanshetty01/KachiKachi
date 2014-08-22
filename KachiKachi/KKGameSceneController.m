@@ -681,23 +681,23 @@ typedef void (^completionBlk)(BOOL);
 {
     NSInteger oldStar = self.levelModel.noOfStars;
     NSInteger newStar = oldStar;
+    NSInteger life = [[KKGameConfigManager sharedManager] noOfLifesInLevel:self.currentLevel stage:self.currentStage];
+    CGFloat lifePercentage = ((self.levelModel.life)/(CGFloat)life)*100;
     
     if(self.gameMode == eTimerMode){
         CGFloat duration = [[KKGameConfigManager sharedManager] durationForLevel:self.currentLevel stage:self.currentStage];
-        CGFloat percent = ((self.levelModel.duration)/(CGFloat)duration)*100;
-        if(percent >= 90)
+        CGFloat timePercentage = ((self.levelModel.duration)/(CGFloat)duration)*100;
+        if(timePercentage <= 70 && lifePercentage >= 75)
             newStar = 3;
-        else if(percent >= 80)
+        else if(timePercentage <= 85 && lifePercentage >= 50)
             newStar = 2;
         else
             newStar = 1;
     }
     else{
-        NSInteger life = [[KKGameConfigManager sharedManager] noOfLifesInLevel:self.currentLevel stage:self.currentStage];
-        CGFloat percent = ((self.levelModel.life)/(CGFloat)life)*100;
-        if(percent >= 100)
+        if(lifePercentage >= 100)
             newStar = 3;
-        else if(percent >= 50)
+        else if(lifePercentage >= 50)
             newStar = 2;
         else
             newStar = 1;
