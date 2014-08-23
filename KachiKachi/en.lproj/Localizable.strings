@@ -18,8 +18,8 @@
 "GAME_OVER_MSG" = "You ran out of LIFE!";
 "GAME_OVER_MSG_TIME" = "You have ran out of TIME!";
 
-"LIFE" = "LIFE REMAINING: %d";
-"TIME" = "TIME REMAINING: %d";
+"LIFE" = "LIFE: %d";
+"TIME" = "TIME: %d";
 
 "FB_SHARE_MSG" = "Check out KachiKachi, I have just completed level %@ in %@ mode";
 "FB_NOT_CONFIGURED_TITLE" = "Facebook is not configured";
@@ -74,3 +74,12 @@
 
 "MAIL_ERROR_TITLE" = "Can't send Mail";
 "MAIL_NO_CONFIGURED" = "Mail is not configured, please configure your mail Account";
+
+"MAGIC_STICK_NO_POINTS_TITLE" = "Can't use MAGIC STICK";
+"MAGIC_STICK_NO_POINTS_DESC" = "Complete the level with 3 STAR to use MAGIC STICK";
+
+"MAGIC_STICK_USAGE" = "Do you want to use MAGIC STICK?";
+"MAGIC_STICK_USAGE_DESC" = "Tap on any %d objects to remove without losing a LIFE";
+
+"MAGIC_STICK" = "MAGIC STICK: %d";
+

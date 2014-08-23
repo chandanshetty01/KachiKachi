@@ -20,6 +20,7 @@
 #import "MKStoreManager.h"
 #import "KKCustomAlertViewController.h"
 #import "Utility.h"
+#import "TTMagicStick.h"
 
 #define RANDOM_SEED() srandom((unsigned)time(NULL))
 #define RANDOM_INT(__MIN__, __MAX__) ((__MIN__) + random() % ((__MAX__+1) - (__MIN__)))
@@ -30,6 +31,7 @@
 #define LEVEL_WON @"levelWon"
 
 const NSInteger kPointsToUnlockLevel = 100;
+const NSInteger kMagicStickUsageCount = 5;
 
 typedef enum {
     eGameWonAlertID = 100,
@@ -52,6 +54,10 @@ typedef enum {
 @property(nonatomic,weak) TTBase* topElement;
 @property (weak, nonatomic) IBOutlet UILabel *timerLabel;
 @property (weak, nonatomic) IBOutlet UILabel *pointsEarned;
+@property (weak, nonatomic) IBOutlet UIButton *magicStick;
+@property (assign, nonatomic) BOOL isMagicStickMode;
+@property (weak, nonatomic) IBOutlet UIButton *magicStickBtn;
+@property (strong, nonatomic)  TTMagicStick *magicStickAnimation;
 
 @end
 
@@ -95,7 +101,6 @@ typedef void (^completionBlk)(BOOL);
         self.adViewController.view.frame = frame;
     }
 #endif
-    
 
     self.gameMode = (EGAMEMODE)[[KKGameConfigManager sharedManager] gameModeForLevel:self.currentLevel stage:self.currentStage];
     
@@ -139,8 +144,115 @@ typedef void (^completionBlk)(BOOL);
     else{
         self.timerLabel.hidden = YES;
     }
-    
+
+//    [[KKGameStateManager sharedManager] setMagicStickUsageCount:kMagicStickUsageCount]; //testing code
+
+    [self updateMagicStic];
     [self stageInformationFlurry];
+    [self updateMagicStickBtnPosition];
+}
+
+-(void)updateMagicStickBtnPosition
+{
+    [self.view bringSubviewToFront:self.magicStickBtn];
+    CGRect frame = self.magicStickBtn.frame;
+    switch (self.currentLevel) {
+        case 4:{
+            frame.origin = CGPointMake(50,self.view.bounds.size.width-frame.size.height-50);
+        }
+            break;
+
+        case 5:{
+            frame.origin = CGPointMake(self.view.bounds.size.height-frame.size.width-100,self.view.bounds.size.width-frame.size.height-100);
+        }
+            break;
+
+        case 18:{
+            frame.origin = CGPointMake(0,100);
+        }
+            break;
+            
+        default:{
+            frame.origin = CGPointMake(self.view.bounds.size.height-frame.size.width, 0);
+        }
+            break;
+    }
+    self.magicStickBtn.frame = frame;
+}
+
+-(void)showMagicStickAnimation
+{
+    if(!self.magicStickAnimation){
+        self.magicStickAnimation = [[TTMagicStick alloc] initWithFrame:self.view.bounds];
+        [self.view addSubview:self.magicStickAnimation];
+        [self.magicStickAnimation startAnimation];
+    }
+}
+
+-(void)removeMagicStickAnimation
+{
+    if(self.magicStickAnimation){
+        [self.magicStickAnimation stopAnimation];
+        [self.magicStickAnimation removeFromSuperview];
+        self.magicStickAnimation = nil;
+    }
+}
+
+-(void)setIsMagicStickMode:(BOOL)isMagicStickMode
+{
+    _isMagicStickMode = isMagicStickMode;
+    if(isMagicStickMode){
+        [self showMagicStickAnimation];
+    }
+    else{
+        [self removeMagicStickAnimation];
+    }
+}
+
+-(void)updateMagicStic
+{
+    NSInteger usageCount = [[KKGameStateManager sharedManager] getmagicStickUsageCount];
+    NSString *title = [NSString stringWithFormat:NSLocalizedString(@"MAGIC_STICK",nil),usageCount];
+    [self.magicStick setTitle:title forState:UIControlStateNormal];
+    if(usageCount > 0){
+        self.magicStick.alpha = 1.0;
+    }
+    else{
+        self.magicStick.alpha = 0.7;
+    }
+}
+
+- (IBAction)handleMagicStickAction:(id)sender
+{
+    if(self.isMagicStickMode)
+        return;
+    
+    NSInteger usageCount = [[KKGameStateManager sharedManager] getmagicStickUsageCount];
+    UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main_iPad" bundle:nil];
+    KKCustomAlertViewController *alertview = [storyBoard instantiateViewControllerWithIdentifier:@"KKCustomAlertViewController"];
+    if(usageCount > 0){
+        [alertview addButtonWithTitle:NSLocalizedString(@"OK", nil)];
+        [alertview addButtonWithTitle:NSLocalizedString(@"CANCEL", nil)];
+        [alertview showAlertWithTitle:NSLocalizedString(@"MAGIC_STICK_USAGE", nil)
+                              message:[NSString stringWithFormat:NSLocalizedString(@"MAGIC_STICK_USAGE_DESC",nil),kMagicStickUsageCount]
+                          buttonTitle:NSLocalizedString(@"OK", nil)
+                         inController:self
+                           completion:^(NSInteger index) {
+                               if(index == 0){
+                                   self.isMagicStickMode = YES;
+                               }
+                           }];
+    }
+    else{
+
+        [alertview showAlertWithTitle:NSLocalizedString(@"MAGIC_STICK_NO_POINTS_TITLE", nil)
+                              message:NSLocalizedString(@"MAGIC_STICK_NO_POINTS_DESC", nil)
+                          buttonTitle:NSLocalizedString(@"OK", nil)
+                         inController:self
+                           completion:nil];
+    }
+    
+    [Flurry logEvent:@"magicstick_tap"];
 }
 
 -(void)stageInformationFlurry
@@ -183,7 +295,6 @@ typedef void (^completionBlk)(BOOL);
             [self startTimer];
         }
     }
-
 }
 
 -(void)startTimer
@@ -310,7 +421,7 @@ typedef void (^completionBlk)(BOOL);
     NSInteger currentElementIndex = [_elements indexOfObject:_currentElement];
     for (TTBase *element in intersectedElements) {
         NSInteger index = [_elements indexOfObject:element];
-        if(currentElementIndex < index)
+        if(currentElementIndex < index && !self.isMagicStickMode)
         {
             [_currentElement shakeAnimation];
             self.currentElement = nil;
@@ -661,6 +772,22 @@ typedef void (^completionBlk)(BOOL);
 #ifndef DEVELOPMENT_MODE
         [self.deletedElements addObject:_currentElement];
         [self showElementDissapearAnimation:block];
+        
+        if(self.isMagicStickMode){
+            NSInteger count = [[KKGameStateManager sharedManager] getmagicStickUsageCount];
+            if(count <= 0){
+                self.isMagicStickMode = FALSE;
+                [[KKGameStateManager sharedManager] setMagicStickUsageCount:0];
+            }
+            else{
+                [[KKGameStateManager sharedManager] setMagicStickUsageCount:count-1];
+                if(count == 1){
+                    self.isMagicStickMode = FALSE;
+                    [[KKGameStateManager sharedManager] setMagicStickUsageCount:0];
+                }
+            }
+            [self updateMagicStic];
+        }
 #endif
     }
 }
@@ -680,7 +807,7 @@ typedef void (^completionBlk)(BOOL);
 -(NSInteger)updateStars
 {
     NSInteger oldStar = self.levelModel.noOfStars;
-    NSInteger newStar = oldStar;
+    NSInteger newStar = 1;
     NSInteger life = [[KKGameConfigManager sharedManager] noOfLifesInLevel:self.currentLevel stage:self.currentStage];
     CGFloat lifePercentage = ((self.levelModel.life)/(CGFloat)life)*100;
     
@@ -704,6 +831,11 @@ typedef void (^completionBlk)(BOOL);
     }
     
     [self updatePoints:oldStar andNewStar:newStar];
+    
+    if(newStar == 3){
+        //get a magic stic
+        [[KKGameStateManager sharedManager] setMagicStickUsageCount:kMagicStickUsageCount];
+    }
 
     if (newStar > oldStar) {
         oldStar = newStar;

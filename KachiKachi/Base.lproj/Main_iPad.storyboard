@@ -173,7 +173,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="yfJ-ll-bby">
-                                <rect key="frame" x="970" y="20" width="34" height="30"/>
+                                <rect key="frame" x="839" y="20" width="34" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Save">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -183,14 +183,14 @@
                                 </connections>
                             </button>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="OzG-is-W8j">
-                                <rect key="frame" x="897" y="20" width="51" height="31"/>
+                                <rect key="frame" x="766" y="20" width="51" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="handleSwitchBtn:" destination="TV7-K8-EP0" eventType="valueChanged" id="zXD-QU-Z1O"/>
                                 </connections>
                             </switch>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="BNG-a1-NMy">
-                                <rect key="frame" x="840" y="21" width="30" height="30"/>
+                                <rect key="frame" x="709" y="21" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Mail">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -231,7 +231,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LIFE:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="agv-rG-qLi">
-                                        <rect key="frame" x="20" y="11" width="200" height="30"/>
+                                        <rect key="frame" x="20" y="11" width="100" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
@@ -251,17 +251,39 @@
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="gdY-9e-2DQ">
+                                        <rect key="frame" x="125" y="8" width="188" height="36"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <state key="normal" title="MAGIC STICK">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="handleMagicStickAction:" destination="TV7-K8-EP0" eventType="touchUpInside" id="k02-Jr-J0J"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="aXP-8F-hEj">
-                                <rect key="frame" x="773" y="21" width="30" height="30"/>
+                                <rect key="frame" x="642" y="21" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Add">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="handleAddBtn:" destination="TV7-K8-EP0" eventType="touchUpInside" id="Q2i-lQ-WGg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="2v8-2Z-06X">
+                                <rect key="frame" x="0.0" y="100" width="120" height="180"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="magicStick">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="handleMagicStickAction:" destination="TV7-K8-EP0" eventType="touchUpInside" id="OeY-74-jnc"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -278,6 +300,8 @@
                         <outlet property="bottomStrip" destination="xkP-5Z-HhB" id="pAK-6c-BP4"/>
                         <outlet property="homeButton" destination="zsD-91-N22" id="0Il-k7-q0Q"/>
                         <outlet property="lifeLabel" destination="agv-rG-qLi" id="sf7-tg-ovP"/>
+                        <outlet property="magicStick" destination="gdY-9e-2DQ" id="iUh-iB-LBJ"/>
+                        <outlet property="magicStickBtn" destination="2v8-2Z-06X" id="0J0-YK-mWT"/>
                         <outlet property="mailButton" destination="BNG-a1-NMy" id="O4r-L8-Js7"/>
                         <outlet property="pointsEarned" destination="8Oc-sF-xd2" id="GkM-z4-f43"/>
                         <outlet property="saveBtn" destination="yfJ-ll-bby" id="s7j-Zz-GAg"/>
@@ -529,6 +553,7 @@
         <image name="home" width="50" height="50"/>
         <image name="lock.png" width="1024" height="768"/>
         <image name="lock_bg.png" width="1024" height="768"/>
+        <image name="magicStick" width="120" height="180"/>
         <image name="medium_1" width="247" height="214"/>
         <image name="move" width="15" height="15"/>
         <image name="support" width="50" height="50"/>

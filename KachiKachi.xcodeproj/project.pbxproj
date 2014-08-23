@@ -40,6 +40,7 @@
 		A3335FC21956C2D1000AA5B7 /* KKLevelModal.m in Sources */ = {isa = PBXBuildFile; fileRef = A3335FC11956C2D1000AA5B7 /* KKLevelModal.m */; };
 		A3335FC51956C96F000AA5B7 /* KKItemModal.m in Sources */ = {isa = PBXBuildFile; fileRef = A3335FC41956C96F000AA5B7 /* KKItemModal.m */; };
 		A33D53D31966758A00D65131 /* TimerObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A33D53D21966758A00D65131 /* TimerObject.m */; };
+		A3429BA819A85826007184DD /* TTMagicStick.m in Sources */ = {isa = PBXBuildFile; fileRef = A3429BA719A85826007184DD /* TTMagicStick.m */; };
 		A357D7A9196301350037C2B4 /* libFlurry_5.1.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A357D7A7196301350037C2B4 /* libFlurry_5.1.0.a */; };
 		A357D7AB196301A70037C2B4 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A357D7AA196301A70037C2B4 /* Crashlytics.framework */; };
 		A35DD6F419644730008D445C /* TTBottle.m in Sources */ = {isa = PBXBuildFile; fileRef = A35DD6F319644730008D445C /* TTBottle.m */; };
@@ -183,6 +184,8 @@
 		A3335FC41956C96F000AA5B7 /* KKItemModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKItemModal.m; sourceTree = "<group>"; };
 		A33D53D11966758A00D65131 /* TimerObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerObject.h; sourceTree = "<group>"; };
 		A33D53D21966758A00D65131 /* TimerObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerObject.m; sourceTree = "<group>"; };
+		A3429BA619A85826007184DD /* TTMagicStick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTMagicStick.h; sourceTree = "<group>"; };
+		A3429BA719A85826007184DD /* TTMagicStick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTMagicStick.m; sourceTree = "<group>"; };
 		A357D7A6196301350037C2B4 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
 		A357D7A7196301350037C2B4 /* libFlurry_5.1.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_5.1.0.a; sourceTree = "<group>"; };
 		A357D7AA196301A70037C2B4 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = SOURCE_ROOT; };
@@ -618,6 +621,8 @@
 				A3FF154C195E6737007CE275 /* TTBrush.m */,
 				A35DD6F219644730008D445C /* TTBottle.h */,
 				A35DD6F319644730008D445C /* TTBottle.m */,
+				A3429BA619A85826007184DD /* TTMagicStick.h */,
+				A3429BA719A85826007184DD /* TTMagicStick.m */,
 			);
 			path = Elements;
 			sourceTree = "<group>";
@@ -881,6 +886,7 @@
 				A3335FC51956C96F000AA5B7 /* KKItemModal.m in Sources */,
 				A38222D9197261AA00D7A856 /* NSData+MKBase64.m in Sources */,
 				A3FF1532195B0796007CE275 /* KKLevelSelectViewController.m in Sources */,
+				A3429BA819A85826007184DD /* TTMagicStick.m in Sources */,
 				A3FF153E195C791E007CE275 /* TTCandle.m in Sources */,
 				A3A67E851902B67700BFAF7B /* main.m in Sources */,
 				A3335FC21956C2D1000AA5B7 /* KKLevelModal.m in Sources */,

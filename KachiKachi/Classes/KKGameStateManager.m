@@ -25,6 +25,7 @@
 #define kKKLevelIsCompleted  @"isLevelCompleted"
 #define kKKLevelIsUnlocked  @"isLevelUnlocked"
 #define kKKpointsEarned  @"pointsEarned"
+#define kKKMagicStickUsage @"kKKMagicStickUsage"
 
 + (id) sharedManager
 {
@@ -79,6 +80,16 @@
 -(void)setRemainingLife:(NSInteger)life
 {
     [self.savedGameData setObject:[NSString stringWithFormat:@"%ld",(long)life] forKey:kKKCurrentLife];
+}
+
+-(void)setMagicStickUsageCount:(NSInteger)magicCount
+{
+    [self.savedGameData setObject:[NSString stringWithFormat:@"%ld",(long)magicCount] forKey:kKKMagicStickUsage];
+}
+
+-(NSInteger)getmagicStickUsageCount
+{
+    return [[self.savedGameData objectForKey:kKKMagicStickUsage] intValue];
 }
 
 -(NSMutableDictionary*)stageDictionary:(NSInteger)stage
