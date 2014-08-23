@@ -95,7 +95,7 @@
 
 -(void)setSharePoint:(NSInteger)count
 {
-    [self.savedGameData setObject:[NSNumber numberWithInt:count] forKey:kKKSHARECOUNT];
+    [self.savedGameData setObject:[NSNumber numberWithInteger:count] forKey:kKKSHARECOUNT];
 }
 
 -(NSInteger)getSharePointsCount
