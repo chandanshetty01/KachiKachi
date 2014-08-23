@@ -9,7 +9,12 @@
 #import <Foundation/Foundation.h>
 #import <MessageUI/MessageUI.h>
 
+typedef void(^completionBlkWithInteger)(NSInteger index);
+
 @interface KKMailComposerManager : NSObject <MFMailComposeViewControllerDelegate>
+{
+    
+}
 
 - (void)displayMailComposerSheet:(UIViewController*)inController
                     toRecipients:(NSArray*)toRecipients
@@ -18,7 +23,8 @@
               attachmentMimeType:(NSString*)attachmentMimeType
               attachmentFileName:(NSString*)attachmentFileName
                        emailBody:(NSString*)emailBody
-                    emailSubject:(NSString*)emailSubject;
+                    emailSubject:(NSString*)emailSubject
+                      completion:(completionBlkWithInteger)completionBlk;
 + (KKMailComposerManager*) sharedManager;
 
 @end

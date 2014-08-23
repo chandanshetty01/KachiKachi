@@ -8,6 +8,10 @@
 
 #import "KKMailComposerManager.h"
 
+@interface KKMailComposerManager()
+@property(nonatomic,strong) completionBlkWithInteger completionBlk;
+@end
+
 @implementation KKMailComposerManager
 
 + (id) sharedManager
@@ -35,7 +39,9 @@
               attachmentFileName:(NSString*)attachmentFileName
                        emailBody:(NSString*)emailBody
                     emailSubject:(NSString*)emailSubject
+                      completion:(completionBlkWithInteger)completionBlk
 {
+    self.completionBlk = completionBlk;
     if ([MFMailComposeViewController canSendMail])
         // The device can send email.
     {
@@ -86,22 +92,21 @@
 	switch (result)
 	{
 		case MFMailComposeResultCancelled:
-			NSLog(@"Result: Mail sending canceled");
 			break;
 		case MFMailComposeResultSaved:
-			NSLog(@"Result: Mail saved");
 			break;
-		case MFMailComposeResultSent:
-			NSLog(@"Result: Mail sent");
+		case MFMailComposeResultSent:{
+            if(self.completionBlk)
+                self.completionBlk(1);
+        }
 			break;
 		case MFMailComposeResultFailed:
-			NSLog(@"Result: Mail sending failed");
 			break;
 		default:
-			NSLog(@"Result: Mail not sent");
 			break;
 	}
     
+    self.completionBlk = nil;
 	[controller dismissViewControllerAnimated:YES completion:NULL];
 }
 

@@ -291,7 +291,18 @@
                                                  attachmentMimeType:nil
                                                  attachmentFileName:nil
                                                           emailBody:emailBody
-                                                       emailSubject:emailSub];
+                                                       emailSubject:emailSub
+                                                         completion:^(NSInteger index) {
+                                                             if(index == 1){
+                                                                 //sent
+                                                                 NSInteger sharePoints = [[KKGameStateManager sharedManager] getSharePointsCount];
+                                                                 if(sharePoints > 0){
+                                                                     NSInteger gamepoints = [[KKGameStateManager sharedManager] gamePoints];
+                                                                     [[KKGameStateManager sharedManager] setGamePoints:gamepoints+10];
+                                                                     [[KKGameStateManager sharedManager] setSharePoint:sharePoints-1];
+                                                                 }
+                                                             }
+                                                         }];
 }
 
 #pragma mark - Navigation

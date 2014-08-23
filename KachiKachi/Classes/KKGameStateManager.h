@@ -32,6 +32,8 @@
 -(NSMutableDictionary*)levelsDictionary:(NSInteger)stage;
 -(void)setMagicStickUsageCount:(NSInteger)magicCount;
 -(NSInteger)getmagicStickUsageCount;
+-(NSInteger)getSharePointsCount;
+-(void)setSharePoint:(NSInteger)count;
 
 -(BOOL)isMusicEnabled;
 -(void)setMusicEnabled:(BOOL)value;

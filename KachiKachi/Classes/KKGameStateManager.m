@@ -26,6 +26,7 @@
 #define kKKLevelIsUnlocked  @"isLevelUnlocked"
 #define kKKpointsEarned  @"pointsEarned"
 #define kKKMagicStickUsage @"kKKMagicStickUsage"
+#define kKKSHARECOUNT @"kKKSHARECOUNT"
 
 + (id) sharedManager
 {
@@ -90,6 +91,23 @@
 -(NSInteger)getmagicStickUsageCount
 {
     return [[self.savedGameData objectForKey:kKKMagicStickUsage] intValue];
+}
+
+-(void)setSharePoint:(NSInteger)count
+{
+    [self.savedGameData setObject:[NSNumber numberWithInt:count] forKey:kKKSHARECOUNT];
+}
+
+-(NSInteger)getSharePointsCount
+{
+    NSNumber *object = [self.savedGameData objectForKey:kKKSHARECOUNT];
+    if(object == nil){
+        NSInteger defaultVal = 10;
+        [self setSharePoint:defaultVal];
+        return defaultVal;
+    }
+    else
+        return [[self.savedGameData objectForKey:kKKSHARECOUNT] integerValue];
 }
 
 -(NSMutableDictionary*)stageDictionary:(NSInteger)stage

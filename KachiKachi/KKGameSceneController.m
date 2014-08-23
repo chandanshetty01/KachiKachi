@@ -1276,7 +1276,8 @@ typedef void (^completionBlk)(BOOL);
                                                  attachmentMimeType:attachmentMime
                                                  attachmentFileName:attachmentName
                                                           emailBody:emailBody
-                                                       emailSubject:emailSub];
+                                                       emailSubject:emailSub
+                                                         completion:nil];
 }
 
 #pragma - mark iAd delegates -
