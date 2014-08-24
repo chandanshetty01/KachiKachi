@@ -85,4 +85,6 @@
 
 "RATE_US" = "RATE US";
 "WON_MAGIC_STICK" = "with MAGIC STICK";
-
+"HOW_TO_PLAY" = "HOW TO PLAY";
+"HOW_TO_PLAY_DESC" = "Anil provide description - easy mode,medium mode,magic stick,points";
+"GOT_IT" = "Got it";

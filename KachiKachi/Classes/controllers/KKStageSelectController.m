@@ -14,6 +14,7 @@
 #import "KKMailComposerManager.h"
 #import "KKCustomAlertViewController.h"
 #import "Utility.h"
+#import "KKCustomAlertViewController.h"
 
 @interface KKStageSelectController ()
 
@@ -21,6 +22,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *mediumTitle;
 @property (weak, nonatomic) IBOutlet UILabel *advancedTitle;
 @property (weak, nonatomic) IBOutlet UIButton *rateusBtn;
+@property (weak, nonatomic) IBOutlet UIButton *howToPlayButton;
 
 @end
 
@@ -44,6 +46,7 @@
     self.mediumTitle.text = NSLocalizedString(@"MEDIUM", nil);
     self.advancedTitle.text = NSLocalizedString(@"ADVANCE", nil);
     [self.rateusBtn setTitle:NSLocalizedString(@"RATE_US", nil) forState:UIControlStateNormal];
+    [self.howToPlayButton setTitle:NSLocalizedString(@"HOW_TO_PLAY", nil) forState:UIControlStateNormal];
     
     BOOL isOn = [[KKGameStateManager sharedManager] isMusicEnabled];
     [self.soundSwitch setOn:isOn];
@@ -52,6 +55,18 @@
 -(void)viewDidAppear:(BOOL)animated
 {
     [self playMusic];
+}
+
+- (IBAction)handleHowToPlay:(id)sender
+{
+    UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main_iPad" bundle:nil];
+    KKCustomAlertViewController *alertview = [storyBoard instantiateViewControllerWithIdentifier:@"KKCustomAlertViewController"];
+    alertview.view.tag = 1;
+    [alertview showAlertWithTitle:NSLocalizedString(@"HOW_TO_PLAY", nil)
+                          message:NSLocalizedString(@"HOW_TO_PLAY_DESC", nil)
+                      buttonTitle:NSLocalizedString(@"GOT_IT", nil)
+                     inController:self
+                       completion:nil];
 }
 
 - (IBAction)rateUsBtnAction:(id)sender

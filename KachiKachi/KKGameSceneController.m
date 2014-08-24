@@ -229,7 +229,7 @@ typedef void (^completionBlk)(BOOL);
     NSInteger usageCount = [[KKGameStateManager sharedManager] getmagicStickUsageCount];
     NSString *title = [NSString stringWithFormat:NSLocalizedString(@"MAGIC_STICK",nil),usageCount];
     [self.magicStick setTitle:title forState:UIControlStateNormal];
-    self.magicStickLabel.text = [NSString stringWithFormat:@"%d",usageCount];
+    self.magicStickLabel.text = [NSString stringWithFormat:@"%ld",(long)usageCount];
     if(usageCount > 0){
         self.magicStick.alpha = 1.0;
     }
