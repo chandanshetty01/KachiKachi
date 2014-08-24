@@ -27,7 +27,7 @@
         CGSize size = CGSizeMake(40, 40);
         self.counterLabel = [[UILabel alloc] initWithFrame:CGRectMake(40, image.size.height-size.height, size.width , size.height)];
         [self.counterLabel setFont:[UIFont boldSystemFontOfSize:30]];
-        [self.counterLabel setTextColor:[UIColor blueColor]];
+        [self.counterLabel setTextColor:[UIColor colorWithRed:220/255.0f green:153/255.0f blue:35/255.0f alpha:1.0f]];
         [self.magicStick addSubview:self.counterLabel];
         [self updateCount:0];
     }

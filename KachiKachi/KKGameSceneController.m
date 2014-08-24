@@ -149,7 +149,6 @@ typedef void (^completionBlk)(BOOL);
     }
 
     //testing code
-//    self.magicStickLabel.text = [NSString stringWithFormat:@"%d",3];
 //    [[KKGameStateManager sharedManager] setMagicStickUsageCount:3];
     //till here
     
@@ -230,6 +229,7 @@ typedef void (^completionBlk)(BOOL);
     NSInteger usageCount = [[KKGameStateManager sharedManager] getmagicStickUsageCount];
     NSString *title = [NSString stringWithFormat:NSLocalizedString(@"MAGIC_STICK",nil),usageCount];
     [self.magicStick setTitle:title forState:UIControlStateNormal];
+    self.magicStickLabel.text = [NSString stringWithFormat:@"%d",usageCount];
     if(usageCount > 0){
         self.magicStick.alpha = 1.0;
     }
@@ -256,7 +256,6 @@ typedef void (^completionBlk)(BOOL);
                            completion:^(NSInteger index) {
                                if(index == 0){
                                    self.isMagicStickMode = YES;
-                                   self.magicStickLabel.text = [NSString stringWithFormat:@"%ld",usageCount-1];
                                    [[KKGameStateManager sharedManager] setMagicStickUsageCount:usageCount-1];
                                    self.magicStickCounter = kMagicStickUsageCount;
                                }
@@ -829,10 +828,10 @@ typedef void (^completionBlk)(BOOL);
     
     if(self.gameMode == eTimerMode){
         CGFloat duration = [[KKGameConfigManager sharedManager] durationForLevel:self.currentLevel stage:self.currentStage];
-        CGFloat timePercentage = ((self.levelModel.duration)/(CGFloat)duration)*100;
-        if( (timePercentage <= 70 && lifePercentage >= 75) || lifePercentage == 100 || timePercentage <= 45)
+        CGFloat timeRemainingPercentage = ((self.levelModel.duration)/(CGFloat)duration)*100;
+        if( (timeRemainingPercentage >= 70 && lifePercentage >= 60) || lifePercentage == 100 || timeRemainingPercentage >= 50)
             newStar = 3;
-        else if(timePercentage <= 85 && lifePercentage >= 50)
+        else if(timeRemainingPercentage >= 40 && lifePercentage >= 40)
             newStar = 2;
         else
             newStar = 1;
@@ -854,7 +853,6 @@ typedef void (^completionBlk)(BOOL);
         count = count+1;
         if(count > kMaxMagicStick)
             count = kMaxMagicStick;
-        self.magicStickLabel.text = [NSString stringWithFormat:@"%ld",(long)count];
         [[KKGameStateManager sharedManager] setMagicStickUsageCount:count];
     }
 
