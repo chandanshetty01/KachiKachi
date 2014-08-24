@@ -256,7 +256,7 @@ typedef void (^completionBlk)(BOOL);
                            completion:^(NSInteger index) {
                                if(index == 0){
                                    self.isMagicStickMode = YES;
-                                   self.magicStickLabel.text = [NSString stringWithFormat:@"%d",usageCount-1];
+                                   self.magicStickLabel.text = [NSString stringWithFormat:@"%ld",usageCount-1];
                                    [[KKGameStateManager sharedManager] setMagicStickUsageCount:usageCount-1];
                                    self.magicStickCounter = kMagicStickUsageCount;
                                }
@@ -854,7 +854,7 @@ typedef void (^completionBlk)(BOOL);
         count = count+1;
         if(count > kMaxMagicStick)
             count = kMaxMagicStick;
-        self.magicStickLabel.text = [NSString stringWithFormat:@"%d",count];
+        self.magicStickLabel.text = [NSString stringWithFormat:@"%ld",(long)count];
         [[KKGameStateManager sharedManager] setMagicStickUsageCount:count];
     }
 

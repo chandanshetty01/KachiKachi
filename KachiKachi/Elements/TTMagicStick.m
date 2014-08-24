@@ -36,7 +36,7 @@
 
 -(void)updateCount:(NSInteger)count
 {
-    [self.counterLabel setText:[NSString stringWithFormat:@"%d",count]];
+    [self.counterLabel setText:[NSString stringWithFormat:@"%ld",(long)count]];
 }
 
 -(void)startAnimation
