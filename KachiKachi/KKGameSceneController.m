@@ -155,6 +155,14 @@ typedef void (^completionBlk)(BOOL);
     [self updateMagicStickBtnPosition];
 }
 
+-(void)setMagicStickCounter:(NSInteger)magicStickCounter
+{
+    _magicStickCounter = magicStickCounter;
+    if(self.magicStickAnimation){
+        [self.magicStickAnimation updateCount:magicStickCounter];
+    }
+}
+
 -(void)updateMagicStickBtnPosition
 {
     [self.view bringSubviewToFront:self.magicStickBtn];

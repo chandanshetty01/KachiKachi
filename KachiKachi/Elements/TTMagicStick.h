@@ -14,6 +14,7 @@
 }
 @property(nonatomic,strong) UIImageView *magicStick;
 
+-(void)updateCount:(NSInteger)count;
 -(void)startAnimation;
 -(void)stopAnimation;
 @end

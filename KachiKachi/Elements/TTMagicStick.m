@@ -8,6 +8,10 @@
 
 #import "TTMagicStick.h"
 
+@interface TTMagicStick()
+@property(nonatomic,strong) UILabel* counterLabel;
+@end
+
 @implementation TTMagicStick
 
 - (id)initWithFrame:(CGRect)frame
@@ -19,8 +23,20 @@
         self.magicStick = [[UIImageView alloc] initWithFrame:CGRectMake(250, 100, image.size.width, image.size.height)];
         self.magicStick.image = image;
         [self addSubview:self.magicStick];
+        ;
+        CGSize size = CGSizeMake(40, 40);
+        self.counterLabel = [[UILabel alloc] initWithFrame:CGRectMake(40, image.size.height-size.height, size.width , size.height)];
+        [self.counterLabel setFont:[UIFont boldSystemFontOfSize:30]];
+        [self.counterLabel setTextColor:[UIColor blueColor]];
+        [self.magicStick addSubview:self.counterLabel];
+        [self updateCount:0];
     }
     return self;
+}
+
+-(void)updateCount:(NSInteger)count
+{
+    [self.counterLabel setText:[NSString stringWithFormat:@"%d",count]];
 }
 
 -(void)startAnimation
