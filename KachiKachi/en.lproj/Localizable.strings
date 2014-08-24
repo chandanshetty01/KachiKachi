@@ -8,8 +8,8 @@
 
 "PLAY_NEXT_LEVEL" = "Play next level";
 "PLAY_NEXT_STAGE" = "Play next Stage";
-"CONGRATS_STAGE_COMPLETION" = "Congrats, You have completed all the levels in this stage!";
-"CONGRATS_LEVEL_COMPLETION" = "Congrats, You have completed the level!";
+"CONGRATS_STAGE_COMPLETION" = "Congrats you have got %d STARS %@";
+"CONGRATS_LEVEL_COMPLETION" = "Congrats you have got %d STARS %@";
 
 "FACEBOOK_SHARE" = "Share in Facebook";
 "TWEET" = "Tweet";
@@ -82,4 +82,7 @@
 "MAGIC_STICK_USAGE_DESC" = "Tap on any %d objects to remove without losing a LIFE";
 
 "MAGIC_STICK" = "MAGIC STICK: %d";
+
+"RATE_US" = "RATE US";
+"WON_MAGIC_STICK" = "with MAGIC STICK";
 

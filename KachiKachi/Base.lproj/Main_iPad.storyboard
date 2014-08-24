@@ -434,6 +434,18 @@
                                 <color key="shadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <size key="shadowOffset" width="0.0" height="1"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="IRd-R2-L1T">
+                                <rect key="frame" x="82" y="20" width="171" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="Rate us">
+                                    <color key="titleColor" red="0.30196079609999998" green="0.56862747670000002" blue="0.7607843876" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="rateUsBtnAction:" destination="ekd-Ri-PZw" eventType="touchUpInside" id="PSw-Lk-ybd"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -445,6 +457,7 @@
                         <outlet property="advancedTitle" destination="aJz-5c-WRt" id="etG-d1-nk4"/>
                         <outlet property="easyTitle" destination="ung-gh-rdL" id="tqA-TX-zGd"/>
                         <outlet property="mediumTitle" destination="Uuo-ge-ZQV" id="VV4-dK-5L4"/>
+                        <outlet property="rateusBtn" destination="IRd-R2-L1T" id="WBm-VV-DvN"/>
                         <outlet property="soundSwitch" destination="jVv-7C-ksw" id="FvM-fi-ku2"/>
                         <outlet property="view" destination="oc5-O2-NkN" id="QIs-sX-s4K"/>
                     </connections>

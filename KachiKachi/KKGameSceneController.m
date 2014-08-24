@@ -32,6 +32,7 @@
 
 const NSInteger kPointsToUnlockLevel = 100;
 const NSInteger kMagicStickUsageCount = 5;
+const NSInteger kMaxMagicStick = 3;
 
 typedef enum {
     eGameWonAlertID = 100,
@@ -58,7 +59,7 @@ typedef enum {
 @property (assign, nonatomic) BOOL isMagicStickMode;
 @property (weak, nonatomic) IBOutlet UIButton *magicStickBtn;
 @property (strong, nonatomic)  TTMagicStick *magicStickAnimation;
-
+@property(nonatomic,assign)NSInteger magicStickCounter;
 @end
 
 typedef void (^completionBlk)(BOOL);
@@ -145,8 +146,10 @@ typedef void (^completionBlk)(BOOL);
         self.timerLabel.hidden = YES;
     }
 
-//    [[KKGameStateManager sharedManager] setMagicStickUsageCount:kMagicStickUsageCount]; //testing code
+   //[[KKGameStateManager sharedManager] setMagicStickUsageCount:3]; //testing code
 
+    self.magicStickCounter = 0;
+    
     [self updateMagicStic];
     [self stageInformationFlurry];
     [self updateMagicStickBtnPosition];
@@ -240,6 +243,8 @@ typedef void (^completionBlk)(BOOL);
                            completion:^(NSInteger index) {
                                if(index == 0){
                                    self.isMagicStickMode = YES;
+                                   [[KKGameStateManager sharedManager] setMagicStickUsageCount:usageCount-1];
+                                   self.magicStickCounter = kMagicStickUsageCount;
                                }
                            }];
     }
@@ -687,13 +692,17 @@ typedef void (^completionBlk)(BOOL);
     [[SoundManager sharedManager] playSound:@"won" looping:NO];
 
     NSString *btnTitle = NSLocalizedString(@"PLAY_NEXT_LEVEL", nil);
-    NSString *msg = NSLocalizedString(@"CONGRATS_LEVEL_COMPLETION", nil);
+    NSString *magicStick = @"";
+    if(self.levelModel.noOfStars == 3){
+        magicStick = NSLocalizedString(@"WON_MAGIC_STICK", nil);
+    }
+
+    NSString *msg = [NSString stringWithFormat:NSLocalizedString(@"CONGRATS_LEVEL_COMPLETION", nil),self.levelModel.noOfStars,magicStick] ;
     if(self.currentLevel >= [[KKGameConfigManager sharedManager] totalNumberOfLevelsInStage:self.currentStage]-1){
-        msg = NSLocalizedString(@"CONGRATS_STAGE_COMPLETION", nil);
+        msg = [NSString stringWithFormat:NSLocalizedString(@"CONGRATS_STAGE_COMPLETION", nil),self.levelModel.noOfStars,magicStick];
         btnTitle = NSLocalizedString(@"PLAY_NEXT_STAGE", nil);
     }
     
-        
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"GAME_WON", nil)
                                                     message:msg
                                                    delegate:self
@@ -774,17 +783,10 @@ typedef void (^completionBlk)(BOOL);
         [self showElementDissapearAnimation:block];
         
         if(self.isMagicStickMode){
-            NSInteger count = [[KKGameStateManager sharedManager] getmagicStickUsageCount];
-            if(count <= 0){
+            self.magicStickCounter--;
+            if(self.magicStickCounter == 0){
                 self.isMagicStickMode = FALSE;
-                [[KKGameStateManager sharedManager] setMagicStickUsageCount:0];
-            }
-            else{
-                [[KKGameStateManager sharedManager] setMagicStickUsageCount:count-1];
-                if(count == 1){
-                    self.isMagicStickMode = FALSE;
-                    [[KKGameStateManager sharedManager] setMagicStickUsageCount:0];
-                }
+                self.magicStickCounter = 0;
             }
             [self updateMagicStic];
         }
@@ -814,7 +816,7 @@ typedef void (^completionBlk)(BOOL);
     if(self.gameMode == eTimerMode){
         CGFloat duration = [[KKGameConfigManager sharedManager] durationForLevel:self.currentLevel stage:self.currentStage];
         CGFloat timePercentage = ((self.levelModel.duration)/(CGFloat)duration)*100;
-        if(timePercentage <= 70 && lifePercentage >= 75)
+        if( (timePercentage <= 70 && lifePercentage >= 75) || lifePercentage == 100 || timePercentage <= 45)
             newStar = 3;
         else if(timePercentage <= 85 && lifePercentage >= 50)
             newStar = 2;
@@ -834,7 +836,11 @@ typedef void (^completionBlk)(BOOL);
     
     if(newStar == 3){
         //get a magic stic
-        [[KKGameStateManager sharedManager] setMagicStickUsageCount:kMagicStickUsageCount];
+        NSInteger count = [[KKGameStateManager sharedManager] getmagicStickUsageCount];
+        count = count+1;
+        if(count > kMaxMagicStick)
+            count = kMaxMagicStick;
+        [[KKGameStateManager sharedManager] setMagicStickUsageCount:count];
     }
 
     if (newStar > oldStar) {

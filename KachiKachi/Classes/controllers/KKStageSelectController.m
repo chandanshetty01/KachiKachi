@@ -16,9 +16,11 @@
 #import "Utility.h"
 
 @interface KKStageSelectController ()
+
 @property (weak, nonatomic) IBOutlet UILabel *easyTitle;
 @property (weak, nonatomic) IBOutlet UILabel *mediumTitle;
 @property (weak, nonatomic) IBOutlet UILabel *advancedTitle;
+@property (weak, nonatomic) IBOutlet UIButton *rateusBtn;
 
 @end
 
@@ -41,6 +43,7 @@
     self.easyTitle.text = NSLocalizedString(@"EASY", nil);
     self.mediumTitle.text = NSLocalizedString(@"MEDIUM", nil);
     self.advancedTitle.text = NSLocalizedString(@"ADVANCE", nil);
+    [self.rateusBtn setTitle:NSLocalizedString(@"RATE_US", nil) forState:UIControlStateNormal];
     
     BOOL isOn = [[KKGameStateManager sharedManager] isMusicEnabled];
     [self.soundSwitch setOn:isOn];
@@ -49,6 +52,12 @@
 -(void)viewDidAppear:(BOOL)animated
 {
     [self playMusic];
+}
+
+- (IBAction)rateUsBtnAction:(id)sender
+{
+    NSString *url = [NSString stringWithFormat:@"itms-apps://itunes.apple.com/app/id%d",APPSTORE_ID];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url]];
 }
 
 -(void)playMusic
