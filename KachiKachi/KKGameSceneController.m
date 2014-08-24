@@ -60,6 +60,8 @@ typedef enum {
 @property (weak, nonatomic) IBOutlet UIButton *magicStickBtn;
 @property (strong, nonatomic)  TTMagicStick *magicStickAnimation;
 @property(nonatomic,assign)NSInteger magicStickCounter;
+@property (weak, nonatomic) IBOutlet UIView *magicStickHolder;
+@property (weak, nonatomic) IBOutlet UILabel *magicStickLabel;
 @end
 
 typedef void (^completionBlk)(BOOL);
@@ -146,8 +148,11 @@ typedef void (^completionBlk)(BOOL);
         self.timerLabel.hidden = YES;
     }
 
-   //[[KKGameStateManager sharedManager] setMagicStickUsageCount:3]; //testing code
-
+    //testing code
+//    self.magicStickLabel.text = [NSString stringWithFormat:@"%d",3];
+//    [[KKGameStateManager sharedManager] setMagicStickUsageCount:3];
+    //till here
+    
     self.magicStickCounter = 0;
     
     [self updateMagicStic];
@@ -165,8 +170,8 @@ typedef void (^completionBlk)(BOOL);
 
 -(void)updateMagicStickBtnPosition
 {
-    [self.view bringSubviewToFront:self.magicStickBtn];
-    CGRect frame = self.magicStickBtn.frame;
+    [self.view bringSubviewToFront:self.magicStickHolder];
+    CGRect frame = self.magicStickHolder.frame;
     switch (self.currentLevel) {
         case 4:{
             frame.origin = CGPointMake(50,self.view.bounds.size.width-frame.size.height-50);
@@ -188,7 +193,7 @@ typedef void (^completionBlk)(BOOL);
         }
             break;
     }
-    self.magicStickBtn.frame = frame;
+    self.magicStickHolder.frame = frame;
 }
 
 -(void)showMagicStickAnimation
@@ -251,6 +256,7 @@ typedef void (^completionBlk)(BOOL);
                            completion:^(NSInteger index) {
                                if(index == 0){
                                    self.isMagicStickMode = YES;
+                                   self.magicStickLabel.text = [NSString stringWithFormat:@"%d",usageCount-1];
                                    [[KKGameStateManager sharedManager] setMagicStickUsageCount:usageCount-1];
                                    self.magicStickCounter = kMagicStickUsageCount;
                                }
@@ -848,6 +854,7 @@ typedef void (^completionBlk)(BOOL);
         count = count+1;
         if(count > kMaxMagicStick)
             count = kMaxMagicStick;
+        self.magicStickLabel.text = [NSString stringWithFormat:@"%d",count];
         [[KKGameStateManager sharedManager] setMagicStickUsageCount:count];
     }
 
