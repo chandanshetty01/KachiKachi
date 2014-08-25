@@ -83942,7 +83942,7 @@
 						<key>class</key>
 						<string>TTBalloon</string>
 						<key>frame</key>
-						<string>{{402, 382}, {73, 150}}</string>
+						<string>{{416, 396}, {73, 150}}</string>
 						<key>image</key>
 						<string>balloon20.png</string>
 						<key>isPicked</key>
@@ -83974,7 +83974,7 @@
 						<key>class</key>
 						<string>TTBalloon</string>
 						<key>frame</key>
-						<string>{{359, 431}, {48, 59}}</string>
+						<string>{{408, 414}, {48, 59}}</string>
 						<key>image</key>
 						<string>balloon9.png</string>
 						<key>isPicked</key>
@@ -84002,7 +84002,7 @@
 						<key>class</key>
 						<string>TTBalloon</string>
 						<key>frame</key>
-						<string>{{366, 277}, {103, 173}}</string>
+						<string>{{495, 201}, {103, 173}}</string>
 						<key>image</key>
 						<string>balloon31.png</string>
 						<key>isPicked</key>
@@ -84094,7 +84094,7 @@
 						<key>class</key>
 						<string>TTBalloon</string>
 						<key>frame</key>
-						<string>{{368, 130}, {126, 214}}</string>
+						<string>{{345, 428}, {126, 214}}</string>
 						<key>image</key>
 						<string>balloon1.png</string>
 						<key>isPicked</key>
@@ -84945,7 +84945,7 @@
 						<key>class</key>
 						<string>TTBalloon</string>
 						<key>frame</key>
-						<string>{{115, 504}, {128, 209}}</string>
+						<string>{{76, 373}, {128, 209}}</string>
 						<key>image</key>
 						<string>balloon8.png</string>
 						<key>isPicked</key>
@@ -85163,7 +85163,7 @@
 						<key>class</key>
 						<string>TTBalloon</string>
 						<key>frame</key>
-						<string>{{40, 153}, {103, 181}}</string>
+						<string>{{38, 181}, {103, 181}}</string>
 						<key>image</key>
 						<string>balloon17.png</string>
 						<key>isPicked</key>
@@ -85196,7 +85196,7 @@
 						<key>class</key>
 						<string>TTBalloon</string>
 						<key>frame</key>
-						<string>{{16, 411}, {93, 207}}</string>
+						<string>{{53, 362}, {93, 207}}</string>
 						<key>image</key>
 						<string>balloon2.png</string>
 						<key>isPicked</key>
