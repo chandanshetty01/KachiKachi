@@ -34,6 +34,7 @@
 		A31B484F1971A81D00EF6BF8 /* uv_heart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A31B48451971A81D00EF6BF8 /* uv_heart@2x.png */; };
 		A31B48501971A81D00EF6BF8 /* uv_idea.png in Resources */ = {isa = PBXBuildFile; fileRef = A31B48461971A81D00EF6BF8 /* uv_idea.png */; };
 		A31B48511971A81D00EF6BF8 /* uv_idea@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A31B48471971A81D00EF6BF8 /* uv_idea@2x.png */; };
+		A31D440F19AB757100A7F8B5 /* libAppsFlyerLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A31D440E19AB757100A7F8B5 /* libAppsFlyerLib.a */; };
 		A32F4E691987F79F009A20F9 /* iAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A32F4E681987F79F009A20F9 /* iAdViewController.m */; };
 		A32F4E6B1987F7F8009A20F9 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A32F4E6A1987F7F8009A20F9 /* iAd.framework */; };
 		A3335FBE1955F09A000AA5B7 /* TTCarrot.m in Sources */ = {isa = PBXBuildFile; fileRef = A3335FBD1955F09A000AA5B7 /* TTCarrot.m */; };
@@ -173,6 +174,8 @@
 		A31B48481971A81D00EF6BF8 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/UserVoice.strings; sourceTree = "<group>"; };
 		A31B48491971A81D00EF6BF8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/UserVoice.strings"; sourceTree = "<group>"; };
 		A31B484A1971A81D00EF6BF8 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/UserVoice.strings"; sourceTree = "<group>"; };
+		A31D440D19AB757100A7F8B5 /* AppsFlyerTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppsFlyerTracker.h; sourceTree = "<group>"; };
+		A31D440E19AB757100A7F8B5 /* libAppsFlyerLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAppsFlyerLib.a; sourceTree = "<group>"; };
 		A32F4E671987F79F009A20F9 /* iAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iAdViewController.h; sourceTree = "<group>"; };
 		A32F4E681987F79F009A20F9 /* iAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iAdViewController.m; sourceTree = "<group>"; };
 		A32F4E6A1987F7F8009A20F9 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
@@ -300,6 +303,7 @@
 				A357D7A9196301350037C2B4 /* libFlurry_5.1.0.a in Frameworks */,
 				A3A67E7B1902B67700BFAF7B /* CoreGraphics.framework in Frameworks */,
 				A3A67E7D1902B67700BFAF7B /* UIKit.framework in Frameworks */,
+				A31D440F19AB757100A7F8B5 /* libAppsFlyerLib.a in Frameworks */,
 				A357D7AB196301A70037C2B4 /* Crashlytics.framework in Frameworks */,
 				A3A67E791902B67700BFAF7B /* Foundation.framework in Frameworks */,
 			);
@@ -409,6 +413,15 @@
 			path = UserVoice/Resources;
 			sourceTree = "<group>";
 		};
+		A31D440C19AB757100A7F8B5 /* AF-iOS-SDK-v2.5.3.10 */ = {
+			isa = PBXGroup;
+			children = (
+				A31D440D19AB757100A7F8B5 /* AppsFlyerTracker.h */,
+				A31D440E19AB757100A7F8B5 /* libAppsFlyerLib.a */,
+			);
+			path = "AF-iOS-SDK-v2.5.3.10";
+			sourceTree = "<group>";
+		};
 		A3335FBF1956C2BD000AA5B7 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -432,6 +445,7 @@
 		A357D7A3196301350037C2B4 /* ThirdParty */ = {
 			isa = PBXGroup;
 			children = (
+				A31D440C19AB757100A7F8B5 /* AF-iOS-SDK-v2.5.3.10 */,
 				A3A8DFFA19A07662001FF20D /* PushApp */,
 				A38222E419756B5E00D7A856 /* iRate */,
 				A38222CB197261AA00D7A856 /* inAppPurchase */,
@@ -1114,6 +1128,7 @@
 					"$(SDKROOT)/usr/lib/system",
 					"$(PROJECT_DIR)/KachiKachi/ThirdParty/Flurry",
 					"$(PROJECT_DIR)/KachiKachi/ThirdParty/UserVoice",
+					"$(PROJECT_DIR)/KachiKachi/ThirdParty/AF-iOS-SDK-v2.5.3.10",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "032f6c85-39a6-46db-b763-45d44e5ad251";
@@ -1145,6 +1160,7 @@
 					"$(SDKROOT)/usr/lib/system",
 					"$(PROJECT_DIR)/KachiKachi/ThirdParty/Flurry",
 					"$(PROJECT_DIR)/KachiKachi/ThirdParty/UserVoice",
+					"$(PROJECT_DIR)/KachiKachi/ThirdParty/AF-iOS-SDK-v2.5.3.10",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "032f6c85-39a6-46db-b763-45d44e5ad251";

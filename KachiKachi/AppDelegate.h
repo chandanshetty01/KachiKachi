@@ -10,11 +10,12 @@
 #import "KKGameConfigManager.h"
 #import "iRate.h"
 #import <PushApps/PushApps.h>
+#import "AppsFlyerTracker.h"
 
 #define APP_DELEGATE (AppDelegate *)[[UIApplication sharedApplication] delegate]
 
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate,iRateDelegate,PushAppsDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate,iRateDelegate,PushAppsDelegate,AppsFlyerTrackerDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 @property (strong, nonatomic,readonly) KKGameConfigManager *configuration;

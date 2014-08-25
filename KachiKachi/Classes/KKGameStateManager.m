@@ -27,6 +27,7 @@
 #define kKKpointsEarned  @"pointsEarned"
 #define kKKMagicStickUsage @"kKKMagicStickUsage"
 #define kKKSHARECOUNT @"kKKSHARECOUNT"
+#define kCan_remove_ads @"can_remove_ads"
 
 + (id) sharedManager
 {
@@ -96,6 +97,16 @@
 -(void)setSharePoint:(NSInteger)count
 {
     [self.savedGameData setObject:[NSNumber numberWithInteger:count] forKey:kKKSHARECOUNT];
+}
+
+-(void)setCanRemoveAds:(BOOL)canRemoveAds
+{
+    [self.savedGameData setObject:[NSNumber numberWithBool:canRemoveAds] forKey:kCan_remove_ads];
+}
+
+-(BOOL)getCanRemoveAds
+{
+    return [[self.savedGameData objectForKey:kCan_remove_ads] boolValue];
 }
 
 -(NSInteger)getSharePointsCount

@@ -36,7 +36,16 @@
     //Push notification
     [[PushAppsManager sharedInstance] startPushAppsWithAppToken:@"d351895a-97db-4d1b-8af6-28e594481633" withLaunchOptions:launchOptions];
     
+    [self setUpAppsFlyer:uniqueIdentifier];
+    
     return YES;
+}
+
+-(void)setUpAppsFlyer:(NSString*)userID
+{
+    [AppsFlyerTracker sharedTracker].appleAppID = APPSTORE_ID_STRING;
+    [AppsFlyerTracker sharedTracker].appsFlyerDevKey = @"qGjii8LerKTNTiLyprmCo";
+    [AppsFlyerTracker sharedTracker].customerUserID = userID;
 }
 
 #pragma - Push notification -
@@ -90,12 +99,31 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
-    // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    // track launch - It's VERY important that this code will be located in the applicationDidBecomeActive of your app delegate!
+    [[AppsFlyerTracker sharedTracker] trackAppLaunch]; //***** THIS LINE IS MANDATORY *****
+    
+    // (Optional) to get AppsFlyer's attribution data you can use AppsFlyerTrackerDelegate as follow . Note that the callback will fail as long as the appleAppID and developer key are not set properly.
+    [AppsFlyerTracker sharedTracker].delegate = self;
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+#pragma AppsFlyerTrackerDelegate methods
+- (void) onConversionDataReceived:(NSDictionary*) installData
+{
+    id status = [installData objectForKey:@"af_status"];
+    if([status isEqualToString:@"Non-organic"]) {
+        id sourceID = [installData objectForKey:@"media_source"];
+        id campaign = [installData objectForKey:@"campaign"];
+        NSMutableDictionary *dictionary = [NSMutableDictionary dictionary];
+        [dictionary setObject:[NSString stringWithFormat:@"%@:%@",sourceID,campaign] forKey:@"type"];
+        [Flurry logEvent:@"Non-organic" withParameters:dictionary];
+    } else if([status isEqualToString:@"Organic"]) {
+        [Flurry logEvent:@"Organic"];
+    }
 }
 
 #pragma mark -iRate delegate - 

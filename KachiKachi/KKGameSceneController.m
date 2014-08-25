@@ -90,8 +90,8 @@ typedef void (^completionBlk)(BOOL);
     [self updatePointsEarned:0];
     
 #ifndef DEVELOPMENT_MODE
-    if([MKStoreManager isFeaturePurchased:kTimedMode] || [MKStoreManager isFeaturePurchased:kAdvancedMode])
-    {
+    BOOL canRemoveAds = [[KKGameStateManager sharedManager] getCanRemoveAds];
+    if([MKStoreManager isFeaturePurchased:kTimedMode] || [MKStoreManager isFeaturePurchased:kAdvancedMode] || canRemoveAds){
         //If purchased do not show any Ads
     }
     else{
@@ -1006,6 +1006,7 @@ typedef void (^completionBlk)(BOOL);
                                                  NSData* purchasedReceipt,
                                                  NSArray* availableDownloads)
      {
+         [[KKGameStateManager sharedManager] setCanRemoveAds:YES];
          [Flurry logEvent:[NSString stringWithFormat:@"Bought %@",featureID]];
          [self provideContent:inID];
      }

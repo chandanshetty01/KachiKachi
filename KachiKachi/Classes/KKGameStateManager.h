@@ -34,6 +34,8 @@
 -(NSInteger)getmagicStickUsageCount;
 -(NSInteger)getSharePointsCount;
 -(void)setSharePoint:(NSInteger)count;
+-(void)setCanRemoveAds:(BOOL)canRemoveAds;
+-(BOOL)getCanRemoveAds;
 
 -(BOOL)isMusicEnabled;
 -(void)setMusicEnabled:(BOOL)value;

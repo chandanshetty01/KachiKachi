@@ -19,6 +19,8 @@
 #endif
 
 #define APPSTORE_ID 898616807
+#define APPSTORE_ID_STRING @"898616807"
+
 #define APP_URL @"https://itunes.apple.com/app/id898616807"
 
 #define kTimedMode @"com.kachikachi.mediumlevel"
