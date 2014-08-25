@@ -71,6 +71,8 @@
 
 - (IBAction)rateUsBtnAction:(id)sender
 {
+    [Flurry logEvent:@"rate_us_btn_tap"];
+
     NSString *url = [NSString stringWithFormat:@"itms-apps://itunes.apple.com/app/id%d",APPSTORE_ID];
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url]];
 }
@@ -319,6 +321,7 @@
                                                          completion:^(NSInteger index) {
                                                              if(index == 1){
                                                                  //sent
+                                                                 [Flurry logEvent:@"tellafriend_mailsent"];
                                                                  NSInteger sharePoints = [[KKGameStateManager sharedManager] getSharePointsCount];
                                                                  if(sharePoints > 0){
                                                                      NSInteger gamepoints = [[KKGameStateManager sharedManager] gamePoints];

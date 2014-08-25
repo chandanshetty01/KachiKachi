@@ -255,6 +255,7 @@ typedef void (^completionBlk)(BOOL);
                          inController:self
                            completion:^(NSInteger index) {
                                if(index == 0){
+                                   [Flurry logEvent:@"magicstick_used"];
                                    self.isMagicStickMode = YES;
                                    [[KKGameStateManager sharedManager] setMagicStickUsageCount:usageCount-1];
                                    self.magicStickCounter = kMagicStickUsageCount;
@@ -269,8 +270,6 @@ typedef void (^completionBlk)(BOOL);
                          inController:self
                            completion:nil];
     }
-    
-    [Flurry logEvent:@"magicstick_tap"];
 }
 
 -(void)stageInformationFlurry
@@ -776,16 +775,20 @@ typedef void (^completionBlk)(BOOL);
     }
     else if([self isGameWon])
     {
-        [self postFlurry:@"WON"];
-
         NSInteger stars = [self updateStars];
         [self unlockNextLevel];
-        
         //Add level save related data after unlockNextLevel
         self.levelModel.noOfStars = stars;
         [self saveGame];
         [self stopTimer];
         [self showGameWonAlert];
+        
+        NSMutableDictionary *dictionary = [NSMutableDictionary dictionary];
+        [dictionary setObject:[NSString stringWithFormat:@"%d(l)_%d(s)[%d(star)]",self.currentLevel,self.currentStage,stars] forKey:@"level"];
+        [Flurry logEvent:@"stars" withParameters:dictionary];
+        
+        [self postFlurry:@"WON"];
+        
         block(YES);
     }
     else if(_currentElement != nil)
@@ -1042,6 +1045,11 @@ typedef void (^completionBlk)(BOOL);
 -(void)unlockNextLevelThroughPoints
 {
     if(self.points >= kPointsToUnlockLevel){
+        
+        NSMutableDictionary *dictionary = [NSMutableDictionary dictionary];
+        [dictionary setObject:[NSString stringWithFormat:@"%d:%d",self.currentLevel,self.currentStage] forKey:@"level"];
+        [Flurry logEvent:@"unlocklevel_byPoints" withParameters:dictionary];
+
         [self updatePointsEarned:-kPointsToUnlockLevel];
         [self unlockNextLevel];
         [self saveGame];
