@@ -86,5 +86,6 @@
 "RATE_US" = "RATE US";
 "WON_MAGIC_STICK" = "with MAGIC STICK";
 "HOW_TO_PLAY" = "HOW TO PLAY";
-"HOW_TO_PLAY_DESC" = "Anil provide description - easy mode,medium mode,magic stick,points";
 "GOT_IT" = "Got it";
+
+"HOW_TO_PLAY_DESC" = "Only one rule - Pick the item which is on TOP of all other items otherwise you will lose a LIFE!";
