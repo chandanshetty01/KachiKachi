@@ -784,7 +784,7 @@ typedef void (^completionBlk)(BOOL);
         [self showGameWonAlert];
         
         NSMutableDictionary *dictionary = [NSMutableDictionary dictionary];
-        [dictionary setObject:[NSString stringWithFormat:@"%d(l)_%d(s)[%d(star)]",self.currentLevel,self.currentStage,stars] forKey:@"level"];
+        [dictionary setObject:[NSString stringWithFormat:@"%ld(l)_%ld(s)[%ld(star)]",(long)self.currentLevel,(long)self.currentStage,(long)stars] forKey:@"level"];
         [Flurry logEvent:@"stars" withParameters:dictionary];
         
         [self postFlurry:@"WON"];
@@ -1050,7 +1050,7 @@ typedef void (^completionBlk)(BOOL);
     if(self.points >= kPointsToUnlockLevel){
         
         NSMutableDictionary *dictionary = [NSMutableDictionary dictionary];
-        [dictionary setObject:[NSString stringWithFormat:@"%d:%d",self.currentLevel,self.currentStage] forKey:@"level"];
+        [dictionary setObject:[NSString stringWithFormat:@"%ld:%ld",(long)self.currentLevel,(long)self.currentStage] forKey:@"level"];
         [Flurry logEvent:@"unlocklevel_byPoints" withParameters:dictionary];
 
         [self updatePointsEarned:-kPointsToUnlockLevel];
