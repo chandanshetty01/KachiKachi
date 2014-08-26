@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import <Crashlytics/Crashlytics.h>
+#import <FacebookSDK/FacebookSDK.h>
+
 
 @implementation AppDelegate
 
@@ -104,6 +106,9 @@
     
     // (Optional) to get AppsFlyer's attribution data you can use AppsFlyerTrackerDelegate as follow . Note that the callback will fail as long as the appleAppID and developer key are not set properly.
     [AppsFlyerTracker sharedTracker].delegate = self;
+    
+    [FBSettings setDefaultAppID:FACEBOOK_ID];
+    [FBAppEvents activateApp];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application
