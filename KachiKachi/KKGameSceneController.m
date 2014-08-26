@@ -699,13 +699,13 @@ typedef void (^completionBlk)(BOOL);
     }
 }
 
--(void)showGameWonAlert
+-(void)showGameWonAlert:(BOOL)canShowMagicStickMsg
 {
     [[SoundManager sharedManager] playSound:@"won" looping:NO];
 
     NSString *btnTitle = NSLocalizedString(@"PLAY_NEXT_LEVEL", nil);
     NSString *magicStick = @"";
-    if(self.levelModel.noOfStars == 3){
+    if(self.levelModel.noOfStars == 3 && canShowMagicStickMsg){
         magicStick = NSLocalizedString(@"WON_MAGIC_STICK", nil);
     }
 
@@ -775,13 +775,19 @@ typedef void (^completionBlk)(BOOL);
     }
     else if([self isGameWon])
     {
+        NSInteger starWon = [self getStarWon];
         NSInteger stars = [self updateStars];
         [self unlockNextLevel];
         //Add level save related data after unlockNextLevel
         self.levelModel.noOfStars = stars;
         [self saveGame];
         [self stopTimer];
-        [self showGameWonAlert];
+        
+        BOOL showMagicStickMsg = NO;
+        if(starWon == 3){
+            showMagicStickMsg = YES;
+        }
+        [self showGameWonAlert:showMagicStickMsg];
         
         NSMutableDictionary *dictionary = [NSMutableDictionary dictionary];
         [dictionary setObject:[NSString stringWithFormat:@"%ld(l)_%ld(s)[%ld(star)]",(long)self.currentLevel,(long)self.currentStage,(long)stars] forKey:@"level"];
@@ -822,9 +828,8 @@ typedef void (^completionBlk)(BOOL);
     }
 }
 
--(NSInteger)updateStars
+-(NSInteger)getStarWon
 {
-    NSInteger oldStar = self.levelModel.noOfStars;
     NSInteger newStar = 1;
     NSInteger life = [[KKGameConfigManager sharedManager] noOfLifesInLevel:self.currentLevel stage:self.currentStage];
     CGFloat lifePercentage = ((self.levelModel.life)/(CGFloat)life)*100;
@@ -833,7 +838,7 @@ typedef void (^completionBlk)(BOOL);
         CGFloat duration = [[KKGameConfigManager sharedManager] durationForLevel:self.currentLevel stage:self.currentStage];
         CGFloat timeRemainingPercentage = ((self.levelModel.duration)/(CGFloat)duration)*100;
         if((timeRemainingPercentage >= 75 && lifePercentage >= 66) || lifePercentage == 100 || timeRemainingPercentage >= 50){
-             newStar = 3;
+            newStar = 3;
         }
         else if(timeRemainingPercentage >= 25){
             newStar = 2;
@@ -851,6 +856,13 @@ typedef void (^completionBlk)(BOOL);
             newStar = 1;
     }
     
+    return newStar;
+}
+
+-(NSInteger)updateStars
+{
+    NSInteger oldStar = self.levelModel.noOfStars;
+    NSInteger newStar = [self getStarWon];
     [self updatePoints:oldStar andNewStar:newStar];
     
     if(newStar == 3){
