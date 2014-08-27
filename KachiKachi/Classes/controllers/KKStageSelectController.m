@@ -12,9 +12,7 @@
 #import "KKGameStateManager.h"
 #import "UserVoice.h"
 #import "KKMailComposerManager.h"
-#import "KKCustomAlertViewController.h"
 #import "Utility.h"
-#import "KKCustomAlertViewController.h"
 
 @interface KKStageSelectController ()
 
@@ -59,14 +57,12 @@
 
 - (IBAction)handleHowToPlay:(id)sender
 {
-    UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main_iPad" bundle:nil];
-    KKCustomAlertViewController *alertview = [storyBoard instantiateViewControllerWithIdentifier:@"KKCustomAlertViewController"];
-    alertview.view.tag = 1;
-    [alertview showAlertWithTitle:NSLocalizedString(@"HOW_TO_PLAY", nil)
-                          message:NSLocalizedString(@"HOW_TO_PLAY_DESC", nil)
-                      buttonTitle:NSLocalizedString(@"GOT_IT", nil)
-                     inController:self
-                       completion:nil];
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"HOW_TO_PLAY", nil)
+                                                        message:NSLocalizedString(@"HOW_TO_PLAY_DESC", nil)
+                                                       delegate:nil
+                                              cancelButtonTitle:NSLocalizedString(@"GOT_IT", nil)
+                                              otherButtonTitles:nil, nil];
+    [alertView show];
 }
 
 - (IBAction)rateUsBtnAction:(id)sender

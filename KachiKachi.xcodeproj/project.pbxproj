@@ -1123,8 +1123,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = KachiKachi/KachiKachi.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development IOS Push Services: com.aismobile.Kachikachi";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development IOS Push Services: com.aismobile.Kachikachi";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -1144,7 +1144,7 @@
 					"$(PROJECT_DIR)/KachiKachi/ThirdParty/AF-iOS-SDK-v2.5.3.10",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "032f6c85-39a6-46db-b763-45d44e5ad251";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
@@ -1156,8 +1156,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = KachiKachi/KachiKachi.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development IOS Push Services: com.aismobile.Kachikachi";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development IOS Push Services: com.aismobile.Kachikachi";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Aismobileapps (J3X836PV78)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -1177,7 +1177,7 @@
 					"$(PROJECT_DIR)/KachiKachi/ThirdParty/AF-iOS-SDK-v2.5.3.10",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "032f6c85-39a6-46db-b763-45d44e5ad251";
+				PROVISIONING_PROFILE = "2f87144c-5af6-4007-8b50-a0d7463f7e30";
 				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};

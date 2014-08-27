@@ -837,10 +837,11 @@ typedef void (^completionBlk)(BOOL);
     if(self.gameMode == eTimerMode){
         CGFloat duration = [[KKGameConfigManager sharedManager] durationForLevel:self.currentLevel stage:self.currentStage];
         CGFloat timeRemainingPercentage = ((self.levelModel.duration)/(CGFloat)duration)*100;
-        if((timeRemainingPercentage >= 75 && lifePercentage >= 66) || lifePercentage == 100 || timeRemainingPercentage >= 50){
+
+        if((timeRemainingPercentage >= 25 && lifePercentage >= 66) || (lifePercentage == 100) || (timeRemainingPercentage >=50 )){
             newStar = 3;
-        }
-        else if(timeRemainingPercentage >= 25){
+           }
+        else if((timeRemainingPercentage >= 25 && timeRemainingPercentage <= 50) || (timeRemainingPercentage <= 25 && lifePercentage >= 66)){
             newStar = 2;
         }
         else{
