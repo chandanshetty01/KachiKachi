@@ -38,6 +38,8 @@
     #import <Foundation/Foundation.h>
 #endif
 
+#define IS_IPAD UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad
+
 //#define ENABLE_ALL_LEVELS
 //#define DEVELOPMENT_MODE
 

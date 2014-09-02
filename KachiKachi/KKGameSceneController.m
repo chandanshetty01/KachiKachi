@@ -96,7 +96,12 @@ typedef void (^completionBlk)(BOOL);
     }
     else{
         //show Ads
-        self.adViewController = [[UIStoryboard storyboardWithName:@"Main_iPad" bundle:nil] instantiateViewControllerWithIdentifier:@"adViewController"];
+        NSString *name = @"Main_iPad";
+        if(!IS_IPAD){
+            name = @"Main_iPhone";
+        }
+        self.adViewController = [[UIStoryboard storyboardWithName:name bundle:nil] instantiateViewControllerWithIdentifier:@"adViewController"];
+
         [self.view addSubview:self.adViewController.view];
         self.adViewController.delegate = self;
         CGRect frame = self.adViewController.view.frame;
@@ -244,7 +249,11 @@ typedef void (^completionBlk)(BOOL);
         return;
     
     NSInteger usageCount = [[KKGameStateManager sharedManager] getmagicStickUsageCount];
-    UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main_iPad" bundle:nil];
+    NSString *name = @"Main_iPad";
+    if(!IS_IPAD){
+        name = @"Main_iPhone";
+    }
+    UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:name bundle:nil];
     KKCustomAlertViewController *alertview = [storyBoard instantiateViewControllerWithIdentifier:@"KKCustomAlertViewController"];
     if(usageCount > 0){
         [alertview addButtonWithTitle:NSLocalizedString(@"OK", nil)];
@@ -541,7 +550,11 @@ typedef void (^completionBlk)(BOOL);
 {
     [[SoundManager sharedManager] playSound:@"wrong" looping:NO];
     NSString *msg = [data objectForKey:@"msg"];
-    UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main_iPad" bundle:nil];
+    NSString *name = @"Main_iPad";
+    if(!IS_IPAD){
+        name = @"Main_iPhone";
+    }
+    UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:name bundle:nil];
     KKCustomAlertViewController *alertview = [storyBoard instantiateViewControllerWithIdentifier:@"KKCustomAlertViewController"];
     alertview.view.tag = 1;
     alertview.canDismissOnButtonPress = NO;

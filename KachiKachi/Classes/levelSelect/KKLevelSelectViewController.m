@@ -142,7 +142,7 @@
     cell.tag = level.levelID;
     //setImage:[UIImage imageNamed:level.menuIconImage] forState:UIControlStateNormal
     [cell.menuImage setImage:[UIImage imageNamed:level.menuIconImage]];
-    cell.menuImage.contentMode = UIViewContentModeCenter;
+    cell.menuImage.contentMode = UIViewContentModeScaleAspectFit;
     [self updateStarsView:cell andModal:level];
     
     if(level.isLevelUnlocked){
