@@ -45,6 +45,7 @@
 		A357D7A9196301350037C2B4 /* libFlurry_5.1.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A357D7A7196301350037C2B4 /* libFlurry_5.1.0.a */; };
 		A357D7AB196301A70037C2B4 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A357D7AA196301A70037C2B4 /* Crashlytics.framework */; };
 		A35DD6F419644730008D445C /* TTBottle.m in Sources */ = {isa = PBXBuildFile; fileRef = A35DD6F319644730008D445C /* TTBottle.m */; };
+		A360192B19B5FB44005DBD86 /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A360192A19B5FB44005DBD86 /* Images-2.xcassets */; };
 		A36734C819ACE40B00F2818E /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A36734C719ACE40B00F2818E /* FacebookSDK.framework */; };
 		A36A12E7195495ED007F6355 /* TTDisc.m in Sources */ = {isa = PBXBuildFile; fileRef = A36A12E6195495ED007F6355 /* TTDisc.m */; };
 		A36A12EA1954BB89007F6355 /* TTCandy.m in Sources */ = {isa = PBXBuildFile; fileRef = A36A12E91954BB89007F6355 /* TTCandy.m */; };
@@ -195,6 +196,7 @@
 		A357D7AA196301A70037C2B4 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = SOURCE_ROOT; };
 		A35DD6F219644730008D445C /* TTBottle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTBottle.h; sourceTree = "<group>"; };
 		A35DD6F319644730008D445C /* TTBottle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTBottle.m; sourceTree = "<group>"; };
+		A360192A19B5FB44005DBD86 /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
 		A3644FA01984EBC900FBD566 /* KachiKachi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = KachiKachi.entitlements; sourceTree = "<group>"; };
 		A36734C719ACE40B00F2818E /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 		A36A12E5195495ED007F6355 /* TTDisc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTDisc.h; sourceTree = "<group>"; };
@@ -570,6 +572,7 @@
 				A3A67E7F1902B67700BFAF7B /* Supporting Files */,
 				A3FB4F4519125D070039585F /* Utility.h */,
 				A3FB4F4619125D070039585F /* Utility.m */,
+				A360192A19B5FB44005DBD86 /* Images-2.xcassets */,
 			);
 			path = KachiKachi;
 			sourceTree = "<group>";
@@ -837,6 +840,7 @@
 				A31B484E1971A81D00EF6BF8 /* uv_heart.png in Resources */,
 				48E71B271979A81900A2E7E8 /* candle.wav in Resources */,
 				A38222E11974B95200D7A856 /* Localizable.strings in Resources */,
+				A360192B19B5FB44005DBD86 /* Images-2.xcassets in Resources */,
 				48E71B331979A81900A2E7E8 /* wrong.wav in Resources */,
 				48E71B281979A81900A2E7E8 /* disc.wav in Resources */,
 				48E71B2E1979A81900A2E7E8 /* lovesong.mp3 in Resources */,
@@ -1145,7 +1149,7 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "8dbf03ea-4747-4b38-8917-a30bfe567e1f";
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1178,7 +1182,7 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "5e2cdc03-fd83-4e36-b0c1-468fe75abb64";
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
