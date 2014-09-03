@@ -44,6 +44,7 @@
 		A3429BA819A85826007184DD /* TTMagicStick.m in Sources */ = {isa = PBXBuildFile; fileRef = A3429BA719A85826007184DD /* TTMagicStick.m */; };
 		A357D7A9196301350037C2B4 /* libFlurry_5.1.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A357D7A7196301350037C2B4 /* libFlurry_5.1.0.a */; };
 		A357D7AB196301A70037C2B4 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A357D7AA196301A70037C2B4 /* Crashlytics.framework */; };
+		A35C2EAA19B7728F003FBA1B /* GameData_iPhone.plist in Resources */ = {isa = PBXBuildFile; fileRef = A35C2EA919B7728F003FBA1B /* GameData_iPhone.plist */; };
 		A35DD6F419644730008D445C /* TTBottle.m in Sources */ = {isa = PBXBuildFile; fileRef = A35DD6F319644730008D445C /* TTBottle.m */; };
 		A360192B19B5FB44005DBD86 /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A360192A19B5FB44005DBD86 /* Images-2.xcassets */; };
 		A36734C819ACE40B00F2818E /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A36734C719ACE40B00F2818E /* FacebookSDK.framework */; };
@@ -194,6 +195,7 @@
 		A357D7A6196301350037C2B4 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
 		A357D7A7196301350037C2B4 /* libFlurry_5.1.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_5.1.0.a; sourceTree = "<group>"; };
 		A357D7AA196301A70037C2B4 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = SOURCE_ROOT; };
+		A35C2EA919B7728F003FBA1B /* GameData_iPhone.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GameData_iPhone.plist; sourceTree = "<group>"; };
 		A35DD6F219644730008D445C /* TTBottle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTBottle.h; sourceTree = "<group>"; };
 		A35DD6F319644730008D445C /* TTBottle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTBottle.m; sourceTree = "<group>"; };
 		A360192A19B5FB44005DBD86 /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
@@ -565,6 +567,7 @@
 				A3A67E881902B67700BFAF7B /* AppDelegate.m */,
 				A3A67E8A1902B67700BFAF7B /* Main_iPhone.storyboard */,
 				A3A67E8D1902B67700BFAF7B /* Main_iPad.storyboard */,
+				A35C2EA919B7728F003FBA1B /* GameData_iPhone.plist */,
 				A3A67EB81902C79B00BFAF7B /* GameData.plist */,
 				A3B97D681930F7AD0049DCEB /* Sound */,
 				A3A67ECC1902E3D300BFAF7B /* Elements */,
@@ -855,6 +858,7 @@
 				A31B484B1971A81D00EF6BF8 /* UserVoice.strings in Resources */,
 				48E71B2F1979A81900A2E7E8 /* pencil.wav in Resources */,
 				48E71B321979A81900A2E7E8 /* won.caf in Resources */,
+				A35C2EAA19B7728F003FBA1B /* GameData_iPhone.plist in Resources */,
 				48E71B251979A81900A2E7E8 /* bird.wav in Resources */,
 				A31B484D1971A81D00EF6BF8 /* uv_article@2x.png in Resources */,
 				A31B48501971A81D00EF6BF8 /* uv_idea.png in Resources */,

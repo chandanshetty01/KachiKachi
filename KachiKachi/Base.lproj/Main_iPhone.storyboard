@@ -406,7 +406,7 @@
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9X9-Vo-45o">
-                                        <rect key="frame" x="468" y="0.0" width="30" height="30"/>
+                                        <rect key="frame" x="530" y="2" width="28" height="28"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="bottom_back">
                                             <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -414,17 +414,6 @@
                                         </state>
                                         <connections>
                                             <action selector="backButtonAction:" destination="FPz-Hv-Mii" eventType="touchUpInside" id="lh4-Je-nPp"/>
-                                        </connections>
-                                    </button>
-                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3iq-gd-loF">
-                                        <rect key="frame" x="518" y="0.0" width="30" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="bottom_back">
-                                            <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="backButtonAction:" destination="FPz-Hv-Mii" eventType="touchUpInside" id="TZN-f8-3rs"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LIFE:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kIw-9N-qtr">
@@ -442,7 +431,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7xP-Fa-JPo">
-                                        <rect key="frame" x="368" y="0.0" width="80" height="30"/>
+                                        <rect key="frame" x="405" y="0.0" width="105" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
@@ -498,7 +487,6 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
                         <outlet property="addButton" destination="1Wi-bP-wNp" id="CAT-V1-vWa"/>
-                        <outlet property="backButton" destination="3iq-gd-loF" id="9jR-j7-8M6"/>
                         <outlet property="background" destination="zZR-8P-vyu" id="fhS-ry-ClS"/>
                         <outlet property="bottomStrip" destination="Osr-tz-nfw" id="Bbh-Ji-eZc"/>
                         <outlet property="lifeLabel" destination="kIw-9N-qtr" id="AfY-g2-Rzw"/>
@@ -515,7 +503,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LxF-oB-cm7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-62" y="964"/>
+            <point key="canvasLocation" x="-171" y="861"/>
         </scene>
         <!--Custom Alert View Controller-->
         <scene sceneID="Qwt-BW-TQ4">

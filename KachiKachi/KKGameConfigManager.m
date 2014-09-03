@@ -39,7 +39,14 @@ const NSString *kNoOfItems = @"noOfItems";
     self =[super init];
     if(self)
     {
-        NSString *strplistPath = [[NSBundle mainBundle] pathForResource:@"GameData" ofType:@"plist"];
+        NSString *strplistPath = nil;
+        if (IS_IPAD) {
+            strplistPath = [[NSBundle mainBundle] pathForResource:@"GameData" ofType:@"plist"];
+        }
+        else{
+            strplistPath = [[NSBundle mainBundle] pathForResource:@"GameData_iPhone" ofType:@"plist"];
+        }
+
         NSData *plistXML = [[NSFileManager defaultManager] contentsAtPath:strplistPath];
         
         NSString *strerrorDesc = nil;
