@@ -508,7 +508,7 @@
         <!--Custom Alert View Controller-->
         <scene sceneID="Qwt-BW-TQ4">
             <objects>
-                <viewController storyboardIdentifier="KKCustomAlertViewController" id="2lp-j5-llG" customClass="KKCustomAlertViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="KKCustomAlertViewController" autoresizesArchivedViewToFullSize="NO" id="2lp-j5-llG" customClass="KKCustomAlertViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="aPD-zF-JUX"/>
                         <viewControllerLayoutGuide type="bottom" id="S6M-88-H59"/>
@@ -592,6 +592,7 @@
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="568" height="50"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9b7-h9-dxx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
