@@ -199,7 +199,7 @@
     // Draw them with a 2.0 stroke width so they are a bit more visible.
     CGContextSetLineWidth(context, 2.0);
     
-    int count = [_touchPoints count];
+    int count = (int)[_touchPoints count];
     for (int i = 0 ; i < count; i++) {
         CGPoint cPoint = CGPointFromString([_touchPoints objectAtIndex:i]);
         if(i == 0)
