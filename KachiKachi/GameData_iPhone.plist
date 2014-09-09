@@ -9999,114 +9999,235 @@
 				<key>elements</key>
 				<array>
 					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{0, 0}, {0, 0}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{100, 100}, {-1,-1}}</string>
+						<string>{{100, 100}, {57, 151}}</string>
 						<key>image</key>
 						<string>iPh_flower.png</string>
 						<key>isPicked</key>
 						<false/>
+						<key>touchPoints</key>
+						<array/>
 					</dict>
 					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{0, 0}, {0, 0}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{100, 100}, {-1,-1}}</string>
+						<string>{{100, 100}, {176, 102}}</string>
 						<key>image</key>
 						<string>iPh_flower2_left.png</string>
 						<key>isPicked</key>
 						<false/>
+						<key>touchPoints</key>
+						<array/>
 					</dict>
 					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{0, 0}, {0, 0}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{100, 100}, {-1,-1}}</string>
+						<string>{{100, 100}, {119, 54}}</string>
 						<key>image</key>
 						<string>iPh_flower4_right.png</string>
 						<key>isPicked</key>
 						<false/>
+						<key>touchPoints</key>
+						<array/>
 					</dict>
 					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{0, 0}, {0, 0}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{100, 100}, {-1,-1}}</string>
+						<string>{{100, 100}, {226, 108}}</string>
 						<key>image</key>
 						<string>iPh_flower5_left.png</string>
 						<key>isPicked</key>
 						<false/>
+						<key>touchPoints</key>
+						<array/>
 					</dict>
 					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{0, 0}, {0, 0}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{100, 100}, {-1,-1}}</string>
+						<string>{{100, 100}, {95, 89}}</string>
 						<key>image</key>
 						<string>iPh_flower6_right.png</string>
 						<key>isPicked</key>
 						<false/>
+						<key>touchPoints</key>
+						<array/>
 					</dict>
 					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{0, 0}, {0, 0}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{100, 100}, {-1,-1}}</string>
+						<string>{{100, 100}, {202, 130}}</string>
 						<key>image</key>
 						<string>iPh_flower7_left.png</string>
 						<key>isPicked</key>
 						<false/>
+						<key>touchPoints</key>
+						<array/>
 					</dict>
 					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{0, 0}, {0, 0}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{100, 100}, {-1,-1}}</string>
+						<string>{{100, 100}, {146, 117}}</string>
 						<key>image</key>
 						<string>iPh_flower8_right.png</string>
 						<key>isPicked</key>
 						<false/>
+						<key>touchPoints</key>
+						<array/>
 					</dict>
 					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{0, 0}, {0, 0}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{100, 100}, {-1,-1}}</string>
+						<string>{{100, 100}, {52, 169}}</string>
 						<key>image</key>
 						<string>iPh_flower9_top.png</string>
 						<key>isPicked</key>
 						<false/>
+						<key>touchPoints</key>
+						<array/>
 					</dict>
 					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{0, 0}, {0, 0}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{100, 100}, {-1,-1}}</string>
+						<string>{{100, 100}, {181, 84}}</string>
 						<key>image</key>
 						<string>iPh_flower10_right.png</string>
 						<key>isPicked</key>
 						<false/>
+						<key>touchPoints</key>
+						<array/>
 					</dict>
 					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{0, 0}, {0, 0}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{100, 100}, {-1,-1}}</string>
+						<string>{{100, 100}, {76, 82}}</string>
 						<key>image</key>
 						<string>iPh_flower11_left.png</string>
 						<key>isPicked</key>
 						<false/>
+						<key>touchPoints</key>
+						<array/>
 					</dict>
 					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{0, 0}, {0, 0}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{100, 100}, {-1,-1}}</string>
+						<string>{{349, 93.5}, {151, 57}}</string>
 						<key>image</key>
 						<string>iPh_flower12_right.png</string>
 						<key>isPicked</key>
 						<false/>
+						<key>touchPoints</key>
+						<array/>
 					</dict>
 				</array>
 			</dict>
