@@ -2643,7 +2643,7 @@
 				<key>menuImage</key>
 				<string>Menu_24.png</string>
 				<key>background</key>
-				<string>bottle_bg.png</string>
+				<string>iPh_Bottlebg.png</string>
 				<key>isLevelCompleted</key>
 				<false/>
 				<key>isLevelUnlocked</key>
@@ -2658,7 +2658,7 @@
 						<key>animation</key>
 						<dict>
 							<key>frame</key>
-							<string>{{205, 123}, {55, 152}}</string>
+							<string>{{146.5, 46}, {28, 76}}</string>
 							<key>rotateAngle</key>
 							<string>0.000000</string>
 							<key>scale</key>
@@ -2667,11 +2667,492 @@
 						<key>class</key>
 						<string>TTBottle</string>
 						<key>frame</key>
-						<string>{{100, 100}, {-1,-1}}</string>
+						<string>{{146.5, 46}, {28, 76}}</string>
 						<key>image</key>
-						<string>bottle_1.png</string>
+						<string>iPh_Bottle1.png</string>
 						<key>isPicked</key>
 						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{20, 26.5}</string>
+							<string>{18.5, 73.5}</string>
+							<string>{2.5, 73}</string>
+							<string>{0, 26.5}</string>
+							<string>{4.5, 23.5}</string>
+							<string>{1.5, 6}</string>
+							<string>{27, 0.5}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{254, 47.5}, {35, 75}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{254, 47.5}, {35, 75}}</string>
+						<key>image</key>
+						<string>iPh_Bottle2.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{33.5, 23.5}</string>
+							<string>{28.5, 21}</string>
+							<string>{28, 15.5}</string>
+							<string>{23.5, 14}</string>
+							<string>{22, 2}</string>
+							<string>{1, 1.5}</string>
+							<string>{1, 5.5}</string>
+							<string>{17.5, 5}</string>
+							<string>{18.5, 13}</string>
+							<string>{15.5, 19}</string>
+							<string>{9.5, 23.5}</string>
+							<string>{11, 72.5}</string>
+							<string>{32.5, 73}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{223.5, 68}, {26, 62}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{223.5, 68}, {26, 62}}</string>
+						<key>image</key>
+						<string>iPh_Bottle3.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{18.5, 11}</string>
+							<string>{19, 29}</string>
+							<string>{25, 37}</string>
+							<string>{23.5, 52}</string>
+							<string>{20.5, 59}</string>
+							<string>{6, 59}</string>
+							<string>{1.5, 45}</string>
+							<string>{1, 33.5}</string>
+							<string>{7, 29.5}</string>
+							<string>{7, 2.5}</string>
+							<string>{17, 2.5}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{275, 53}, {26, 68}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{275, 53}, {26, 68}}</string>
+						<key>image</key>
+						<string>iPh_Bottle4.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{16.5, 0.5}</string>
+							<string>{9.5, 2}</string>
+							<string>{7, 9.5}</string>
+							<string>{2.5, 12.5}</string>
+							<string>{2.5, 19.5}</string>
+							<string>{0.5, 25}</string>
+							<string>{1.5, 66.5}</string>
+							<string>{24.5, 64.5}</string>
+							<string>{24.5, 22.5}</string>
+							<string>{23, 11}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{197.5, 63.5}, {34, 65}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{197.5, 63.5}, {34, 65}}</string>
+						<key>image</key>
+						<string>iPh_Bottle5.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{8.5, 12.5}</string>
+							<string>{6.5, 16.5}</string>
+							<string>{0.5, 59}</string>
+							<string>{29, 63.5}</string>
+							<string>{32, 22}</string>
+							<string>{33, 12}</string>
+							<string>{25.5, 1}</string>
+							<string>{19.5, 1.5}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{205, 56.5}, {36, 72}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{205, 56.5}, {36, 72}}</string>
+						<key>image</key>
+						<string>iPh_Bottle6.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{22.5, 2.5}</string>
+							<string>{23.5, 28}</string>
+							<string>{30.5, 44.5}</string>
+							<string>{30.5, 68}</string>
+							<string>{4.5, 69.5}</string>
+							<string>{4, 47.5}</string>
+							<string>{11.5, 29.5}</string>
+							<string>{12.5, 3}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{189, 49.5}, {22, 75}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{189, 49.5}, {22, 75}}</string>
+						<key>image</key>
+						<string>iPh_Bottle7.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{16, 2}</string>
+							<string>{5.5, 2}</string>
+							<string>{5, 13}</string>
+							<string>{1.5, 17.5}</string>
+							<string>{1.5, 74}</string>
+							<string>{21.5, 73.5}</string>
+							<string>{20.5, 17}</string>
+							<string>{16, 12.5}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{212, 42}, {22, 88}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{212, 42}, {22, 88}}</string>
+						<key>image</key>
+						<string>iPh_Bottle8.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{15.5, 2}</string>
+							<string>{15.5, 24}</string>
+							<string>{21, 32}</string>
+							<string>{21.5, 85.5}</string>
+							<string>{3, 87.5}</string>
+							<string>{0.5, 33}</string>
+							<string>{5.5, 25.5}</string>
+							<string>{6.5, 1}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{197.5, 50}, {21, 73}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{197.5, 50}, {21, 73}}</string>
+						<key>image</key>
+						<string>iPh_Bottle9.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{14.5, 2}</string>
+							<string>{15.5, 22}</string>
+							<string>{21, 28}</string>
+							<string>{19.5, 71}</string>
+							<string>{2, 71.5}</string>
+							<string>{1.5, 28.5}</string>
+							<string>{6, 22.5}</string>
+							<string>{7, 1.5}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{185, 58.5}, {29, 70}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{185, 58.5}, {29, 70}}</string>
+						<key>image</key>
+						<string>iPh_Bottle10.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{19.5, 1.5}</string>
+							<string>{9, 2.5}</string>
+							<string>{9, 22}</string>
+							<string>{1, 32.5}</string>
+							<string>{1.5, 69}</string>
+							<string>{28.5, 68.5}</string>
+							<string>{27, 31.5}</string>
+							<string>{20.5, 23}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{134.5, 49.5}, {21, 69}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{134.5, 49.5}, {21, 69}}</string>
+						<key>image</key>
+						<string>iPh_Bottle11.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{14.5, 1.5}</string>
+							<string>{16, 27.5}</string>
+							<string>{19, 33}</string>
+							<string>{19, 67}</string>
+							<string>{2.5, 67.5}</string>
+							<string>{2, 32.5}</string>
+							<string>{4.5, 27.5}</string>
+							<string>{6, 1.5}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{139.5, 45.5}, {23, 75}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{139.5, 45.5}, {23, 75}}</string>
+						<key>image</key>
+						<string>iPh_Bottle12.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{17, 1}</string>
+							<string>{17, 18}</string>
+							<string>{23, 24.5}</string>
+							<string>{21.5, 73.5}</string>
+							<string>{2, 73.5}</string>
+							<string>{1.5, 29.5}</string>
+							<string>{6.5, 18.5}</string>
+							<string>{7, 2}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{238, 45.5}, {27, 86}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{238, 45.5}, {27, 86}}</string>
+						<key>image</key>
+						<string>iPh_Bottle13.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{19.5, 2}</string>
+							<string>{21, 22.5}</string>
+							<string>{26.5, 29.5}</string>
+							<string>{25.5, 74.5}</string>
+							<string>{25, 83}</string>
+							<string>{2, 83}</string>
+							<string>{1.5, 31.5}</string>
+							<string>{7.5, 24}</string>
+							<string>{9, 2.5}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{261, 30.5}, {27, 98}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{261, 30.5}, {27, 98}}</string>
+						<key>image</key>
+						<string>iPh_Bottle14.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{19, 2}</string>
+							<string>{7, 2}</string>
+							<string>{6, 25.5}</string>
+							<string>{1.5, 39}</string>
+							<string>{1.5, 95.5}</string>
+							<string>{26, 95}</string>
+							<string>{22, 41.5}</string>
+							<string>{25.5, 37}</string>
+							<string>{21.5, 28}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{206, 40.5}, {50, 86}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{206, 40.5}, {50, 86}}</string>
+						<key>image</key>
+						<string>iPh_Bottle15.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{9, 1.5}</string>
+							<string>{8, 4.5}</string>
+							<string>{12.5, 10.5}</string>
+							<string>{1, 29.5}</string>
+							<string>{25.5, 20.5}</string>
+							<string>{24, 47.5}</string>
+							<string>{13, 70.5}</string>
+							<string>{15.5, 80.5}</string>
+							<string>{13, 84.5}</string>
+							<string>{49, 85}</string>
+							<string>{49, 64}</string>
+							<string>{39.5, 48.5}</string>
+							<string>{38, 23}</string>
+							<string>{46, 16}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{161.5, 39.5}, {45, 87}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTBottle</string>
+						<key>frame</key>
+						<string>{{161.5, 39.5}, {45, 87}}</string>
+						<key>image</key>
+						<string>iPh_Bottle16.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{31.5, 1.5}</string>
+							<string>{32.5, 8.5}</string>
+							<string>{36, 19.5}</string>
+							<string>{36.5, 75}</string>
+							<string>{43, 80}</string>
+							<string>{34, 83.5}</string>
+							<string>{5.5, 84.5}</string>
+							<string>{10.5, 76}</string>
+							<string>{10.5, 20.5}</string>
+							<string>{15.5, 8.5}</string>
+							<string>{15.5, 2}</string>
+						</array>
 					</dict>
 				</array>
 			</dict>
@@ -7725,15 +8206,15 @@
 				<array>
 					<dict>
 						<key>basket</key>
-						<string>cd_basket1.png</string>
+						<string>iph_cd_holder1.png</string>
 						<key>basket_frame</key>
-						<string>{700,275}</string>
+						<string>{55, 111}</string>
 					</dict>
 					<dict>
 						<key>basket</key>
-						<string>cd_basket2.png</string>
+						<string>iph_cd_holder2.png</string>
 						<key>basket_frame</key>
-						<string>{819,276}</string>
+						<string>{110.5, 90}</string>
 					</dict>
 				</array>
 				<key>elements</key>
@@ -7742,7 +8223,7 @@
 						<key>animation</key>
 						<dict>
 							<key>frame</key>
-							<string>{{708, 284}, {263, 263}}</string>
+							<string>{{0, 0}, {0, 0}}</string>
 							<key>rotateAngle</key>
 							<string>0.000000</string>
 							<key>scale</key>
@@ -7751,11 +8232,376 @@
 						<key>class</key>
 						<string>TTDvd</string>
 						<key>frame</key>
-						<string>{{100, 100}, {-1,-1}}</string>
+						<string>{{96, 160}, {48, 47}}</string>
 						<key>image</key>
-						<string>cd_22.png</string>
+						<string>iph_cd1.png</string>
 						<key>isPicked</key>
 						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{34, 1.5}</string>
+							<string>{17.5, 2}</string>
+							<string>{6.5, 7.5}</string>
+							<string>{1.5, 15.5}</string>
+							<string>{1.5, 35}</string>
+							<string>{14, 46.5}</string>
+							<string>{36, 46}</string>
+							<string>{45.5, 35}</string>
+							<string>{45.5, 14.5}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{0, 0}, {0, 0}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTDvd</string>
+						<key>frame</key>
+						<string>{{86.5, 152.5}, {59, 60}}</string>
+						<key>image</key>
+						<string>iph_cd2.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{57.5, 41.5}</string>
+							<string>{58, 18.5}</string>
+							<string>{40.5, 2}</string>
+							<string>{20.5, 1.5}</string>
+							<string>{4.5, 9}</string>
+							<string>{1.5, 17.5}</string>
+							<string>{1, 45.5}</string>
+							<string>{18, 58}</string>
+							<string>{44, 58.5}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{0, 0}, {0, 0}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTDvd</string>
+						<key>frame</key>
+						<string>{{92, 153.5}, {52, 52}}</string>
+						<key>image</key>
+						<string>iph_cd3.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{36, 1.5}</string>
+							<string>{18, 1}</string>
+							<string>{8, 8.5}</string>
+							<string>{1.5, 17}</string>
+							<string>{1, 39}</string>
+							<string>{15.5, 51}</string>
+							<string>{39.5, 51.5}</string>
+							<string>{50.5, 36.5}</string>
+							<string>{50.5, 14.5}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{0, 0}, {0, 0}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTDvd</string>
+						<key>frame</key>
+						<string>{{91, 158}, {54, 54}}</string>
+						<key>image</key>
+						<string>iph_cd4.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{36, 2}</string>
+							<string>{17.5, 1.5}</string>
+							<string>{7.5, 6.5}</string>
+							<string>{3, 17.5}</string>
+							<string>{2, 37}</string>
+							<string>{16.5, 52}</string>
+							<string>{38.5, 53}</string>
+							<string>{52.5, 38}</string>
+							<string>{52.5, 14.5}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{0, 0}, {0, 0}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTDvd</string>
+						<key>frame</key>
+						<string>{{86.5, 159.5}, {51, 51}}</string>
+						<key>image</key>
+						<string>iph_cd5.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{35, 2}</string>
+							<string>{13.5, 2}</string>
+							<string>{4, 11.5}</string>
+							<string>{1, 18.5}</string>
+							<string>{2.5, 39.5}</string>
+							<string>{17, 50.5}</string>
+							<string>{35, 49}</string>
+							<string>{49.5, 35.5}</string>
+							<string>{49.5, 20}</string>
+							<string>{45, 7.5}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{0, 0}, {0, 0}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTDvd</string>
+						<key>frame</key>
+						<string>{{91, 153.5}, {54, 55}}</string>
+						<key>image</key>
+						<string>iph_cd6.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{35.5, 1.5}</string>
+							<string>{17, 1.5}</string>
+							<string>{4.5, 11.5}</string>
+							<string>{1.5, 19.5}</string>
+							<string>{1.5, 40}</string>
+							<string>{16.5, 53.5}</string>
+							<string>{40, 54.5}</string>
+							<string>{51, 39.5}</string>
+							<string>{52.5, 14.5}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{0, 0}, {0, 0}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTDvd</string>
+						<key>frame</key>
+						<string>{{92, 158}, {53, 51}}</string>
+						<key>image</key>
+						<string>iph_cd7.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{35, 1.5}</string>
+							<string>{16.5, 1.5}</string>
+							<string>{4.5, 12.5}</string>
+							<string>{1.5, 18.5}</string>
+							<string>{1.5, 35.5}</string>
+							<string>{15.5, 50.5}</string>
+							<string>{37.5, 50.5}</string>
+							<string>{51, 36}</string>
+							<string>{51, 16}</string>
+							<string>{44, 6}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{0, 0}, {0, 0}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTDvd</string>
+						<key>frame</key>
+						<string>{{94.5, 151.5}, {50, 50}}</string>
+						<key>image</key>
+						<string>iph_cd8.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{32.5, 2}</string>
+							<string>{15, 2.5}</string>
+							<string>{7, 9}</string>
+							<string>{1.5, 18.5}</string>
+							<string>{1.5, 36}</string>
+							<string>{14, 48}</string>
+							<string>{37, 49}</string>
+							<string>{47.5, 35.5}</string>
+							<string>{48, 13.5}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{0, 0}, {0, 0}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTDvd</string>
+						<key>frame</key>
+						<string>{{94, 155}, {53, 54}}</string>
+						<key>image</key>
+						<string>iph_cd9.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{35.5, 2.5}</string>
+							<string>{20, 3}</string>
+							<string>{9, 7}</string>
+							<string>{2.5, 18}</string>
+							<string>{2, 39.5}</string>
+							<string>{12.5, 52}</string>
+							<string>{36.5, 53}</string>
+							<string>{50.5, 39}</string>
+							<string>{53, 18}</string>
+							<string>{46, 9.5}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{0, 0}, {0, 0}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTDvd</string>
+						<key>frame</key>
+						<string>{{87, 150.5}, {60, 59}}</string>
+						<key>image</key>
+						<string>iph_cd10.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{40, 2}</string>
+							<string>{20, 1.5}</string>
+							<string>{11, 6}</string>
+							<string>{6, 15}</string>
+							<string>{2, 22.5}</string>
+							<string>{2, 39.5}</string>
+							<string>{8.5, 51}</string>
+							<string>{17, 56}</string>
+							<string>{43, 58.5}</string>
+							<string>{52, 50.5}</string>
+							<string>{56.5, 42.5}</string>
+							<string>{59, 21}</string>
+							<string>{52, 8.5}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{0, 0}, {0, 0}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTDvd</string>
+						<key>frame</key>
+						<string>{{92, 154}, {55, 55}}</string>
+						<key>image</key>
+						<string>iph_cd11.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{35.5, 2}</string>
+							<string>{15, 1.5}</string>
+							<string>{7, 10}</string>
+							<string>{2, 18.5}</string>
+							<string>{1, 36.5}</string>
+							<string>{8.5, 47}</string>
+							<string>{18, 55}</string>
+							<string>{37.5, 53}</string>
+							<string>{50.5, 46}</string>
+							<string>{53, 37.5}</string>
+							<string>{54, 17.5}</string>
+							<string>{46.5, 8}</string>
+						</array>
+					</dict>
+					<dict>
+						<key>animation</key>
+						<dict>
+							<key>frame</key>
+							<string>{{0, 0}, {0, 0}}</string>
+							<key>rotateAngle</key>
+							<string>0.000000</string>
+							<key>scale</key>
+							<string>0.000000</string>
+						</dict>
+						<key>class</key>
+						<string>TTDvd</string>
+						<key>frame</key>
+						<string>{{87.5, 151.5}, {61, 61}}</string>
+						<key>image</key>
+						<string>iph_cd12.png</string>
+						<key>isPicked</key>
+						<false/>
+						<key>touchPoints</key>
+						<array>
+							<string>{39, 2}</string>
+							<string>{19, 1.5}</string>
+							<string>{9, 10}</string>
+							<string>{2.5, 22}</string>
+							<string>{1, 39}</string>
+							<string>{14, 55.5}</string>
+							<string>{21.5, 60}</string>
+							<string>{41, 60}</string>
+							<string>{59, 42}</string>
+							<string>{59.5, 17.5}</string>
+							<string>{51.5, 7.5}</string>
+						</array>
 					</dict>
 				</array>
 			</dict>
