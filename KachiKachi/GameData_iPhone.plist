@@ -1504,7 +1504,7 @@
 						<key>class</key>
 						<string>TTBottle</string>
 						<key>frame</key>
-						<string>{{146.5, 46}, {28, 76}}</string>
+						<string>{{373, 61}, {28, 76}}</string>
 						<key>image</key>
 						<string>iPh_Bottle1.png</string>
 						<key>isPicked</key>
@@ -1533,7 +1533,7 @@
 						<key>class</key>
 						<string>TTBottle</string>
 						<key>frame</key>
-						<string>{{254, 47.5}, {35, 75}}</string>
+						<string>{{481.5, 138.5}, {35, 75}}</string>
 						<key>image</key>
 						<string>iPh_Bottle2.png</string>
 						<key>isPicked</key>
@@ -1568,7 +1568,7 @@
 						<key>class</key>
 						<string>TTBottle</string>
 						<key>frame</key>
-						<string>{{223.5, 68}, {26, 62}}</string>
+						<string>{{390.5, 64.5}, {26, 62}}</string>
 						<key>image</key>
 						<string>iPh_Bottle3.png</string>
 						<key>isPicked</key>
@@ -1601,7 +1601,7 @@
 						<key>class</key>
 						<string>TTBottle</string>
 						<key>frame</key>
-						<string>{{275, 53}, {26, 68}}</string>
+						<string>{{456.5, 156}, {26, 68}}</string>
 						<key>image</key>
 						<string>iPh_Bottle4.png</string>
 						<key>isPicked</key>
@@ -1633,7 +1633,7 @@
 						<key>class</key>
 						<string>TTBottle</string>
 						<key>frame</key>
-						<string>{{197.5, 63.5}, {34, 65}}</string>
+						<string>{{424.5, 74.5}, {34, 65}}</string>
 						<key>image</key>
 						<string>iPh_Bottle5.png</string>
 						<key>isPicked</key>
@@ -1663,7 +1663,7 @@
 						<key>class</key>
 						<string>TTBottle</string>
 						<key>frame</key>
-						<string>{{205, 56.5}, {36, 72}}</string>
+						<string>{{389, 105}, {36, 72}}</string>
 						<key>image</key>
 						<string>iPh_Bottle6.png</string>
 						<key>isPicked</key>
@@ -1693,7 +1693,7 @@
 						<key>class</key>
 						<string>TTBottle</string>
 						<key>frame</key>
-						<string>{{189, 49.5}, {22, 75}}</string>
+						<string>{{390, 165.5}, {22, 75}}</string>
 						<key>image</key>
 						<string>iPh_Bottle7.png</string>
 						<key>isPicked</key>
@@ -1723,7 +1723,7 @@
 						<key>class</key>
 						<string>TTBottle</string>
 						<key>frame</key>
-						<string>{{212, 42}, {22, 88}}</string>
+						<string>{{444, 186.5}, {22, 88}}</string>
 						<key>image</key>
 						<string>iPh_Bottle8.png</string>
 						<key>isPicked</key>
@@ -1753,7 +1753,7 @@
 						<key>class</key>
 						<string>TTBottle</string>
 						<key>frame</key>
-						<string>{{197.5, 50}, {21, 73}}</string>
+						<string>{{409, 131.5}, {21, 73}}</string>
 						<key>image</key>
 						<string>iPh_Bottle9.png</string>
 						<key>isPicked</key>
@@ -1783,7 +1783,7 @@
 						<key>class</key>
 						<string>TTBottle</string>
 						<key>frame</key>
-						<string>{{185, 58.5}, {29, 70}}</string>
+						<string>{{423, 112}, {29, 70}}</string>
 						<key>image</key>
 						<string>iPh_Bottle10.png</string>
 						<key>isPicked</key>
@@ -1813,7 +1813,7 @@
 						<key>class</key>
 						<string>TTBottle</string>
 						<key>frame</key>
-						<string>{{134.5, 49.5}, {21, 69}}</string>
+						<string>{{490.5, 179.5}, {21, 69}}</string>
 						<key>image</key>
 						<string>iPh_Bottle11.png</string>
 						<key>isPicked</key>
@@ -1843,7 +1843,7 @@
 						<key>class</key>
 						<string>TTBottle</string>
 						<key>frame</key>
-						<string>{{139.5, 45.5}, {23, 75}}</string>
+						<string>{{497.5, 101}, {23, 75}}</string>
 						<key>image</key>
 						<string>iPh_Bottle12.png</string>
 						<key>isPicked</key>
@@ -1873,7 +1873,7 @@
 						<key>class</key>
 						<string>TTBottle</string>
 						<key>frame</key>
-						<string>{{238, 45.5}, {27, 86}}</string>
+						<string>{{412.5, 174.5}, {27, 86}}</string>
 						<key>image</key>
 						<string>iPh_Bottle13.png</string>
 						<key>isPicked</key>
@@ -1904,7 +1904,7 @@
 						<key>class</key>
 						<string>TTBottle</string>
 						<key>frame</key>
-						<string>{{261, 30.5}, {27, 98}}</string>
+						<string>{{470, 142.5}, {27, 98}}</string>
 						<key>image</key>
 						<string>iPh_Bottle14.png</string>
 						<key>isPicked</key>
@@ -1935,7 +1935,7 @@
 						<key>class</key>
 						<string>TTBottle</string>
 						<key>frame</key>
-						<string>{{206, 40.5}, {50, 86}}</string>
+						<string>{{455.5, 95}, {50, 86}}</string>
 						<key>image</key>
 						<string>iPh_Bottle15.png</string>
 						<key>isPicked</key>
@@ -1971,7 +1971,7 @@
 						<key>class</key>
 						<string>TTBottle</string>
 						<key>frame</key>
-						<string>{{161.5, 39.5}, {45, 87}}</string>
+						<string>{{432, 126.5}, {45, 87}}</string>
 						<key>image</key>
 						<string>iPh_Bottle16.png</string>
 						<key>isPicked</key>
