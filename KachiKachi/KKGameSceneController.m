@@ -22,7 +22,6 @@
 #import "Utility.h"
 #import "TTMagicStick.h"
 
-#define RANDOM_SEED() srandom((unsigned)time(NULL))
 #define RANDOM_INT(__MIN__, __MAX__) ((__MIN__) + random() % ((__MAX__+1) - (__MIN__)))
 #define RADIANS(degrees) ((degrees * M_PI) / 180.0)
 
@@ -175,29 +174,31 @@ typedef void (^completionBlk)(BOOL);
 -(void)updateMagicStickBtnPosition
 {
     [self.view bringSubviewToFront:self.magicStickHolder];
-    CGRect frame = self.magicStickHolder.frame;
-    switch (self.currentLevel) {
-        case 4:{
-            frame.origin = CGPointMake(50,self.view.bounds.size.width-frame.size.height-50);
+    if(IS_IPAD){
+        CGRect frame = self.magicStickHolder.frame;
+        switch (self.currentLevel) {
+            case 4:{
+                frame.origin = CGPointMake(50,self.view.bounds.size.width-frame.size.height-50);
+            }
+                break;
+                
+            case 5:{
+                frame.origin = CGPointMake(self.view.bounds.size.height-frame.size.width-100,self.view.bounds.size.width-frame.size.height-100);
+            }
+                break;
+                
+            case 18:{
+                frame.origin = CGPointMake(0,100);
+            }
+                break;
+                
+            default:{
+                frame.origin = CGPointMake(self.view.bounds.size.height-frame.size.width, 0);
+            }
+                break;
         }
-            break;
-
-        case 5:{
-            frame.origin = CGPointMake(self.view.bounds.size.height-frame.size.width-100,self.view.bounds.size.width-frame.size.height-100);
-        }
-            break;
-
-        case 18:{
-            frame.origin = CGPointMake(0,100);
-        }
-            break;
-            
-        default:{
-            frame.origin = CGPointMake(self.view.bounds.size.height-frame.size.width, 0);
-        }
-            break;
+        self.magicStickHolder.frame = frame;
     }
-    self.magicStickHolder.frame = frame;
 }
 
 -(void)showMagicStickAnimation
@@ -1261,12 +1262,16 @@ typedef void (^completionBlk)(BOOL);
     
 }
 
+static int testCounter = -1;
+
 - (IBAction)handleAddBtn:(id)sender
 {
-    RANDOM_SEED();
-    int r = abs(arc4random() % [_elements count]-1);
+    testCounter++;
+    if(testCounter >= _elements.count){
+        testCounter = 0;
+    }
     
-    TTBase *tObject = [_elements objectAtIndex:r];
+    TTBase *tObject = [_elements objectAtIndex:testCounter];
     KKItemModal *itemModel = tObject.itemModal;
     
     CGRect frame = itemModel.frame;
