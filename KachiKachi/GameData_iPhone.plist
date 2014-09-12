@@ -6265,7 +6265,7 @@
 				<key>menuImage</key>
 				<string>Menu_14.png</string>
 				<key>background</key>
-				<string>background.png</string>
+				<string>iPh_ball_bg.png</string>
 				<key>isLevelCompleted</key>
 				<false/>
 				<key>isLevelUnlocked</key>
@@ -6278,13 +6278,13 @@
 				<array>
 					<dict>
 						<key>basket</key>
-						<string>birds_police.png</string>
+						<string>iph_bird_hunter.png</string>
 						<key>basket_frame</key>
-						<string>{70,480}</string>
+						<string>{48, 178.5}</string>
 					</dict>
 					<dict>
 						<key>basket</key>
-						<string>birds_tree.png</string>
+						<string>iph_birdtree.png</string>
 						<key>basket_frame</key>
 						<string>{0,0}</string>
 					</dict>
@@ -6295,7 +6295,7 @@
 						<key>animation</key>
 						<dict>
 							<key>frame</key>
-							<string>{{719, 587}, {100, 59}}</string>
+							<string>{{302, 209.5}, {64, 72}}</string>
 							<key>rotateAngle</key>
 							<string>0.000000</string>
 							<key>scale</key>
@@ -6304,7 +6304,7 @@
 						<key>class</key>
 						<string>TTBird</string>
 						<key>frame</key>
-						<string>{{148.5, 186}, {64, 72}}</string>
+						<string>{{387.5, 59.5}, {64, 72}}</string>
 						<key>image</key>
 						<string>iPh_bird1.png</string>
 						<key>isPicked</key>
@@ -6338,7 +6338,7 @@
 						<key>animation</key>
 						<dict>
 							<key>frame</key>
-							<string>{{719, 587}, {100, 59}}</string>
+							<string>{{325.5, 207.5}, {65, 74}}</string>
 							<key>rotateAngle</key>
 							<string>0.000000</string>
 							<key>scale</key>
@@ -6380,7 +6380,7 @@
 						<key>animation</key>
 						<dict>
 							<key>frame</key>
-							<string>{{719, 587}, {100, 59}}</string>
+							<string>{{314, 211.5}, {67, 56}}</string>
 							<key>rotateAngle</key>
 							<string>0.000000</string>
 							<key>scale</key>
@@ -6423,7 +6423,7 @@
 						<key>animation</key>
 						<dict>
 							<key>frame</key>
-							<string>{{719, 587}, {100, 59}}</string>
+							<string>{{339, 222}, {61, 59}}</string>
 							<key>rotateAngle</key>
 							<string>0.000000</string>
 							<key>scale</key>
@@ -6432,7 +6432,7 @@
 						<key>class</key>
 						<string>TTBird</string>
 						<key>frame</key>
-						<string>{{289, 151}, {61, 59}}</string>
+						<string>{{366, 117.5}, {61, 59}}</string>
 						<key>image</key>
 						<string>iPh_bird15.png</string>
 						<key>isPicked</key>
@@ -6466,7 +6466,7 @@
 						<key>animation</key>
 						<dict>
 							<key>frame</key>
-							<string>{{719, 587}, {100, 59}}</string>
+							<string>{{240, 215}, {75, 68}}</string>
 							<key>rotateAngle</key>
 							<string>0.000000</string>
 							<key>scale</key>
@@ -6475,7 +6475,7 @@
 						<key>class</key>
 						<string>TTBird</string>
 						<key>frame</key>
-						<string>{{175, 93.5}, {75, 68}}</string>
+						<string>{{283.5, 85}, {75, 68}}</string>
 						<key>image</key>
 						<string>iPh_bird16.png</string>
 						<key>isPicked</key>
@@ -6514,7 +6514,7 @@
 						<key>animation</key>
 						<dict>
 							<key>frame</key>
-							<string>{{719, 587}, {100, 59}}</string>
+							<string>{{308, 208.5}, {86, 72}}</string>
 							<key>rotateAngle</key>
 							<string>0.000000</string>
 							<key>scale</key>
@@ -6523,7 +6523,7 @@
 						<key>class</key>
 						<string>TTBird</string>
 						<key>frame</key>
-						<string>{{368.5, 190}, {86, 72}}</string>
+						<string>{{339, 65.5}, {86, 72}}</string>
 						<key>image</key>
 						<string>iPh_bird18.png</string>
 						<key>isPicked</key>
@@ -6558,7 +6558,7 @@
 						<key>animation</key>
 						<dict>
 							<key>frame</key>
-							<string>{{719, 587}, {100, 59}}</string>
+							<string>{{299, 236}, {92, 53}}</string>
 							<key>rotateAngle</key>
 							<string>0.000000</string>
 							<key>scale</key>
@@ -6567,7 +6567,7 @@
 						<key>class</key>
 						<string>TTBird</string>
 						<key>frame</key>
-						<string>{{246, 121.5}, {92, 53}}</string>
+						<string>{{342, 94.5}, {92, 53}}</string>
 						<key>image</key>
 						<string>iPh_bird19.png</string>
 						<key>isPicked</key>
@@ -6599,7 +6599,7 @@
 						<key>animation</key>
 						<dict>
 							<key>frame</key>
-							<string>{{719, 587}, {100, 59}}</string>
+							<string>{{299, 207}, {77, 65}}</string>
 							<key>rotateAngle</key>
 							<string>0.000000</string>
 							<key>scale</key>
@@ -6608,7 +6608,7 @@
 						<key>class</key>
 						<string>TTBird</string>
 						<key>frame</key>
-						<string>{{319, 163.5}, {77, 65}}</string>
+						<string>{{337.5, 71.5}, {77, 65}}</string>
 						<key>image</key>
 						<string>iPh_bird20.png</string>
 						<key>isPicked</key>
@@ -6641,7 +6641,7 @@
 						<key>animation</key>
 						<dict>
 							<key>frame</key>
-							<string>{{719, 587}, {100, 59}}</string>
+							<string>{{301.5, 213.5}, {65, 63}}</string>
 							<key>rotateAngle</key>
 							<string>0.000000</string>
 							<key>scale</key>
@@ -6650,7 +6650,7 @@
 						<key>class</key>
 						<string>TTBird</string>
 						<key>frame</key>
-						<string>{{286, 101}, {65, 63}}</string>
+						<string>{{364, 87}, {65, 63}}</string>
 						<key>image</key>
 						<string>iPh_bird23.png</string>
 						<key>isPicked</key>
@@ -6688,7 +6688,7 @@
 						<key>animation</key>
 						<dict>
 							<key>frame</key>
-							<string>{{719, 587}, {100, 59}}</string>
+							<string>{{269, 232}, {64, 50}}</string>
 							<key>rotateAngle</key>
 							<string>0.000000</string>
 							<key>scale</key>
@@ -6697,7 +6697,7 @@
 						<key>class</key>
 						<string>TTBird</string>
 						<key>frame</key>
-						<string>{{113.5, 21}, {64, 50}}</string>
+						<string>{{272.5, 88}, {64, 50}}</string>
 						<key>image</key>
 						<string>iPh_bird26.png</string>
 						<key>isPicked</key>
@@ -6725,7 +6725,7 @@
 						<key>animation</key>
 						<dict>
 							<key>frame</key>
-							<string>{{719, 587}, {100, 59}}</string>
+							<string>{{309, 209}, {74, 77}}</string>
 							<key>rotateAngle</key>
 							<string>0.000000</string>
 							<key>scale</key>
@@ -6775,7 +6775,7 @@
 						<key>animation</key>
 						<dict>
 							<key>frame</key>
-							<string>{{719, 587}, {100, 59}}</string>
+							<string>{{291.5, 207.5}, {59, 55}}</string>
 							<key>rotateAngle</key>
 							<string>0.000000</string>
 							<key>scale</key>
@@ -6784,7 +6784,7 @@
 						<key>class</key>
 						<string>TTBird</string>
 						<key>frame</key>
-						<string>{{187, 25}, {59, 55}}</string>
+						<string>{{324.5, 49}, {59, 55}}</string>
 						<key>image</key>
 						<string>iPh_bird33.png</string>
 						<key>isPicked</key>
@@ -6818,7 +6818,7 @@
 						<key>animation</key>
 						<dict>
 							<key>frame</key>
-							<string>{{719, 587}, {100, 59}}</string>
+							<string>{{435.5, 207.5}, {57, 69}}</string>
 							<key>rotateAngle</key>
 							<string>0.000000</string>
 							<key>scale</key>
@@ -6827,7 +6827,7 @@
 						<key>class</key>
 						<string>TTBird</string>
 						<key>frame</key>
-						<string>{{477, 167}, {57, 69}}</string>
+						<string>{{433.5, 110.5}, {57, 69}}</string>
 						<key>image</key>
 						<string>iPh_bird35.png</string>
 						<key>isPicked</key>
@@ -6859,7 +6859,7 @@
 						<key>animation</key>
 						<dict>
 							<key>frame</key>
-							<string>{{719, 587}, {100, 59}}</string>
+							<string>{{388, 228}, {54, 61}}</string>
 							<key>rotateAngle</key>
 							<string>0.000000</string>
 							<key>scale</key>
@@ -6868,7 +6868,7 @@
 						<key>class</key>
 						<string>TTBird</string>
 						<key>frame</key>
-						<string>{{402, 154}, {54, 61}}</string>
+						<string>{{329.5, 90.5}, {54, 61}}</string>
 						<key>image</key>
 						<string>iPh_bird36.png</string>
 						<key>isPicked</key>
@@ -6900,7 +6900,7 @@
 						<key>animation</key>
 						<dict>
 							<key>frame</key>
-							<string>{{719, 587}, {100, 59}}</string>
+							<string>{{367.5, 212}, {63, 71}}</string>
 							<key>rotateAngle</key>
 							<string>0.000000</string>
 							<key>scale</key>
@@ -6948,7 +6948,7 @@
 						<key>animation</key>
 						<dict>
 							<key>frame</key>
-							<string>{{719, 587}, {100, 59}}</string>
+							<string>{{293, 209}, {85, 73}}</string>
 							<key>rotateAngle</key>
 							<string>0.000000</string>
 							<key>scale</key>
@@ -6957,7 +6957,7 @@
 						<key>class</key>
 						<string>TTBird</string>
 						<key>frame</key>
-						<string>{{441, 75.5}, {85, 73}}</string>
+						<string>{{284, 105.5}, {85, 73}}</string>
 						<key>image</key>
 						<string>iPh_bird40.png</string>
 						<key>isPicked</key>
