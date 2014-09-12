@@ -33,7 +33,14 @@
     
     CGMutablePathRef curvedPath = CGPathCreateMutable();
     CGPathMoveToPoint(curvedPath, NULL, viewOrigin.x, viewOrigin.y);
-    CGPathAddCurveToPoint(curvedPath, NULL,viewOrigin.x, viewOrigin.y,1024,0,endPoint.x, endPoint.y);
+    
+    if(IS_IPAD){
+            CGPathAddCurveToPoint(curvedPath, NULL,viewOrigin.x, viewOrigin.y,1024,0,endPoint.x, endPoint.y);
+    }
+    else{
+        CGPathAddCurveToPoint(curvedPath, NULL,viewOrigin.x, viewOrigin.y,0,0,endPoint.x, endPoint.y);
+    }
+
     pathAnimation.path = curvedPath;
     CGPathRelease(curvedPath);
     

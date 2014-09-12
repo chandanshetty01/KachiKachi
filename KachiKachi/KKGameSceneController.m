@@ -425,7 +425,7 @@ typedef void (^completionBlk)(BOOL);
         else{
             //iPhone related changes
             KKItemModal *item = [self.levelModel.items objectAtIndex:0];
-            if(([item.className isEqualToString:@"TTFish"] && !(([[basket objectForKey:@"basket"] isEqualToString:@"iPh_bucket_front_part.png"]) || ([[basket objectForKey:@"basket"] isEqualToString:@"iPh_handel.png"]))) || ([item.className isEqualToString:@"TTChoc"] && [[basket objectForKey:@"basket"] isEqualToString:@"iPh_candy_back_part.png"]) || [item.className isEqualToString:@"TTBird"])
+            if(([item.className isEqualToString:@"TTFish"] && !(([[basket objectForKey:@"basket"] isEqualToString:@"iPh_bucket_front_part.png"]) || ([[basket objectForKey:@"basket"] isEqualToString:@"iPh_handel.png"]))) || ([item.className isEqualToString:@"TTChoc"] && [[basket objectForKey:@"basket"] isEqualToString:@"iPh_candy_back_part.png"]) || [item.className isEqualToString:@"TTBird"] || ([item.className isEqualToString:@"TTCandle"] && [[basket objectForKey:@"basket"] isEqualToString:@"iph_candle_stand1.png"]) || ([item.className isEqualToString:@"TTDvd"] && ![[basket objectForKey:@"basket"] isEqualToString:@"iph_cd_holder2.png"]))
             {
                 [self.view insertSubview:basketView aboveSubview:self.background];
             }

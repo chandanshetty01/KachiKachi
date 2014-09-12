@@ -43,6 +43,7 @@
 		A3042F6619C3682800B011E1 /* iph_bird_hunter.png in Resources */ = {isa = PBXBuildFile; fileRef = A3042F6419C3682800B011E1 /* iph_bird_hunter.png */; };
 		A3042F6719C3682800B011E1 /* iph_birdtree.png in Resources */ = {isa = PBXBuildFile; fileRef = A3042F6519C3682800B011E1 /* iph_birdtree.png */; };
 		A3042F6919C36C1E00B011E1 /* iph_candle_container.png in Resources */ = {isa = PBXBuildFile; fileRef = A3042F6819C36C1E00B011E1 /* iph_candle_container.png */; };
+		A3042F6B19C36CE700B011E1 /* iph_candle_stand1.png in Resources */ = {isa = PBXBuildFile; fileRef = A3042F6A19C36CE700B011E1 /* iph_candle_stand1.png */; };
 		A305F2A91945EAB800B62C6C /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = A305F2A81945EAB800B62C6C /* iTunesArtwork */; };
 		A305F2B71945F0DB00B62C6C /* KKGameStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A305F2B61945F0DB00B62C6C /* KKGameStateManager.m */; };
 		A314CCE2194F2B620002BECC /* KKStageSelectController.m in Sources */ = {isa = PBXBuildFile; fileRef = A314CCE1194F2B620002BECC /* KKStageSelectController.m */; };
@@ -483,6 +484,7 @@
 		A3042F6419C3682800B011E1 /* iph_bird_hunter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iph_bird_hunter.png; sourceTree = "<group>"; };
 		A3042F6519C3682800B011E1 /* iph_birdtree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iph_birdtree.png; sourceTree = "<group>"; };
 		A3042F6819C36C1E00B011E1 /* iph_candle_container.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iph_candle_container.png; sourceTree = "<group>"; };
+		A3042F6A19C36CE700B011E1 /* iph_candle_stand1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iph_candle_stand1.png; sourceTree = "<group>"; };
 		A305F2A81945EAB800B62C6C /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
 		A305F2B51945F0DB00B62C6C /* KKGameStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKGameStateManager.h; sourceTree = "<group>"; };
 		A305F2B61945F0DB00B62C6C /* KKGameStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKGameStateManager.m; sourceTree = "<group>"; };
@@ -1634,6 +1636,7 @@
 		A37366C419BC2430009EC675 /* normal */ = {
 			isa = PBXGroup;
 			children = (
+				A3042F6A19C36CE700B011E1 /* iph_candle_stand1.png */,
 				A3042F6819C36C1E00B011E1 /* iph_candle_container.png */,
 				A37366C619BC2430009EC675 /* iPh_candle1.png */,
 				A37366C719BC2430009EC675 /* iPh_candle10.png */,
@@ -2567,6 +2570,7 @@
 				A373674D19BC2430009EC675 /* iPhcarrot_bg.png in Resources */,
 				A3042F6119C363E100B011E1 /* iPh_ball7.png in Resources */,
 				A37367DD19BC2430009EC675 /* iPh_candle13.png in Resources */,
+				A3042F6B19C36CE700B011E1 /* iph_candle_stand1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
