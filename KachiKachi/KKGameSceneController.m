@@ -405,20 +405,37 @@ typedef void (^completionBlk)(BOOL);
         UIImageView *basketView = [[UIImageView alloc] initWithFrame:frame];
         basketView.image = image;
         
-        KKItemModal *item = [self.levelModel.items objectAtIndex:0];
-        if([item.className isEqualToString:@"TTBird"] ||
-           ([item.className isEqualToString:@"TTCandle"] && [[basket objectForKey:@"basket"] isEqualToString:@"candle_basket2.png"]) ||
-           ([item.className isEqualToString:@"TTDvd"] && [[basket objectForKey:@"basket"] isEqualToString:@"cd_basket1.png"]) ||
-           ([item.className isEqualToString:@"TTUmbrella"]) || ([item.className isEqualToString:@"TTKey"]) ||
-           ([item.className isEqualToString:@"TTBrush"] && ([[basket objectForKey:@"basket"] isEqualToString:@"toothbrush_container1.png"] || [[basket objectForKey:@"basket"] isEqualToString:@"toothbrush_container2.png"])))
-        {
-            [self.view insertSubview:basketView aboveSubview:self.background];
+        if(IS_IPAD){
+            //for iPad
+            KKItemModal *item = [self.levelModel.items objectAtIndex:0];
+            if([item.className isEqualToString:@"TTBird"] ||
+               ([item.className isEqualToString:@"TTCandle"] && [[basket objectForKey:@"basket"] isEqualToString:@"candle_basket2.png"]) ||
+               ([item.className isEqualToString:@"TTDvd"] && [[basket objectForKey:@"basket"] isEqualToString:@"cd_basket1.png"]) ||
+               ([item.className isEqualToString:@"TTUmbrella"]) || ([item.className isEqualToString:@"TTKey"]) ||
+               ([item.className isEqualToString:@"TTBrush"] && ([[basket objectForKey:@"basket"] isEqualToString:@"toothbrush_container1.png"] || [[basket objectForKey:@"basket"] isEqualToString:@"toothbrush_container2.png"])))
+            {
+                [self.view insertSubview:basketView aboveSubview:self.background];
+            }
+            else
+            {
+                [self.view addSubview:basketView];
+                [self.view bringSubviewToFront:self.bottomStrip];
+            }
         }
-        else
-        {
-            [self.view addSubview:basketView];
-            [self.view bringSubviewToFront:self.bottomStrip];
+        else{
+            //iPhone related changes
+            KKItemModal *item = [self.levelModel.items objectAtIndex:0];
+            if(([item.className isEqualToString:@"TTFish"] && !(([[basket objectForKey:@"basket"] isEqualToString:@"iPh_bucket_front_part.png"]) || ([[basket objectForKey:@"basket"] isEqualToString:@"iPh_handel.png"]))) || ([item.className isEqualToString:@"TTChoc"] && [[basket objectForKey:@"basket"] isEqualToString:@"iPh_candy_back_part.png"]))
+            {
+                [self.view insertSubview:basketView aboveSubview:self.background];
+            }
+            else
+            {
+                [self.view addSubview:basketView];
+                [self.view bringSubviewToFront:self.bottomStrip];
+            }
         }
+
     }];
 }
 
