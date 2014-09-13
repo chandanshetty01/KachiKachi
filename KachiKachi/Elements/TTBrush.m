@@ -19,13 +19,37 @@
     return self;
 }
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect
+-(void)showAnimation:(completionBlk)completionBlk
 {
-    // Drawing code
+    self.userInteractionEnabled = NO;
+    self.completionBlk = completionBlk;
+    
+    // Set up path movement
+    CGPoint viewOrigin = self.frame.origin;
+    CGPoint endPoint = self.animationEndFrame.origin;
+    
+    CAKeyframeAnimation *pathAnimation = [CAKeyframeAnimation animationWithKeyPath:@"position"];
+    pathAnimation.removedOnCompletion = YES;
+    
+    CGMutablePathRef curvedPath = CGPathCreateMutable();
+    CGPathMoveToPoint(curvedPath, NULL, viewOrigin.x, viewOrigin.y);
+    if(IS_IPAD){
+        CGPathAddCurveToPoint(curvedPath, NULL,viewOrigin.x, viewOrigin.y,1024,0,endPoint.x, endPoint.y);
+    }
+    else{
+        CGPathAddCurveToPoint(curvedPath, NULL,viewOrigin.x, viewOrigin.y,0,0,endPoint.x, endPoint.y);
+    }
+    
+    pathAnimation.path = curvedPath;
+    CGPathRelease(curvedPath);
+    
+    CAAnimationGroup *group = [CAAnimationGroup animation];
+    group.removedOnCompletion = YES;
+    [group setAnimations:[NSArray arrayWithObjects:pathAnimation, nil]];
+    group.duration = 0.5f;
+    group.delegate = self;
+    self.layer.position = endPoint;
+    [self.layer addAnimation:group forKey:@"savingAnimation"];
 }
-*/
 
 @end
