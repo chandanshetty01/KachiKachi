@@ -1294,7 +1294,7 @@ typedef void (^completionBlk)(BOOL);
     KKItemModal *itemModel = tObject.itemModal;
     
     CGRect frame = itemModel.frame;
-    frame.origin = CGPointMake(100, 100);
+    frame.origin = CGPointMake(10, 10);
     itemModel.frame = frame;
     
     TTBase *newObject = [[NSClassFromString(itemModel.className) alloc] init];
