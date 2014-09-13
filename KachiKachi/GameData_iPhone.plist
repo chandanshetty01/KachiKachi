@@ -8456,49 +8456,19 @@
 						<key>basket</key>
 						<string>iPh_umbman.png</string>
 						<key>basket_frame</key>
-						<string>{1,318}</string>
+						<string>{-1.5, 156.5}</string>
 					</dict>
 					<dict>
 						<key>basket</key>
 						<string>iPh_umbtable.png</string>
 						<key>basket_frame</key>
-						<string>{688, 419}</string>
-					</dict>
-					<dict>
-						<key>basket</key>
-						<string>water.png</string>
-						<key>basket_frame</key>
-						<string>{-5, 538}</string>
+						<string>{406, 200}</string>
 					</dict>
 					<dict>
 						<key>basket</key>
 						<string>iPh_umbsun.png</string>
 						<key>basket_frame</key>
-						<string>{836, 54}</string>
-					</dict>
-					<dict>
-						<key>basket</key>
-						<string>iPh_umbcloud2.png</string>
-						<key>basket_frame</key>
-						<string>{698, 86}</string>
-					</dict>
-					<dict>
-						<key>basket</key>
-						<string>iPh_umbcloud3.png</string>
-						<key>basket_frame</key>
-						<string>{516, 56}</string>
-					</dict>
-					<dict>
-						<key>basket</key>
-						<string>iPh_umbcloud.png</string>
-						<key>basket_frame</key>
-						<string>{389, 22}</string>
-					</dict>
-					<dict>
-						<key>basket</key>
-						<string>iPh_umbcloud4.png</string>
-						<key>basket_frame</key>
-						<string>{626, -13}</string>
+						<string>{500, -1.5}</string>
 					</dict>
 				</array>
 				<key>elements</key>
@@ -8507,7 +8477,7 @@
 						<key>animation</key>
 						<dict>
 							<key>frame</key>
-							<string>{{747, 326}, {202, 179}}</string>
+							<string>{{414, 165.5}, {73, 72}}</string>
 							<key>rotateAngle</key>
 							<string>0.000000</string>
 							<key>scale</key>
@@ -8540,7 +8510,7 @@
 						<key>animation</key>
 						<dict>
 							<key>frame</key>
-							<string>{{747, 326}, {202, 179}}</string>
+							<string>{{455.5, 182}, {59, 51}}</string>
 							<key>rotateAngle</key>
 							<string>0.000000</string>
 							<key>scale</key>
@@ -8579,7 +8549,7 @@
 						<key>animation</key>
 						<dict>
 							<key>frame</key>
-							<string>{{747, 326}, {202, 179}}</string>
+							<string>{{451.5, 184.5}, {53, 55}}</string>
 							<key>rotateAngle</key>
 							<string>0.000000</string>
 							<key>scale</key>
@@ -8618,7 +8588,7 @@
 						<key>animation</key>
 						<dict>
 							<key>frame</key>
-							<string>{{747, 326}, {202, 179}}</string>
+							<string>{{454.5, 171}, {49, 50}}</string>
 							<key>rotateAngle</key>
 							<string>0.000000</string>
 							<key>scale</key>
@@ -8656,7 +8626,7 @@
 						<key>animation</key>
 						<dict>
 							<key>frame</key>
-							<string>{{747, 326}, {202, 179}}</string>
+							<string>{{434.5, 180}, {69, 60}}</string>
 							<key>rotateAngle</key>
 							<string>0.000000</string>
 							<key>scale</key>
@@ -8695,7 +8665,7 @@
 						<key>animation</key>
 						<dict>
 							<key>frame</key>
-							<string>{{747, 326}, {202, 179}}</string>
+							<string>{{444.5, 154.5}, {73, 76}}</string>
 							<key>rotateAngle</key>
 							<string>0.000000</string>
 							<key>scale</key>
@@ -8732,7 +8702,7 @@
 						<key>animation</key>
 						<dict>
 							<key>frame</key>
-							<string>{{747, 326}, {202, 179}}</string>
+							<string>{{451.5, 166.5}, {75, 67}}</string>
 							<key>rotateAngle</key>
 							<string>0.000000</string>
 							<key>scale</key>
@@ -8766,7 +8736,7 @@
 						<key>animation</key>
 						<dict>
 							<key>frame</key>
-							<string>{{747, 326}, {202, 179}}</string>
+							<string>{{438.5, 167}, {77, 74}}</string>
 							<key>rotateAngle</key>
 							<string>0.000000</string>
 							<key>scale</key>
@@ -8802,7 +8772,7 @@
 						<key>animation</key>
 						<dict>
 							<key>frame</key>
-							<string>{{747, 326}, {202, 179}}</string>
+							<string>{{429.5, 179.5}, {60, 59}}</string>
 							<key>rotateAngle</key>
 							<string>0.000000</string>
 							<key>scale</key>
@@ -8837,7 +8807,7 @@
 						<key>animation</key>
 						<dict>
 							<key>frame</key>
-							<string>{{747, 326}, {202, 179}}</string>
+							<string>{{441.5, 158.5}, {71, 65}}</string>
 							<key>rotateAngle</key>
 							<string>0.000000</string>
 							<key>scale</key>
@@ -8870,7 +8840,7 @@
 						<key>animation</key>
 						<dict>
 							<key>frame</key>
-							<string>{{747, 326}, {202, 179}}</string>
+							<string>{{447, 167.5}, {61, 59}}</string>
 							<key>rotateAngle</key>
 							<string>0.000000</string>
 							<key>scale</key>
@@ -8903,7 +8873,7 @@
 						<key>animation</key>
 						<dict>
 							<key>frame</key>
-							<string>{{747, 326}, {202, 179}}</string>
+							<string>{{441.5, 162.5}, {76, 74}}</string>
 							<key>rotateAngle</key>
 							<string>0.000000</string>
 							<key>scale</key>
@@ -8939,7 +8909,7 @@
 						<key>animation</key>
 						<dict>
 							<key>frame</key>
-							<string>{{747, 326}, {202, 179}}</string>
+							<string>{{428.5, 143.5}, {77, 83}}</string>
 							<key>rotateAngle</key>
 							<string>0.000000</string>
 							<key>scale</key>
@@ -8976,7 +8946,7 @@
 						<key>animation</key>
 						<dict>
 							<key>frame</key>
-							<string>{{747, 326}, {202, 179}}</string>
+							<string>{{428.5, 159.5}, {82, 75}}</string>
 							<key>rotateAngle</key>
 							<string>0.000000</string>
 							<key>scale</key>
@@ -9015,7 +8985,7 @@
 						<key>animation</key>
 						<dict>
 							<key>frame</key>
-							<string>{{747, 326}, {202, 179}}</string>
+							<string>{{440.5, 163}, {75, 75}}</string>
 							<key>rotateAngle</key>
 							<string>0.000000</string>
 							<key>scale</key>
@@ -9049,7 +9019,7 @@
 						<key>animation</key>
 						<dict>
 							<key>frame</key>
-							<string>{{747, 326}, {202, 179}}</string>
+							<string>{{437, 142.5}, {90, 97}}</string>
 							<key>rotateAngle</key>
 							<string>0.000000</string>
 							<key>scale</key>
@@ -9089,7 +9059,7 @@
 						<key>animation</key>
 						<dict>
 							<key>frame</key>
-							<string>{{747, 326}, {202, 179}}</string>
+							<string>{{439, 169.5}, {80, 75}}</string>
 							<key>rotateAngle</key>
 							<string>0.000000</string>
 							<key>scale</key>
@@ -9122,7 +9092,7 @@
 						<key>animation</key>
 						<dict>
 							<key>frame</key>
-							<string>{{747, 326}, {202, 179}}</string>
+							<string>{{451.5, 177}, {56, 50}}</string>
 							<key>rotateAngle</key>
 							<string>0.000000</string>
 							<key>scale</key>
@@ -9157,7 +9127,7 @@
 						<key>animation</key>
 						<dict>
 							<key>frame</key>
-							<string>{{747, 326}, {202, 179}}</string>
+							<string>{{451, 179}, {53, 59}}</string>
 							<key>rotateAngle</key>
 							<string>0.000000</string>
 							<key>scale</key>

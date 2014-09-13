@@ -302,10 +302,6 @@
 		A37367FC19BC2430009EC675 /* iPh_umb6.png in Resources */ = {isa = PBXBuildFile; fileRef = A37366EB19BC2430009EC675 /* iPh_umb6.png */; };
 		A37367FD19BC2430009EC675 /* iPh_umb7.png in Resources */ = {isa = PBXBuildFile; fileRef = A37366EC19BC2430009EC675 /* iPh_umb7.png */; };
 		A37367FF19BC2430009EC675 /* iPh_umb_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = A37366EE19BC2430009EC675 /* iPh_umb_bg.png */; };
-		A373680019BC2430009EC675 /* iPh_umbcloud.png in Resources */ = {isa = PBXBuildFile; fileRef = A37366EF19BC2430009EC675 /* iPh_umbcloud.png */; };
-		A373680119BC2430009EC675 /* iPh_umbcloud2.png in Resources */ = {isa = PBXBuildFile; fileRef = A37366F019BC2430009EC675 /* iPh_umbcloud2.png */; };
-		A373680219BC2430009EC675 /* iPh_umbcloud3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A37366F119BC2430009EC675 /* iPh_umbcloud3.jpg */; };
-		A373680319BC2430009EC675 /* iPh_umbcloud4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A37366F219BC2430009EC675 /* iPh_umbcloud4.jpg */; };
 		A373680419BC2430009EC675 /* iPh_umbman.png in Resources */ = {isa = PBXBuildFile; fileRef = A37366F319BC2430009EC675 /* iPh_umbman.png */; };
 		A373680519BC2430009EC675 /* iPh_umbsun.png in Resources */ = {isa = PBXBuildFile; fileRef = A37366F419BC2430009EC675 /* iPh_umbsun.png */; };
 		A373680619BC2430009EC675 /* iPh_umbtable.png in Resources */ = {isa = PBXBuildFile; fileRef = A37366F519BC2430009EC675 /* iPh_umbtable.png */; };
@@ -796,10 +792,6 @@
 		A37366EB19BC2430009EC675 /* iPh_umb6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPh_umb6.png; sourceTree = "<group>"; };
 		A37366EC19BC2430009EC675 /* iPh_umb7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPh_umb7.png; sourceTree = "<group>"; };
 		A37366EE19BC2430009EC675 /* iPh_umb_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPh_umb_bg.png; sourceTree = "<group>"; };
-		A37366EF19BC2430009EC675 /* iPh_umbcloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPh_umbcloud.png; sourceTree = "<group>"; };
-		A37366F019BC2430009EC675 /* iPh_umbcloud2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPh_umbcloud2.png; sourceTree = "<group>"; };
-		A37366F119BC2430009EC675 /* iPh_umbcloud3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iPh_umbcloud3.jpg; sourceTree = "<group>"; };
-		A37366F219BC2430009EC675 /* iPh_umbcloud4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iPh_umbcloud4.jpg; sourceTree = "<group>"; };
 		A37366F319BC2430009EC675 /* iPh_umbman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPh_umbman.png; sourceTree = "<group>"; };
 		A37366F419BC2430009EC675 /* iPh_umbsun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPh_umbsun.png; sourceTree = "<group>"; };
 		A37366F519BC2430009EC675 /* iPh_umbtable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPh_umbtable.png; sourceTree = "<group>"; };
@@ -1690,10 +1682,6 @@
 				A37366EB19BC2430009EC675 /* iPh_umb6.png */,
 				A37366EC19BC2430009EC675 /* iPh_umb7.png */,
 				A37366EE19BC2430009EC675 /* iPh_umb_bg.png */,
-				A37366EF19BC2430009EC675 /* iPh_umbcloud.png */,
-				A37366F019BC2430009EC675 /* iPh_umbcloud2.png */,
-				A37366F119BC2430009EC675 /* iPh_umbcloud3.jpg */,
-				A37366F219BC2430009EC675 /* iPh_umbcloud4.jpg */,
 				A37366F319BC2430009EC675 /* iPh_umbman.png */,
 				A37366F419BC2430009EC675 /* iPh_umbsun.png */,
 				A37366F519BC2430009EC675 /* iPh_umbtable.png */,
@@ -2290,7 +2278,6 @@
 				A373687319BF5807009EC675 /* iph_cd6.png in Resources */,
 				A373674019BC2430009EC675 /* iPh_carrot18.png in Resources */,
 				A373675B19BC2430009EC675 /* iPh_flower12_right.png in Resources */,
-				A373680219BC2430009EC675 /* iPh_umbcloud3.jpg in Resources */,
 				A373672D19BC2430009EC675 /* iPh_bird1.png in Resources */,
 				A373671819BC2430009EC675 /* iPh_balloon15.png in Resources */,
 				A373671C19BC2430009EC675 /* iPh_balloon19.png in Resources */,
@@ -2397,8 +2384,6 @@
 				A37367F519BC2430009EC675 /* iPh_umb24.png in Resources */,
 				A373676A19BC2430009EC675 /* iPh_pencil 6.png in Resources */,
 				A373685019BF3CE3009EC675 /* iPh_Bottle15.png in Resources */,
-				A373680019BC2430009EC675 /* iPh_umbcloud.png in Resources */,
-				A373680119BC2430009EC675 /* iPh_umbcloud2.png in Resources */,
 				A373677619BC2430009EC675 /* iP_pen_3.png in Resources */,
 				A373675319BC2430009EC675 /* iP_disc5.png in Resources */,
 				A373678519BC2430009EC675 /* iPh_treeleaf21a.png in Resources */,
@@ -2499,7 +2484,6 @@
 				A373672819BC2430009EC675 /* iPh_balloon5.png in Resources */,
 				A3EF57A019C1E60500A1AB85 /* iPh_key7.png in Resources */,
 				A373678919BC2430009EC675 /* iPh_treeleaf42b.png in Resources */,
-				A373680319BC2430009EC675 /* iPh_umbcloud4.jpg in Resources */,
 				A373677019BC2430009EC675 /* iP_pen_10.png in Resources */,
 				A3042F5719C363E100B011E1 /* iPh_ball26.png in Resources */,
 				A3A67E941902B67700BFAF7B /* Images.xcassets in Resources */,
