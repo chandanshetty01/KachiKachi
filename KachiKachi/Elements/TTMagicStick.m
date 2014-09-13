@@ -20,7 +20,11 @@
     if (self) {
         // Initialization code
         UIImage *image = [UIImage imageNamed:@"magicStick"];
-        self.magicStick = [[UIImageView alloc] initWithFrame:CGRectMake(250, 100, image.size.width, image.size.height)];
+        CGRect frame = CGRectMake(250, 100, image.size.width, image.size.height);
+        if(!IS_IPAD){
+            frame = CGRectMake(140, 0, image.size.width, image.size.height);
+        }
+        self.magicStick = [[UIImageView alloc] initWithFrame:frame];
         self.magicStick.image = image;
         [self addSubview:self.magicStick];
         ;
@@ -42,7 +46,9 @@
 -(void)startAnimation
 {
     CGRect boundingRect = CGRectMake(0,0, 300, 300);
-    
+    if(!IS_IPAD){
+        boundingRect = CGRectMake(0,0, 150, 150);
+    }
     CAKeyframeAnimation *orbit = [CAKeyframeAnimation animation];
     orbit.keyPath = @"position";
     orbit.path = CFAutorelease(CGPathCreateWithEllipseInRect(boundingRect, NULL));

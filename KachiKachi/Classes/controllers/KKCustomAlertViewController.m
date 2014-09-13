@@ -75,14 +75,15 @@
     self.alertHolderView.frame = alertViewFrame;
     self.alertHolderView.center = self.view.center;
     
-    __block CGFloat yPos = self.cancelButton.frame.origin.y;
+    __block CGFloat yPos = self.alertHolderView.bounds.size.height;
+    yPos = yPos - self.cancelButton.frame.size.height - 10;
     [self.buttons enumerateObjectsUsingBlock:^(UIButton *obj, NSUInteger idx, BOOL *stop) {
-        if(idx != 0){
-            yPos += (10 + self.cancelButton.frame.size.height);
-            CGRect frame = obj.frame;
-            frame.origin.y = yPos;
-            obj.frame = frame;
-        }
+        
+        CGRect frame = obj.frame;
+        frame.origin.y = yPos;
+        obj.frame = frame;
+        
+        yPos = yPos - self.cancelButton.frame.size.height - 10;
     }];
 }
 
