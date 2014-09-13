@@ -73,7 +73,14 @@
     }];
     
     self.alertHolderView.frame = alertViewFrame;
-    self.alertHolderView.center = self.view.center;
+    if(IS_IPHONE_5 || IS_IPAD){
+        self.alertHolderView.center = self.view.center;
+    }
+    else{
+        CGPoint center = self.view.center;
+        center.x -= 44;
+        self.alertHolderView.center = center;
+    }
     
     __block CGFloat yPos = self.alertHolderView.bounds.size.height;
     yPos = yPos - self.cancelButton.frame.size.height - 10;
@@ -124,10 +131,20 @@
     [self.cancelButton setTitle:btnTitle forState:UIControlStateNormal];
     
     self.view.backgroundColor = [UIColor colorWithWhite:0.0 alpha:0.0f];
+    
+    if(!IS_IPAD){
+        if(!IS_IPHONE_5){
+            CGPoint center = self.view.center;
+            center.x -= 44;
+            self.alertHolderView.center = center;
+        }
+    }
+    
     CGRect actualFrame = self.alertHolderView.frame;
     CGRect tFrame = actualFrame;
     tFrame.origin.y = -self.alertHolderView.frame.size.height;
     self.alertHolderView.frame = tFrame;
+        
     self.view.userInteractionEnabled = NO;
     [UIView animateWithDuration:.5f
                      animations:^{

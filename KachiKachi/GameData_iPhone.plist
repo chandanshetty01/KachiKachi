@@ -10622,7 +10622,7 @@
 						<key>animation</key>
 						<dict>
 							<key>frame</key>
-							<string>{{96.5, 245.5}, {60, 69}}</string>
+							<string>{{96.5, 225}, {60, 69}}</string>
 							<key>rotateAngle</key>
 							<string>0.000000</string>
 							<key>scale</key>

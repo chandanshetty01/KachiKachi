@@ -403,6 +403,7 @@ typedef void (^completionBlk)(BOOL);
         frame.size = image.size;
 
         UIImageView *basketView = [[UIImageView alloc] initWithFrame:frame];
+        basketView.autoresizingMask = UIViewAutoresizingFlexibleRightMargin|UIViewAutoresizingFlexibleBottomMargin;
         basketView.image = image;
         
         if(IS_IPAD){
