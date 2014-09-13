@@ -47,6 +47,8 @@ typedef enum {
     ePurchasePoints400ID
 }PURCHASEPOINTS_ID;
 
+static int testCounter = 0;
+
 @interface KKGameSceneController ()
 
 @property(nonatomic,strong) NSMutableArray *deletedElements;
@@ -161,6 +163,7 @@ typedef void (^completionBlk)(BOOL);
     [self updateMagicStic];
     [self stageInformationFlurry];
     [self updateMagicStickBtnPosition];
+    testCounter = 0;
 }
 
 -(void)setMagicStickCounter:(NSInteger)magicStickCounter
@@ -1279,8 +1282,6 @@ typedef void (^completionBlk)(BOOL);
 {
     
 }
-
-static int testCounter = -1;
 
 - (IBAction)handleAddBtn:(id)sender
 {
