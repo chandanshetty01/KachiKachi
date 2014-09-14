@@ -13,6 +13,7 @@
 @property(nonatomic,assign) BOOL dragging;
 @property(nonatomic,assign) CGFloat oldX;
 @property(nonatomic,assign) CGFloat oldY;
+@property(nonatomic,assign) BOOL selected;
 
 @end
 
@@ -22,7 +23,7 @@
 {
     self = [super init];
     if (self) {
-        
+        self.selected = NO;
     }
     return self;
 }
@@ -65,6 +66,12 @@
 #endif
 }
 
+-(void)setSelected:(BOOL)selected
+{
+    _selected = selected;
+    [self setNeedsDisplay];
+}
+
 -(NSMutableDictionary*)saveDictionary
 {
     NSMutableDictionary *dict = [NSMutableDictionary dictionary];
@@ -102,6 +109,21 @@
     }
     CGPathCloseSubpath(path);
     self.objectPath = path;
+}
+
+-(BOOL)canHandleTouch:(CGPoint)center radius:(CGFloat)radius
+{
+    CGPathRef fuzzyPath;
+    fuzzyPath = CGPathCreateCopyByStrokingPath(self.objectPath, NULL, radius,
+                                               kCGLineCapRound,
+                                               kCGLineJoinRound, 0.0);
+    if (CGPathContainsPoint(fuzzyPath, NULL, center, NO) && !self.isPicked && self.userInteractionEnabled)
+    {
+        CGPathRelease(fuzzyPath);
+        return YES;
+    }
+    CGPathRelease(fuzzyPath);
+    return NO;
 }
 
 -(BOOL)canHandleTouch:(CGPoint)touchPoint
@@ -145,8 +167,9 @@
     return NO;
 }
 
-- (void)handleTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
-    
+- (void)handleTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    self.selected = YES;
 #ifdef DEVELOPMENT_MODE
     UITouch *touch = [[event allTouches] anyObject];
     CGPoint touchLocation = [touch locationInView:self];
@@ -157,8 +180,8 @@
 #endif
 }
 
-- (void)handleTouchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
-    
+- (void)handleTouchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
+{
     UITouch *touch = [[event allTouches] anyObject];
     CGPoint touchLocation = [touch locationInView:self];
     
@@ -168,14 +191,17 @@
         frame.origin.y =  self.frame.origin.y + touchLocation.y - _oldY;
         self.frame = frame;
     }
+    self.selected = YES;
 }
 
--(void)handleTouchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event{
+-(void)handleTouchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    self.selected = NO;
     _dragging = NO;
 }
 
-- (void)handleTouchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
-    
+- (void)handleTouchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
+{
     if(_canSaveTouchPoints){
         UITouch *touch = [[event allTouches] anyObject];
         CGPoint touchLocation = [touch locationInView:self];
@@ -186,11 +212,17 @@
     [self setNeedsDisplay];
 #endif
     _dragging = NO;
+    self.selected = NO;
 }
 
-- (void)drawRect:(CGRect)rect {
-    
-    [_image drawInRect:rect];
+- (void)drawRect:(CGRect)rect
+{    
+    if(self.selected){
+        [_image drawInRect:rect blendMode:kCGBlendModeColor alpha:0.7f];
+    }
+    else{
+        [_image drawInRect:rect];
+    }
     
 #ifdef DEVELOPMENT_MODE
     CGContextRef context = UIGraphicsGetCurrentContext();

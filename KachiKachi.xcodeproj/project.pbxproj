@@ -2187,7 +2187,7 @@
 								enabled = 1;
 							};
 							com.apple.iCloud = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
@@ -2912,8 +2912,8 @@
 					"$(PROJECT_DIR)/KachiKachi/ThirdParty/AF-iOS-SDK-v2.5.3.10",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "8dbf03ea-4747-4b38-8917-a30bfe567e1f";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE = "6c7097a9-9a67-4f89-aada-605f41e3ef8c";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -2946,7 +2946,7 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "5e2cdc03-fd83-4e36-b0c1-468fe75abb64";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

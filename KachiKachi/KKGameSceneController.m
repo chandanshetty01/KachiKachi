@@ -127,7 +127,10 @@ typedef void (^completionBlk)(BOOL);
         pointsFrame.origin.x = 387;
         [self showTutorial:1];
     }
-    self.pointsEarned.frame = pointsFrame;
+    
+    if(IS_IPAD){
+        self.pointsEarned.frame = pointsFrame;
+    }
     
     [self addElements];
     
@@ -999,21 +1002,42 @@ typedef void (^completionBlk)(BOOL);
     return intersectedElements;
 }
 
+-(TTBase*)getNearestItem:(CGPoint)touchLocation
+{
+    TTBase *item = nil;
+    
+    for (int i = (int)[_elements count]-1; i >= 0; i--) {
+        TTBase *element = (TTBase*)[_elements objectAtIndex:i];
+        if([element canHandleTouch:touchLocation radius:40]){
+            item = element;
+            break;
+        }
+    }
+    
+    return item;
+}
+
 -(void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
     if(self.isGameFinished)
         return;
     
+    _currentElement = nil;
     UITouch *touch = [[event allTouches] anyObject];
     CGPoint touchLocation = [touch locationInView:self.view];
     
-    for (int i = (int)[_elements count]-1; i >= 0; i--) {
-        TTBase *element = (TTBase*)[_elements objectAtIndex:i];
-        if([element canHandleTouch:touchLocation]){
-            _currentElement = element;
-            [_currentElement handleTouchesBegan:touches withEvent:event];
-            break;
-        }
+//    for (int i = (int)[_elements count]-1; i >= 0; i--) {
+//        TTBase *element = (TTBase*)[_elements objectAtIndex:i];
+//        if([element canHandleTouch:touchLocation]){
+//            _currentElement = element;
+//            [_currentElement handleTouchesBegan:touches withEvent:event];
+//            break;
+//        }
+//    }
+    
+    if(!_currentElement){
+        _currentElement = [self getNearestItem:touchLocation];
+        [_currentElement handleTouchesBegan:touches withEvent:event];
     }
 }
 
@@ -1025,8 +1049,9 @@ typedef void (^completionBlk)(BOOL);
         else
             _currentElement.canSaveTouchPoints = NO;
         
-        if(_currentElement)
+        if(_currentElement){
             [_currentElement handleTouchesEnded:touches withEvent:event];
+        }
         
         [self validateGamePlay:^(BOOL finished) {
             _currentElement = nil;
@@ -1036,8 +1061,17 @@ typedef void (^completionBlk)(BOOL);
 
 -(void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
 {
-    if(_currentElement)
+    if(_currentElement){
         [_currentElement handleTouchesMoved:touches withEvent:event];
+    }
+}
+
+-(void)touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    if(_currentElement){
+        [_currentElement touchesCancelled:touches withEvent:event];
+    }
+    _currentElement = nil;
 }
 
 -(void)moveToLevelSelectScene
@@ -1238,13 +1272,6 @@ typedef void (^completionBlk)(BOOL);
         default:
             break;
     }
-}
-
--(void)touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event
-{
-    if(_currentElement)
-        [_currentElement touchesCancelled:touches withEvent:event];
-    _currentElement = nil;
 }
 
 - (IBAction)backButtonAction:(id)sender

@@ -30,8 +30,8 @@ typedef void (^completionBlk)(BOOL);
 @property(nonatomic,strong) completionBlk completionBlk;
 @property(nonatomic,assign) BOOL isPicked;
 
+-(BOOL)canHandleTouch:(CGPoint)center radius:(CGFloat)radius;
 - (void)initWithModal:(KKItemModal*)itemModal;
-
 - (void)handleTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event;
 - (void)handleTouchesMoved:(NSSet *)touches withEvent:(UIEvent *)event;
 - (void)handleTouchesEnded:(NSSet *)touches withEvent:(UIEvent *)event;
