@@ -115,6 +115,9 @@
 
 -(BOOL)canHandleTouch:(CGPoint)center radius:(CGFloat)radius
 {
+#ifdef DEVELOPMENT_MODE
+    return [self canHandleTouch:center];
+#endif
     BOOL status = NO;
     if(!self.isPicked && self.userInteractionEnabled){
         NSMutableArray *polygonA = [NSMutableArray array];
