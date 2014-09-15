@@ -59,6 +59,7 @@
 		A30516C319C3F047009ABD85 /* iPh_brush8.png in Resources */ = {isa = PBXBuildFile; fileRef = A30516B419C3F047009ABD85 /* iPh_brush8.png */; };
 		A30516C419C3F047009ABD85 /* iPh_brush9.png in Resources */ = {isa = PBXBuildFile; fileRef = A30516B519C3F047009ABD85 /* iPh_brush9.png */; };
 		A30516C519C3F047009ABD85 /* iPh_brush_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = A30516B619C3F047009ABD85 /* iPh_brush_bg.png */; };
+		A30516C919C7497A009ABD85 /* libFlurry_5.3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A30516C819C7497A009ABD85 /* libFlurry_5.3.0.a */; };
 		A305F2A91945EAB800B62C6C /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = A305F2A81945EAB800B62C6C /* iTunesArtwork */; };
 		A305F2B71945F0DB00B62C6C /* KKGameStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A305F2B61945F0DB00B62C6C /* KKGameStateManager.m */; };
 		A314CCE2194F2B620002BECC /* KKStageSelectController.m in Sources */ = {isa = PBXBuildFile; fileRef = A314CCE1194F2B620002BECC /* KKStageSelectController.m */; };
@@ -78,7 +79,6 @@
 		A3335FC51956C96F000AA5B7 /* KKItemModal.m in Sources */ = {isa = PBXBuildFile; fileRef = A3335FC41956C96F000AA5B7 /* KKItemModal.m */; };
 		A33D53D31966758A00D65131 /* TimerObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A33D53D21966758A00D65131 /* TimerObject.m */; };
 		A3429BA819A85826007184DD /* TTMagicStick.m in Sources */ = {isa = PBXBuildFile; fileRef = A3429BA719A85826007184DD /* TTMagicStick.m */; };
-		A357D7A9196301350037C2B4 /* libFlurry_5.1.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A357D7A7196301350037C2B4 /* libFlurry_5.1.0.a */; };
 		A357D7AB196301A70037C2B4 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A357D7AA196301A70037C2B4 /* Crashlytics.framework */; };
 		A35C2EAA19B7728F003FBA1B /* GameData_iPhone.plist in Resources */ = {isa = PBXBuildFile; fileRef = A35C2EA919B7728F003FBA1B /* GameData_iPhone.plist */; };
 		A35DD6F419644730008D445C /* TTBottle.m in Sources */ = {isa = PBXBuildFile; fileRef = A35DD6F319644730008D445C /* TTBottle.m */; };
@@ -511,6 +511,8 @@
 		A30516B419C3F047009ABD85 /* iPh_brush8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPh_brush8.png; sourceTree = "<group>"; };
 		A30516B519C3F047009ABD85 /* iPh_brush9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPh_brush9.png; sourceTree = "<group>"; };
 		A30516B619C3F047009ABD85 /* iPh_brush_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPh_brush_bg.png; sourceTree = "<group>"; };
+		A30516C719C7497A009ABD85 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
+		A30516C819C7497A009ABD85 /* libFlurry_5.3.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_5.3.0.a; sourceTree = "<group>"; };
 		A305F2A81945EAB800B62C6C /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
 		A305F2B51945F0DB00B62C6C /* KKGameStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKGameStateManager.h; sourceTree = "<group>"; };
 		A305F2B61945F0DB00B62C6C /* KKGameStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKGameStateManager.m; sourceTree = "<group>"; };
@@ -574,8 +576,6 @@
 		A33D53D21966758A00D65131 /* TimerObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerObject.m; sourceTree = "<group>"; };
 		A3429BA619A85826007184DD /* TTMagicStick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTMagicStick.h; sourceTree = "<group>"; };
 		A3429BA719A85826007184DD /* TTMagicStick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTMagicStick.m; sourceTree = "<group>"; };
-		A357D7A6196301350037C2B4 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
-		A357D7A7196301350037C2B4 /* libFlurry_5.1.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_5.1.0.a; sourceTree = "<group>"; };
 		A357D7AA196301A70037C2B4 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = SOURCE_ROOT; };
 		A35C2EA919B7728F003FBA1B /* GameData_iPhone.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GameData_iPhone.plist; sourceTree = "<group>"; };
 		A35DD6F219644730008D445C /* TTBottle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTBottle.h; sourceTree = "<group>"; };
@@ -995,11 +995,11 @@
 			files = (
 				A3A8DFFD19A07662001FF20D /* PushApps.framework in Frameworks */,
 				A32F4E6B1987F7F8009A20F9 /* iAd.framework in Frameworks */,
+				A30516C919C7497A009ABD85 /* libFlurry_5.3.0.a in Frameworks */,
 				A3D79A0819835ED40016DA23 /* StoreKit.framework in Frameworks */,
 				A3B3C4F71961C4C100B62BD4 /* SystemConfiguration.framework in Frameworks */,
 				A31B47C41971A70B00EF6BF8 /* libUserVoice.a in Frameworks */,
 				A36734C819ACE40B00F2818E /* FacebookSDK.framework in Frameworks */,
-				A357D7A9196301350037C2B4 /* libFlurry_5.1.0.a in Frameworks */,
 				A3A67E7B1902B67700BFAF7B /* CoreGraphics.framework in Frameworks */,
 				A3A67E7D1902B67700BFAF7B /* UIKit.framework in Frameworks */,
 				A31D440F19AB757100A7F8B5 /* libAppsFlyerLib.a in Frameworks */,
@@ -1107,6 +1107,15 @@
 			path = normal;
 			sourceTree = "<group>";
 		};
+		A30516C619C7497A009ABD85 /* Flurry */ = {
+			isa = PBXGroup;
+			children = (
+				A30516C719C7497A009ABD85 /* Flurry.h */,
+				A30516C819C7497A009ABD85 /* libFlurry_5.3.0.a */,
+			);
+			path = Flurry;
+			sourceTree = "<group>";
+		};
 		A305F2B41945F0C100B62C6C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -1206,6 +1215,7 @@
 		A357D7A3196301350037C2B4 /* ThirdParty */ = {
 			isa = PBXGroup;
 			children = (
+				A30516C619C7497A009ABD85 /* Flurry */,
 				A36734C619ACE40B00F2818E /* facebook */,
 				A31D440C19AB757100A7F8B5 /* AF-iOS-SDK-v2.5.3.10 */,
 				A3A8DFFA19A07662001FF20D /* PushApp */,
@@ -1214,18 +1224,8 @@
 				A31B48231971A81D00EF6BF8 /* Resources */,
 				A31B46F61971A50800EF6BF8 /* UserVoice */,
 				A357D7AA196301A70037C2B4 /* Crashlytics.framework */,
-				A357D7A5196301350037C2B4 /* Flurry */,
 			);
 			path = ThirdParty;
-			sourceTree = "<group>";
-		};
-		A357D7A5196301350037C2B4 /* Flurry */ = {
-			isa = PBXGroup;
-			children = (
-				A357D7A6196301350037C2B4 /* Flurry.h */,
-				A357D7A7196301350037C2B4 /* libFlurry_5.1.0.a */,
-			);
-			path = Flurry;
 			sourceTree = "<group>";
 		};
 		A36734C619ACE40B00F2818E /* facebook */ = {
