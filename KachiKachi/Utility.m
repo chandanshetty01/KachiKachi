@@ -65,6 +65,21 @@
     return true;
 }
 
++(BOOL)pathContainsPolygon:(CGPathRef)path polygon:(NSMutableArray*)inPolygon
+{
+    __block BOOL status = TRUE;
+    [inPolygon enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+        
+        NSString *inPoint = (NSString*)obj;
+        CGPoint touchPoint = CGPointFromString(inPoint);
+        if(!CGPathContainsPoint(path, nil, touchPoint, NO)){
+            *stop = YES;
+            status = FALSE;
+        }
+    }];
+    return status;
+}
+
 +(BOOL)isPolygonIntersected:(NSArray*)polygonA andPolygon:(NSArray*)polygonB
 {
     for (int i = 0 ; i < [polygonA count]; i++) {

@@ -1008,7 +1008,7 @@ typedef void (^completionBlk)(BOOL);
     
     for (int i = (int)[_elements count]-1; i >= 0; i--) {
         TTBase *element = (TTBase*)[_elements objectAtIndex:i];
-        if([element canHandleTouch:touchLocation radius:40]){
+        if([element canHandleTouch:touchLocation radius:15]){
             item = element;
             break;
         }

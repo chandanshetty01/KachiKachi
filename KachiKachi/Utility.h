@@ -17,6 +17,7 @@
 +(BOOL)isLineCollided:(CGPoint)A1 secondPoint:(CGPoint)A2 thirdPoint:(CGPoint)B1 fourthPoint:(CGPoint)B2
                andOut:(double*) outPoint;
 +(double)getPerpDot:(CGPoint)a secondPoint:(CGPoint)b;
++(BOOL)pathContainsPolygon:(CGPathRef)path polygon:(NSMutableArray*)inPolygon;
 
 -(SKProduct*)productWithID:(NSString*)inID;
 

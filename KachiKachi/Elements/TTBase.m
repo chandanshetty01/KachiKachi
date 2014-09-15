@@ -7,6 +7,7 @@
 //
 
 #import "TTBase.h"
+#import "Utility.h"
 
 @interface  TTBase()
 
@@ -111,19 +112,41 @@
     self.objectPath = path;
 }
 
+
 -(BOOL)canHandleTouch:(CGPoint)center radius:(CGFloat)radius
 {
-    CGPathRef fuzzyPath;
-    fuzzyPath = CGPathCreateCopyByStrokingPath(self.objectPath, NULL, radius,
-                                               kCGLineCapRound,
-                                               kCGLineJoinRound, 0.0);
-    if (CGPathContainsPoint(fuzzyPath, NULL, center, NO) && !self.isPicked && self.userInteractionEnabled)
-    {
-        CGPathRelease(fuzzyPath);
-        return YES;
+    BOOL status = NO;
+    if(!self.isPicked && self.userInteractionEnabled){
+        NSMutableArray *polygonA = [NSMutableArray array];
+        for(NSString *point in self.touchPoints){
+            CGPoint cPoint = CGPointFromString(point);
+            cPoint.x = cPoint.x+self.frame.origin.x;
+            cPoint.y = cPoint.y+self.frame.origin.y;
+            [polygonA addObject:NSStringFromCGPoint(cPoint)];
+        }
+        
+        CGPoint point1 = CGPointMake(center.x-radius/2, center.y-radius/2);
+        CGPoint point2 = CGPointMake(point1.x+radius, point1.y);
+        CGPoint point3 = CGPointMake(point1.x+ radius, point1.y+radius);
+        CGPoint point4 = CGPointMake(point1.x, point1.y+radius);
+        
+        NSMutableArray *polygonB = [NSMutableArray array];
+        [polygonB  addObject:NSStringFromCGPoint(point1)];
+        [polygonB  addObject:NSStringFromCGPoint(point2)];
+        [polygonB  addObject:NSStringFromCGPoint(point3)];
+        [polygonB  addObject:NSStringFromCGPoint(point4)];
+        [polygonB  addObject:NSStringFromCGPoint(point1)];
+        
+        BOOL isIntersected = [Utility pathContainsPolygon:self.objectPath polygon:polygonB];
+        if(isIntersected){
+            status = YES;
+        }
+        
+        if(!status){
+            status = [Utility isPolygonIntersected:polygonA andPolygon:polygonB ];
+        }
     }
-    CGPathRelease(fuzzyPath);
-    return NO;
+    return status;
 }
 
 -(BOOL)canHandleTouch:(CGPoint)touchPoint
@@ -215,6 +238,29 @@
     self.selected = NO;
 }
 
+-(void)drawPolygon:(NSMutableArray*)array
+{
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    CGContextSetStrokeColorWithColor(context, [UIColor redColor].CGColor);
+    
+    // Draw them with a 2.0 stroke width so they are a bit more visible.
+    CGContextSetLineWidth(context, 2.0);
+    
+    int count = (int)[array count];
+    for (int i = 0 ; i < count; i++) {
+        CGPoint cPoint = CGPointFromString([array objectAtIndex:i]);
+        if(i == 0)
+            CGContextMoveToPoint(context, cPoint.x,cPoint.y); //start at this point
+        else
+            CGContextAddLineToPoint(context, cPoint.x, cPoint.y); //draw to this point
+    }
+    //CGContextFillPath(context);
+    CGContextClosePath(context);
+    
+    // and now draw the Path!
+    CGContextStrokePath(context);
+}
+
 - (void)drawRect:(CGRect)rect
 {    
     if(self.selected){
@@ -225,26 +271,9 @@
     }
     
 #ifdef DEVELOPMENT_MODE
-    CGContextRef context = UIGraphicsGetCurrentContext();
-    CGContextSetStrokeColorWithColor(context, [UIColor redColor].CGColor);
-    
-    // Draw them with a 2.0 stroke width so they are a bit more visible.
-    CGContextSetLineWidth(context, 2.0);
-    
-    int count = (int)[_touchPoints count];
-    for (int i = 0 ; i < count; i++) {
-        CGPoint cPoint = CGPointFromString([_touchPoints objectAtIndex:i]);
-        if(i == 0)
-            CGContextMoveToPoint(context, cPoint.x,cPoint.y); //start at this point
-        else
-            CGContextAddLineToPoint(context, cPoint.x, cPoint.y); //draw to this point
-    }
-    //CGContextFillPath(context);
-    CGContextClosePath(context);
-
-    // and now draw the Path!
-    CGContextStrokePath(context);
+    [self drawPolygon:self.touchPoints];
 #endif
+
     [super drawRect:rect];
 }
 
