@@ -52,6 +52,7 @@ static int testCounter = 0;
 @interface KKGameSceneController ()
 
 @property(nonatomic,strong) NSMutableArray *deletedElements;
+@property(nonatomic,strong) NSMutableArray *basketElements;
 @property(nonatomic,assign) BOOL isGameFinished;
 @property(nonatomic,weak) TTBase* topElement;
 @property (weak, nonatomic) IBOutlet UILabel *timerLabel;
@@ -83,6 +84,7 @@ typedef void (^completionBlk)(BOOL);
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     _elements = [[NSMutableArray alloc] init];
+    self.basketElements = [[NSMutableArray alloc] init];
     self.deletedElements = [[NSMutableArray alloc] init];
     
     self.currentLevel = [[KKGameStateManager sharedManager] currentLevelNumber];
@@ -132,7 +134,7 @@ typedef void (^completionBlk)(BOOL);
         self.pointsEarned.frame = pointsFrame;
     }
     
-    [self addElements];
+    [self addElements:NO];
     
 #ifdef DEVELOPMENT_MODE
     _switchBtn.hidden = NO;
@@ -359,8 +361,10 @@ typedef void (^completionBlk)(BOOL);
 
 -(void)updateTimer:(NSInteger)remainingTime
 {
-    NSString *time = [NSString stringWithFormat:NSLocalizedString(@"TIME", @"time remainging %d"),(long)remainingTime];
-    [self.timerLabel setText:time];
+    if(self.gameMode == eTimerMode){
+        NSString *time = [NSString stringWithFormat:NSLocalizedString(@"TIME", @"time remainging %d"),(long)remainingTime];
+        [self.timerLabel setText:time];
+    }
 }
 
 #pragma mark - Timer delegates -
@@ -391,7 +395,7 @@ typedef void (^completionBlk)(BOOL);
     [Flurry logEvent:key withParameters:levelInfo];
 }
 
--(void)addElements
+-(void)addElements:(BOOL)isRestartMode
 {
     [self.levelModel.items enumerateObjectsUsingBlock:^(KKItemModal *obj, NSUInteger idx, BOOL *stop) {
         [self generateElement:obj];
@@ -399,18 +403,21 @@ typedef void (^completionBlk)(BOOL);
     
     self.topElement = [self.elements lastObject];
     
-    UIImage *image = [UIImage imageNamed:self.levelModel.backgroundImage];
-    self.background.image = image;
+    if(!isRestartMode){
+        UIImage *image = [UIImage imageNamed:self.levelModel.backgroundImage];
+        self.background.image = image;
+    }
     
     [self.levelModel.baskets enumerateObjectsUsingBlock:^(NSDictionary *basket, NSUInteger idx, BOOL *stop) {
         UIImage *image = [UIImage imageNamed:[basket objectForKey:@"basket"]];
         CGRect frame = CGRectZero;
         frame.origin =CGPointFromString([basket objectForKey:@"basket_frame"]);
         frame.size = image.size;
-
+        
         UIImageView *basketView = [[UIImageView alloc] initWithFrame:frame];
         basketView.autoresizingMask = UIViewAutoresizingFlexibleRightMargin|UIViewAutoresizingFlexibleBottomMargin;
         basketView.image = image;
+        [self.basketElements addObject:basketView];
         
         if(IS_IPAD){
             //for iPad
@@ -442,7 +449,6 @@ typedef void (^completionBlk)(BOOL);
                 [self.view bringSubviewToFront:self.bottomStrip];
             }
         }
-
     }];
 }
 
@@ -586,6 +592,7 @@ typedef void (^completionBlk)(BOOL);
     
     BOOL isNextLevelUnlocked = [self isNextLevelUnlocked];
     if(!isNextLevelUnlocked){
+        [alertview addButtonWithTitle:NSLocalizedString(@"REPLAY", nil)];
         [alertview addButtonWithTitle:NSLocalizedString(@"MAIN_MENU", nil)];
         [alertview showAlertWithTitle:NSLocalizedString(@"GAME_OVER", nil)
                               message:msg
@@ -595,19 +602,24 @@ typedef void (^completionBlk)(BOOL);
                                if(index == 0){
                                    [self showUnlockAlert];
                                }
-                               else if(index == 1){
+                               else if(index == 2){
                                    [alertview removeController:^(NSInteger index) {
                                        //Main Menu
                                        _isGameFinished = NO;
                                        [self moveToLevelSelectScene];
                                    }];
                                }
-                               else if(index == 2){
-                                   [self replayLevel];
+                               else if(index == 1){
+                                   [alertview removeController:^(NSInteger index) {
+                                       //Main Menu
+                                       _isGameFinished = NO;
+                                       [self replayLevel];
+                                   }];
                                }
                            }];
     }
     else{
+        [alertview addButtonWithTitle:NSLocalizedString(@"REPLAY", nil)];
         [alertview showAlertWithTitle:NSLocalizedString(@"GAME_OVER", nil)
                               message:msg
                           buttonTitle:NSLocalizedString(@"MAIN_MENU", nil)
@@ -618,6 +630,13 @@ typedef void (^completionBlk)(BOOL);
                                        //Main Menu
                                        _isGameFinished = NO;
                                        [self moveToLevelSelectScene];
+                                   }];
+                               }
+                               else if(index == 1){
+                                   [alertview removeController:^(NSInteger index) {
+                                       //Main Menu
+                                       _isGameFinished = NO;
+                                       [self replayLevel];
                                    }];
                                }
                            }];
@@ -921,7 +940,6 @@ typedef void (^completionBlk)(BOOL);
 
 -(void)restartGame
 {
-    [self.elements removeAllObjects];
     KKGameConfigManager *config = [KKGameConfigManager sharedManager];
     NSDictionary *level = [config levelWithID:self.currentLevel andStage:self.currentStage];
     BOOL isLevelCompleted = self.levelModel.isLevelCompleted;
@@ -949,7 +967,6 @@ typedef void (^completionBlk)(BOOL);
 -(void)unlockNextLevel
 {
     //Dont reset the entire thing... just reset items
-    [self.elements removeAllObjects];
     KKGameConfigManager *config = [KKGameConfigManager sharedManager];
     NSDictionary *level = [config levelWithID:self.currentLevel andStage:self.currentStage];
     self.levelModel = [[KKLevelModal alloc] initWithDictionary:level];
@@ -1189,9 +1206,60 @@ typedef void (^completionBlk)(BOOL);
     }
 }
 
+-(KKLevelModal*)currentLevelData
+{
+    KKLevelModal *levelModel = nil;
+    KKGameConfigManager *config = [KKGameConfigManager sharedManager];
+    NSDictionary *level = [config levelWithID:self.currentLevel andStage:self.currentStage];
+    levelModel = [[KKLevelModal alloc] initWithDictionary:level];
+    levelModel.levelID = self.currentLevel;
+    levelModel.stageID =  self.currentStage;
+    return levelModel;
+}
+
+-(void)removeAllElements
+{
+   [self.elements enumerateObjectsUsingBlock:^(TTBase *obj, NSUInteger idx, BOOL *stop) {
+       [obj removeFromSuperview];
+    }];
+    [self.elements removeAllObjects];
+    
+    [self.basketElements enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+        [obj removeFromSuperview];
+    }];
+    [self.basketElements removeAllObjects];
+    
+    [self.deletedElements enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+        [obj removeFromSuperview];
+    }];
+    [self.deletedElements removeAllObjects];
+}
+
+-(void)logReplayEvent
+{
+    NSMutableDictionary *levelInfo = [[NSMutableDictionary alloc] init];
+    [levelInfo setObject:[NSString stringWithFormat:@"%@",self.levelModel.name] forKey:[NSString stringWithFormat:@"%ld",(long)self.currentStage]];
+    [Flurry logEvent:@"replay" withParameters:levelInfo];
+}
+
 -(void)replayLevel
 {
+    [self removeAllElements];
     
+    _isGameFinished = FALSE;
+    self.levelModel = [self currentLevelData];
+    self.levelModel.isLevelUnlocked = YES;
+    self.levelModel.isLevelCompleted = NO;
+    self.noOfLifesRemaining = self.levelModel.life;
+    self.duration = self.levelModel.duration;
+    
+    [self addElements:YES];
+    [self updateMagicStic];
+    [self updateUI];
+    [self updateTimer:self.levelModel.duration];
+    [self startTimer];
+    
+    [self logReplayEvent];
 }
 
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
@@ -1292,11 +1360,7 @@ typedef void (^completionBlk)(BOOL);
 - (void)dealloc
 {
     self.currentElement = nil;
-    [_deletedElements removeAllObjects];
-    [_elements enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
-        [obj removeFromSuperview];
-        [_elements removeObject:obj];;
-    }];
+    [self removeAllElements];
 }
 
 - (void)didReceiveMemoryWarning
