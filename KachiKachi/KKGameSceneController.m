@@ -52,6 +52,7 @@ static int testCounter = 0;
 @interface KKGameSceneController ()
 
 @property(nonatomic,strong) NSMutableArray *deletedElements;
+@property(nonatomic,strong) NSMutableArray *tempElements;
 @property(nonatomic,strong) NSMutableArray *basketElements;
 @property(nonatomic,assign) BOOL isGameFinished;
 @property(nonatomic,weak) TTBase* topElement;
@@ -940,10 +941,13 @@ typedef void (^completionBlk)(BOOL);
 
 -(void)restartGame
 {
+    self.tempElements = [[NSMutableArray alloc] initWithArray:self.elements];
+    [self.elements removeAllObjects];
+    
     KKGameConfigManager *config = [KKGameConfigManager sharedManager];
-    NSDictionary *level = [config levelWithID:self.currentLevel andStage:self.currentStage];
+    NSDictionary *tLevel = [config levelWithID:self.currentLevel andStage:self.currentStage];
     BOOL isLevelCompleted = self.levelModel.isLevelCompleted;
-    self.levelModel = [[KKLevelModal alloc] initWithDictionary:level];
+    self.levelModel = [[KKLevelModal alloc] initWithDictionary:tLevel];
     self.levelModel.levelID = self.currentLevel;
     self.levelModel.stageID =  self.currentStage;
     self.levelModel.isLevelUnlocked = YES;
@@ -967,9 +971,12 @@ typedef void (^completionBlk)(BOOL);
 -(void)unlockNextLevel
 {
     //Dont reset the entire thing... just reset items
+    self.tempElements = [[NSMutableArray alloc] initWithArray:self.elements];
+    [self.elements removeAllObjects];
+    
     KKGameConfigManager *config = [KKGameConfigManager sharedManager];
-    NSDictionary *level = [config levelWithID:self.currentLevel andStage:self.currentStage];
-    self.levelModel = [[KKLevelModal alloc] initWithDictionary:level];
+    NSDictionary *tLevel = [config levelWithID:self.currentLevel andStage:self.currentStage];
+    self.levelModel = [[KKLevelModal alloc] initWithDictionary:tLevel];
     self.levelModel.isLevelUnlocked = YES;
     self.levelModel.isLevelCompleted = YES;
     
@@ -1210,8 +1217,8 @@ typedef void (^completionBlk)(BOOL);
 {
     KKLevelModal *levelModel = nil;
     KKGameConfigManager *config = [KKGameConfigManager sharedManager];
-    NSDictionary *level = [config levelWithID:self.currentLevel andStage:self.currentStage];
-    levelModel = [[KKLevelModal alloc] initWithDictionary:level];
+    NSDictionary *tLevel = [config levelWithID:self.currentLevel andStage:self.currentStage];
+    levelModel = [[KKLevelModal alloc] initWithDictionary:tLevel];
     levelModel.levelID = self.currentLevel;
     levelModel.stageID =  self.currentStage;
     return levelModel;
@@ -1219,8 +1226,13 @@ typedef void (^completionBlk)(BOOL);
 
 -(void)removeAllElements
 {
-   [self.elements enumerateObjectsUsingBlock:^(TTBase *obj, NSUInteger idx, BOOL *stop) {
-       [obj removeFromSuperview];
+    [self.tempElements enumerateObjectsUsingBlock:^(TTBase *obj, NSUInteger idx, BOOL *stop) {
+        [obj removeFromSuperview];
+    }];
+    [self.tempElements removeAllObjects];
+    
+    [self.elements enumerateObjectsUsingBlock:^(TTBase *obj, NSUInteger idx, BOOL *stop) {
+        [obj removeFromSuperview];
     }];
     [self.elements removeAllObjects];
     

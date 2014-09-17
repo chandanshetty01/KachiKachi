@@ -66,7 +66,7 @@ const NSString *kNoOfItems = @"noOfItems";
     return _configuration;
 }
 
--(NSMutableDictionary*)stageWithID:(NSInteger)stageID
+-(NSDictionary*)stageWithID:(NSInteger)stageID
 {
     NSMutableDictionary *stage = nil;
     stage = [_configuration objectForKey:[NSString stringWithFormat:@"stage%ld",(long)stageID]];
@@ -75,7 +75,7 @@ const NSString *kNoOfItems = @"noOfItems";
 
 -(BOOL)isStageLocked:(NSInteger)stage
 {
-    NSMutableDictionary *stageDict = [self stageWithID:stage];
+    NSDictionary *stageDict = [self stageWithID:stage];
     if(stageDict)
         return [[stageDict objectForKey:@"locked"] boolValue];
     else
@@ -88,11 +88,11 @@ const NSString *kNoOfItems = @"noOfItems";
     return [[levels allKeys] count];
 }
 
--(NSMutableDictionary*)getAllLevels:(NSInteger)stageID
+-(NSDictionary*)getAllLevels:(NSInteger)stageID
 {
     NSMutableDictionary *levels = nil;
     
-    NSMutableDictionary *stage = [self stageWithID:stageID];
+    NSDictionary *stage = [self stageWithID:stageID];
     if(stage){
         levels = [stage objectForKey:@"levels"];
     }
@@ -118,11 +118,11 @@ const NSString *kNoOfItems = @"noOfItems";
     return [[level objectForKey:@"gameMode"] integerValue];
 }
 
--(NSMutableDictionary*)levelWithID:(NSInteger)levelID andStage:(NSInteger)stageID
+-(NSDictionary*)levelWithID:(NSInteger)levelID andStage:(NSInteger)stageID
 {
     NSMutableDictionary *level = nil;
-    NSMutableDictionary *levels = [self getAllLevels:stageID];
-        
+    NSDictionary *tLevels = [self getAllLevels:stageID];
+    NSDictionary *levels = [[NSDictionary alloc] initWithDictionary:tLevels];
     if(levels){
         level = [levels objectForKey:[NSString stringWithFormat:@"level%ld",(long)levelID]];
     }

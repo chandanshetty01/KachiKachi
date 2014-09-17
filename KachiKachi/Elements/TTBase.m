@@ -339,6 +339,7 @@
 
 - (void)dealloc
 {
+    [self.layer removeAllAnimations];
     CGPathRelease(_objectPath);
 }
 

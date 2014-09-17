@@ -18,9 +18,9 @@ const NSString *kNoOfItems;
 @interface KKGameConfigManager : NSObject
 
 +(id)sharedManager;
--(NSMutableDictionary*)stageWithID:(NSInteger)stageID;
--(NSMutableDictionary*)levelWithID:(NSInteger)inLevelID andStage:(NSInteger)stageID;
--(NSMutableDictionary*)getAllLevels:(NSInteger)stageID;
+-(NSDictionary*)stageWithID:(NSInteger)stageID;
+-(NSDictionary*)levelWithID:(NSInteger)inLevelID andStage:(NSInteger)stageID;
+-(NSDictionary*)getAllLevels:(NSInteger)stageID;
 -(NSInteger)noOfLifesInLevel:(NSInteger)levelID stage:(NSInteger)stageID;
 -(NSInteger)durationForLevel:(NSInteger)levelID stage:(NSInteger)stageID;
 -(BOOL)isStageLocked:(NSInteger)stage;

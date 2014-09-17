@@ -82,8 +82,8 @@
     {
         KKLevelModal *levelModel = nil;
         KKGameConfigManager *config = [KKGameConfigManager sharedManager];
-        NSDictionary *level = [config levelWithID:levelID andStage:self.currentStage];
-        levelModel = [[KKLevelModal alloc] initWithDictionary:level];
+        NSDictionary *tLevel = [config levelWithID:levelID andStage:self.currentStage];
+        levelModel = [[KKLevelModal alloc] initWithDictionary:tLevel];
         levelModel.levelID = levelID;
         levelModel.stageID =  self.currentStage;
         return levelModel;
