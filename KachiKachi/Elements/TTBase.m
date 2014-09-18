@@ -287,7 +287,11 @@
  
 -(void)showAnimation:(completionBlk)completionBlk
 {
-    [UIView animateWithDuration:.5f animations:^{
+    CGFloat animationInterval = 0.3f;
+    if(IS_IPAD){
+        animationInterval = 0.5f;
+    }
+    [UIView animateWithDuration:animationInterval animations:^{
         self.alpha = 0;
     } completion:^(BOOL finished) {
         completionBlk(finished);

@@ -21,7 +21,11 @@
 
 -(void)showAnimation:(completionBlk)completionBlk
 {
-    [UIView animateWithDuration:0.5
+    CGFloat animationInterval = 0.2f;
+    if(IS_IPAD){
+        animationInterval = 0.4f;
+    }
+    [UIView animateWithDuration:animationInterval
                           delay:0
                         options:UIViewAnimationOptionCurveEaseInOut
                      animations:^{
