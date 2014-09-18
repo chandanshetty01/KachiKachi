@@ -1256,12 +1256,14 @@ typedef void (^completionBlk)(BOOL);
 
 -(void)replayLevel
 {
+    NSInteger noOfStars = self.levelModel.noOfStars;
     [self removeAllElements];
     
     _isGameFinished = FALSE;
     self.levelModel = [self currentLevelData];
     self.levelModel.isLevelUnlocked = YES;
     self.levelModel.isLevelCompleted = NO;
+    self.levelModel.noOfStars = noOfStars;
     self.noOfLifesRemaining = self.levelModel.life;
     self.duration = self.levelModel.duration;
     
