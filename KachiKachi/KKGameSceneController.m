@@ -1093,7 +1093,7 @@ typedef void (^completionBlk)(BOOL);
 -(void)touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event
 {
     if(_currentElement){
-        [_currentElement touchesCancelled:touches withEvent:event];
+        [_currentElement handleTouchesCancelled:touches withEvent:event];
     }
     _currentElement = nil;
 }
