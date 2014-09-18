@@ -38354,7 +38354,7 @@
 						<key>class</key>
 						<string>TTBottle</string>
 						<key>frame</key>
-						<string>{{481.5, 138.5}, {35, 75}}</string>
+						<string>{{402, 177}, {35, 75}}</string>
 						<key>image</key>
 						<string>iPh_Bottle2.png</string>
 						<key>isPicked</key>
@@ -38634,7 +38634,7 @@
 						<key>class</key>
 						<string>TTBottle</string>
 						<key>frame</key>
-						<string>{{490.5, 179.5}, {21, 69}}</string>
+						<string>{{389.5, 173}, {21, 69}}</string>
 						<key>image</key>
 						<string>iPh_Bottle11.png</string>
 						<key>isPicked</key>
@@ -38664,7 +38664,7 @@
 						<key>class</key>
 						<string>TTBottle</string>
 						<key>frame</key>
-						<string>{{497.5, 101}, {23, 75}}</string>
+						<string>{{362, 45}, {23, 75}}</string>
 						<key>image</key>
 						<string>iPh_Bottle12.png</string>
 						<key>isPicked</key>
@@ -69084,7 +69084,7 @@
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{496, 122}, {57, 151}}</string>
+						<string>{{208, 102.5}, {57, 151}}</string>
 						<key>image</key>
 						<string>iPh_flower.png</string>
 						<key>isPicked</key>
@@ -74111,7 +74111,7 @@
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{444.5, 94}, {52, 194}}</string>
+						<string>{{391, 90.5}, {52, 194}}</string>
 						<key>image</key>
 						<string>iPh_pencil 7.png</string>
 						<key>isPicked</key>
@@ -74165,7 +74165,7 @@
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{354, 113.5}, {144, 146}}</string>
+						<string>{{319.5, 104.5}, {144, 146}}</string>
 						<key>image</key>
 						<string>iPh_pencil 10.png</string>
 						<key>isPicked</key>
@@ -74219,7 +74219,7 @@
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{424, 61}, {147, 148}}</string>
+						<string>{{72.5, 43.5}, {147, 148}}</string>
 						<key>image</key>
 						<string>iPh_pencil 12.png</string>
 						<key>isPicked</key>
@@ -74977,7 +74977,7 @@
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{380, 104.5}, {106, 172}}</string>
+						<string>{{346.5, 98.5}, {106, 172}}</string>
 						<key>image</key>
 						<string>iPh_pencil 13.png</string>
 						<key>isPicked</key>
@@ -75032,7 +75032,7 @@
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{397.5, 52}, {104, 175}}</string>
+						<string>{{350.5, 37}, {104, 175}}</string>
 						<key>image</key>
 						<string>iPh_pencil 3.png</string>
 						<key>isPicked</key>
@@ -75113,7 +75113,7 @@
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{379, 104}, {120, 163}}</string>
+						<string>{{336, 97}, {120, 163}}</string>
 						<key>image</key>
 						<string>iPh_pencil 6.png</string>
 						<key>isPicked</key>
@@ -75221,7 +75221,7 @@
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{375, 171.5}, {144, 146}}</string>
+						<string>{{244, 52.5}, {144, 146}}</string>
 						<key>image</key>
 						<string>iPh_pencil 10.png</string>
 						<key>isPicked</key>
@@ -100057,7 +100057,7 @@
 						<key>class</key>
 						<string>TTKite</string>
 						<key>frame</key>
-						<string>{{426.5, 118.5}, {82, 80}}</string>
+						<string>{{404.5, 108}, {82, 80}}</string>
 						<key>image</key>
 						<string>iPh_kite16.png</string>
 						<key>isPicked</key>
@@ -126980,7 +126980,7 @@
 						<key>class</key>
 						<string>TTBase</string>
 						<key>frame</key>
-						<string>{{496, 122}, {57, 151}}</string>
+						<string>{{190.5, 86.5}, {57, 151}}</string>
 						<key>image</key>
 						<string>iPh_flower.png</string>
 						<key>isPicked</key>
