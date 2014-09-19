@@ -593,24 +593,27 @@ typedef void (^completionBlk)(BOOL);
     
     BOOL isNextLevelUnlocked = [self isNextLevelUnlocked];
     if(!isNextLevelUnlocked){
+        //REPLAY
+        //MAIN_MENU
+        //UNLOCK_NEXT_LEVEL
+        [alertview addButtonWithTitle:NSLocalizedString(@"UNLOCK_NEXT_LEVEL", nil)];
         [alertview addButtonWithTitle:NSLocalizedString(@"REPLAY", nil)];
-        [alertview addButtonWithTitle:NSLocalizedString(@"MAIN_MENU", nil)];
         [alertview showAlertWithTitle:NSLocalizedString(@"GAME_OVER", nil)
                               message:msg
-                          buttonTitle:NSLocalizedString(@"UNLOCK_NEXT_LEVEL", nil)
+                          buttonTitle:NSLocalizedString(@"MAIN_MENU", nil)
                          inController:self
                            completion:^(NSInteger index) {
-                               if(index == 0){
+                               if(index == 1){
                                    [self showUnlockAlert];
                                }
-                               else if(index == 2){
+                               else if(index == 0){
                                    [alertview removeController:^(NSInteger index) {
                                        //Main Menu
                                        _isGameFinished = NO;
                                        [self moveToLevelSelectScene];
                                    }];
                                }
-                               else if(index == 1){
+                               else if(index == 2){
                                    [alertview removeController:^(NSInteger index) {
                                        //Main Menu
                                        _isGameFinished = NO;
