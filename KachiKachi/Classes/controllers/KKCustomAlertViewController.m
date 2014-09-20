@@ -144,15 +144,15 @@
     CGRect tFrame = actualFrame;
     tFrame.origin.y = -self.alertHolderView.frame.size.height;
     self.alertHolderView.frame = tFrame;
-        
-    self.view.userInteractionEnabled = NO;
+    
+    [[UIApplication sharedApplication] beginIgnoringInteractionEvents];
     [UIView animateWithDuration:.5f
                      animations:^{
                          self.view.backgroundColor = [UIColor colorWithWhite:0.0 alpha:.4f];
                          self.alertHolderView.frame = actualFrame;
                      }
                      completion:^(BOOL finished) {
-                         self.view.userInteractionEnabled = YES;
+                         [[UIApplication sharedApplication] endIgnoringInteractionEvents];
                      }];
 }
 
@@ -170,15 +170,17 @@
     
     CGRect alertFrame = self.alertHolderView.frame;
     alertFrame.origin.y = -self.alertHolderView.frame.size.height;
-    self.view.userInteractionEnabled = NO;
+    [[UIApplication sharedApplication] beginIgnoringInteractionEvents];
     [UIView animateWithDuration:.5f
                      animations:^{
                          self.view.backgroundColor = [UIColor colorWithWhite:0.0 alpha:0.0f];
                          self.alertHolderView.frame = alertFrame;
                      }
                      completion:^(BOOL finished) {
-                         if(blk)
+                         if(blk){
                              blk(1);
+                         }
+                         [[UIApplication sharedApplication] endIgnoringInteractionEvents];
                          [self removeViews];
                      }];
 }
