@@ -59,9 +59,9 @@
 		A30516C319C3F047009ABD85 /* iPh_brush8.png in Resources */ = {isa = PBXBuildFile; fileRef = A30516B419C3F047009ABD85 /* iPh_brush8.png */; };
 		A30516C419C3F047009ABD85 /* iPh_brush9.png in Resources */ = {isa = PBXBuildFile; fileRef = A30516B519C3F047009ABD85 /* iPh_brush9.png */; };
 		A30516C519C3F047009ABD85 /* iPh_brush_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = A30516B619C3F047009ABD85 /* iPh_brush_bg.png */; };
-		A30516C919C7497A009ABD85 /* libFlurry_5.3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A30516C819C7497A009ABD85 /* libFlurry_5.3.0.a */; };
 		A305F2A91945EAB800B62C6C /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = A305F2A81945EAB800B62C6C /* iTunesArtwork */; };
 		A305F2B71945F0DB00B62C6C /* KKGameStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A305F2B61945F0DB00B62C6C /* KKGameStateManager.m */; };
+		A30902A719D5E6F800DF2C7A /* libFlurry_5.4.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A30902A619D5E6F800DF2C7A /* libFlurry_5.4.0.a */; };
 		A314CCE2194F2B620002BECC /* KKStageSelectController.m in Sources */ = {isa = PBXBuildFile; fileRef = A314CCE1194F2B620002BECC /* KKStageSelectController.m */; };
 		A31B47C41971A70B00EF6BF8 /* libUserVoice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A31B47C31971A70B00EF6BF8 /* libUserVoice.a */; };
 		A31B484B1971A81D00EF6BF8 /* UserVoice.strings in Resources */ = {isa = PBXBuildFile; fileRef = A31B48241971A81D00EF6BF8 /* UserVoice.strings */; };
@@ -512,10 +512,10 @@
 		A30516B519C3F047009ABD85 /* iPh_brush9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPh_brush9.png; sourceTree = "<group>"; };
 		A30516B619C3F047009ABD85 /* iPh_brush_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPh_brush_bg.png; sourceTree = "<group>"; };
 		A30516C719C7497A009ABD85 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
-		A30516C819C7497A009ABD85 /* libFlurry_5.3.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_5.3.0.a; sourceTree = "<group>"; };
 		A305F2A81945EAB800B62C6C /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
 		A305F2B51945F0DB00B62C6C /* KKGameStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKGameStateManager.h; sourceTree = "<group>"; };
 		A305F2B61945F0DB00B62C6C /* KKGameStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKGameStateManager.m; sourceTree = "<group>"; };
+		A30902A619D5E6F800DF2C7A /* libFlurry_5.4.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFlurry_5.4.0.a; path = "../../../../../../../Users/chandanshettysp/Downloads/Flurry iPad SDK viPad 5.4.0/Flurry-iOS-5.4.0/Flurry/libFlurry_5.4.0.a"; sourceTree = "<group>"; };
 		A314CCE0194F2B620002BECC /* KKStageSelectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKStageSelectController.h; sourceTree = "<group>"; };
 		A314CCE1194F2B620002BECC /* KKStageSelectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKStageSelectController.m; sourceTree = "<group>"; };
 		A31B46F81971A50800EF6BF8 /* UserVoice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserVoice.h; sourceTree = "<group>"; };
@@ -995,7 +995,6 @@
 			files = (
 				A3A8DFFD19A07662001FF20D /* PushApps.framework in Frameworks */,
 				A32F4E6B1987F7F8009A20F9 /* iAd.framework in Frameworks */,
-				A30516C919C7497A009ABD85 /* libFlurry_5.3.0.a in Frameworks */,
 				A3D79A0819835ED40016DA23 /* StoreKit.framework in Frameworks */,
 				A3B3C4F71961C4C100B62BD4 /* SystemConfiguration.framework in Frameworks */,
 				A31B47C41971A70B00EF6BF8 /* libUserVoice.a in Frameworks */,
@@ -1003,6 +1002,7 @@
 				A3A67E7B1902B67700BFAF7B /* CoreGraphics.framework in Frameworks */,
 				A3A67E7D1902B67700BFAF7B /* UIKit.framework in Frameworks */,
 				A31D440F19AB757100A7F8B5 /* libAppsFlyerLib.a in Frameworks */,
+				A30902A719D5E6F800DF2C7A /* libFlurry_5.4.0.a in Frameworks */,
 				A357D7AB196301A70037C2B4 /* Crashlytics.framework in Frameworks */,
 				A3A67E791902B67700BFAF7B /* Foundation.framework in Frameworks */,
 			);
@@ -1111,7 +1111,7 @@
 			isa = PBXGroup;
 			children = (
 				A30516C719C7497A009ABD85 /* Flurry.h */,
-				A30516C819C7497A009ABD85 /* libFlurry_5.3.0.a */,
+				A30902A619D5E6F800DF2C7A /* libFlurry_5.4.0.a */,
 			);
 			path = Flurry;
 			sourceTree = "<group>";
@@ -2910,6 +2910,11 @@
 					"$(PROJECT_DIR)/KachiKachi/ThirdParty/Flurry",
 					"$(PROJECT_DIR)/KachiKachi/ThirdParty/UserVoice",
 					"$(PROJECT_DIR)/KachiKachi/ThirdParty/AF-iOS-SDK-v2.5.3.10",
+					/Users/chandanshettysp/Downloads/Flurry,
+					iPad,
+					SDK,
+					viPad,
+					"5.4.0/Flurry-iOS-5.4.0/Flurry",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "6c7097a9-9a67-4f89-aada-605f41e3ef8c";
@@ -2943,6 +2948,11 @@
 					"$(PROJECT_DIR)/KachiKachi/ThirdParty/Flurry",
 					"$(PROJECT_DIR)/KachiKachi/ThirdParty/UserVoice",
 					"$(PROJECT_DIR)/KachiKachi/ThirdParty/AF-iOS-SDK-v2.5.3.10",
+					/Users/chandanshettysp/Downloads/Flurry,
+					iPad,
+					SDK,
+					viPad,
+					"5.4.0/Flurry-iOS-5.4.0/Flurry",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "ad379d95-af48-4d3c-82a5-f538db932a0d";
