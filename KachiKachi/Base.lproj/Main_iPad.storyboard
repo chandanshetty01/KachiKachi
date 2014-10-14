@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="xWv-ho-mhL">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="xWv-ho-mhL">
     <dependencies>
-        <deployment defaultVersion="1536" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <deployment defaultVersion="1792" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <scenes>
         <!--Level Select View Controller-->
@@ -128,7 +128,6 @@
                             </collectionView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <navigationItem key="navigationItem" id="rZ0-qU-mVH"/>
                     <nil key="simulatedStatusBarMetrics"/>
@@ -302,7 +301,6 @@
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <navigationItem key="navigationItem" id="RtN-Ac-d8I"/>
                     <nil key="simulatedStatusBarMetrics"/>
@@ -485,7 +483,6 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <navigationItem key="navigationItem" id="kuY-IS-ccZ"/>
                     <nil key="simulatedStatusBarMetrics"/>
@@ -495,8 +492,9 @@
                         <outlet property="easyTitle" destination="ung-gh-rdL" id="tqA-TX-zGd"/>
                         <outlet property="howToPlayButton" destination="RUc-3O-cqf" id="IX7-HF-i4u"/>
                         <outlet property="mediumTitle" destination="Uuo-ge-ZQV" id="VV4-dK-5L4"/>
+                        <outlet property="musicSwitch" destination="jVv-7C-ksw" id="v2c-Tl-5O7"/>
                         <outlet property="rateusBtn" destination="IRd-R2-L1T" id="WBm-VV-DvN"/>
-                        <outlet property="soundSwitch" destination="jVv-7C-ksw" id="FvM-fi-ku2"/>
+                        <outlet property="soundSwitch" destination="vQw-Er-mpw" id="XpR-PW-F3w"/>
                         <outlet property="view" destination="oc5-O2-NkN" id="QIs-sX-s4K"/>
                     </connections>
                 </viewController>
@@ -575,7 +573,6 @@
                             </view>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <nil key="simulatedStatusBarMetrics"/>
                     <nil key="simulatedTopBarMetrics"/>

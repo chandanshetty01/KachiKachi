@@ -46,8 +46,10 @@
     [self.rateusBtn setTitle:NSLocalizedString(@"RATE_US", nil) forState:UIControlStateNormal];
     [self.howToPlayButton setTitle:NSLocalizedString(@"HOW_TO_PLAY", nil) forState:UIControlStateNormal];
     
-    BOOL isOn = [[KKGameStateManager sharedManager] isMusicEnabled];
+    BOOL isOn = [[KKGameStateManager sharedManager] isSoundEnabled];
     [self.soundSwitch setOn:isOn];
+    isOn = [[KKGameStateManager sharedManager] isMusicEnabled];
+    [self.musicSwitch setOn:isOn];
 }
 
 -(void)viewDidAppear:(BOOL)animated

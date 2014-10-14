@@ -13,5 +13,6 @@
 
 @property (weak, nonatomic) IBOutlet UISwitch *soundSwitch;
 @property (nonatomic,assign) NSInteger currentStage;
+@property (weak, nonatomic) IBOutlet UISwitch *musicSwitch;
 
 @end
