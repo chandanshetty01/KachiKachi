@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="xWv-ho-mhL">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="xWv-ho-mhL">
     <dependencies>
-        <deployment defaultVersion="1792" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
         <!--Level Select View Controller-->
@@ -208,50 +208,26 @@
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="zsD-91-N22">
-                                        <rect key="frame" x="952" y="0.0" width="52" height="52"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="bottom_back">
-                                            <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <rect key="frame" x="904" y="0.0" width="100" height="52"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <state key="normal" title="BACK">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
                                             <action selector="backButtonAction:" destination="TV7-K8-EP0" eventType="touchUpInside" id="PtY-ya-zqO"/>
                                         </connections>
                                     </button>
-                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ig9-KZ-Uot">
-                                        <rect key="frame" x="486" y="0.0" width="52" height="52"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="bottom_back">
-                                            <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="restartButtonAction:" destination="TV7-K8-EP0" eventType="touchUpInside" id="07j-GW-V7f"/>
-                                        </connections>
-                                    </button>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LIFE:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="agv-rG-qLi">
-                                        <rect key="frame" x="20" y="11" width="100" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8tR-ws-mrs">
                                         <rect key="frame" x="387" y="6" width="250" height="40"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8Oc-sF-xd2">
-                                        <rect key="frame" x="682" y="6" width="250" height="40"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="gdY-9e-2DQ">
-                                        <rect key="frame" x="125" y="8" width="188" height="36"/>
+                                        <rect key="frame" x="20" y="8" width="188" height="36"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                         <state key="normal" title="MAGIC STICK">
@@ -307,17 +283,14 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
                         <outlet property="addButton" destination="aXP-8F-hEj" id="HL9-zu-uo5"/>
-                        <outlet property="backButton" destination="ig9-KZ-Uot" id="IQg-gU-FhE"/>
                         <outlet property="background" destination="jLt-cX-sdO" id="cuq-gE-lZ9"/>
                         <outlet property="bottomStrip" destination="xkP-5Z-HhB" id="pAK-6c-BP4"/>
                         <outlet property="homeButton" destination="zsD-91-N22" id="0Il-k7-q0Q"/>
-                        <outlet property="lifeLabel" destination="agv-rG-qLi" id="sf7-tg-ovP"/>
                         <outlet property="magicStick" destination="gdY-9e-2DQ" id="iUh-iB-LBJ"/>
                         <outlet property="magicStickBtn" destination="2v8-2Z-06X" id="0J0-YK-mWT"/>
                         <outlet property="magicStickHolder" destination="2pb-ox-2NO" id="nqA-cI-TNg"/>
                         <outlet property="magicStickLabel" destination="ngR-Po-CXo" id="woY-dc-Wh9"/>
                         <outlet property="mailButton" destination="BNG-a1-NMy" id="O4r-L8-Js7"/>
-                        <outlet property="pointsEarned" destination="8Oc-sF-xd2" id="GkM-z4-f43"/>
                         <outlet property="saveBtn" destination="yfJ-ll-bby" id="s7j-Zz-GAg"/>
                         <outlet property="switchBtn" destination="OzG-is-W8j" id="r8T-Ag-UDI"/>
                         <outlet property="timerLabel" destination="8tR-ws-mrs" id="wPD-5k-Pl1"/>
@@ -500,7 +473,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Zj-MN-6Vy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2833" y="-4819"/>
+            <point key="canvasLocation" x="-2574" y="-4901"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="bR7-HY-xoV">
@@ -595,7 +568,6 @@
     <resources>
         <image name="Menu_bg" width="1024" height="768"/>
         <image name="advance_1" width="247" height="214"/>
-        <image name="bottom_back" width="32" height="32"/>
         <image name="bottom_strip" width="768" height="52"/>
         <image name="easy_1" width="247" height="214"/>
         <image name="home" width="50" height="50"/>

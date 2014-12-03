@@ -69,21 +69,6 @@
     return [[self.savedGameData objectForKey:kKKCurrentStage] intValue];
 }
 
--(void)setGamePoints:(NSInteger)points
-{
-    [self.savedGameData setObject:[NSNumber numberWithInteger:points] forKey:kKKpointsEarned];
-}
-
--(NSInteger)gamePoints
-{
-    return [[self.savedGameData objectForKey:kKKpointsEarned] intValue];
-}
-
--(void)setRemainingLife:(NSInteger)life
-{
-    [self.savedGameData setObject:[NSString stringWithFormat:@"%ld",(long)life] forKey:kKKCurrentLife];
-}
-
 -(void)setMagicStickUsageCount:(NSInteger)magicCount
 {
     [self.savedGameData setObject:[NSString stringWithFormat:@"%ld",(long)magicCount] forKey:kKKMagicStickUsage];

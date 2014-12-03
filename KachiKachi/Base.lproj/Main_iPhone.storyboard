@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="gRD-3w-1nl">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="gRD-3w-1nl">
     <dependencies>
-        <deployment defaultVersion="1792" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
         <!--Stage Select Controller-->
@@ -176,7 +176,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FDB-5T-ale" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-93" y="462"/>
+            <point key="canvasLocation" x="-166" y="414"/>
         </scene>
         <!--Level Select View Controller-->
         <scene sceneID="ZHd-6j-tF8">
@@ -394,39 +394,25 @@
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="9X9-Vo-45o">
-                                        <rect key="frame" x="530" y="2" width="28" height="28"/>
+                                        <rect key="frame" x="472" y="2" width="86" height="28"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="bottom_back">
-                                            <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="BACK">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
                                             <action selector="backButtonAction:" destination="FPz-Hv-Mii" eventType="touchUpInside" id="lh4-Je-nPp"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LIFE:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kIw-9N-qtr">
-                                        <rect key="frame" x="10" y="0.0" width="71" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2zb-dZ-0cP">
-                                        <rect key="frame" x="295" y="0.0" width="90" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7xP-Fa-JPo">
-                                        <rect key="frame" x="405" y="0.0" width="105" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                        <rect key="frame" x="204" y="0.0" width="160" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="WYg-5b-ovK">
-                                        <rect key="frame" x="91" y="0.0" width="117" height="30"/>
+                                        <rect key="frame" x="10" y="0.0" width="117" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                         <state key="normal" title="MAGIC STICK">
@@ -476,12 +462,10 @@
                         <outlet property="addButton" destination="1Wi-bP-wNp" id="CAT-V1-vWa"/>
                         <outlet property="background" destination="zZR-8P-vyu" id="fhS-ry-ClS"/>
                         <outlet property="bottomStrip" destination="Osr-tz-nfw" id="Bbh-Ji-eZc"/>
-                        <outlet property="lifeLabel" destination="kIw-9N-qtr" id="AfY-g2-Rzw"/>
                         <outlet property="magicStickBtn" destination="WqH-7v-JXc" id="xIv-Mx-AsF"/>
                         <outlet property="magicStickHolder" destination="0LD-hm-Vqu" id="ah7-4C-Jbk"/>
                         <outlet property="magicStickLabel" destination="ggw-Ay-xAZ" id="x1d-oC-77Y"/>
                         <outlet property="mailButton" destination="qur-xz-yni" id="fUi-KL-Z3K"/>
-                        <outlet property="pointsEarned" destination="7xP-Fa-JPo" id="E10-CP-MVA"/>
                         <outlet property="saveBtn" destination="h6w-27-4Se" id="LHL-35-Xae"/>
                         <outlet property="switchBtn" destination="6nE-oS-He4" id="J9P-WP-AUJ"/>
                         <outlet property="timerLabel" destination="2zb-dZ-0cP" id="Bs3-HK-dmF"/>
@@ -490,7 +474,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LxF-oB-cm7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-424" y="784"/>
+            <point key="canvasLocation" x="-428" y="806"/>
         </scene>
         <!--Custom Alert View Controller-->
         <scene sceneID="Qwt-BW-TQ4">
@@ -581,7 +565,6 @@
     <resources>
         <image name="Menu_bg" width="1024" height="768"/>
         <image name="advance_1" width="247" height="214"/>
-        <image name="bottom_back" width="32" height="32"/>
         <image name="bottom_strip" width="768" height="52"/>
         <image name="easy_1" width="247" height="214"/>
         <image name="home" width="50" height="50"/>

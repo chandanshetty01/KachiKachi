@@ -37,7 +37,6 @@ typedef enum {
     eGameWonAlertID = 100,
     eGameLostAlertID,
     eTutorialAlertID,
-    eUnlockNextLevelID,
     ePurchasePointsID
 }ALERT_ID;
 
@@ -57,7 +56,6 @@ static int testCounter = 0;
 @property(nonatomic,assign) BOOL isGameFinished;
 @property(nonatomic,weak) TTBase* topElement;
 @property (weak, nonatomic) IBOutlet UILabel *timerLabel;
-@property (weak, nonatomic) IBOutlet UILabel *pointsEarned;
 @property (weak, nonatomic) IBOutlet UIButton *magicStick;
 @property (assign, nonatomic) BOOL isMagicStickMode;
 @property (weak, nonatomic) IBOutlet UIButton *magicStickBtn;
@@ -87,10 +85,10 @@ typedef void (^completionBlk)(BOOL);
     _elements = [[NSMutableArray alloc] init];
     self.basketElements = [[NSMutableArray alloc] init];
     self.deletedElements = [[NSMutableArray alloc] init];
+    [self.homeButton setTitle:NSLocalizedString(@"BACK", "back") forState:UIControlStateNormal];
     
     self.currentLevel = [[KKGameStateManager sharedManager] currentLevelNumber];
     self.currentStage = [[KKGameStateManager sharedManager] currentStageNumber];
-    self.points = [[KKGameStateManager sharedManager] gamePoints];
     [self updatePointsEarned:0];
     
 #ifndef DEVELOPMENT_MODE
@@ -114,27 +112,11 @@ typedef void (^completionBlk)(BOOL);
     }
 #endif
 
-    self.gameMode = (EGAMEMODE)[[KKGameConfigManager sharedManager] gameModeForLevel:self.currentLevel stage:self.currentStage];
-    
-    _isGameFinished = FALSE;
-    self.noOfLifesRemaining = self.levelModel.life;
+        _isGameFinished = FALSE;
     self.duration = self.levelModel.duration;
     
-    CGRect pointsFrame = self.pointsEarned.frame;
-    if(self.gameMode == eTimerMode){
-        [self showTutorial:2];
-        [self updateTimer:self.levelModel.duration];
-    }
-    else{
-        self.pointsEarned.textAlignment = NSTextAlignmentCenter;
-        pointsFrame.origin.x = 387;
-        [self showTutorial:1];
-    }
-    
-    if(IS_IPAD){
-        self.pointsEarned.frame = pointsFrame;
-    }
-    
+    [self showTutorial:2];
+    [self updateTimer:self.levelModel.duration];
     [self addElements:NO];
     
 #ifdef DEVELOPMENT_MODE
@@ -154,12 +136,6 @@ typedef void (^completionBlk)(BOOL);
     [[SoundManager sharedManager] playMusic:@"lovesong"];
     [self updateUI];
     
-    if(self.gameMode == eTimerMode){
-    }
-    else{
-        self.timerLabel.hidden = YES;
-    }
-
     //testing code
 //    [[KKGameStateManager sharedManager] setMagicStickUsageCount:3];
     //till here
@@ -335,37 +311,29 @@ typedef void (^completionBlk)(BOOL);
 
 -(void)startTimer
 {
-    if(self.gameMode == eTimerMode){
-        self.timer = [[TimerObject alloc] initWithDuration:self.levelModel.duration fireInterval:1.0f];
-        [self.timer startTimer];
-        self.timer.delegate = self;
-        self.timerLabel.hidden = NO;
-    }
+    self.timer = [[TimerObject alloc] initWithDuration:self.levelModel.duration fireInterval:1.0f];
+    [self.timer startTimer];
+    self.timer.delegate = self;
+    self.timerLabel.hidden = NO;
 }
 
 -(void)stopTimer
 {
-    if(self.gameMode == eTimerMode){
-        if(self.timer){
-            [self.timer pauseTimer];
-            self.timer = nil;
-        }
+    if(self.timer){
+        [self.timer pauseTimer];
+        self.timer = nil;
     }
 }
 
 -(void)updatePointsEarned:(NSInteger)inPoints
 {
-    self.points = self.points + inPoints;
-    [[KKGameStateManager sharedManager] setGamePoints:self.points];
-    self.pointsEarned.text = [NSString stringWithFormat:NSLocalizedString(@"POINTSEARNED", nil),self.points];
+
 }
 
 -(void)updateTimer:(NSInteger)remainingTime
 {
-    if(self.gameMode == eTimerMode){
-        NSString *time = [NSString stringWithFormat:NSLocalizedString(@"TIME", @"time remainging %d"),(long)remainingTime];
-        [self.timerLabel setText:time];
-    }
+    NSString *time = [NSString stringWithFormat:NSLocalizedString(@"TIME", @"time remainging %d"),(long)remainingTime];
+    [self.timerLabel setText:time];
 }
 
 #pragma mark - Timer delegates -
@@ -387,10 +355,7 @@ typedef void (^completionBlk)(BOOL);
 -(void)postFlurry:(NSString*)status
 {
     NSMutableDictionary *levelInfo = [[NSMutableDictionary alloc] init];
-    if(self.gameMode == eTimerMode)
-        [levelInfo setObject:[NSNumber numberWithInt:(int)self.levelModel.duration] forKey:@"duration"];
     [levelInfo setObject:status forKey:@"status"];
-    [levelInfo setObject:[NSNumber numberWithInt:(int)self.levelModel.life] forKey:@"remaining_life"];
     
     NSString *key = [NSString stringWithFormat:@"Level(%@)Stage(%ld)",self.levelModel.name,(long)self.levelModel.stageID];
     [Flurry logEvent:key withParameters:levelInfo];
@@ -488,12 +453,6 @@ typedef void (^completionBlk)(BOOL);
         }
     }
     
-    if(gameOver == false && self.gameMode == eTimerMode)
-    {
-        if(self.levelModel.duration <= 0)
-            gameOver = true;
-    }
-    
     return gameOver;
 }
 
@@ -543,7 +502,7 @@ typedef void (^completionBlk)(BOOL);
 
 -(void)updateUI
 {
-    self.lifeLabel.text = [NSString stringWithFormat:NSLocalizedString(@"LIFE", nil),self.noOfLifesRemaining];
+    
 }
 
 -(void)saveLevelData
@@ -565,19 +524,6 @@ typedef void (^completionBlk)(BOOL);
     [[KKGameStateManager sharedManager]save];
 }
 
--(void)showUnlockAlert
-{
-    //Unlock Next Level
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"UNLOCK_NEXT_LEVEL", nil)
-                                                    message:NSLocalizedString(@"UNLOCK_TEXT", nil)
-                                                   delegate:self
-                                          cancelButtonTitle:NSLocalizedString(@"CANCEL", nil)
-                                          otherButtonTitles:NSLocalizedString(@"UNLOCK", nil), nil];
-    //[alert addButtonWithTitle:NSLocalizedString(@"REPLAY", nil)];
-    alert.tag = eUnlockNextLevelID;
-    [alert show];
-}
-
 -(void)showGameOverAlert:(NSDictionary*)data
 {
     [[SoundManager sharedManager] playSound:@"wrong" looping:NO];
@@ -596,7 +542,6 @@ typedef void (^completionBlk)(BOOL);
         //REPLAY
         //MAIN_MENU
         //UNLOCK_NEXT_LEVEL
-        [alertview addButtonWithTitle:NSLocalizedString(@"UNLOCK_NEXT_LEVEL", nil)];
         [alertview addButtonWithTitle:NSLocalizedString(@"REPLAY", nil)];
         [alertview showAlertWithTitle:NSLocalizedString(@"GAME_OVER", nil)
                               message:msg
@@ -604,7 +549,6 @@ typedef void (^completionBlk)(BOOL);
                          inController:self
                            completion:^(NSInteger index) {
                                if(index == 1){
-                                   [self showUnlockAlert];
                                }
                                else if(index == 0){
                                    [alertview removeController:^(NSInteger index) {
@@ -804,22 +748,16 @@ typedef void (^completionBlk)(BOOL);
         NSDictionary *data = @{@"msg":NSLocalizedString(@"GAME_OVER_MSG", nil)};
 
         BOOL canShowGameOverAlert = NO;
-        if (self.gameMode == eTimerMode) {
-            if(self.levelModel.duration <= 0){
-                data = @{@"msg":NSLocalizedString(@"GAME_OVER_MSG_TIME", nil)};
-                canShowGameOverAlert = YES;
-            }
-        }
 
-        self.noOfLifesRemaining--;
-        self.levelModel.life = self.noOfLifesRemaining;
-        [[KKGameStateManager sharedManager] setRemainingLife:self.noOfLifesRemaining];
         [[SoundManager sharedManager] playSound:@"wrong" looping:NO];
         [self updateUI];
         
+        /*
+         //removed life
         if(self.noOfLifesRemaining <= 0){
             canShowGameOverAlert = YES;
         }
+         */
         
         if(canShowGameOverAlert){
             [self postFlurry:@"LOST"];
@@ -892,32 +830,6 @@ typedef void (^completionBlk)(BOOL);
 -(NSInteger)getStarWon
 {
     NSInteger newStar = 1;
-    NSInteger life = [[KKGameConfigManager sharedManager] noOfLifesInLevel:self.currentLevel stage:self.currentStage];
-    CGFloat lifePercentage = ((self.levelModel.life)/(CGFloat)life)*100;
-    
-    if(self.gameMode == eTimerMode){
-        CGFloat duration = [[KKGameConfigManager sharedManager] durationForLevel:self.currentLevel stage:self.currentStage];
-        CGFloat timeRemainingPercentage = ((self.levelModel.duration)/(CGFloat)duration)*100;
-
-        if((timeRemainingPercentage >= 25 && lifePercentage >= 66) || (lifePercentage == 100) || (timeRemainingPercentage >=50 )){
-            newStar = 3;
-           }
-        else if((timeRemainingPercentage >= 25 && timeRemainingPercentage <= 50) || (timeRemainingPercentage <= 25 && lifePercentage >= 66)){
-            newStar = 2;
-        }
-        else{
-            newStar = 1;
-        }
-    }
-    else{
-        if(lifePercentage >= 100)
-            newStar = 3;
-        else if(lifePercentage >= 50)
-            newStar = 2;
-        else
-            newStar = 1;
-    }
-    
     return newStar;
 }
 
@@ -1106,116 +1018,6 @@ typedef void (^completionBlk)(BOOL);
     [self.navigationController popViewControllerAnimated:YES];
 }
 
--(void)purchase:(PURCHASEPOINTS_ID)inID
-{
-    NSString *featureID = nil;
-    if(inID == ePurchasePoints100ID)
-        featureID = kBuy100Points;
-    else if(inID == ePurchasePoints200ID)
-        featureID = kBuy200Points;
-    else
-        featureID = kBuy400Points;
-
-    [[MKStoreManager sharedManager] buyFeature:featureID
-                                    onComplete:^(NSString* purchasedFeature,
-                                                 NSData* purchasedReceipt,
-                                                 NSArray* availableDownloads)
-     {
-         [[KKGameStateManager sharedManager] setCanRemoveAds:YES];
-         [Flurry logEvent:[NSString stringWithFormat:@"Bought %@",featureID]];
-         [self provideContent:inID];
-     }
-                                   onCancelled:^
-     {
-         [Flurry logEvent:[NSString stringWithFormat:@"Cancelled Buying %@",featureID]];
-     }];
-}
-
--(void)provideContent:(PURCHASEPOINTS_ID)inID
-{
-    NSInteger points = 100;
-    if(inID == ePurchasePoints100ID){
-        points = 100;
-    }
-    else if(inID == ePurchasePoints200ID){
-        points = 200;
-    }
-    else if(inID == ePurchasePoints400ID){
-        points = 400;
-    }
-    [self updatePointsEarned:points];
-    
-    NSString *msg = [NSString stringWithFormat:NSLocalizedString(@"POINTS_SUCCESS_MSG", nil),points,[[KKGameStateManager sharedManager] gamePoints]];
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"POINTS_SUCCESS", nil)
-                                                    message:msg
-                                                   delegate:nil
-                                          cancelButtonTitle:NSLocalizedString(@"OK", nil)
-                                          otherButtonTitles:nil];
-    [alert show];
-}
-
--(void)unlockNextLevelThroughPoints
-{
-    if(self.points >= kPointsToUnlockLevel){
-        
-        NSMutableDictionary *dictionary = [NSMutableDictionary dictionary];
-        [dictionary setObject:[NSString stringWithFormat:@"%ld:%ld",(long)self.currentLevel,(long)self.currentStage] forKey:@"level"];
-        [Flurry logEvent:@"unlocklevel_byPoints" withParameters:dictionary];
-
-        [self updatePointsEarned:-kPointsToUnlockLevel];
-        [self unlockNextLevel];
-        [self saveGame];
-        [self stopTimer];
-        _isGameFinished = NO;
-        [self moveToLevelSelectScene];
-    }
-    else{
-        NSString *money1 = @"0.99$";
-        NSString *money2 = @"1.99$";
-        NSString *money3 = @"2.99$";
-
-        SKProduct *product = nil;
-        product = [[Utility sharedManager] productWithID:kBuy100Points];
-        if(product){
-            NSNumberFormatter *numberFormatter = [[NSNumberFormatter alloc] init];
-            [numberFormatter setFormatterBehavior:NSNumberFormatterBehavior10_4];
-            [numberFormatter setNumberStyle:NSNumberFormatterCurrencyStyle];
-            [numberFormatter setLocale:product.priceLocale];
-            money1 = [numberFormatter stringFromNumber:product.price];
-        }
-        
-        product = [[Utility sharedManager] productWithID:kBuy200Points];
-        if(product){
-            NSNumberFormatter *numberFormatter = [[NSNumberFormatter alloc] init];
-            [numberFormatter setFormatterBehavior:NSNumberFormatterBehavior10_4];
-            [numberFormatter setNumberStyle:NSNumberFormatterCurrencyStyle];
-            [numberFormatter setLocale:product.priceLocale];
-            money2 = [numberFormatter stringFromNumber:product.price];
-        }
-        
-        product = [[Utility sharedManager] productWithID:kBuy400Points];
-        if(product){
-            NSNumberFormatter *numberFormatter = [[NSNumberFormatter alloc] init];
-            [numberFormatter setFormatterBehavior:NSNumberFormatterBehavior10_4];
-            [numberFormatter setNumberStyle:NSNumberFormatterCurrencyStyle];
-            [numberFormatter setLocale:product.priceLocale];
-            money3 = [numberFormatter stringFromNumber:product.price];
-        }
-        
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"NO_POINTS_TITLE", nil)
-                                                        message:NSLocalizedString(@"NO_POINTS", nil)
-                                                       delegate:self
-                                              cancelButtonTitle:nil
-                                              otherButtonTitles:nil];
-        [alert addButtonWithTitle:[NSString stringWithFormat:NSLocalizedString(@"BUY_POINTS", "Buy %d Points for %@"),100,money1]];
-        [alert addButtonWithTitle:[NSString stringWithFormat:NSLocalizedString(@"BUY_POINTS", "Buy %d Points for %@"),200,money2]];
-        [alert addButtonWithTitle:[NSString stringWithFormat:NSLocalizedString(@"BUY_POINTS", "Buy %d Points for %@"),400,money3]];
-        [alert addButtonWithTitle:NSLocalizedString(@"CANCEL", nil)];
-        alert.tag = ePurchasePointsID;
-        [alert show];
-    }
-}
-
 -(KKLevelModal*)currentLevelData
 {
     KKLevelModal *levelModel = nil;
@@ -1267,7 +1069,6 @@ typedef void (^completionBlk)(BOOL);
     self.levelModel.isLevelUnlocked = YES;
     self.levelModel.isLevelCompleted = NO;
     self.levelModel.noOfStars = noOfStars;
-    self.noOfLifesRemaining = self.levelModel.life;
     self.duration = self.levelModel.duration;
     
     [self addElements:YES];
@@ -1305,55 +1106,13 @@ typedef void (^completionBlk)(BOOL);
             }
         }
             break;
-
-        case eUnlockNextLevelID:{
-            switch (buttonIndex) {
-                case 0:{
-                    //Cancel
-                }
-                    break;
-                case 1:{
-                    [self unlockNextLevelThroughPoints];
-                }
-                    break;
-                    
-                default:
-                    break;
-            }
-        }
-            break;
             
         case eTutorialAlertID:
         {
             [self startTimer];
         }
             break;
-            
-        case ePurchasePointsID:{
-            switch (buttonIndex) {
-                case 0:{
-                    [self purchase:ePurchasePoints100ID];
-                }
-                    break;
-                case 1:{
-                    [self purchase:ePurchasePoints200ID];
-                }
-                    break;
-                case 2:{
-                    [self purchase:ePurchasePoints400ID];
-                }
-                    break;
-                case 3:{
-
-                }
-                    break;
-                    
-                default:
-                    break;
-            }
-
-        }
-            
+                        
         default:
             break;
     }

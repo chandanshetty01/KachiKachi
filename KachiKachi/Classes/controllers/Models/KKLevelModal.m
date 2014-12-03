@@ -24,7 +24,6 @@
         self.menuIconImage = [data objectForKey:@"menuImage"];
         self.baskets = [data objectForKey:@"baskets"];
         self.backgroundImage = [data objectForKey:@"background"];
-        self.life = [[data objectForKey:@"life"] intValue];
         self.items = [NSMutableArray array];
         [[data objectForKey:@"elements"] enumerateObjectsUsingBlock:^(NSMutableDictionary *obj, NSUInteger idx, BOOL *stop) {
             KKItemModal *item = [[KKItemModal alloc] initWithDictionary:obj];
@@ -34,7 +33,6 @@
         self.isLevelCompleted = [[data objectForKey:@"isLevelCompleted"] boolValue];
         self.isLevelUnlocked = [[data objectForKey:@"isLevelUnlocked"] boolValue];
         self.duration = [[data objectForKey:@"duration"] intValue];
-        self.gameMode = [[data objectForKey:@"gameMode"] intValue];
         self.name = [data objectForKey:@"name"];
         self.soundfile = [data objectForKey:@"sound"];
     }
@@ -54,14 +52,12 @@
         [dict setObject:self.baskets forKey:@"baskets"];
     if(self.backgroundImage)
         [dict setObject:self.backgroundImage forKey:@"background"];
-    [dict setObject:[NSString stringWithFormat:@"%ld",(long)self.life] forKey:@"life"];
     [dict setObject:[NSNumber numberWithInt:(int)self.noOfStars] forKey:@"stars"];
     [dict setObject:[NSNumber numberWithBool:self.isLevelCompleted] forKey:@"isLevelCompleted"];
     [dict setObject:[NSNumber numberWithBool:self.isLevelUnlocked] forKey:@"isLevelUnlocked"];
     [dict setObject:[NSString stringWithFormat:@"%ld",(long)self.levelID] forKey:@"ID"];
     [dict setObject:self.menuIconImage forKey:@"menuImage"];
     [dict setObject:[NSString stringWithFormat:@"%ld",(long)self.duration] forKey:@"duration"];
-    [dict setObject:[NSString stringWithFormat:@"%d",self.gameMode] forKey:@"gameMode"];
     [dict setObject:self.name forKey:@"name"];
     [dict setObject:self.soundfile forKey:@"sound"];
 

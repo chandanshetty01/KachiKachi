@@ -2906,15 +2906,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SDKROOT)/usr/lib/system",
 					"$(PROJECT_DIR)/KachiKachi/ThirdParty/Flurry",
 					"$(PROJECT_DIR)/KachiKachi/ThirdParty/UserVoice",
 					"$(PROJECT_DIR)/KachiKachi/ThirdParty/AF-iOS-SDK-v2.5.3.10",
-					/Users/chandanshettysp/Downloads/Flurry,
-					iPad,
-					SDK,
-					viPad,
-					"5.4.0/Flurry-iOS-5.4.0/Flurry",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "6c7097a9-9a67-4f89-aada-605f41e3ef8c";
@@ -2944,15 +2938,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SDKROOT)/usr/lib/system",
 					"$(PROJECT_DIR)/KachiKachi/ThirdParty/Flurry",
 					"$(PROJECT_DIR)/KachiKachi/ThirdParty/UserVoice",
 					"$(PROJECT_DIR)/KachiKachi/ThirdParty/AF-iOS-SDK-v2.5.3.10",
-					/Users/chandanshettysp/Downloads/Flurry,
-					iPad,
-					SDK,
-					viPad,
-					"5.4.0/Flurry-iOS-5.4.0/Flurry",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "ad379d95-af48-4d3c-82a5-f538db932a0d";

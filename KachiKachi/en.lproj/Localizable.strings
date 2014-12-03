@@ -48,6 +48,7 @@
 "BUY" = "Buy";
 "RESTORE" = "Restore";
 "OK" = "Ok";
+"BACK" = "BACK";
 
 "ERROR" = "Unknown Error";
 
