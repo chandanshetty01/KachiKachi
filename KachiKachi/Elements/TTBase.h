@@ -29,6 +29,7 @@ typedef void (^completionBlk)(BOOL);
 @property(nonatomic,assign) CGMutablePathRef objectPath;
 @property(nonatomic,strong) completionBlk completionBlk;
 @property(nonatomic,assign) BOOL isPicked;
+@property(nonatomic,assign) BOOL isHighlighted;
 
 -(BOOL)canHandleTouch:(CGPoint)center radius:(CGFloat)radius;
 - (void)initWithModal:(KKItemModal*)itemModal;

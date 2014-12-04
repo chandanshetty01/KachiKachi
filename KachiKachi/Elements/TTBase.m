@@ -264,8 +264,16 @@
     CGContextStrokePath(context);
 }
 
+-(void)setIsHighlighted:(BOOL)isHighlighted
+{
+    if(!_isHighlighted){
+        [self showHighlightAnimation];
+    }
+    _isHighlighted = isHighlighted;
+}
+
 - (void)drawRect:(CGRect)rect
-{    
+{
     if(self.selected){
         [_image drawInRect:rect blendMode:kCGBlendModeColor alpha:0.7f];
     }
@@ -277,14 +285,26 @@
     [self drawPolygon:self.touchPoints];
 #endif
 
-    [super drawRect:rect];
+    //[super drawRect:rect];
 }
 
 - (void)setPickedObjectPosition
 {
     self.alpha = 0;
 }
- 
+
+-(void)showHighlightAnimation
+{
+    CGFloat animationInterval = 0.5f;
+    [UIView animateWithDuration:animationInterval
+                          delay:0.0f
+                        options:UIViewAnimationOptionAutoreverse|UIViewAnimationOptionRepeat|UIViewAnimationOptionAllowUserInteraction|UIViewAnimationOptionCurveEaseInOut
+                     animations:^{
+                         self.alpha = 0.5;
+                     }
+                     completion:nil];
+}
+
 -(void)showAnimation:(completionBlk)completionBlk
 {
     CGFloat animationInterval = 0.3f;

@@ -55,14 +55,15 @@ static int testCounter = 0;
 @property(nonatomic,strong) NSMutableArray *basketElements;
 @property(nonatomic,assign) BOOL isGameFinished;
 @property(nonatomic,weak) TTBase* topElement;
-@property (weak, nonatomic) IBOutlet UILabel *timerLabel;
-@property (weak, nonatomic) IBOutlet UIButton *magicStick;
-@property (assign, nonatomic) BOOL isMagicStickMode;
-@property (weak, nonatomic) IBOutlet UIButton *magicStickBtn;
-@property (strong, nonatomic)  TTMagicStick *magicStickAnimation;
+@property(weak, nonatomic) IBOutlet UILabel *timerLabel;
+@property(weak, nonatomic) IBOutlet UIButton *magicStick;
+@property(assign, nonatomic) BOOL isMagicStickMode;
+@property(weak, nonatomic) IBOutlet UIButton *magicStickBtn;
+@property(strong, nonatomic)  TTMagicStick *magicStickAnimation;
 @property(nonatomic,assign)NSInteger magicStickCounter;
-@property (weak, nonatomic) IBOutlet UIView *magicStickHolder;
-@property (weak, nonatomic) IBOutlet UILabel *magicStickLabel;
+@property(weak, nonatomic) IBOutlet UIView *magicStickHolder;
+@property(weak, nonatomic) IBOutlet UILabel *magicStickLabel;
+@property(nonatomic,assign) NSInteger wrongPickCount;
 @end
 
 typedef void (^completionBlk)(BOOL);
@@ -82,6 +83,8 @@ typedef void (^completionBlk)(BOOL);
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    self.wrongPickCount = 0;
     _elements = [[NSMutableArray alloc] init];
     self.basketElements = [[NSMutableArray alloc] init];
     self.deletedElements = [[NSMutableArray alloc] init];
@@ -446,11 +449,18 @@ typedef void (^completionBlk)(BOOL);
         NSInteger index = [_elements indexOfObject:element];
         if(currentElementIndex < index && !self.isMagicStickMode)
         {
-            [_currentElement shakeAnimation];
-            self.currentElement = nil;
             gameOver = true;
             break;
         }
+    }
+    
+    if(gameOver){
+        [_currentElement shakeAnimation];
+        [self updateWrongPick];
+        self.currentElement = nil;
+    }
+    else{
+        self.wrongPickCount = 0;
     }
     
     return gameOver;
@@ -741,25 +751,45 @@ typedef void (^completionBlk)(BOOL);
     [self saveLevelData];
 }
 
+-(void)highlightTopObject
+{
+    NSEnumerator *enumerator = [_elements reverseObjectEnumerator];
+    for (TTBase *obj in enumerator) {
+        if(!obj.isPicked){
+            obj.isHighlighted = YES;
+            break;
+        }
+    }
+}
+
+-(void)updateWrongPick
+{
+    NSInteger wrongObjCount = 3;
+    if(self.currentStage == 1){
+        if(self.currentLevel == 1){
+            wrongObjCount = 1;
+        }
+        else if(self.currentLevel == 2){
+            wrongObjCount = 2;
+        }
+    }
+    
+    self.wrongPickCount++;
+    if(self.wrongPickCount == wrongObjCount){
+        [self highlightTopObject];
+        self.wrongPickCount = 0;
+    }
+}
+
 -(void)validateGamePlay:(completionBlk)block
 {
     if([self isGameOver] && !_isGameFinished)
     {
         NSDictionary *data = @{@"msg":NSLocalizedString(@"GAME_OVER_MSG", nil)};
-
-        BOOL canShowGameOverAlert = NO;
-
         [[SoundManager sharedManager] playSound:@"wrong" looping:NO];
         [self updateUI];
         
-        /*
-         //removed life
-        if(self.noOfLifesRemaining <= 0){
-            canShowGameOverAlert = YES;
-        }
-         */
-        
-        if(canShowGameOverAlert){
+        if(NO){
             [self postFlurry:@"LOST"];
             [self stopTimer];
             self.currentElement = nil;
