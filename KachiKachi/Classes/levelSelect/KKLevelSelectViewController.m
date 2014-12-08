@@ -16,6 +16,7 @@
 @interface KKLevelSelectViewController ()
 
 @property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
+@property(nonatomic,strong) NSMutableArray *levels;
 
 @end
 
@@ -26,41 +27,17 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
+    if ([self.navigationController respondsToSelector:@selector(interactivePopGestureRecognizer)]) {
+        self.navigationController.interactivePopGestureRecognizer.enabled = NO;
+    }
+    
     [self loadLevelsForStage];
 }
 
 -(void)loadLevelsForStage
 {
-    self.levelModals = nil;
-    self.levelModals = [NSMutableArray array];
-    
-    NSMutableDictionary *levels = [[KKGameStateManager sharedManager] levelsDictionary:self.currentStage];
-    
-    NSArray *keys = [levels keysSortedByValueUsingComparator: ^(NSDictionary *obj1, NSDictionary *obj2) {
-        int val1 = [[obj1 objectForKey:@"ID"] intValue];
-        int val2 = [[obj2 objectForKey:@"ID"] intValue];
-        if(val1 > val2)
-            return NSOrderedDescending;
-        else if(val1 < val2)
-            return NSOrderedAscending;
-        else
-            return NSOrderedSame;
-        
-    }];
-    
-    [keys enumerateObjectsUsingBlock:^(NSString *key, NSUInteger idx, BOOL *stop) {
-        NSMutableDictionary *level = [levels objectForKey:key];
-        KKLevelModal *levelModel = [[KKLevelModal alloc] initWithDictionary:level];
-        levelModel.stageID =  self.currentStage;
-        [self.levelModals addObject:levelModel];
-    }];
-    
+    self.levels = [[KKGameStateManager sharedManager] levels];
     [self.collectionView reloadData];
-}
-
--(void)viewDidAppear:(BOOL)animated
-{
-    [self loadLevelsForStage];
 }
 
 - (IBAction)backButtonAction:(id)sender
@@ -74,35 +51,15 @@
 
 -(KKLevelModal*)currentLevelData:(NSInteger)levelID
 {
-    NSMutableDictionary *levelDict = [[KKGameStateManager sharedManager] gameData:levelID stage:self.currentStage];
-#ifdef DEVELOPMENT_MODE
-    levelDict = nil;
-#endif
-    if(levelDict == nil)
-    {
-        KKLevelModal *levelModel = nil;
-        KKGameConfigManager *config = [KKGameConfigManager sharedManager];
-        NSDictionary *tLevel = [config levelWithID:levelID andStage:self.currentStage];
-        levelModel = [[KKLevelModal alloc] initWithDictionary:tLevel];
-        levelModel.levelID = levelID;
-        levelModel.stageID =  self.currentStage;
-        return levelModel;
-    }
-    else
-    {
-        KKLevelModal *levelModel = nil;
-        levelModel = [[KKLevelModal alloc] initWithDictionary:levelDict];
-        levelModel.levelID = levelID;
-        levelModel.stageID =  self.currentStage;
-        return levelModel;
-    }
+    return [self.levels objectAtIndex:levelID];
 }
 
 #pragma mark - UICollectionView methods -
 
 
-- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
-    return self.levelModals.count;
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
+{
+    return self.levels.count;
 }
 
 -(void)updateStarsView:(KKCollectionViewCell*)cell andModal:(KKLevelModal*)levelModal
@@ -133,19 +90,18 @@
     }
 }
 
-- (UICollectionViewCell *)collectionView:(UICollectionView *)inCollectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
+- (UICollectionViewCell *)collectionView:(UICollectionView *)inCollectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
+{
     static NSString *identifier = @"collectionViewCell";
     KKCollectionViewCell *cell = [inCollectionView dequeueReusableCellWithReuseIdentifier:identifier forIndexPath:indexPath];
     cell.tag = [indexPath row];
-    
-    KKLevelModal *level = [self.levelModals objectAtIndex:[indexPath row]];
-    cell.tag = level.levelID;
-    //setImage:[UIImage imageNamed:level.menuIconImage] forState:UIControlStateNormal
-    [cell.menuImage setImage:[UIImage imageNamed:level.menuIconImage]];
+    KKLevelModal *levelModel = [self currentLevelData:cell.tag];
+    cell.tag = levelModel.levelID;
+    [cell.menuImage setImage:[UIImage imageNamed:levelModel.menuIconImage]];
     cell.menuImage.contentMode = UIViewContentModeScaleAspectFit;
-    [self updateStarsView:cell andModal:level];
+    [self updateStarsView:cell andModal:levelModel];
     
-    if(level.isLevelUnlocked){
+    if(levelModel.isLevelUnlocked){
         cell.lockHolderView.hidden = YES;
     }
     else{
@@ -187,10 +143,9 @@
 #endif
         if(isLevelUnlocked){
             nextVC.levelModel = [self currentLevelData:btn.tag];
-            [[KKGameStateManager sharedManager] setCurrentLevel:btn.tag andStage:self.currentStage];
+            [KKGameStateManager sharedManager].currentLevel = btn.tag;
         }
     }
-
 }
 
 - (void)didReceiveMemoryWarning

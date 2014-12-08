@@ -13,6 +13,7 @@
 #import "UserVoice.h"
 #import "KKMailComposerManager.h"
 #import "Utility.h"
+#import "GeneralSettings.h"
 
 @interface KKStageSelectController ()
 
@@ -46,9 +47,9 @@
     [self.rateusBtn setTitle:NSLocalizedString(@"RATE_US", nil) forState:UIControlStateNormal];
     [self.howToPlayButton setTitle:NSLocalizedString(@"HOW_TO_PLAY", nil) forState:UIControlStateNormal];
     
-    BOOL isOn = [[KKGameStateManager sharedManager] isSoundEnabled];
+    BOOL isOn = [[GeneralSettings sharedManager] isSoundEnabled];
     [self.soundSwitch setOn:isOn];
-    isOn = [[KKGameStateManager sharedManager] isMusicEnabled];
+    isOn = [[GeneralSettings sharedManager] isMusicEnabled];
     [self.musicSwitch setOn:isOn];
 }
 
@@ -91,7 +92,7 @@
 {
     [[SoundManager sharedManager] playSound:@"tap" looping:NO];
 
-    [[KKGameStateManager sharedManager] setMusicEnabled:sender.isOn];
+    [[GeneralSettings sharedManager] setMusicEnabled:sender.isOn];
     
     if(sender.isOn)
         [self playMusic];
@@ -101,7 +102,7 @@
 
 - (IBAction)handleSoundSwitchBtn:(UISwitch *)sender
 {
-    [[KKGameStateManager sharedManager] setSoundEnabled:sender.isOn];
+    [[GeneralSettings sharedManager] setSoundEnabled:sender.isOn];
     [[SoundManager sharedManager] playSound:@"tap" looping:NO];
 }
 
@@ -225,7 +226,8 @@
     
     if([MKStoreManager isFeaturePurchased:featureID])
     {
-        self.currentStage = stageID;
+        [self loadStage:stageID];
+        
         if(stageID == 2){
             [self performSegueWithIdentifier:@"stage2Seague" sender:self];
         }
@@ -259,21 +261,27 @@
      }];
 }
 
+-(void)loadStage:(NSInteger)stageID
+{
+    [KKGameStateManager sharedManager].currentStage = stageID;
+    [[KKGameStateManager sharedManager] loadData];
+}
+
 - (BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(UIButton*)sender
 {
     [[SoundManager sharedManager] playSound:@"tap" looping:NO];
 
 #ifdef ENABLE_ALL_LEVELS
-    self.currentStage = sender.tag;
+    [KKGameStateManager sharedManager].currentStage = sender.tag;
     return YES;
 #endif
     
     NSInteger stage = sender.tag;
-    BOOL isLocked = [[KKGameStateManager sharedManager] isStageLocked:stage];
+    BOOL isLocked = [[GeneralSettings sharedManager] isStageLocked:sender.tag];
     if(!isLocked)
     {
         [Flurry logEvent:[NSString stringWithFormat:@"StageSelect-%ld(Selected)",(long)stage]];
-        self.currentStage = sender.tag;
+        [self loadStage:sender.tag];
         return YES;
     }
     else
@@ -288,7 +296,7 @@
         
         if([MKStoreManager isFeaturePurchased:featureID])
         {
-            self.currentStage = sender.tag;
+            [self loadStage:sender.tag];
             return YES;
         }
         else
@@ -300,8 +308,8 @@
     return NO;
 }
 
-- (IBAction)handleShareButton:(id)sender {
-    
+- (IBAction)handleShareButton:(id)sender
+{
     [[SoundManager sharedManager] playSound:@"tap" looping:NO];
 
     // Fill out the email body text
@@ -320,12 +328,6 @@
                                                              if(index == 1){
                                                                  //sent
                                                                  [Flurry logEvent:@"tellafriend_mailsent"];
-                                                                 NSInteger sharePoints = [[KKGameStateManager sharedManager] getSharePointsCount];
-                                                                 if(sharePoints > 0){
-                                                                     NSInteger gamepoints = [[KKGameStateManager sharedManager] gamePoints];
-                                                                     [[KKGameStateManager sharedManager] setGamePoints:gamepoints+10];
-                                                                     [[KKGameStateManager sharedManager] setSharePoint:sharePoints-1];
-                                                                 }
                                                              }
                                                          }];
 }
@@ -335,9 +337,7 @@
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    KKLevelSelectViewController *nextVC = (KKLevelSelectViewController *)[segue destinationViewController];
-    if([nextVC respondsToSelector:@selector(setCurrentStage:)])
-        nextVC.currentStage = self.currentStage;
+    
 }
 
 - (void)didReceiveMemoryWarning

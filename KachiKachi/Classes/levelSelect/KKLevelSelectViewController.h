@@ -8,11 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import "KKLevelModal.h"
+#import "StageModel.h"
 
 @interface KKLevelSelectViewController : UIViewController
-
-@property(nonatomic,assign) NSInteger currentStage;
-@property(nonatomic,strong) NSMutableArray *levelModals;
-@property(nonatomic,strong) KKLevelModal *levelModal;
-
+{
+    
+}
 @end

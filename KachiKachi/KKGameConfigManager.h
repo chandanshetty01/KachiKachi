@@ -8,24 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
-const NSString *kGrid_size;
-const NSString *kCell_size;
-const NSString *kLevels;
-const NSString *kElements;
-const NSString *kNoOfLevels;
-const NSString *kNoOfItems;
-
 @interface KKGameConfigManager : NSObject
 
-+(id)sharedManager;
++(KKGameConfigManager*)sharedManager;
+
+-(NSDictionary*)levelWithID:(NSInteger)levelID andStage:(NSInteger)stageID;
 -(NSDictionary*)stageWithID:(NSInteger)stageID;
--(NSDictionary*)levelWithID:(NSInteger)inLevelID andStage:(NSInteger)stageID;
--(NSDictionary*)getAllLevels:(NSInteger)stageID;
--(NSInteger)noOfLifesInLevel:(NSInteger)levelID stage:(NSInteger)stageID;
--(NSInteger)durationForLevel:(NSInteger)levelID stage:(NSInteger)stageID;
--(BOOL)isStageLocked:(NSInteger)stage;
--(NSInteger)totalNumberOfLevelsInStage:(NSInteger)stage;
--(NSDictionary*)initialGameConfiguration;
--(NSInteger)gameModeForLevel:(NSInteger)levelID stage:(NSInteger)stageID;
 @end
 

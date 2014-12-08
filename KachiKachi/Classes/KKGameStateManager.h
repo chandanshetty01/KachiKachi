@@ -12,34 +12,13 @@
 {
     
 }
+@property(nonatomic,assign)NSInteger currentLevel;
+@property(nonatomic,assign)NSInteger currentStage;
 
-+(id)sharedManager;
++(KKGameStateManager*)sharedManager;
+-(void)loadData;
+-(void)saveData;
 
--(NSInteger)currentLevelNumber;
--(NSInteger)currentStageNumber;
--(BOOL)isStageLocked:(NSInteger)stage;
--(void)unlockStage:(NSInteger)stage;
--(void)setCurrentLevel:(NSInteger)currentLevel andStage:(NSInteger)stage;
--(void)markUnlocked:(NSInteger)level stage:(NSInteger)stage;
--(void)markCompleted:(NSInteger)level stage:(NSInteger)stage;
--(void)setData:(NSMutableDictionary*)data level:(NSInteger)level stage:(NSInteger)stage;
--(BOOL)isLevelUnlocked:(NSInteger)level stage:(NSInteger)stage;
--(BOOL)isLevelCompleted:(NSInteger)level stage:(NSInteger)stage;
--(NSMutableDictionary*)gameData:(NSInteger)level stage:(NSInteger)stage;
--(NSMutableDictionary*)levelsDictionary:(NSInteger)stage;
--(void)setMagicStickUsageCount:(NSInteger)magicCount;
--(NSInteger)getmagicStickUsageCount;
--(NSInteger)getSharePointsCount;
--(void)setSharePoint:(NSInteger)count;
--(void)setCanRemoveAds:(BOOL)canRemoveAds;
--(BOOL)getCanRemoveAds;
-
--(BOOL)isMusicEnabled;
--(void)setMusicEnabled:(BOOL)value;
--(BOOL)isSoundEnabled;
--(void)setSoundEnabled:(BOOL)value;
-
--(void)save;
--(void)load;
+-(NSMutableArray*)levels;
 
 @end

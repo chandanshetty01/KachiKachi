@@ -21,4 +21,7 @@
 
 -(SKProduct*)productWithID:(NSString*)inID;
 
++(NSString*)documentsDirectory;
++(NSInteger)saveData:(NSDictionary*)dictionary fileName:(NSString*)fileName;
++(NSDictionary*)loadData:(NSString*)fileName;
 @end

@@ -8,20 +8,6 @@
 
 #import "KKGameConfigManager.h"
 
-
-const NSString *kLevels = @"levels";
-const NSString *kElements = @"elements";
-const NSString *kNoOfLevels = @"noOfLevels";
-const NSString *kItem = @"item";
-const NSString *kLevel = @"level";
-const NSString *kNoOfItems = @"noOfItems";
-
-@interface KKGameConfigManager ()
-
-@property(nonatomic,strong) NSDictionary *configuration;
-
-@end
-
 @implementation KKGameConfigManager
 
 + (id) sharedManager
@@ -34,100 +20,32 @@ const NSString *kNoOfItems = @"noOfItems";
     return _sharedObject;
 }
 
--(id)init
+-(NSDictionary*)getData:(NSString*)fileName
 {
-    self =[super init];
-    if(self)
+    NSString *strplistPath = nil;
+    strplistPath = [[NSBundle mainBundle] pathForResource:fileName ofType:@"plist"];
+    NSData *plistXML = [[NSFileManager defaultManager] contentsAtPath:strplistPath];
+    NSString *strerrorDesc = nil;
+    NSPropertyListFormat plistFormat;
+    // convert static property liost into dictionary object
+    NSDictionary *data = (NSDictionary *)[NSPropertyListSerialization propertyListFromData:plistXML mutabilityOption:NSPropertyListMutableContainersAndLeaves format:&plistFormat errorDescription:&strerrorDesc];
+    if (!data)
     {
-        NSString *strplistPath = nil;
-        if (IS_IPAD) {
-            strplistPath = [[NSBundle mainBundle] pathForResource:@"GameData" ofType:@"plist"];
-        }
-        else{
-            strplistPath = [[NSBundle mainBundle] pathForResource:@"GameData_iPhone" ofType:@"plist"];
-        }
-
-        NSData *plistXML = [[NSFileManager defaultManager] contentsAtPath:strplistPath];
-        
-        NSString *strerrorDesc = nil;
-        NSPropertyListFormat plistFormat;
-        // convert static property liost into dictionary object
-        _configuration = (NSDictionary *)[NSPropertyListSerialization propertyListFromData:plistXML mutabilityOption:NSPropertyListMutableContainersAndLeaves format:&plistFormat errorDescription:&strerrorDesc];
-        if (!_configuration)
-        {
-            NSLog(@"Error reading plist: %@, format: %lu", strerrorDesc, (unsigned long)plistFormat);
-        }
+        NSLog(@"Error reading plist: %@, format: %lu", strerrorDesc, (unsigned long)plistFormat);
     }
-    return self;
-}
-
--(NSDictionary*)initialGameConfiguration
-{
-    return _configuration;
-}
-
--(NSDictionary*)stageWithID:(NSInteger)stageID
-{
-    NSMutableDictionary *stage = nil;
-    stage = [_configuration objectForKey:[NSString stringWithFormat:@"stage%ld",(long)stageID]];
-    return stage;
-}
-
--(BOOL)isStageLocked:(NSInteger)stage
-{
-    NSDictionary *stageDict = [self stageWithID:stage];
-    if(stageDict)
-        return [[stageDict objectForKey:@"locked"] boolValue];
-    else
-        return false;
-}
-
--(NSInteger)totalNumberOfLevelsInStage:(NSInteger)stage
-{
-    NSDictionary *levels = [self getAllLevels:stage];
-    return [[levels allKeys] count];
-}
-
--(NSDictionary*)getAllLevels:(NSInteger)stageID
-{
-    NSMutableDictionary *levels = nil;
-    
-    NSDictionary *stage = [self stageWithID:stageID];
-    if(stage){
-        levels = [stage objectForKey:@"levels"];
-    }
-    
-    return levels;
-}
-
--(NSInteger)noOfLifesInLevel:(NSInteger)levelID stage:(NSInteger)stageID
-{
-    NSDictionary *level = [self levelWithID:levelID andStage:stageID];
-    return [[level objectForKey:@"life"] integerValue];
-}
-
--(NSInteger)durationForLevel:(NSInteger)levelID stage:(NSInteger)stageID
-{
-    NSDictionary *level = [self levelWithID:levelID andStage:stageID];
-    return [[level objectForKey:@"duration"] integerValue];
-}
-
--(NSInteger)gameModeForLevel:(NSInteger)levelID stage:(NSInteger)stageID
-{
-    NSDictionary *level = [self levelWithID:levelID andStage:stageID];
-    return [[level objectForKey:@"gameMode"] integerValue];
+    return data;
 }
 
 -(NSDictionary*)levelWithID:(NSInteger)levelID andStage:(NSInteger)stageID
 {
-    NSMutableDictionary *level = nil;
-    NSDictionary *tLevels = [self getAllLevels:stageID];
-    NSDictionary *levels = [[NSDictionary alloc] initWithDictionary:tLevels];
-    if(levels){
-        level = [levels objectForKey:[NSString stringWithFormat:@"level%ld",(long)levelID]];
-    }
-    return level;
+    NSDictionary *data = [self getData:[NSString stringWithFormat:@"level_%ld_%ld",stageID,levelID]];
+    return data;
 }
 
+-(NSDictionary*)stageWithID:(NSInteger)stageID
+{
+    NSDictionary *data = [self getData:[NSString stringWithFormat:@"stage_%ld",stageID]];
+    return data;
+}
 
 @end

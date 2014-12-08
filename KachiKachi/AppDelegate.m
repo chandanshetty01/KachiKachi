@@ -37,7 +37,6 @@
     
     //Push notification
     [[PushAppsManager sharedInstance] startPushAppsWithAppToken:@"d351895a-97db-4d1b-8af6-28e594481633" withLaunchOptions:launchOptions];
-    
     [self setUpAppsFlyer:uniqueIdentifier];
     
     return YES;

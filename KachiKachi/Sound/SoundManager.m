@@ -32,7 +32,7 @@
 
 
 #import "SoundManager.h"
-#import "KKGameStateManager.h"
+#import "GeneralSettings.h"
 
 #pragma GCC diagnostic ignored "-Wobjc-missing-property-synthesis"
 #pragma GCC diagnostic ignored "-Wdirect-ivar-access"
@@ -447,7 +447,7 @@ NSString *const SoundDidFinishPlayingNotification = @"SoundDidFinishPlayingNotif
 
 - (void)prepareToPlay
 {
-    if([[KKGameStateManager sharedManager] isMusicEnabled] == NO)
+    if([[GeneralSettings sharedManager] isMusicEnabled] == NO)
         return;
     
     @autoreleasepool
@@ -498,7 +498,7 @@ NSString *const SoundDidFinishPlayingNotification = @"SoundDidFinishPlayingNotif
 
 - (void)playMusic:(id)soundOrName looping:(BOOL)looping
 {
-    if([[KKGameStateManager sharedManager] isMusicEnabled] == NO)
+    if([[GeneralSettings sharedManager] isMusicEnabled] == NO)
         return;
     
     [self playMusic:soundOrName looping:looping fadeIn:YES];
@@ -506,7 +506,7 @@ NSString *const SoundDidFinishPlayingNotification = @"SoundDidFinishPlayingNotif
 
 - (void)playMusic:(id)soundOrName
 {
-    if([[KKGameStateManager sharedManager] isMusicEnabled] == NO)
+    if([[GeneralSettings sharedManager] isMusicEnabled] == NO)
         return;
     
     [self playMusic:soundOrName looping:YES fadeIn:YES];
@@ -552,7 +552,7 @@ NSString *const SoundDidFinishPlayingNotification = @"SoundDidFinishPlayingNotif
 
 - (void)playSound:(id)soundOrName looping:(BOOL)looping
 {
-    if([[KKGameStateManager sharedManager] isSoundEnabled] == NO)
+    if([[GeneralSettings sharedManager] isSoundEnabled] == NO)
         return;
     
     [self playSound:soundOrName looping:looping fadeIn:NO];
@@ -560,7 +560,7 @@ NSString *const SoundDidFinishPlayingNotification = @"SoundDidFinishPlayingNotif
 
 - (void)playSound:(id)soundOrName
 {
-    if([[KKGameStateManager sharedManager] isSoundEnabled] == NO)
+    if([[GeneralSettings sharedManager] isSoundEnabled] == NO)
         return;
     
     [self playSound:soundOrName looping:NO fadeIn:NO];

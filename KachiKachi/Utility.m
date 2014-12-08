@@ -20,6 +20,26 @@
     return _sharedObject;
 }
 
++(NSString*)documentsDirectory
+{
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    return [paths objectAtIndex:0];
+}
+
++(NSInteger)saveData:(NSDictionary*)dictionary fileName:(NSString*)fileName
+{
+    NSDictionary *data = [[NSDictionary alloc] initWithDictionary:dictionary];
+    NSString *path = [NSString stringWithFormat:@"%@/%@.plist",[Utility documentsDirectory], fileName];
+    BOOL status = [data writeToFile:path atomically:YES];
+    return status;
+}
+
++(NSDictionary*)loadData:(NSString*)fileName
+{
+    NSString *path = [NSString stringWithFormat:@"%@/%@.plist",[Utility documentsDirectory], fileName];
+    return [NSDictionary dictionaryWithContentsOfFile:path];
+}
+
 +(double)getDot:(CGPoint)a secondPoint:(CGPoint)b
 {
     return (a.x*b.x) + (a.y*b.y);

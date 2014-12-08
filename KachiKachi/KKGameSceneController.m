@@ -21,6 +21,8 @@
 #import "KKCustomAlertViewController.h"
 #import "Utility.h"
 #import "TTMagicStick.h"
+#import "InstantMessageManager.h"
+#import "GeneralSettings.h"
 
 #define RANDOM_INT(__MIN__, __MAX__) ((__MIN__) + random() % ((__MAX__+1) - (__MIN__)))
 #define RADIANS(degrees) ((degrees * M_PI) / 180.0)
@@ -90,12 +92,12 @@ typedef void (^completionBlk)(BOOL);
     self.deletedElements = [[NSMutableArray alloc] init];
     [self.homeButton setTitle:NSLocalizedString(@"BACK", "back") forState:UIControlStateNormal];
     
-    self.currentLevel = [[KKGameStateManager sharedManager] currentLevelNumber];
-    self.currentStage = [[KKGameStateManager sharedManager] currentStageNumber];
+    self.currentLevel = [KKGameStateManager sharedManager].currentLevel;
+    self.currentStage = [KKGameStateManager sharedManager].currentStage;
     [self updatePointsEarned:0];
     
 #ifndef DEVELOPMENT_MODE
-    BOOL canRemoveAds = [[KKGameStateManager sharedManager] getCanRemoveAds];
+    BOOL canRemoveAds = [[GeneralSettings sharedManager] getCanRemoveAds];
     if([MKStoreManager isFeaturePurchased:kTimedMode] || [MKStoreManager isFeaturePurchased:kAdvancedMode] || canRemoveAds){
         //If purchased do not show any Ads
     }
@@ -220,7 +222,7 @@ typedef void (^completionBlk)(BOOL);
 
 -(void)updateMagicStic
 {
-    NSInteger usageCount = [[KKGameStateManager sharedManager] getmagicStickUsageCount];
+    NSInteger usageCount = [[GeneralSettings sharedManager] getmagicStickUsageCount];
     NSString *title = [NSString stringWithFormat:NSLocalizedString(@"MAGIC_STICK",nil),usageCount];
     [self.magicStick setTitle:title forState:UIControlStateNormal];
     self.magicStickLabel.text = [NSString stringWithFormat:@"%ld",(long)usageCount];
@@ -237,7 +239,7 @@ typedef void (^completionBlk)(BOOL);
     if(self.isMagicStickMode)
         return;
     
-    NSInteger usageCount = [[KKGameStateManager sharedManager] getmagicStickUsageCount];
+    NSInteger usageCount = [[GeneralSettings sharedManager] getmagicStickUsageCount];
     NSString *name = @"Main_iPad";
     if(!IS_IPAD){
         name = @"Main_iPhone";
@@ -255,7 +257,7 @@ typedef void (^completionBlk)(BOOL);
                                if(index == 0){
                                    [Flurry logEvent:@"magicstick_used"];
                                    self.isMagicStickMode = YES;
-                                   [[KKGameStateManager sharedManager] setMagicStickUsageCount:usageCount-1];
+                                   [[GeneralSettings sharedManager] setMagicStickUsageCount:usageCount-1];
                                    self.magicStickCounter = kMagicStickUsageCount;
                                }
                            }];
@@ -434,6 +436,18 @@ typedef void (^completionBlk)(BOOL);
     }
 }
 
+-(void)showMessage:(TTBase*)object
+{
+    static int i = 0;
+    if(i == 0){
+        [[InstantMessageManager sharedManager] showMessage:@"SELECT TOP OBJECT"
+                                                    inView:self.view
+                                                  duration:3
+                                                      rect:CGRectMake(object.center.x, object.center.y, 120, 20)];
+        //i++;
+    }
+}
+
 -(BOOL)isGameOver
 {
     BOOL gameOver = FALSE;
@@ -518,7 +532,6 @@ typedef void (^completionBlk)(BOOL);
 -(void)saveLevelData
 {
     NSMutableDictionary *levelDict = [self.levelModel savedDictionary];
-    
     if([self.elements count] > 0)
     {
         NSMutableArray *elements = [NSMutableArray array];
@@ -528,78 +541,7 @@ typedef void (^completionBlk)(BOOL);
         }];
         [levelDict setObject:elements forKey:@"elements"];
     }
-    
-    [[KKGameStateManager sharedManager] setData:levelDict level:self.currentLevel stage:self.currentStage];
-    
     [[KKGameStateManager sharedManager]save];
-}
-
--(void)showGameOverAlert:(NSDictionary*)data
-{
-    [[SoundManager sharedManager] playSound:@"wrong" looping:NO];
-    NSString *msg = [data objectForKey:@"msg"];
-    NSString *name = @"Main_iPad";
-    if(!IS_IPAD){
-        name = @"Main_iPhone";
-    }
-    UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:name bundle:nil];
-    KKCustomAlertViewController *alertview = [storyBoard instantiateViewControllerWithIdentifier:@"KKCustomAlertViewController"];
-    alertview.view.tag = 1;
-    alertview.canDismissOnButtonPress = NO;
-    
-    BOOL isNextLevelUnlocked = [self isNextLevelUnlocked];
-    if(!isNextLevelUnlocked){
-        //REPLAY
-        //MAIN_MENU
-        //UNLOCK_NEXT_LEVEL
-        [alertview addButtonWithTitle:NSLocalizedString(@"REPLAY", nil)];
-        [alertview showAlertWithTitle:NSLocalizedString(@"GAME_OVER", nil)
-                              message:msg
-                          buttonTitle:NSLocalizedString(@"MAIN_MENU", nil)
-                         inController:self
-                           completion:^(NSInteger index) {
-                               if(index == 1){
-                               }
-                               else if(index == 0){
-                                   [alertview removeController:^(NSInteger index) {
-                                       //Main Menu
-                                       _isGameFinished = NO;
-                                       [self moveToLevelSelectScene];
-                                   }];
-                               }
-                               else if(index == 2){
-                                   [alertview removeController:^(NSInteger index) {
-                                       //Main Menu
-                                       _isGameFinished = NO;
-                                       [self replayLevel];
-                                   }];
-                               }
-                           }];
-    }
-    else{
-        [alertview addButtonWithTitle:NSLocalizedString(@"REPLAY", nil)];
-        [alertview showAlertWithTitle:NSLocalizedString(@"GAME_OVER", nil)
-                              message:msg
-                          buttonTitle:NSLocalizedString(@"MAIN_MENU", nil)
-                         inController:self
-                           completion:^(NSInteger index) {
-                               if(index == 0){
-                                   [alertview removeController:^(NSInteger index) {
-                                       //Main Menu
-                                       _isGameFinished = NO;
-                                       [self moveToLevelSelectScene];
-                                   }];
-                               }
-                               else if(index == 1){
-                                   [alertview removeController:^(NSInteger index) {
-                                       //Main Menu
-                                       _isGameFinished = NO;
-                                       [self replayLevel];
-                                   }];
-                               }
-                           }];
-    }
-
 }
 
 #pragma mark - social integration
@@ -757,6 +699,7 @@ typedef void (^completionBlk)(BOOL);
     for (TTBase *obj in enumerator) {
         if(!obj.isPicked){
             obj.isHighlighted = YES;
+            [self showMessage:obj];
             break;
         }
     }
@@ -785,21 +728,8 @@ typedef void (^completionBlk)(BOOL);
 {
     if([self isGameOver] && !_isGameFinished)
     {
-        NSDictionary *data = @{@"msg":NSLocalizedString(@"GAME_OVER_MSG", nil)};
         [[SoundManager sharedManager] playSound:@"wrong" looping:NO];
         [self updateUI];
-        
-        if(NO){
-            [self postFlurry:@"LOST"];
-            [self stopTimer];
-            self.currentElement = nil;
-            _isGameFinished = YES;
-            NSInteger stars = self.levelModel.noOfStars;
-            [self restartGame];
-            self.levelModel.noOfStars = stars;
-            [self saveGame];
-            [self performSelector:@selector(showGameOverAlert:) withObject:data afterDelay:0.5];
-        }
         block(YES);
     }
     else if([self isGameWon])
@@ -871,11 +801,11 @@ typedef void (^completionBlk)(BOOL);
     
     if(newStar == 3){
         //get a magic stic
-        NSInteger count = [[KKGameStateManager sharedManager] getmagicStickUsageCount];
+        NSInteger count = [[GeneralSettings sharedManager] getmagicStickUsageCount];
         count = count+1;
         if(count > kMaxMagicStick)
             count = kMaxMagicStick;
-        [[KKGameStateManager sharedManager] setMagicStickUsageCount:count];
+        [[GeneralSettings sharedManager] setMagicStickUsageCount:count];
     }
 
     if (newStar > oldStar) {
@@ -899,20 +829,6 @@ typedef void (^completionBlk)(BOOL);
     self.levelModel.isLevelCompleted = isLevelCompleted;
 }
 
--(BOOL)isNextLevelUnlocked
-{
-    BOOL isUnlocked = NO;
-    NSInteger nextlevel = self.currentLevel+1;
-    NSInteger noOfLevels = [[KKGameConfigManager sharedManager] totalNumberOfLevelsInStage:self.currentStage];
-    if(nextlevel <= noOfLevels){
-        isUnlocked = [[KKGameStateManager sharedManager] isLevelUnlocked:self.currentLevel+1 stage:self.currentStage];
-    }
-    else{
-        isUnlocked = ![[KKGameStateManager sharedManager] isStageLocked:self.currentStage+1];
-    }
-    return isUnlocked;
-}
-
 -(void)unlockNextLevel
 {
     //Dont reset the entire thing... just reset items
@@ -926,15 +842,7 @@ typedef void (^completionBlk)(BOOL);
     self.levelModel.isLevelCompleted = YES;
     
     self.levelModel.duration = [[KKGameConfigManager sharedManager] durationForLevel:self.currentLevel stage:self.currentStage];
-    NSInteger nextlevel = self.currentLevel+1;
-    NSInteger noOfLevels = [[KKGameConfigManager sharedManager] totalNumberOfLevelsInStage:self.currentStage];
-    if(nextlevel <= noOfLevels){
-        [[KKGameStateManager sharedManager] markUnlocked:self.currentLevel stage:self.currentStage];
-        [[KKGameStateManager sharedManager] markUnlocked:self.currentLevel+1 stage:self.currentStage];
-    }
-    else{
-        [[KKGameStateManager sharedManager] unlockStage:self.currentStage+1];
-    }
+    [[KKGameStateManager sharedManager] unlock];
 }
 
 -(NSMutableArray*)intersectedElements:(TTBase*)currentElement
@@ -1165,6 +1073,7 @@ typedef void (^completionBlk)(BOOL);
 
 - (void)dealloc
 {
+    [[InstantMessageManager sharedManager] removeAllMessages];
     self.currentElement = nil;
     [self removeAllElements];
 }
