@@ -38,7 +38,7 @@
 
 -(NSDictionary*)levelWithID:(NSInteger)levelID andStage:(NSInteger)stageID
 {
-    NSDictionary *data = [self getData:[NSString stringWithFormat:@"level_%ld_%ld",stageID,levelID]];
+    NSDictionary *data = [self getData:[NSString stringWithFormat:@"stage_%ld_level_%ld",stageID,levelID]];
     return data;
 }
 

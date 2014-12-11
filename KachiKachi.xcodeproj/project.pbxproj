@@ -396,6 +396,18 @@
 		A38222E819756B5E00D7A856 /* iRate.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A38222E519756B5E00D7A856 /* iRate.bundle */; };
 		A38222E919756B5E00D7A856 /* iRate.m in Sources */ = {isa = PBXBuildFile; fileRef = A38222E719756B5E00D7A856 /* iRate.m */; };
 		A397E6B51A35E681006CB77B /* GeneralSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = A397E6B41A35E681006CB77B /* GeneralSettings.m */; };
+		A397E6C21A38A588006CB77B /* stage_1_level_1.plist in Resources */ = {isa = PBXBuildFile; fileRef = A397E6B61A38A588006CB77B /* stage_1_level_1.plist */; };
+		A397E6C31A38A588006CB77B /* stage_1_level_2.plist in Resources */ = {isa = PBXBuildFile; fileRef = A397E6B71A38A588006CB77B /* stage_1_level_2.plist */; };
+		A397E6C41A38A588006CB77B /* stage_1_level_3.plist in Resources */ = {isa = PBXBuildFile; fileRef = A397E6B81A38A588006CB77B /* stage_1_level_3.plist */; };
+		A397E6C51A38A588006CB77B /* stage_1_level_4.plist in Resources */ = {isa = PBXBuildFile; fileRef = A397E6B91A38A588006CB77B /* stage_1_level_4.plist */; };
+		A397E6C61A38A588006CB77B /* stage_1_level_5.plist in Resources */ = {isa = PBXBuildFile; fileRef = A397E6BA1A38A588006CB77B /* stage_1_level_5.plist */; };
+		A397E6C71A38A588006CB77B /* stage_1_level_6.plist in Resources */ = {isa = PBXBuildFile; fileRef = A397E6BB1A38A588006CB77B /* stage_1_level_6.plist */; };
+		A397E6C81A38A588006CB77B /* stage_1_level_7.plist in Resources */ = {isa = PBXBuildFile; fileRef = A397E6BC1A38A588006CB77B /* stage_1_level_7.plist */; };
+		A397E6C91A38A588006CB77B /* stage_1_level_8.plist in Resources */ = {isa = PBXBuildFile; fileRef = A397E6BD1A38A588006CB77B /* stage_1_level_8.plist */; };
+		A397E6CA1A38A588006CB77B /* stage_1_level_9.plist in Resources */ = {isa = PBXBuildFile; fileRef = A397E6BE1A38A588006CB77B /* stage_1_level_9.plist */; };
+		A397E6CB1A38A588006CB77B /* stage_1_level_10.plist in Resources */ = {isa = PBXBuildFile; fileRef = A397E6BF1A38A588006CB77B /* stage_1_level_10.plist */; };
+		A397E6CC1A38A588006CB77B /* stage_1_level_11.plist in Resources */ = {isa = PBXBuildFile; fileRef = A397E6C01A38A588006CB77B /* stage_1_level_11.plist */; };
+		A397E6CD1A38A588006CB77B /* stage_1_level_12.plist in Resources */ = {isa = PBXBuildFile; fileRef = A397E6C11A38A588006CB77B /* stage_1_level_12.plist */; };
 		A3A67E791902B67700BFAF7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3A67E781902B67700BFAF7B /* Foundation.framework */; };
 		A3A67E7B1902B67700BFAF7B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3A67E7A1902B67700BFAF7B /* CoreGraphics.framework */; };
 		A3A67E7D1902B67700BFAF7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3A67E7C1902B67700BFAF7B /* UIKit.framework */; };
@@ -917,6 +929,18 @@
 		A38222E719756B5E00D7A856 /* iRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iRate.m; sourceTree = "<group>"; };
 		A397E6B31A35E681006CB77B /* GeneralSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralSettings.h; sourceTree = "<group>"; };
 		A397E6B41A35E681006CB77B /* GeneralSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralSettings.m; sourceTree = "<group>"; };
+		A397E6B61A38A588006CB77B /* stage_1_level_1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_1_level_1.plist; sourceTree = "<group>"; };
+		A397E6B71A38A588006CB77B /* stage_1_level_2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_1_level_2.plist; sourceTree = "<group>"; };
+		A397E6B81A38A588006CB77B /* stage_1_level_3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_1_level_3.plist; sourceTree = "<group>"; };
+		A397E6B91A38A588006CB77B /* stage_1_level_4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_1_level_4.plist; sourceTree = "<group>"; };
+		A397E6BA1A38A588006CB77B /* stage_1_level_5.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_1_level_5.plist; sourceTree = "<group>"; };
+		A397E6BB1A38A588006CB77B /* stage_1_level_6.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_1_level_6.plist; sourceTree = "<group>"; };
+		A397E6BC1A38A588006CB77B /* stage_1_level_7.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_1_level_7.plist; sourceTree = "<group>"; };
+		A397E6BD1A38A588006CB77B /* stage_1_level_8.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_1_level_8.plist; sourceTree = "<group>"; };
+		A397E6BE1A38A588006CB77B /* stage_1_level_9.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_1_level_9.plist; sourceTree = "<group>"; };
+		A397E6BF1A38A588006CB77B /* stage_1_level_10.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_1_level_10.plist; sourceTree = "<group>"; };
+		A397E6C01A38A588006CB77B /* stage_1_level_11.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_1_level_11.plist; sourceTree = "<group>"; };
+		A397E6C11A38A588006CB77B /* stage_1_level_12.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_1_level_12.plist; sourceTree = "<group>"; };
 		A3A67E751902B67700BFAF7B /* KachiKachi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KachiKachi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3A67E781902B67700BFAF7B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A3A67E7A1902B67700BFAF7B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -1160,6 +1184,18 @@
 				A311D4FB1A35DF0300EEDB3F /* stage_1.plist */,
 				A311D4FC1A35DF0300EEDB3F /* stage_2.plist */,
 				A311D4FD1A35DF0300EEDB3F /* stage_3.plist */,
+				A397E6B61A38A588006CB77B /* stage_1_level_1.plist */,
+				A397E6B71A38A588006CB77B /* stage_1_level_2.plist */,
+				A397E6B81A38A588006CB77B /* stage_1_level_3.plist */,
+				A397E6B91A38A588006CB77B /* stage_1_level_4.plist */,
+				A397E6BA1A38A588006CB77B /* stage_1_level_5.plist */,
+				A397E6BB1A38A588006CB77B /* stage_1_level_6.plist */,
+				A397E6BC1A38A588006CB77B /* stage_1_level_7.plist */,
+				A397E6BD1A38A588006CB77B /* stage_1_level_8.plist */,
+				A397E6BE1A38A588006CB77B /* stage_1_level_9.plist */,
+				A397E6BF1A38A588006CB77B /* stage_1_level_10.plist */,
+				A397E6C01A38A588006CB77B /* stage_1_level_11.plist */,
+				A397E6C11A38A588006CB77B /* stage_1_level_12.plist */,
 			);
 			path = levels;
 			sourceTree = "<group>";
@@ -2310,6 +2346,7 @@
 				48E71B301979A81900A2E7E8 /* star.wav in Resources */,
 				A37367F419BC2430009EC675 /* iPh_umb23.png in Resources */,
 				A37367DE19BC2430009EC675 /* iPh_candle14.png in Resources */,
+				A397E6C81A38A588006CB77B /* stage_1_level_7.plist in Resources */,
 				A37367AF19BC2430009EC675 /* iPh_icecream15.png in Resources */,
 				A37367F119BC2430009EC675 /* iPh_umb19.png in Resources */,
 				A373676619BC2430009EC675 /* iPh_pencil 13.png in Resources */,
@@ -2371,9 +2408,11 @@
 				A30516C019C3F047009ABD85 /* iPh_brush5.png in Resources */,
 				A37367E219BC2430009EC675 /* iPh_candle29.png in Resources */,
 				A38222DD197261AA00D7A856 /* MKStoreKitConfigs.plist in Resources */,
+				A397E6CD1A38A588006CB77B /* stage_1_level_12.plist in Resources */,
 				A3042F5B19C363E100B011E1 /* iPh_ball34.png in Resources */,
 				A373674C19BC2430009EC675 /* iPh_carrot9.png in Resources */,
 				A373677319BC2430009EC675 /* iP_pen_14.png in Resources */,
+				A397E6C61A38A588006CB77B /* stage_1_level_5.plist in Resources */,
 				A373683519BC8D66009EC675 /* iPh_kite7.png in Resources */,
 				A373671119BC2430009EC675 /* iPh_apple_bg.png in Resources */,
 				A373679219BC2430009EC675 /* iPh_book3.png in Resources */,
@@ -2442,6 +2481,7 @@
 				A373685A19BF3CE3009EC675 /* iPh_Bottlebg.png in Resources */,
 				A360192B19B5FB44005DBD86 /* Images-2.xcassets in Resources */,
 				A37367B619BC2430009EC675 /* iPh_icecream4.png in Resources */,
+				A397E6C21A38A588006CB77B /* stage_1_level_1.plist in Resources */,
 				A373687419BF5807009EC675 /* iph_cd7.png in Resources */,
 				A373674319BC2430009EC675 /* iPh_carrot24.png in Resources */,
 				A373672B19BC2430009EC675 /* iPh_balloon8.png in Resources */,
@@ -2461,6 +2501,7 @@
 				A37367E119BC2430009EC675 /* iPh_candle21.png in Resources */,
 				A373673319BC2430009EC675 /* iPh_bird23.png in Resources */,
 				A3042F5419C363E100B011E1 /* iPh_ball13.png in Resources */,
+				A397E6C31A38A588006CB77B /* stage_1_level_2.plist in Resources */,
 				48E71B2E1979A81900A2E7E8 /* lovesong.mp3 in Resources */,
 				A373677B19BC2430009EC675 /* iP_pen_9.png in Resources */,
 				48E71B2A1979A81900A2E7E8 /* fish.wav in Resources */,
@@ -2468,6 +2509,7 @@
 				A37367EF19BC2430009EC675 /* iPh_umb17.png in Resources */,
 				A373672719BC2430009EC675 /* iPh_balloon4.png in Resources */,
 				A373680C19BC2430009EC675 /* iPh_star22.png in Resources */,
+				A397E6C71A38A588006CB77B /* stage_1_level_6.plist in Resources */,
 				A3042F5F19C363E100B011E1 /* iPh_ball5.png in Resources */,
 				A373685619BF3CE3009EC675 /* iPh_Bottle6.png in Resources */,
 				A373674A19BC2430009EC675 /* iPh_carrot6.png in Resources */,
@@ -2509,6 +2551,7 @@
 				A37367ED19BC2430009EC675 /* iPh_umb13.png in Resources */,
 				A31B484B1971A81D00EF6BF8 /* UserVoice.strings in Resources */,
 				A3042F6919C36C1E00B011E1 /* iph_candle_container.png in Resources */,
+				A397E6CB1A38A588006CB77B /* stage_1_level_10.plist in Resources */,
 				A373673719BC2430009EC675 /* iPh_bird35.png in Resources */,
 				A373683419BC8D66009EC675 /* iPh_kite4.png in Resources */,
 				A37367FF19BC2430009EC675 /* iPh_umb_bg.png in Resources */,
@@ -2549,6 +2592,7 @@
 				A37367D519BC2430009EC675 /* iPh_candy7.png in Resources */,
 				A373679D19BC2430009EC675 /* iph_fish1.png in Resources */,
 				A373681719BC2430009EC675 /* iPh_star_bg.jpg in Resources */,
+				A397E6CA1A38A588006CB77B /* stage_1_level_9.plist in Resources */,
 				A373673B19BC2430009EC675 /* iPh_bird40.png in Resources */,
 				A373672519BC2430009EC675 /* iPh_balloon31.png in Resources */,
 				A3EF579A19C1E60500A1AB85 /* iPh_key16.png in Resources */,
@@ -2614,6 +2658,7 @@
 				A373670919BC2430009EC675 /* iPh_apple1.png in Resources */,
 				A373670D19BC2430009EC675 /* iPh_apple4.png in Resources */,
 				A373681619BC2430009EC675 /* iPh_star8.png in Resources */,
+				A397E6C41A38A588006CB77B /* stage_1_level_3.plist in Resources */,
 				A3042F6619C3682800B011E1 /* iph_bird_hunter.png in Resources */,
 				A373684F19BF3CE3009EC675 /* iPh_Bottle14.png in Resources */,
 				A3B3C4EC1961B52700B62BD4 /* InfoPlist.strings in Resources */,
@@ -2641,6 +2686,7 @@
 				A373676919BC2430009EC675 /* iPh_pencil 5.png in Resources */,
 				A373686D19BF5807009EC675 /* iph_cd11.png in Resources */,
 				A3EF579B19C1E60500A1AB85 /* iPh_key2.png in Resources */,
+				A397E6C91A38A588006CB77B /* stage_1_level_8.plist in Resources */,
 				A37367DB19BC2430009EC675 /* iPh_candle11.png in Resources */,
 				A373676119BC2430009EC675 /* iPh_flower8_right.png in Resources */,
 				A37367E019BC2430009EC675 /* iPh_candle18.png in Resources */,
@@ -2662,6 +2708,8 @@
 				A373679119BC2430009EC675 /* iPh_book2.png in Resources */,
 				A373680919BC2430009EC675 /* iPh_star17.png in Resources */,
 				A373671219BC2430009EC675 /* iPh_apple_tree.png in Resources */,
+				A397E6C51A38A588006CB77B /* stage_1_level_4.plist in Resources */,
+				A397E6CC1A38A588006CB77B /* stage_1_level_11.plist in Resources */,
 				A373675F19BC2430009EC675 /* iPh_flower6_right.png in Resources */,
 				A37367F619BC2430009EC675 /* iPh_umb25.png in Resources */,
 				A373676019BC2430009EC675 /* iPh_flower7_left.png in Resources */,

@@ -19,7 +19,7 @@
 "GAME_OVER_MSG_TIME" = "You have ran out of TIME!";
 
 "LIFE" = "LIFE: %d";
-"TIME" = "TIME: %d";
+"SCORE" = "SCORE: %d";
 
 "FB_SHARE_MSG" = "Check out KachiKachi, I have just completed level %@ in %@ mode";
 "FB_NOT_CONFIGURED_TITLE" = "Facebook is not configured";

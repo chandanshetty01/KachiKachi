@@ -16,27 +16,43 @@
     self = [super init];
     if (self) {
         self.levelID = [[data objectForKey:@"ID"] intValue];
+        
         NSNumber *stars = [data objectForKey:@"stars"];
-        if(stars)
+        if(stars){
             self.noOfStars = [stars intValue];
-        else
+        }
+        else{
             self.noOfStars = -1;
+        }
+        
         self.menuIconImage = [data objectForKey:@"menuImage"];
-        self.baskets = [data objectForKey:@"baskets"];
+        self.isLevelCompleted = [[data objectForKey:@"isLevelCompleted"] boolValue];
+        self.isLevelUnlocked = [[data objectForKey:@"isLevelUnlocked"] boolValue];
+        self.name = [data objectForKey:@"name"];
+        self.duration = [[data objectForKey:@"duration"] intValue];
+        self.soundfile = [data objectForKey:@"sound"];
         self.backgroundImage = [data objectForKey:@"background"];
+        self.score = [[data objectForKey:@"score"] integerValue];
+    }
+    return self;
+}
+
+-(void)updateWithDictionary:(NSDictionary*)data
+{
+    id baskets = [data objectForKey:@"baskets"];
+    if(baskets){
+        self.baskets = baskets;
+    }
+    
+    id elements = [data objectForKey:@"elements"];
+    if(elements){
         self.items = [NSMutableArray array];
-        [[data objectForKey:@"elements"] enumerateObjectsUsingBlock:^(NSMutableDictionary *obj, NSUInteger idx, BOOL *stop) {
+        [elements enumerateObjectsUsingBlock:^(NSMutableDictionary *obj, NSUInteger idx, BOOL *stop) {
             KKItemModal *item = [[KKItemModal alloc] initWithDictionary:obj];
             if(item)
                 [self.items addObject:item];
         }];
-        self.isLevelCompleted = [[data objectForKey:@"isLevelCompleted"] boolValue];
-        self.isLevelUnlocked = [[data objectForKey:@"isLevelUnlocked"] boolValue];
-        self.duration = [[data objectForKey:@"duration"] intValue];
-        self.name = [data objectForKey:@"name"];
-        self.soundfile = [data objectForKey:@"sound"];
     }
-    return self;
 }
 
 -(NSMutableDictionary*)savedDictionary
@@ -60,6 +76,7 @@
     [dict setObject:[NSString stringWithFormat:@"%ld",(long)self.duration] forKey:@"duration"];
     [dict setObject:self.name forKey:@"name"];
     [dict setObject:self.soundfile forKey:@"sound"];
+    [dict setObject:[NSNumber numberWithInteger:self.score] forKey:@"score"];
 
     return dict;
 }

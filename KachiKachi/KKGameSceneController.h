@@ -30,6 +30,6 @@
 @property (weak, nonatomic) IBOutlet UIView *bottomStrip;
 @property (weak, nonatomic) IBOutlet UIButton *addButton;
 @property (nonatomic,assign) NSInteger duration;
-@property (nonatomic,strong) TimerObject *timer;
 @property (nonatomic,strong) iAdViewController *adViewController;
+
 @end

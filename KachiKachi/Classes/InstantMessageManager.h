@@ -11,7 +11,11 @@
 @interface InstantMessageManager : NSObject
 
 +(id)sharedManager;
--(void)showMessage:(NSString*)message inView:(UIView*)view duration:(NSInteger)duration rect:(CGRect)rect;
 -(void)removeAllMessages;
-
+-(void)showMessage:(NSString*)message
+            inView:(UIView*)view
+          duration:(NSInteger)duration
+              rect:(CGRect)rect
+             color:(UIColor*)color
+              font:(UIFont*)font;
 @end

@@ -96,7 +96,6 @@
     KKCollectionViewCell *cell = [inCollectionView dequeueReusableCellWithReuseIdentifier:identifier forIndexPath:indexPath];
     cell.tag = [indexPath row];
     KKLevelModal *levelModel = [self currentLevelData:cell.tag];
-    cell.tag = levelModel.levelID;
     [cell.menuImage setImage:[UIImage imageNamed:levelModel.menuIconImage]];
     cell.menuImage.contentMode = UIViewContentModeScaleAspectFit;
     [self updateStarsView:cell andModal:levelModel];
@@ -143,7 +142,7 @@
 #endif
         if(isLevelUnlocked){
             nextVC.levelModel = [self currentLevelData:btn.tag];
-            [KKGameStateManager sharedManager].currentLevel = btn.tag;
+            [KKGameStateManager sharedManager].currentLevel = modal.levelID;
         }
     }
 }

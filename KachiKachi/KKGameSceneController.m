@@ -66,6 +66,10 @@ static int testCounter = 0;
 @property(weak, nonatomic) IBOutlet UIView *magicStickHolder;
 @property(weak, nonatomic) IBOutlet UILabel *magicStickLabel;
 @property(nonatomic,assign) NSInteger wrongPickCount;
+@property(nonatomic,assign) NSInteger score;
+@property(nonatomic,assign)NSTimeInterval oldTimeInterval;
+@property(nonatomic,assign)NSInteger winningStreak;
+@property(nonatomic,assign)BOOL topObjectSelected;
 @end
 
 typedef void (^completionBlk)(BOOL);
@@ -81,10 +85,17 @@ typedef void (^completionBlk)(BOOL);
     return self;
 }
 
+-(void)loadLevel
+{
+    [[KKGameStateManager sharedManager] loadLevelData];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    [self loadLevel];
     
     self.wrongPickCount = 0;
     _elements = [[NSMutableArray alloc] init];
@@ -117,10 +128,10 @@ typedef void (^completionBlk)(BOOL);
     }
 #endif
 
-        _isGameFinished = FALSE;
+    _isGameFinished = FALSE;
     self.duration = self.levelModel.duration;
     
-    [self showTutorial:2];
+    [self showTutorial:1];
     [self updateTimer:self.levelModel.duration];
     [self addElements:NO];
     
@@ -140,17 +151,64 @@ typedef void (^completionBlk)(BOOL);
     
     [[SoundManager sharedManager] playMusic:@"lovesong"];
     [self updateUI];
-    
-    //testing code
-//    [[KKGameStateManager sharedManager] setMagicStickUsageCount:3];
-    //till here
-    
     self.magicStickCounter = 0;
     
     [self updateMagicStic];
     [self stageInformationFlurry];
     [self updateMagicStickBtnPosition];
+    
+    self.oldTimeInterval = 0;
     testCounter = 0;
+}
+
+-(NSTimeInterval)timeTakenInSeconds
+{
+    NSTimeInterval diff = [[NSDate date] timeIntervalSince1970]-self.oldTimeInterval;
+    return diff;
+}
+
+-(void)updateScore
+{
+    const NSInteger kBaseScore = 5;
+    const NSInteger kMinDuration = 1.5;
+    
+    NSInteger tScore = kBaseScore;
+    CGFloat timeTaken = [self timeTakenInSeconds];
+    
+    if(self.topObjectSelected){
+        if(timeTaken <= kMinDuration && timeTaken > 0){
+            self.winningStreak += 1;
+            self.winningStreak = MIN(self.winningStreak, 7);
+        }
+        tScore += self.winningStreak;
+    }
+    else{
+        tScore = -2;
+        self.winningStreak = 0;
+    }
+    
+    self.score = self.score + tScore;
+    
+    if(_currentElement){
+        [self showScore:tScore];
+    }
+    [self updateUI];
+}
+
+-(void)showScore:(NSInteger)score
+{
+    if(_currentElement){
+        NSString *msg =[NSString stringWithFormat:@"+%ld",score];
+        if(score< 0){
+            msg =[NSString stringWithFormat:@"%ld",score];
+        }
+        [[InstantMessageManager sharedManager] showMessage:msg
+                                                    inView:self.view
+                                                  duration:2
+                                                      rect:CGRectMake(_currentElement.center.x, _currentElement.center.y, 40, 40)
+                                                     color:(score>0)?[UIColor blueColor]:[UIColor redColor]
+                                                      font:[UIFont boldSystemFontOfSize:14]];
+    }
 }
 
 -(void)setMagicStickCounter:(NSInteger)magicStickCounter
@@ -281,52 +339,17 @@ typedef void (^completionBlk)(BOOL);
 
 -(void)showTutorial : (NSInteger)tutorialID
 {
-    if(tutorialID == 1){
-        BOOL isTutorialShown = [[[NSUserDefaults standardUserDefaults] objectForKey:@"TUTORIAL_1"] boolValue];
-        if(!isTutorialShown){
-            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"HOW_TO_PLAY", nil)
-                                                            message:NSLocalizedString(@"TUTORIAL_1", nil)
-                                                           delegate:nil
-                                                  cancelButtonTitle:@"OK"
-                                                  otherButtonTitles:nil];
-            
-            [alert show];
-            [[NSUserDefaults standardUserDefaults] setObject:@YES forKey:@"TUTORIAL_1"];
-            [[NSUserDefaults standardUserDefaults] synchronize];
-        }
-    }
-    else if(tutorialID == 2){
-        BOOL isTutorialShown = [[[NSUserDefaults standardUserDefaults] objectForKey:@"TUTORIAL_2"] boolValue];
-        if(!isTutorialShown){
-            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"HOW_TO_PLAY", nil)
-                                                            message:NSLocalizedString(@"TUTORIAL_2", nil)
-                                                           delegate:self
-                                                  cancelButtonTitle:@"OK"
-                                                  otherButtonTitles:nil];
-            alert.tag = eTutorialAlertID;
-            [alert show];
-            [[NSUserDefaults standardUserDefaults] setObject:@YES forKey:@"TUTORIAL_2"];
-            [[NSUserDefaults standardUserDefaults] synchronize];
-        }
-        else{
-            [self startTimer];
-        }
-    }
-}
-
--(void)startTimer
-{
-    self.timer = [[TimerObject alloc] initWithDuration:self.levelModel.duration fireInterval:1.0f];
-    [self.timer startTimer];
-    self.timer.delegate = self;
-    self.timerLabel.hidden = NO;
-}
-
--(void)stopTimer
-{
-    if(self.timer){
-        [self.timer pauseTimer];
-        self.timer = nil;
+    BOOL isTutorialShown = [[[NSUserDefaults standardUserDefaults] objectForKey:@"TUTORIAL_1"] boolValue];
+    if(!isTutorialShown){
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"HOW_TO_PLAY", nil)
+                                                        message:NSLocalizedString(@"TUTORIAL_1", nil)
+                                                       delegate:nil
+                                              cancelButtonTitle:@"OK"
+                                              otherButtonTitles:nil];
+        
+        [alert show];
+        [[NSUserDefaults standardUserDefaults] setObject:@YES forKey:@"TUTORIAL_1"];
+        [[NSUserDefaults standardUserDefaults] synchronize];
     }
 }
 
@@ -440,10 +463,14 @@ typedef void (^completionBlk)(BOOL);
 {
     static int i = 0;
     if(i == 0){
+        /*
         [[InstantMessageManager sharedManager] showMessage:@"SELECT TOP OBJECT"
                                                     inView:self.view
                                                   duration:3
-                                                      rect:CGRectMake(object.center.x, object.center.y, 120, 20)];
+                                                      rect:CGRectMake(object.center.x, object.center.y, 120, 20)
+                                                     color:[UIColor blueColor]];
+         */
+        
         //i++;
     }
 }
@@ -469,14 +496,22 @@ typedef void (^completionBlk)(BOOL);
     }
     
     if(gameOver){
+        self.topObjectSelected = NO;
         [_currentElement shakeAnimation];
         [self updateWrongPick];
+        [self updateScore];
         self.currentElement = nil;
     }
     else{
+        self.topObjectSelected = YES;
         self.wrongPickCount = 0;
+        [self updateScore];
     }
     
+    if(self.topObjectSelected){
+        self.oldTimeInterval = [[NSDate date] timeIntervalSince1970];
+    }
+
     return gameOver;
 }
 
@@ -526,22 +561,12 @@ typedef void (^completionBlk)(BOOL);
 
 -(void)updateUI
 {
-    
+    self.timerLabel.text = [NSString stringWithFormat:NSLocalizedString(@"SCORE","score"),self.score];
 }
 
 -(void)saveLevelData
 {
-    NSMutableDictionary *levelDict = [self.levelModel savedDictionary];
-    if([self.elements count] > 0)
-    {
-        NSMutableArray *elements = [NSMutableArray array];
-        [self.elements enumerateObjectsUsingBlock:^(TTBase *obj, NSUInteger idx, BOOL *stop) {
-            NSMutableDictionary *itemDict = [obj saveDictionary];
-            [elements addObject:itemDict];
-        }];
-        [levelDict setObject:elements forKey:@"elements"];
-    }
-    [[KKGameStateManager sharedManager]save];
+    
 }
 
 #pragma mark - social integration
@@ -659,28 +684,6 @@ typedef void (^completionBlk)(BOOL);
 -(void)showGameWonAlert:(BOOL)canShowMagicStickMsg
 {
     [[SoundManager sharedManager] playSound:@"won" looping:NO];
-
-    NSString *btnTitle = NSLocalizedString(@"PLAY_NEXT_LEVEL", nil);
-    NSString *magicStick = @"";
-    if(self.levelModel.noOfStars == 3 && canShowMagicStickMsg){
-        magicStick = NSLocalizedString(@"WON_MAGIC_STICK", nil);
-    }
-
-    NSString *msg = [NSString stringWithFormat:NSLocalizedString(@"CONGRATS_LEVEL_COMPLETION", nil),self.levelModel.noOfStars,magicStick] ;
-    if(self.currentLevel >= [[KKGameConfigManager sharedManager] totalNumberOfLevelsInStage:self.currentStage]-1){
-        msg = [NSString stringWithFormat:NSLocalizedString(@"CONGRATS_STAGE_COMPLETION", nil),self.levelModel.noOfStars,magicStick];
-        btnTitle = NSLocalizedString(@"PLAY_NEXT_STAGE", nil);
-    }
-    
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"GAME_WON", nil)
-                                                    message:msg
-                                                   delegate:self
-                                          cancelButtonTitle:btnTitle
-                                          otherButtonTitles:nil];
-    alert.tag = eGameWonAlertID;
-    [alert addButtonWithTitle:NSLocalizedString(@"FACEBOOK_SHARE", nil)];
-    [alert addButtonWithTitle:NSLocalizedString(@"TWEET", nil)];
-    [alert show];
 }
 
 -(void)playSound:(NSString*)soundFile
@@ -740,7 +743,6 @@ typedef void (^completionBlk)(BOOL);
         //Add level save related data after unlockNextLevel
         self.levelModel.noOfStars = stars;
         [self saveGame];
-        [self stopTimer];
         
         BOOL showMagicStickMsg = NO;
         if(starWon == 3){
@@ -840,9 +842,6 @@ typedef void (^completionBlk)(BOOL);
     self.levelModel = [[KKLevelModal alloc] initWithDictionary:tLevel];
     self.levelModel.isLevelUnlocked = YES;
     self.levelModel.isLevelCompleted = YES;
-    
-    self.levelModel.duration = [[KKGameConfigManager sharedManager] durationForLevel:self.currentLevel stage:self.currentStage];
-    [[KKGameStateManager sharedManager] unlock];
 }
 
 -(NSMutableArray*)intersectedElements:(TTBase*)currentElement
@@ -1013,7 +1012,6 @@ typedef void (^completionBlk)(BOOL);
     [self updateMagicStic];
     [self updateUI];
     [self updateTimer:self.levelModel.duration];
-    [self startTimer];
     
     [self logReplayEvent];
 }
@@ -1047,7 +1045,6 @@ typedef void (^completionBlk)(BOOL);
             
         case eTutorialAlertID:
         {
-            [self startTimer];
         }
             break;
                         
@@ -1125,12 +1122,12 @@ typedef void (^completionBlk)(BOOL);
 
 -(void)pauseGame
 {
-    [self stopTimer];
+    
 }
 
 -(void)resumeGame
 {
-    [self startTimer];
+    
 }
 
 - (IBAction)handleMailBtn:(id)sender

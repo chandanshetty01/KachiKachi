@@ -22,8 +22,10 @@
 @property(nonatomic,strong)NSString* name;
 @property(nonatomic,strong)NSString *soundfile;
 @property(nonatomic,assign)NSInteger noOfStars;
+@property(nonatomic,assign)NSInteger score;
 
 -(instancetype)initWithDictionary:(NSDictionary*)data;
 -(NSMutableDictionary*)savedDictionary;
+-(void)updateWithDictionary:(NSDictionary*)data;
 
 @end

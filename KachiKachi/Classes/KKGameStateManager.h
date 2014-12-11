@@ -18,6 +18,7 @@
 +(KKGameStateManager*)sharedManager;
 -(void)loadData;
 -(void)saveData;
+-(void)loadLevelData;
 
 -(NSMutableArray*)levels;
 

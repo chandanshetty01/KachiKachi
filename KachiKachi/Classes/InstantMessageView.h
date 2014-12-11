@@ -14,6 +14,10 @@ typedef void (^completionBlk)(BOOL);
     
 }
 
--(void)showMessage:(NSString*)message duration:(NSInteger)duration completion:(completionBlk)blk;
+-(void)showMessage:(NSString*)message
+          duration:(NSInteger)duration
+             color:(UIColor*)color
+              font:(UIFont*)font
+        completion:(completionBlk)blk;
 
 @end

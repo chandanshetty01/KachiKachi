@@ -26,16 +26,21 @@
         self.label.textColor = [UIColor whiteColor];
         self.label.textAlignment = NSTextAlignmentCenter;
         self.label.numberOfLines = 2;
-        self.label.backgroundColor = [UIColor blueColor];
+        self.label.backgroundColor = [UIColor clearColor];
         [self addSubview:self.label];
     }
     return self;
 }
 
--(void)showMessage:(NSString*)message duration:(NSInteger)duration completion:(completionBlk)blk
+-(void)showMessage:(NSString*)message
+          duration:(NSInteger)duration
+             color:(UIColor*)color
+              font:(UIFont*)font
+        completion:(completionBlk)blk
 {
     self.label.text = message;
-    
+    self.label.textColor = color;
+    self.label.font = font;
     CGRect frame = self.frame;
     frame.origin.y -= 50;
     CGFloat animationInterval = duration;

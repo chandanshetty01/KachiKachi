@@ -34,12 +34,21 @@
     return _sharedObject;
 }
 
--(void)showMessage:(NSString*)message inView:(UIView*)view duration:(NSInteger)duration rect:(CGRect)rect
+-(void)showMessage:(NSString*)message
+            inView:(UIView*)view
+          duration:(NSInteger)duration
+              rect:(CGRect)rect
+             color:(UIColor*)color
+              font:(UIFont*)font
 {
     InstantMessageView *msg = [[InstantMessageView alloc] initWithFrame:rect];
     [view addSubview:msg];
     [self.messageArray addObject:msg];
-    [msg showMessage:message duration:duration completion:^(BOOL val) {
+    [msg showMessage:message
+            duration:duration
+               color:color
+                font:font
+          completion:^(BOOL val) {
         [self.messageArray removeObject:msg];
     }];
 }

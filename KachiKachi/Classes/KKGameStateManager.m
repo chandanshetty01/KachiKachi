@@ -10,9 +10,11 @@
 #import "KKGameConfigManager.h"
 #import "Utility.h"
 #import "StageModel.h"
+#import "KKLevelModal.h"
 
 @interface KKGameStateManager()
 @property(nonatomic,strong)StageModel *stageModel;
+@property(nonatomic,strong)KKLevelModal *levelModel;
 @end
 
 @implementation KKGameStateManager
@@ -41,6 +43,21 @@
 {
     NSDictionary *data = [self.stageModel savedDictionary];
     [Utility saveData:data fileName:[self fileName]];
+}
+
+-(void)loadLevelData
+{
+    NSDictionary *data = [Utility loadData:[self fileName]];
+    if(!data){
+        data = [[KKGameConfigManager sharedManager] levelWithID:self.currentLevel andStage:self.currentStage];
+    }
+    
+    if(data){
+        if(self.stageModel.levels.count > 0 && self.currentLevel < self.stageModel.levels.count && self.currentLevel > 0){
+            self.levelModel = [self.stageModel.levels objectAtIndex:self.currentLevel-1];
+            [self.levelModel updateWithDictionary:data];
+        }
+    }
 }
 
 -(void)loadData
