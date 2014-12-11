@@ -154,7 +154,6 @@ typedef void (^completionBlk)(BOOL);
     self.magicStickCounter = 0;
     
     [self updateMagicStic];
-    [self stageInformationFlurry];
     [self updateMagicStickBtnPosition];
     
     self.oldTimeInterval = 0;
@@ -330,13 +329,6 @@ typedef void (^completionBlk)(BOOL);
     }
 }
 
--(void)stageInformationFlurry
-{
-    NSMutableDictionary *levelInfo = [[NSMutableDictionary alloc] init];
-    [levelInfo setObject:[NSString stringWithFormat:@"%@",self.levelModel.name] forKey:[NSString stringWithFormat:@"%ld",(long)self.currentStage]];
-    [Flurry logEvent:@"stage_information" withParameters:levelInfo];
-}
-
 -(void)showTutorial : (NSInteger)tutorialID
 {
     BOOL isTutorialShown = [[[NSUserDefaults standardUserDefaults] objectForKey:@"TUTORIAL_1"] boolValue];
@@ -378,15 +370,6 @@ typedef void (^completionBlk)(BOOL);
 {
     self.levelModel.duration = remainingInteval;
     [self updateTimer:self.levelModel.duration];
-}
-
--(void)postFlurry:(NSString*)status
-{
-    NSMutableDictionary *levelInfo = [[NSMutableDictionary alloc] init];
-    [levelInfo setObject:status forKey:@"status"];
-    
-    NSString *key = [NSString stringWithFormat:@"Level(%@)Stage(%ld)",self.levelModel.name,(long)self.levelModel.stageID];
-    [Flurry logEvent:key withParameters:levelInfo];
 }
 
 -(void)addElements:(BOOL)isRestartMode
@@ -749,13 +732,6 @@ typedef void (^completionBlk)(BOOL);
             showMagicStickMsg = YES;
         }
         [self showGameWonAlert:showMagicStickMsg];
-        
-        NSMutableDictionary *dictionary = [NSMutableDictionary dictionary];
-        [dictionary setObject:[NSString stringWithFormat:@"%ld(l)_%ld(s)[%ld(star)]",(long)self.currentLevel,(long)self.currentStage,(long)stars] forKey:@"level"];
-        [Flurry logEvent:@"stars" withParameters:dictionary];
-        
-        [self postFlurry:@"WON"];
-        
         block(YES);
     }
     else if(_currentElement != nil)
@@ -1056,8 +1032,6 @@ typedef void (^completionBlk)(BOOL);
 - (IBAction)backButtonAction:(id)sender
 {
     [[SoundManager sharedManager] playSound:@"tap" looping:NO];
-
-    [self postFlurry:@"LEFT"];
     [self saveGame];
     AppDelegate *appdelegate = APP_DELEGATE;
     [appdelegate.navigationController popViewControllerAnimated:YES];
