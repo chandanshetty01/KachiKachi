@@ -28,7 +28,6 @@ typedef void (^completionBlk)(BOOL);
 @property(nonatomic,assign) BOOL hasEndAnimation;
 @property(nonatomic,assign) CGMutablePathRef objectPath;
 @property(nonatomic,strong) completionBlk completionBlk;
-@property(nonatomic,assign) BOOL isPicked;
 @property(nonatomic,assign) BOOL isHighlighted;
 
 -(BOOL)canHandleTouch:(CGPoint)center radius:(CGFloat)radius;
@@ -39,7 +38,7 @@ typedef void (^completionBlk)(BOOL);
 - (void)handleTouchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event;
 
 - (BOOL)canHandleTouch:(CGPoint)touchPoint;
-- (NSMutableDictionary*)saveDictionary;
+//- (NSMutableDictionary*)saveDictionary;
 - (void)showAnimation:(completionBlk)completionBlk;
 - (void)setPickedObjectPosition;
 - (void)shakeAnimation;

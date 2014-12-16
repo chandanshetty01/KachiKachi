@@ -55,7 +55,7 @@
     }
 }
 
--(NSMutableDictionary*)savedDictionary
+-(NSMutableDictionary*)itemsData
 {
     NSMutableDictionary *dict = [NSMutableDictionary dictionary];
     NSMutableArray *elements = [NSMutableArray array];
@@ -64,10 +64,21 @@
         [elements addObject:itemDict];
     }];
     [dict setObject:elements forKey:@"elements"];
-    if(self.baskets)
+    
+    if(self.baskets){
         [dict setObject:self.baskets forKey:@"baskets"];
-    if(self.backgroundImage)
+    }
+    [dict setObject:[NSString stringWithFormat:@"%ld",(long)self.levelID] forKey:@"ID"];
+
+    return dict;
+}
+
+-(NSMutableDictionary*)savedDictionary
+{
+    NSMutableDictionary *dict = [NSMutableDictionary dictionary];
+    if(self.backgroundImage){
         [dict setObject:self.backgroundImage forKey:@"background"];
+    }
     [dict setObject:[NSNumber numberWithInt:(int)self.noOfStars] forKey:@"stars"];
     [dict setObject:[NSNumber numberWithBool:self.isLevelCompleted] forKey:@"isLevelCompleted"];
     [dict setObject:[NSNumber numberWithBool:self.isLevelUnlocked] forKey:@"isLevelUnlocked"];

@@ -27,5 +27,6 @@
 -(instancetype)initWithDictionary:(NSDictionary*)data;
 -(NSMutableDictionary*)savedDictionary;
 -(void)updateWithDictionary:(NSDictionary*)data;
+-(NSMutableDictionary*)itemsData;
 
 @end

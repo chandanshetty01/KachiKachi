@@ -66,7 +66,6 @@ static int testCounter = 0;
 @property(weak, nonatomic) IBOutlet UIView *magicStickHolder;
 @property(weak, nonatomic) IBOutlet UILabel *magicStickLabel;
 @property(nonatomic,assign) NSInteger wrongPickCount;
-@property(nonatomic,assign) NSInteger score;
 @property(nonatomic,assign)NSTimeInterval oldTimeInterval;
 @property(nonatomic,assign)NSInteger winningStreak;
 @property(nonatomic,assign)BOOL topObjectSelected;
@@ -186,7 +185,7 @@ typedef void (^completionBlk)(BOOL);
         self.winningStreak = 0;
     }
     
-    self.score = self.score + tScore;
+    self.levelModel.score = self.levelModel.score + tScore;
     
     if(_currentElement){
         [self showScore:tScore];
@@ -435,7 +434,7 @@ typedef void (^completionBlk)(BOOL);
     [object initWithModal:itemModel];
     if(object.image){
         [self.view addSubview:object];
-        if(object.isPicked){
+        if(itemModel.isPicked){
             [object setPickedObjectPosition];
         }
         [_elements addObject:object];
@@ -501,7 +500,7 @@ typedef void (^completionBlk)(BOOL);
 -(NSInteger)noOfObjectsToBePicked
 {
     __block int count = 0;
-    [self.elements enumerateObjectsUsingBlock:^(TTBase *obj, NSUInteger idx, BOOL *stop) {
+    [self.levelModel.items enumerateObjectsUsingBlock:^(KKItemModal *obj, NSUInteger idx, BOOL *stop) {
         if(!obj.isPicked)
             count++;
     }];
@@ -530,8 +529,8 @@ typedef void (^completionBlk)(BOOL);
 -(void)showElementDissapearAnimation:(completionBlk)block
 {
     [self.deletedElements enumerateObjectsUsingBlock:^(TTBase *obj, NSUInteger idx, BOOL *stop) {
-        if(!obj.isPicked){
-            obj.isPicked = YES;
+        if(!obj.itemModal.isPicked){
+            obj.itemModal.isPicked = YES;
             self.view.userInteractionEnabled = NO;
             [obj showAnimation:^(BOOL canRemoveObject) {
                 [self.deletedElements removeObject:obj];
@@ -544,12 +543,12 @@ typedef void (^completionBlk)(BOOL);
 
 -(void)updateUI
 {
-    self.timerLabel.text = [NSString stringWithFormat:NSLocalizedString(@"SCORE","score"),self.score];
+    self.timerLabel.text = [NSString stringWithFormat:NSLocalizedString(@"SCORE","score"),self.levelModel.score];
 }
 
 -(void)saveLevelData
 {
-    
+    [[KKGameStateManager sharedManager] saveData];
 }
 
 #pragma mark - social integration
@@ -683,7 +682,7 @@ typedef void (^completionBlk)(BOOL);
 {
     NSEnumerator *enumerator = [_elements reverseObjectEnumerator];
     for (TTBase *obj in enumerator) {
-        if(!obj.isPicked){
+        if(!obj.itemModal.isPicked){
             obj.isHighlighted = YES;
             [self showMessage:obj];
             break;
@@ -834,8 +833,7 @@ typedef void (^completionBlk)(BOOL);
     }
     
     for (TTBase *element in _elements) {
-        if(![element isEqual:currentElement] && !element.isPicked){
-            
+        if(![element isEqual:currentElement] && !element.itemModal.isPicked){
             NSMutableArray *polygonA = [NSMutableArray array];
             for(NSString *point in element.touchPoints){
                 CGPoint cPoint = CGPointFromString(point);
@@ -1084,14 +1082,7 @@ typedef void (^completionBlk)(BOOL);
 
 - (IBAction)handleSaveBtn:(id)sender
 {    
-    NSMutableDictionary *data = [NSMutableDictionary dictionary];
-    NSMutableArray *tElements = [NSMutableArray array];
-    for (TTBase *element in _elements) {
-        [tElements addObject:[element saveDictionary]];
-    }
-    
-    [data setObject:tElements forKey:@"elements"];
-    [data writeToFile:@"/Users/chandanshettysp/Desktop/savedData.plist" atomically:YES];
+
 }
 
 -(void)pauseGame
@@ -1106,36 +1097,6 @@ typedef void (^completionBlk)(BOOL);
 
 - (IBAction)handleMailBtn:(id)sender
 {
-    NSString* plistPath = [[[NSBundle mainBundle] bundlePath] stringByAppendingPathComponent:@"savedData.plist"];
-    
-    NSMutableDictionary *data = [NSMutableDictionary dictionary];
-    NSMutableArray *tElements = [NSMutableArray array];
-    for (TTBase *element in _elements) {
-        [tElements addObject:[element saveDictionary]];
-    }
-    [data setObject:tElements forKey:@"data"];
-    [data writeToFile:plistPath atomically:YES];
-    
-    // Attach an image to the email
-    NSData *myData = [NSData dataWithContentsOfFile:plistPath];
-    NSString *attachmentMime = @"text/xml";
-    NSString *attachmentName = @"savedData.plist";
-    
-    // Fill out the email body text
-    NSString *emailBody = @"Hi, \n\n Check out new level data! \n\n\nRegards, \nKachi-Kachi";
-    NSString *emailSub = [NSString stringWithFormat:@"KACHI KACHI: Level %ld Stage %ld",(long)self.currentLevel,(long)self.currentStage];
-    
-    NSArray *toRecipients = [NSArray arrayWithObject:@"chandanshetty01@gmail.com"];
-    NSArray *ccRecipients = [NSArray arrayWithObjects:@"26anil.kushwaha@gmail.com", @"ashishpra.pra@gmail.com", nil];
-    [[KKMailComposerManager sharedManager] displayMailComposerSheet:self
-                                                       toRecipients:toRecipients
-                                                       ccRecipients:ccRecipients
-                                                     attachmentData:myData
-                                                 attachmentMimeType:attachmentMime
-                                                 attachmentFileName:attachmentName
-                                                          emailBody:emailBody
-                                                       emailSubject:emailSub
-                                                         completion:nil];
 }
 
 #pragma - mark iAd delegates -

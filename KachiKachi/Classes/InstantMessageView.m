@@ -28,6 +28,7 @@
         self.label.numberOfLines = 2;
         self.label.backgroundColor = [UIColor clearColor];
         [self addSubview:self.label];
+        self.userInteractionEnabled = NO;
     }
     return self;
 }

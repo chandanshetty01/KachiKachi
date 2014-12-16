@@ -58,8 +58,6 @@
         _hasEndAnimation = YES;
     }
     
-    self.isPicked = itemModal.isPicked;
-
 #ifdef DEVELOPMENT_MODE
     self.backgroundColor = [UIColor grayColor];
 #else
@@ -71,24 +69,6 @@
 {
     _selected = selected;
     [self setNeedsDisplay];
-}
-
--(NSMutableDictionary*)saveDictionary
-{
-    NSMutableDictionary *dict = [NSMutableDictionary dictionary];
-    [dict setObject:_imagePath forKey:@"image"];
-    [dict setObject:NSStringFromClass([self class]) forKey:@"class"];
-    [dict setObject:NSStringFromCGRect(self.frame) forKey:@"frame"];
-    [dict setObject:self.touchPoints forKey:@"touchPoints"];
-    [dict setObject:[NSNumber numberWithBool:self.isPicked] forKey:@"isPicked"];
-    
-    NSMutableDictionary *animation = [NSMutableDictionary dictionary];
-    [animation setObject:NSStringFromCGRect(_animationEndFrame) forKey:@"frame"];
-    [animation setObject:[NSString stringWithFormat:@"%f",_animationAngle] forKey:@"rotateAngle"];
-    [animation setObject:[NSString stringWithFormat:@"%f",_animationScale] forKey:@"scale"];
-    [dict setObject:animation forKey:@"animation"];
-
-    return dict;
 }
 
 -(void)createPathRef
@@ -119,7 +99,7 @@
     return [self canHandleTouch:center];
 #endif
     BOOL status = NO;
-    if(!self.isPicked && self.userInteractionEnabled){
+    if(!self.itemModal.isPicked && self.userInteractionEnabled){
         NSMutableArray *polygonA = [NSMutableArray array];
         for(NSString *point in self.touchPoints){
             CGPoint cPoint = CGPointFromString(point);
@@ -188,7 +168,7 @@
     return NO;
 #endif
     
-    if(!self.isPicked && self.userInteractionEnabled && CGPathContainsPoint(self.objectPath, nil, touchPoint, NO))
+    if(!self.itemModal.isPicked && self.userInteractionEnabled && CGPathContainsPoint(self.objectPath, nil, touchPoint, NO))
         return YES;
     return NO;
 }

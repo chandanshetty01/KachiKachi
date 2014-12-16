@@ -26,6 +26,18 @@
     return self;
 }
 
+-(NSMutableDictionary*)itemsDictionaryForLevel:(NSInteger)levleID
+{
+    __block NSMutableDictionary *data = nil;
+    [self.levels enumerateObjectsUsingBlock:^(KKLevelModal *obj, NSUInteger idx, BOOL *stop) {
+        if(obj.levelID == levleID){
+           data = [obj itemsData];
+            *stop = YES;
+        }
+    }];
+    return data;
+}
+
 -(NSMutableDictionary*)savedDictionary
 {
     NSMutableDictionary *data = [NSMutableDictionary dictionary];

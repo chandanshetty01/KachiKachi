@@ -14,6 +14,7 @@
 }
 -(id)initWithDictionary:(NSDictionary*)data;
 -(NSMutableDictionary*)savedDictionary;
+-(NSMutableDictionary*)itemsDictionaryForLevel:(NSInteger)levleID;
 
 @property(nonatomic,assign)BOOL isLocked;
 @property(nonatomic,strong)NSMutableArray *levels;

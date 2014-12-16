@@ -41,13 +41,22 @@
 
 -(void)saveData
 {
-    NSDictionary *data = [self.stageModel savedDictionary];
-    [Utility saveData:data fileName:[self fileName]];
+    //Save Level
+    NSMutableDictionary *data = [self.stageModel itemsDictionaryForLevel:self.currentLevel];
+    if(data){
+        [Utility saveData:data fileName:[self levelFileName]];
+    }
+
+    //Save Stage
+    NSMutableDictionary *stageData = [self.stageModel savedDictionary];
+    if(stageData){
+        [Utility saveData:stageData fileName:[self stageFileName]];   
+    }
 }
 
 -(void)loadLevelData
 {
-    NSDictionary *data = [Utility loadData:[self fileName]];
+    NSDictionary *data = [Utility loadData:[self levelFileName]];
     if(!data){
         data = [[KKGameConfigManager sharedManager] levelWithID:self.currentLevel andStage:self.currentStage];
     }
@@ -62,7 +71,7 @@
 
 -(void)loadData
 {
-    NSDictionary *data = [Utility loadData:[NSString stringWithFormat:@"stage_%ld",self.currentStage]];
+    NSDictionary *data = [Utility loadData:[self stageFileName]];
     if(!data){
         data = [[KKGameConfigManager sharedManager] stageWithID:self.currentStage];
     }
@@ -75,14 +84,19 @@
     return self.stageModel.levels;
 }
 
--(NSString*)fileName
+-(NSString*)levelFileName
 {
     return [NSString stringWithFormat:@"level_%ld_%ld",self.currentStage,self.currentLevel];
 }
 
+-(NSString*)stageFileName
+{
+    return [NSString stringWithFormat:@"stage_%ld",self.currentStage];
+}
+
 -(NSDictionary*)levelData:(NSInteger)level stage:(NSInteger)stage
 {
-    return [Utility loadData:[self fileName]];
+    return [Utility loadData:[self levelFileName]];
 }
 
 
