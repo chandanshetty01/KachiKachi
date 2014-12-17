@@ -1,0 +1,2460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>baskets</key>
+	<array>
+		<dict>
+			<key>basket</key>
+			<string>iPh_apple_tree.png</string>
+			<key>basket_frame</key>
+			<string>{270,30}</string>
+		</dict>
+	</array>
+	<key>ID</key>
+	<string>3</string>
+	<key>elements</key>
+	<array>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{362, 70.5}, {51, 57}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{142.5, 102.5}, {51, 57}}</string>
+			<key>image</key>
+			<string>iPh_apple1.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{26.5, 1}</string>
+				<string>{7.5, 9.5}</string>
+				<string>{1.5, 17.5}</string>
+				<string>{1.5, 43}</string>
+				<string>{15.5, 56}</string>
+				<string>{37, 56}</string>
+				<string>{50.5, 40}</string>
+				<string>{50, 15}</string>
+				<string>{41, 5.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{433.5, 76.5}, {57, 63}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{198.5, 93.5}, {57, 63}}</string>
+			<key>image</key>
+			<string>iPh_apple2.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{41, 6}</string>
+				<string>{20.5, 4}</string>
+				<string>{9, 8}</string>
+				<string>{1, 20.5}</string>
+				<string>{1.5, 42}</string>
+				<string>{14, 54}</string>
+				<string>{26.5, 60}</string>
+				<string>{50, 54.5}</string>
+				<string>{52, 45.5}</string>
+				<string>{56.5, 38.5}</string>
+				<string>{54.5, 17.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{246.5, 127.5}, {71, 66}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{91, 190}, {71, 66}}</string>
+			<key>image</key>
+			<string>iPh_apple3.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{50.5, 4}</string>
+				<string>{36.5, 2}</string>
+				<string>{22, 5}</string>
+				<string>{14, 15}</string>
+				<string>{13.5, 35.5}</string>
+				<string>{18.5, 46}</string>
+				<string>{14, 49.5}</string>
+				<string>{27.5, 58}</string>
+				<string>{45, 59}</string>
+				<string>{59, 50}</string>
+				<string>{53.5, 47}</string>
+				<string>{60, 32.5}</string>
+				<string>{60.5, 19.5}</string>
+				<string>{58, 11}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{312.5, 225.5}, {50, 53}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{131, 156}, {50, 53}}</string>
+			<key>image</key>
+			<string>iPh_apple4.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{22.5, 6}</string>
+				<string>{10, 9}</string>
+				<string>{3, 14}</string>
+				<string>{1, 20.5}</string>
+				<string>{2, 37.5}</string>
+				<string>{12.5, 52}</string>
+				<string>{39.5, 51}</string>
+				<string>{48.5, 38.5}</string>
+				<string>{48.5, 15}</string>
+				<string>{41.5, 8}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{376, 138.5}, {51, 57}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{116.5, 142.5}, {51, 57}}</string>
+			<key>image</key>
+			<string>iPh_apple5.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{15.5, 4}</string>
+				<string>{5.5, 11}</string>
+				<string>{1.5, 18.5}</string>
+				<string>{1, 41.5}</string>
+				<string>{16, 55.5}</string>
+				<string>{37, 54.5}</string>
+				<string>{49.5, 42.5}</string>
+				<string>{50, 19}</string>
+				<string>{44, 8}</string>
+				<string>{30.5, 2.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{501, 100}, {59, 57}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{146, 136}, {59, 57}}</string>
+			<key>image</key>
+			<string>iPh_apple6.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{43.5, 1}</string>
+				<string>{17.5, 1.5}</string>
+				<string>{6.5, 10.5}</string>
+				<string>{1, 21.5}</string>
+				<string>{2, 39}</string>
+				<string>{9.5, 50.5}</string>
+				<string>{19.5, 55.5}</string>
+				<string>{43, 55.5}</string>
+				<string>{57.5, 39}</string>
+				<string>{57.5, 17}</string>
+				<string>{52.5, 8}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{288, 75}, {57, 54}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{106.5, 162.5}, {57, 54}}</string>
+			<key>image</key>
+			<string>iPh_apple8.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{20, 1}</string>
+				<string>{9, 5}</string>
+				<string>{1, 15}</string>
+				<string>{1, 36.5}</string>
+				<string>{19, 54}</string>
+				<string>{41.5, 53}</string>
+				<string>{56, 35}</string>
+				<string>{56, 14}</string>
+				<string>{52, 8}</string>
+				<string>{40, 1.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{448.5, 227.5}, {71, 66}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{161.5, 150}, {71, 66}}</string>
+			<key>image</key>
+			<string>iPh_apple10.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{29, 2.5}</string>
+				<string>{18, 6.5}</string>
+				<string>{12.5, 18.5}</string>
+				<string>{13.5, 37.5}</string>
+				<string>{16, 45.5}</string>
+				<string>{13.5, 50.5}</string>
+				<string>{31, 60.5}</string>
+				<string>{48.5, 59}</string>
+				<string>{58.5, 51}</string>
+				<string>{56, 44.5}</string>
+				<string>{59.5, 34}</string>
+				<string>{59.5, 19}</string>
+				<string>{55.5, 8}</string>
+				<string>{48, 2}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{433.5, 76.5}, {57, 63}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{165.5, 221}, {57, 63}}</string>
+			<key>image</key>
+			<string>iPh_apple2.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{41, 6}</string>
+				<string>{20.5, 4}</string>
+				<string>{9, 8}</string>
+				<string>{1, 20.5}</string>
+				<string>{1.5, 42}</string>
+				<string>{14, 54}</string>
+				<string>{26.5, 60}</string>
+				<string>{50, 54.5}</string>
+				<string>{52, 45.5}</string>
+				<string>{56.5, 38.5}</string>
+				<string>{54.5, 17.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{246.5, 127.5}, {71, 66}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{103.5, 168.5}, {71, 66}}</string>
+			<key>image</key>
+			<string>iPh_apple3.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{50.5, 4}</string>
+				<string>{36.5, 2}</string>
+				<string>{22, 5}</string>
+				<string>{14, 15}</string>
+				<string>{13.5, 35.5}</string>
+				<string>{18.5, 46}</string>
+				<string>{14, 49.5}</string>
+				<string>{27.5, 58}</string>
+				<string>{45, 59}</string>
+				<string>{59, 50}</string>
+				<string>{53.5, 47}</string>
+				<string>{60, 32.5}</string>
+				<string>{60.5, 19.5}</string>
+				<string>{58, 11}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{312.5, 225.5}, {50, 53}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{112, 225.5}, {50, 53}}</string>
+			<key>image</key>
+			<string>iPh_apple4.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{22.5, 6}</string>
+				<string>{10, 9}</string>
+				<string>{3, 14}</string>
+				<string>{1, 20.5}</string>
+				<string>{2, 37.5}</string>
+				<string>{12.5, 52}</string>
+				<string>{39.5, 51}</string>
+				<string>{48.5, 38.5}</string>
+				<string>{48.5, 15}</string>
+				<string>{41.5, 8}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{376, 138.5}, {51, 57}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{161.5, 225.5}, {51, 57}}</string>
+			<key>image</key>
+			<string>iPh_apple5.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{15.5, 4}</string>
+				<string>{5.5, 11}</string>
+				<string>{1.5, 18.5}</string>
+				<string>{1, 41.5}</string>
+				<string>{16, 55.5}</string>
+				<string>{37, 54.5}</string>
+				<string>{49.5, 42.5}</string>
+				<string>{50, 19}</string>
+				<string>{44, 8}</string>
+				<string>{30.5, 2.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{501, 100}, {59, 57}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{66.5, 156}, {59, 57}}</string>
+			<key>image</key>
+			<string>iPh_apple6.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{43.5, 1}</string>
+				<string>{17.5, 1.5}</string>
+				<string>{6.5, 10.5}</string>
+				<string>{1, 21.5}</string>
+				<string>{2, 39}</string>
+				<string>{9.5, 50.5}</string>
+				<string>{19.5, 55.5}</string>
+				<string>{43, 55.5}</string>
+				<string>{57.5, 39}</string>
+				<string>{57.5, 17}</string>
+				<string>{52.5, 8}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{288, 75}, {57, 54}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{76, 199.5}, {57, 54}}</string>
+			<key>image</key>
+			<string>iPh_apple8.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{20, 1}</string>
+				<string>{9, 5}</string>
+				<string>{1, 15}</string>
+				<string>{1, 36.5}</string>
+				<string>{19, 54}</string>
+				<string>{41.5, 53}</string>
+				<string>{56, 35}</string>
+				<string>{56, 14}</string>
+				<string>{52, 8}</string>
+				<string>{40, 1.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{448.5, 227.5}, {71, 66}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{191.5, 128}, {71, 66}}</string>
+			<key>image</key>
+			<string>iPh_apple10.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{29, 2.5}</string>
+				<string>{18, 6.5}</string>
+				<string>{12.5, 18.5}</string>
+				<string>{13.5, 37.5}</string>
+				<string>{16, 45.5}</string>
+				<string>{13.5, 50.5}</string>
+				<string>{31, 60.5}</string>
+				<string>{48.5, 59}</string>
+				<string>{58.5, 51}</string>
+				<string>{56, 44.5}</string>
+				<string>{59.5, 34}</string>
+				<string>{59.5, 19}</string>
+				<string>{55.5, 8}</string>
+				<string>{48, 2}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{433.5, 76.5}, {57, 63}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{171.5, 99.5}, {57, 63}}</string>
+			<key>image</key>
+			<string>iPh_apple2.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{41, 6}</string>
+				<string>{20.5, 4}</string>
+				<string>{9, 8}</string>
+				<string>{1, 20.5}</string>
+				<string>{1.5, 42}</string>
+				<string>{14, 54}</string>
+				<string>{26.5, 60}</string>
+				<string>{50, 54.5}</string>
+				<string>{52, 45.5}</string>
+				<string>{56.5, 38.5}</string>
+				<string>{54.5, 17.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{246.5, 127.5}, {71, 66}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{129.5, 225.5}, {71, 66}}</string>
+			<key>image</key>
+			<string>iPh_apple3.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{50.5, 4}</string>
+				<string>{36.5, 2}</string>
+				<string>{22, 5}</string>
+				<string>{14, 15}</string>
+				<string>{13.5, 35.5}</string>
+				<string>{18.5, 46}</string>
+				<string>{14, 49.5}</string>
+				<string>{27.5, 58}</string>
+				<string>{45, 59}</string>
+				<string>{59, 50}</string>
+				<string>{53.5, 47}</string>
+				<string>{60, 32.5}</string>
+				<string>{60.5, 19.5}</string>
+				<string>{58, 11}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{312.5, 225.5}, {50, 53}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{207, 206.5}, {50, 53}}</string>
+			<key>image</key>
+			<string>iPh_apple4.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{22.5, 6}</string>
+				<string>{10, 9}</string>
+				<string>{3, 14}</string>
+				<string>{1, 20.5}</string>
+				<string>{2, 37.5}</string>
+				<string>{12.5, 52}</string>
+				<string>{39.5, 51}</string>
+				<string>{48.5, 38.5}</string>
+				<string>{48.5, 15}</string>
+				<string>{41.5, 8}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{376, 138.5}, {51, 57}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{242.5, 234}, {51, 57}}</string>
+			<key>image</key>
+			<string>iPh_apple5.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{15.5, 4}</string>
+				<string>{5.5, 11}</string>
+				<string>{1.5, 18.5}</string>
+				<string>{1, 41.5}</string>
+				<string>{16, 55.5}</string>
+				<string>{37, 54.5}</string>
+				<string>{49.5, 42.5}</string>
+				<string>{50, 19}</string>
+				<string>{44, 8}</string>
+				<string>{30.5, 2.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{501, 100}, {59, 57}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{184.5, 96}, {59, 57}}</string>
+			<key>image</key>
+			<string>iPh_apple6.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{43.5, 1}</string>
+				<string>{17.5, 1.5}</string>
+				<string>{6.5, 10.5}</string>
+				<string>{1, 21.5}</string>
+				<string>{2, 39}</string>
+				<string>{9.5, 50.5}</string>
+				<string>{19.5, 55.5}</string>
+				<string>{43, 55.5}</string>
+				<string>{57.5, 39}</string>
+				<string>{57.5, 17}</string>
+				<string>{52.5, 8}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{288, 75}, {57, 54}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{203, 187}, {57, 54}}</string>
+			<key>image</key>
+			<string>iPh_apple8.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{20, 1}</string>
+				<string>{9, 5}</string>
+				<string>{1, 15}</string>
+				<string>{1, 36.5}</string>
+				<string>{19, 54}</string>
+				<string>{41.5, 53}</string>
+				<string>{56, 35}</string>
+				<string>{56, 14}</string>
+				<string>{52, 8}</string>
+				<string>{40, 1.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{448.5, 227.5}, {71, 66}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{204.5, 69}, {71, 66}}</string>
+			<key>image</key>
+			<string>iPh_apple10.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{29, 2.5}</string>
+				<string>{18, 6.5}</string>
+				<string>{12.5, 18.5}</string>
+				<string>{13.5, 37.5}</string>
+				<string>{16, 45.5}</string>
+				<string>{13.5, 50.5}</string>
+				<string>{31, 60.5}</string>
+				<string>{48.5, 59}</string>
+				<string>{58.5, 51}</string>
+				<string>{56, 44.5}</string>
+				<string>{59.5, 34}</string>
+				<string>{59.5, 19}</string>
+				<string>{55.5, 8}</string>
+				<string>{48, 2}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{433.5, 76.5}, {57, 63}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{212.5, 223}, {57, 63}}</string>
+			<key>image</key>
+			<string>iPh_apple2.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{41, 6}</string>
+				<string>{20.5, 4}</string>
+				<string>{9, 8}</string>
+				<string>{1, 20.5}</string>
+				<string>{1.5, 42}</string>
+				<string>{14, 54}</string>
+				<string>{26.5, 60}</string>
+				<string>{50, 54.5}</string>
+				<string>{52, 45.5}</string>
+				<string>{56.5, 38.5}</string>
+				<string>{54.5, 17.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{246.5, 127.5}, {71, 66}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{193, 147.5}, {71, 66}}</string>
+			<key>image</key>
+			<string>iPh_apple3.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{50.5, 4}</string>
+				<string>{36.5, 2}</string>
+				<string>{22, 5}</string>
+				<string>{14, 15}</string>
+				<string>{13.5, 35.5}</string>
+				<string>{18.5, 46}</string>
+				<string>{14, 49.5}</string>
+				<string>{27.5, 58}</string>
+				<string>{45, 59}</string>
+				<string>{59, 50}</string>
+				<string>{53.5, 47}</string>
+				<string>{60, 32.5}</string>
+				<string>{60.5, 19.5}</string>
+				<string>{58, 11}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{312.5, 225.5}, {50, 53}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{156.5, 111}, {50, 53}}</string>
+			<key>image</key>
+			<string>iPh_apple4.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{22.5, 6}</string>
+				<string>{10, 9}</string>
+				<string>{3, 14}</string>
+				<string>{1, 20.5}</string>
+				<string>{2, 37.5}</string>
+				<string>{12.5, 52}</string>
+				<string>{39.5, 51}</string>
+				<string>{48.5, 38.5}</string>
+				<string>{48.5, 15}</string>
+				<string>{41.5, 8}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{376, 138.5}, {51, 57}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{70, 232.5}, {51, 57}}</string>
+			<key>image</key>
+			<string>iPh_apple5.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{15.5, 4}</string>
+				<string>{5.5, 11}</string>
+				<string>{1.5, 18.5}</string>
+				<string>{1, 41.5}</string>
+				<string>{16, 55.5}</string>
+				<string>{37, 54.5}</string>
+				<string>{49.5, 42.5}</string>
+				<string>{50, 19}</string>
+				<string>{44, 8}</string>
+				<string>{30.5, 2.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{501, 100}, {59, 57}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{177.5, 101.5}, {59, 57}}</string>
+			<key>image</key>
+			<string>iPh_apple6.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{43.5, 1}</string>
+				<string>{17.5, 1.5}</string>
+				<string>{6.5, 10.5}</string>
+				<string>{1, 21.5}</string>
+				<string>{2, 39}</string>
+				<string>{9.5, 50.5}</string>
+				<string>{19.5, 55.5}</string>
+				<string>{43, 55.5}</string>
+				<string>{57.5, 39}</string>
+				<string>{57.5, 17}</string>
+				<string>{52.5, 8}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{288, 75}, {57, 54}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{177, 200}, {57, 54}}</string>
+			<key>image</key>
+			<string>iPh_apple8.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{20, 1}</string>
+				<string>{9, 5}</string>
+				<string>{1, 15}</string>
+				<string>{1, 36.5}</string>
+				<string>{19, 54}</string>
+				<string>{41.5, 53}</string>
+				<string>{56, 35}</string>
+				<string>{56, 14}</string>
+				<string>{52, 8}</string>
+				<string>{40, 1.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{448.5, 227.5}, {71, 66}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{175, 104}, {71, 66}}</string>
+			<key>image</key>
+			<string>iPh_apple10.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{29, 2.5}</string>
+				<string>{18, 6.5}</string>
+				<string>{12.5, 18.5}</string>
+				<string>{13.5, 37.5}</string>
+				<string>{16, 45.5}</string>
+				<string>{13.5, 50.5}</string>
+				<string>{31, 60.5}</string>
+				<string>{48.5, 59}</string>
+				<string>{58.5, 51}</string>
+				<string>{56, 44.5}</string>
+				<string>{59.5, 34}</string>
+				<string>{59.5, 19}</string>
+				<string>{55.5, 8}</string>
+				<string>{48, 2}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{433.5, 76.5}, {57, 63}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{159.5, 63.5}, {57, 63}}</string>
+			<key>image</key>
+			<string>iPh_apple2.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{41, 6}</string>
+				<string>{20.5, 4}</string>
+				<string>{9, 8}</string>
+				<string>{1, 20.5}</string>
+				<string>{1.5, 42}</string>
+				<string>{14, 54}</string>
+				<string>{26.5, 60}</string>
+				<string>{50, 54.5}</string>
+				<string>{52, 45.5}</string>
+				<string>{56.5, 38.5}</string>
+				<string>{54.5, 17.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{246.5, 127.5}, {71, 66}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{126, 219}, {71, 66}}</string>
+			<key>image</key>
+			<string>iPh_apple3.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{50.5, 4}</string>
+				<string>{36.5, 2}</string>
+				<string>{22, 5}</string>
+				<string>{14, 15}</string>
+				<string>{13.5, 35.5}</string>
+				<string>{18.5, 46}</string>
+				<string>{14, 49.5}</string>
+				<string>{27.5, 58}</string>
+				<string>{45, 59}</string>
+				<string>{59, 50}</string>
+				<string>{53.5, 47}</string>
+				<string>{60, 32.5}</string>
+				<string>{60.5, 19.5}</string>
+				<string>{58, 11}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{312.5, 225.5}, {50, 53}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{132, 102}, {50, 53}}</string>
+			<key>image</key>
+			<string>iPh_apple4.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{22.5, 6}</string>
+				<string>{10, 9}</string>
+				<string>{3, 14}</string>
+				<string>{1, 20.5}</string>
+				<string>{2, 37.5}</string>
+				<string>{12.5, 52}</string>
+				<string>{39.5, 51}</string>
+				<string>{48.5, 38.5}</string>
+				<string>{48.5, 15}</string>
+				<string>{41.5, 8}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{376, 138.5}, {51, 57}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{221.5, 113}, {51, 57}}</string>
+			<key>image</key>
+			<string>iPh_apple5.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{15.5, 4}</string>
+				<string>{5.5, 11}</string>
+				<string>{1.5, 18.5}</string>
+				<string>{1, 41.5}</string>
+				<string>{16, 55.5}</string>
+				<string>{37, 54.5}</string>
+				<string>{49.5, 42.5}</string>
+				<string>{50, 19}</string>
+				<string>{44, 8}</string>
+				<string>{30.5, 2.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{501, 100}, {59, 57}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{154, 79.5}, {59, 57}}</string>
+			<key>image</key>
+			<string>iPh_apple6.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{43.5, 1}</string>
+				<string>{17.5, 1.5}</string>
+				<string>{6.5, 10.5}</string>
+				<string>{1, 21.5}</string>
+				<string>{2, 39}</string>
+				<string>{9.5, 50.5}</string>
+				<string>{19.5, 55.5}</string>
+				<string>{43, 55.5}</string>
+				<string>{57.5, 39}</string>
+				<string>{57.5, 17}</string>
+				<string>{52.5, 8}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{288, 75}, {57, 54}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{194, 61.5}, {57, 54}}</string>
+			<key>image</key>
+			<string>iPh_apple8.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{20, 1}</string>
+				<string>{9, 5}</string>
+				<string>{1, 15}</string>
+				<string>{1, 36.5}</string>
+				<string>{19, 54}</string>
+				<string>{41.5, 53}</string>
+				<string>{56, 35}</string>
+				<string>{56, 14}</string>
+				<string>{52, 8}</string>
+				<string>{40, 1.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{448.5, 227.5}, {71, 66}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{61, 55}, {71, 66}}</string>
+			<key>image</key>
+			<string>iPh_apple10.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{29, 2.5}</string>
+				<string>{18, 6.5}</string>
+				<string>{12.5, 18.5}</string>
+				<string>{13.5, 37.5}</string>
+				<string>{16, 45.5}</string>
+				<string>{13.5, 50.5}</string>
+				<string>{31, 60.5}</string>
+				<string>{48.5, 59}</string>
+				<string>{58.5, 51}</string>
+				<string>{56, 44.5}</string>
+				<string>{59.5, 34}</string>
+				<string>{59.5, 19}</string>
+				<string>{55.5, 8}</string>
+				<string>{48, 2}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{433.5, 76.5}, {57, 63}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{120, 142}, {57, 63}}</string>
+			<key>image</key>
+			<string>iPh_apple2.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{41, 6}</string>
+				<string>{20.5, 4}</string>
+				<string>{9, 8}</string>
+				<string>{1, 20.5}</string>
+				<string>{1.5, 42}</string>
+				<string>{14, 54}</string>
+				<string>{26.5, 60}</string>
+				<string>{50, 54.5}</string>
+				<string>{52, 45.5}</string>
+				<string>{56.5, 38.5}</string>
+				<string>{54.5, 17.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{246.5, 127.5}, {71, 66}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{119.5, 57.5}, {71, 66}}</string>
+			<key>image</key>
+			<string>iPh_apple3.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{50.5, 4}</string>
+				<string>{36.5, 2}</string>
+				<string>{22, 5}</string>
+				<string>{14, 15}</string>
+				<string>{13.5, 35.5}</string>
+				<string>{18.5, 46}</string>
+				<string>{14, 49.5}</string>
+				<string>{27.5, 58}</string>
+				<string>{45, 59}</string>
+				<string>{59, 50}</string>
+				<string>{53.5, 47}</string>
+				<string>{60, 32.5}</string>
+				<string>{60.5, 19.5}</string>
+				<string>{58, 11}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{312.5, 225.5}, {50, 53}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{87, 51}, {50, 53}}</string>
+			<key>image</key>
+			<string>iPh_apple4.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{22.5, 6}</string>
+				<string>{10, 9}</string>
+				<string>{3, 14}</string>
+				<string>{1, 20.5}</string>
+				<string>{2, 37.5}</string>
+				<string>{12.5, 52}</string>
+				<string>{39.5, 51}</string>
+				<string>{48.5, 38.5}</string>
+				<string>{48.5, 15}</string>
+				<string>{41.5, 8}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{376, 138.5}, {51, 57}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{56.5, 139.5}, {51, 57}}</string>
+			<key>image</key>
+			<string>iPh_apple5.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{15.5, 4}</string>
+				<string>{5.5, 11}</string>
+				<string>{1.5, 18.5}</string>
+				<string>{1, 41.5}</string>
+				<string>{16, 55.5}</string>
+				<string>{37, 54.5}</string>
+				<string>{49.5, 42.5}</string>
+				<string>{50, 19}</string>
+				<string>{44, 8}</string>
+				<string>{30.5, 2.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{501, 100}, {59, 57}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{144.5, 141.5}, {59, 57}}</string>
+			<key>image</key>
+			<string>iPh_apple6.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{43.5, 1}</string>
+				<string>{17.5, 1.5}</string>
+				<string>{6.5, 10.5}</string>
+				<string>{1, 21.5}</string>
+				<string>{2, 39}</string>
+				<string>{9.5, 50.5}</string>
+				<string>{19.5, 55.5}</string>
+				<string>{43, 55.5}</string>
+				<string>{57.5, 39}</string>
+				<string>{57.5, 17}</string>
+				<string>{52.5, 8}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{288, 75}, {57, 54}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{233, 190}, {57, 54}}</string>
+			<key>image</key>
+			<string>iPh_apple8.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{20, 1}</string>
+				<string>{9, 5}</string>
+				<string>{1, 15}</string>
+				<string>{1, 36.5}</string>
+				<string>{19, 54}</string>
+				<string>{41.5, 53}</string>
+				<string>{56, 35}</string>
+				<string>{56, 14}</string>
+				<string>{52, 8}</string>
+				<string>{40, 1.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{448.5, 227.5}, {71, 66}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{95, 142.5}, {71, 66}}</string>
+			<key>image</key>
+			<string>iPh_apple10.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{29, 2.5}</string>
+				<string>{18, 6.5}</string>
+				<string>{12.5, 18.5}</string>
+				<string>{13.5, 37.5}</string>
+				<string>{16, 45.5}</string>
+				<string>{13.5, 50.5}</string>
+				<string>{31, 60.5}</string>
+				<string>{48.5, 59}</string>
+				<string>{58.5, 51}</string>
+				<string>{56, 44.5}</string>
+				<string>{59.5, 34}</string>
+				<string>{59.5, 19}</string>
+				<string>{55.5, 8}</string>
+				<string>{48, 2}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{433.5, 76.5}, {57, 63}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{105, 104}, {57, 63}}</string>
+			<key>image</key>
+			<string>iPh_apple2.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{41, 6}</string>
+				<string>{20.5, 4}</string>
+				<string>{9, 8}</string>
+				<string>{1, 20.5}</string>
+				<string>{1.5, 42}</string>
+				<string>{14, 54}</string>
+				<string>{26.5, 60}</string>
+				<string>{50, 54.5}</string>
+				<string>{52, 45.5}</string>
+				<string>{56.5, 38.5}</string>
+				<string>{54.5, 17.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{246.5, 127.5}, {71, 66}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{115.5, 200}, {71, 66}}</string>
+			<key>image</key>
+			<string>iPh_apple3.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{50.5, 4}</string>
+				<string>{36.5, 2}</string>
+				<string>{22, 5}</string>
+				<string>{14, 15}</string>
+				<string>{13.5, 35.5}</string>
+				<string>{18.5, 46}</string>
+				<string>{14, 49.5}</string>
+				<string>{27.5, 58}</string>
+				<string>{45, 59}</string>
+				<string>{59, 50}</string>
+				<string>{53.5, 47}</string>
+				<string>{60, 32.5}</string>
+				<string>{60.5, 19.5}</string>
+				<string>{58, 11}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{312.5, 225.5}, {50, 53}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{136, 179}, {50, 53}}</string>
+			<key>image</key>
+			<string>iPh_apple4.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{22.5, 6}</string>
+				<string>{10, 9}</string>
+				<string>{3, 14}</string>
+				<string>{1, 20.5}</string>
+				<string>{2, 37.5}</string>
+				<string>{12.5, 52}</string>
+				<string>{39.5, 51}</string>
+				<string>{48.5, 38.5}</string>
+				<string>{48.5, 15}</string>
+				<string>{41.5, 8}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{376, 138.5}, {51, 57}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{74.5, 192.5}, {51, 57}}</string>
+			<key>image</key>
+			<string>iPh_apple5.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{15.5, 4}</string>
+				<string>{5.5, 11}</string>
+				<string>{1.5, 18.5}</string>
+				<string>{1, 41.5}</string>
+				<string>{16, 55.5}</string>
+				<string>{37, 54.5}</string>
+				<string>{49.5, 42.5}</string>
+				<string>{50, 19}</string>
+				<string>{44, 8}</string>
+				<string>{30.5, 2.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{501, 100}, {59, 57}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{136.5, 192.5}, {59, 57}}</string>
+			<key>image</key>
+			<string>iPh_apple6.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{43.5, 1}</string>
+				<string>{17.5, 1.5}</string>
+				<string>{6.5, 10.5}</string>
+				<string>{1, 21.5}</string>
+				<string>{2, 39}</string>
+				<string>{9.5, 50.5}</string>
+				<string>{19.5, 55.5}</string>
+				<string>{43, 55.5}</string>
+				<string>{57.5, 39}</string>
+				<string>{57.5, 17}</string>
+				<string>{52.5, 8}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{288, 75}, {57, 54}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{133, 143}, {57, 54}}</string>
+			<key>image</key>
+			<string>iPh_apple8.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{20, 1}</string>
+				<string>{9, 5}</string>
+				<string>{1, 15}</string>
+				<string>{1, 36.5}</string>
+				<string>{19, 54}</string>
+				<string>{41.5, 53}</string>
+				<string>{56, 35}</string>
+				<string>{56, 14}</string>
+				<string>{52, 8}</string>
+				<string>{40, 1.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{448.5, 227.5}, {71, 66}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{69, 104}, {71, 66}}</string>
+			<key>image</key>
+			<string>iPh_apple10.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{29, 2.5}</string>
+				<string>{18, 6.5}</string>
+				<string>{12.5, 18.5}</string>
+				<string>{13.5, 37.5}</string>
+				<string>{16, 45.5}</string>
+				<string>{13.5, 50.5}</string>
+				<string>{31, 60.5}</string>
+				<string>{48.5, 59}</string>
+				<string>{58.5, 51}</string>
+				<string>{56, 44.5}</string>
+				<string>{59.5, 34}</string>
+				<string>{59.5, 19}</string>
+				<string>{55.5, 8}</string>
+				<string>{48, 2}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{433.5, 76.5}, {57, 63}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{158, 59}, {57, 63}}</string>
+			<key>image</key>
+			<string>iPh_apple2.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{41, 6}</string>
+				<string>{20.5, 4}</string>
+				<string>{9, 8}</string>
+				<string>{1, 20.5}</string>
+				<string>{1.5, 42}</string>
+				<string>{14, 54}</string>
+				<string>{26.5, 60}</string>
+				<string>{50, 54.5}</string>
+				<string>{52, 45.5}</string>
+				<string>{56.5, 38.5}</string>
+				<string>{54.5, 17.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{246.5, 127.5}, {71, 66}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{37, 65}, {71, 66}}</string>
+			<key>image</key>
+			<string>iPh_apple3.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{50.5, 4}</string>
+				<string>{36.5, 2}</string>
+				<string>{22, 5}</string>
+				<string>{14, 15}</string>
+				<string>{13.5, 35.5}</string>
+				<string>{18.5, 46}</string>
+				<string>{14, 49.5}</string>
+				<string>{27.5, 58}</string>
+				<string>{45, 59}</string>
+				<string>{59, 50}</string>
+				<string>{53.5, 47}</string>
+				<string>{60, 32.5}</string>
+				<string>{60.5, 19.5}</string>
+				<string>{58, 11}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{312.5, 225.5}, {50, 53}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{5.5, 81}, {50, 53}}</string>
+			<key>image</key>
+			<string>iPh_apple4.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{22.5, 6}</string>
+				<string>{10, 9}</string>
+				<string>{3, 14}</string>
+				<string>{1, 20.5}</string>
+				<string>{2, 37.5}</string>
+				<string>{12.5, 52}</string>
+				<string>{39.5, 51}</string>
+				<string>{48.5, 38.5}</string>
+				<string>{48.5, 15}</string>
+				<string>{41.5, 8}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{376, 138.5}, {51, 57}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{9, 77}, {51, 57}}</string>
+			<key>image</key>
+			<string>iPh_apple5.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{15.5, 4}</string>
+				<string>{5.5, 11}</string>
+				<string>{1.5, 18.5}</string>
+				<string>{1, 41.5}</string>
+				<string>{16, 55.5}</string>
+				<string>{37, 54.5}</string>
+				<string>{49.5, 42.5}</string>
+				<string>{50, 19}</string>
+				<string>{44, 8}</string>
+				<string>{30.5, 2.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{501, 100}, {59, 57}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{-3.5, 98}, {59, 57}}</string>
+			<key>image</key>
+			<string>iPh_apple6.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{43.5, 1}</string>
+				<string>{17.5, 1.5}</string>
+				<string>{6.5, 10.5}</string>
+				<string>{1, 21.5}</string>
+				<string>{2, 39}</string>
+				<string>{9.5, 50.5}</string>
+				<string>{19.5, 55.5}</string>
+				<string>{43, 55.5}</string>
+				<string>{57.5, 39}</string>
+				<string>{57.5, 17}</string>
+				<string>{52.5, 8}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{288, 75}, {57, 54}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{38.5, 81.5}, {57, 54}}</string>
+			<key>image</key>
+			<string>iPh_apple8.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{20, 1}</string>
+				<string>{9, 5}</string>
+				<string>{1, 15}</string>
+				<string>{1, 36.5}</string>
+				<string>{19, 54}</string>
+				<string>{41.5, 53}</string>
+				<string>{56, 35}</string>
+				<string>{56, 14}</string>
+				<string>{52, 8}</string>
+				<string>{40, 1.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{448.5, 227.5}, {71, 66}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{23.5, 111}, {71, 66}}</string>
+			<key>image</key>
+			<string>iPh_apple10.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{29, 2.5}</string>
+				<string>{18, 6.5}</string>
+				<string>{12.5, 18.5}</string>
+				<string>{13.5, 37.5}</string>
+				<string>{16, 45.5}</string>
+				<string>{13.5, 50.5}</string>
+				<string>{31, 60.5}</string>
+				<string>{48.5, 59}</string>
+				<string>{58.5, 51}</string>
+				<string>{56, 44.5}</string>
+				<string>{59.5, 34}</string>
+				<string>{59.5, 19}</string>
+				<string>{55.5, 8}</string>
+				<string>{48, 2}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{433.5, 76.5}, {57, 63}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{1.5, 127.5}, {57, 63}}</string>
+			<key>image</key>
+			<string>iPh_apple2.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{41, 6}</string>
+				<string>{20.5, 4}</string>
+				<string>{9, 8}</string>
+				<string>{1, 20.5}</string>
+				<string>{1.5, 42}</string>
+				<string>{14, 54}</string>
+				<string>{26.5, 60}</string>
+				<string>{50, 54.5}</string>
+				<string>{52, 45.5}</string>
+				<string>{56.5, 38.5}</string>
+				<string>{54.5, 17.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{246.5, 127.5}, {71, 66}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{171.5, 148}, {71, 66}}</string>
+			<key>image</key>
+			<string>iPh_apple3.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{50.5, 4}</string>
+				<string>{36.5, 2}</string>
+				<string>{22, 5}</string>
+				<string>{14, 15}</string>
+				<string>{13.5, 35.5}</string>
+				<string>{18.5, 46}</string>
+				<string>{14, 49.5}</string>
+				<string>{27.5, 58}</string>
+				<string>{45, 59}</string>
+				<string>{59, 50}</string>
+				<string>{53.5, 47}</string>
+				<string>{60, 32.5}</string>
+				<string>{60.5, 19.5}</string>
+				<string>{58, 11}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{312.5, 225.5}, {50, 53}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{177.5, 115}, {50, 53}}</string>
+			<key>image</key>
+			<string>iPh_apple4.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{22.5, 6}</string>
+				<string>{10, 9}</string>
+				<string>{3, 14}</string>
+				<string>{1, 20.5}</string>
+				<string>{2, 37.5}</string>
+				<string>{12.5, 52}</string>
+				<string>{39.5, 51}</string>
+				<string>{48.5, 38.5}</string>
+				<string>{48.5, 15}</string>
+				<string>{41.5, 8}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{376, 138.5}, {51, 57}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{93.5, 228}, {51, 57}}</string>
+			<key>image</key>
+			<string>iPh_apple5.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{15.5, 4}</string>
+				<string>{5.5, 11}</string>
+				<string>{1.5, 18.5}</string>
+				<string>{1, 41.5}</string>
+				<string>{16, 55.5}</string>
+				<string>{37, 54.5}</string>
+				<string>{49.5, 42.5}</string>
+				<string>{50, 19}</string>
+				<string>{44, 8}</string>
+				<string>{30.5, 2.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{501, 100}, {59, 57}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{176.5, 232.5}, {59, 57}}</string>
+			<key>image</key>
+			<string>iPh_apple6.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{43.5, 1}</string>
+				<string>{17.5, 1.5}</string>
+				<string>{6.5, 10.5}</string>
+				<string>{1, 21.5}</string>
+				<string>{2, 39}</string>
+				<string>{9.5, 50.5}</string>
+				<string>{19.5, 55.5}</string>
+				<string>{43, 55.5}</string>
+				<string>{57.5, 39}</string>
+				<string>{57.5, 17}</string>
+				<string>{52.5, 8}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{288, 75}, {57, 54}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{90, 120.5}, {57, 54}}</string>
+			<key>image</key>
+			<string>iPh_apple8.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{20, 1}</string>
+				<string>{9, 5}</string>
+				<string>{1, 15}</string>
+				<string>{1, 36.5}</string>
+				<string>{19, 54}</string>
+				<string>{41.5, 53}</string>
+				<string>{56, 35}</string>
+				<string>{56, 14}</string>
+				<string>{52, 8}</string>
+				<string>{40, 1.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{448.5, 227.5}, {71, 66}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{-5, 80}, {71, 66}}</string>
+			<key>image</key>
+			<string>iPh_apple10.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{29, 2.5}</string>
+				<string>{18, 6.5}</string>
+				<string>{12.5, 18.5}</string>
+				<string>{13.5, 37.5}</string>
+				<string>{16, 45.5}</string>
+				<string>{13.5, 50.5}</string>
+				<string>{31, 60.5}</string>
+				<string>{48.5, 59}</string>
+				<string>{58.5, 51}</string>
+				<string>{56, 44.5}</string>
+				<string>{59.5, 34}</string>
+				<string>{59.5, 19}</string>
+				<string>{55.5, 8}</string>
+				<string>{48, 2}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{433.5, 76.5}, {57, 63}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{132.5, 104.5}, {57, 63}}</string>
+			<key>image</key>
+			<string>iPh_apple2.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{41, 6}</string>
+				<string>{20.5, 4}</string>
+				<string>{9, 8}</string>
+				<string>{1, 20.5}</string>
+				<string>{1.5, 42}</string>
+				<string>{14, 54}</string>
+				<string>{26.5, 60}</string>
+				<string>{50, 54.5}</string>
+				<string>{52, 45.5}</string>
+				<string>{56.5, 38.5}</string>
+				<string>{54.5, 17.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{246.5, 127.5}, {71, 66}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{209.5, 55.5}, {71, 66}}</string>
+			<key>image</key>
+			<string>iPh_apple3.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{50.5, 4}</string>
+				<string>{36.5, 2}</string>
+				<string>{22, 5}</string>
+				<string>{14, 15}</string>
+				<string>{13.5, 35.5}</string>
+				<string>{18.5, 46}</string>
+				<string>{14, 49.5}</string>
+				<string>{27.5, 58}</string>
+				<string>{45, 59}</string>
+				<string>{59, 50}</string>
+				<string>{53.5, 47}</string>
+				<string>{60, 32.5}</string>
+				<string>{60.5, 19.5}</string>
+				<string>{58, 11}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{312.5, 225.5}, {50, 53}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{98, 70.5}, {50, 53}}</string>
+			<key>image</key>
+			<string>iPh_apple4.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{22.5, 6}</string>
+				<string>{10, 9}</string>
+				<string>{3, 14}</string>
+				<string>{1, 20.5}</string>
+				<string>{2, 37.5}</string>
+				<string>{12.5, 52}</string>
+				<string>{39.5, 51}</string>
+				<string>{48.5, 38.5}</string>
+				<string>{48.5, 15}</string>
+				<string>{41.5, 8}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{376, 138.5}, {51, 57}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{46.5, 67.5}, {51, 57}}</string>
+			<key>image</key>
+			<string>iPh_apple5.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{15.5, 4}</string>
+				<string>{5.5, 11}</string>
+				<string>{1.5, 18.5}</string>
+				<string>{1, 41.5}</string>
+				<string>{16, 55.5}</string>
+				<string>{37, 54.5}</string>
+				<string>{49.5, 42.5}</string>
+				<string>{50, 19}</string>
+				<string>{44, 8}</string>
+				<string>{30.5, 2.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{501, 100}, {59, 57}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{149.5, 57.5}, {59, 57}}</string>
+			<key>image</key>
+			<string>iPh_apple6.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{43.5, 1}</string>
+				<string>{17.5, 1.5}</string>
+				<string>{6.5, 10.5}</string>
+				<string>{1, 21.5}</string>
+				<string>{2, 39}</string>
+				<string>{9.5, 50.5}</string>
+				<string>{19.5, 55.5}</string>
+				<string>{43, 55.5}</string>
+				<string>{57.5, 39}</string>
+				<string>{57.5, 17}</string>
+				<string>{52.5, 8}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{288, 75}, {57, 54}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{91, 169}, {57, 54}}</string>
+			<key>image</key>
+			<string>iPh_apple8.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{20, 1}</string>
+				<string>{9, 5}</string>
+				<string>{1, 15}</string>
+				<string>{1, 36.5}</string>
+				<string>{19, 54}</string>
+				<string>{41.5, 53}</string>
+				<string>{56, 35}</string>
+				<string>{56, 14}</string>
+				<string>{52, 8}</string>
+				<string>{40, 1.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{448.5, 227.5}, {71, 66}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{183, 104.5}, {71, 66}}</string>
+			<key>image</key>
+			<string>iPh_apple10.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{29, 2.5}</string>
+				<string>{18, 6.5}</string>
+				<string>{12.5, 18.5}</string>
+				<string>{13.5, 37.5}</string>
+				<string>{16, 45.5}</string>
+				<string>{13.5, 50.5}</string>
+				<string>{31, 60.5}</string>
+				<string>{48.5, 59}</string>
+				<string>{58.5, 51}</string>
+				<string>{56, 44.5}</string>
+				<string>{59.5, 34}</string>
+				<string>{59.5, 19}</string>
+				<string>{55.5, 8}</string>
+				<string>{48, 2}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{433.5, 76.5}, {57, 63}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{124.5, 102}, {57, 63}}</string>
+			<key>image</key>
+			<string>iPh_apple2.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{41, 6}</string>
+				<string>{20.5, 4}</string>
+				<string>{9, 8}</string>
+				<string>{1, 20.5}</string>
+				<string>{1.5, 42}</string>
+				<string>{14, 54}</string>
+				<string>{26.5, 60}</string>
+				<string>{50, 54.5}</string>
+				<string>{52, 45.5}</string>
+				<string>{56.5, 38.5}</string>
+				<string>{54.5, 17.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{246.5, 127.5}, {71, 66}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTApple</string>
+			<key>frame</key>
+			<string>{{44.5, 107}, {71, 66}}</string>
+			<key>image</key>
+			<string>iPh_apple3.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{50.5, 4}</string>
+				<string>{36.5, 2}</string>
+				<string>{22, 5}</string>
+				<string>{14, 15}</string>
+				<string>{13.5, 35.5}</string>
+				<string>{18.5, 46}</string>
+				<string>{14, 49.5}</string>
+				<string>{27.5, 58}</string>
+				<string>{45, 59}</string>
+				<string>{59, 50}</string>
+				<string>{53.5, 47}</string>
+				<string>{60, 32.5}</string>
+				<string>{60.5, 19.5}</string>
+				<string>{58, 11}</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

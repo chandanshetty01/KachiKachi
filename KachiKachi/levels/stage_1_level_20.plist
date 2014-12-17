@@ -1,0 +1,1461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ID</key>
+	<string>20</string>
+	<key>elements</key>
+	<array>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{293.5, 113.5}, {57, 151}}</string>
+			<key>image</key>
+			<string>iPh_flower.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{10.5, 0}</string>
+				<string>{1.5, 12.5}</string>
+				<string>{1, 29}</string>
+				<string>{16, 43}</string>
+				<string>{18, 56}</string>
+				<string>{16, 80}</string>
+				<string>{9.5, 74}</string>
+				<string>{7, 83.5}</string>
+				<string>{9, 96}</string>
+				<string>{2, 116.5}</string>
+				<string>{2.5, 145}</string>
+				<string>{20, 113.5}</string>
+				<string>{23, 120.5}</string>
+				<string>{20, 147.5}</string>
+				<string>{25.5, 148}</string>
+				<string>{28.5, 120.5}</string>
+				<string>{32, 111.5}</string>
+				<string>{45.5, 115}</string>
+				<string>{52.5, 103.5}</string>
+				<string>{40, 87}</string>
+				<string>{44, 78.5}</string>
+				<string>{33, 74.5}</string>
+				<string>{32, 67}</string>
+				<string>{26.5, 69}</string>
+				<string>{22.5, 79}</string>
+				<string>{25, 48}</string>
+				<string>{40, 54.5}</string>
+				<string>{35, 45}</string>
+				<string>{56.5, 33}</string>
+				<string>{56.5, 22}</string>
+				<string>{46, 8.5}</string>
+				<string>{33.5, 2.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{184.5, 78}, {176, 102}}</string>
+			<key>image</key>
+			<string>iPh_flower2_left.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{21, 0.5}</string>
+				<string>{2, 43.5}</string>
+				<string>{10, 59.5}</string>
+				<string>{41, 63}</string>
+				<string>{48.5, 59.5}</string>
+				<string>{52.5, 53.5}</string>
+				<string>{106.5, 65}</string>
+				<string>{118, 69}</string>
+				<string>{118, 80}</string>
+				<string>{124.5, 88.5}</string>
+				<string>{98, 91.5}</string>
+				<string>{108, 97}</string>
+				<string>{131, 94.5}</string>
+				<string>{130.5, 99.5}</string>
+				<string>{137.5, 101}</string>
+				<string>{148, 97}</string>
+				<string>{160.5, 98}</string>
+				<string>{161.5, 93.5}</string>
+				<string>{160, 84.5}</string>
+				<string>{174.5, 88}</string>
+				<string>{174, 83}</string>
+				<string>{160, 75.5}</string>
+				<string>{155.5, 68}</string>
+				<string>{149, 64}</string>
+				<string>{144, 70}</string>
+				<string>{116, 59.5}</string>
+				<string>{122, 53.5}</string>
+				<string>{134.5, 50}</string>
+				<string>{147, 46}</string>
+				<string>{140.5, 42}</string>
+				<string>{131.5, 41}</string>
+				<string>{135.5, 34}</string>
+				<string>{134, 28.5}</string>
+				<string>{120.5, 30}</string>
+				<string>{110, 37}</string>
+				<string>{98, 29.5}</string>
+				<string>{84.5, 27}</string>
+				<string>{77.5, 27}</string>
+				<string>{79.5, 35.5}</string>
+				<string>{87.5, 39.5}</string>
+				<string>{77, 45.5}</string>
+				<string>{73.5, 49.5}</string>
+				<string>{56.5, 43.5}</string>
+				<string>{55, 28.5}</string>
+				<string>{41, 15}</string>
+				<string>{37, 2.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{278.5, 141}, {119, 54}}</string>
+			<key>image</key>
+			<string>iPh_flower4_right.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{1.5, 7.5}</string>
+				<string>{37, 16.5}</string>
+				<string>{46.5, 21}</string>
+				<string>{40.5, 38}</string>
+				<string>{52, 33.5}</string>
+				<string>{53, 22.5}</string>
+				<string>{73, 27.5}</string>
+				<string>{75, 39.5}</string>
+				<string>{89.5, 53}</string>
+				<string>{117.5, 34.5}</string>
+				<string>{107.5, 7.5}</string>
+				<string>{101.5, 5}</string>
+				<string>{93.5, 7.5}</string>
+				<string>{79.5, 14.5}</string>
+				<string>{73.5, 21}</string>
+				<string>{35.5, 11}</string>
+				<string>{38.5, 2.5}</string>
+				<string>{32.5, 1.5}</string>
+				<string>{32, 9.5}</string>
+				<string>{2, 2.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{134.5, 180}, {226, 108}}</string>
+			<key>image</key>
+			<string>iPh_flower5_left.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{225, 6}</string>
+				<string>{211.5, 17}</string>
+				<string>{174.5, 19.5}</string>
+				<string>{187, 12}</string>
+				<string>{175.5, 9}</string>
+				<string>{157.5, 16}</string>
+				<string>{138, 1.5}</string>
+				<string>{135.5, 2.5}</string>
+				<string>{135.5, 14}</string>
+				<string>{138.5, 21.5}</string>
+				<string>{165.5, 23}</string>
+				<string>{146.5, 30.5}</string>
+				<string>{128.5, 33.5}</string>
+				<string>{112, 21}</string>
+				<string>{118, 37}</string>
+				<string>{67, 49.5}</string>
+				<string>{59, 36.5}</string>
+				<string>{49.5, 45}</string>
+				<string>{27, 9}</string>
+				<string>{23.5, 11}</string>
+				<string>{35.5, 31.5}</string>
+				<string>{11, 27.5}</string>
+				<string>{6, 37.5}</string>
+				<string>{2, 45}</string>
+				<string>{3, 77.5}</string>
+				<string>{14.5, 95}</string>
+				<string>{33.5, 107}</string>
+				<string>{44, 105}</string>
+				<string>{52, 75}</string>
+				<string>{59.5, 101.5}</string>
+				<string>{58, 61.5}</string>
+				<string>{97.5, 48.5}</string>
+				<string>{75, 67}</string>
+				<string>{121.5, 53.5}</string>
+				<string>{131.5, 66}</string>
+				<string>{135, 40}</string>
+				<string>{143.5, 37.5}</string>
+				<string>{148.5, 41.5}</string>
+				<string>{168, 48.5}</string>
+				<string>{187.5, 50.5}</string>
+				<string>{208, 39.5}</string>
+				<string>{195.5, 33.5}</string>
+				<string>{179, 24.5}</string>
+				<string>{212, 22.5}</string>
+				<string>{225, 12}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{189.5, 90}, {95, 89}}</string>
+			<key>image</key>
+			<string>iPh_flower6_right.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{1.5, 30.5}</string>
+				<string>{17, 33}</string>
+				<string>{30, 35}</string>
+				<string>{44, 45.5}</string>
+				<string>{41, 57}</string>
+				<string>{47.5, 65.5}</string>
+				<string>{68, 88.5}</string>
+				<string>{94.5, 65.5}</string>
+				<string>{94.5, 36.5}</string>
+				<string>{62.5, 35}</string>
+				<string>{47.5, 39}</string>
+				<string>{34, 31}</string>
+				<string>{17.5, 27.5}</string>
+				<string>{2, 25}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{241, 157.5}, {202, 130}}</string>
+			<key>image</key>
+			<string>iPh_flower7_left.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{16.5, 2}</string>
+				<string>{1.5, 25}</string>
+				<string>{1, 40}</string>
+				<string>{40.5, 44}</string>
+				<string>{45.5, 49}</string>
+				<string>{54.5, 64}</string>
+				<string>{68.5, 73}</string>
+				<string>{66, 84}</string>
+				<string>{84, 86.5}</string>
+				<string>{82, 94.5}</string>
+				<string>{97.5, 101.5}</string>
+				<string>{114.5, 98}</string>
+				<string>{123.5, 110.5}</string>
+				<string>{138, 105.5}</string>
+				<string>{136, 89}</string>
+				<string>{196.5, 129.5}</string>
+				<string>{201, 126}</string>
+				<string>{135.5, 80}</string>
+				<string>{128.5, 63.5}</string>
+				<string>{150.5, 49.5}</string>
+				<string>{148.5, 44}</string>
+				<string>{134.5, 44}</string>
+				<string>{115.5, 50}</string>
+				<string>{99.5, 40.5}</string>
+				<string>{94.5, 41}</string>
+				<string>{85.5, 41}</string>
+				<string>{75.5, 31.5}</string>
+				<string>{62.5, 41}</string>
+				<string>{59.5, 35.5}</string>
+				<string>{47.5, 27}</string>
+				<string>{44, 14.5}</string>
+				<string>{33.5, 1.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{282.5, 137}, {146, 117}}</string>
+			<key>image</key>
+			<string>iPh_flower8_right.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{0.5, 14.5}</string>
+				<string>{10.5, 23.5}</string>
+				<string>{33, 50}</string>
+				<string>{31.5, 59.5}</string>
+				<string>{24.5, 68}</string>
+				<string>{28, 81.5}</string>
+				<string>{37.5, 80.5}</string>
+				<string>{38, 71}</string>
+				<string>{36, 56}</string>
+				<string>{64.5, 82.5}</string>
+				<string>{70.5, 99.5}</string>
+				<string>{84.5, 115.5}</string>
+				<string>{114, 87}</string>
+				<string>{107, 71.5}</string>
+				<string>{92, 69.5}</string>
+				<string>{79, 71}</string>
+				<string>{69.5, 78.5}</string>
+				<string>{17.5, 26}</string>
+				<string>{15, 19.5}</string>
+				<string>{2.5, 10.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{235, 80}, {52, 169}}</string>
+			<key>image</key>
+			<string>iPh_flower9_top.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{1.5, 14.5}</string>
+				<string>{5.5, 28.5}</string>
+				<string>{15.5, 38.5}</string>
+				<string>{26, 41}</string>
+				<string>{25.5, 60}</string>
+				<string>{19.5, 80.5}</string>
+				<string>{15, 101}</string>
+				<string>{8.5, 117}</string>
+				<string>{6, 133}</string>
+				<string>{14, 165.5}</string>
+				<string>{17, 163.5}</string>
+				<string>{10, 136}</string>
+				<string>{12.5, 118.5}</string>
+				<string>{22.5, 89}</string>
+				<string>{37.5, 81}</string>
+				<string>{46.5, 84.5}</string>
+				<string>{51.5, 74}</string>
+				<string>{46.5, 68}</string>
+				<string>{39, 70}</string>
+				<string>{35.5, 78}</string>
+				<string>{24.5, 81.5}</string>
+				<string>{31, 56.5}</string>
+				<string>{32.5, 41.5}</string>
+				<string>{41.5, 30}</string>
+				<string>{50, 9.5}</string>
+				<string>{32.5, 0.5}</string>
+				<string>{8.5, 0.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{259.5, 77.5}, {181, 84}}</string>
+			<key>image</key>
+			<string>iPh_flower10_right.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{2, 19.5}</string>
+				<string>{15, 21}</string>
+				<string>{13.5, 11.5}</string>
+				<string>{43.5, 1.5}</string>
+				<string>{79, 2.5}</string>
+				<string>{56, 13}</string>
+				<string>{63, 29.5}</string>
+				<string>{75.5, 32.5}</string>
+				<string>{126.5, 34}</string>
+				<string>{144, 21}</string>
+				<string>{178.5, 29.5}</string>
+				<string>{168.5, 83}</string>
+				<string>{155.5, 81.5}</string>
+				<string>{125.5, 47}</string>
+				<string>{103.5, 42}</string>
+				<string>{110, 65.5}</string>
+				<string>{93.5, 67.5}</string>
+				<string>{75.5, 59.5}</string>
+				<string>{53, 74.5}</string>
+				<string>{49.5, 61}</string>
+				<string>{37, 59}</string>
+				<string>{64, 39.5}</string>
+				<string>{36.5, 32.5}</string>
+				<string>{32.5, 39}</string>
+				<string>{19.5, 34}</string>
+				<string>{3.5, 27}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{338.5, 162}, {76, 82}}</string>
+			<key>image</key>
+			<string>iPh_flower11_left.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{45.5, 27}</string>
+				<string>{33, 1.5}</string>
+				<string>{16, 6.5}</string>
+				<string>{5.5, 16.5}</string>
+				<string>{1.5, 30}</string>
+				<string>{26.5, 42.5}</string>
+				<string>{38.5, 44}</string>
+				<string>{48.5, 54}</string>
+				<string>{61, 61}</string>
+				<string>{71, 66}</string>
+				<string>{73, 62.5}</string>
+				<string>{61, 56.5}</string>
+				<string>{50, 51.5}</string>
+				<string>{42, 40.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{279, 135}, {151, 57}}</string>
+			<key>image</key>
+			<string>iPh_flower12_right.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{1.5, 33}</string>
+				<string>{29.5, 28.5}</string>
+				<string>{38.5, 24.5}</string>
+				<string>{34, 14}</string>
+				<string>{42, 12}</string>
+				<string>{43.5, 6.5}</string>
+				<string>{64, 16.5}</string>
+				<string>{72.5, 13.5}</string>
+				<string>{84.5, 28}</string>
+				<string>{78, 34.5}</string>
+				<string>{101, 32.5}</string>
+				<string>{96, 18.5}</string>
+				<string>{106.5, 22.5}</string>
+				<string>{120, 1.5}</string>
+				<string>{131, 4}</string>
+				<string>{150.5, 28}</string>
+				<string>{150, 52.5}</string>
+				<string>{123, 56.5}</string>
+				<string>{104, 43}</string>
+				<string>{99, 40.5}</string>
+				<string>{74.5, 42.5}</string>
+				<string>{76, 48}</string>
+				<string>{55, 49}</string>
+				<string>{34.5, 56}</string>
+				<string>{6, 54.5}</string>
+				<string>{15.5, 45}</string>
+				<string>{23, 42.5}</string>
+				<string>{31.5, 40}</string>
+				<string>{31.5, 36.5}</string>
+				<string>{17, 35}</string>
+				<string>{2, 37}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{288, 86.5}, {176, 102}}</string>
+			<key>image</key>
+			<string>iPh_flower2_left.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{21, 0.5}</string>
+				<string>{2, 43.5}</string>
+				<string>{10, 59.5}</string>
+				<string>{41, 63}</string>
+				<string>{48.5, 59.5}</string>
+				<string>{52.5, 53.5}</string>
+				<string>{106.5, 65}</string>
+				<string>{118, 69}</string>
+				<string>{118, 80}</string>
+				<string>{124.5, 88.5}</string>
+				<string>{98, 91.5}</string>
+				<string>{108, 97}</string>
+				<string>{131, 94.5}</string>
+				<string>{130.5, 99.5}</string>
+				<string>{137.5, 101}</string>
+				<string>{148, 97}</string>
+				<string>{160.5, 98}</string>
+				<string>{161.5, 93.5}</string>
+				<string>{160, 84.5}</string>
+				<string>{174.5, 88}</string>
+				<string>{174, 83}</string>
+				<string>{160, 75.5}</string>
+				<string>{155.5, 68}</string>
+				<string>{149, 64}</string>
+				<string>{144, 70}</string>
+				<string>{116, 59.5}</string>
+				<string>{122, 53.5}</string>
+				<string>{134.5, 50}</string>
+				<string>{147, 46}</string>
+				<string>{140.5, 42}</string>
+				<string>{131.5, 41}</string>
+				<string>{135.5, 34}</string>
+				<string>{134, 28.5}</string>
+				<string>{120.5, 30}</string>
+				<string>{110, 37}</string>
+				<string>{98, 29.5}</string>
+				<string>{84.5, 27}</string>
+				<string>{77.5, 27}</string>
+				<string>{79.5, 35.5}</string>
+				<string>{87.5, 39.5}</string>
+				<string>{77, 45.5}</string>
+				<string>{73.5, 49.5}</string>
+				<string>{56.5, 43.5}</string>
+				<string>{55, 28.5}</string>
+				<string>{41, 15}</string>
+				<string>{37, 2.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{100, 100}, {119, 54}}</string>
+			<key>image</key>
+			<string>iPh_flower4_right.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{1.5, 7.5}</string>
+				<string>{37, 16.5}</string>
+				<string>{46.5, 21}</string>
+				<string>{40.5, 38}</string>
+				<string>{52, 33.5}</string>
+				<string>{53, 22.5}</string>
+				<string>{73, 27.5}</string>
+				<string>{75, 39.5}</string>
+				<string>{89.5, 53}</string>
+				<string>{117.5, 34.5}</string>
+				<string>{107.5, 7.5}</string>
+				<string>{101.5, 5}</string>
+				<string>{93.5, 7.5}</string>
+				<string>{79.5, 14.5}</string>
+				<string>{73.5, 21}</string>
+				<string>{35.5, 11}</string>
+				<string>{38.5, 2.5}</string>
+				<string>{32.5, 1.5}</string>
+				<string>{32, 9.5}</string>
+				<string>{2, 2.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{46.5, 74}, {226, 108}}</string>
+			<key>image</key>
+			<string>iPh_flower5_left.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{225, 6}</string>
+				<string>{211.5, 17}</string>
+				<string>{174.5, 19.5}</string>
+				<string>{187, 12}</string>
+				<string>{175.5, 9}</string>
+				<string>{157.5, 16}</string>
+				<string>{138, 1.5}</string>
+				<string>{135.5, 2.5}</string>
+				<string>{135.5, 14}</string>
+				<string>{138.5, 21.5}</string>
+				<string>{165.5, 23}</string>
+				<string>{146.5, 30.5}</string>
+				<string>{128.5, 33.5}</string>
+				<string>{112, 21}</string>
+				<string>{118, 37}</string>
+				<string>{67, 49.5}</string>
+				<string>{59, 36.5}</string>
+				<string>{49.5, 45}</string>
+				<string>{27, 9}</string>
+				<string>{23.5, 11}</string>
+				<string>{35.5, 31.5}</string>
+				<string>{11, 27.5}</string>
+				<string>{6, 37.5}</string>
+				<string>{2, 45}</string>
+				<string>{3, 77.5}</string>
+				<string>{14.5, 95}</string>
+				<string>{33.5, 107}</string>
+				<string>{44, 105}</string>
+				<string>{52, 75}</string>
+				<string>{59.5, 101.5}</string>
+				<string>{58, 61.5}</string>
+				<string>{97.5, 48.5}</string>
+				<string>{75, 67}</string>
+				<string>{121.5, 53.5}</string>
+				<string>{131.5, 66}</string>
+				<string>{135, 40}</string>
+				<string>{143.5, 37.5}</string>
+				<string>{148.5, 41.5}</string>
+				<string>{168, 48.5}</string>
+				<string>{187.5, 50.5}</string>
+				<string>{208, 39.5}</string>
+				<string>{195.5, 33.5}</string>
+				<string>{179, 24.5}</string>
+				<string>{212, 22.5}</string>
+				<string>{225, 12}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{236.5, 197}, {95, 89}}</string>
+			<key>image</key>
+			<string>iPh_flower6_right.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{1.5, 30.5}</string>
+				<string>{17, 33}</string>
+				<string>{30, 35}</string>
+				<string>{44, 45.5}</string>
+				<string>{41, 57}</string>
+				<string>{47.5, 65.5}</string>
+				<string>{68, 88.5}</string>
+				<string>{94.5, 65.5}</string>
+				<string>{94.5, 36.5}</string>
+				<string>{62.5, 35}</string>
+				<string>{47.5, 39}</string>
+				<string>{34, 31}</string>
+				<string>{17.5, 27.5}</string>
+				<string>{2, 25}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{53.5, 155}, {202, 130}}</string>
+			<key>image</key>
+			<string>iPh_flower7_left.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{16.5, 2}</string>
+				<string>{1.5, 25}</string>
+				<string>{1, 40}</string>
+				<string>{40.5, 44}</string>
+				<string>{45.5, 49}</string>
+				<string>{54.5, 64}</string>
+				<string>{68.5, 73}</string>
+				<string>{66, 84}</string>
+				<string>{84, 86.5}</string>
+				<string>{82, 94.5}</string>
+				<string>{97.5, 101.5}</string>
+				<string>{114.5, 98}</string>
+				<string>{123.5, 110.5}</string>
+				<string>{138, 105.5}</string>
+				<string>{136, 89}</string>
+				<string>{196.5, 129.5}</string>
+				<string>{201, 126}</string>
+				<string>{135.5, 80}</string>
+				<string>{128.5, 63.5}</string>
+				<string>{150.5, 49.5}</string>
+				<string>{148.5, 44}</string>
+				<string>{134.5, 44}</string>
+				<string>{115.5, 50}</string>
+				<string>{99.5, 40.5}</string>
+				<string>{94.5, 41}</string>
+				<string>{85.5, 41}</string>
+				<string>{75.5, 31.5}</string>
+				<string>{62.5, 41}</string>
+				<string>{59.5, 35.5}</string>
+				<string>{47.5, 27}</string>
+				<string>{44, 14.5}</string>
+				<string>{33.5, 1.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{83.5, 117.5}, {146, 117}}</string>
+			<key>image</key>
+			<string>iPh_flower8_right.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{0.5, 14.5}</string>
+				<string>{10.5, 23.5}</string>
+				<string>{33, 50}</string>
+				<string>{31.5, 59.5}</string>
+				<string>{24.5, 68}</string>
+				<string>{28, 81.5}</string>
+				<string>{37.5, 80.5}</string>
+				<string>{38, 71}</string>
+				<string>{36, 56}</string>
+				<string>{64.5, 82.5}</string>
+				<string>{70.5, 99.5}</string>
+				<string>{84.5, 115.5}</string>
+				<string>{114, 87}</string>
+				<string>{107, 71.5}</string>
+				<string>{92, 69.5}</string>
+				<string>{79, 71}</string>
+				<string>{69.5, 78.5}</string>
+				<string>{17.5, 26}</string>
+				<string>{15, 19.5}</string>
+				<string>{2.5, 10.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{98.5, 110.5}, {52, 169}}</string>
+			<key>image</key>
+			<string>iPh_flower9_top.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{1.5, 14.5}</string>
+				<string>{5.5, 28.5}</string>
+				<string>{15.5, 38.5}</string>
+				<string>{26, 41}</string>
+				<string>{25.5, 60}</string>
+				<string>{19.5, 80.5}</string>
+				<string>{15, 101}</string>
+				<string>{8.5, 117}</string>
+				<string>{6, 133}</string>
+				<string>{14, 165.5}</string>
+				<string>{17, 163.5}</string>
+				<string>{10, 136}</string>
+				<string>{12.5, 118.5}</string>
+				<string>{22.5, 89}</string>
+				<string>{37.5, 81}</string>
+				<string>{46.5, 84.5}</string>
+				<string>{51.5, 74}</string>
+				<string>{46.5, 68}</string>
+				<string>{39, 70}</string>
+				<string>{35.5, 78}</string>
+				<string>{24.5, 81.5}</string>
+				<string>{31, 56.5}</string>
+				<string>{32.5, 41.5}</string>
+				<string>{41.5, 30}</string>
+				<string>{50, 9.5}</string>
+				<string>{32.5, 0.5}</string>
+				<string>{8.5, 0.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{131.5, 148}, {181, 84}}</string>
+			<key>image</key>
+			<string>iPh_flower10_right.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{2, 19.5}</string>
+				<string>{15, 21}</string>
+				<string>{13.5, 11.5}</string>
+				<string>{43.5, 1.5}</string>
+				<string>{79, 2.5}</string>
+				<string>{56, 13}</string>
+				<string>{63, 29.5}</string>
+				<string>{75.5, 32.5}</string>
+				<string>{126.5, 34}</string>
+				<string>{144, 21}</string>
+				<string>{178.5, 29.5}</string>
+				<string>{168.5, 83}</string>
+				<string>{155.5, 81.5}</string>
+				<string>{125.5, 47}</string>
+				<string>{103.5, 42}</string>
+				<string>{110, 65.5}</string>
+				<string>{93.5, 67.5}</string>
+				<string>{75.5, 59.5}</string>
+				<string>{53, 74.5}</string>
+				<string>{49.5, 61}</string>
+				<string>{37, 59}</string>
+				<string>{64, 39.5}</string>
+				<string>{36.5, 32.5}</string>
+				<string>{32.5, 39}</string>
+				<string>{19.5, 34}</string>
+				<string>{3.5, 27}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{143.5, 62}, {76, 82}}</string>
+			<key>image</key>
+			<string>iPh_flower11_left.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{45.5, 27}</string>
+				<string>{33, 1.5}</string>
+				<string>{16, 6.5}</string>
+				<string>{5.5, 16.5}</string>
+				<string>{1.5, 30}</string>
+				<string>{26.5, 42.5}</string>
+				<string>{38.5, 44}</string>
+				<string>{48.5, 54}</string>
+				<string>{61, 61}</string>
+				<string>{71, 66}</string>
+				<string>{73, 62.5}</string>
+				<string>{61, 56.5}</string>
+				<string>{50, 51.5}</string>
+				<string>{42, 40.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{241, 87.5}, {151, 57}}</string>
+			<key>image</key>
+			<string>iPh_flower12_right.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{1.5, 33}</string>
+				<string>{29.5, 28.5}</string>
+				<string>{38.5, 24.5}</string>
+				<string>{34, 14}</string>
+				<string>{42, 12}</string>
+				<string>{43.5, 6.5}</string>
+				<string>{64, 16.5}</string>
+				<string>{72.5, 13.5}</string>
+				<string>{84.5, 28}</string>
+				<string>{78, 34.5}</string>
+				<string>{101, 32.5}</string>
+				<string>{96, 18.5}</string>
+				<string>{106.5, 22.5}</string>
+				<string>{120, 1.5}</string>
+				<string>{131, 4}</string>
+				<string>{150.5, 28}</string>
+				<string>{150, 52.5}</string>
+				<string>{123, 56.5}</string>
+				<string>{104, 43}</string>
+				<string>{99, 40.5}</string>
+				<string>{74.5, 42.5}</string>
+				<string>{76, 48}</string>
+				<string>{55, 49}</string>
+				<string>{34.5, 56}</string>
+				<string>{6, 54.5}</string>
+				<string>{15.5, 45}</string>
+				<string>{23, 42.5}</string>
+				<string>{31.5, 40}</string>
+				<string>{31.5, 36.5}</string>
+				<string>{17, 35}</string>
+				<string>{2, 37}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{101, 75}, {176, 102}}</string>
+			<key>image</key>
+			<string>iPh_flower2_left.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{21, 0.5}</string>
+				<string>{2, 43.5}</string>
+				<string>{10, 59.5}</string>
+				<string>{41, 63}</string>
+				<string>{48.5, 59.5}</string>
+				<string>{52.5, 53.5}</string>
+				<string>{106.5, 65}</string>
+				<string>{118, 69}</string>
+				<string>{118, 80}</string>
+				<string>{124.5, 88.5}</string>
+				<string>{98, 91.5}</string>
+				<string>{108, 97}</string>
+				<string>{131, 94.5}</string>
+				<string>{130.5, 99.5}</string>
+				<string>{137.5, 101}</string>
+				<string>{148, 97}</string>
+				<string>{160.5, 98}</string>
+				<string>{161.5, 93.5}</string>
+				<string>{160, 84.5}</string>
+				<string>{174.5, 88}</string>
+				<string>{174, 83}</string>
+				<string>{160, 75.5}</string>
+				<string>{155.5, 68}</string>
+				<string>{149, 64}</string>
+				<string>{144, 70}</string>
+				<string>{116, 59.5}</string>
+				<string>{122, 53.5}</string>
+				<string>{134.5, 50}</string>
+				<string>{147, 46}</string>
+				<string>{140.5, 42}</string>
+				<string>{131.5, 41}</string>
+				<string>{135.5, 34}</string>
+				<string>{134, 28.5}</string>
+				<string>{120.5, 30}</string>
+				<string>{110, 37}</string>
+				<string>{98, 29.5}</string>
+				<string>{84.5, 27}</string>
+				<string>{77.5, 27}</string>
+				<string>{79.5, 35.5}</string>
+				<string>{87.5, 39.5}</string>
+				<string>{77, 45.5}</string>
+				<string>{73.5, 49.5}</string>
+				<string>{56.5, 43.5}</string>
+				<string>{55, 28.5}</string>
+				<string>{41, 15}</string>
+				<string>{37, 2.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{236.5, 203.5}, {119, 54}}</string>
+			<key>image</key>
+			<string>iPh_flower4_right.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{1.5, 7.5}</string>
+				<string>{37, 16.5}</string>
+				<string>{46.5, 21}</string>
+				<string>{40.5, 38}</string>
+				<string>{52, 33.5}</string>
+				<string>{53, 22.5}</string>
+				<string>{73, 27.5}</string>
+				<string>{75, 39.5}</string>
+				<string>{89.5, 53}</string>
+				<string>{117.5, 34.5}</string>
+				<string>{107.5, 7.5}</string>
+				<string>{101.5, 5}</string>
+				<string>{93.5, 7.5}</string>
+				<string>{79.5, 14.5}</string>
+				<string>{73.5, 21}</string>
+				<string>{35.5, 11}</string>
+				<string>{38.5, 2.5}</string>
+				<string>{32.5, 1.5}</string>
+				<string>{32, 9.5}</string>
+				<string>{2, 2.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{118, 85}, {226, 108}}</string>
+			<key>image</key>
+			<string>iPh_flower5_left.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{225, 6}</string>
+				<string>{211.5, 17}</string>
+				<string>{174.5, 19.5}</string>
+				<string>{187, 12}</string>
+				<string>{175.5, 9}</string>
+				<string>{157.5, 16}</string>
+				<string>{138, 1.5}</string>
+				<string>{135.5, 2.5}</string>
+				<string>{135.5, 14}</string>
+				<string>{138.5, 21.5}</string>
+				<string>{165.5, 23}</string>
+				<string>{146.5, 30.5}</string>
+				<string>{128.5, 33.5}</string>
+				<string>{112, 21}</string>
+				<string>{118, 37}</string>
+				<string>{67, 49.5}</string>
+				<string>{59, 36.5}</string>
+				<string>{49.5, 45}</string>
+				<string>{27, 9}</string>
+				<string>{23.5, 11}</string>
+				<string>{35.5, 31.5}</string>
+				<string>{11, 27.5}</string>
+				<string>{6, 37.5}</string>
+				<string>{2, 45}</string>
+				<string>{3, 77.5}</string>
+				<string>{14.5, 95}</string>
+				<string>{33.5, 107}</string>
+				<string>{44, 105}</string>
+				<string>{52, 75}</string>
+				<string>{59.5, 101.5}</string>
+				<string>{58, 61.5}</string>
+				<string>{97.5, 48.5}</string>
+				<string>{75, 67}</string>
+				<string>{121.5, 53.5}</string>
+				<string>{131.5, 66}</string>
+				<string>{135, 40}</string>
+				<string>{143.5, 37.5}</string>
+				<string>{148.5, 41.5}</string>
+				<string>{168, 48.5}</string>
+				<string>{187.5, 50.5}</string>
+				<string>{208, 39.5}</string>
+				<string>{195.5, 33.5}</string>
+				<string>{179, 24.5}</string>
+				<string>{212, 22.5}</string>
+				<string>{225, 12}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{176, 197}, {95, 89}}</string>
+			<key>image</key>
+			<string>iPh_flower6_right.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{1.5, 30.5}</string>
+				<string>{17, 33}</string>
+				<string>{30, 35}</string>
+				<string>{44, 45.5}</string>
+				<string>{41, 57}</string>
+				<string>{47.5, 65.5}</string>
+				<string>{68, 88.5}</string>
+				<string>{94.5, 65.5}</string>
+				<string>{94.5, 36.5}</string>
+				<string>{62.5, 35}</string>
+				<string>{47.5, 39}</string>
+				<string>{34, 31}</string>
+				<string>{17.5, 27.5}</string>
+				<string>{2, 25}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{234.5, 60}, {202, 130}}</string>
+			<key>image</key>
+			<string>iPh_flower7_left.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{16.5, 2}</string>
+				<string>{1.5, 25}</string>
+				<string>{1, 40}</string>
+				<string>{40.5, 44}</string>
+				<string>{45.5, 49}</string>
+				<string>{54.5, 64}</string>
+				<string>{68.5, 73}</string>
+				<string>{66, 84}</string>
+				<string>{84, 86.5}</string>
+				<string>{82, 94.5}</string>
+				<string>{97.5, 101.5}</string>
+				<string>{114.5, 98}</string>
+				<string>{123.5, 110.5}</string>
+				<string>{138, 105.5}</string>
+				<string>{136, 89}</string>
+				<string>{196.5, 129.5}</string>
+				<string>{201, 126}</string>
+				<string>{135.5, 80}</string>
+				<string>{128.5, 63.5}</string>
+				<string>{150.5, 49.5}</string>
+				<string>{148.5, 44}</string>
+				<string>{134.5, 44}</string>
+				<string>{115.5, 50}</string>
+				<string>{99.5, 40.5}</string>
+				<string>{94.5, 41}</string>
+				<string>{85.5, 41}</string>
+				<string>{75.5, 31.5}</string>
+				<string>{62.5, 41}</string>
+				<string>{59.5, 35.5}</string>
+				<string>{47.5, 27}</string>
+				<string>{44, 14.5}</string>
+				<string>{33.5, 1.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{232, 139}, {146, 117}}</string>
+			<key>image</key>
+			<string>iPh_flower8_right.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{0.5, 14.5}</string>
+				<string>{10.5, 23.5}</string>
+				<string>{33, 50}</string>
+				<string>{31.5, 59.5}</string>
+				<string>{24.5, 68}</string>
+				<string>{28, 81.5}</string>
+				<string>{37.5, 80.5}</string>
+				<string>{38, 71}</string>
+				<string>{36, 56}</string>
+				<string>{64.5, 82.5}</string>
+				<string>{70.5, 99.5}</string>
+				<string>{84.5, 115.5}</string>
+				<string>{114, 87}</string>
+				<string>{107, 71.5}</string>
+				<string>{92, 69.5}</string>
+				<string>{79, 71}</string>
+				<string>{69.5, 78.5}</string>
+				<string>{17.5, 26}</string>
+				<string>{15, 19.5}</string>
+				<string>{2.5, 10.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{323.5, 69.5}, {52, 169}}</string>
+			<key>image</key>
+			<string>iPh_flower9_top.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{1.5, 14.5}</string>
+				<string>{5.5, 28.5}</string>
+				<string>{15.5, 38.5}</string>
+				<string>{26, 41}</string>
+				<string>{25.5, 60}</string>
+				<string>{19.5, 80.5}</string>
+				<string>{15, 101}</string>
+				<string>{8.5, 117}</string>
+				<string>{6, 133}</string>
+				<string>{14, 165.5}</string>
+				<string>{17, 163.5}</string>
+				<string>{10, 136}</string>
+				<string>{12.5, 118.5}</string>
+				<string>{22.5, 89}</string>
+				<string>{37.5, 81}</string>
+				<string>{46.5, 84.5}</string>
+				<string>{51.5, 74}</string>
+				<string>{46.5, 68}</string>
+				<string>{39, 70}</string>
+				<string>{35.5, 78}</string>
+				<string>{24.5, 81.5}</string>
+				<string>{31, 56.5}</string>
+				<string>{32.5, 41.5}</string>
+				<string>{41.5, 30}</string>
+				<string>{50, 9.5}</string>
+				<string>{32.5, 0.5}</string>
+				<string>{8.5, 0.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{276, 156}, {181, 84}}</string>
+			<key>image</key>
+			<string>iPh_flower10_right.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{2, 19.5}</string>
+				<string>{15, 21}</string>
+				<string>{13.5, 11.5}</string>
+				<string>{43.5, 1.5}</string>
+				<string>{79, 2.5}</string>
+				<string>{56, 13}</string>
+				<string>{63, 29.5}</string>
+				<string>{75.5, 32.5}</string>
+				<string>{126.5, 34}</string>
+				<string>{144, 21}</string>
+				<string>{178.5, 29.5}</string>
+				<string>{168.5, 83}</string>
+				<string>{155.5, 81.5}</string>
+				<string>{125.5, 47}</string>
+				<string>{103.5, 42}</string>
+				<string>{110, 65.5}</string>
+				<string>{93.5, 67.5}</string>
+				<string>{75.5, 59.5}</string>
+				<string>{53, 74.5}</string>
+				<string>{49.5, 61}</string>
+				<string>{37, 59}</string>
+				<string>{64, 39.5}</string>
+				<string>{36.5, 32.5}</string>
+				<string>{32.5, 39}</string>
+				<string>{19.5, 34}</string>
+				<string>{3.5, 27}</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

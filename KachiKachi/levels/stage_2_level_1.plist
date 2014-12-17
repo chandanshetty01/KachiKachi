@@ -1,0 +1,1554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>elements</key>
+	<array>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{290.5, 94.5}, {104, 175}}</string>
+			<key>image</key>
+			<string>iPh_pencil 3.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{1.5, 2}</string>
+				<string>{13.5, 11.5}</string>
+				<string>{103, 169}</string>
+				<string>{96, 174.5}</string>
+				<string>{4.5, 16.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{127.5, 138.5}, {145, 143}}</string>
+			<key>image</key>
+			<string>iPh_pencil 4.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{7.5, 142}</string>
+				<string>{138, 13.5}</string>
+				<string>{144, 1}</string>
+				<string>{131.5, 6.5}</string>
+				<string>{0.5, 135.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{224.5, 100}, {104, 174}}</string>
+			<key>image</key>
+			<string>iPh_pencil 5.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{10, 1.5}</string>
+				<string>{100, 158}</string>
+				<string>{103, 172.5}</string>
+				<string>{91.5, 162}</string>
+				<string>{1.5, 5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{158.5, 115.5}, {120, 163}}</string>
+			<key>image</key>
+			<string>iPh_pencil 6.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{119.5, 157}</string>
+				<string>{113, 163}</string>
+				<string>{5.5, 17}</string>
+				<string>{1.5, 1.5}</string>
+				<string>{14, 10.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{177, 105.5}, {105, 173}}</string>
+			<key>image</key>
+			<string>iPh_pencil 8.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{9.5, 173}</string>
+				<string>{101, 17}</string>
+				<string>{104, 2.5}</string>
+				<string>{93.5, 11}</string>
+				<string>{1, 167.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{213.5, 60}, {52, 194}}</string>
+			<key>image</key>
+			<string>iPh_pencil 7.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{10.5, 192.5}</string>
+				<string>{52, 15.5}</string>
+				<string>{50.5, 1.5}</string>
+				<string>{42.5, 13.5}</string>
+				<string>{1, 190}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{354.5, 79.5}, {11, 198}}</string>
+			<key>image</key>
+			<string>iPh_pencil 9.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{7, 1}</string>
+				<string>{1.5, 15.5}</string>
+				<string>{1, 197}</string>
+				<string>{10.5, 197}</string>
+				<string>{10.5, 15}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{190.5, 120}, {144, 146}}</string>
+			<key>image</key>
+			<string>iPh_pencil 10.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{137, 145.5}</string>
+				<string>{144.5, 139}</string>
+				<string>{16.5, 9}</string>
+				<string>{2, 2}</string>
+				<string>{8.5, 16.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{328.5, 97.5}, {87, 183}}</string>
+			<key>image</key>
+			<string>iPh_pencil 11.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{9, 182.5}</string>
+				<string>{84.5, 15.5}</string>
+				<string>{86.5, 1}</string>
+				<string>{75.5, 12.5}</string>
+				<string>{1, 177.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{271, 73.5}, {147, 148}}</string>
+			<key>image</key>
+			<string>iPh_pencil 12.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{139, 148}</string>
+				<string>{7.5, 16}</string>
+				<string>{2, 1.5}</string>
+				<string>{16, 8.5}</string>
+				<string>{146.5, 140.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{209.5, 93}, {106, 172}}</string>
+			<key>image</key>
+			<string>iPh_pencil 13.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{106, 4.5}</string>
+				<string>{13.5, 162.5}</string>
+				<string>{2, 171.5}</string>
+				<string>{4.5, 156.5}</string>
+				<string>{96.5, 1.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{252.5, 97}, {151, 137}}</string>
+			<key>image</key>
+			<string>iPh_pencil.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{2, 130.5}</string>
+				<string>{30.5, 104.5}</string>
+				<string>{137, 8}</string>
+				<string>{150.5, 1.5}</string>
+				<string>{143, 15}</string>
+				<string>{8, 136.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{100, 100}, {104, 175}}</string>
+			<key>image</key>
+			<string>iPh_pencil 3.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{1.5, 2}</string>
+				<string>{13.5, 11.5}</string>
+				<string>{103, 169}</string>
+				<string>{96, 174.5}</string>
+				<string>{4.5, 16.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{100, 100}, {145, 143}}</string>
+			<key>image</key>
+			<string>iPh_pencil 4.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{7.5, 142}</string>
+				<string>{138, 13.5}</string>
+				<string>{144, 1}</string>
+				<string>{131.5, 6.5}</string>
+				<string>{0.5, 135.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{126, 90}, {104, 174}}</string>
+			<key>image</key>
+			<string>iPh_pencil 5.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{10, 1.5}</string>
+				<string>{100, 158}</string>
+				<string>{103, 172.5}</string>
+				<string>{91.5, 162}</string>
+				<string>{1.5, 5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{100, 100}, {120, 163}}</string>
+			<key>image</key>
+			<string>iPh_pencil 6.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{119.5, 157}</string>
+				<string>{113, 163}</string>
+				<string>{5.5, 17}</string>
+				<string>{1.5, 1.5}</string>
+				<string>{14, 10.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{100, 100}, {105, 173}}</string>
+			<key>image</key>
+			<string>iPh_pencil 8.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{9.5, 173}</string>
+				<string>{101, 17}</string>
+				<string>{104, 2.5}</string>
+				<string>{93.5, 11}</string>
+				<string>{1, 167.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{136.5, 70}, {52, 194}}</string>
+			<key>image</key>
+			<string>iPh_pencil 7.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{10.5, 192.5}</string>
+				<string>{52, 15.5}</string>
+				<string>{50.5, 1.5}</string>
+				<string>{42.5, 13.5}</string>
+				<string>{1, 190}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{107.5, 77.5}, {11, 198}}</string>
+			<key>image</key>
+			<string>iPh_pencil 9.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{7, 1}</string>
+				<string>{1.5, 15.5}</string>
+				<string>{1, 197}</string>
+				<string>{10.5, 197}</string>
+				<string>{10.5, 15}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{248.5, 115}, {144, 146}}</string>
+			<key>image</key>
+			<string>iPh_pencil 10.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{137, 145.5}</string>
+				<string>{144.5, 139}</string>
+				<string>{16.5, 9}</string>
+				<string>{2, 2}</string>
+				<string>{8.5, 16.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{240.5, 88.5}, {87, 183}}</string>
+			<key>image</key>
+			<string>iPh_pencil 11.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{9, 182.5}</string>
+				<string>{84.5, 15.5}</string>
+				<string>{86.5, 1}</string>
+				<string>{75.5, 12.5}</string>
+				<string>{1, 177.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{100, 100}, {147, 148}}</string>
+			<key>image</key>
+			<string>iPh_pencil 12.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{139, 148}</string>
+				<string>{7.5, 16}</string>
+				<string>{2, 1.5}</string>
+				<string>{16, 8.5}</string>
+				<string>{146.5, 140.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{281.5, 92}, {106, 172}}</string>
+			<key>image</key>
+			<string>iPh_pencil 13.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{106, 4.5}</string>
+				<string>{13.5, 162.5}</string>
+				<string>{2, 171.5}</string>
+				<string>{4.5, 156.5}</string>
+				<string>{96.5, 1.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{294.5, 111}, {151, 137}}</string>
+			<key>image</key>
+			<string>iPh_pencil.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{2, 130.5}</string>
+				<string>{30.5, 104.5}</string>
+				<string>{137, 8}</string>
+				<string>{150.5, 1.5}</string>
+				<string>{143, 15}</string>
+				<string>{8, 136.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{349, 79}, {104, 175}}</string>
+			<key>image</key>
+			<string>iPh_pencil 3.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{1.5, 2}</string>
+				<string>{13.5, 11.5}</string>
+				<string>{103, 169}</string>
+				<string>{96, 174.5}</string>
+				<string>{4.5, 16.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{287.5, 126}, {145, 143}}</string>
+			<key>image</key>
+			<string>iPh_pencil 4.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{7.5, 142}</string>
+				<string>{138, 13.5}</string>
+				<string>{144, 1}</string>
+				<string>{131.5, 6.5}</string>
+				<string>{0.5, 135.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{312.5, 97.5}, {104, 174}}</string>
+			<key>image</key>
+			<string>iPh_pencil 5.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{10, 1.5}</string>
+				<string>{100, 158}</string>
+				<string>{103, 172.5}</string>
+				<string>{91.5, 162}</string>
+				<string>{1.5, 5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{318.5, 112.5}, {120, 163}}</string>
+			<key>image</key>
+			<string>iPh_pencil 6.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{119.5, 157}</string>
+				<string>{113, 163}</string>
+				<string>{5.5, 17}</string>
+				<string>{1.5, 1.5}</string>
+				<string>{14, 10.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{100, 100}, {145, 143}}</string>
+			<key>image</key>
+			<string>iPh_pencil 4.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{7.5, 142}</string>
+				<string>{138, 13.5}</string>
+				<string>{144, 1}</string>
+				<string>{131.5, 6.5}</string>
+				<string>{0.5, 135.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{100, 100}, {104, 174}}</string>
+			<key>image</key>
+			<string>iPh_pencil 5.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{10, 1.5}</string>
+				<string>{100, 158}</string>
+				<string>{103, 172.5}</string>
+				<string>{91.5, 162}</string>
+				<string>{1.5, 5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{355, 72}, {120, 163}}</string>
+			<key>image</key>
+			<string>iPh_pencil 6.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{119.5, 157}</string>
+				<string>{113, 163}</string>
+				<string>{5.5, 17}</string>
+				<string>{1.5, 1.5}</string>
+				<string>{14, 10.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{152, 93.5}, {105, 173}}</string>
+			<key>image</key>
+			<string>iPh_pencil 8.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{9.5, 173}</string>
+				<string>{101, 17}</string>
+				<string>{104, 2.5}</string>
+				<string>{93.5, 11}</string>
+				<string>{1, 167.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{420, 90}, {52, 194}}</string>
+			<key>image</key>
+			<string>iPh_pencil 7.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{10.5, 192.5}</string>
+				<string>{52, 15.5}</string>
+				<string>{50.5, 1.5}</string>
+				<string>{42.5, 13.5}</string>
+				<string>{1, 190}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{405.5, 62}, {11, 198}}</string>
+			<key>image</key>
+			<string>iPh_pencil 9.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{7, 1}</string>
+				<string>{1.5, 15.5}</string>
+				<string>{1, 197}</string>
+				<string>{10.5, 197}</string>
+				<string>{10.5, 15}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{53, 108}, {144, 146}}</string>
+			<key>image</key>
+			<string>iPh_pencil 10.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{137, 145.5}</string>
+				<string>{144.5, 139}</string>
+				<string>{16.5, 9}</string>
+				<string>{2, 2}</string>
+				<string>{8.5, 16.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{78.5, 102}, {87, 183}}</string>
+			<key>image</key>
+			<string>iPh_pencil 11.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{9, 182.5}</string>
+				<string>{84.5, 15.5}</string>
+				<string>{86.5, 1}</string>
+				<string>{75.5, 12.5}</string>
+				<string>{1, 177.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{25.5, 118.5}, {147, 148}}</string>
+			<key>image</key>
+			<string>iPh_pencil 12.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{139, 148}</string>
+				<string>{7.5, 16}</string>
+				<string>{2, 1.5}</string>
+				<string>{16, 8.5}</string>
+				<string>{146.5, 140.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{66.5, 99.5}, {106, 172}}</string>
+			<key>image</key>
+			<string>iPh_pencil 13.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{106, 4.5}</string>
+				<string>{13.5, 162.5}</string>
+				<string>{2, 171.5}</string>
+				<string>{4.5, 156.5}</string>
+				<string>{96.5, 1.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{100, 100}, {151, 137}}</string>
+			<key>image</key>
+			<string>iPh_pencil.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{2, 130.5}</string>
+				<string>{30.5, 104.5}</string>
+				<string>{137, 8}</string>
+				<string>{150.5, 1.5}</string>
+				<string>{143, 15}</string>
+				<string>{8, 136.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{183, 86}, {104, 175}}</string>
+			<key>image</key>
+			<string>iPh_pencil 3.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{1.5, 2}</string>
+				<string>{13.5, 11.5}</string>
+				<string>{103, 169}</string>
+				<string>{96, 174.5}</string>
+				<string>{4.5, 16.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{224, 112.5}, {145, 143}}</string>
+			<key>image</key>
+			<string>iPh_pencil 4.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{7.5, 142}</string>
+				<string>{138, 13.5}</string>
+				<string>{144, 1}</string>
+				<string>{131.5, 6.5}</string>
+				<string>{0.5, 135.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{227.5, 92}, {104, 174}}</string>
+			<key>image</key>
+			<string>iPh_pencil 5.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{10, 1.5}</string>
+				<string>{100, 158}</string>
+				<string>{103, 172.5}</string>
+				<string>{91.5, 162}</string>
+				<string>{1.5, 5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{140.5, 66}, {120, 163}}</string>
+			<key>image</key>
+			<string>iPh_pencil 6.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{119.5, 157}</string>
+				<string>{113, 163}</string>
+				<string>{5.5, 17}</string>
+				<string>{1.5, 1.5}</string>
+				<string>{14, 10.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{140.5, 61.5}, {105, 173}}</string>
+			<key>image</key>
+			<string>iPh_pencil 8.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{9.5, 173}</string>
+				<string>{101, 17}</string>
+				<string>{104, 2.5}</string>
+				<string>{93.5, 11}</string>
+				<string>{1, 167.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{290.5, 89.5}, {52, 194}}</string>
+			<key>image</key>
+			<string>iPh_pencil 7.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{10.5, 192.5}</string>
+				<string>{52, 15.5}</string>
+				<string>{50.5, 1.5}</string>
+				<string>{42.5, 13.5}</string>
+				<string>{1, 190}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{112, 75}, {11, 198}}</string>
+			<key>image</key>
+			<string>iPh_pencil 9.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{7, 1}</string>
+				<string>{1.5, 15.5}</string>
+				<string>{1, 197}</string>
+				<string>{10.5, 197}</string>
+				<string>{10.5, 15}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{100, 100}, {144, 146}}</string>
+			<key>image</key>
+			<string>iPh_pencil 10.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{137, 145.5}</string>
+				<string>{144.5, 139}</string>
+				<string>{16.5, 9}</string>
+				<string>{2, 2}</string>
+				<string>{8.5, 16.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{338, 97.5}, {87, 183}}</string>
+			<key>image</key>
+			<string>iPh_pencil 11.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{9, 182.5}</string>
+				<string>{84.5, 15.5}</string>
+				<string>{86.5, 1}</string>
+				<string>{75.5, 12.5}</string>
+				<string>{1, 177.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{64.5, 116.5}, {147, 148}}</string>
+			<key>image</key>
+			<string>iPh_pencil 12.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{139, 148}</string>
+				<string>{7.5, 16}</string>
+				<string>{2, 1.5}</string>
+				<string>{16, 8.5}</string>
+				<string>{146.5, 140.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{56.5, 73}, {106, 172}}</string>
+			<key>image</key>
+			<string>iPh_pencil 13.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{106, 4.5}</string>
+				<string>{13.5, 162.5}</string>
+				<string>{2, 171.5}</string>
+				<string>{4.5, 156.5}</string>
+				<string>{96.5, 1.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{186, 60.5}, {151, 137}}</string>
+			<key>image</key>
+			<string>iPh_pencil.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{2, 130.5}</string>
+				<string>{30.5, 104.5}</string>
+				<string>{137, 8}</string>
+				<string>{150.5, 1.5}</string>
+				<string>{143, 15}</string>
+				<string>{8, 136.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{305, 110.5}, {104, 175}}</string>
+			<key>image</key>
+			<string>iPh_pencil 3.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{1.5, 2}</string>
+				<string>{13.5, 11.5}</string>
+				<string>{103, 169}</string>
+				<string>{96, 174.5}</string>
+				<string>{4.5, 16.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{270.5, 111.5}, {145, 143}}</string>
+			<key>image</key>
+			<string>iPh_pencil 4.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{7.5, 142}</string>
+				<string>{138, 13.5}</string>
+				<string>{144, 1}</string>
+				<string>{131.5, 6.5}</string>
+				<string>{0.5, 135.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{66, 78}, {104, 174}}</string>
+			<key>image</key>
+			<string>iPh_pencil 5.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{10, 1.5}</string>
+				<string>{100, 158}</string>
+				<string>{103, 172.5}</string>
+				<string>{91.5, 162}</string>
+				<string>{1.5, 5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{204.5, 64}, {120, 163}}</string>
+			<key>image</key>
+			<string>iPh_pencil 6.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{119.5, 157}</string>
+				<string>{113, 163}</string>
+				<string>{5.5, 17}</string>
+				<string>{1.5, 1.5}</string>
+				<string>{14, 10.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{221.5, 140}, {145, 143}}</string>
+			<key>image</key>
+			<string>iPh_pencil 4.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{7.5, 142}</string>
+				<string>{138, 13.5}</string>
+				<string>{144, 1}</string>
+				<string>{131.5, 6.5}</string>
+				<string>{0.5, 135.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{64, 109}, {104, 174}}</string>
+			<key>image</key>
+			<string>iPh_pencil 5.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{10, 1.5}</string>
+				<string>{100, 158}</string>
+				<string>{103, 172.5}</string>
+				<string>{91.5, 162}</string>
+				<string>{1.5, 5}</string>
+			</array>
+		</dict>
+	</array>
+	<key>ID</key>
+	<string>1</string>
+</dict>
+</plist>

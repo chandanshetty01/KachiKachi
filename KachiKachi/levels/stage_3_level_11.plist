@@ -1,0 +1,2525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ID</key>
+	<string>11</string>
+	<key>elements</key>
+	<array>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{31.5, 46}, {146, 146}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{261, 137}, {146, 146}}</string>
+			<key>image</key>
+			<string>iP_pen_1.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{146, 7}</string>
+				<string>{141, 15.5}</string>
+				<string>{94.5, 64}</string>
+				<string>{44, 112}</string>
+				<string>{21.5, 132}</string>
+				<string>{1, 147}</string>
+				<string>{15, 124}</string>
+				<string>{34, 102.5}</string>
+				<string>{90, 43}</string>
+				<string>{109.5, 20.5}</string>
+				<string>{127.5, 6}</string>
+				<string>{139, 1}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{61, 42}, {56, 161}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{295.5, 89}, {56, 161}}</string>
+			<key>image</key>
+			<string>iP_pen_2.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{55.5, 1.5}</string>
+				<string>{52.5, 4}</string>
+				<string>{0.5, 148.5}</string>
+				<string>{2, 160.5}</string>
+				<string>{13.5, 155.5}</string>
+				<string>{31.5, 110.5}</string>
+				<string>{29, 104}</string>
+				<string>{53, 27.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{72, 51.5}, {140, 96}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{228.5, 166}, {140, 96}}</string>
+			<key>image</key>
+			<string>iP_pen_3.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{10, 96}</string>
+				<string>{60, 61.5}</string>
+				<string>{117, 25}</string>
+				<string>{139.5, 1.5}</string>
+				<string>{110.5, 13.5}</string>
+				<string>{55.5, 49.5}</string>
+				<string>{0.5, 88.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{15.5, 74.5}, {190, 42}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{205, 124.5}, {190, 42}}</string>
+			<key>image</key>
+			<string>iP_pen_4.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{180, 2}</string>
+				<string>{108.5, 12}</string>
+				<string>{48, 24}</string>
+				<string>{21.5, 32.5}</string>
+				<string>{7, 34}</string>
+				<string>{0.5, 39.5}</string>
+				<string>{23.5, 42.5}</string>
+				<string>{112, 27.5}</string>
+				<string>{181.5, 14}</string>
+				<string>{189, 8}</string>
+				<string>{188.5, 2.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{-50, 78.5}, {175, 82}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{269.5, 105.5}, {175, 82}}</string>
+			<key>image</key>
+			<string>iP_pen_6.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{174, 69.5}</string>
+				<string>{41, 12}</string>
+				<string>{16, 4}</string>
+				<string>{0.5, 1.5}</string>
+				<string>{12, 11}</string>
+				<string>{37, 22}</string>
+				<string>{126, 61.5}</string>
+				<string>{126.5, 65}</string>
+				<string>{169.5, 82.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{75, 41}, {17, 171}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{318, 97.5}, {17, 171}}</string>
+			<key>image</key>
+			<string>iP_pen_7.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{14, 1.5}</string>
+				<string>{8, 2}</string>
+				<string>{3.5, 12.5}</string>
+				<string>{1.5, 26.5}</string>
+				<string>{0.5, 62.5}</string>
+				<string>{4, 73.5}</string>
+				<string>{5.5, 152.5}</string>
+				<string>{11, 170.5}</string>
+				<string>{15, 155.5}</string>
+				<string>{16, 74}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{71.5, 61}, {15, 143}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{300, 139.5}, {15, 143}}</string>
+			<key>image</key>
+			<string>iP_pen_8.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{9, 2}</string>
+				<string>{14, 11}</string>
+				<string>{14, 55.5}</string>
+				<string>{9.5, 119.5}</string>
+				<string>{5.5, 141.5}</string>
+				<string>{1, 122}</string>
+				<string>{1.5, 2.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{67, 72}, {15, 143}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{337, 126}, {15, 143}}</string>
+			<key>image</key>
+			<string>iP_pen_8.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{10.5, 2.5}</string>
+				<string>{14.5, 12}</string>
+				<string>{13, 56}</string>
+				<string>{8.5, 130.5}</string>
+				<string>{6, 142.5}</string>
+				<string>{1.5, 132.5}</string>
+				<string>{1.5, 2}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{30, 39}, {76, 138}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{244.5, 125}, {76, 138}}</string>
+			<key>image</key>
+			<string>iP_pen_9.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{6, 1}</string>
+				<string>{47, 71.5}</string>
+				<string>{53.5, 82}</string>
+				<string>{57.5, 83.5}</string>
+				<string>{60, 90}</string>
+				<string>{74.5, 115.5}</string>
+				<string>{74.5, 132}</string>
+				<string>{70.5, 137.5}</string>
+				<string>{37, 80}</string>
+				<string>{1.5, 6.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{11.5, 55.5}, {151, 151}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{187, 95.5}, {151, 151}}</string>
+			<key>image</key>
+			<string>iP_pen_10.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{150.5, 7}</string>
+				<string>{91.5, 71.5}</string>
+				<string>{55, 107.5}</string>
+				<string>{2, 150}</string>
+				<string>{1.5, 146.5}</string>
+				<string>{43, 97.5}</string>
+				<string>{86, 51}</string>
+				<string>{84.5, 47.5}</string>
+				<string>{104.5, 24.5}</string>
+				<string>{126.5, 7.5}</string>
+				<string>{144, 1}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{8, 42.5}, {112, 179}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{329.5, 69}, {112, 179}}</string>
+			<key>image</key>
+			<string>iP_pen_11.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{1, 2}</string>
+				<string>{1, 10}</string>
+				<string>{15, 38.5}</string>
+				<string>{95.5, 177}</string>
+				<string>{108, 177}</string>
+				<string>{110, 166.5}</string>
+				<string>{110, 159.5}</string>
+				<string>{85, 116}</string>
+				<string>{81, 117.5}</string>
+				<string>{46, 60}</string>
+				<string>{23, 26}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{17.5, 65.5}, {128, 129}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{320, 149}, {128, 129}}</string>
+			<key>image</key>
+			<string>iP_pen_13.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{127.5, 10.5}</string>
+				<string>{118, 0}</string>
+				<string>{110, 3.5}</string>
+				<string>{85, 28.5}</string>
+				<string>{76.5, 42.5}</string>
+				<string>{22.5, 97.5}</string>
+				<string>{0.5, 127}</string>
+				<string>{31.5, 110.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{7.5, 74}, {146, 107}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{215, 161.5}, {146, 107}}</string>
+			<key>image</key>
+			<string>iP_pen_14.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{144.5, 10.5}</string>
+				<string>{61, 71}</string>
+				<string>{56.5, 77.5}</string>
+				<string>{26, 99}</string>
+				<string>{1, 106.5}</string>
+				<string>{35, 75}</string>
+				<string>{140, 1.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{17.5, 67.5}, {128, 152}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{280, 114.5}, {128, 152}}</string>
+			<key>image</key>
+			<string>iP_pen_15.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{127, 10}</string>
+				<string>{39, 116.5}</string>
+				<string>{1, 151.5}</string>
+				<string>{29, 108}</string>
+				<string>{120, 2}</string>
+				<string>{126, 1.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{61, 42}, {56, 161}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{184.5, 74.5}, {56, 161}}</string>
+			<key>image</key>
+			<string>iP_pen_2.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{55.5, 1.5}</string>
+				<string>{52.5, 4}</string>
+				<string>{0.5, 148.5}</string>
+				<string>{2, 160.5}</string>
+				<string>{13.5, 155.5}</string>
+				<string>{31.5, 110.5}</string>
+				<string>{29, 104}</string>
+				<string>{53, 27.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{72, 51.5}, {140, 96}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{149, 77.5}, {140, 96}}</string>
+			<key>image</key>
+			<string>iP_pen_3.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{10, 96}</string>
+				<string>{60, 61.5}</string>
+				<string>{117, 25}</string>
+				<string>{139.5, 1.5}</string>
+				<string>{110.5, 13.5}</string>
+				<string>{55.5, 49.5}</string>
+				<string>{0.5, 88.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{15.5, 74.5}, {190, 42}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{142, 104}, {190, 42}}</string>
+			<key>image</key>
+			<string>iP_pen_4.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{180, 2}</string>
+				<string>{108.5, 12}</string>
+				<string>{48, 24}</string>
+				<string>{21.5, 32.5}</string>
+				<string>{7, 34}</string>
+				<string>{0.5, 39.5}</string>
+				<string>{23.5, 42.5}</string>
+				<string>{112, 27.5}</string>
+				<string>{181.5, 14}</string>
+				<string>{189, 8}</string>
+				<string>{188.5, 2.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{-50, 78.5}, {175, 82}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{161.5, 94.5}, {175, 82}}</string>
+			<key>image</key>
+			<string>iP_pen_6.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{174, 69.5}</string>
+				<string>{41, 12}</string>
+				<string>{16, 4}</string>
+				<string>{0.5, 1.5}</string>
+				<string>{12, 11}</string>
+				<string>{37, 22}</string>
+				<string>{126, 61.5}</string>
+				<string>{126.5, 65}</string>
+				<string>{169.5, 82.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{75, 41}, {17, 171}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{229, 117.5}, {17, 171}}</string>
+			<key>image</key>
+			<string>iP_pen_7.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{14, 1.5}</string>
+				<string>{8, 2}</string>
+				<string>{3.5, 12.5}</string>
+				<string>{1.5, 26.5}</string>
+				<string>{0.5, 62.5}</string>
+				<string>{4, 73.5}</string>
+				<string>{5.5, 152.5}</string>
+				<string>{11, 170.5}</string>
+				<string>{15, 155.5}</string>
+				<string>{16, 74}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{71.5, 61}, {15, 143}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{359, 81.5}, {15, 143}}</string>
+			<key>image</key>
+			<string>iP_pen_8.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{9, 2}</string>
+				<string>{14, 11}</string>
+				<string>{14, 55.5}</string>
+				<string>{9.5, 119.5}</string>
+				<string>{5.5, 141.5}</string>
+				<string>{1, 122}</string>
+				<string>{1.5, 2.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{67, 72}, {15, 143}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{298, 82.5}, {15, 143}}</string>
+			<key>image</key>
+			<string>iP_pen_8.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{10.5, 2.5}</string>
+				<string>{14.5, 12}</string>
+				<string>{13, 56}</string>
+				<string>{8.5, 130.5}</string>
+				<string>{6, 142.5}</string>
+				<string>{1.5, 132.5}</string>
+				<string>{1.5, 2}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{30, 39}, {76, 138}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{224.5, 100.5}, {76, 138}}</string>
+			<key>image</key>
+			<string>iP_pen_9.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{6, 1}</string>
+				<string>{47, 71.5}</string>
+				<string>{53.5, 82}</string>
+				<string>{57.5, 83.5}</string>
+				<string>{60, 90}</string>
+				<string>{74.5, 115.5}</string>
+				<string>{74.5, 132}</string>
+				<string>{70.5, 137.5}</string>
+				<string>{37, 80}</string>
+				<string>{1.5, 6.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{11.5, 55.5}, {151, 151}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{167.5, 134.5}, {151, 151}}</string>
+			<key>image</key>
+			<string>iP_pen_10.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{150.5, 7}</string>
+				<string>{91.5, 71.5}</string>
+				<string>{55, 107.5}</string>
+				<string>{2, 150}</string>
+				<string>{1.5, 146.5}</string>
+				<string>{43, 97.5}</string>
+				<string>{86, 51}</string>
+				<string>{84.5, 47.5}</string>
+				<string>{104.5, 24.5}</string>
+				<string>{126.5, 7.5}</string>
+				<string>{144, 1}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{8, 42.5}, {112, 179}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{147, 94}, {112, 179}}</string>
+			<key>image</key>
+			<string>iP_pen_11.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{1, 2}</string>
+				<string>{1, 10}</string>
+				<string>{15, 38.5}</string>
+				<string>{95.5, 177}</string>
+				<string>{108, 177}</string>
+				<string>{110, 166.5}</string>
+				<string>{110, 159.5}</string>
+				<string>{85, 116}</string>
+				<string>{81, 117.5}</string>
+				<string>{46, 60}</string>
+				<string>{23, 26}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{17.5, 65.5}, {128, 129}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{197, 139.5}, {128, 129}}</string>
+			<key>image</key>
+			<string>iP_pen_13.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{127.5, 10.5}</string>
+				<string>{118, 0}</string>
+				<string>{110, 3.5}</string>
+				<string>{85, 28.5}</string>
+				<string>{76.5, 42.5}</string>
+				<string>{22.5, 97.5}</string>
+				<string>{0.5, 127}</string>
+				<string>{31.5, 110.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{7.5, 74}, {146, 107}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{142, 121}, {146, 107}}</string>
+			<key>image</key>
+			<string>iP_pen_14.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{144.5, 10.5}</string>
+				<string>{61, 71}</string>
+				<string>{56.5, 77.5}</string>
+				<string>{26, 99}</string>
+				<string>{1, 106.5}</string>
+				<string>{35, 75}</string>
+				<string>{140, 1.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{17.5, 67.5}, {128, 152}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{320, 108}, {128, 152}}</string>
+			<key>image</key>
+			<string>iP_pen_15.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{127, 10}</string>
+				<string>{39, 116.5}</string>
+				<string>{1, 151.5}</string>
+				<string>{29, 108}</string>
+				<string>{120, 2}</string>
+				<string>{126, 1.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{61, 42}, {56, 161}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{172, 97.5}, {56, 161}}</string>
+			<key>image</key>
+			<string>iP_pen_2.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{55.5, 1.5}</string>
+				<string>{52.5, 4}</string>
+				<string>{0.5, 148.5}</string>
+				<string>{2, 160.5}</string>
+				<string>{13.5, 155.5}</string>
+				<string>{31.5, 110.5}</string>
+				<string>{29, 104}</string>
+				<string>{53, 27.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{72, 51.5}, {140, 96}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{301.5, 156.5}, {140, 96}}</string>
+			<key>image</key>
+			<string>iP_pen_3.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{10, 96}</string>
+				<string>{60, 61.5}</string>
+				<string>{117, 25}</string>
+				<string>{139.5, 1.5}</string>
+				<string>{110.5, 13.5}</string>
+				<string>{55.5, 49.5}</string>
+				<string>{0.5, 88.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{15.5, 74.5}, {190, 42}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{266.5, 225.5}, {190, 42}}</string>
+			<key>image</key>
+			<string>iP_pen_4.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{180, 2}</string>
+				<string>{108.5, 12}</string>
+				<string>{48, 24}</string>
+				<string>{21.5, 32.5}</string>
+				<string>{7, 34}</string>
+				<string>{0.5, 39.5}</string>
+				<string>{23.5, 42.5}</string>
+				<string>{112, 27.5}</string>
+				<string>{181.5, 14}</string>
+				<string>{189, 8}</string>
+				<string>{188.5, 2.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{-50, 78.5}, {175, 82}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{294.5, 79.5}, {175, 82}}</string>
+			<key>image</key>
+			<string>iP_pen_6.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{174, 69.5}</string>
+				<string>{41, 12}</string>
+				<string>{16, 4}</string>
+				<string>{0.5, 1.5}</string>
+				<string>{12, 11}</string>
+				<string>{37, 22}</string>
+				<string>{126, 61.5}</string>
+				<string>{126.5, 65}</string>
+				<string>{169.5, 82.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{75, 41}, {17, 171}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{167, 70}, {17, 171}}</string>
+			<key>image</key>
+			<string>iP_pen_7.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{14, 1.5}</string>
+				<string>{8, 2}</string>
+				<string>{3.5, 12.5}</string>
+				<string>{1.5, 26.5}</string>
+				<string>{0.5, 62.5}</string>
+				<string>{4, 73.5}</string>
+				<string>{5.5, 152.5}</string>
+				<string>{11, 170.5}</string>
+				<string>{15, 155.5}</string>
+				<string>{16, 74}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{71.5, 61}, {15, 143}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{179.5, 123.5}, {15, 143}}</string>
+			<key>image</key>
+			<string>iP_pen_8.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{9, 2}</string>
+				<string>{14, 11}</string>
+				<string>{14, 55.5}</string>
+				<string>{9.5, 119.5}</string>
+				<string>{5.5, 141.5}</string>
+				<string>{1, 122}</string>
+				<string>{1.5, 2.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{67, 72}, {15, 143}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{419, 144.5}, {15, 143}}</string>
+			<key>image</key>
+			<string>iP_pen_8.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{10.5, 2.5}</string>
+				<string>{14.5, 12}</string>
+				<string>{13, 56}</string>
+				<string>{8.5, 130.5}</string>
+				<string>{6, 142.5}</string>
+				<string>{1.5, 132.5}</string>
+				<string>{1.5, 2}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{30, 39}, {76, 138}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{211.5, 142.5}, {76, 138}}</string>
+			<key>image</key>
+			<string>iP_pen_9.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{6, 1}</string>
+				<string>{47, 71.5}</string>
+				<string>{53.5, 82}</string>
+				<string>{57.5, 83.5}</string>
+				<string>{60, 90}</string>
+				<string>{74.5, 115.5}</string>
+				<string>{74.5, 132}</string>
+				<string>{70.5, 137.5}</string>
+				<string>{37, 80}</string>
+				<string>{1.5, 6.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{11.5, 55.5}, {151, 151}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{275.5, 67.5}, {151, 151}}</string>
+			<key>image</key>
+			<string>iP_pen_10.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{150.5, 7}</string>
+				<string>{91.5, 71.5}</string>
+				<string>{55, 107.5}</string>
+				<string>{2, 150}</string>
+				<string>{1.5, 146.5}</string>
+				<string>{43, 97.5}</string>
+				<string>{86, 51}</string>
+				<string>{84.5, 47.5}</string>
+				<string>{104.5, 24.5}</string>
+				<string>{126.5, 7.5}</string>
+				<string>{144, 1}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{8, 42.5}, {112, 179}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{110, 96.5}, {112, 179}}</string>
+			<key>image</key>
+			<string>iP_pen_11.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{1, 2}</string>
+				<string>{1, 10}</string>
+				<string>{15, 38.5}</string>
+				<string>{95.5, 177}</string>
+				<string>{108, 177}</string>
+				<string>{110, 166.5}</string>
+				<string>{110, 159.5}</string>
+				<string>{85, 116}</string>
+				<string>{81, 117.5}</string>
+				<string>{46, 60}</string>
+				<string>{23, 26}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{17.5, 65.5}, {128, 129}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{112, 82.5}, {128, 129}}</string>
+			<key>image</key>
+			<string>iP_pen_13.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{127.5, 10.5}</string>
+				<string>{118, 0}</string>
+				<string>{110, 3.5}</string>
+				<string>{85, 28.5}</string>
+				<string>{76.5, 42.5}</string>
+				<string>{22.5, 97.5}</string>
+				<string>{0.5, 127}</string>
+				<string>{31.5, 110.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{7.5, 74}, {146, 107}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{113, 76.5}, {146, 107}}</string>
+			<key>image</key>
+			<string>iP_pen_14.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{144.5, 10.5}</string>
+				<string>{61, 71}</string>
+				<string>{56.5, 77.5}</string>
+				<string>{26, 99}</string>
+				<string>{1, 106.5}</string>
+				<string>{35, 75}</string>
+				<string>{140, 1.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{17.5, 67.5}, {128, 152}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{114, 113.5}, {128, 152}}</string>
+			<key>image</key>
+			<string>iP_pen_15.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{127, 10}</string>
+				<string>{39, 116.5}</string>
+				<string>{1, 151.5}</string>
+				<string>{29, 108}</string>
+				<string>{120, 2}</string>
+				<string>{126, 1.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{61, 42}, {56, 161}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{128.5, 124.5}, {56, 161}}</string>
+			<key>image</key>
+			<string>iP_pen_2.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{55.5, 1.5}</string>
+				<string>{52.5, 4}</string>
+				<string>{0.5, 148.5}</string>
+				<string>{2, 160.5}</string>
+				<string>{13.5, 155.5}</string>
+				<string>{31.5, 110.5}</string>
+				<string>{29, 104}</string>
+				<string>{53, 27.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{72, 51.5}, {140, 96}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{131, 105}, {140, 96}}</string>
+			<key>image</key>
+			<string>iP_pen_3.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{10, 96}</string>
+				<string>{60, 61.5}</string>
+				<string>{117, 25}</string>
+				<string>{139.5, 1.5}</string>
+				<string>{110.5, 13.5}</string>
+				<string>{55.5, 49.5}</string>
+				<string>{0.5, 88.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{15.5, 74.5}, {190, 42}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{56.5, 93.5}, {190, 42}}</string>
+			<key>image</key>
+			<string>iP_pen_4.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{180, 2}</string>
+				<string>{108.5, 12}</string>
+				<string>{48, 24}</string>
+				<string>{21.5, 32.5}</string>
+				<string>{7, 34}</string>
+				<string>{0.5, 39.5}</string>
+				<string>{23.5, 42.5}</string>
+				<string>{112, 27.5}</string>
+				<string>{181.5, 14}</string>
+				<string>{189, 8}</string>
+				<string>{188.5, 2.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{-50, 78.5}, {175, 82}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{288, 171}, {175, 82}}</string>
+			<key>image</key>
+			<string>iP_pen_6.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{174, 69.5}</string>
+				<string>{41, 12}</string>
+				<string>{16, 4}</string>
+				<string>{0.5, 1.5}</string>
+				<string>{12, 11}</string>
+				<string>{37, 22}</string>
+				<string>{126, 61.5}</string>
+				<string>{126.5, 65}</string>
+				<string>{169.5, 82.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{75, 41}, {17, 171}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{449.5, 118.5}, {17, 171}}</string>
+			<key>image</key>
+			<string>iP_pen_7.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{14, 1.5}</string>
+				<string>{8, 2}</string>
+				<string>{3.5, 12.5}</string>
+				<string>{1.5, 26.5}</string>
+				<string>{0.5, 62.5}</string>
+				<string>{4, 73.5}</string>
+				<string>{5.5, 152.5}</string>
+				<string>{11, 170.5}</string>
+				<string>{15, 155.5}</string>
+				<string>{16, 74}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{71.5, 61}, {15, 143}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{108.5, 94}, {15, 143}}</string>
+			<key>image</key>
+			<string>iP_pen_8.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{9, 2}</string>
+				<string>{14, 11}</string>
+				<string>{14, 55.5}</string>
+				<string>{9.5, 119.5}</string>
+				<string>{5.5, 141.5}</string>
+				<string>{1, 122}</string>
+				<string>{1.5, 2.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{67, 72}, {15, 143}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{155.5, 146.5}, {15, 143}}</string>
+			<key>image</key>
+			<string>iP_pen_8.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{10.5, 2.5}</string>
+				<string>{14.5, 12}</string>
+				<string>{13, 56}</string>
+				<string>{8.5, 130.5}</string>
+				<string>{6, 142.5}</string>
+				<string>{1.5, 132.5}</string>
+				<string>{1.5, 2}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{30, 39}, {76, 138}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{342, 138}, {76, 138}}</string>
+			<key>image</key>
+			<string>iP_pen_9.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{6, 1}</string>
+				<string>{47, 71.5}</string>
+				<string>{53.5, 82}</string>
+				<string>{57.5, 83.5}</string>
+				<string>{60, 90}</string>
+				<string>{74.5, 115.5}</string>
+				<string>{74.5, 132}</string>
+				<string>{70.5, 137.5}</string>
+				<string>{37, 80}</string>
+				<string>{1.5, 6.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{11.5, 55.5}, {151, 151}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{187, 65}, {151, 151}}</string>
+			<key>image</key>
+			<string>iP_pen_10.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{150.5, 7}</string>
+				<string>{91.5, 71.5}</string>
+				<string>{55, 107.5}</string>
+				<string>{2, 150}</string>
+				<string>{1.5, 146.5}</string>
+				<string>{43, 97.5}</string>
+				<string>{86, 51}</string>
+				<string>{84.5, 47.5}</string>
+				<string>{104.5, 24.5}</string>
+				<string>{126.5, 7.5}</string>
+				<string>{144, 1}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{8, 42.5}, {112, 179}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{213.5, 69.5}, {112, 179}}</string>
+			<key>image</key>
+			<string>iP_pen_11.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{1, 2}</string>
+				<string>{1, 10}</string>
+				<string>{15, 38.5}</string>
+				<string>{95.5, 177}</string>
+				<string>{108, 177}</string>
+				<string>{110, 166.5}</string>
+				<string>{110, 159.5}</string>
+				<string>{85, 116}</string>
+				<string>{81, 117.5}</string>
+				<string>{46, 60}</string>
+				<string>{23, 26}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{17.5, 65.5}, {128, 129}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{320.5, 79.5}, {128, 129}}</string>
+			<key>image</key>
+			<string>iP_pen_13.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{127.5, 10.5}</string>
+				<string>{118, 0}</string>
+				<string>{110, 3.5}</string>
+				<string>{85, 28.5}</string>
+				<string>{76.5, 42.5}</string>
+				<string>{22.5, 97.5}</string>
+				<string>{0.5, 127}</string>
+				<string>{31.5, 110.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{7.5, 74}, {146, 107}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{278.5, 76}, {146, 107}}</string>
+			<key>image</key>
+			<string>iP_pen_14.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{144.5, 10.5}</string>
+				<string>{61, 71}</string>
+				<string>{56.5, 77.5}</string>
+				<string>{26, 99}</string>
+				<string>{1, 106.5}</string>
+				<string>{35, 75}</string>
+				<string>{140, 1.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{17.5, 67.5}, {128, 152}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{337.5, 90.5}, {128, 152}}</string>
+			<key>image</key>
+			<string>iP_pen_15.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{127, 10}</string>
+				<string>{39, 116.5}</string>
+				<string>{1, 151.5}</string>
+				<string>{29, 108}</string>
+				<string>{120, 2}</string>
+				<string>{126, 1.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{61, 42}, {56, 161}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{291.5, 81.5}, {56, 161}}</string>
+			<key>image</key>
+			<string>iP_pen_2.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{55.5, 1.5}</string>
+				<string>{52.5, 4}</string>
+				<string>{0.5, 148.5}</string>
+				<string>{2, 160.5}</string>
+				<string>{13.5, 155.5}</string>
+				<string>{31.5, 110.5}</string>
+				<string>{29, 104}</string>
+				<string>{53, 27.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{72, 51.5}, {140, 96}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{338.5, 187.5}, {140, 96}}</string>
+			<key>image</key>
+			<string>iP_pen_3.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{10, 96}</string>
+				<string>{60, 61.5}</string>
+				<string>{117, 25}</string>
+				<string>{139.5, 1.5}</string>
+				<string>{110.5, 13.5}</string>
+				<string>{55.5, 49.5}</string>
+				<string>{0.5, 88.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{15.5, 74.5}, {190, 42}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{241.5, 91.5}, {190, 42}}</string>
+			<key>image</key>
+			<string>iP_pen_4.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{180, 2}</string>
+				<string>{108.5, 12}</string>
+				<string>{48, 24}</string>
+				<string>{21.5, 32.5}</string>
+				<string>{7, 34}</string>
+				<string>{0.5, 39.5}</string>
+				<string>{23.5, 42.5}</string>
+				<string>{112, 27.5}</string>
+				<string>{181.5, 14}</string>
+				<string>{189, 8}</string>
+				<string>{188.5, 2.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{-50, 78.5}, {175, 82}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{239, 62}, {175, 82}}</string>
+			<key>image</key>
+			<string>iP_pen_6.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{174, 69.5}</string>
+				<string>{41, 12}</string>
+				<string>{16, 4}</string>
+				<string>{0.5, 1.5}</string>
+				<string>{12, 11}</string>
+				<string>{37, 22}</string>
+				<string>{126, 61.5}</string>
+				<string>{126.5, 65}</string>
+				<string>{169.5, 82.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{75, 41}, {17, 171}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{131.5, 64}, {17, 171}}</string>
+			<key>image</key>
+			<string>iP_pen_7.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{14, 1.5}</string>
+				<string>{8, 2}</string>
+				<string>{3.5, 12.5}</string>
+				<string>{1.5, 26.5}</string>
+				<string>{0.5, 62.5}</string>
+				<string>{4, 73.5}</string>
+				<string>{5.5, 152.5}</string>
+				<string>{11, 170.5}</string>
+				<string>{15, 155.5}</string>
+				<string>{16, 74}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{71.5, 61}, {15, 143}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{311.5, 59.5}, {15, 143}}</string>
+			<key>image</key>
+			<string>iP_pen_8.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{9, 2}</string>
+				<string>{14, 11}</string>
+				<string>{14, 55.5}</string>
+				<string>{9.5, 119.5}</string>
+				<string>{5.5, 141.5}</string>
+				<string>{1, 122}</string>
+				<string>{1.5, 2.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{67, 72}, {15, 143}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{456.5, 58}, {15, 143}}</string>
+			<key>image</key>
+			<string>iP_pen_8.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{10.5, 2.5}</string>
+				<string>{14.5, 12}</string>
+				<string>{13, 56}</string>
+				<string>{8.5, 130.5}</string>
+				<string>{6, 142.5}</string>
+				<string>{1.5, 132.5}</string>
+				<string>{1.5, 2}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{30, 39}, {76, 138}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{346, 56.5}, {76, 138}}</string>
+			<key>image</key>
+			<string>iP_pen_9.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{6, 1}</string>
+				<string>{47, 71.5}</string>
+				<string>{53.5, 82}</string>
+				<string>{57.5, 83.5}</string>
+				<string>{60, 90}</string>
+				<string>{74.5, 115.5}</string>
+				<string>{74.5, 132}</string>
+				<string>{70.5, 137.5}</string>
+				<string>{37, 80}</string>
+				<string>{1.5, 6.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{11.5, 55.5}, {151, 151}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{244.5, 73}, {151, 151}}</string>
+			<key>image</key>
+			<string>iP_pen_10.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{150.5, 7}</string>
+				<string>{91.5, 71.5}</string>
+				<string>{55, 107.5}</string>
+				<string>{2, 150}</string>
+				<string>{1.5, 146.5}</string>
+				<string>{43, 97.5}</string>
+				<string>{86, 51}</string>
+				<string>{84.5, 47.5}</string>
+				<string>{104.5, 24.5}</string>
+				<string>{126.5, 7.5}</string>
+				<string>{144, 1}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{8, 42.5}, {112, 179}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{298, 105.5}, {112, 179}}</string>
+			<key>image</key>
+			<string>iP_pen_11.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{1, 2}</string>
+				<string>{1, 10}</string>
+				<string>{15, 38.5}</string>
+				<string>{95.5, 177}</string>
+				<string>{108, 177}</string>
+				<string>{110, 166.5}</string>
+				<string>{110, 159.5}</string>
+				<string>{85, 116}</string>
+				<string>{81, 117.5}</string>
+				<string>{46, 60}</string>
+				<string>{23, 26}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{17.5, 65.5}, {128, 129}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{368, 157.5}, {128, 129}}</string>
+			<key>image</key>
+			<string>iP_pen_13.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{127.5, 10.5}</string>
+				<string>{118, 0}</string>
+				<string>{110, 3.5}</string>
+				<string>{85, 28.5}</string>
+				<string>{76.5, 42.5}</string>
+				<string>{22.5, 97.5}</string>
+				<string>{0.5, 127}</string>
+				<string>{31.5, 110.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{7.5, 74}, {146, 107}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{85, 175.5}, {146, 107}}</string>
+			<key>image</key>
+			<string>iP_pen_14.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{144.5, 10.5}</string>
+				<string>{61, 71}</string>
+				<string>{56.5, 77.5}</string>
+				<string>{26, 99}</string>
+				<string>{1, 106.5}</string>
+				<string>{35, 75}</string>
+				<string>{140, 1.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{17.5, 67.5}, {128, 152}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{194, 139}, {128, 152}}</string>
+			<key>image</key>
+			<string>iP_pen_15.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{127, 10}</string>
+				<string>{39, 116.5}</string>
+				<string>{1, 151.5}</string>
+				<string>{29, 108}</string>
+				<string>{120, 2}</string>
+				<string>{126, 1.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{61, 42}, {56, 161}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{314, 125.5}, {56, 161}}</string>
+			<key>image</key>
+			<string>iP_pen_2.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{55.5, 1.5}</string>
+				<string>{52.5, 4}</string>
+				<string>{0.5, 148.5}</string>
+				<string>{2, 160.5}</string>
+				<string>{13.5, 155.5}</string>
+				<string>{31.5, 110.5}</string>
+				<string>{29, 104}</string>
+				<string>{53, 27.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{72, 51.5}, {140, 96}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{86, 175.5}, {140, 96}}</string>
+			<key>image</key>
+			<string>iP_pen_3.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{10, 96}</string>
+				<string>{60, 61.5}</string>
+				<string>{117, 25}</string>
+				<string>{139.5, 1.5}</string>
+				<string>{110.5, 13.5}</string>
+				<string>{55.5, 49.5}</string>
+				<string>{0.5, 88.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{15.5, 74.5}, {190, 42}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{245.5, 232}, {190, 42}}</string>
+			<key>image</key>
+			<string>iP_pen_4.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{180, 2}</string>
+				<string>{108.5, 12}</string>
+				<string>{48, 24}</string>
+				<string>{21.5, 32.5}</string>
+				<string>{7, 34}</string>
+				<string>{0.5, 39.5}</string>
+				<string>{23.5, 42.5}</string>
+				<string>{112, 27.5}</string>
+				<string>{181.5, 14}</string>
+				<string>{189, 8}</string>
+				<string>{188.5, 2.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{-50, 78.5}, {175, 82}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{92, 207}, {175, 82}}</string>
+			<key>image</key>
+			<string>iP_pen_6.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{174, 69.5}</string>
+				<string>{41, 12}</string>
+				<string>{16, 4}</string>
+				<string>{0.5, 1.5}</string>
+				<string>{12, 11}</string>
+				<string>{37, 22}</string>
+				<string>{126, 61.5}</string>
+				<string>{126.5, 65}</string>
+				<string>{169.5, 82.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{75, 41}, {17, 171}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{430, 50}, {17, 171}}</string>
+			<key>image</key>
+			<string>iP_pen_7.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{14, 1.5}</string>
+				<string>{8, 2}</string>
+				<string>{3.5, 12.5}</string>
+				<string>{1.5, 26.5}</string>
+				<string>{0.5, 62.5}</string>
+				<string>{4, 73.5}</string>
+				<string>{5.5, 152.5}</string>
+				<string>{11, 170.5}</string>
+				<string>{15, 155.5}</string>
+				<string>{16, 74}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{71.5, 61}, {15, 143}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{367.5, 61}, {15, 143}}</string>
+			<key>image</key>
+			<string>iP_pen_8.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{9, 2}</string>
+				<string>{14, 11}</string>
+				<string>{14, 55.5}</string>
+				<string>{9.5, 119.5}</string>
+				<string>{5.5, 141.5}</string>
+				<string>{1, 122}</string>
+				<string>{1.5, 2.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{67, 72}, {15, 143}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{279.5, 52.5}, {15, 143}}</string>
+			<key>image</key>
+			<string>iP_pen_8.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{10.5, 2.5}</string>
+				<string>{14.5, 12}</string>
+				<string>{13, 56}</string>
+				<string>{8.5, 130.5}</string>
+				<string>{6, 142.5}</string>
+				<string>{1.5, 132.5}</string>
+				<string>{1.5, 2}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{30, 39}, {76, 138}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{92, 150}, {76, 138}}</string>
+			<key>image</key>
+			<string>iP_pen_9.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{6, 1}</string>
+				<string>{47, 71.5}</string>
+				<string>{53.5, 82}</string>
+				<string>{57.5, 83.5}</string>
+				<string>{60, 90}</string>
+				<string>{74.5, 115.5}</string>
+				<string>{74.5, 132}</string>
+				<string>{70.5, 137.5}</string>
+				<string>{37, 80}</string>
+				<string>{1.5, 6.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{11.5, 55.5}, {151, 151}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{99.5, 131.5}, {151, 151}}</string>
+			<key>image</key>
+			<string>iP_pen_10.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{150.5, 7}</string>
+				<string>{91.5, 71.5}</string>
+				<string>{55, 107.5}</string>
+				<string>{2, 150}</string>
+				<string>{1.5, 146.5}</string>
+				<string>{43, 97.5}</string>
+				<string>{86, 51}</string>
+				<string>{84.5, 47.5}</string>
+				<string>{104.5, 24.5}</string>
+				<string>{126.5, 7.5}</string>
+				<string>{144, 1}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{8, 42.5}, {112, 179}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{72, 79.5}, {112, 179}}</string>
+			<key>image</key>
+			<string>iP_pen_11.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{1, 2}</string>
+				<string>{1, 10}</string>
+				<string>{15, 38.5}</string>
+				<string>{95.5, 177}</string>
+				<string>{108, 177}</string>
+				<string>{110, 166.5}</string>
+				<string>{110, 159.5}</string>
+				<string>{85, 116}</string>
+				<string>{81, 117.5}</string>
+				<string>{46, 60}</string>
+				<string>{23, 26}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{17.5, 65.5}, {128, 129}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{213, 160.5}, {128, 129}}</string>
+			<key>image</key>
+			<string>iP_pen_13.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{127.5, 10.5}</string>
+				<string>{118, 0}</string>
+				<string>{110, 3.5}</string>
+				<string>{85, 28.5}</string>
+				<string>{76.5, 42.5}</string>
+				<string>{22.5, 97.5}</string>
+				<string>{0.5, 127}</string>
+				<string>{31.5, 110.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{7.5, 74}, {146, 107}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{-1, 80.5}, {146, 107}}</string>
+			<key>image</key>
+			<string>iP_pen_14.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{144.5, 10.5}</string>
+				<string>{61, 71}</string>
+				<string>{56.5, 77.5}</string>
+				<string>{26, 99}</string>
+				<string>{1, 106.5}</string>
+				<string>{35, 75}</string>
+				<string>{140, 1.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{17.5, 67.5}, {128, 152}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{98.5, 67.5}, {128, 152}}</string>
+			<key>image</key>
+			<string>iP_pen_15.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{127, 10}</string>
+				<string>{39, 116.5}</string>
+				<string>{1, 151.5}</string>
+				<string>{29, 108}</string>
+				<string>{120, 2}</string>
+				<string>{126, 1.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{61, 42}, {56, 161}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{223, 76.5}, {56, 161}}</string>
+			<key>image</key>
+			<string>iP_pen_2.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{55.5, 1.5}</string>
+				<string>{52.5, 4}</string>
+				<string>{0.5, 148.5}</string>
+				<string>{2, 160.5}</string>
+				<string>{13.5, 155.5}</string>
+				<string>{31.5, 110.5}</string>
+				<string>{29, 104}</string>
+				<string>{53, 27.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{72, 51.5}, {140, 96}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{0, 66.5}, {140, 96}}</string>
+			<key>image</key>
+			<string>iP_pen_3.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{10, 96}</string>
+				<string>{60, 61.5}</string>
+				<string>{117, 25}</string>
+				<string>{139.5, 1.5}</string>
+				<string>{110.5, 13.5}</string>
+				<string>{55.5, 49.5}</string>
+				<string>{0.5, 88.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{15.5, 74.5}, {190, 42}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBase</string>
+			<key>frame</key>
+			<string>{{-2.5, 95}, {190, 42}}</string>
+			<key>image</key>
+			<string>iP_pen_4.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{180, 2}</string>
+				<string>{108.5, 12}</string>
+				<string>{48, 24}</string>
+				<string>{21.5, 32.5}</string>
+				<string>{7, 34}</string>
+				<string>{0.5, 39.5}</string>
+				<string>{23.5, 42.5}</string>
+				<string>{112, 27.5}</string>
+				<string>{181.5, 14}</string>
+				<string>{189, 8}</string>
+				<string>{188.5, 2.5}</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

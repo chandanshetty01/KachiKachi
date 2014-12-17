@@ -1,0 +1,2942 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ID</key>
+	<string>12</string>
+	<key>elements</key>
+	<array>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{181, 174}, {64, 93}}</string>
+			<key>image</key>
+			<string>iPh_carrot6.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{1.5, 2}</string>
+				<string>{5, 12.5}</string>
+				<string>{21, 42}</string>
+				<string>{31.5, 61.5}</string>
+				<string>{40.5, 69}</string>
+				<string>{46.5, 90.5}</string>
+				<string>{57.5, 88.5}</string>
+				<string>{63.5, 78.5}</string>
+				<string>{50.5, 58.5}</string>
+				<string>{12.5, 13}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{227, 197.5}, {51, 73}}</string>
+			<key>image</key>
+			<string>iPh_carrot8.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{17.5, 60.5}</string>
+				<string>{10, 71.5}</string>
+				<string>{1.5, 65}</string>
+				<string>{10, 56}</string>
+				<string>{12, 49.5}</string>
+				<string>{18.5, 39.5}</string>
+				<string>{28.5, 26.5}</string>
+				<string>{45, 2.5}</string>
+				<string>{50, 1.5}</string>
+				<string>{49.5, 10}</string>
+				<string>{31.5, 40}</string>
+				<string>{24.5, 55.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{116.5, 165.5}, {89, 62}}</string>
+			<key>image</key>
+			<string>iPh_carrot9.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{33, 40}</string>
+				<string>{17.5, 55}</string>
+				<string>{17.5, 62}</string>
+				<string>{2.5, 50.5}</string>
+				<string>{8.5, 42.5}</string>
+				<string>{24, 33}</string>
+				<string>{26, 29}</string>
+				<string>{46, 16.5}</string>
+				<string>{57, 13.5}</string>
+				<string>{76.5, 5}</string>
+				<string>{87, 1.5}</string>
+				<string>{78.5, 11.5}</string>
+				<string>{45, 37.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{119, 197}, {104, 37}}</string>
+			<key>image</key>
+			<string>iPh_carrot11.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{39.5, 15.5}</string>
+				<string>{15.5, 1.5}</string>
+				<string>{3.5, 11}</string>
+				<string>{11, 23}</string>
+				<string>{35, 27}</string>
+				<string>{57.5, 32.5}</string>
+				<string>{103, 37}</string>
+				<string>{102, 33.5}</string>
+				<string>{83.5, 23.5}</string>
+				<string>{52.5, 15}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{139.5, 164}, {104, 32}}</string>
+			<key>image</key>
+			<string>iPh_carrot14.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{23.5, 11}</string>
+				<string>{8, 1.5}</string>
+				<string>{1.5, 11.5}</string>
+				<string>{4, 19.5}</string>
+				<string>{20.5, 21.5}</string>
+				<string>{30.5, 29.5}</string>
+				<string>{64.5, 31}</string>
+				<string>{72.5, 30}</string>
+				<string>{103, 29.5}</string>
+				<string>{97, 25}</string>
+				<string>{77, 22}</string>
+				<string>{59.5, 14.5}</string>
+				<string>{31.5, 8.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{225, 150.5}, {136, 41}}</string>
+			<key>image</key>
+			<string>iPh_carrot16.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{75, 17.5}</string>
+				<string>{66.5, 14.5}</string>
+				<string>{49, 21.5}</string>
+				<string>{29, 29.5}</string>
+				<string>{18.5, 30}</string>
+				<string>{1.5, 38}</string>
+				<string>{13, 40.5}</string>
+				<string>{30.5, 36}</string>
+				<string>{46, 37.5}</string>
+				<string>{74, 34}</string>
+				<string>{82.5, 27.5}</string>
+				<string>{118, 18.5}</string>
+				<string>{106, 1}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{170, 198.5}, {120, 50}}</string>
+			<key>image</key>
+			<string>iPh_carrot18.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{76.5, 25}</string>
+				<string>{63, 20}</string>
+				<string>{48.5, 27}</string>
+				<string>{34, 33}</string>
+				<string>{26, 38.5}</string>
+				<string>{12, 41}</string>
+				<string>{1, 47.5}</string>
+				<string>{18.5, 48}</string>
+				<string>{39.5, 42.5}</string>
+				<string>{59.5, 41.5}</string>
+				<string>{78.5, 33.5}</string>
+				<string>{98.5, 32.5}</string>
+				<string>{93.5, 18.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{154, 182}, {66, 81}}</string>
+			<key>image</key>
+			<string>iPh_carrot19.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{34.5, 26.5}</string>
+				<string>{19.5, 43.5}</string>
+				<string>{11, 57.5}</string>
+				<string>{0.5, 76}</string>
+				<string>{1, 81}</string>
+				<string>{16, 70.5}</string>
+				<string>{36.5, 46.5}</string>
+				<string>{42.5, 33}</string>
+				<string>{53.5, 22}</string>
+				<string>{65.5, 15.5}</string>
+				<string>{61.5, 2}</string>
+				<string>{50.5, 3.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{207.5, 171}, {41, 101}}</string>
+			<key>image</key>
+			<string>iPh_carrot21.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{28.5, 27}</string>
+				<string>{28.5, 37}</string>
+				<string>{12.5, 79.5}</string>
+				<string>{2.5, 101.5}</string>
+				<string>{1.5, 84.5}</string>
+				<string>{4, 60}</string>
+				<string>{11, 29.5}</string>
+				<string>{16.5, 21.5}</string>
+				<string>{19.5, 4}</string>
+				<string>{31.5, 1.5}</string>
+				<string>{39.5, 6.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{204.5, 191.5}, {91, 56}}</string>
+			<key>image</key>
+			<string>iPh_carrot24.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{1.5, 55.5}</string>
+				<string>{12.5, 43}</string>
+				<string>{21.5, 37}</string>
+				<string>{31.5, 26.5}</string>
+				<string>{51.5, 11}</string>
+				<string>{65, 7.5}</string>
+				<string>{80.5, 1}</string>
+				<string>{90.5, 13.5}</string>
+				<string>{71, 17.5}</string>
+				<string>{66, 24.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{172.5, 142.5}, {104, 49}}</string>
+			<key>image</key>
+			<string>iPh_carrot25.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{36, 3}</string>
+				<string>{30.5, 11}</string>
+				<string>{32.5, 25}</string>
+				<string>{42.5, 25.5}</string>
+				<string>{72.5, 41}</string>
+				<string>{103.5, 47.5}</string>
+				<string>{95, 38.5}</string>
+				<string>{50, 14.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{260, 159.5}, {52, 59}}</string>
+			<key>image</key>
+			<string>iPh_carrot26.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{9, 2.5}</string>
+				<string>{0.5, 6}</string>
+				<string>{6.5, 18}</string>
+				<string>{15, 29}</string>
+				<string>{28.5, 43}</string>
+				<string>{45.5, 58.5}</string>
+				<string>{51.5, 59}</string>
+				<string>{51.5, 53}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{269.5, 132.5}, {72, 87}}</string>
+			<key>image</key>
+			<string>iPh_carrot28.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{1.5, 2.5}</string>
+				<string>{7.5, 12.5}</string>
+				<string>{13, 24.5}</string>
+				<string>{33, 55}</string>
+				<string>{39, 55}</string>
+				<string>{50.5, 71.5}</string>
+				<string>{59, 57.5}</string>
+				<string>{42.5, 49.5}</string>
+				<string>{40.5, 39.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{248, 190.5}, {70, 76}}</string>
+			<key>image</key>
+			<string>iPh_carrot33.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{25, 62}</string>
+				<string>{9.5, 75.5}</string>
+				<string>{1.5, 64.5}</string>
+				<string>{16.5, 53.5}</string>
+				<string>{25, 37.5}</string>
+				<string>{42, 21}</string>
+				<string>{65, 1.5}</string>
+				<string>{69, 1.5}</string>
+				<string>{66.5, 11}</string>
+				<string>{57, 28}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{203.5, 161.5}, {83, 69}}</string>
+			<key>image</key>
+			<string>iPh_carrot37.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{37.5, 26.5}</string>
+				<string>{30, 17}</string>
+				<string>{23.5, 28}</string>
+				<string>{33, 33}</string>
+				<string>{37, 41}</string>
+				<string>{53, 51}</string>
+				<string>{63.5, 56}</string>
+				<string>{83, 67.5}</string>
+				<string>{81.5, 63}</string>
+				<string>{63.5, 45.5}</string>
+				<string>{56.5, 36.5}</string>
+				<string>{45, 27.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{299.5, 190}, {20, 75}}</string>
+			<key>image</key>
+			<string>iPh_carrot38.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{18.5, 1}</string>
+				<string>{9.5, 0.5}</string>
+				<string>{7.5, 6.5}</string>
+				<string>{4, 12}</string>
+				<string>{7, 18}</string>
+				<string>{5, 28.5}</string>
+				<string>{2, 40}</string>
+				<string>{1.5, 52}</string>
+				<string>{1, 75.5}</string>
+				<string>{17, 27}</string>
+				<string>{17.5, 21.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{133.5, 114}, {64, 93}}</string>
+			<key>image</key>
+			<string>iPh_carrot6.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{1.5, 2}</string>
+				<string>{5, 12.5}</string>
+				<string>{21, 42}</string>
+				<string>{31.5, 61.5}</string>
+				<string>{40.5, 69}</string>
+				<string>{46.5, 90.5}</string>
+				<string>{57.5, 88.5}</string>
+				<string>{63.5, 78.5}</string>
+				<string>{50.5, 58.5}</string>
+				<string>{12.5, 13}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{170, 111}, {51, 73}}</string>
+			<key>image</key>
+			<string>iPh_carrot8.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{17.5, 60.5}</string>
+				<string>{10, 71.5}</string>
+				<string>{1.5, 65}</string>
+				<string>{10, 56}</string>
+				<string>{12, 49.5}</string>
+				<string>{18.5, 39.5}</string>
+				<string>{28.5, 26.5}</string>
+				<string>{45, 2.5}</string>
+				<string>{50, 1.5}</string>
+				<string>{49.5, 10}</string>
+				<string>{31.5, 40}</string>
+				<string>{24.5, 55.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{160, 128}, {89, 62}}</string>
+			<key>image</key>
+			<string>iPh_carrot9.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{33, 40}</string>
+				<string>{17.5, 55}</string>
+				<string>{17.5, 62}</string>
+				<string>{2.5, 50.5}</string>
+				<string>{8.5, 42.5}</string>
+				<string>{24, 33}</string>
+				<string>{26, 29}</string>
+				<string>{46, 16.5}</string>
+				<string>{57, 13.5}</string>
+				<string>{76.5, 5}</string>
+				<string>{87, 1.5}</string>
+				<string>{78.5, 11.5}</string>
+				<string>{45, 37.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{214, 99.5}, {104, 37}}</string>
+			<key>image</key>
+			<string>iPh_carrot11.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{39.5, 15.5}</string>
+				<string>{15.5, 1.5}</string>
+				<string>{3.5, 11}</string>
+				<string>{11, 23}</string>
+				<string>{35, 27}</string>
+				<string>{57.5, 32.5}</string>
+				<string>{103, 37}</string>
+				<string>{102, 33.5}</string>
+				<string>{83.5, 23.5}</string>
+				<string>{52.5, 15}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{109, 221.5}, {104, 32}}</string>
+			<key>image</key>
+			<string>iPh_carrot14.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{23.5, 11}</string>
+				<string>{8, 1.5}</string>
+				<string>{1.5, 11.5}</string>
+				<string>{4, 19.5}</string>
+				<string>{20.5, 21.5}</string>
+				<string>{30.5, 29.5}</string>
+				<string>{64.5, 31}</string>
+				<string>{72.5, 30}</string>
+				<string>{103, 29.5}</string>
+				<string>{97, 25}</string>
+				<string>{77, 22}</string>
+				<string>{59.5, 14.5}</string>
+				<string>{31.5, 8.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{302, 193}, {136, 41}}</string>
+			<key>image</key>
+			<string>iPh_carrot16.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{75, 17.5}</string>
+				<string>{66.5, 14.5}</string>
+				<string>{49, 21.5}</string>
+				<string>{29, 29.5}</string>
+				<string>{18.5, 30}</string>
+				<string>{1.5, 38}</string>
+				<string>{13, 40.5}</string>
+				<string>{30.5, 36}</string>
+				<string>{46, 37.5}</string>
+				<string>{74, 34}</string>
+				<string>{82.5, 27.5}</string>
+				<string>{118, 18.5}</string>
+				<string>{106, 1}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{289.5, 147.5}, {120, 50}}</string>
+			<key>image</key>
+			<string>iPh_carrot18.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{76.5, 25}</string>
+				<string>{63, 20}</string>
+				<string>{48.5, 27}</string>
+				<string>{34, 33}</string>
+				<string>{26, 38.5}</string>
+				<string>{12, 41}</string>
+				<string>{1, 47.5}</string>
+				<string>{18.5, 48}</string>
+				<string>{39.5, 42.5}</string>
+				<string>{59.5, 41.5}</string>
+				<string>{78.5, 33.5}</string>
+				<string>{98.5, 32.5}</string>
+				<string>{93.5, 18.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{211, 118}, {66, 81}}</string>
+			<key>image</key>
+			<string>iPh_carrot19.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{34.5, 26.5}</string>
+				<string>{19.5, 43.5}</string>
+				<string>{11, 57.5}</string>
+				<string>{0.5, 76}</string>
+				<string>{1, 81}</string>
+				<string>{16, 70.5}</string>
+				<string>{36.5, 46.5}</string>
+				<string>{42.5, 33}</string>
+				<string>{53.5, 22}</string>
+				<string>{65.5, 15.5}</string>
+				<string>{61.5, 2}</string>
+				<string>{50.5, 3.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{298, 98}, {41, 101}}</string>
+			<key>image</key>
+			<string>iPh_carrot21.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{28.5, 27}</string>
+				<string>{28.5, 37}</string>
+				<string>{12.5, 79.5}</string>
+				<string>{2.5, 101.5}</string>
+				<string>{1.5, 84.5}</string>
+				<string>{4, 60}</string>
+				<string>{11, 29.5}</string>
+				<string>{16.5, 21.5}</string>
+				<string>{19.5, 4}</string>
+				<string>{31.5, 1.5}</string>
+				<string>{39.5, 6.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{284.5, 216}, {91, 56}}</string>
+			<key>image</key>
+			<string>iPh_carrot24.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{1.5, 55.5}</string>
+				<string>{12.5, 43}</string>
+				<string>{21.5, 37}</string>
+				<string>{31.5, 26.5}</string>
+				<string>{51.5, 11}</string>
+				<string>{65, 7.5}</string>
+				<string>{80.5, 1}</string>
+				<string>{90.5, 13.5}</string>
+				<string>{71, 17.5}</string>
+				<string>{66, 24.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{281, 178}, {104, 49}}</string>
+			<key>image</key>
+			<string>iPh_carrot25.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{36, 3}</string>
+				<string>{30.5, 11}</string>
+				<string>{32.5, 25}</string>
+				<string>{42.5, 25.5}</string>
+				<string>{72.5, 41}</string>
+				<string>{103.5, 47.5}</string>
+				<string>{95, 38.5}</string>
+				<string>{50, 14.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{292.5, 184.5}, {52, 59}}</string>
+			<key>image</key>
+			<string>iPh_carrot26.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{9, 2.5}</string>
+				<string>{0.5, 6}</string>
+				<string>{6.5, 18}</string>
+				<string>{15, 29}</string>
+				<string>{28.5, 43}</string>
+				<string>{45.5, 58.5}</string>
+				<string>{51.5, 59}</string>
+				<string>{51.5, 53}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{294.5, 130}, {72, 87}}</string>
+			<key>image</key>
+			<string>iPh_carrot28.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{1.5, 2.5}</string>
+				<string>{7.5, 12.5}</string>
+				<string>{13, 24.5}</string>
+				<string>{33, 55}</string>
+				<string>{39, 55}</string>
+				<string>{50.5, 71.5}</string>
+				<string>{59, 57.5}</string>
+				<string>{42.5, 49.5}</string>
+				<string>{40.5, 39.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{230.5, 117}, {70, 76}}</string>
+			<key>image</key>
+			<string>iPh_carrot33.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{25, 62}</string>
+				<string>{9.5, 75.5}</string>
+				<string>{1.5, 64.5}</string>
+				<string>{16.5, 53.5}</string>
+				<string>{25, 37.5}</string>
+				<string>{42, 21}</string>
+				<string>{65, 1.5}</string>
+				<string>{69, 1.5}</string>
+				<string>{66.5, 11}</string>
+				<string>{57, 28}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{391, 206.5}, {51, 73}}</string>
+			<key>image</key>
+			<string>iPh_carrot8.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{17.5, 60.5}</string>
+				<string>{10, 71.5}</string>
+				<string>{1.5, 65}</string>
+				<string>{10, 56}</string>
+				<string>{12, 49.5}</string>
+				<string>{18.5, 39.5}</string>
+				<string>{28.5, 26.5}</string>
+				<string>{45, 2.5}</string>
+				<string>{50, 1.5}</string>
+				<string>{49.5, 10}</string>
+				<string>{31.5, 40}</string>
+				<string>{24.5, 55.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{371.5, 206}, {89, 62}}</string>
+			<key>image</key>
+			<string>iPh_carrot9.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{33, 40}</string>
+				<string>{17.5, 55}</string>
+				<string>{17.5, 62}</string>
+				<string>{2.5, 50.5}</string>
+				<string>{8.5, 42.5}</string>
+				<string>{24, 33}</string>
+				<string>{26, 29}</string>
+				<string>{46, 16.5}</string>
+				<string>{57, 13.5}</string>
+				<string>{76.5, 5}</string>
+				<string>{87, 1.5}</string>
+				<string>{78.5, 11.5}</string>
+				<string>{45, 37.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{372, 114}, {104, 37}}</string>
+			<key>image</key>
+			<string>iPh_carrot11.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{39.5, 15.5}</string>
+				<string>{15.5, 1.5}</string>
+				<string>{3.5, 11}</string>
+				<string>{11, 23}</string>
+				<string>{35, 27}</string>
+				<string>{57.5, 32.5}</string>
+				<string>{103, 37}</string>
+				<string>{102, 33.5}</string>
+				<string>{83.5, 23.5}</string>
+				<string>{52.5, 15}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{369.5, 95.5}, {104, 32}}</string>
+			<key>image</key>
+			<string>iPh_carrot14.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{23.5, 11}</string>
+				<string>{8, 1.5}</string>
+				<string>{1.5, 11.5}</string>
+				<string>{4, 19.5}</string>
+				<string>{20.5, 21.5}</string>
+				<string>{30.5, 29.5}</string>
+				<string>{64.5, 31}</string>
+				<string>{72.5, 30}</string>
+				<string>{103, 29.5}</string>
+				<string>{97, 25}</string>
+				<string>{77, 22}</string>
+				<string>{59.5, 14.5}</string>
+				<string>{31.5, 8.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{352, 170}, {136, 41}}</string>
+			<key>image</key>
+			<string>iPh_carrot16.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{75, 17.5}</string>
+				<string>{66.5, 14.5}</string>
+				<string>{49, 21.5}</string>
+				<string>{29, 29.5}</string>
+				<string>{18.5, 30}</string>
+				<string>{1.5, 38}</string>
+				<string>{13, 40.5}</string>
+				<string>{30.5, 36}</string>
+				<string>{46, 37.5}</string>
+				<string>{74, 34}</string>
+				<string>{82.5, 27.5}</string>
+				<string>{118, 18.5}</string>
+				<string>{106, 1}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{356.5, 127}, {120, 50}}</string>
+			<key>image</key>
+			<string>iPh_carrot18.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{76.5, 25}</string>
+				<string>{63, 20}</string>
+				<string>{48.5, 27}</string>
+				<string>{34, 33}</string>
+				<string>{26, 38.5}</string>
+				<string>{12, 41}</string>
+				<string>{1, 47.5}</string>
+				<string>{18.5, 48}</string>
+				<string>{39.5, 42.5}</string>
+				<string>{59.5, 41.5}</string>
+				<string>{78.5, 33.5}</string>
+				<string>{98.5, 32.5}</string>
+				<string>{93.5, 18.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{375, 88}, {66, 81}}</string>
+			<key>image</key>
+			<string>iPh_carrot19.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{34.5, 26.5}</string>
+				<string>{19.5, 43.5}</string>
+				<string>{11, 57.5}</string>
+				<string>{0.5, 76}</string>
+				<string>{1, 81}</string>
+				<string>{16, 70.5}</string>
+				<string>{36.5, 46.5}</string>
+				<string>{42.5, 33}</string>
+				<string>{53.5, 22}</string>
+				<string>{65.5, 15.5}</string>
+				<string>{61.5, 2}</string>
+				<string>{50.5, 3.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{383.5, 172.5}, {41, 101}}</string>
+			<key>image</key>
+			<string>iPh_carrot21.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{28.5, 27}</string>
+				<string>{28.5, 37}</string>
+				<string>{12.5, 79.5}</string>
+				<string>{2.5, 101.5}</string>
+				<string>{1.5, 84.5}</string>
+				<string>{4, 60}</string>
+				<string>{11, 29.5}</string>
+				<string>{16.5, 21.5}</string>
+				<string>{19.5, 4}</string>
+				<string>{31.5, 1.5}</string>
+				<string>{39.5, 6.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{327.5, 118.5}, {91, 56}}</string>
+			<key>image</key>
+			<string>iPh_carrot24.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{1.5, 55.5}</string>
+				<string>{12.5, 43}</string>
+				<string>{21.5, 37}</string>
+				<string>{31.5, 26.5}</string>
+				<string>{51.5, 11}</string>
+				<string>{65, 7.5}</string>
+				<string>{80.5, 1}</string>
+				<string>{90.5, 13.5}</string>
+				<string>{71, 17.5}</string>
+				<string>{66, 24.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{342, 85}, {104, 49}}</string>
+			<key>image</key>
+			<string>iPh_carrot25.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{36, 3}</string>
+				<string>{30.5, 11}</string>
+				<string>{32.5, 25}</string>
+				<string>{42.5, 25.5}</string>
+				<string>{72.5, 41}</string>
+				<string>{103.5, 47.5}</string>
+				<string>{95, 38.5}</string>
+				<string>{50, 14.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{326, 81}, {52, 59}}</string>
+			<key>image</key>
+			<string>iPh_carrot26.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{9, 2.5}</string>
+				<string>{0.5, 6}</string>
+				<string>{6.5, 18}</string>
+				<string>{15, 29}</string>
+				<string>{28.5, 43}</string>
+				<string>{45.5, 58.5}</string>
+				<string>{51.5, 59}</string>
+				<string>{51.5, 53}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{275, 71}, {72, 87}}</string>
+			<key>image</key>
+			<string>iPh_carrot28.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{1.5, 2.5}</string>
+				<string>{7.5, 12.5}</string>
+				<string>{13, 24.5}</string>
+				<string>{33, 55}</string>
+				<string>{39, 55}</string>
+				<string>{50.5, 71.5}</string>
+				<string>{59, 57.5}</string>
+				<string>{42.5, 49.5}</string>
+				<string>{40.5, 39.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{188.5, 80.5}, {70, 76}}</string>
+			<key>image</key>
+			<string>iPh_carrot33.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{25, 62}</string>
+				<string>{9.5, 75.5}</string>
+				<string>{1.5, 64.5}</string>
+				<string>{16.5, 53.5}</string>
+				<string>{25, 37.5}</string>
+				<string>{42, 21}</string>
+				<string>{65, 1.5}</string>
+				<string>{69, 1.5}</string>
+				<string>{66.5, 11}</string>
+				<string>{57, 28}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{78.5, 112.5}, {83, 69}}</string>
+			<key>image</key>
+			<string>iPh_carrot37.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{37.5, 26.5}</string>
+				<string>{30, 17}</string>
+				<string>{23.5, 28}</string>
+				<string>{33, 33}</string>
+				<string>{37, 41}</string>
+				<string>{53, 51}</string>
+				<string>{63.5, 56}</string>
+				<string>{83, 67.5}</string>
+				<string>{81.5, 63}</string>
+				<string>{63.5, 45.5}</string>
+				<string>{56.5, 36.5}</string>
+				<string>{45, 27.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{428, 163.5}, {20, 75}}</string>
+			<key>image</key>
+			<string>iPh_carrot38.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{18.5, 1}</string>
+				<string>{9.5, 0.5}</string>
+				<string>{7.5, 6.5}</string>
+				<string>{4, 12}</string>
+				<string>{7, 18}</string>
+				<string>{5, 28.5}</string>
+				<string>{2, 40}</string>
+				<string>{1.5, 52}</string>
+				<string>{1, 75.5}</string>
+				<string>{17, 27}</string>
+				<string>{17.5, 21.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{332, 178.5}, {64, 93}}</string>
+			<key>image</key>
+			<string>iPh_carrot6.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{1.5, 2}</string>
+				<string>{5, 12.5}</string>
+				<string>{21, 42}</string>
+				<string>{31.5, 61.5}</string>
+				<string>{40.5, 69}</string>
+				<string>{46.5, 90.5}</string>
+				<string>{57.5, 88.5}</string>
+				<string>{63.5, 78.5}</string>
+				<string>{50.5, 58.5}</string>
+				<string>{12.5, 13}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{372.5, 145.5}, {51, 73}}</string>
+			<key>image</key>
+			<string>iPh_carrot8.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{17.5, 60.5}</string>
+				<string>{10, 71.5}</string>
+				<string>{1.5, 65}</string>
+				<string>{10, 56}</string>
+				<string>{12, 49.5}</string>
+				<string>{18.5, 39.5}</string>
+				<string>{28.5, 26.5}</string>
+				<string>{45, 2.5}</string>
+				<string>{50, 1.5}</string>
+				<string>{49.5, 10}</string>
+				<string>{31.5, 40}</string>
+				<string>{24.5, 55.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{336.5, 212.5}, {89, 62}}</string>
+			<key>image</key>
+			<string>iPh_carrot9.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{33, 40}</string>
+				<string>{17.5, 55}</string>
+				<string>{17.5, 62}</string>
+				<string>{2.5, 50.5}</string>
+				<string>{8.5, 42.5}</string>
+				<string>{24, 33}</string>
+				<string>{26, 29}</string>
+				<string>{46, 16.5}</string>
+				<string>{57, 13.5}</string>
+				<string>{76.5, 5}</string>
+				<string>{87, 1.5}</string>
+				<string>{78.5, 11.5}</string>
+				<string>{45, 37.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{305.5, 240.5}, {104, 37}}</string>
+			<key>image</key>
+			<string>iPh_carrot11.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{39.5, 15.5}</string>
+				<string>{15.5, 1.5}</string>
+				<string>{3.5, 11}</string>
+				<string>{11, 23}</string>
+				<string>{35, 27}</string>
+				<string>{57.5, 32.5}</string>
+				<string>{103, 37}</string>
+				<string>{102, 33.5}</string>
+				<string>{83.5, 23.5}</string>
+				<string>{52.5, 15}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{256.5, 92.5}, {104, 32}}</string>
+			<key>image</key>
+			<string>iPh_carrot14.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{23.5, 11}</string>
+				<string>{8, 1.5}</string>
+				<string>{1.5, 11.5}</string>
+				<string>{4, 19.5}</string>
+				<string>{20.5, 21.5}</string>
+				<string>{30.5, 29.5}</string>
+				<string>{64.5, 31}</string>
+				<string>{72.5, 30}</string>
+				<string>{103, 29.5}</string>
+				<string>{97, 25}</string>
+				<string>{77, 22}</string>
+				<string>{59.5, 14.5}</string>
+				<string>{31.5, 8.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{321, 164}, {136, 41}}</string>
+			<key>image</key>
+			<string>iPh_carrot16.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{75, 17.5}</string>
+				<string>{66.5, 14.5}</string>
+				<string>{49, 21.5}</string>
+				<string>{29, 29.5}</string>
+				<string>{18.5, 30}</string>
+				<string>{1.5, 38}</string>
+				<string>{13, 40.5}</string>
+				<string>{30.5, 36}</string>
+				<string>{46, 37.5}</string>
+				<string>{74, 34}</string>
+				<string>{82.5, 27.5}</string>
+				<string>{118, 18.5}</string>
+				<string>{106, 1}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{312.5, 86.5}, {120, 50}}</string>
+			<key>image</key>
+			<string>iPh_carrot18.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{76.5, 25}</string>
+				<string>{63, 20}</string>
+				<string>{48.5, 27}</string>
+				<string>{34, 33}</string>
+				<string>{26, 38.5}</string>
+				<string>{12, 41}</string>
+				<string>{1, 47.5}</string>
+				<string>{18.5, 48}</string>
+				<string>{39.5, 42.5}</string>
+				<string>{59.5, 41.5}</string>
+				<string>{78.5, 33.5}</string>
+				<string>{98.5, 32.5}</string>
+				<string>{93.5, 18.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{267, 193.5}, {66, 81}}</string>
+			<key>image</key>
+			<string>iPh_carrot19.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{34.5, 26.5}</string>
+				<string>{19.5, 43.5}</string>
+				<string>{11, 57.5}</string>
+				<string>{0.5, 76}</string>
+				<string>{1, 81}</string>
+				<string>{16, 70.5}</string>
+				<string>{36.5, 46.5}</string>
+				<string>{42.5, 33}</string>
+				<string>{53.5, 22}</string>
+				<string>{65.5, 15.5}</string>
+				<string>{61.5, 2}</string>
+				<string>{50.5, 3.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{131, 100.5}, {41, 101}}</string>
+			<key>image</key>
+			<string>iPh_carrot21.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{28.5, 27}</string>
+				<string>{28.5, 37}</string>
+				<string>{12.5, 79.5}</string>
+				<string>{2.5, 101.5}</string>
+				<string>{1.5, 84.5}</string>
+				<string>{4, 60}</string>
+				<string>{11, 29.5}</string>
+				<string>{16.5, 21.5}</string>
+				<string>{19.5, 4}</string>
+				<string>{31.5, 1.5}</string>
+				<string>{39.5, 6.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{104, 105}, {91, 56}}</string>
+			<key>image</key>
+			<string>iPh_carrot24.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{1.5, 55.5}</string>
+				<string>{12.5, 43}</string>
+				<string>{21.5, 37}</string>
+				<string>{31.5, 26.5}</string>
+				<string>{51.5, 11}</string>
+				<string>{65, 7.5}</string>
+				<string>{80.5, 1}</string>
+				<string>{90.5, 13.5}</string>
+				<string>{71, 17.5}</string>
+				<string>{66, 24.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{141, 104}, {104, 49}}</string>
+			<key>image</key>
+			<string>iPh_carrot25.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{36, 3}</string>
+				<string>{30.5, 11}</string>
+				<string>{32.5, 25}</string>
+				<string>{42.5, 25.5}</string>
+				<string>{72.5, 41}</string>
+				<string>{103.5, 47.5}</string>
+				<string>{95, 38.5}</string>
+				<string>{50, 14.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{140.5, 104}, {52, 59}}</string>
+			<key>image</key>
+			<string>iPh_carrot26.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{9, 2.5}</string>
+				<string>{0.5, 6}</string>
+				<string>{6.5, 18}</string>
+				<string>{15, 29}</string>
+				<string>{28.5, 43}</string>
+				<string>{45.5, 58.5}</string>
+				<string>{51.5, 59}</string>
+				<string>{51.5, 53}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{107.5, 156}, {72, 87}}</string>
+			<key>image</key>
+			<string>iPh_carrot28.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{1.5, 2.5}</string>
+				<string>{7.5, 12.5}</string>
+				<string>{13, 24.5}</string>
+				<string>{33, 55}</string>
+				<string>{39, 55}</string>
+				<string>{50.5, 71.5}</string>
+				<string>{59, 57.5}</string>
+				<string>{42.5, 49.5}</string>
+				<string>{40.5, 39.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{131.5, 97.5}, {70, 76}}</string>
+			<key>image</key>
+			<string>iPh_carrot33.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{25, 62}</string>
+				<string>{9.5, 75.5}</string>
+				<string>{1.5, 64.5}</string>
+				<string>{16.5, 53.5}</string>
+				<string>{25, 37.5}</string>
+				<string>{42, 21}</string>
+				<string>{65, 1.5}</string>
+				<string>{69, 1.5}</string>
+				<string>{66.5, 11}</string>
+				<string>{57, 28}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{160, 130.5}, {51, 73}}</string>
+			<key>image</key>
+			<string>iPh_carrot8.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{17.5, 60.5}</string>
+				<string>{10, 71.5}</string>
+				<string>{1.5, 65}</string>
+				<string>{10, 56}</string>
+				<string>{12, 49.5}</string>
+				<string>{18.5, 39.5}</string>
+				<string>{28.5, 26.5}</string>
+				<string>{45, 2.5}</string>
+				<string>{50, 1.5}</string>
+				<string>{49.5, 10}</string>
+				<string>{31.5, 40}</string>
+				<string>{24.5, 55.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{320, 141}, {89, 62}}</string>
+			<key>image</key>
+			<string>iPh_carrot9.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{33, 40}</string>
+				<string>{17.5, 55}</string>
+				<string>{17.5, 62}</string>
+				<string>{2.5, 50.5}</string>
+				<string>{8.5, 42.5}</string>
+				<string>{24, 33}</string>
+				<string>{26, 29}</string>
+				<string>{46, 16.5}</string>
+				<string>{57, 13.5}</string>
+				<string>{76.5, 5}</string>
+				<string>{87, 1.5}</string>
+				<string>{78.5, 11.5}</string>
+				<string>{45, 37.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{334, 111.5}, {104, 37}}</string>
+			<key>image</key>
+			<string>iPh_carrot11.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{39.5, 15.5}</string>
+				<string>{15.5, 1.5}</string>
+				<string>{3.5, 11}</string>
+				<string>{11, 23}</string>
+				<string>{35, 27}</string>
+				<string>{57.5, 32.5}</string>
+				<string>{103, 37}</string>
+				<string>{102, 33.5}</string>
+				<string>{83.5, 23.5}</string>
+				<string>{52.5, 15}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{293, 121}, {104, 32}}</string>
+			<key>image</key>
+			<string>iPh_carrot14.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{23.5, 11}</string>
+				<string>{8, 1.5}</string>
+				<string>{1.5, 11.5}</string>
+				<string>{4, 19.5}</string>
+				<string>{20.5, 21.5}</string>
+				<string>{30.5, 29.5}</string>
+				<string>{64.5, 31}</string>
+				<string>{72.5, 30}</string>
+				<string>{103, 29.5}</string>
+				<string>{97, 25}</string>
+				<string>{77, 22}</string>
+				<string>{59.5, 14.5}</string>
+				<string>{31.5, 8.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{224, 69}, {136, 41}}</string>
+			<key>image</key>
+			<string>iPh_carrot16.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{75, 17.5}</string>
+				<string>{66.5, 14.5}</string>
+				<string>{49, 21.5}</string>
+				<string>{29, 29.5}</string>
+				<string>{18.5, 30}</string>
+				<string>{1.5, 38}</string>
+				<string>{13, 40.5}</string>
+				<string>{30.5, 36}</string>
+				<string>{46, 37.5}</string>
+				<string>{74, 34}</string>
+				<string>{82.5, 27.5}</string>
+				<string>{118, 18.5}</string>
+				<string>{106, 1}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{146.5, 40.5}, {120, 50}}</string>
+			<key>image</key>
+			<string>iPh_carrot18.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{76.5, 25}</string>
+				<string>{63, 20}</string>
+				<string>{48.5, 27}</string>
+				<string>{34, 33}</string>
+				<string>{26, 38.5}</string>
+				<string>{12, 41}</string>
+				<string>{1, 47.5}</string>
+				<string>{18.5, 48}</string>
+				<string>{39.5, 42.5}</string>
+				<string>{59.5, 41.5}</string>
+				<string>{78.5, 33.5}</string>
+				<string>{98.5, 32.5}</string>
+				<string>{93.5, 18.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{97.5, 62.5}, {66, 81}}</string>
+			<key>image</key>
+			<string>iPh_carrot19.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{34.5, 26.5}</string>
+				<string>{19.5, 43.5}</string>
+				<string>{11, 57.5}</string>
+				<string>{0.5, 76}</string>
+				<string>{1, 81}</string>
+				<string>{16, 70.5}</string>
+				<string>{36.5, 46.5}</string>
+				<string>{42.5, 33}</string>
+				<string>{53.5, 22}</string>
+				<string>{65.5, 15.5}</string>
+				<string>{61.5, 2}</string>
+				<string>{50.5, 3.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{110.5, 136}, {41, 101}}</string>
+			<key>image</key>
+			<string>iPh_carrot21.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{28.5, 27}</string>
+				<string>{28.5, 37}</string>
+				<string>{12.5, 79.5}</string>
+				<string>{2.5, 101.5}</string>
+				<string>{1.5, 84.5}</string>
+				<string>{4, 60}</string>
+				<string>{11, 29.5}</string>
+				<string>{16.5, 21.5}</string>
+				<string>{19.5, 4}</string>
+				<string>{31.5, 1.5}</string>
+				<string>{39.5, 6.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{143.5, 216.5}, {91, 56}}</string>
+			<key>image</key>
+			<string>iPh_carrot24.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{1.5, 55.5}</string>
+				<string>{12.5, 43}</string>
+				<string>{21.5, 37}</string>
+				<string>{31.5, 26.5}</string>
+				<string>{51.5, 11}</string>
+				<string>{65, 7.5}</string>
+				<string>{80.5, 1}</string>
+				<string>{90.5, 13.5}</string>
+				<string>{71, 17.5}</string>
+				<string>{66, 24.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{108, 65}, {104, 49}}</string>
+			<key>image</key>
+			<string>iPh_carrot25.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{36, 3}</string>
+				<string>{30.5, 11}</string>
+				<string>{32.5, 25}</string>
+				<string>{42.5, 25.5}</string>
+				<string>{72.5, 41}</string>
+				<string>{103.5, 47.5}</string>
+				<string>{95, 38.5}</string>
+				<string>{50, 14.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{144.5, 182.5}, {52, 59}}</string>
+			<key>image</key>
+			<string>iPh_carrot26.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{9, 2.5}</string>
+				<string>{0.5, 6}</string>
+				<string>{6.5, 18}</string>
+				<string>{15, 29}</string>
+				<string>{28.5, 43}</string>
+				<string>{45.5, 58.5}</string>
+				<string>{51.5, 59}</string>
+				<string>{51.5, 53}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{182, 123.5}, {72, 87}}</string>
+			<key>image</key>
+			<string>iPh_carrot28.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{1.5, 2.5}</string>
+				<string>{7.5, 12.5}</string>
+				<string>{13, 24.5}</string>
+				<string>{33, 55}</string>
+				<string>{39, 55}</string>
+				<string>{50.5, 71.5}</string>
+				<string>{59, 57.5}</string>
+				<string>{42.5, 49.5}</string>
+				<string>{40.5, 39.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{241, 155.5}, {70, 76}}</string>
+			<key>image</key>
+			<string>iPh_carrot33.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{25, 62}</string>
+				<string>{9.5, 75.5}</string>
+				<string>{1.5, 64.5}</string>
+				<string>{16.5, 53.5}</string>
+				<string>{25, 37.5}</string>
+				<string>{42, 21}</string>
+				<string>{65, 1.5}</string>
+				<string>{69, 1.5}</string>
+				<string>{66.5, 11}</string>
+				<string>{57, 28}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{157.5, 61}, {83, 69}}</string>
+			<key>image</key>
+			<string>iPh_carrot37.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{37.5, 26.5}</string>
+				<string>{30, 17}</string>
+				<string>{23.5, 28}</string>
+				<string>{33, 33}</string>
+				<string>{37, 41}</string>
+				<string>{53, 51}</string>
+				<string>{63.5, 56}</string>
+				<string>{83, 67.5}</string>
+				<string>{81.5, 63}</string>
+				<string>{63.5, 45.5}</string>
+				<string>{56.5, 36.5}</string>
+				<string>{45, 27.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{185, 56.5}, {20, 75}}</string>
+			<key>image</key>
+			<string>iPh_carrot38.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{18.5, 1}</string>
+				<string>{9.5, 0.5}</string>
+				<string>{7.5, 6.5}</string>
+				<string>{4, 12}</string>
+				<string>{7, 18}</string>
+				<string>{5, 28.5}</string>
+				<string>{2, 40}</string>
+				<string>{1.5, 52}</string>
+				<string>{1, 75.5}</string>
+				<string>{17, 27}</string>
+				<string>{17.5, 21.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{244.5, 54}, {64, 93}}</string>
+			<key>image</key>
+			<string>iPh_carrot6.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{1.5, 2}</string>
+				<string>{5, 12.5}</string>
+				<string>{21, 42}</string>
+				<string>{31.5, 61.5}</string>
+				<string>{40.5, 69}</string>
+				<string>{46.5, 90.5}</string>
+				<string>{57.5, 88.5}</string>
+				<string>{63.5, 78.5}</string>
+				<string>{50.5, 58.5}</string>
+				<string>{12.5, 13}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{254, 71.5}, {51, 73}}</string>
+			<key>image</key>
+			<string>iPh_carrot8.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{17.5, 60.5}</string>
+				<string>{10, 71.5}</string>
+				<string>{1.5, 65}</string>
+				<string>{10, 56}</string>
+				<string>{12, 49.5}</string>
+				<string>{18.5, 39.5}</string>
+				<string>{28.5, 26.5}</string>
+				<string>{45, 2.5}</string>
+				<string>{50, 1.5}</string>
+				<string>{49.5, 10}</string>
+				<string>{31.5, 40}</string>
+				<string>{24.5, 55.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{156, 73.5}, {89, 62}}</string>
+			<key>image</key>
+			<string>iPh_carrot9.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{33, 40}</string>
+				<string>{17.5, 55}</string>
+				<string>{17.5, 62}</string>
+				<string>{2.5, 50.5}</string>
+				<string>{8.5, 42.5}</string>
+				<string>{24, 33}</string>
+				<string>{26, 29}</string>
+				<string>{46, 16.5}</string>
+				<string>{57, 13.5}</string>
+				<string>{76.5, 5}</string>
+				<string>{87, 1.5}</string>
+				<string>{78.5, 11.5}</string>
+				<string>{45, 37.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{90, 110.5}, {104, 37}}</string>
+			<key>image</key>
+			<string>iPh_carrot11.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{39.5, 15.5}</string>
+				<string>{15.5, 1.5}</string>
+				<string>{3.5, 11}</string>
+				<string>{11, 23}</string>
+				<string>{35, 27}</string>
+				<string>{57.5, 32.5}</string>
+				<string>{103, 37}</string>
+				<string>{102, 33.5}</string>
+				<string>{83.5, 23.5}</string>
+				<string>{52.5, 15}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{333.5, 69}, {104, 32}}</string>
+			<key>image</key>
+			<string>iPh_carrot14.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{23.5, 11}</string>
+				<string>{8, 1.5}</string>
+				<string>{1.5, 11.5}</string>
+				<string>{4, 19.5}</string>
+				<string>{20.5, 21.5}</string>
+				<string>{30.5, 29.5}</string>
+				<string>{64.5, 31}</string>
+				<string>{72.5, 30}</string>
+				<string>{103, 29.5}</string>
+				<string>{97, 25}</string>
+				<string>{77, 22}</string>
+				<string>{59.5, 14.5}</string>
+				<string>{31.5, 8.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{243, 75}, {136, 41}}</string>
+			<key>image</key>
+			<string>iPh_carrot16.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{75, 17.5}</string>
+				<string>{66.5, 14.5}</string>
+				<string>{49, 21.5}</string>
+				<string>{29, 29.5}</string>
+				<string>{18.5, 30}</string>
+				<string>{1.5, 38}</string>
+				<string>{13, 40.5}</string>
+				<string>{30.5, 36}</string>
+				<string>{46, 37.5}</string>
+				<string>{74, 34}</string>
+				<string>{82.5, 27.5}</string>
+				<string>{118, 18.5}</string>
+				<string>{106, 1}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{110.5, 78}, {120, 50}}</string>
+			<key>image</key>
+			<string>iPh_carrot18.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{76.5, 25}</string>
+				<string>{63, 20}</string>
+				<string>{48.5, 27}</string>
+				<string>{34, 33}</string>
+				<string>{26, 38.5}</string>
+				<string>{12, 41}</string>
+				<string>{1, 47.5}</string>
+				<string>{18.5, 48}</string>
+				<string>{39.5, 42.5}</string>
+				<string>{59.5, 41.5}</string>
+				<string>{78.5, 33.5}</string>
+				<string>{98.5, 32.5}</string>
+				<string>{93.5, 18.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{189.5, 72}, {66, 81}}</string>
+			<key>image</key>
+			<string>iPh_carrot19.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{34.5, 26.5}</string>
+				<string>{19.5, 43.5}</string>
+				<string>{11, 57.5}</string>
+				<string>{0.5, 76}</string>
+				<string>{1, 81}</string>
+				<string>{16, 70.5}</string>
+				<string>{36.5, 46.5}</string>
+				<string>{42.5, 33}</string>
+				<string>{53.5, 22}</string>
+				<string>{65.5, 15.5}</string>
+				<string>{61.5, 2}</string>
+				<string>{50.5, 3.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{110.5, 175.5}, {41, 101}}</string>
+			<key>image</key>
+			<string>iPh_carrot21.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{28.5, 27}</string>
+				<string>{28.5, 37}</string>
+				<string>{12.5, 79.5}</string>
+				<string>{2.5, 101.5}</string>
+				<string>{1.5, 84.5}</string>
+				<string>{4, 60}</string>
+				<string>{11, 29.5}</string>
+				<string>{16.5, 21.5}</string>
+				<string>{19.5, 4}</string>
+				<string>{31.5, 1.5}</string>
+				<string>{39.5, 6.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{85.5, 127.5}, {91, 56}}</string>
+			<key>image</key>
+			<string>iPh_carrot24.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{1.5, 55.5}</string>
+				<string>{12.5, 43}</string>
+				<string>{21.5, 37}</string>
+				<string>{31.5, 26.5}</string>
+				<string>{51.5, 11}</string>
+				<string>{65, 7.5}</string>
+				<string>{80.5, 1}</string>
+				<string>{90.5, 13.5}</string>
+				<string>{71, 17.5}</string>
+				<string>{66, 24.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{149.5, 90.5}, {104, 49}}</string>
+			<key>image</key>
+			<string>iPh_carrot25.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{36, 3}</string>
+				<string>{30.5, 11}</string>
+				<string>{32.5, 25}</string>
+				<string>{42.5, 25.5}</string>
+				<string>{72.5, 41}</string>
+				<string>{103.5, 47.5}</string>
+				<string>{95, 38.5}</string>
+				<string>{50, 14.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{257, 222}, {52, 59}}</string>
+			<key>image</key>
+			<string>iPh_carrot26.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{9, 2.5}</string>
+				<string>{0.5, 6}</string>
+				<string>{6.5, 18}</string>
+				<string>{15, 29}</string>
+				<string>{28.5, 43}</string>
+				<string>{45.5, 58.5}</string>
+				<string>{51.5, 59}</string>
+				<string>{51.5, 53}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{193.5, 206}, {72, 87}}</string>
+			<key>image</key>
+			<string>iPh_carrot28.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{1.5, 2.5}</string>
+				<string>{7.5, 12.5}</string>
+				<string>{13, 24.5}</string>
+				<string>{33, 55}</string>
+				<string>{39, 55}</string>
+				<string>{50.5, 71.5}</string>
+				<string>{59, 57.5}</string>
+				<string>{42.5, 49.5}</string>
+				<string>{40.5, 39.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{175.5, 205.5}, {70, 76}}</string>
+			<key>image</key>
+			<string>iPh_carrot33.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{25, 62}</string>
+				<string>{9.5, 75.5}</string>
+				<string>{1.5, 64.5}</string>
+				<string>{16.5, 53.5}</string>
+				<string>{25, 37.5}</string>
+				<string>{42, 21}</string>
+				<string>{65, 1.5}</string>
+				<string>{69, 1.5}</string>
+				<string>{66.5, 11}</string>
+				<string>{57, 28}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{252.5, 67}, {51, 73}}</string>
+			<key>image</key>
+			<string>iPh_carrot8.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{17.5, 60.5}</string>
+				<string>{10, 71.5}</string>
+				<string>{1.5, 65}</string>
+				<string>{10, 56}</string>
+				<string>{12, 49.5}</string>
+				<string>{18.5, 39.5}</string>
+				<string>{28.5, 26.5}</string>
+				<string>{45, 2.5}</string>
+				<string>{50, 1.5}</string>
+				<string>{49.5, 10}</string>
+				<string>{31.5, 40}</string>
+				<string>{24.5, 55.5}</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

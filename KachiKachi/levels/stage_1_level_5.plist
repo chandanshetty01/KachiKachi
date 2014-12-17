@@ -1,5 +1,1240 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict/>
+<dict>
+	<key>ID</key>
+	<string>5</string>
+	<key>baskets</key>
+	<array>
+		<dict>
+			<key>basket</key>
+			<string>iPh_tree.png</string>
+			<key>basket_frame</key>
+			<string>{300,50}</string>
+		</dict>
+	</array>
+	<key>elements</key>
+	<array>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{358, 193.5}, {40, 60}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTLeave</string>
+			<key>frame</key>
+			<string>{{130.5, 180}, {40, 60}}</string>
+			<key>image</key>
+			<string>iPh_treeleaf1a.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{22.5, 57.5}</string>
+				<string>{22.5, 36}</string>
+				<string>{28.5, 38.5}</string>
+				<string>{34, 32}</string>
+				<string>{36.5, 19.5}</string>
+				<string>{31, 11}</string>
+				<string>{20.5, 4}</string>
+				<string>{15, 7}</string>
+				<string>{8, 12}</string>
+				<string>{4.5, 20.5}</string>
+				<string>{6.5, 29.5}</string>
+				<string>{11.5, 35}</string>
+				<string>{20, 37}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{346, 50}, {54, 49}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTLeave</string>
+			<key>frame</key>
+			<string>{{147, 133.5}, {54, 49}}</string>
+			<key>image</key>
+			<string>iPh_treeleaf5b.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{49, 32.5}</string>
+				<string>{34, 27.5}</string>
+				<string>{35, 35}</string>
+				<string>{35, 43}</string>
+				<string>{31.5, 35}</string>
+				<string>{28, 40.5}</string>
+				<string>{22.5, 46.5}</string>
+				<string>{18, 38}</string>
+				<string>{6, 39.5}</string>
+				<string>{15, 27.5}</string>
+				<string>{1.5, 19.5}</string>
+				<string>{10, 16}</string>
+				<string>{16.5, 17}</string>
+				<string>{16, 10.5}</string>
+				<string>{15.5, 2}</string>
+				<string>{26, 11.5}</string>
+				<string>{29, 3.5}</string>
+				<string>{35.5, 19}</string>
+				<string>{36.5, 24}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{282.5, 55}, {71, 63}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTLeave</string>
+			<key>frame</key>
+			<string>{{189, 168}, {71, 63}}</string>
+			<key>image</key>
+			<string>iPh_treeleaf8a.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{22, 51.5}</string>
+				<string>{27, 60}</string>
+				<string>{31, 59.5}</string>
+				<string>{52, 60}</string>
+				<string>{44, 53}</string>
+				<string>{51, 49}</string>
+				<string>{61.5, 44.5}</string>
+				<string>{69.5, 43.5}</string>
+				<string>{59.5, 40.5}</string>
+				<string>{53.5, 36}</string>
+				<string>{43.5, 35}</string>
+				<string>{51.5, 29}</string>
+				<string>{55.5, 20.5}</string>
+				<string>{57.5, 11}</string>
+				<string>{46.5, 14.5}</string>
+				<string>{36.5, 19}</string>
+				<string>{33.5, 20.5}</string>
+				<string>{32, 13}</string>
+				<string>{29.5, 10}</string>
+				<string>{25, 3.5}</string>
+				<string>{20.5, 10}</string>
+				<string>{18, 15}</string>
+				<string>{16, 21.5}</string>
+				<string>{16, 29.5}</string>
+				<string>{12, 24.5}</string>
+				<string>{1.5, 18.5}</string>
+				<string>{5.5, 31.5}</string>
+				<string>{10.5, 41.5}</string>
+				<string>{3, 42}</string>
+				<string>{11, 49}</string>
+				<string>{17.5, 53.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{294, 225.5}, {60, 40}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTLeave</string>
+			<key>frame</key>
+			<string>{{104, 196.5}, {60, 40}}</string>
+			<key>image</key>
+			<string>iPh_treeleaf12b.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{2.5, 36}</string>
+				<string>{9.5, 30}</string>
+				<string>{19, 26.5}</string>
+				<string>{26.5, 23}</string>
+				<string>{34, 36.5}</string>
+				<string>{39, 33}</string>
+				<string>{50, 33}</string>
+				<string>{47, 23.5}</string>
+				<string>{55.5, 14.5}</string>
+				<string>{42.5, 7}</string>
+				<string>{40.5, 1.5}</string>
+				<string>{31, 6}</string>
+				<string>{26.5, 3.5}</string>
+				<string>{23, 12}</string>
+				<string>{23, 19.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{314, 126.5}, {54, 51}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTLeave</string>
+			<key>frame</key>
+			<string>{{139, 209.5}, {54, 51}}</string>
+			<key>image</key>
+			<string>iPh_treeleaf19a.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{1.5, 7}</string>
+				<string>{16, 19}</string>
+				<string>{3.5, 26.5}</string>
+				<string>{10.5, 24.5}</string>
+				<string>{5, 42}</string>
+				<string>{14.5, 34}</string>
+				<string>{23, 50}</string>
+				<string>{28.5, 44}</string>
+				<string>{28.5, 35}</string>
+				<string>{35.5, 40}</string>
+				<string>{42.5, 41}</string>
+				<string>{47.5, 45}</string>
+				<string>{43.5, 35}</string>
+				<string>{36, 26.5}</string>
+				<string>{44, 23}</string>
+				<string>{50, 18.5}</string>
+				<string>{35, 14}</string>
+				<string>{38.5, 7}</string>
+				<string>{22.5, 9}</string>
+				<string>{18, 11.5}</string>
+				<string>{17.5, 17}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{385.5, 68}, {41, 44}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTLeave</string>
+			<key>frame</key>
+			<string>{{119.5, 161}, {41, 44}}</string>
+			<key>image</key>
+			<string>iPh_treeleaf19b.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{15.5, 2.5}</string>
+				<string>{19, 15}</string>
+				<string>{25, 14.5}</string>
+				<string>{35.5, 19}</string>
+				<string>{30, 20.5}</string>
+				<string>{33, 26.5}</string>
+				<string>{38, 31.5}</string>
+				<string>{26, 30}</string>
+				<string>{27, 37.5}</string>
+				<string>{25, 43}</string>
+				<string>{18.5, 36}</string>
+				<string>{16, 34}</string>
+				<string>{7, 40.5}</string>
+				<string>{7, 30}</string>
+				<string>{9.5, 26}</string>
+				<string>{1.5, 26.5}</string>
+				<string>{10.5, 17}</string>
+				<string>{7, 15.5}</string>
+				<string>{16, 14.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{304, 159.5}, {66, 57}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTLeave</string>
+			<key>frame</key>
+			<string>{{138.5, 161}, {66, 57}}</string>
+			<key>image</key>
+			<string>iPh_treeleaf21a.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{2, 41}</string>
+				<string>{21.5, 35}</string>
+				<string>{21.5, 42.5}</string>
+				<string>{29.5, 49.5}</string>
+				<string>{39, 55.5}</string>
+				<string>{37, 46}</string>
+				<string>{47, 45.5}</string>
+				<string>{57.5, 51}</string>
+				<string>{50, 39}</string>
+				<string>{44.5, 35}</string>
+				<string>{54, 32}</string>
+				<string>{63.5, 23.5}</string>
+				<string>{53, 21.5}</string>
+				<string>{44.5, 21.5}</string>
+				<string>{45.5, 15.5}</string>
+				<string>{47, 3}</string>
+				<string>{36.5, 8.5}</string>
+				<string>{30, 13.5}</string>
+				<string>{27, 10.5}</string>
+				<string>{24, 2.5}</string>
+				<string>{22, 11.5}</string>
+				<string>{18.5, 19}</string>
+				<string>{20.5, 24}</string>
+				<string>{13, 19.5}</string>
+				<string>{15.5, 28}</string>
+				<string>{20.5, 32.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{303, 207.5}, {63, 68}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTLeave</string>
+			<key>frame</key>
+			<string>{{83.5, 189}, {63, 68}}</string>
+			<key>image</key>
+			<string>iPh_treeleaf26a.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{40.5, 5}</string>
+				<string>{36.5, 24.5}</string>
+				<string>{43, 25.5}</string>
+				<string>{49, 31.5}</string>
+				<string>{56.5, 42.5}</string>
+				<string>{45.5, 40}</string>
+				<string>{45.5, 48.5}</string>
+				<string>{50, 61}</string>
+				<string>{33.5, 49}</string>
+				<string>{30.5, 58.5}</string>
+				<string>{23, 66.5}</string>
+				<string>{21.5, 58}</string>
+				<string>{22.5, 45}</string>
+				<string>{14.5, 49}</string>
+				<string>{2.5, 50.5}</string>
+				<string>{9.5, 37}</string>
+				<string>{17.5, 32}</string>
+				<string>{3, 26.5}</string>
+				<string>{22, 22}</string>
+				<string>{22, 17.5}</string>
+				<string>{32.5, 21.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{286.5, 63.5}, {52, 55}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTLeave</string>
+			<key>frame</key>
+			<string>{{168.5, 154.5}, {52, 55}}</string>
+			<key>image</key>
+			<string>iPh_treeleaf26b.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{31, 36}</string>
+				<string>{39, 36}</string>
+				<string>{50, 28}</string>
+				<string>{43.5, 26}</string>
+				<string>{50.5, 14.5}</string>
+				<string>{37, 16}</string>
+				<string>{33.5, 2.5}</string>
+				<string>{25.5, 15}</string>
+				<string>{14, 10}</string>
+				<string>{17.5, 24.5}</string>
+				<string>{7, 25.5}</string>
+				<string>{16.5, 32.5}</string>
+				<string>{18, 37}</string>
+				<string>{28.5, 38.5}</string>
+				<string>{28, 51.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{343, 48}, {73, 43}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTLeave</string>
+			<key>frame</key>
+			<string>{{80, 162.5}, {73, 43}}</string>
+			<key>image</key>
+			<string>iPh_treeleaf42a.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{44, 11.5}</string>
+				<string>{35.5, 5.5}</string>
+				<string>{21, 4.5}</string>
+				<string>{9.5, 13.5}</string>
+				<string>{7, 28}</string>
+				<string>{2.5, 36.5}</string>
+				<string>{12.5, 39}</string>
+				<string>{28, 43.5}</string>
+				<string>{42, 35.5}</string>
+				<string>{49, 23}</string>
+				<string>{44.5, 18.5}</string>
+				<string>{72, 4.5}</string>
+				<string>{70.5, 2}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{394.5, 80.5}, {77, 81}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTLeave</string>
+			<key>frame</key>
+			<string>{{188.5, 136.5}, {77, 81}}</string>
+			<key>image</key>
+			<string>iPh_treeleaf42b.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{61.5, 47}</string>
+				<string>{74, 36}</string>
+				<string>{74, 27}</string>
+				<string>{66.5, 32.5}</string>
+				<string>{65.5, 23.5}</string>
+				<string>{62.5, 3.5}</string>
+				<string>{58.5, 9}</string>
+				<string>{52.5, 18.5}</string>
+				<string>{46.5, 16}</string>
+				<string>{34.5, 8}</string>
+				<string>{28, 2}</string>
+				<string>{28, 15.5}</string>
+				<string>{31.5, 28.5}</string>
+				<string>{25.5, 28.5}</string>
+				<string>{12.5, 31.5}</string>
+				<string>{2, 31.5}</string>
+				<string>{8.5, 40}</string>
+				<string>{19.5, 46}</string>
+				<string>{26, 49}</string>
+				<string>{17, 61}</string>
+				<string>{9, 71.5}</string>
+				<string>{31.5, 67}</string>
+				<string>{37, 67}</string>
+				<string>{35, 78}</string>
+				<string>{47, 73}</string>
+				<string>{58.5, 61}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{358, 193.5}, {40, 60}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTLeave</string>
+			<key>frame</key>
+			<string>{{178.5, 125}, {40, 60}}</string>
+			<key>image</key>
+			<string>iPh_treeleaf1a.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{22.5, 57.5}</string>
+				<string>{22.5, 36}</string>
+				<string>{28.5, 38.5}</string>
+				<string>{34, 32}</string>
+				<string>{36.5, 19.5}</string>
+				<string>{31, 11}</string>
+				<string>{20.5, 4}</string>
+				<string>{15, 7}</string>
+				<string>{8, 12}</string>
+				<string>{4.5, 20.5}</string>
+				<string>{6.5, 29.5}</string>
+				<string>{11.5, 35}</string>
+				<string>{20, 37}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{346, 50}, {54, 49}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTLeave</string>
+			<key>frame</key>
+			<string>{{172, 195}, {54, 49}}</string>
+			<key>image</key>
+			<string>iPh_treeleaf5b.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{49, 32.5}</string>
+				<string>{34, 27.5}</string>
+				<string>{35, 35}</string>
+				<string>{35, 43}</string>
+				<string>{31.5, 35}</string>
+				<string>{28, 40.5}</string>
+				<string>{22.5, 46.5}</string>
+				<string>{18, 38}</string>
+				<string>{6, 39.5}</string>
+				<string>{15, 27.5}</string>
+				<string>{1.5, 19.5}</string>
+				<string>{10, 16}</string>
+				<string>{16.5, 17}</string>
+				<string>{16, 10.5}</string>
+				<string>{15.5, 2}</string>
+				<string>{26, 11.5}</string>
+				<string>{29, 3.5}</string>
+				<string>{35.5, 19}</string>
+				<string>{36.5, 24}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{282.5, 55}, {71, 63}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTLeave</string>
+			<key>frame</key>
+			<string>{{92.5, 130.5}, {71, 63}}</string>
+			<key>image</key>
+			<string>iPh_treeleaf8a.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{22, 51.5}</string>
+				<string>{27, 60}</string>
+				<string>{31, 59.5}</string>
+				<string>{52, 60}</string>
+				<string>{44, 53}</string>
+				<string>{51, 49}</string>
+				<string>{61.5, 44.5}</string>
+				<string>{69.5, 43.5}</string>
+				<string>{59.5, 40.5}</string>
+				<string>{53.5, 36}</string>
+				<string>{43.5, 35}</string>
+				<string>{51.5, 29}</string>
+				<string>{55.5, 20.5}</string>
+				<string>{57.5, 11}</string>
+				<string>{46.5, 14.5}</string>
+				<string>{36.5, 19}</string>
+				<string>{33.5, 20.5}</string>
+				<string>{32, 13}</string>
+				<string>{29.5, 10}</string>
+				<string>{25, 3.5}</string>
+				<string>{20.5, 10}</string>
+				<string>{18, 15}</string>
+				<string>{16, 21.5}</string>
+				<string>{16, 29.5}</string>
+				<string>{12, 24.5}</string>
+				<string>{1.5, 18.5}</string>
+				<string>{5.5, 31.5}</string>
+				<string>{10.5, 41.5}</string>
+				<string>{3, 42}</string>
+				<string>{11, 49}</string>
+				<string>{17.5, 53.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{294, 225.5}, {60, 40}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTLeave</string>
+			<key>frame</key>
+			<string>{{116.5, 139.5}, {60, 40}}</string>
+			<key>image</key>
+			<string>iPh_treeleaf12b.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{2.5, 36}</string>
+				<string>{9.5, 30}</string>
+				<string>{19, 26.5}</string>
+				<string>{26.5, 23}</string>
+				<string>{34, 36.5}</string>
+				<string>{39, 33}</string>
+				<string>{50, 33}</string>
+				<string>{47, 23.5}</string>
+				<string>{55.5, 14.5}</string>
+				<string>{42.5, 7}</string>
+				<string>{40.5, 1.5}</string>
+				<string>{31, 6}</string>
+				<string>{26.5, 3.5}</string>
+				<string>{23, 12}</string>
+				<string>{23, 19.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{314, 126.5}, {54, 51}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTLeave</string>
+			<key>frame</key>
+			<string>{{131.5, 156}, {54, 51}}</string>
+			<key>image</key>
+			<string>iPh_treeleaf19a.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{1.5, 7}</string>
+				<string>{16, 19}</string>
+				<string>{3.5, 26.5}</string>
+				<string>{10.5, 24.5}</string>
+				<string>{5, 42}</string>
+				<string>{14.5, 34}</string>
+				<string>{23, 50}</string>
+				<string>{28.5, 44}</string>
+				<string>{28.5, 35}</string>
+				<string>{35.5, 40}</string>
+				<string>{42.5, 41}</string>
+				<string>{47.5, 45}</string>
+				<string>{43.5, 35}</string>
+				<string>{36, 26.5}</string>
+				<string>{44, 23}</string>
+				<string>{50, 18.5}</string>
+				<string>{35, 14}</string>
+				<string>{38.5, 7}</string>
+				<string>{22.5, 9}</string>
+				<string>{18, 11.5}</string>
+				<string>{17.5, 17}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{385.5, 68}, {41, 44}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTLeave</string>
+			<key>frame</key>
+			<string>{{182, 112.5}, {41, 44}}</string>
+			<key>image</key>
+			<string>iPh_treeleaf19b.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{15.5, 2.5}</string>
+				<string>{19, 15}</string>
+				<string>{25, 14.5}</string>
+				<string>{35.5, 19}</string>
+				<string>{30, 20.5}</string>
+				<string>{33, 26.5}</string>
+				<string>{38, 31.5}</string>
+				<string>{26, 30}</string>
+				<string>{27, 37.5}</string>
+				<string>{25, 43}</string>
+				<string>{18.5, 36}</string>
+				<string>{16, 34}</string>
+				<string>{7, 40.5}</string>
+				<string>{7, 30}</string>
+				<string>{9.5, 26}</string>
+				<string>{1.5, 26.5}</string>
+				<string>{10.5, 17}</string>
+				<string>{7, 15.5}</string>
+				<string>{16, 14.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{304, 159.5}, {66, 57}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTLeave</string>
+			<key>frame</key>
+			<string>{{146, 96}, {66, 57}}</string>
+			<key>image</key>
+			<string>iPh_treeleaf21a.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{2, 41}</string>
+				<string>{21.5, 35}</string>
+				<string>{21.5, 42.5}</string>
+				<string>{29.5, 49.5}</string>
+				<string>{39, 55.5}</string>
+				<string>{37, 46}</string>
+				<string>{47, 45.5}</string>
+				<string>{57.5, 51}</string>
+				<string>{50, 39}</string>
+				<string>{44.5, 35}</string>
+				<string>{54, 32}</string>
+				<string>{63.5, 23.5}</string>
+				<string>{53, 21.5}</string>
+				<string>{44.5, 21.5}</string>
+				<string>{45.5, 15.5}</string>
+				<string>{47, 3}</string>
+				<string>{36.5, 8.5}</string>
+				<string>{30, 13.5}</string>
+				<string>{27, 10.5}</string>
+				<string>{24, 2.5}</string>
+				<string>{22, 11.5}</string>
+				<string>{18.5, 19}</string>
+				<string>{20.5, 24}</string>
+				<string>{13, 19.5}</string>
+				<string>{15.5, 28}</string>
+				<string>{20.5, 32.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{303, 207.5}, {63, 68}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTLeave</string>
+			<key>frame</key>
+			<string>{{60.5, 157.5}, {63, 68}}</string>
+			<key>image</key>
+			<string>iPh_treeleaf26a.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{40.5, 5}</string>
+				<string>{36.5, 24.5}</string>
+				<string>{43, 25.5}</string>
+				<string>{49, 31.5}</string>
+				<string>{56.5, 42.5}</string>
+				<string>{45.5, 40}</string>
+				<string>{45.5, 48.5}</string>
+				<string>{50, 61}</string>
+				<string>{33.5, 49}</string>
+				<string>{30.5, 58.5}</string>
+				<string>{23, 66.5}</string>
+				<string>{21.5, 58}</string>
+				<string>{22.5, 45}</string>
+				<string>{14.5, 49}</string>
+				<string>{2.5, 50.5}</string>
+				<string>{9.5, 37}</string>
+				<string>{17.5, 32}</string>
+				<string>{3, 26.5}</string>
+				<string>{22, 22}</string>
+				<string>{22, 17.5}</string>
+				<string>{32.5, 21.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{286.5, 63.5}, {52, 55}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTLeave</string>
+			<key>frame</key>
+			<string>{{74.5, 186.5}, {52, 55}}</string>
+			<key>image</key>
+			<string>iPh_treeleaf26b.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{31, 36}</string>
+				<string>{39, 36}</string>
+				<string>{50, 28}</string>
+				<string>{43.5, 26}</string>
+				<string>{50.5, 14.5}</string>
+				<string>{37, 16}</string>
+				<string>{33.5, 2.5}</string>
+				<string>{25.5, 15}</string>
+				<string>{14, 10}</string>
+				<string>{17.5, 24.5}</string>
+				<string>{7, 25.5}</string>
+				<string>{16.5, 32.5}</string>
+				<string>{18, 37}</string>
+				<string>{28.5, 38.5}</string>
+				<string>{28, 51.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{343, 48}, {73, 43}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTLeave</string>
+			<key>frame</key>
+			<string>{{109, 223}, {73, 43}}</string>
+			<key>image</key>
+			<string>iPh_treeleaf42a.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{44, 11.5}</string>
+				<string>{35.5, 5.5}</string>
+				<string>{21, 4.5}</string>
+				<string>{9.5, 13.5}</string>
+				<string>{7, 28}</string>
+				<string>{2.5, 36.5}</string>
+				<string>{12.5, 39}</string>
+				<string>{28, 43.5}</string>
+				<string>{42, 35.5}</string>
+				<string>{49, 23}</string>
+				<string>{44.5, 18.5}</string>
+				<string>{72, 4.5}</string>
+				<string>{70.5, 2}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{394.5, 80.5}, {77, 81}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTLeave</string>
+			<key>frame</key>
+			<string>{{72.5, 99}, {77, 81}}</string>
+			<key>image</key>
+			<string>iPh_treeleaf42b.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{61.5, 47}</string>
+				<string>{74, 36}</string>
+				<string>{74, 27}</string>
+				<string>{66.5, 32.5}</string>
+				<string>{65.5, 23.5}</string>
+				<string>{62.5, 3.5}</string>
+				<string>{58.5, 9}</string>
+				<string>{52.5, 18.5}</string>
+				<string>{46.5, 16}</string>
+				<string>{34.5, 8}</string>
+				<string>{28, 2}</string>
+				<string>{28, 15.5}</string>
+				<string>{31.5, 28.5}</string>
+				<string>{25.5, 28.5}</string>
+				<string>{12.5, 31.5}</string>
+				<string>{2, 31.5}</string>
+				<string>{8.5, 40}</string>
+				<string>{19.5, 46}</string>
+				<string>{26, 49}</string>
+				<string>{17, 61}</string>
+				<string>{9, 71.5}</string>
+				<string>{31.5, 67}</string>
+				<string>{37, 67}</string>
+				<string>{35, 78}</string>
+				<string>{47, 73}</string>
+				<string>{58.5, 61}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{358, 193.5}, {40, 60}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTLeave</string>
+			<key>frame</key>
+			<string>{{195.5, 140}, {40, 60}}</string>
+			<key>image</key>
+			<string>iPh_treeleaf1a.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{22.5, 57.5}</string>
+				<string>{22.5, 36}</string>
+				<string>{28.5, 38.5}</string>
+				<string>{34, 32}</string>
+				<string>{36.5, 19.5}</string>
+				<string>{31, 11}</string>
+				<string>{20.5, 4}</string>
+				<string>{15, 7}</string>
+				<string>{8, 12}</string>
+				<string>{4.5, 20.5}</string>
+				<string>{6.5, 29.5}</string>
+				<string>{11.5, 35}</string>
+				<string>{20, 37}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{346, 50}, {54, 49}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTLeave</string>
+			<key>frame</key>
+			<string>{{215, 204.5}, {54, 49}}</string>
+			<key>image</key>
+			<string>iPh_treeleaf5b.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{49, 32.5}</string>
+				<string>{34, 27.5}</string>
+				<string>{35, 35}</string>
+				<string>{35, 43}</string>
+				<string>{31.5, 35}</string>
+				<string>{28, 40.5}</string>
+				<string>{22.5, 46.5}</string>
+				<string>{18, 38}</string>
+				<string>{6, 39.5}</string>
+				<string>{15, 27.5}</string>
+				<string>{1.5, 19.5}</string>
+				<string>{10, 16}</string>
+				<string>{16.5, 17}</string>
+				<string>{16, 10.5}</string>
+				<string>{15.5, 2}</string>
+				<string>{26, 11.5}</string>
+				<string>{29, 3.5}</string>
+				<string>{35.5, 19}</string>
+				<string>{36.5, 24}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{282.5, 55}, {71, 63}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTLeave</string>
+			<key>frame</key>
+			<string>{{48.5, 129}, {71, 63}}</string>
+			<key>image</key>
+			<string>iPh_treeleaf8a.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{22, 51.5}</string>
+				<string>{27, 60}</string>
+				<string>{31, 59.5}</string>
+				<string>{52, 60}</string>
+				<string>{44, 53}</string>
+				<string>{51, 49}</string>
+				<string>{61.5, 44.5}</string>
+				<string>{69.5, 43.5}</string>
+				<string>{59.5, 40.5}</string>
+				<string>{53.5, 36}</string>
+				<string>{43.5, 35}</string>
+				<string>{51.5, 29}</string>
+				<string>{55.5, 20.5}</string>
+				<string>{57.5, 11}</string>
+				<string>{46.5, 14.5}</string>
+				<string>{36.5, 19}</string>
+				<string>{33.5, 20.5}</string>
+				<string>{32, 13}</string>
+				<string>{29.5, 10}</string>
+				<string>{25, 3.5}</string>
+				<string>{20.5, 10}</string>
+				<string>{18, 15}</string>
+				<string>{16, 21.5}</string>
+				<string>{16, 29.5}</string>
+				<string>{12, 24.5}</string>
+				<string>{1.5, 18.5}</string>
+				<string>{5.5, 31.5}</string>
+				<string>{10.5, 41.5}</string>
+				<string>{3, 42}</string>
+				<string>{11, 49}</string>
+				<string>{17.5, 53.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{294, 225.5}, {60, 40}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTLeave</string>
+			<key>frame</key>
+			<string>{{217, 185}, {60, 40}}</string>
+			<key>image</key>
+			<string>iPh_treeleaf12b.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{2.5, 36}</string>
+				<string>{9.5, 30}</string>
+				<string>{19, 26.5}</string>
+				<string>{26.5, 23}</string>
+				<string>{34, 36.5}</string>
+				<string>{39, 33}</string>
+				<string>{50, 33}</string>
+				<string>{47, 23.5}</string>
+				<string>{55.5, 14.5}</string>
+				<string>{42.5, 7}</string>
+				<string>{40.5, 1.5}</string>
+				<string>{31, 6}</string>
+				<string>{26.5, 3.5}</string>
+				<string>{23, 12}</string>
+				<string>{23, 19.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{314, 126.5}, {54, 51}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTLeave</string>
+			<key>frame</key>
+			<string>{{184.5, 214.5}, {54, 51}}</string>
+			<key>image</key>
+			<string>iPh_treeleaf19a.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{1.5, 7}</string>
+				<string>{16, 19}</string>
+				<string>{3.5, 26.5}</string>
+				<string>{10.5, 24.5}</string>
+				<string>{5, 42}</string>
+				<string>{14.5, 34}</string>
+				<string>{23, 50}</string>
+				<string>{28.5, 44}</string>
+				<string>{28.5, 35}</string>
+				<string>{35.5, 40}</string>
+				<string>{42.5, 41}</string>
+				<string>{47.5, 45}</string>
+				<string>{43.5, 35}</string>
+				<string>{36, 26.5}</string>
+				<string>{44, 23}</string>
+				<string>{50, 18.5}</string>
+				<string>{35, 14}</string>
+				<string>{38.5, 7}</string>
+				<string>{22.5, 9}</string>
+				<string>{18, 11.5}</string>
+				<string>{17.5, 17}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{385.5, 68}, {41, 44}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTLeave</string>
+			<key>frame</key>
+			<string>{{169.5, 218}, {41, 44}}</string>
+			<key>image</key>
+			<string>iPh_treeleaf19b.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{15.5, 2.5}</string>
+				<string>{19, 15}</string>
+				<string>{25, 14.5}</string>
+				<string>{35.5, 19}</string>
+				<string>{30, 20.5}</string>
+				<string>{33, 26.5}</string>
+				<string>{38, 31.5}</string>
+				<string>{26, 30}</string>
+				<string>{27, 37.5}</string>
+				<string>{25, 43}</string>
+				<string>{18.5, 36}</string>
+				<string>{16, 34}</string>
+				<string>{7, 40.5}</string>
+				<string>{7, 30}</string>
+				<string>{9.5, 26}</string>
+				<string>{1.5, 26.5}</string>
+				<string>{10.5, 17}</string>
+				<string>{7, 15.5}</string>
+				<string>{16, 14.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{304, 159.5}, {66, 57}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTLeave</string>
+			<key>frame</key>
+			<string>{{113, 110}, {66, 57}}</string>
+			<key>image</key>
+			<string>iPh_treeleaf21a.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{2, 41}</string>
+				<string>{21.5, 35}</string>
+				<string>{21.5, 42.5}</string>
+				<string>{29.5, 49.5}</string>
+				<string>{39, 55.5}</string>
+				<string>{37, 46}</string>
+				<string>{47, 45.5}</string>
+				<string>{57.5, 51}</string>
+				<string>{50, 39}</string>
+				<string>{44.5, 35}</string>
+				<string>{54, 32}</string>
+				<string>{63.5, 23.5}</string>
+				<string>{53, 21.5}</string>
+				<string>{44.5, 21.5}</string>
+				<string>{45.5, 15.5}</string>
+				<string>{47, 3}</string>
+				<string>{36.5, 8.5}</string>
+				<string>{30, 13.5}</string>
+				<string>{27, 10.5}</string>
+				<string>{24, 2.5}</string>
+				<string>{22, 11.5}</string>
+				<string>{18.5, 19}</string>
+				<string>{20.5, 24}</string>
+				<string>{13, 19.5}</string>
+				<string>{15.5, 28}</string>
+				<string>{20.5, 32.5}</string>
+			</array>
+		</dict>
+	</array>
+</dict>
 </plist>

@@ -1,0 +1,3632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ID</key>
+	<string>14</string>
+	<key>baskets</key>
+	<array>
+		<dict>
+			<key>basket</key>
+			<string>iph_bird_hunter.png</string>
+			<key>basket_frame</key>
+			<string>{48, 178.5}</string>
+		</dict>
+		<dict>
+			<key>basket</key>
+			<string>iph_birdtree.png</string>
+			<key>basket_frame</key>
+			<string>{0,0}</string>
+		</dict>
+	</array>
+	<key>elements</key>
+	<array>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{302, 209.5}, {64, 72}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{387.5, 59.5}, {64, 72}}</string>
+			<key>image</key>
+			<string>iPh_bird1.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{41.5, 1}</string>
+				<string>{29.5, 6.5}</string>
+				<string>{25, 15}</string>
+				<string>{16.5, 35}</string>
+				<string>{12.5, 32}</string>
+				<string>{1, 39}</string>
+				<string>{18, 54}</string>
+				<string>{26.5, 59.5}</string>
+				<string>{24.5, 63.5}</string>
+				<string>{30.5, 69.5}</string>
+				<string>{36.5, 68}</string>
+				<string>{33.5, 61}</string>
+				<string>{44, 59}</string>
+				<string>{50.5, 68.5}</string>
+				<string>{61.5, 59}</string>
+				<string>{54, 55.5}</string>
+				<string>{60.5, 45}</string>
+				<string>{63, 33}</string>
+				<string>{63, 24}</string>
+				<string>{57, 11.5}</string>
+				<string>{49.5, 3.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{325.5, 207.5}, {65, 74}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{401.5, 88.5}, {65, 74}}</string>
+			<key>image</key>
+			<string>iPh_bird4.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{37, 25}</string>
+				<string>{34.5, 13.5}</string>
+				<string>{26.5, 6.5}</string>
+				<string>{9, 11.5}</string>
+				<string>{8, 1}</string>
+				<string>{1, 19}</string>
+				<string>{0.5, 29}</string>
+				<string>{7, 37.5}</string>
+				<string>{10, 47}</string>
+				<string>{10.5, 59}</string>
+				<string>{17.5, 60.5}</string>
+				<string>{30.5, 63.5}</string>
+				<string>{41, 59.5}</string>
+				<string>{47.5, 65}</string>
+				<string>{52.5, 73}</string>
+				<string>{64, 59}</string>
+				<string>{48, 46}</string>
+				<string>{53.5, 36.5}</string>
+				<string>{59.5, 21.5}</string>
+				<string>{58.5, 5.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{314, 211.5}, {67, 56}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{299.5, 31}, {67, 56}}</string>
+			<key>image</key>
+			<string>iPh_bird6.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{43, 13}</string>
+				<string>{58.5, 13}</string>
+				<string>{66, 9.5}</string>
+				<string>{34.5, 6}</string>
+				<string>{20.5, 2}</string>
+				<string>{11, 5.5}</string>
+				<string>{7.5, 9.5}</string>
+				<string>{3, 10}</string>
+				<string>{5, 15}</string>
+				<string>{7.5, 28}</string>
+				<string>{15.5, 41}</string>
+				<string>{26.5, 47}</string>
+				<string>{25, 53.5}</string>
+				<string>{29.5, 54.5}</string>
+				<string>{29.5, 48}</string>
+				<string>{41, 46}</string>
+				<string>{45, 54.5}</string>
+				<string>{47.5, 45.5}</string>
+				<string>{55.5, 38}</string>
+				<string>{63.5, 29}</string>
+				<string>{65, 15.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{339, 222}, {61, 59}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{366, 117.5}, {61, 59}}</string>
+			<key>image</key>
+			<string>iPh_bird15.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{30, 14}</string>
+				<string>{41, 20}</string>
+				<string>{44.5, 28.5}</string>
+				<string>{56, 18}</string>
+				<string>{59.5, 21.5}</string>
+				<string>{57.5, 31}</string>
+				<string>{46.5, 41}</string>
+				<string>{45, 48}</string>
+				<string>{29.5, 46.5}</string>
+				<string>{28, 57}</string>
+				<string>{19, 53}</string>
+				<string>{19, 44.5}</string>
+				<string>{9, 40.5}</string>
+				<string>{7, 33.5}</string>
+				<string>{4, 23}</string>
+				<string>{0.5, 23.5}</string>
+				<string>{4.5, 14.5}</string>
+				<string>{8, 7}</string>
+				<string>{12.5, 2}</string>
+				<string>{20.5, 1}</string>
+				<string>{27.5, 3}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{240, 215}, {75, 68}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{283.5, 85}, {75, 68}}</string>
+			<key>image</key>
+			<string>iPh_bird16.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{50.5, 40.5}</string>
+				<string>{52.5, 30.5}</string>
+				<string>{61.5, 20.5}</string>
+				<string>{70, 11.5}</string>
+				<string>{60.5, 7}</string>
+				<string>{44, 16}</string>
+				<string>{38, 13.5}</string>
+				<string>{43, 1.5}</string>
+				<string>{33, 1.5}</string>
+				<string>{24.5, 11.5}</string>
+				<string>{19.5, 19}</string>
+				<string>{19.5, 26.5}</string>
+				<string>{16, 26.5}</string>
+				<string>{18, 40.5}</string>
+				<string>{16, 42.5}</string>
+				<string>{22, 50}</string>
+				<string>{3.5, 64}</string>
+				<string>{14.5, 64.5}</string>
+				<string>{15.5, 67.5}</string>
+				<string>{30.5, 59.5}</string>
+				<string>{43.5, 59}</string>
+				<string>{56.5, 50.5}</string>
+				<string>{63, 45}</string>
+				<string>{73.5, 40.5}</string>
+				<string>{62.5, 37}</string>
+				<string>{57, 37}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{308, 208.5}, {86, 72}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{339, 65.5}, {86, 72}}</string>
+			<key>image</key>
+			<string>iPh_bird18.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{29.5, 25}</string>
+				<string>{23.5, 19.5}</string>
+				<string>{15, 19.5}</string>
+				<string>{8, 24.5}</string>
+				<string>{6.5, 30.5}</string>
+				<string>{1, 36}</string>
+				<string>{8.5, 41}</string>
+				<string>{15, 51.5}</string>
+				<string>{24, 59.5}</string>
+				<string>{28.5, 63.5}</string>
+				<string>{32.5, 70.5}</string>
+				<string>{41.5, 70.5}</string>
+				<string>{46.5, 66.5}</string>
+				<string>{64, 62}</string>
+				<string>{77.5, 50.5}</string>
+				<string>{85, 40}</string>
+				<string>{70, 41}</string>
+				<string>{83.5, 11}</string>
+				<string>{78.5, 7.5}</string>
+				<string>{77, 3}</string>
+				<string>{69.5, 0.5}</string>
+				<string>{57.5, 3}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{299, 236}, {92, 53}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{342, 94.5}, {92, 53}}</string>
+			<key>image</key>
+			<string>iPh_bird19.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{39.5, 12.5}</string>
+				<string>{25, 5}</string>
+				<string>{13, 5}</string>
+				<string>{7.5, 8}</string>
+				<string>{1, 10}</string>
+				<string>{6, 17}</string>
+				<string>{7, 32}</string>
+				<string>{23.5, 48.5}</string>
+				<string>{36, 52.5}</string>
+				<string>{52, 51.5}</string>
+				<string>{69, 40.5}</string>
+				<string>{91.5, 40.5}</string>
+				<string>{91.5, 29}</string>
+				<string>{77, 32}</string>
+				<string>{75.5, 25}</string>
+				<string>{71.5, 19}</string>
+				<string>{72, 5.5}</string>
+				<string>{67.5, 0.5}</string>
+				<string>{57, 0.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{299, 207}, {77, 65}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{337.5, 71.5}, {77, 65}}</string>
+			<key>image</key>
+			<string>iPh_bird20.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{26, 23}</string>
+				<string>{14.5, 19.5}</string>
+				<string>{10.5, 19.5}</string>
+				<string>{7, 23}</string>
+				<string>{2, 27.5}</string>
+				<string>{8, 28}</string>
+				<string>{10.5, 38.5}</string>
+				<string>{24.5, 53.5}</string>
+				<string>{40, 55.5}</string>
+				<string>{48.5, 51.5}</string>
+				<string>{57, 64}</string>
+				<string>{69, 62.5}</string>
+				<string>{71, 57}</string>
+				<string>{53, 45}</string>
+				<string>{59.5, 40.5}</string>
+				<string>{75.5, 26.5}</string>
+				<string>{76, 22}</string>
+				<string>{51.5, 21.5}</string>
+				<string>{53, 2}</string>
+				<string>{50, 0.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{301.5, 213.5}, {65, 63}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{364, 87}, {65, 63}}</string>
+			<key>image</key>
+			<string>iPh_bird23.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{32.5, 20}</string>
+				<string>{16.5, 30}</string>
+				<string>{9.5, 39.5}</string>
+				<string>{1.5, 44}</string>
+				<string>{2, 47.5}</string>
+				<string>{12, 43.5}</string>
+				<string>{23, 53.5}</string>
+				<string>{20.5, 56.5}</string>
+				<string>{26.5, 61.5}</string>
+				<string>{33, 60}</string>
+				<string>{30.5, 54.5}</string>
+				<string>{41, 53}</string>
+				<string>{48.5, 47.5}</string>
+				<string>{51, 40.5}</string>
+				<string>{61.5, 37.5}</string>
+				<string>{63.5, 34}</string>
+				<string>{55, 26.5}</string>
+				<string>{55, 26.5}</string>
+				<string>{56.5, 25}</string>
+				<string>{64, 22}</string>
+				<string>{61, 17.5}</string>
+				<string>{57.5, 8}</string>
+				<string>{51, 2}</string>
+				<string>{41.5, 1}</string>
+				<string>{34.5, 5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{269, 232}, {64, 50}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{272.5, 88}, {64, 50}}</string>
+			<key>image</key>
+			<string>iPh_bird26.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{59.5, 14}</string>
+				<string>{53, 7.5}</string>
+				<string>{41, 13.5}</string>
+				<string>{32.5, 11.5}</string>
+				<string>{14.5, 0.5}</string>
+				<string>{11.5, 13}</string>
+				<string>{1.5, 14.5}</string>
+				<string>{6, 24}</string>
+				<string>{15.5, 33}</string>
+				<string>{2.5, 43.5}</string>
+				<string>{12.5, 49.5}</string>
+				<string>{22.5, 37.5}</string>
+				<string>{34.5, 41}</string>
+				<string>{50.5, 36}</string>
+				<string>{62.5, 17}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{309, 209}, {74, 77}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{258.5, 42}, {74, 77}}</string>
+			<key>image</key>
+			<string>iPh_bird28.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{40, 8.5}</string>
+				<string>{49, 14}</string>
+				<string>{51.5, 24.5}</string>
+				<string>{48, 32.5}</string>
+				<string>{40.5, 37.5}</string>
+				<string>{54, 47.5}</string>
+				<string>{73.5, 64}</string>
+				<string>{73.5, 68}</string>
+				<string>{63.5, 65.5}</string>
+				<string>{55.5, 60.5}</string>
+				<string>{49, 68}</string>
+				<string>{45.5, 74}</string>
+				<string>{33.5, 74.5}</string>
+				<string>{30, 70.5}</string>
+				<string>{25.5, 65.5}</string>
+				<string>{23, 57.5}</string>
+				<string>{8.5, 51}</string>
+				<string>{1.5, 43.5}</string>
+				<string>{2.5, 44.5}</string>
+				<string>{2.5, 40}</string>
+				<string>{10, 41.5}</string>
+				<string>{25, 46.5}</string>
+				<string>{30, 40}</string>
+				<string>{26.5, 34}</string>
+				<string>{18, 25.5}</string>
+				<string>{20, 16.5}</string>
+				<string>{25.5, 11}</string>
+				<string>{30, 2}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{291.5, 207.5}, {59, 55}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{324.5, 49}, {59, 55}}</string>
+			<key>image</key>
+			<string>iPh_bird33.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{13, 1.5}</string>
+				<string>{1, 7.5}</string>
+				<string>{8.5, 18}</string>
+				<string>{6, 30}</string>
+				<string>{13, 43}</string>
+				<string>{16.5, 49}</string>
+				<string>{16, 53.5}</string>
+				<string>{31.5, 51}</string>
+				<string>{32.5, 47}</string>
+				<string>{41, 37.5}</string>
+				<string>{45.5, 37.5}</string>
+				<string>{51, 39.5}</string>
+				<string>{55.5, 33}</string>
+				<string>{57, 25.5}</string>
+				<string>{57, 17}</string>
+				<string>{53.5, 17}</string>
+				<string>{49, 14}</string>
+				<string>{39.5, 13.5}</string>
+				<string>{32, 18}</string>
+				<string>{22, 18}</string>
+				<string>{14, 13.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{435.5, 207.5}, {57, 69}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{346.5, 119.5}, {57, 69}}</string>
+			<key>image</key>
+			<string>iPh_bird35.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{40, 48}</string>
+				<string>{50.5, 37}</string>
+				<string>{54, 27.5}</string>
+				<string>{53, 12.5}</string>
+				<string>{41.5, 16}</string>
+				<string>{29, 30.5}</string>
+				<string>{26, 23.5}</string>
+				<string>{24.5, 10}</string>
+				<string>{15.5, 2.5}</string>
+				<string>{9.5, 2.5}</string>
+				<string>{8, 11.5}</string>
+				<string>{7.5, 19}</string>
+				<string>{1.5, 28.5}</string>
+				<string>{3, 38}</string>
+				<string>{6.5, 46}</string>
+				<string>{13, 57}</string>
+				<string>{26.5, 60}</string>
+				<string>{29, 66.5}</string>
+				<string>{41.5, 66.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{388, 228}, {54, 61}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{329.5, 90.5}, {54, 61}}</string>
+			<key>image</key>
+			<string>iPh_bird36.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{1.5, 14.5}</string>
+				<string>{13.5, 4}</string>
+				<string>{19.5, 6}</string>
+				<string>{33, 14.5}</string>
+				<string>{33, 3.5}</string>
+				<string>{46.5, 3.5}</string>
+				<string>{47.5, 11}</string>
+				<string>{44, 29}</string>
+				<string>{53, 41.5}</string>
+				<string>{52, 57}</string>
+				<string>{41.5, 46.5}</string>
+				<string>{32.5, 44}</string>
+				<string>{27.5, 45.5}</string>
+				<string>{17.5, 58}</string>
+				<string>{4, 60}</string>
+				<string>{9, 50.5}</string>
+				<string>{13.5, 38.5}</string>
+				<string>{5, 38.5}</string>
+				<string>{1.5, 31}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{367.5, 212}, {63, 71}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{357.5, 75}, {63, 71}}</string>
+			<key>image</key>
+			<string>iPh_bird37.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{38, 5.5}</string>
+				<string>{44.5, 11.5}</string>
+				<string>{47, 19}</string>
+				<string>{46, 30.5}</string>
+				<string>{61, 28.5}</string>
+				<string>{55, 40}</string>
+				<string>{45.5, 47.5}</string>
+				<string>{44, 54.5}</string>
+				<string>{55.5, 52.5}</string>
+				<string>{45.5, 60.5}</string>
+				<string>{50, 67}</string>
+				<string>{43.5, 71.5}</string>
+				<string>{38, 66.5}</string>
+				<string>{33, 61.5}</string>
+				<string>{18.5, 68}</string>
+				<string>{14.5, 62.5}</string>
+				<string>{21.5, 59.5}</string>
+				<string>{21, 54.5}</string>
+				<string>{15, 45.5}</string>
+				<string>{6, 42}</string>
+				<string>{2, 28.5}</string>
+				<string>{3, 23}</string>
+				<string>{17.5, 30}</string>
+				<string>{12, 19}</string>
+				<string>{18, 10}</string>
+				<string>{29, 2}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{293, 209}, {85, 73}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{284, 105.5}, {85, 73}}</string>
+			<key>image</key>
+			<string>iPh_bird40.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{28, 26}</string>
+				<string>{16.5, 21.5}</string>
+				<string>{8.5, 25}</string>
+				<string>{7, 27.5}</string>
+				<string>{1, 31}</string>
+				<string>{8, 34}</string>
+				<string>{13, 43.5}</string>
+				<string>{21, 55}</string>
+				<string>{31.5, 60.5}</string>
+				<string>{47.5, 60.5}</string>
+				<string>{53.5, 59}</string>
+				<string>{65.5, 72.5}</string>
+				<string>{78.5, 65.5}</string>
+				<string>{59, 49}</string>
+				<string>{68, 45}</string>
+				<string>{77.5, 39}</string>
+				<string>{84, 27}</string>
+				<string>{56, 24}</string>
+				<string>{59, 11.5}</string>
+				<string>{56, 2}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{325.5, 207.5}, {65, 74}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{157, 56.5}, {65, 74}}</string>
+			<key>image</key>
+			<string>iPh_bird4.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{37, 25}</string>
+				<string>{34.5, 13.5}</string>
+				<string>{26.5, 6.5}</string>
+				<string>{9, 11.5}</string>
+				<string>{8, 1}</string>
+				<string>{1, 19}</string>
+				<string>{0.5, 29}</string>
+				<string>{7, 37.5}</string>
+				<string>{10, 47}</string>
+				<string>{10.5, 59}</string>
+				<string>{17.5, 60.5}</string>
+				<string>{30.5, 63.5}</string>
+				<string>{41, 59.5}</string>
+				<string>{47.5, 65}</string>
+				<string>{52.5, 73}</string>
+				<string>{64, 59}</string>
+				<string>{48, 46}</string>
+				<string>{53.5, 36.5}</string>
+				<string>{59.5, 21.5}</string>
+				<string>{58.5, 5.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{314, 211.5}, {67, 56}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{145, 85}, {67, 56}}</string>
+			<key>image</key>
+			<string>iPh_bird6.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{43, 13}</string>
+				<string>{58.5, 13}</string>
+				<string>{66, 9.5}</string>
+				<string>{34.5, 6}</string>
+				<string>{20.5, 2}</string>
+				<string>{11, 5.5}</string>
+				<string>{7.5, 9.5}</string>
+				<string>{3, 10}</string>
+				<string>{5, 15}</string>
+				<string>{7.5, 28}</string>
+				<string>{15.5, 41}</string>
+				<string>{26.5, 47}</string>
+				<string>{25, 53.5}</string>
+				<string>{29.5, 54.5}</string>
+				<string>{29.5, 48}</string>
+				<string>{41, 46}</string>
+				<string>{45, 54.5}</string>
+				<string>{47.5, 45.5}</string>
+				<string>{55.5, 38}</string>
+				<string>{63.5, 29}</string>
+				<string>{65, 15.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{339, 222}, {61, 59}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{212, 53}, {61, 59}}</string>
+			<key>image</key>
+			<string>iPh_bird15.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{30, 14}</string>
+				<string>{41, 20}</string>
+				<string>{44.5, 28.5}</string>
+				<string>{56, 18}</string>
+				<string>{59.5, 21.5}</string>
+				<string>{57.5, 31}</string>
+				<string>{46.5, 41}</string>
+				<string>{45, 48}</string>
+				<string>{29.5, 46.5}</string>
+				<string>{28, 57}</string>
+				<string>{19, 53}</string>
+				<string>{19, 44.5}</string>
+				<string>{9, 40.5}</string>
+				<string>{7, 33.5}</string>
+				<string>{4, 23}</string>
+				<string>{0.5, 23.5}</string>
+				<string>{4.5, 14.5}</string>
+				<string>{8, 7}</string>
+				<string>{12.5, 2}</string>
+				<string>{20.5, 1}</string>
+				<string>{27.5, 3}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{240, 215}, {75, 68}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{163, 69}, {75, 68}}</string>
+			<key>image</key>
+			<string>iPh_bird16.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{50.5, 40.5}</string>
+				<string>{52.5, 30.5}</string>
+				<string>{61.5, 20.5}</string>
+				<string>{70, 11.5}</string>
+				<string>{60.5, 7}</string>
+				<string>{44, 16}</string>
+				<string>{38, 13.5}</string>
+				<string>{43, 1.5}</string>
+				<string>{33, 1.5}</string>
+				<string>{24.5, 11.5}</string>
+				<string>{19.5, 19}</string>
+				<string>{19.5, 26.5}</string>
+				<string>{16, 26.5}</string>
+				<string>{18, 40.5}</string>
+				<string>{16, 42.5}</string>
+				<string>{22, 50}</string>
+				<string>{3.5, 64}</string>
+				<string>{14.5, 64.5}</string>
+				<string>{15.5, 67.5}</string>
+				<string>{30.5, 59.5}</string>
+				<string>{43.5, 59}</string>
+				<string>{56.5, 50.5}</string>
+				<string>{63, 45}</string>
+				<string>{73.5, 40.5}</string>
+				<string>{62.5, 37}</string>
+				<string>{57, 37}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{308, 208.5}, {86, 72}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{162, 114}, {86, 72}}</string>
+			<key>image</key>
+			<string>iPh_bird18.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{29.5, 25}</string>
+				<string>{23.5, 19.5}</string>
+				<string>{15, 19.5}</string>
+				<string>{8, 24.5}</string>
+				<string>{6.5, 30.5}</string>
+				<string>{1, 36}</string>
+				<string>{8.5, 41}</string>
+				<string>{15, 51.5}</string>
+				<string>{24, 59.5}</string>
+				<string>{28.5, 63.5}</string>
+				<string>{32.5, 70.5}</string>
+				<string>{41.5, 70.5}</string>
+				<string>{46.5, 66.5}</string>
+				<string>{64, 62}</string>
+				<string>{77.5, 50.5}</string>
+				<string>{85, 40}</string>
+				<string>{70, 41}</string>
+				<string>{83.5, 11}</string>
+				<string>{78.5, 7.5}</string>
+				<string>{77, 3}</string>
+				<string>{69.5, 0.5}</string>
+				<string>{57.5, 3}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{299, 236}, {92, 53}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{196, 155}, {92, 53}}</string>
+			<key>image</key>
+			<string>iPh_bird19.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{39.5, 12.5}</string>
+				<string>{25, 5}</string>
+				<string>{13, 5}</string>
+				<string>{7.5, 8}</string>
+				<string>{1, 10}</string>
+				<string>{6, 17}</string>
+				<string>{7, 32}</string>
+				<string>{23.5, 48.5}</string>
+				<string>{36, 52.5}</string>
+				<string>{52, 51.5}</string>
+				<string>{69, 40.5}</string>
+				<string>{91.5, 40.5}</string>
+				<string>{91.5, 29}</string>
+				<string>{77, 32}</string>
+				<string>{75.5, 25}</string>
+				<string>{71.5, 19}</string>
+				<string>{72, 5.5}</string>
+				<string>{67.5, 0.5}</string>
+				<string>{57, 0.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{299, 207}, {77, 65}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{187, 111.5}, {77, 65}}</string>
+			<key>image</key>
+			<string>iPh_bird20.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{26, 23}</string>
+				<string>{14.5, 19.5}</string>
+				<string>{10.5, 19.5}</string>
+				<string>{7, 23}</string>
+				<string>{2, 27.5}</string>
+				<string>{8, 28}</string>
+				<string>{10.5, 38.5}</string>
+				<string>{24.5, 53.5}</string>
+				<string>{40, 55.5}</string>
+				<string>{48.5, 51.5}</string>
+				<string>{57, 64}</string>
+				<string>{69, 62.5}</string>
+				<string>{71, 57}</string>
+				<string>{53, 45}</string>
+				<string>{59.5, 40.5}</string>
+				<string>{75.5, 26.5}</string>
+				<string>{76, 22}</string>
+				<string>{51.5, 21.5}</string>
+				<string>{53, 2}</string>
+				<string>{50, 0.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{301.5, 213.5}, {65, 63}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{159.5, 82}, {65, 63}}</string>
+			<key>image</key>
+			<string>iPh_bird23.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{32.5, 20}</string>
+				<string>{16.5, 30}</string>
+				<string>{9.5, 39.5}</string>
+				<string>{1.5, 44}</string>
+				<string>{2, 47.5}</string>
+				<string>{12, 43.5}</string>
+				<string>{23, 53.5}</string>
+				<string>{20.5, 56.5}</string>
+				<string>{26.5, 61.5}</string>
+				<string>{33, 60}</string>
+				<string>{30.5, 54.5}</string>
+				<string>{41, 53}</string>
+				<string>{48.5, 47.5}</string>
+				<string>{51, 40.5}</string>
+				<string>{61.5, 37.5}</string>
+				<string>{63.5, 34}</string>
+				<string>{55, 26.5}</string>
+				<string>{55, 26.5}</string>
+				<string>{56.5, 25}</string>
+				<string>{64, 22}</string>
+				<string>{61, 17.5}</string>
+				<string>{57.5, 8}</string>
+				<string>{51, 2}</string>
+				<string>{41.5, 1}</string>
+				<string>{34.5, 5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{269, 232}, {64, 50}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{202, 48}, {64, 50}}</string>
+			<key>image</key>
+			<string>iPh_bird26.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{59.5, 14}</string>
+				<string>{53, 7.5}</string>
+				<string>{41, 13.5}</string>
+				<string>{32.5, 11.5}</string>
+				<string>{14.5, 0.5}</string>
+				<string>{11.5, 13}</string>
+				<string>{1.5, 14.5}</string>
+				<string>{6, 24}</string>
+				<string>{15.5, 33}</string>
+				<string>{2.5, 43.5}</string>
+				<string>{12.5, 49.5}</string>
+				<string>{22.5, 37.5}</string>
+				<string>{34.5, 41}</string>
+				<string>{50.5, 36}</string>
+				<string>{62.5, 17}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{309, 209}, {74, 77}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{233, 60}, {74, 77}}</string>
+			<key>image</key>
+			<string>iPh_bird28.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{40, 8.5}</string>
+				<string>{49, 14}</string>
+				<string>{51.5, 24.5}</string>
+				<string>{48, 32.5}</string>
+				<string>{40.5, 37.5}</string>
+				<string>{54, 47.5}</string>
+				<string>{73.5, 64}</string>
+				<string>{73.5, 68}</string>
+				<string>{63.5, 65.5}</string>
+				<string>{55.5, 60.5}</string>
+				<string>{49, 68}</string>
+				<string>{45.5, 74}</string>
+				<string>{33.5, 74.5}</string>
+				<string>{30, 70.5}</string>
+				<string>{25.5, 65.5}</string>
+				<string>{23, 57.5}</string>
+				<string>{8.5, 51}</string>
+				<string>{1.5, 43.5}</string>
+				<string>{2.5, 44.5}</string>
+				<string>{2.5, 40}</string>
+				<string>{10, 41.5}</string>
+				<string>{25, 46.5}</string>
+				<string>{30, 40}</string>
+				<string>{26.5, 34}</string>
+				<string>{18, 25.5}</string>
+				<string>{20, 16.5}</string>
+				<string>{25.5, 11}</string>
+				<string>{30, 2}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{291.5, 207.5}, {59, 55}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{206, 101}, {59, 55}}</string>
+			<key>image</key>
+			<string>iPh_bird33.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{13, 1.5}</string>
+				<string>{1, 7.5}</string>
+				<string>{8.5, 18}</string>
+				<string>{6, 30}</string>
+				<string>{13, 43}</string>
+				<string>{16.5, 49}</string>
+				<string>{16, 53.5}</string>
+				<string>{31.5, 51}</string>
+				<string>{32.5, 47}</string>
+				<string>{41, 37.5}</string>
+				<string>{45.5, 37.5}</string>
+				<string>{51, 39.5}</string>
+				<string>{55.5, 33}</string>
+				<string>{57, 25.5}</string>
+				<string>{57, 17}</string>
+				<string>{53.5, 17}</string>
+				<string>{49, 14}</string>
+				<string>{39.5, 13.5}</string>
+				<string>{32, 18}</string>
+				<string>{22, 18}</string>
+				<string>{14, 13.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{435.5, 207.5}, {57, 69}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{236, 132.5}, {57, 69}}</string>
+			<key>image</key>
+			<string>iPh_bird35.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{40, 48}</string>
+				<string>{50.5, 37}</string>
+				<string>{54, 27.5}</string>
+				<string>{53, 12.5}</string>
+				<string>{41.5, 16}</string>
+				<string>{29, 30.5}</string>
+				<string>{26, 23.5}</string>
+				<string>{24.5, 10}</string>
+				<string>{15.5, 2.5}</string>
+				<string>{9.5, 2.5}</string>
+				<string>{8, 11.5}</string>
+				<string>{7.5, 19}</string>
+				<string>{1.5, 28.5}</string>
+				<string>{3, 38}</string>
+				<string>{6.5, 46}</string>
+				<string>{13, 57}</string>
+				<string>{26.5, 60}</string>
+				<string>{29, 66.5}</string>
+				<string>{41.5, 66.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{388, 228}, {54, 61}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{414.5, 138}, {54, 61}}</string>
+			<key>image</key>
+			<string>iPh_bird36.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{1.5, 14.5}</string>
+				<string>{13.5, 4}</string>
+				<string>{19.5, 6}</string>
+				<string>{33, 14.5}</string>
+				<string>{33, 3.5}</string>
+				<string>{46.5, 3.5}</string>
+				<string>{47.5, 11}</string>
+				<string>{44, 29}</string>
+				<string>{53, 41.5}</string>
+				<string>{52, 57}</string>
+				<string>{41.5, 46.5}</string>
+				<string>{32.5, 44}</string>
+				<string>{27.5, 45.5}</string>
+				<string>{17.5, 58}</string>
+				<string>{4, 60}</string>
+				<string>{9, 50.5}</string>
+				<string>{13.5, 38.5}</string>
+				<string>{5, 38.5}</string>
+				<string>{1.5, 31}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{367.5, 212}, {63, 71}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{368, 131}, {63, 71}}</string>
+			<key>image</key>
+			<string>iPh_bird37.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{38, 5.5}</string>
+				<string>{44.5, 11.5}</string>
+				<string>{47, 19}</string>
+				<string>{46, 30.5}</string>
+				<string>{61, 28.5}</string>
+				<string>{55, 40}</string>
+				<string>{45.5, 47.5}</string>
+				<string>{44, 54.5}</string>
+				<string>{55.5, 52.5}</string>
+				<string>{45.5, 60.5}</string>
+				<string>{50, 67}</string>
+				<string>{43.5, 71.5}</string>
+				<string>{38, 66.5}</string>
+				<string>{33, 61.5}</string>
+				<string>{18.5, 68}</string>
+				<string>{14.5, 62.5}</string>
+				<string>{21.5, 59.5}</string>
+				<string>{21, 54.5}</string>
+				<string>{15, 45.5}</string>
+				<string>{6, 42}</string>
+				<string>{2, 28.5}</string>
+				<string>{3, 23}</string>
+				<string>{17.5, 30}</string>
+				<string>{12, 19}</string>
+				<string>{18, 10}</string>
+				<string>{29, 2}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{293, 209}, {85, 73}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{406.5, 131.5}, {85, 73}}</string>
+			<key>image</key>
+			<string>iPh_bird40.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{28, 26}</string>
+				<string>{16.5, 21.5}</string>
+				<string>{8.5, 25}</string>
+				<string>{7, 27.5}</string>
+				<string>{1, 31}</string>
+				<string>{8, 34}</string>
+				<string>{13, 43.5}</string>
+				<string>{21, 55}</string>
+				<string>{31.5, 60.5}</string>
+				<string>{47.5, 60.5}</string>
+				<string>{53.5, 59}</string>
+				<string>{65.5, 72.5}</string>
+				<string>{78.5, 65.5}</string>
+				<string>{59, 49}</string>
+				<string>{68, 45}</string>
+				<string>{77.5, 39}</string>
+				<string>{84, 27}</string>
+				<string>{56, 24}</string>
+				<string>{59, 11.5}</string>
+				<string>{56, 2}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{325.5, 207.5}, {65, 74}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{307, 127}, {65, 74}}</string>
+			<key>image</key>
+			<string>iPh_bird4.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{37, 25}</string>
+				<string>{34.5, 13.5}</string>
+				<string>{26.5, 6.5}</string>
+				<string>{9, 11.5}</string>
+				<string>{8, 1}</string>
+				<string>{1, 19}</string>
+				<string>{0.5, 29}</string>
+				<string>{7, 37.5}</string>
+				<string>{10, 47}</string>
+				<string>{10.5, 59}</string>
+				<string>{17.5, 60.5}</string>
+				<string>{30.5, 63.5}</string>
+				<string>{41, 59.5}</string>
+				<string>{47.5, 65}</string>
+				<string>{52.5, 73}</string>
+				<string>{64, 59}</string>
+				<string>{48, 46}</string>
+				<string>{53.5, 36.5}</string>
+				<string>{59.5, 21.5}</string>
+				<string>{58.5, 5.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{314, 211.5}, {67, 56}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{268, 138.5}, {67, 56}}</string>
+			<key>image</key>
+			<string>iPh_bird6.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{43, 13}</string>
+				<string>{58.5, 13}</string>
+				<string>{66, 9.5}</string>
+				<string>{34.5, 6}</string>
+				<string>{20.5, 2}</string>
+				<string>{11, 5.5}</string>
+				<string>{7.5, 9.5}</string>
+				<string>{3, 10}</string>
+				<string>{5, 15}</string>
+				<string>{7.5, 28}</string>
+				<string>{15.5, 41}</string>
+				<string>{26.5, 47}</string>
+				<string>{25, 53.5}</string>
+				<string>{29.5, 54.5}</string>
+				<string>{29.5, 48}</string>
+				<string>{41, 46}</string>
+				<string>{45, 54.5}</string>
+				<string>{47.5, 45.5}</string>
+				<string>{55.5, 38}</string>
+				<string>{63.5, 29}</string>
+				<string>{65, 15.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{339, 222}, {61, 59}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{273, 109}, {61, 59}}</string>
+			<key>image</key>
+			<string>iPh_bird15.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{30, 14}</string>
+				<string>{41, 20}</string>
+				<string>{44.5, 28.5}</string>
+				<string>{56, 18}</string>
+				<string>{59.5, 21.5}</string>
+				<string>{57.5, 31}</string>
+				<string>{46.5, 41}</string>
+				<string>{45, 48}</string>
+				<string>{29.5, 46.5}</string>
+				<string>{28, 57}</string>
+				<string>{19, 53}</string>
+				<string>{19, 44.5}</string>
+				<string>{9, 40.5}</string>
+				<string>{7, 33.5}</string>
+				<string>{4, 23}</string>
+				<string>{0.5, 23.5}</string>
+				<string>{4.5, 14.5}</string>
+				<string>{8, 7}</string>
+				<string>{12.5, 2}</string>
+				<string>{20.5, 1}</string>
+				<string>{27.5, 3}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{240, 215}, {75, 68}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{230.5, 89}, {75, 68}}</string>
+			<key>image</key>
+			<string>iPh_bird16.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{50.5, 40.5}</string>
+				<string>{52.5, 30.5}</string>
+				<string>{61.5, 20.5}</string>
+				<string>{70, 11.5}</string>
+				<string>{60.5, 7}</string>
+				<string>{44, 16}</string>
+				<string>{38, 13.5}</string>
+				<string>{43, 1.5}</string>
+				<string>{33, 1.5}</string>
+				<string>{24.5, 11.5}</string>
+				<string>{19.5, 19}</string>
+				<string>{19.5, 26.5}</string>
+				<string>{16, 26.5}</string>
+				<string>{18, 40.5}</string>
+				<string>{16, 42.5}</string>
+				<string>{22, 50}</string>
+				<string>{3.5, 64}</string>
+				<string>{14.5, 64.5}</string>
+				<string>{15.5, 67.5}</string>
+				<string>{30.5, 59.5}</string>
+				<string>{43.5, 59}</string>
+				<string>{56.5, 50.5}</string>
+				<string>{63, 45}</string>
+				<string>{73.5, 40.5}</string>
+				<string>{62.5, 37}</string>
+				<string>{57, 37}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{308, 208.5}, {86, 72}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{212, 40.5}, {86, 72}}</string>
+			<key>image</key>
+			<string>iPh_bird18.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{29.5, 25}</string>
+				<string>{23.5, 19.5}</string>
+				<string>{15, 19.5}</string>
+				<string>{8, 24.5}</string>
+				<string>{6.5, 30.5}</string>
+				<string>{1, 36}</string>
+				<string>{8.5, 41}</string>
+				<string>{15, 51.5}</string>
+				<string>{24, 59.5}</string>
+				<string>{28.5, 63.5}</string>
+				<string>{32.5, 70.5}</string>
+				<string>{41.5, 70.5}</string>
+				<string>{46.5, 66.5}</string>
+				<string>{64, 62}</string>
+				<string>{77.5, 50.5}</string>
+				<string>{85, 40}</string>
+				<string>{70, 41}</string>
+				<string>{83.5, 11}</string>
+				<string>{78.5, 7.5}</string>
+				<string>{77, 3}</string>
+				<string>{69.5, 0.5}</string>
+				<string>{57.5, 3}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{299, 236}, {92, 53}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{388.5, 40.5}, {92, 53}}</string>
+			<key>image</key>
+			<string>iPh_bird19.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{39.5, 12.5}</string>
+				<string>{25, 5}</string>
+				<string>{13, 5}</string>
+				<string>{7.5, 8}</string>
+				<string>{1, 10}</string>
+				<string>{6, 17}</string>
+				<string>{7, 32}</string>
+				<string>{23.5, 48.5}</string>
+				<string>{36, 52.5}</string>
+				<string>{52, 51.5}</string>
+				<string>{69, 40.5}</string>
+				<string>{91.5, 40.5}</string>
+				<string>{91.5, 29}</string>
+				<string>{77, 32}</string>
+				<string>{75.5, 25}</string>
+				<string>{71.5, 19}</string>
+				<string>{72, 5.5}</string>
+				<string>{67.5, 0.5}</string>
+				<string>{57, 0.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{299, 207}, {77, 65}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{330, 45.5}, {77, 65}}</string>
+			<key>image</key>
+			<string>iPh_bird20.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{26, 23}</string>
+				<string>{14.5, 19.5}</string>
+				<string>{10.5, 19.5}</string>
+				<string>{7, 23}</string>
+				<string>{2, 27.5}</string>
+				<string>{8, 28}</string>
+				<string>{10.5, 38.5}</string>
+				<string>{24.5, 53.5}</string>
+				<string>{40, 55.5}</string>
+				<string>{48.5, 51.5}</string>
+				<string>{57, 64}</string>
+				<string>{69, 62.5}</string>
+				<string>{71, 57}</string>
+				<string>{53, 45}</string>
+				<string>{59.5, 40.5}</string>
+				<string>{75.5, 26.5}</string>
+				<string>{76, 22}</string>
+				<string>{51.5, 21.5}</string>
+				<string>{53, 2}</string>
+				<string>{50, 0.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{301.5, 213.5}, {65, 63}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{414.5, 91.5}, {65, 63}}</string>
+			<key>image</key>
+			<string>iPh_bird23.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{32.5, 20}</string>
+				<string>{16.5, 30}</string>
+				<string>{9.5, 39.5}</string>
+				<string>{1.5, 44}</string>
+				<string>{2, 47.5}</string>
+				<string>{12, 43.5}</string>
+				<string>{23, 53.5}</string>
+				<string>{20.5, 56.5}</string>
+				<string>{26.5, 61.5}</string>
+				<string>{33, 60}</string>
+				<string>{30.5, 54.5}</string>
+				<string>{41, 53}</string>
+				<string>{48.5, 47.5}</string>
+				<string>{51, 40.5}</string>
+				<string>{61.5, 37.5}</string>
+				<string>{63.5, 34}</string>
+				<string>{55, 26.5}</string>
+				<string>{55, 26.5}</string>
+				<string>{56.5, 25}</string>
+				<string>{64, 22}</string>
+				<string>{61, 17.5}</string>
+				<string>{57.5, 8}</string>
+				<string>{51, 2}</string>
+				<string>{41.5, 1}</string>
+				<string>{34.5, 5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{269, 232}, {64, 50}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{419, 141.5}, {64, 50}}</string>
+			<key>image</key>
+			<string>iPh_bird26.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{59.5, 14}</string>
+				<string>{53, 7.5}</string>
+				<string>{41, 13.5}</string>
+				<string>{32.5, 11.5}</string>
+				<string>{14.5, 0.5}</string>
+				<string>{11.5, 13}</string>
+				<string>{1.5, 14.5}</string>
+				<string>{6, 24}</string>
+				<string>{15.5, 33}</string>
+				<string>{2.5, 43.5}</string>
+				<string>{12.5, 49.5}</string>
+				<string>{22.5, 37.5}</string>
+				<string>{34.5, 41}</string>
+				<string>{50.5, 36}</string>
+				<string>{62.5, 17}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{309, 209}, {74, 77}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{406.5, 56}, {74, 77}}</string>
+			<key>image</key>
+			<string>iPh_bird28.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{40, 8.5}</string>
+				<string>{49, 14}</string>
+				<string>{51.5, 24.5}</string>
+				<string>{48, 32.5}</string>
+				<string>{40.5, 37.5}</string>
+				<string>{54, 47.5}</string>
+				<string>{73.5, 64}</string>
+				<string>{73.5, 68}</string>
+				<string>{63.5, 65.5}</string>
+				<string>{55.5, 60.5}</string>
+				<string>{49, 68}</string>
+				<string>{45.5, 74}</string>
+				<string>{33.5, 74.5}</string>
+				<string>{30, 70.5}</string>
+				<string>{25.5, 65.5}</string>
+				<string>{23, 57.5}</string>
+				<string>{8.5, 51}</string>
+				<string>{1.5, 43.5}</string>
+				<string>{2.5, 44.5}</string>
+				<string>{2.5, 40}</string>
+				<string>{10, 41.5}</string>
+				<string>{25, 46.5}</string>
+				<string>{30, 40}</string>
+				<string>{26.5, 34}</string>
+				<string>{18, 25.5}</string>
+				<string>{20, 16.5}</string>
+				<string>{25.5, 11}</string>
+				<string>{30, 2}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{291.5, 207.5}, {59, 55}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{391, 126}, {59, 55}}</string>
+			<key>image</key>
+			<string>iPh_bird33.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{13, 1.5}</string>
+				<string>{1, 7.5}</string>
+				<string>{8.5, 18}</string>
+				<string>{6, 30}</string>
+				<string>{13, 43}</string>
+				<string>{16.5, 49}</string>
+				<string>{16, 53.5}</string>
+				<string>{31.5, 51}</string>
+				<string>{32.5, 47}</string>
+				<string>{41, 37.5}</string>
+				<string>{45.5, 37.5}</string>
+				<string>{51, 39.5}</string>
+				<string>{55.5, 33}</string>
+				<string>{57, 25.5}</string>
+				<string>{57, 17}</string>
+				<string>{53.5, 17}</string>
+				<string>{49, 14}</string>
+				<string>{39.5, 13.5}</string>
+				<string>{32, 18}</string>
+				<string>{22, 18}</string>
+				<string>{14, 13.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{435.5, 207.5}, {57, 69}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{406.5, 114}, {57, 69}}</string>
+			<key>image</key>
+			<string>iPh_bird35.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{40, 48}</string>
+				<string>{50.5, 37}</string>
+				<string>{54, 27.5}</string>
+				<string>{53, 12.5}</string>
+				<string>{41.5, 16}</string>
+				<string>{29, 30.5}</string>
+				<string>{26, 23.5}</string>
+				<string>{24.5, 10}</string>
+				<string>{15.5, 2.5}</string>
+				<string>{9.5, 2.5}</string>
+				<string>{8, 11.5}</string>
+				<string>{7.5, 19}</string>
+				<string>{1.5, 28.5}</string>
+				<string>{3, 38}</string>
+				<string>{6.5, 46}</string>
+				<string>{13, 57}</string>
+				<string>{26.5, 60}</string>
+				<string>{29, 66.5}</string>
+				<string>{41.5, 66.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{388, 228}, {54, 61}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{417.5, 44}, {54, 61}}</string>
+			<key>image</key>
+			<string>iPh_bird36.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{1.5, 14.5}</string>
+				<string>{13.5, 4}</string>
+				<string>{19.5, 6}</string>
+				<string>{33, 14.5}</string>
+				<string>{33, 3.5}</string>
+				<string>{46.5, 3.5}</string>
+				<string>{47.5, 11}</string>
+				<string>{44, 29}</string>
+				<string>{53, 41.5}</string>
+				<string>{52, 57}</string>
+				<string>{41.5, 46.5}</string>
+				<string>{32.5, 44}</string>
+				<string>{27.5, 45.5}</string>
+				<string>{17.5, 58}</string>
+				<string>{4, 60}</string>
+				<string>{9, 50.5}</string>
+				<string>{13.5, 38.5}</string>
+				<string>{5, 38.5}</string>
+				<string>{1.5, 31}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{367.5, 212}, {63, 71}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{367, 45}, {63, 71}}</string>
+			<key>image</key>
+			<string>iPh_bird37.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{38, 5.5}</string>
+				<string>{44.5, 11.5}</string>
+				<string>{47, 19}</string>
+				<string>{46, 30.5}</string>
+				<string>{61, 28.5}</string>
+				<string>{55, 40}</string>
+				<string>{45.5, 47.5}</string>
+				<string>{44, 54.5}</string>
+				<string>{55.5, 52.5}</string>
+				<string>{45.5, 60.5}</string>
+				<string>{50, 67}</string>
+				<string>{43.5, 71.5}</string>
+				<string>{38, 66.5}</string>
+				<string>{33, 61.5}</string>
+				<string>{18.5, 68}</string>
+				<string>{14.5, 62.5}</string>
+				<string>{21.5, 59.5}</string>
+				<string>{21, 54.5}</string>
+				<string>{15, 45.5}</string>
+				<string>{6, 42}</string>
+				<string>{2, 28.5}</string>
+				<string>{3, 23}</string>
+				<string>{17.5, 30}</string>
+				<string>{12, 19}</string>
+				<string>{18, 10}</string>
+				<string>{29, 2}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{293, 209}, {85, 73}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{227.5, 46.5}, {85, 73}}</string>
+			<key>image</key>
+			<string>iPh_bird40.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{28, 26}</string>
+				<string>{16.5, 21.5}</string>
+				<string>{8.5, 25}</string>
+				<string>{7, 27.5}</string>
+				<string>{1, 31}</string>
+				<string>{8, 34}</string>
+				<string>{13, 43.5}</string>
+				<string>{21, 55}</string>
+				<string>{31.5, 60.5}</string>
+				<string>{47.5, 60.5}</string>
+				<string>{53.5, 59}</string>
+				<string>{65.5, 72.5}</string>
+				<string>{78.5, 65.5}</string>
+				<string>{59, 49}</string>
+				<string>{68, 45}</string>
+				<string>{77.5, 39}</string>
+				<string>{84, 27}</string>
+				<string>{56, 24}</string>
+				<string>{59, 11.5}</string>
+				<string>{56, 2}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{325.5, 207.5}, {65, 74}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{114.5, 48.5}, {65, 74}}</string>
+			<key>image</key>
+			<string>iPh_bird4.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{37, 25}</string>
+				<string>{34.5, 13.5}</string>
+				<string>{26.5, 6.5}</string>
+				<string>{9, 11.5}</string>
+				<string>{8, 1}</string>
+				<string>{1, 19}</string>
+				<string>{0.5, 29}</string>
+				<string>{7, 37.5}</string>
+				<string>{10, 47}</string>
+				<string>{10.5, 59}</string>
+				<string>{17.5, 60.5}</string>
+				<string>{30.5, 63.5}</string>
+				<string>{41, 59.5}</string>
+				<string>{47.5, 65}</string>
+				<string>{52.5, 73}</string>
+				<string>{64, 59}</string>
+				<string>{48, 46}</string>
+				<string>{53.5, 36.5}</string>
+				<string>{59.5, 21.5}</string>
+				<string>{58.5, 5.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{314, 211.5}, {67, 56}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{-1, 52.5}, {67, 56}}</string>
+			<key>image</key>
+			<string>iPh_bird6.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{43, 13}</string>
+				<string>{58.5, 13}</string>
+				<string>{66, 9.5}</string>
+				<string>{34.5, 6}</string>
+				<string>{20.5, 2}</string>
+				<string>{11, 5.5}</string>
+				<string>{7.5, 9.5}</string>
+				<string>{3, 10}</string>
+				<string>{5, 15}</string>
+				<string>{7.5, 28}</string>
+				<string>{15.5, 41}</string>
+				<string>{26.5, 47}</string>
+				<string>{25, 53.5}</string>
+				<string>{29.5, 54.5}</string>
+				<string>{29.5, 48}</string>
+				<string>{41, 46}</string>
+				<string>{45, 54.5}</string>
+				<string>{47.5, 45.5}</string>
+				<string>{55.5, 38}</string>
+				<string>{63.5, 29}</string>
+				<string>{65, 15.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{339, 222}, {61, 59}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{55.5, 52}, {61, 59}}</string>
+			<key>image</key>
+			<string>iPh_bird15.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{30, 14}</string>
+				<string>{41, 20}</string>
+				<string>{44.5, 28.5}</string>
+				<string>{56, 18}</string>
+				<string>{59.5, 21.5}</string>
+				<string>{57.5, 31}</string>
+				<string>{46.5, 41}</string>
+				<string>{45, 48}</string>
+				<string>{29.5, 46.5}</string>
+				<string>{28, 57}</string>
+				<string>{19, 53}</string>
+				<string>{19, 44.5}</string>
+				<string>{9, 40.5}</string>
+				<string>{7, 33.5}</string>
+				<string>{4, 23}</string>
+				<string>{0.5, 23.5}</string>
+				<string>{4.5, 14.5}</string>
+				<string>{8, 7}</string>
+				<string>{12.5, 2}</string>
+				<string>{20.5, 1}</string>
+				<string>{27.5, 3}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{240, 215}, {75, 68}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{0.5, 63.5}, {75, 68}}</string>
+			<key>image</key>
+			<string>iPh_bird16.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{50.5, 40.5}</string>
+				<string>{52.5, 30.5}</string>
+				<string>{61.5, 20.5}</string>
+				<string>{70, 11.5}</string>
+				<string>{60.5, 7}</string>
+				<string>{44, 16}</string>
+				<string>{38, 13.5}</string>
+				<string>{43, 1.5}</string>
+				<string>{33, 1.5}</string>
+				<string>{24.5, 11.5}</string>
+				<string>{19.5, 19}</string>
+				<string>{19.5, 26.5}</string>
+				<string>{16, 26.5}</string>
+				<string>{18, 40.5}</string>
+				<string>{16, 42.5}</string>
+				<string>{22, 50}</string>
+				<string>{3.5, 64}</string>
+				<string>{14.5, 64.5}</string>
+				<string>{15.5, 67.5}</string>
+				<string>{30.5, 59.5}</string>
+				<string>{43.5, 59}</string>
+				<string>{56.5, 50.5}</string>
+				<string>{63, 45}</string>
+				<string>{73.5, 40.5}</string>
+				<string>{62.5, 37}</string>
+				<string>{57, 37}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{308, 208.5}, {86, 72}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{38, 104.5}, {86, 72}}</string>
+			<key>image</key>
+			<string>iPh_bird18.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{29.5, 25}</string>
+				<string>{23.5, 19.5}</string>
+				<string>{15, 19.5}</string>
+				<string>{8, 24.5}</string>
+				<string>{6.5, 30.5}</string>
+				<string>{1, 36}</string>
+				<string>{8.5, 41}</string>
+				<string>{15, 51.5}</string>
+				<string>{24, 59.5}</string>
+				<string>{28.5, 63.5}</string>
+				<string>{32.5, 70.5}</string>
+				<string>{41.5, 70.5}</string>
+				<string>{46.5, 66.5}</string>
+				<string>{64, 62}</string>
+				<string>{77.5, 50.5}</string>
+				<string>{85, 40}</string>
+				<string>{70, 41}</string>
+				<string>{83.5, 11}</string>
+				<string>{78.5, 7.5}</string>
+				<string>{77, 3}</string>
+				<string>{69.5, 0.5}</string>
+				<string>{57.5, 3}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{299, 236}, {92, 53}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{154, 177}, {92, 53}}</string>
+			<key>image</key>
+			<string>iPh_bird19.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{39.5, 12.5}</string>
+				<string>{25, 5}</string>
+				<string>{13, 5}</string>
+				<string>{7.5, 8}</string>
+				<string>{1, 10}</string>
+				<string>{6, 17}</string>
+				<string>{7, 32}</string>
+				<string>{23.5, 48.5}</string>
+				<string>{36, 52.5}</string>
+				<string>{52, 51.5}</string>
+				<string>{69, 40.5}</string>
+				<string>{91.5, 40.5}</string>
+				<string>{91.5, 29}</string>
+				<string>{77, 32}</string>
+				<string>{75.5, 25}</string>
+				<string>{71.5, 19}</string>
+				<string>{72, 5.5}</string>
+				<string>{67.5, 0.5}</string>
+				<string>{57, 0.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{299, 207}, {77, 65}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{36.5, 63.5}, {77, 65}}</string>
+			<key>image</key>
+			<string>iPh_bird20.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{26, 23}</string>
+				<string>{14.5, 19.5}</string>
+				<string>{10.5, 19.5}</string>
+				<string>{7, 23}</string>
+				<string>{2, 27.5}</string>
+				<string>{8, 28}</string>
+				<string>{10.5, 38.5}</string>
+				<string>{24.5, 53.5}</string>
+				<string>{40, 55.5}</string>
+				<string>{48.5, 51.5}</string>
+				<string>{57, 64}</string>
+				<string>{69, 62.5}</string>
+				<string>{71, 57}</string>
+				<string>{53, 45}</string>
+				<string>{59.5, 40.5}</string>
+				<string>{75.5, 26.5}</string>
+				<string>{76, 22}</string>
+				<string>{51.5, 21.5}</string>
+				<string>{53, 2}</string>
+				<string>{50, 0.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{301.5, 213.5}, {65, 63}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{307, 137.5}, {65, 63}}</string>
+			<key>image</key>
+			<string>iPh_bird23.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{32.5, 20}</string>
+				<string>{16.5, 30}</string>
+				<string>{9.5, 39.5}</string>
+				<string>{1.5, 44}</string>
+				<string>{2, 47.5}</string>
+				<string>{12, 43.5}</string>
+				<string>{23, 53.5}</string>
+				<string>{20.5, 56.5}</string>
+				<string>{26.5, 61.5}</string>
+				<string>{33, 60}</string>
+				<string>{30.5, 54.5}</string>
+				<string>{41, 53}</string>
+				<string>{48.5, 47.5}</string>
+				<string>{51, 40.5}</string>
+				<string>{61.5, 37.5}</string>
+				<string>{63.5, 34}</string>
+				<string>{55, 26.5}</string>
+				<string>{55, 26.5}</string>
+				<string>{56.5, 25}</string>
+				<string>{64, 22}</string>
+				<string>{61, 17.5}</string>
+				<string>{57.5, 8}</string>
+				<string>{51, 2}</string>
+				<string>{41.5, 1}</string>
+				<string>{34.5, 5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{269, 232}, {64, 50}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{138.5, 137}, {64, 50}}</string>
+			<key>image</key>
+			<string>iPh_bird26.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{59.5, 14}</string>
+				<string>{53, 7.5}</string>
+				<string>{41, 13.5}</string>
+				<string>{32.5, 11.5}</string>
+				<string>{14.5, 0.5}</string>
+				<string>{11.5, 13}</string>
+				<string>{1.5, 14.5}</string>
+				<string>{6, 24}</string>
+				<string>{15.5, 33}</string>
+				<string>{2.5, 43.5}</string>
+				<string>{12.5, 49.5}</string>
+				<string>{22.5, 37.5}</string>
+				<string>{34.5, 41}</string>
+				<string>{50.5, 36}</string>
+				<string>{62.5, 17}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{309, 209}, {74, 77}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{300.5, 58.5}, {74, 77}}</string>
+			<key>image</key>
+			<string>iPh_bird28.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{40, 8.5}</string>
+				<string>{49, 14}</string>
+				<string>{51.5, 24.5}</string>
+				<string>{48, 32.5}</string>
+				<string>{40.5, 37.5}</string>
+				<string>{54, 47.5}</string>
+				<string>{73.5, 64}</string>
+				<string>{73.5, 68}</string>
+				<string>{63.5, 65.5}</string>
+				<string>{55.5, 60.5}</string>
+				<string>{49, 68}</string>
+				<string>{45.5, 74}</string>
+				<string>{33.5, 74.5}</string>
+				<string>{30, 70.5}</string>
+				<string>{25.5, 65.5}</string>
+				<string>{23, 57.5}</string>
+				<string>{8.5, 51}</string>
+				<string>{1.5, 43.5}</string>
+				<string>{2.5, 44.5}</string>
+				<string>{2.5, 40}</string>
+				<string>{10, 41.5}</string>
+				<string>{25, 46.5}</string>
+				<string>{30, 40}</string>
+				<string>{26.5, 34}</string>
+				<string>{18, 25.5}</string>
+				<string>{20, 16.5}</string>
+				<string>{25.5, 11}</string>
+				<string>{30, 2}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{291.5, 207.5}, {59, 55}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{227.5, 35}, {59, 55}}</string>
+			<key>image</key>
+			<string>iPh_bird33.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{13, 1.5}</string>
+				<string>{1, 7.5}</string>
+				<string>{8.5, 18}</string>
+				<string>{6, 30}</string>
+				<string>{13, 43}</string>
+				<string>{16.5, 49}</string>
+				<string>{16, 53.5}</string>
+				<string>{31.5, 51}</string>
+				<string>{32.5, 47}</string>
+				<string>{41, 37.5}</string>
+				<string>{45.5, 37.5}</string>
+				<string>{51, 39.5}</string>
+				<string>{55.5, 33}</string>
+				<string>{57, 25.5}</string>
+				<string>{57, 17}</string>
+				<string>{53.5, 17}</string>
+				<string>{49, 14}</string>
+				<string>{39.5, 13.5}</string>
+				<string>{32, 18}</string>
+				<string>{22, 18}</string>
+				<string>{14, 13.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{435.5, 207.5}, {57, 69}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{82, 50.5}, {57, 69}}</string>
+			<key>image</key>
+			<string>iPh_bird35.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{40, 48}</string>
+				<string>{50.5, 37}</string>
+				<string>{54, 27.5}</string>
+				<string>{53, 12.5}</string>
+				<string>{41.5, 16}</string>
+				<string>{29, 30.5}</string>
+				<string>{26, 23.5}</string>
+				<string>{24.5, 10}</string>
+				<string>{15.5, 2.5}</string>
+				<string>{9.5, 2.5}</string>
+				<string>{8, 11.5}</string>
+				<string>{7.5, 19}</string>
+				<string>{1.5, 28.5}</string>
+				<string>{3, 38}</string>
+				<string>{6.5, 46}</string>
+				<string>{13, 57}</string>
+				<string>{26.5, 60}</string>
+				<string>{29, 66.5}</string>
+				<string>{41.5, 66.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{388, 228}, {54, 61}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{2, 67}, {54, 61}}</string>
+			<key>image</key>
+			<string>iPh_bird36.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{1.5, 14.5}</string>
+				<string>{13.5, 4}</string>
+				<string>{19.5, 6}</string>
+				<string>{33, 14.5}</string>
+				<string>{33, 3.5}</string>
+				<string>{46.5, 3.5}</string>
+				<string>{47.5, 11}</string>
+				<string>{44, 29}</string>
+				<string>{53, 41.5}</string>
+				<string>{52, 57}</string>
+				<string>{41.5, 46.5}</string>
+				<string>{32.5, 44}</string>
+				<string>{27.5, 45.5}</string>
+				<string>{17.5, 58}</string>
+				<string>{4, 60}</string>
+				<string>{9, 50.5}</string>
+				<string>{13.5, 38.5}</string>
+				<string>{5, 38.5}</string>
+				<string>{1.5, 31}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{367.5, 212}, {63, 71}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{171.5, 49.5}, {63, 71}}</string>
+			<key>image</key>
+			<string>iPh_bird37.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{38, 5.5}</string>
+				<string>{44.5, 11.5}</string>
+				<string>{47, 19}</string>
+				<string>{46, 30.5}</string>
+				<string>{61, 28.5}</string>
+				<string>{55, 40}</string>
+				<string>{45.5, 47.5}</string>
+				<string>{44, 54.5}</string>
+				<string>{55.5, 52.5}</string>
+				<string>{45.5, 60.5}</string>
+				<string>{50, 67}</string>
+				<string>{43.5, 71.5}</string>
+				<string>{38, 66.5}</string>
+				<string>{33, 61.5}</string>
+				<string>{18.5, 68}</string>
+				<string>{14.5, 62.5}</string>
+				<string>{21.5, 59.5}</string>
+				<string>{21, 54.5}</string>
+				<string>{15, 45.5}</string>
+				<string>{6, 42}</string>
+				<string>{2, 28.5}</string>
+				<string>{3, 23}</string>
+				<string>{17.5, 30}</string>
+				<string>{12, 19}</string>
+				<string>{18, 10}</string>
+				<string>{29, 2}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{293, 209}, {85, 73}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{67.5, 112.5}, {85, 73}}</string>
+			<key>image</key>
+			<string>iPh_bird40.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{28, 26}</string>
+				<string>{16.5, 21.5}</string>
+				<string>{8.5, 25}</string>
+				<string>{7, 27.5}</string>
+				<string>{1, 31}</string>
+				<string>{8, 34}</string>
+				<string>{13, 43.5}</string>
+				<string>{21, 55}</string>
+				<string>{31.5, 60.5}</string>
+				<string>{47.5, 60.5}</string>
+				<string>{53.5, 59}</string>
+				<string>{65.5, 72.5}</string>
+				<string>{78.5, 65.5}</string>
+				<string>{59, 49}</string>
+				<string>{68, 45}</string>
+				<string>{77.5, 39}</string>
+				<string>{84, 27}</string>
+				<string>{56, 24}</string>
+				<string>{59, 11.5}</string>
+				<string>{56, 2}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{325.5, 207.5}, {65, 74}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{38, 95.5}, {65, 74}}</string>
+			<key>image</key>
+			<string>iPh_bird4.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{37, 25}</string>
+				<string>{34.5, 13.5}</string>
+				<string>{26.5, 6.5}</string>
+				<string>{9, 11.5}</string>
+				<string>{8, 1}</string>
+				<string>{1, 19}</string>
+				<string>{0.5, 29}</string>
+				<string>{7, 37.5}</string>
+				<string>{10, 47}</string>
+				<string>{10.5, 59}</string>
+				<string>{17.5, 60.5}</string>
+				<string>{30.5, 63.5}</string>
+				<string>{41, 59.5}</string>
+				<string>{47.5, 65}</string>
+				<string>{52.5, 73}</string>
+				<string>{64, 59}</string>
+				<string>{48, 46}</string>
+				<string>{53.5, 36.5}</string>
+				<string>{59.5, 21.5}</string>
+				<string>{58.5, 5.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{314, 211.5}, {67, 56}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{-4.5, 131}, {67, 56}}</string>
+			<key>image</key>
+			<string>iPh_bird6.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{43, 13}</string>
+				<string>{58.5, 13}</string>
+				<string>{66, 9.5}</string>
+				<string>{34.5, 6}</string>
+				<string>{20.5, 2}</string>
+				<string>{11, 5.5}</string>
+				<string>{7.5, 9.5}</string>
+				<string>{3, 10}</string>
+				<string>{5, 15}</string>
+				<string>{7.5, 28}</string>
+				<string>{15.5, 41}</string>
+				<string>{26.5, 47}</string>
+				<string>{25, 53.5}</string>
+				<string>{29.5, 54.5}</string>
+				<string>{29.5, 48}</string>
+				<string>{41, 46}</string>
+				<string>{45, 54.5}</string>
+				<string>{47.5, 45.5}</string>
+				<string>{55.5, 38}</string>
+				<string>{63.5, 29}</string>
+				<string>{65, 15.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{339, 222}, {61, 59}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{-6.5, 105}, {61, 59}}</string>
+			<key>image</key>
+			<string>iPh_bird15.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{30, 14}</string>
+				<string>{41, 20}</string>
+				<string>{44.5, 28.5}</string>
+				<string>{56, 18}</string>
+				<string>{59.5, 21.5}</string>
+				<string>{57.5, 31}</string>
+				<string>{46.5, 41}</string>
+				<string>{45, 48}</string>
+				<string>{29.5, 46.5}</string>
+				<string>{28, 57}</string>
+				<string>{19, 53}</string>
+				<string>{19, 44.5}</string>
+				<string>{9, 40.5}</string>
+				<string>{7, 33.5}</string>
+				<string>{4, 23}</string>
+				<string>{0.5, 23.5}</string>
+				<string>{4.5, 14.5}</string>
+				<string>{8, 7}</string>
+				<string>{12.5, 2}</string>
+				<string>{20.5, 1}</string>
+				<string>{27.5, 3}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{240, 215}, {75, 68}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{88, 53.5}, {75, 68}}</string>
+			<key>image</key>
+			<string>iPh_bird16.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{50.5, 40.5}</string>
+				<string>{52.5, 30.5}</string>
+				<string>{61.5, 20.5}</string>
+				<string>{70, 11.5}</string>
+				<string>{60.5, 7}</string>
+				<string>{44, 16}</string>
+				<string>{38, 13.5}</string>
+				<string>{43, 1.5}</string>
+				<string>{33, 1.5}</string>
+				<string>{24.5, 11.5}</string>
+				<string>{19.5, 19}</string>
+				<string>{19.5, 26.5}</string>
+				<string>{16, 26.5}</string>
+				<string>{18, 40.5}</string>
+				<string>{16, 42.5}</string>
+				<string>{22, 50}</string>
+				<string>{3.5, 64}</string>
+				<string>{14.5, 64.5}</string>
+				<string>{15.5, 67.5}</string>
+				<string>{30.5, 59.5}</string>
+				<string>{43.5, 59}</string>
+				<string>{56.5, 50.5}</string>
+				<string>{63, 45}</string>
+				<string>{73.5, 40.5}</string>
+				<string>{62.5, 37}</string>
+				<string>{57, 37}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{308, 208.5}, {86, 72}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{120.5, 105.5}, {86, 72}}</string>
+			<key>image</key>
+			<string>iPh_bird18.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{29.5, 25}</string>
+				<string>{23.5, 19.5}</string>
+				<string>{15, 19.5}</string>
+				<string>{8, 24.5}</string>
+				<string>{6.5, 30.5}</string>
+				<string>{1, 36}</string>
+				<string>{8.5, 41}</string>
+				<string>{15, 51.5}</string>
+				<string>{24, 59.5}</string>
+				<string>{28.5, 63.5}</string>
+				<string>{32.5, 70.5}</string>
+				<string>{41.5, 70.5}</string>
+				<string>{46.5, 66.5}</string>
+				<string>{64, 62}</string>
+				<string>{77.5, 50.5}</string>
+				<string>{85, 40}</string>
+				<string>{70, 41}</string>
+				<string>{83.5, 11}</string>
+				<string>{78.5, 7.5}</string>
+				<string>{77, 3}</string>
+				<string>{69.5, 0.5}</string>
+				<string>{57.5, 3}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{299, 236}, {92, 53}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{1, 80.5}, {92, 53}}</string>
+			<key>image</key>
+			<string>iPh_bird19.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{39.5, 12.5}</string>
+				<string>{25, 5}</string>
+				<string>{13, 5}</string>
+				<string>{7.5, 8}</string>
+				<string>{1, 10}</string>
+				<string>{6, 17}</string>
+				<string>{7, 32}</string>
+				<string>{23.5, 48.5}</string>
+				<string>{36, 52.5}</string>
+				<string>{52, 51.5}</string>
+				<string>{69, 40.5}</string>
+				<string>{91.5, 40.5}</string>
+				<string>{91.5, 29}</string>
+				<string>{77, 32}</string>
+				<string>{75.5, 25}</string>
+				<string>{71.5, 19}</string>
+				<string>{72, 5.5}</string>
+				<string>{67.5, 0.5}</string>
+				<string>{57, 0.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{299, 207}, {77, 65}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{93, 63}, {77, 65}}</string>
+			<key>image</key>
+			<string>iPh_bird20.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{26, 23}</string>
+				<string>{14.5, 19.5}</string>
+				<string>{10.5, 19.5}</string>
+				<string>{7, 23}</string>
+				<string>{2, 27.5}</string>
+				<string>{8, 28}</string>
+				<string>{10.5, 38.5}</string>
+				<string>{24.5, 53.5}</string>
+				<string>{40, 55.5}</string>
+				<string>{48.5, 51.5}</string>
+				<string>{57, 64}</string>
+				<string>{69, 62.5}</string>
+				<string>{71, 57}</string>
+				<string>{53, 45}</string>
+				<string>{59.5, 40.5}</string>
+				<string>{75.5, 26.5}</string>
+				<string>{76, 22}</string>
+				<string>{51.5, 21.5}</string>
+				<string>{53, 2}</string>
+				<string>{50, 0.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{301.5, 213.5}, {65, 63}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{169, 146}, {65, 63}}</string>
+			<key>image</key>
+			<string>iPh_bird23.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{32.5, 20}</string>
+				<string>{16.5, 30}</string>
+				<string>{9.5, 39.5}</string>
+				<string>{1.5, 44}</string>
+				<string>{2, 47.5}</string>
+				<string>{12, 43.5}</string>
+				<string>{23, 53.5}</string>
+				<string>{20.5, 56.5}</string>
+				<string>{26.5, 61.5}</string>
+				<string>{33, 60}</string>
+				<string>{30.5, 54.5}</string>
+				<string>{41, 53}</string>
+				<string>{48.5, 47.5}</string>
+				<string>{51, 40.5}</string>
+				<string>{61.5, 37.5}</string>
+				<string>{63.5, 34}</string>
+				<string>{55, 26.5}</string>
+				<string>{55, 26.5}</string>
+				<string>{56.5, 25}</string>
+				<string>{64, 22}</string>
+				<string>{61, 17.5}</string>
+				<string>{57.5, 8}</string>
+				<string>{51, 2}</string>
+				<string>{41.5, 1}</string>
+				<string>{34.5, 5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{269, 232}, {64, 50}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{114, 121}, {64, 50}}</string>
+			<key>image</key>
+			<string>iPh_bird26.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{59.5, 14}</string>
+				<string>{53, 7.5}</string>
+				<string>{41, 13.5}</string>
+				<string>{32.5, 11.5}</string>
+				<string>{14.5, 0.5}</string>
+				<string>{11.5, 13}</string>
+				<string>{1.5, 14.5}</string>
+				<string>{6, 24}</string>
+				<string>{15.5, 33}</string>
+				<string>{2.5, 43.5}</string>
+				<string>{12.5, 49.5}</string>
+				<string>{22.5, 37.5}</string>
+				<string>{34.5, 41}</string>
+				<string>{50.5, 36}</string>
+				<string>{62.5, 17}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{309, 209}, {74, 77}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{115.5, 71.5}, {74, 77}}</string>
+			<key>image</key>
+			<string>iPh_bird28.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{40, 8.5}</string>
+				<string>{49, 14}</string>
+				<string>{51.5, 24.5}</string>
+				<string>{48, 32.5}</string>
+				<string>{40.5, 37.5}</string>
+				<string>{54, 47.5}</string>
+				<string>{73.5, 64}</string>
+				<string>{73.5, 68}</string>
+				<string>{63.5, 65.5}</string>
+				<string>{55.5, 60.5}</string>
+				<string>{49, 68}</string>
+				<string>{45.5, 74}</string>
+				<string>{33.5, 74.5}</string>
+				<string>{30, 70.5}</string>
+				<string>{25.5, 65.5}</string>
+				<string>{23, 57.5}</string>
+				<string>{8.5, 51}</string>
+				<string>{1.5, 43.5}</string>
+				<string>{2.5, 44.5}</string>
+				<string>{2.5, 40}</string>
+				<string>{10, 41.5}</string>
+				<string>{25, 46.5}</string>
+				<string>{30, 40}</string>
+				<string>{26.5, 34}</string>
+				<string>{18, 25.5}</string>
+				<string>{20, 16.5}</string>
+				<string>{25.5, 11}</string>
+				<string>{30, 2}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{291.5, 207.5}, {59, 55}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{90, 102}, {59, 55}}</string>
+			<key>image</key>
+			<string>iPh_bird33.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{13, 1.5}</string>
+				<string>{1, 7.5}</string>
+				<string>{8.5, 18}</string>
+				<string>{6, 30}</string>
+				<string>{13, 43}</string>
+				<string>{16.5, 49}</string>
+				<string>{16, 53.5}</string>
+				<string>{31.5, 51}</string>
+				<string>{32.5, 47}</string>
+				<string>{41, 37.5}</string>
+				<string>{45.5, 37.5}</string>
+				<string>{51, 39.5}</string>
+				<string>{55.5, 33}</string>
+				<string>{57, 25.5}</string>
+				<string>{57, 17}</string>
+				<string>{53.5, 17}</string>
+				<string>{49, 14}</string>
+				<string>{39.5, 13.5}</string>
+				<string>{32, 18}</string>
+				<string>{22, 18}</string>
+				<string>{14, 13.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{435.5, 207.5}, {57, 69}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{102, 81}, {57, 69}}</string>
+			<key>image</key>
+			<string>iPh_bird35.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{40, 48}</string>
+				<string>{50.5, 37}</string>
+				<string>{54, 27.5}</string>
+				<string>{53, 12.5}</string>
+				<string>{41.5, 16}</string>
+				<string>{29, 30.5}</string>
+				<string>{26, 23.5}</string>
+				<string>{24.5, 10}</string>
+				<string>{15.5, 2.5}</string>
+				<string>{9.5, 2.5}</string>
+				<string>{8, 11.5}</string>
+				<string>{7.5, 19}</string>
+				<string>{1.5, 28.5}</string>
+				<string>{3, 38}</string>
+				<string>{6.5, 46}</string>
+				<string>{13, 57}</string>
+				<string>{26.5, 60}</string>
+				<string>{29, 66.5}</string>
+				<string>{41.5, 66.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{388, 228}, {54, 61}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{72, 70}, {54, 61}}</string>
+			<key>image</key>
+			<string>iPh_bird36.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{1.5, 14.5}</string>
+				<string>{13.5, 4}</string>
+				<string>{19.5, 6}</string>
+				<string>{33, 14.5}</string>
+				<string>{33, 3.5}</string>
+				<string>{46.5, 3.5}</string>
+				<string>{47.5, 11}</string>
+				<string>{44, 29}</string>
+				<string>{53, 41.5}</string>
+				<string>{52, 57}</string>
+				<string>{41.5, 46.5}</string>
+				<string>{32.5, 44}</string>
+				<string>{27.5, 45.5}</string>
+				<string>{17.5, 58}</string>
+				<string>{4, 60}</string>
+				<string>{9, 50.5}</string>
+				<string>{13.5, 38.5}</string>
+				<string>{5, 38.5}</string>
+				<string>{1.5, 31}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{367.5, 212}, {63, 71}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{157, 64}, {63, 71}}</string>
+			<key>image</key>
+			<string>iPh_bird37.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{38, 5.5}</string>
+				<string>{44.5, 11.5}</string>
+				<string>{47, 19}</string>
+				<string>{46, 30.5}</string>
+				<string>{61, 28.5}</string>
+				<string>{55, 40}</string>
+				<string>{45.5, 47.5}</string>
+				<string>{44, 54.5}</string>
+				<string>{55.5, 52.5}</string>
+				<string>{45.5, 60.5}</string>
+				<string>{50, 67}</string>
+				<string>{43.5, 71.5}</string>
+				<string>{38, 66.5}</string>
+				<string>{33, 61.5}</string>
+				<string>{18.5, 68}</string>
+				<string>{14.5, 62.5}</string>
+				<string>{21.5, 59.5}</string>
+				<string>{21, 54.5}</string>
+				<string>{15, 45.5}</string>
+				<string>{6, 42}</string>
+				<string>{2, 28.5}</string>
+				<string>{3, 23}</string>
+				<string>{17.5, 30}</string>
+				<string>{12, 19}</string>
+				<string>{18, 10}</string>
+				<string>{29, 2}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{293, 209}, {85, 73}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{140, 124}, {85, 73}}</string>
+			<key>image</key>
+			<string>iPh_bird40.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{28, 26}</string>
+				<string>{16.5, 21.5}</string>
+				<string>{8.5, 25}</string>
+				<string>{7, 27.5}</string>
+				<string>{1, 31}</string>
+				<string>{8, 34}</string>
+				<string>{13, 43.5}</string>
+				<string>{21, 55}</string>
+				<string>{31.5, 60.5}</string>
+				<string>{47.5, 60.5}</string>
+				<string>{53.5, 59}</string>
+				<string>{65.5, 72.5}</string>
+				<string>{78.5, 65.5}</string>
+				<string>{59, 49}</string>
+				<string>{68, 45}</string>
+				<string>{77.5, 39}</string>
+				<string>{84, 27}</string>
+				<string>{56, 24}</string>
+				<string>{59, 11.5}</string>
+				<string>{56, 2}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{325.5, 207.5}, {65, 74}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{137, 88}, {65, 74}}</string>
+			<key>image</key>
+			<string>iPh_bird4.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{37, 25}</string>
+				<string>{34.5, 13.5}</string>
+				<string>{26.5, 6.5}</string>
+				<string>{9, 11.5}</string>
+				<string>{8, 1}</string>
+				<string>{1, 19}</string>
+				<string>{0.5, 29}</string>
+				<string>{7, 37.5}</string>
+				<string>{10, 47}</string>
+				<string>{10.5, 59}</string>
+				<string>{17.5, 60.5}</string>
+				<string>{30.5, 63.5}</string>
+				<string>{41, 59.5}</string>
+				<string>{47.5, 65}</string>
+				<string>{52.5, 73}</string>
+				<string>{64, 59}</string>
+				<string>{48, 46}</string>
+				<string>{53.5, 36.5}</string>
+				<string>{59.5, 21.5}</string>
+				<string>{58.5, 5.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{314, 211.5}, {67, 56}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{315.5, 92}, {67, 56}}</string>
+			<key>image</key>
+			<string>iPh_bird6.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{43, 13}</string>
+				<string>{58.5, 13}</string>
+				<string>{66, 9.5}</string>
+				<string>{34.5, 6}</string>
+				<string>{20.5, 2}</string>
+				<string>{11, 5.5}</string>
+				<string>{7.5, 9.5}</string>
+				<string>{3, 10}</string>
+				<string>{5, 15}</string>
+				<string>{7.5, 28}</string>
+				<string>{15.5, 41}</string>
+				<string>{26.5, 47}</string>
+				<string>{25, 53.5}</string>
+				<string>{29.5, 54.5}</string>
+				<string>{29.5, 48}</string>
+				<string>{41, 46}</string>
+				<string>{45, 54.5}</string>
+				<string>{47.5, 45.5}</string>
+				<string>{55.5, 38}</string>
+				<string>{63.5, 29}</string>
+				<string>{65, 15.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{339, 222}, {61, 59}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{272.5, 90}, {61, 59}}</string>
+			<key>image</key>
+			<string>iPh_bird15.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{30, 14}</string>
+				<string>{41, 20}</string>
+				<string>{44.5, 28.5}</string>
+				<string>{56, 18}</string>
+				<string>{59.5, 21.5}</string>
+				<string>{57.5, 31}</string>
+				<string>{46.5, 41}</string>
+				<string>{45, 48}</string>
+				<string>{29.5, 46.5}</string>
+				<string>{28, 57}</string>
+				<string>{19, 53}</string>
+				<string>{19, 44.5}</string>
+				<string>{9, 40.5}</string>
+				<string>{7, 33.5}</string>
+				<string>{4, 23}</string>
+				<string>{0.5, 23.5}</string>
+				<string>{4.5, 14.5}</string>
+				<string>{8, 7}</string>
+				<string>{12.5, 2}</string>
+				<string>{20.5, 1}</string>
+				<string>{27.5, 3}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{240, 215}, {75, 68}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{320.5, 94.5}, {75, 68}}</string>
+			<key>image</key>
+			<string>iPh_bird16.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{50.5, 40.5}</string>
+				<string>{52.5, 30.5}</string>
+				<string>{61.5, 20.5}</string>
+				<string>{70, 11.5}</string>
+				<string>{60.5, 7}</string>
+				<string>{44, 16}</string>
+				<string>{38, 13.5}</string>
+				<string>{43, 1.5}</string>
+				<string>{33, 1.5}</string>
+				<string>{24.5, 11.5}</string>
+				<string>{19.5, 19}</string>
+				<string>{19.5, 26.5}</string>
+				<string>{16, 26.5}</string>
+				<string>{18, 40.5}</string>
+				<string>{16, 42.5}</string>
+				<string>{22, 50}</string>
+				<string>{3.5, 64}</string>
+				<string>{14.5, 64.5}</string>
+				<string>{15.5, 67.5}</string>
+				<string>{30.5, 59.5}</string>
+				<string>{43.5, 59}</string>
+				<string>{56.5, 50.5}</string>
+				<string>{63, 45}</string>
+				<string>{73.5, 40.5}</string>
+				<string>{62.5, 37}</string>
+				<string>{57, 37}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{308, 208.5}, {86, 72}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{213.5, 63.5}, {86, 72}}</string>
+			<key>image</key>
+			<string>iPh_bird18.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{29.5, 25}</string>
+				<string>{23.5, 19.5}</string>
+				<string>{15, 19.5}</string>
+				<string>{8, 24.5}</string>
+				<string>{6.5, 30.5}</string>
+				<string>{1, 36}</string>
+				<string>{8.5, 41}</string>
+				<string>{15, 51.5}</string>
+				<string>{24, 59.5}</string>
+				<string>{28.5, 63.5}</string>
+				<string>{32.5, 70.5}</string>
+				<string>{41.5, 70.5}</string>
+				<string>{46.5, 66.5}</string>
+				<string>{64, 62}</string>
+				<string>{77.5, 50.5}</string>
+				<string>{85, 40}</string>
+				<string>{70, 41}</string>
+				<string>{83.5, 11}</string>
+				<string>{78.5, 7.5}</string>
+				<string>{77, 3}</string>
+				<string>{69.5, 0.5}</string>
+				<string>{57.5, 3}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{299, 236}, {92, 53}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{370, 93.5}, {92, 53}}</string>
+			<key>image</key>
+			<string>iPh_bird19.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{39.5, 12.5}</string>
+				<string>{25, 5}</string>
+				<string>{13, 5}</string>
+				<string>{7.5, 8}</string>
+				<string>{1, 10}</string>
+				<string>{6, 17}</string>
+				<string>{7, 32}</string>
+				<string>{23.5, 48.5}</string>
+				<string>{36, 52.5}</string>
+				<string>{52, 51.5}</string>
+				<string>{69, 40.5}</string>
+				<string>{91.5, 40.5}</string>
+				<string>{91.5, 29}</string>
+				<string>{77, 32}</string>
+				<string>{75.5, 25}</string>
+				<string>{71.5, 19}</string>
+				<string>{72, 5.5}</string>
+				<string>{67.5, 0.5}</string>
+				<string>{57, 0.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{299, 207}, {77, 65}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBird</string>
+			<key>frame</key>
+			<string>{{236, 133.5}, {77, 65}}</string>
+			<key>image</key>
+			<string>iPh_bird20.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{26, 23}</string>
+				<string>{14.5, 19.5}</string>
+				<string>{10.5, 19.5}</string>
+				<string>{7, 23}</string>
+				<string>{2, 27.5}</string>
+				<string>{8, 28}</string>
+				<string>{10.5, 38.5}</string>
+				<string>{24.5, 53.5}</string>
+				<string>{40, 55.5}</string>
+				<string>{48.5, 51.5}</string>
+				<string>{57, 64}</string>
+				<string>{69, 62.5}</string>
+				<string>{71, 57}</string>
+				<string>{53, 45}</string>
+				<string>{59.5, 40.5}</string>
+				<string>{75.5, 26.5}</string>
+				<string>{76, 22}</string>
+				<string>{51.5, 21.5}</string>
+				<string>{53, 2}</string>
+				<string>{50, 0.5}</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

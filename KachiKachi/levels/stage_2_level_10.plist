@@ -19,7 +19,7 @@
 			<key>class</key>
 			<string>TTKite</string>
 			<key>frame</key>
-			<string>{{150, 107}, {123, 121}}</string>
+			<string>{{87.5, 166.5}, {123, 121}}</string>
 			<key>image</key>
 			<string>iPh_kite1.png</string>
 			<key>isPicked</key>
@@ -52,7 +52,7 @@
 			<key>class</key>
 			<string>TTKite</string>
 			<key>frame</key>
-			<string>{{160.5, 82}, {161, 100}}</string>
+			<string>{{145, 154}, {161, 100}}</string>
 			<key>image</key>
 			<string>iPh_kite2.png</string>
 			<key>isPicked</key>
@@ -111,7 +111,7 @@
 			<key>class</key>
 			<string>TTKite</string>
 			<key>frame</key>
-			<string>{{194.5, 160.5}, {90, 111}}</string>
+			<string>{{84.5, 145}, {90, 111}}</string>
 			<key>image</key>
 			<string>iPh_kite4.png</string>
 			<key>isPicked</key>
@@ -139,7 +139,7 @@
 			<key>class</key>
 			<string>TTKite</string>
 			<key>frame</key>
-			<string>{{190.5, 140.5}, {130, 82}}</string>
+			<string>{{163, 180.5}, {130, 82}}</string>
 			<key>image</key>
 			<string>iPh_kite7.png</string>
 			<key>isPicked</key>
@@ -176,7 +176,7 @@
 			<key>class</key>
 			<string>TTKite</string>
 			<key>frame</key>
-			<string>{{195.5, 67.5}, {65, 149}}</string>
+			<string>{{122.5, 111}, {65, 149}}</string>
 			<key>image</key>
 			<string>iPh_kite14.png</string>
 			<key>isPicked</key>
@@ -214,7 +214,7 @@
 			<key>class</key>
 			<string>TTKite</string>
 			<key>frame</key>
-			<string>{{235.5, 164}, {82, 80}}</string>
+			<string>{{148, 139}, {82, 80}}</string>
 			<key>image</key>
 			<string>iPh_kite16.png</string>
 			<key>isPicked</key>
@@ -245,7 +245,7 @@
 			<key>class</key>
 			<string>TTKite</string>
 			<key>frame</key>
-			<string>{{165, 156.5}, {98, 90}}</string>
+			<string>{{114, 167}, {98, 90}}</string>
 			<key>image</key>
 			<string>iPh_kite18.png</string>
 			<key>isPicked</key>
@@ -340,7 +340,7 @@
 			<key>class</key>
 			<string>TTKite</string>
 			<key>frame</key>
-			<string>{{260, 122}, {76, 78}}</string>
+			<string>{{166, 181.5}, {76, 78}}</string>
 			<key>image</key>
 			<string>iPh_kite21.png</string>
 			<key>isPicked</key>
@@ -378,7 +378,7 @@
 			<key>class</key>
 			<string>TTKite</string>
 			<key>frame</key>
-			<string>{{218, 160}, {51, 87}}</string>
+			<string>{{148, 187.5}, {51, 87}}</string>
 			<key>image</key>
 			<string>iPh_kite22.png</string>
 			<key>isPicked</key>
@@ -407,40 +407,7 @@
 			<key>class</key>
 			<string>TTKite</string>
 			<key>frame</key>
-			<string>{{111, 68}, {123, 121}}</string>
-			<key>image</key>
-			<string>iPh_kite1.png</string>
-			<key>isPicked</key>
-			<false/>
-			<key>touchPoints</key>
-			<array>
-				<string>{74, 22.5}</string>
-				<string>{30, 2.5}</string>
-				<string>{3, 38.5}</string>
-				<string>{54, 101.5}</string>
-				<string>{54, 109.5}</string>
-				<string>{115.5, 113}</string>
-				<string>{119.5, 111.5}</string>
-				<string>{117, 103.5}</string>
-				<string>{101.5, 99.5}</string>
-				<string>{84, 102}</string>
-				<string>{57.5, 96.5}</string>
-			</array>
-		</dict>
-		<dict>
-			<key>animation</key>
-			<dict>
-				<key>frame</key>
-				<string>{{0, 0}, {0, 0}}</string>
-				<key>rotateAngle</key>
-				<string>0.000000</string>
-				<key>scale</key>
-				<string>0.000000</string>
-			</dict>
-			<key>class</key>
-			<string>TTKite</string>
-			<key>frame</key>
-			<string>{{98.5, 188}, {161, 100}}</string>
+			<string>{{70, 52.5}, {161, 100}}</string>
 			<key>image</key>
 			<string>iPh_kite2.png</string>
 			<key>isPicked</key>
@@ -499,7 +466,7 @@
 			<key>class</key>
 			<string>TTKite</string>
 			<key>frame</key>
-			<string>{{125.5, 144}, {90, 111}}</string>
+			<string>{{49, 71.5}, {90, 111}}</string>
 			<key>image</key>
 			<string>iPh_kite4.png</string>
 			<key>isPicked</key>
@@ -527,7 +494,7 @@
 			<key>class</key>
 			<string>TTKite</string>
 			<key>frame</key>
-			<string>{{126, 199.5}, {130, 82}}</string>
+			<string>{{195.5, 43}, {130, 82}}</string>
 			<key>image</key>
 			<string>iPh_kite7.png</string>
 			<key>isPicked</key>
@@ -564,7 +531,7 @@
 			<key>class</key>
 			<string>TTKite</string>
 			<key>frame</key>
-			<string>{{290.5, 49.5}, {65, 149}}</string>
+			<string>{{399.5, 66.5}, {65, 149}}</string>
 			<key>image</key>
 			<string>iPh_kite14.png</string>
 			<key>isPicked</key>
@@ -602,7 +569,7 @@
 			<key>class</key>
 			<string>TTKite</string>
 			<key>frame</key>
-			<string>{{329, 171.5}, {82, 80}}</string>
+			<string>{{216.5, 55.5}, {82, 80}}</string>
 			<key>image</key>
 			<string>iPh_kite16.png</string>
 			<key>isPicked</key>
@@ -633,7 +600,7 @@
 			<key>class</key>
 			<string>TTKite</string>
 			<key>frame</key>
-			<string>{{269, 199}, {98, 90}}</string>
+			<string>{{76, 98.5}, {98, 90}}</string>
 			<key>image</key>
 			<string>iPh_kite18.png</string>
 			<key>isPicked</key>
@@ -687,7 +654,7 @@
 			<key>class</key>
 			<string>TTKite</string>
 			<key>frame</key>
-			<string>{{248.5, 175.5}, {47, 107}}</string>
+			<string>{{92.5, 83.5}, {47, 107}}</string>
 			<key>image</key>
 			<string>iPh_kite20.png</string>
 			<key>isPicked</key>
@@ -728,7 +695,7 @@
 			<key>class</key>
 			<string>TTKite</string>
 			<key>frame</key>
-			<string>{{366.5, 104}, {76, 78}}</string>
+			<string>{{93.5, 73}, {76, 78}}</string>
 			<key>image</key>
 			<string>iPh_kite21.png</string>
 			<key>isPicked</key>
@@ -766,7 +733,7 @@
 			<key>class</key>
 			<string>TTKite</string>
 			<key>frame</key>
-			<string>{{268.5, 61.5}, {51, 87}}</string>
+			<string>{{122, 38.5}, {51, 87}}</string>
 			<key>image</key>
 			<string>iPh_kite22.png</string>
 			<key>isPicked</key>
@@ -795,40 +762,7 @@
 			<key>class</key>
 			<string>TTKite</string>
 			<key>frame</key>
-			<string>{{290, 151.5}, {123, 121}}</string>
-			<key>image</key>
-			<string>iPh_kite1.png</string>
-			<key>isPicked</key>
-			<false/>
-			<key>touchPoints</key>
-			<array>
-				<string>{74, 22.5}</string>
-				<string>{30, 2.5}</string>
-				<string>{3, 38.5}</string>
-				<string>{54, 101.5}</string>
-				<string>{54, 109.5}</string>
-				<string>{115.5, 113}</string>
-				<string>{119.5, 111.5}</string>
-				<string>{117, 103.5}</string>
-				<string>{101.5, 99.5}</string>
-				<string>{84, 102}</string>
-				<string>{57.5, 96.5}</string>
-			</array>
-		</dict>
-		<dict>
-			<key>animation</key>
-			<dict>
-				<key>frame</key>
-				<string>{{0, 0}, {0, 0}}</string>
-				<key>rotateAngle</key>
-				<string>0.000000</string>
-				<key>scale</key>
-				<string>0.000000</string>
-			</dict>
-			<key>class</key>
-			<string>TTKite</string>
-			<key>frame</key>
-			<string>{{243, 93}, {161, 100}}</string>
+			<string>{{304.5, 181.5}, {161, 100}}</string>
 			<key>image</key>
 			<string>iPh_kite2.png</string>
 			<key>isPicked</key>
@@ -887,7 +821,7 @@
 			<key>class</key>
 			<string>TTKite</string>
 			<key>frame</key>
-			<string>{{226, 67.5}, {90, 111}}</string>
+			<string>{{312, 57}, {90, 111}}</string>
 			<key>image</key>
 			<string>iPh_kite4.png</string>
 			<key>isPicked</key>
@@ -915,7 +849,7 @@
 			<key>class</key>
 			<string>TTKite</string>
 			<key>frame</key>
-			<string>{{299, 124.5}, {130, 82}}</string>
+			<string>{{101, 91.5}, {130, 82}}</string>
 			<key>image</key>
 			<string>iPh_kite7.png</string>
 			<key>isPicked</key>
@@ -952,7 +886,7 @@
 			<key>class</key>
 			<string>TTKite</string>
 			<key>frame</key>
-			<string>{{271, 116}, {65, 149}}</string>
+			<string>{{248, 137.5}, {65, 149}}</string>
 			<key>image</key>
 			<string>iPh_kite14.png</string>
 			<key>isPicked</key>
@@ -990,7 +924,7 @@
 			<key>class</key>
 			<string>TTKite</string>
 			<key>frame</key>
-			<string>{{264, 182}, {82, 80}}</string>
+			<string>{{75.5, 156}, {82, 80}}</string>
 			<key>image</key>
 			<string>iPh_kite16.png</string>
 			<key>isPicked</key>
@@ -1021,7 +955,7 @@
 			<key>class</key>
 			<string>TTKite</string>
 			<key>frame</key>
-			<string>{{134.5, 75}, {98, 90}}</string>
+			<string>{{256.5, 58.5}, {98, 90}}</string>
 			<key>image</key>
 			<string>iPh_kite18.png</string>
 			<key>isPicked</key>
@@ -1075,7 +1009,7 @@
 			<key>class</key>
 			<string>TTKite</string>
 			<key>frame</key>
-			<string>{{200, 80}, {47, 107}}</string>
+			<string>{{99, 178}, {47, 107}}</string>
 			<key>image</key>
 			<string>iPh_kite20.png</string>
 			<key>isPicked</key>
@@ -1101,6 +1035,945 @@
 				<string>{44.5, 24.5}</string>
 				<string>{46, 19.5}</string>
 				<string>{38.5, 17}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{386.5, 210.5}, {76, 78}}</string>
+			<key>image</key>
+			<string>iPh_kite21.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{73.5, 1.5}</string>
+				<string>{40.5, 2}</string>
+				<string>{36.5, 6}</string>
+				<string>{33.5, 17.5}</string>
+				<string>{9, 42.5}</string>
+				<string>{45, 9.5}</string>
+				<string>{50, 16}</string>
+				<string>{25.5, 41.5}</string>
+				<string>{8, 51.5}</string>
+				<string>{1, 68}</string>
+				<string>{6, 75.5}</string>
+				<string>{9, 55}</string>
+				<string>{61.5, 24.5}</string>
+				<string>{68, 31.5}</string>
+				<string>{40, 60}</string>
+				<string>{74.5, 39}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{181, 34}, {51, 87}}</string>
+			<key>image</key>
+			<string>iPh_kite22.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{50, 17.5}</string>
+				<string>{25, 1.5}</string>
+				<string>{1, 20}</string>
+				<string>{25.5, 59.5}</string>
+				<string>{23, 86}</string>
+				<string>{31.5, 86.5}</string>
+				<string>{28.5, 57.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{309.5, 92.5}, {161, 100}}</string>
+			<key>image</key>
+			<string>iPh_kite2.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{74, 76}</string>
+				<string>{159, 60}</string>
+				<string>{156, 10.5}</string>
+				<string>{159.5, 2}</string>
+				<string>{153, 8}</string>
+				<string>{99, 7}</string>
+				<string>{90, 2.5}</string>
+				<string>{93.5, 8}</string>
+				<string>{91.5, 37.5}</string>
+				<string>{68, 67.5}</string>
+				<string>{72.5, 56}</string>
+				<string>{56.5, 57}</string>
+				<string>{56, 66.5}</string>
+				<string>{50.5, 70}</string>
+				<string>{41, 71.5}</string>
+				<string>{41.5, 79.5}</string>
+				<string>{27, 78.5}</string>
+				<string>{25.5, 68.5}</string>
+				<string>{15, 62.5}</string>
+				<string>{6.5, 69}</string>
+				<string>{18.5, 79}</string>
+				<string>{1.5, 86}</string>
+				<string>{4.5, 100}</string>
+				<string>{15, 100}</string>
+				<string>{13.5, 96.5}</string>
+				<string>{6.5, 94.5}</string>
+				<string>{11, 86.5}</string>
+				<string>{18.5, 83}</string>
+				<string>{22.5, 88.5}</string>
+				<string>{22.5, 91}</string>
+				<string>{35.5, 89.5}</string>
+				<string>{31, 83.5}</string>
+				<string>{41, 85.5}</string>
+				<string>{43, 96}</string>
+				<string>{57.5, 96}</string>
+				<string>{55, 89}</string>
+				<string>{73.5, 81}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{191, 51.5}, {90, 111}}</string>
+			<key>image</key>
+			<string>iPh_kite4.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{46.5, 1}</string>
+				<string>{1.5, 28}</string>
+				<string>{45, 100}</string>
+				<string>{45.5, 110.5}</string>
+				<string>{48.5, 96}</string>
+				<string>{89.5, 31}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{337, 71}, {130, 82}}</string>
+			<key>image</key>
+			<string>iPh_kite7.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{63.5, 1}</string>
+				<string>{36, 24}</string>
+				<string>{17.5, 44.5}</string>
+				<string>{2, 71.5}</string>
+				<string>{38.5, 44.5}</string>
+				<string>{53.5, 50}</string>
+				<string>{62.5, 59.5}</string>
+				<string>{62.5, 81.5}</string>
+				<string>{66.5, 81.5}</string>
+				<string>{67, 59.5}</string>
+				<string>{84.5, 45.5}</string>
+				<string>{94, 47}</string>
+				<string>{115.5, 58}</string>
+				<string>{130, 69.5}</string>
+				<string>{111.5, 42.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{223.5, 139.5}, {65, 149}}</string>
+			<key>image</key>
+			<string>iPh_kite14.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{63.5, 36.5}</string>
+				<string>{33, 2.5}</string>
+				<string>{1.5, 37.5}</string>
+				<string>{31, 72}</string>
+				<string>{22.5, 75}</string>
+				<string>{14, 96.5}</string>
+				<string>{21.5, 112}</string>
+				<string>{28, 108.5}</string>
+				<string>{33.5, 119}</string>
+				<string>{2.5, 146}</string>
+				<string>{5, 148}</string>
+				<string>{35, 128.5}</string>
+				<string>{36.5, 113.5}</string>
+				<string>{33.5, 109}</string>
+				<string>{38.5, 73.5}</string>
+				<string>{36.5, 70.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{307, 77}, {82, 80}}</string>
+			<key>image</key>
+			<string>iPh_kite16.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{44, 58}</string>
+				<string>{81.5, 40.5}</string>
+				<string>{65.5, 3}</string>
+				<string>{24.5, 17}</string>
+				<string>{38.5, 56.5}</string>
+				<string>{32.5, 67}</string>
+				<string>{18, 71.5}</string>
+				<string>{6, 75.5}</string>
+				<string>{25, 75}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{221.5, 74}, {98, 90}}</string>
+			<key>image</key>
+			<string>iPh_kite18.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{74.5, 2}</string>
+				<string>{79, 18}</string>
+				<string>{96.5, 32}</string>
+				<string>{97.5, 39.5}</string>
+				<string>{92, 40.5}</string>
+				<string>{80, 41.5}</string>
+				<string>{75.5, 45}</string>
+				<string>{68, 53.5}</string>
+				<string>{60, 69.5}</string>
+				<string>{59.5, 86.5}</string>
+				<string>{55, 87.5}</string>
+				<string>{52.5, 80}</string>
+				<string>{55.5, 62.5}</string>
+				<string>{64.5, 51}</string>
+				<string>{57, 49.5}</string>
+				<string>{53, 55}</string>
+				<string>{42.5, 64.5}</string>
+				<string>{31, 73}</string>
+				<string>{10.5, 84}</string>
+				<string>{2.5, 87.5}</string>
+				<string>{51.5, 48}</string>
+				<string>{47.5, 45.5}</string>
+				<string>{41, 41}</string>
+				<string>{10, 60}</string>
+				<string>{4, 53.5}</string>
+				<string>{11, 53.5}</string>
+				<string>{23.5, 46.5}</string>
+				<string>{44.5, 23.5}</string>
+				<string>{36.5, 13.5}</string>
+				<string>{34.5, 5}</string>
+				<string>{47, 3.5}</string>
+				<string>{59, 6.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{166, 87}, {47, 107}}</string>
+			<key>image</key>
+			<string>iPh_kite20.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{28.5, 1}</string>
+				<string>{8.5, 11}</string>
+				<string>{1, 5}</string>
+				<string>{2, 14.5}</string>
+				<string>{7.5, 15.5}</string>
+				<string>{13.5, 45.5}</string>
+				<string>{5, 61}</string>
+				<string>{8, 69}</string>
+				<string>{10, 80}</string>
+				<string>{4, 88.5}</string>
+				<string>{12, 107}</string>
+				<string>{8, 89.5}</string>
+				<string>{13.5, 78}</string>
+				<string>{10, 62.5}</string>
+				<string>{18, 45}</string>
+				<string>{38.5, 23.5}</string>
+				<string>{44.5, 24.5}</string>
+				<string>{46, 19.5}</string>
+				<string>{38.5, 17}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{342, 202.5}, {76, 78}}</string>
+			<key>image</key>
+			<string>iPh_kite21.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{73.5, 1.5}</string>
+				<string>{40.5, 2}</string>
+				<string>{36.5, 6}</string>
+				<string>{33.5, 17.5}</string>
+				<string>{9, 42.5}</string>
+				<string>{45, 9.5}</string>
+				<string>{50, 16}</string>
+				<string>{25.5, 41.5}</string>
+				<string>{8, 51.5}</string>
+				<string>{1, 68}</string>
+				<string>{6, 75.5}</string>
+				<string>{9, 55}</string>
+				<string>{61.5, 24.5}</string>
+				<string>{68, 31.5}</string>
+				<string>{40, 60}</string>
+				<string>{74.5, 39}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{289, 192.5}, {51, 87}}</string>
+			<key>image</key>
+			<string>iPh_kite22.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{50, 17.5}</string>
+				<string>{25, 1.5}</string>
+				<string>{1, 20}</string>
+				<string>{25.5, 59.5}</string>
+				<string>{23, 86}</string>
+				<string>{31.5, 86.5}</string>
+				<string>{28.5, 57.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{297.5, 145}, {161, 100}}</string>
+			<key>image</key>
+			<string>iPh_kite2.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{74, 76}</string>
+				<string>{159, 60}</string>
+				<string>{156, 10.5}</string>
+				<string>{159.5, 2}</string>
+				<string>{153, 8}</string>
+				<string>{99, 7}</string>
+				<string>{90, 2.5}</string>
+				<string>{93.5, 8}</string>
+				<string>{91.5, 37.5}</string>
+				<string>{68, 67.5}</string>
+				<string>{72.5, 56}</string>
+				<string>{56.5, 57}</string>
+				<string>{56, 66.5}</string>
+				<string>{50.5, 70}</string>
+				<string>{41, 71.5}</string>
+				<string>{41.5, 79.5}</string>
+				<string>{27, 78.5}</string>
+				<string>{25.5, 68.5}</string>
+				<string>{15, 62.5}</string>
+				<string>{6.5, 69}</string>
+				<string>{18.5, 79}</string>
+				<string>{1.5, 86}</string>
+				<string>{4.5, 100}</string>
+				<string>{15, 100}</string>
+				<string>{13.5, 96.5}</string>
+				<string>{6.5, 94.5}</string>
+				<string>{11, 86.5}</string>
+				<string>{18.5, 83}</string>
+				<string>{22.5, 88.5}</string>
+				<string>{22.5, 91}</string>
+				<string>{35.5, 89.5}</string>
+				<string>{31, 83.5}</string>
+				<string>{41, 85.5}</string>
+				<string>{43, 96}</string>
+				<string>{57.5, 96}</string>
+				<string>{55, 89}</string>
+				<string>{73.5, 81}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{324.5, 113.5}, {90, 111}}</string>
+			<key>image</key>
+			<string>iPh_kite4.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{46.5, 1}</string>
+				<string>{1.5, 28}</string>
+				<string>{45, 100}</string>
+				<string>{45.5, 110.5}</string>
+				<string>{48.5, 96}</string>
+				<string>{89.5, 31}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{267, 175}, {130, 82}}</string>
+			<key>image</key>
+			<string>iPh_kite7.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{63.5, 1}</string>
+				<string>{36, 24}</string>
+				<string>{17.5, 44.5}</string>
+				<string>{2, 71.5}</string>
+				<string>{38.5, 44.5}</string>
+				<string>{53.5, 50}</string>
+				<string>{62.5, 59.5}</string>
+				<string>{62.5, 81.5}</string>
+				<string>{66.5, 81.5}</string>
+				<string>{67, 59.5}</string>
+				<string>{84.5, 45.5}</string>
+				<string>{94, 47}</string>
+				<string>{115.5, 58}</string>
+				<string>{130, 69.5}</string>
+				<string>{111.5, 42.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{264, 133.5}, {65, 149}}</string>
+			<key>image</key>
+			<string>iPh_kite14.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{63.5, 36.5}</string>
+				<string>{33, 2.5}</string>
+				<string>{1.5, 37.5}</string>
+				<string>{31, 72}</string>
+				<string>{22.5, 75}</string>
+				<string>{14, 96.5}</string>
+				<string>{21.5, 112}</string>
+				<string>{28, 108.5}</string>
+				<string>{33.5, 119}</string>
+				<string>{2.5, 146}</string>
+				<string>{5, 148}</string>
+				<string>{35, 128.5}</string>
+				<string>{36.5, 113.5}</string>
+				<string>{33.5, 109}</string>
+				<string>{38.5, 73.5}</string>
+				<string>{36.5, 70.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{201, 197.5}, {82, 80}}</string>
+			<key>image</key>
+			<string>iPh_kite16.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{44, 58}</string>
+				<string>{81.5, 40.5}</string>
+				<string>{65.5, 3}</string>
+				<string>{24.5, 17}</string>
+				<string>{38.5, 56.5}</string>
+				<string>{32.5, 67}</string>
+				<string>{18, 71.5}</string>
+				<string>{6, 75.5}</string>
+				<string>{25, 75}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{261, 158.5}, {98, 90}}</string>
+			<key>image</key>
+			<string>iPh_kite18.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{74.5, 2}</string>
+				<string>{79, 18}</string>
+				<string>{96.5, 32}</string>
+				<string>{97.5, 39.5}</string>
+				<string>{92, 40.5}</string>
+				<string>{80, 41.5}</string>
+				<string>{75.5, 45}</string>
+				<string>{68, 53.5}</string>
+				<string>{60, 69.5}</string>
+				<string>{59.5, 86.5}</string>
+				<string>{55, 87.5}</string>
+				<string>{52.5, 80}</string>
+				<string>{55.5, 62.5}</string>
+				<string>{64.5, 51}</string>
+				<string>{57, 49.5}</string>
+				<string>{53, 55}</string>
+				<string>{42.5, 64.5}</string>
+				<string>{31, 73}</string>
+				<string>{10.5, 84}</string>
+				<string>{2.5, 87.5}</string>
+				<string>{51.5, 48}</string>
+				<string>{47.5, 45.5}</string>
+				<string>{41, 41}</string>
+				<string>{10, 60}</string>
+				<string>{4, 53.5}</string>
+				<string>{11, 53.5}</string>
+				<string>{23.5, 46.5}</string>
+				<string>{44.5, 23.5}</string>
+				<string>{36.5, 13.5}</string>
+				<string>{34.5, 5}</string>
+				<string>{47, 3.5}</string>
+				<string>{59, 6.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{251.5, 167.5}, {47, 107}}</string>
+			<key>image</key>
+			<string>iPh_kite20.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{28.5, 1}</string>
+				<string>{8.5, 11}</string>
+				<string>{1, 5}</string>
+				<string>{2, 14.5}</string>
+				<string>{7.5, 15.5}</string>
+				<string>{13.5, 45.5}</string>
+				<string>{5, 61}</string>
+				<string>{8, 69}</string>
+				<string>{10, 80}</string>
+				<string>{4, 88.5}</string>
+				<string>{12, 107}</string>
+				<string>{8, 89.5}</string>
+				<string>{13.5, 78}</string>
+				<string>{10, 62.5}</string>
+				<string>{18, 45}</string>
+				<string>{38.5, 23.5}</string>
+				<string>{44.5, 24.5}</string>
+				<string>{46, 19.5}</string>
+				<string>{38.5, 17}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{266.5, 155.5}, {76, 78}}</string>
+			<key>image</key>
+			<string>iPh_kite21.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{73.5, 1.5}</string>
+				<string>{40.5, 2}</string>
+				<string>{36.5, 6}</string>
+				<string>{33.5, 17.5}</string>
+				<string>{9, 42.5}</string>
+				<string>{45, 9.5}</string>
+				<string>{50, 16}</string>
+				<string>{25.5, 41.5}</string>
+				<string>{8, 51.5}</string>
+				<string>{1, 68}</string>
+				<string>{6, 75.5}</string>
+				<string>{9, 55}</string>
+				<string>{61.5, 24.5}</string>
+				<string>{68, 31.5}</string>
+				<string>{40, 60}</string>
+				<string>{74.5, 39}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{259, 132.5}, {51, 87}}</string>
+			<key>image</key>
+			<string>iPh_kite22.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{50, 17.5}</string>
+				<string>{25, 1.5}</string>
+				<string>{1, 20}</string>
+				<string>{25.5, 59.5}</string>
+				<string>{23, 86}</string>
+				<string>{31.5, 86.5}</string>
+				<string>{28.5, 57.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{199, 99}, {161, 100}}</string>
+			<key>image</key>
+			<string>iPh_kite2.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{74, 76}</string>
+				<string>{159, 60}</string>
+				<string>{156, 10.5}</string>
+				<string>{159.5, 2}</string>
+				<string>{153, 8}</string>
+				<string>{99, 7}</string>
+				<string>{90, 2.5}</string>
+				<string>{93.5, 8}</string>
+				<string>{91.5, 37.5}</string>
+				<string>{68, 67.5}</string>
+				<string>{72.5, 56}</string>
+				<string>{56.5, 57}</string>
+				<string>{56, 66.5}</string>
+				<string>{50.5, 70}</string>
+				<string>{41, 71.5}</string>
+				<string>{41.5, 79.5}</string>
+				<string>{27, 78.5}</string>
+				<string>{25.5, 68.5}</string>
+				<string>{15, 62.5}</string>
+				<string>{6.5, 69}</string>
+				<string>{18.5, 79}</string>
+				<string>{1.5, 86}</string>
+				<string>{4.5, 100}</string>
+				<string>{15, 100}</string>
+				<string>{13.5, 96.5}</string>
+				<string>{6.5, 94.5}</string>
+				<string>{11, 86.5}</string>
+				<string>{18.5, 83}</string>
+				<string>{22.5, 88.5}</string>
+				<string>{22.5, 91}</string>
+				<string>{35.5, 89.5}</string>
+				<string>{31, 83.5}</string>
+				<string>{41, 85.5}</string>
+				<string>{43, 96}</string>
+				<string>{57.5, 96}</string>
+				<string>{55, 89}</string>
+				<string>{73.5, 81}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{193, 89.5}, {90, 111}}</string>
+			<key>image</key>
+			<string>iPh_kite4.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{46.5, 1}</string>
+				<string>{1.5, 28}</string>
+				<string>{45, 100}</string>
+				<string>{45.5, 110.5}</string>
+				<string>{48.5, 96}</string>
+				<string>{89.5, 31}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{70, 198.5}, {130, 82}}</string>
+			<key>image</key>
+			<string>iPh_kite7.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{63.5, 1}</string>
+				<string>{36, 24}</string>
+				<string>{17.5, 44.5}</string>
+				<string>{2, 71.5}</string>
+				<string>{38.5, 44.5}</string>
+				<string>{53.5, 50}</string>
+				<string>{62.5, 59.5}</string>
+				<string>{62.5, 81.5}</string>
+				<string>{66.5, 81.5}</string>
+				<string>{67, 59.5}</string>
+				<string>{84.5, 45.5}</string>
+				<string>{94, 47}</string>
+				<string>{115.5, 58}</string>
+				<string>{130, 69.5}</string>
+				<string>{111.5, 42.5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{98, 133}, {65, 149}}</string>
+			<key>image</key>
+			<string>iPh_kite14.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{63.5, 36.5}</string>
+				<string>{33, 2.5}</string>
+				<string>{1.5, 37.5}</string>
+				<string>{31, 72}</string>
+				<string>{22.5, 75}</string>
+				<string>{14, 96.5}</string>
+				<string>{21.5, 112}</string>
+				<string>{28, 108.5}</string>
+				<string>{33.5, 119}</string>
+				<string>{2.5, 146}</string>
+				<string>{5, 148}</string>
+				<string>{35, 128.5}</string>
+				<string>{36.5, 113.5}</string>
+				<string>{33.5, 109}</string>
+				<string>{38.5, 73.5}</string>
+				<string>{36.5, 70.5}</string>
 			</array>
 		</dict>
 	</array>
