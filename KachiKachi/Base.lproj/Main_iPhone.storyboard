@@ -176,7 +176,178 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FDB-5T-ale" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="11" y="474"/>
+            <point key="canvasLocation" x="-531" y="284"/>
+        </scene>
+        <!--Game Over View Controller-->
+        <scene sceneID="sxF-Xp-IVR">
+            <objects>
+                <viewController storyboardIdentifier="KKGameOverViewController" id="S9i-9d-X6V" customClass="KKGameOverViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DdB-pc-UF5">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="dA1-qM-ZPj">
+                                <rect key="frame" x="84" y="30" width="400" height="260"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Menu_bg" id="CdG-CL-lqZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="400" height="260"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="J7j-wz-HuB">
+                                        <rect key="frame" x="150" y="119" width="100" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <state key="normal" title="Twitter">
+                                            <color key="titleColor" red="0.031372550870000002" green="0.16862745579999999" blue="0.95294123890000004" alpha="1" colorSpace="deviceRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="twitterAction:" destination="S9i-9d-X6V" eventType="touchUpInside" id="q2V-qU-Ju7"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score: " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="btj-sS-ZDI">
+                                        <rect key="frame" x="80" y="39" width="120" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                        <color key="textColor" red="0.86274516580000005" green="0.60000002379999995" blue="0.13725490870000001" alpha="1" colorSpace="deviceRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="HmZ-yl-trX">
+                                        <rect key="frame" x="201" y="39" width="120" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <color key="textColor" red="0.86274516580000005" green="0.60000002379999995" blue="0.13725490870000001" alpha="1" colorSpace="deviceRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Best score:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="EpY-n2-4KD">
+                                        <rect key="frame" x="80" y="64" width="120" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                        <color key="textColor" red="0.86274516580000005" green="0.60000002379999995" blue="0.13725490870000001" alpha="1" colorSpace="deviceRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Z9f-uW-3zb">
+                                        <rect key="frame" x="201" y="64" width="120" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <color key="textColor" red="0.86274516580000005" green="0.60000002379999995" blue="0.13725490870000001" alpha="1" colorSpace="deviceRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ranking:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="d7T-eK-2hU">
+                                        <rect key="frame" x="80" y="89" width="120" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                        <color key="textColor" red="0.86274516580000005" green="0.60000002379999995" blue="0.13725490870000001" alpha="1" colorSpace="deviceRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="V8O-oa-P9H">
+                                        <rect key="frame" x="201" y="89" width="120" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <color key="textColor" red="0.86274516580000005" green="0.60000002379999995" blue="0.13725490870000001" alpha="1" colorSpace="deviceRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="mVG-tx-arz">
+                                        <rect key="frame" x="140" y="224" width="120" height="32"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                        <state key="normal" title="Main Menu">
+                                            <color key="titleColor" red="0.031372550870000002" green="0.16862745579999999" blue="0.95294123890000004" alpha="1" colorSpace="deviceRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="mainMenuAction:" destination="S9i-9d-X6V" eventType="touchUpInside" id="drq-HT-fsd"/>
+                                            <action selector="replayAction:" destination="S9i-9d-X6V" eventType="touchUpInside" id="gZc-gt-6Ki"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="iwG-WW-kO0">
+                                        <rect key="frame" x="140" y="190" width="120" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                        <state key="normal" title="Replay">
+                                            <color key="titleColor" red="0.031372550870000002" green="0.16862745579999999" blue="0.95294123890000004" alpha="1" colorSpace="deviceRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="replayAction:" destination="S9i-9d-X6V" eventType="touchUpInside" id="avO-xO-3XV"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="eaB-g5-DmF">
+                                        <rect key="frame" x="140" y="155" width="120" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                        <state key="normal" title="Next Level">
+                                            <color key="titleColor" red="0.031372550870000002" green="0.16862745579999999" blue="0.95294123890000004" alpha="1" colorSpace="deviceRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="nextLevelAction:" destination="S9i-9d-X6V" eventType="touchUpInside" id="1TP-N7-HXD"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="GWE-lF-sph">
+                                        <rect key="frame" x="290" y="119" width="100" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <state key="normal" title="Game center">
+                                            <color key="titleColor" red="0.031372550870000002" green="0.16862745579999999" blue="0.95294123890000004" alpha="1" colorSpace="deviceRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="gameCenterAction:" destination="S9i-9d-X6V" eventType="touchUpInside" id="u3d-V9-GcZ"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Game Completed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="QbD-19-UPi">
+                                        <rect key="frame" x="8" y="8" width="384" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <color key="textColor" red="0.031372550870000002" green="0.16862745579999999" blue="0.95294123890000004" alpha="1" colorSpace="deviceRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="KaQ-hC-g0a">
+                                        <rect key="frame" x="8" y="119" width="100" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <state key="normal" title="Facebook">
+                                            <color key="titleColor" red="0.031372550870000002" green="0.16862745579999999" blue="0.95294123890000004" alpha="1" colorSpace="deviceRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="facebookAction:" destination="S9i-9d-X6V" eventType="touchUpInside" id="95G-Ov-WCW"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="ReplayBtn" destination="mVG-tx-arz" id="UhN-oB-Nmt"/>
+                        <outlet property="bestScore" destination="Z9f-uW-3zb" id="EgA-PI-a76"/>
+                        <outlet property="bestScoreTitle" destination="EpY-n2-4KD" id="akf-4O-n80"/>
+                        <outlet property="facebookBtn" destination="KaQ-hC-g0a" id="eRo-hX-qaL"/>
+                        <outlet property="gameCenterBtn" destination="GWE-lF-sph" id="P9C-Hs-03c"/>
+                        <outlet property="gameCompletedTitle" destination="QbD-19-UPi" id="58m-pB-t23"/>
+                        <outlet property="mainMenuBtn" destination="mVG-tx-arz" id="bgG-v6-412"/>
+                        <outlet property="nextLevelBtn" destination="eaB-g5-DmF" id="ORZ-On-YT7"/>
+                        <outlet property="ranking" destination="V8O-oa-P9H" id="9YC-P5-NZS"/>
+                        <outlet property="rankingTitle" destination="d7T-eK-2hU" id="Su2-Ev-32n"/>
+                        <outlet property="score" destination="HmZ-yl-trX" id="c2I-TV-ei7"/>
+                        <outlet property="scoreTitle" destination="btj-sS-ZDI" id="ge4-lY-17t"/>
+                        <outlet property="twitterBtn" destination="J7j-wz-HuB" id="mtV-C0-CAd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bU2-rm-Z96" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-669" y="723"/>
         </scene>
         <!--Level Select View Controller-->
         <scene sceneID="ZHd-6j-tF8">
@@ -314,7 +485,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nmg-cN-8UF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="499" y="421"/>
+            <point key="canvasLocation" x="221" y="284"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="LZa-5L-de1">
@@ -333,7 +504,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sc9-Yx-gNB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-408" y="-228"/>
+            <point key="canvasLocation" x="-524" y="-245"/>
         </scene>
         <!--Game Scene Controller-->
         <scene sceneID="d7p-ns-Wy5">
@@ -474,7 +645,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LxF-oB-cm7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-428" y="806"/>
+            <point key="canvasLocation" x="133" y="783"/>
         </scene>
         <!--Custom Alert View Controller-->
         <scene sceneID="Qwt-BW-TQ4">
@@ -542,7 +713,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mTy-2L-fPG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-39" y="66"/>
+            <point key="canvasLocation" x="69" y="-238"/>
         </scene>
         <!--I Ad View Controller-->
         <scene sceneID="jXB-wm-WDu">
@@ -559,7 +730,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9b7-h9-dxx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-735" y="259"/>
+            <point key="canvasLocation" x="-707" y="29"/>
         </scene>
     </scenes>
     <resources>

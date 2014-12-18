@@ -23,6 +23,7 @@
 #import "TTMagicStick.h"
 #import "InstantMessageManager.h"
 #import "GeneralSettings.h"
+#import "KKGameOverViewController.h"
 
 #define RANDOM_INT(__MIN__, __MAX__) ((__MIN__) + random() % ((__MAX__+1) - (__MIN__)))
 #define RADIANS(degrees) ((degrees * M_PI) / 180.0)
@@ -457,6 +458,69 @@ typedef void (^completionBlk)(BOOL);
     }
 }
 
+-(void)showGameCompletionScreen
+{
+    NSString *name = @"Main_iPad";
+    if(!IS_IPAD){
+        name = @"Main_iPhone";
+    }
+    self.gameOverController = [[UIStoryboard storyboardWithName:name bundle:nil] instantiateViewControllerWithIdentifier:@"KKGameOverViewController"];
+    [self.view addSubview:self.gameOverController.view];
+    self.gameOverController.delegate = self;
+    self.gameOverController.view.alpha = 0;
+    [UIView animateWithDuration:0.2f
+                     animations:^{
+                         self.gameOverController.view.alpha = 1;
+                     }
+                     completion:^(BOOL finished) {
+                     }];
+}
+
+-(void)removeGameOverScreen
+{
+    self.gameOverController.view.alpha = 1;
+    [UIView animateWithDuration:0.2f
+                     animations:^{
+                         self.gameOverController.view.alpha = 0;
+                     }
+                     completion:^(BOOL finished) {
+                         [self.gameOverController.view removeFromSuperview];
+                         self.gameOverController = nil;
+                     }];
+}
+
+#pragma mark - Game over screen delegates - 
+
+- (void)facebookAction
+{
+    
+}
+
+- (void)twitterAction
+{
+    
+}
+
+- (void)gameCenterAction
+{
+    
+}
+
+- (void)nextLevelAction
+{
+    [self removeGameOverScreen]; 
+}
+
+- (void)replayAction
+{
+    [self removeGameOverScreen];
+}
+
+- (void)mainMenuAction
+{
+    [self removeGameOverScreen];
+}
+
 -(BOOL)isGameOver
 {
     BOOL gameOver = FALSE;
@@ -663,11 +727,6 @@ typedef void (^completionBlk)(BOOL);
     }
 }
 
--(void)showGameWonAlert:(BOOL)canShowMagicStickMsg
-{
-    [[SoundManager sharedManager] playSound:@"won" looping:NO];
-}
-
 -(void)playSound:(NSString*)soundFile
 {
     [[SoundManager sharedManager] playSound:soundFile looping:NO];
@@ -719,18 +778,12 @@ typedef void (^completionBlk)(BOOL);
     }
     else if([self isGameWon])
     {
-        NSInteger starWon = [self getStarWon];
+        //NSInteger starWon = [self getStarWon];
         NSInteger stars = [self updateStars];
-        [self unlockNextLevel];
-        //Add level save related data after unlockNextLevel
         self.levelModel.noOfStars = stars;
         [self saveGame];
-        
-        BOOL showMagicStickMsg = NO;
-        if(starWon == 3){
-            showMagicStickMsg = YES;
-        }
-        [self showGameWonAlert:showMagicStickMsg];
+        [[SoundManager sharedManager] playSound:@"won" looping:NO];
+        [self showGameCompletionScreen];
         block(YES);
     }
     else if(_currentElement != nil)

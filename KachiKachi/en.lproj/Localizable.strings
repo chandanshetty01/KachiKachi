@@ -11,15 +11,19 @@
 "CONGRATS_STAGE_COMPLETION" = "Congrats you have got %d STARS %@";
 "CONGRATS_LEVEL_COMPLETION" = "Congrats you have got %d STARS %@";
 
-"FACEBOOK_SHARE" = "Share in Facebook";
+"FACEBOOK_SHARE" = "Facebook";
 "TWEET" = "Tweet";
 
-"GAME_OVER" = "Game Over";
+"LEVEL_COMPLETE" = "Level Completed";
 "GAME_OVER_MSG" = "You ran out of LIFE!";
 "GAME_OVER_MSG_TIME" = "You have ran out of TIME!";
 
 "LIFE" = "LIFE: %d";
 "SCORE" = "SCORE: %d";
+
+"SCORE_TITLE" = "Score:";
+"BEST_SCORE" = "Best Score:";
+"RANKING" = "Ranking:";
 
 "FB_SHARE_MSG" = "Check out KachiKachi, I have just completed level %@ in %@ mode";
 "FB_NOT_CONFIGURED_TITLE" = "Facebook is not configured";
@@ -90,3 +94,5 @@
 "GOT_IT" = "Got it";
 
 "HOW_TO_PLAY_DESC" = "One Golden Rule: Touch the top most object otherwise you will lose a LIFE! \nBonus: Win any level with 3 star and unlock the magic stick, use this magic stick to remove 5 objects you want, without losing LIFE!.";
+
+"GAME_CENTER" = "Game Center";

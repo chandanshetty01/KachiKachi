@@ -146,6 +146,7 @@
 		A34EBBB91A41D7C300EB4BD4 /* stage_3_level_7.plist in Resources */ = {isa = PBXBuildFile; fileRef = A34EBB771A41D7C300EB4BD4 /* stage_3_level_7.plist */; };
 		A34EBBBA1A41D7C300EB4BD4 /* stage_3_level_8.plist in Resources */ = {isa = PBXBuildFile; fileRef = A34EBB781A41D7C300EB4BD4 /* stage_3_level_8.plist */; };
 		A34EBBBB1A41D7C300EB4BD4 /* stage_3_level_9.plist in Resources */ = {isa = PBXBuildFile; fileRef = A34EBB791A41D7C300EB4BD4 /* stage_3_level_9.plist */; };
+		A34EBBBE1A4305C100EB4BD4 /* KKGameOverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A34EBBBD1A4305C100EB4BD4 /* KKGameOverViewController.m */; };
 		A357D7AB196301A70037C2B4 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A357D7AA196301A70037C2B4 /* Crashlytics.framework */; };
 		A35C2EAA19B7728F003FBA1B /* GameData_iPhone.plist in Resources */ = {isa = PBXBuildFile; fileRef = A35C2EA919B7728F003FBA1B /* GameData_iPhone.plist */; };
 		A35DD6F419644730008D445C /* TTBottle.m in Sources */ = {isa = PBXBuildFile; fileRef = A35DD6F319644730008D445C /* TTBottle.m */; };
@@ -714,6 +715,8 @@
 		A34EBB771A41D7C300EB4BD4 /* stage_3_level_7.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_3_level_7.plist; sourceTree = "<group>"; };
 		A34EBB781A41D7C300EB4BD4 /* stage_3_level_8.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_3_level_8.plist; sourceTree = "<group>"; };
 		A34EBB791A41D7C300EB4BD4 /* stage_3_level_9.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_3_level_9.plist; sourceTree = "<group>"; };
+		A34EBBBC1A4305C100EB4BD4 /* KKGameOverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKGameOverViewController.h; sourceTree = "<group>"; };
+		A34EBBBD1A4305C100EB4BD4 /* KKGameOverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKGameOverViewController.m; sourceTree = "<group>"; };
 		A357D7AA196301A70037C2B4 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = SOURCE_ROOT; };
 		A35C2EA919B7728F003FBA1B /* GameData_iPhone.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GameData_iPhone.plist; sourceTree = "<group>"; };
 		A35DD6F219644730008D445C /* TTBottle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTBottle.h; sourceTree = "<group>"; };
@@ -1293,6 +1296,8 @@
 				A3A67EB61902BE7E00BFAF7B /* KKGameSceneController.m */,
 				A36C8E3A199CFE9B0071142B /* KKCustomAlertViewController.h */,
 				A36C8E3B199CFE9B0071142B /* KKCustomAlertViewController.m */,
+				A34EBBBC1A4305C100EB4BD4 /* KKGameOverViewController.h */,
+				A34EBBBD1A4305C100EB4BD4 /* KKGameOverViewController.m */,
 			);
 			name = controllers;
 			path = Classes/controllers;
@@ -2970,6 +2975,7 @@
 				A3FF153B195C4F48007CE275 /* TTBird.m in Sources */,
 				A3335FBE1955F09A000AA5B7 /* TTCarrot.m in Sources */,
 				A38222DE197261AA00D7A856 /* MKStoreManager.m in Sources */,
+				A34EBBBE1A4305C100EB4BD4 /* KKGameOverViewController.m in Sources */,
 				A3A67E891902B67700BFAF7B /* AppDelegate.m in Sources */,
 				A3335FC51956C96F000AA5B7 /* KKItemModal.m in Sources */,
 				A38222D9197261AA00D7A856 /* NSData+MKBase64.m in Sources */,
