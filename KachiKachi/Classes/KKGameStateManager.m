@@ -54,6 +54,26 @@
     }
 }
 
+-(void)resetLevelData
+{
+    NSDictionary *data = [[KKGameConfigManager sharedManager] levelWithID:self.currentLevel andStage:self.currentStage];
+    if(data){
+        [self.levelModel updateWithDictionary:data];
+        self.levelModel.score = 0;
+    }
+}
+
+-(void)completeLevel
+{
+    NSDictionary *data = [[KKGameConfigManager sharedManager] levelWithID:self.currentLevel andStage:self.currentStage];
+    if(data){
+        [self.levelModel updateWithDictionary:data];
+    }
+    self.levelModel.bestScore = self.levelModel.score;
+    self.levelModel.isLevelCompleted = YES;
+    self.levelModel.score = 0;
+}
+
 -(void)loadLevelData
 {
     NSDictionary *data = [Utility loadData:[self levelFileName]];

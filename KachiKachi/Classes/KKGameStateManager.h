@@ -19,6 +19,8 @@
 -(void)loadData;
 -(void)saveData;
 -(void)loadLevelData;
+-(void)resetLevelData;
+-(void)completeLevel;
 
 -(NSMutableArray*)levels;
 

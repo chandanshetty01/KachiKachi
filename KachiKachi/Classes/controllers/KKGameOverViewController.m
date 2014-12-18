@@ -7,6 +7,7 @@
 //
 
 #import "KKGameOverViewController.h"
+#import "SoundManager.h"
 
 @interface KKGameOverViewController ()
 
@@ -38,6 +39,8 @@
 
 - (IBAction)facebookAction:(id)sender
 {
+    [[SoundManager sharedManager] playSound:@"tap" looping:NO];
+
     if(self.delegate && [self.delegate respondsToSelector:@selector(facebookAction)]){
         [self.delegate facebookAction];
     }
@@ -45,6 +48,8 @@
 
 - (IBAction)twitterAction:(id)sender
 {
+    [[SoundManager sharedManager] playSound:@"tap" looping:NO];
+
     if(self.delegate && [self.delegate respondsToSelector:@selector(twitterAction)]){
         [self.delegate twitterAction];
     }
@@ -52,6 +57,8 @@
 
 - (IBAction)gameCenterAction:(id)sender
 {
+    [[SoundManager sharedManager] playSound:@"tap" looping:NO];
+
     if(self.delegate && [self.delegate respondsToSelector:@selector(gameCenterAction)]){
         [self.delegate gameCenterAction];
     }
@@ -59,6 +66,8 @@
 
 - (IBAction)nextLevelAction:(id)sender
 {
+    [[SoundManager sharedManager] playSound:@"tap" looping:NO];
+
     if(self.delegate && [self.delegate respondsToSelector:@selector(nextLevelAction)]){
         [self.delegate nextLevelAction];
     }
@@ -66,12 +75,17 @@
 
 - (IBAction)replayAction:(id)sender
 {
+    [[SoundManager sharedManager] playSound:@"tap" looping:NO];
+
     if(self.delegate && [self.delegate respondsToSelector:@selector(replayAction)]){
         [self.delegate replayAction];
     }
 }
 
-- (IBAction)mainMenuAction:(id)sender {
+- (IBAction)mainMenuAction:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"tap" looping:NO];
+
     if(self.delegate && [self.delegate respondsToSelector:@selector(mainMenuAction)]){
         [self.delegate mainMenuAction];
     }

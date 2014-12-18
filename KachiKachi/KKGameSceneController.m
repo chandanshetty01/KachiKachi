@@ -57,7 +57,6 @@ static int testCounter = 0;
 @property(nonatomic,strong) NSMutableArray *tempElements;
 @property(nonatomic,strong) NSMutableArray *basketElements;
 @property(nonatomic,assign) BOOL isGameFinished;
-@property(nonatomic,weak) TTBase* topElement;
 @property(weak, nonatomic) IBOutlet UILabel *timerLabel;
 @property(weak, nonatomic) IBOutlet UIButton *magicStick;
 @property(assign, nonatomic) BOOL isMagicStickMode;
@@ -132,7 +131,6 @@ typedef void (^completionBlk)(BOOL);
     self.duration = self.levelModel.duration;
     
     [self showTutorial:1];
-    [self updateTimer:self.levelModel.duration];
     [self addElements:NO];
     
 #ifdef DEVELOPMENT_MODE
@@ -350,26 +348,9 @@ typedef void (^completionBlk)(BOOL);
 
 }
 
--(void)updateTimer:(NSInteger)remainingTime
+-(void)updateUI
 {
-    NSString *time = [NSString stringWithFormat:NSLocalizedString(@"TIME", @"time remainging %d"),(long)remainingTime];
-    [self.timerLabel setText:time];
-}
-
-#pragma mark - Timer delegates -
--(void)timerDidCompleted:(TimerObject*)timer
-{
-    self.levelModel.duration = 0;
-    [self updateTimer:self.levelModel.duration];
-    [self validateGamePlay:^(BOOL finished) {
-        _currentElement = nil;
-    }];
-}
-
--(void)timerDidTick:(NSTimeInterval)remainingInteval andTimer:(TimerObject*)timer
-{
-    self.levelModel.duration = remainingInteval;
-    [self updateTimer:self.levelModel.duration];
+    self.timerLabel.text = [NSString stringWithFormat:NSLocalizedString(@"SCORE","score"),self.levelModel.score];
 }
 
 -(void)addElements:(BOOL)isRestartMode
@@ -377,8 +358,6 @@ typedef void (^completionBlk)(BOOL);
     [self.levelModel.items enumerateObjectsUsingBlock:^(KKItemModal *obj, NSUInteger idx, BOOL *stop) {
         [self generateElement:obj];
     }];
-    
-    self.topElement = [self.elements lastObject];
     
     if(!isRestartMode){
         UIImage *image = [UIImage imageNamed:self.levelModel.backgroundImage];
@@ -508,17 +487,23 @@ typedef void (^completionBlk)(BOOL);
 
 - (void)nextLevelAction
 {
-    [self removeGameOverScreen]; 
+    [[KKGameStateManager sharedManager] completeLevel];
+    [self removeGameOverScreen];
 }
 
 - (void)replayAction
 {
     [self removeGameOverScreen];
+    [self replayLevel];
 }
 
 - (void)mainMenuAction
 {
+    [[KKGameStateManager sharedManager] completeLevel];
     [self removeGameOverScreen];
+    [self saveGame];
+    AppDelegate *appdelegate = APP_DELEGATE;
+    [appdelegate.navigationController popViewControllerAnimated:YES];
 }
 
 -(BOOL)isGameOver
@@ -603,11 +588,6 @@ typedef void (^completionBlk)(BOOL);
             }];
         }
     }];
-}
-
--(void)updateUI
-{
-    self.timerLabel.text = [NSString stringWithFormat:NSLocalizedString(@"SCORE","score"),self.levelModel.score];
 }
 
 -(void)saveLevelData
@@ -844,32 +824,9 @@ typedef void (^completionBlk)(BOOL);
     return oldStar;
 }
 
--(void)restartGame
-{
-    self.tempElements = [[NSMutableArray alloc] initWithArray:self.elements];
-    [self.elements removeAllObjects];
-    
-    KKGameConfigManager *config = [KKGameConfigManager sharedManager];
-    NSDictionary *tLevel = [config levelWithID:self.currentLevel andStage:self.currentStage];
-    BOOL isLevelCompleted = self.levelModel.isLevelCompleted;
-    self.levelModel = [[KKLevelModal alloc] initWithDictionary:tLevel];
-    self.levelModel.levelID = self.currentLevel;
-    self.levelModel.stageID =  self.currentStage;
-    self.levelModel.isLevelUnlocked = YES;
-    self.levelModel.isLevelCompleted = isLevelCompleted;
-}
-
 -(void)unlockNextLevel
 {
-    //Dont reset the entire thing... just reset items
-    self.tempElements = [[NSMutableArray alloc] initWithArray:self.elements];
-    [self.elements removeAllObjects];
     
-    KKGameConfigManager *config = [KKGameConfigManager sharedManager];
-    NSDictionary *tLevel = [config levelWithID:self.currentLevel andStage:self.currentStage];
-    self.levelModel = [[KKLevelModal alloc] initWithDictionary:tLevel];
-    self.levelModel.isLevelUnlocked = YES;
-    self.levelModel.isLevelCompleted = YES;
 }
 
 -(NSMutableArray*)intersectedElements:(TTBase*)currentElement
@@ -1025,22 +982,19 @@ typedef void (^completionBlk)(BOOL);
 
 -(void)replayLevel
 {
-    NSInteger noOfStars = self.levelModel.noOfStars;
+    [[KKGameStateManager sharedManager] resetLevelData];
     [self removeAllElements];
-    
     _isGameFinished = FALSE;
-    self.levelModel = [self currentLevelData];
-    self.levelModel.isLevelUnlocked = YES;
-    self.levelModel.isLevelCompleted = NO;
-    self.levelModel.noOfStars = noOfStars;
-    self.duration = self.levelModel.duration;
-    
     [self addElements:YES];
     [self updateMagicStic];
     [self updateUI];
-    [self updateTimer:self.levelModel.duration];
-    
     [self logReplayEvent];
+    self.isMagicStickMode = NO;
+    self.magicStickCounter = 0;
+    self.winningStreak = 0;
+    self.oldTimeInterval = 0;
+    self.wrongPickCount = 0;
+    self.topObjectSelected = 0;
 }
 
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
@@ -1086,11 +1040,6 @@ typedef void (^completionBlk)(BOOL);
     [self saveGame];
     AppDelegate *appdelegate = APP_DELEGATE;
     [appdelegate.navigationController popViewControllerAnimated:YES];
-}
-
-- (IBAction)restartButtonAction:(id)sender
-{
-    
 }
 
 - (void)dealloc

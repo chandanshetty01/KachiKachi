@@ -33,6 +33,7 @@
         self.soundfile = [data objectForKey:@"sound"];
         self.backgroundImage = [data objectForKey:@"background"];
         self.score = [[data objectForKey:@"score"] integerValue];
+        self.bestScore = [[data objectForKey:@"bestScore"] integerValue];
     }
     return self;
 }
@@ -88,7 +89,7 @@
     [dict setObject:self.name forKey:@"name"];
     [dict setObject:self.soundfile forKey:@"sound"];
     [dict setObject:[NSNumber numberWithInteger:self.score] forKey:@"score"];
-
+    [dict setObject:[NSNumber numberWithInteger:self.bestScore] forKey:@"bestScore"];
     return dict;
 }
 
