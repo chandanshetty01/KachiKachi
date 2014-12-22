@@ -38,13 +38,25 @@
 
 -(NSDictionary*)levelWithID:(NSInteger)levelID andStage:(NSInteger)stageID
 {
-    NSDictionary *data = [self getData:[NSString stringWithFormat:@"stage_%ld_level_%ld",stageID,levelID]];
+    NSDictionary *data = nil;
+    if(IS_IPAD){
+        data = [self getData:[NSString stringWithFormat:@"stage_%ld_level_%ld_iPad",(long)stageID,(long)levelID]];
+    }
+    else{
+        data = [self getData:[NSString stringWithFormat:@"stage_%ld_level_%ld",(long)stageID,(long)levelID]];
+    }
     return data;
 }
 
 -(NSDictionary*)stageWithID:(NSInteger)stageID
 {
-    NSDictionary *data = [self getData:[NSString stringWithFormat:@"stage_%ld",stageID]];
+    NSDictionary *data = nil;
+    if(IS_IPAD){
+        data = [self getData:[NSString stringWithFormat:@"stage_%ld_iPad",(long)stageID]];
+    }
+    else{
+        data = [self getData:[NSString stringWithFormat:@"stage_%ld",(long)stageID]];
+    }
     return data;
 }
 

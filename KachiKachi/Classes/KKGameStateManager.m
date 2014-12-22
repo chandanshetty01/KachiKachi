@@ -115,12 +115,22 @@
 
 -(NSString*)levelFileName
 {
-    return [NSString stringWithFormat:@"level_%ld_%ld",self.currentStage,self.currentLevel];
+    if(IS_IPAD){
+        return [NSString stringWithFormat:@"level_%ld_%ld_iPad",(long)self.currentStage,(long)self.currentLevel];
+    }
+    else{
+        return [NSString stringWithFormat:@"level_%ld_%ld",(long)self.currentStage,(long)self.currentLevel];
+    }
 }
 
 -(NSString*)stageFileName
 {
-    return [NSString stringWithFormat:@"stage_%ld",self.currentStage];
+    if(IS_IPAD){
+        return [NSString stringWithFormat:@"stage_%ld_iPad",(long)self.currentStage];
+    }
+    else{
+        return [NSString stringWithFormat:@"stage_%ld",(long)self.currentStage];
+    }
 }
 
 -(NSDictionary*)levelData:(NSInteger)level stage:(NSInteger)stage
