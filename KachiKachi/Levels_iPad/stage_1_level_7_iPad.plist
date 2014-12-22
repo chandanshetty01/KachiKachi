@@ -1,0 +1,995 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ID</key>
+	<string>7</string>
+	<key>baskets</key>
+	<array>
+		<dict>
+			<key>basket1</key>
+			<string>bucket_babk_part.png</string>
+			<key>basket_frame1</key>
+			<string>{204,371}</string>
+		</dict>
+		<dict>
+			<key>basket</key>
+			<string>fish_bucket_front_part.png</string>
+			<key>basket_frame</key>
+			<string>{690,348}</string>
+		</dict>
+		<dict>
+			<key>basket</key>
+			<string>handel.png</string>
+			<key>basket_frame</key>
+			<string>{702,302}</string>
+		</dict>
+	</array>
+	<key>elements</key>
+	<array>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{742, 323}, {32, 59}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTFish</string>
+			<key>frame</key>
+			<string>{{318, 571}, {32, 59}}</string>
+			<key>image</key>
+			<string>fish_1.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{5, 4}</string>
+				<string>{8, 17}</string>
+				<string>{2, 38}</string>
+				<string>{2, 56}</string>
+				<string>{30, 58}</string>
+				<string>{31, 2}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{742, 323}, {32, 59}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTFish</string>
+			<key>frame</key>
+			<string>{{258, 555}, {32, 59}}</string>
+			<key>image</key>
+			<string>fish_1.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{5, 4}</string>
+				<string>{8, 17}</string>
+				<string>{2, 38}</string>
+				<string>{2, 56}</string>
+				<string>{30, 58}</string>
+				<string>{31, 2}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{720, 336}, {59, 40}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTFish</string>
+			<key>frame</key>
+			<string>{{481, 537}, {59, 40}}</string>
+			<key>image</key>
+			<string>fish_2.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{10, 4}</string>
+				<string>{45, 3}</string>
+				<string>{59, 21}</string>
+				<string>{56, 36}</string>
+				<string>{5, 37}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{720, 336}, {59, 40}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTFish</string>
+			<key>frame</key>
+			<string>{{470, 596}, {59, 40}}</string>
+			<key>image</key>
+			<string>fish_2.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{10, 4}</string>
+				<string>{45, 3}</string>
+				<string>{59, 21}</string>
+				<string>{56, 36}</string>
+				<string>{5, 37}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{720, 336}, {59, 40}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTFish</string>
+			<key>frame</key>
+			<string>{{283, 567}, {59, 40}}</string>
+			<key>image</key>
+			<string>fish_2.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{10, 4}</string>
+				<string>{45, 3}</string>
+				<string>{59, 21}</string>
+				<string>{56, 36}</string>
+				<string>{5, 37}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{701, 306}, {108, 47}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTFish</string>
+			<key>frame</key>
+			<string>{{433, 573}, {108, 47}}</string>
+			<key>image</key>
+			<string>fish_3.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{3, 33}</string>
+				<string>{28, 11}</string>
+				<string>{44, 1}</string>
+				<string>{68, 4}</string>
+				<string>{74, 12}</string>
+				<string>{86, 21}</string>
+				<string>{106, 17}</string>
+				<string>{105, 41}</string>
+				<string>{82, 37}</string>
+				<string>{60, 44}</string>
+				<string>{6, 43}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{701, 306}, {108, 47}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTFish</string>
+			<key>frame</key>
+			<string>{{378, 505}, {108, 47}}</string>
+			<key>image</key>
+			<string>fish_3.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{3, 33}</string>
+				<string>{28, 11}</string>
+				<string>{44, 1}</string>
+				<string>{68, 4}</string>
+				<string>{74, 12}</string>
+				<string>{86, 21}</string>
+				<string>{106, 17}</string>
+				<string>{105, 41}</string>
+				<string>{82, 37}</string>
+				<string>{60, 44}</string>
+				<string>{6, 43}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{707, 317}, {63, 67}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTFish</string>
+			<key>frame</key>
+			<string>{{251, 523}, {63, 67}}</string>
+			<key>image</key>
+			<string>fish_4.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{30, 3}</string>
+				<string>{15, 11}</string>
+				<string>{1, 31}</string>
+				<string>{21, 47}</string>
+				<string>{39, 46}</string>
+				<string>{42, 65}</string>
+				<string>{58, 55}</string>
+				<string>{56, 23}</string>
+				<string>{60, 12}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{707, 317}, {63, 67}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTFish</string>
+			<key>frame</key>
+			<string>{{426, 536}, {63, 67}}</string>
+			<key>image</key>
+			<string>fish_4.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{30, 3}</string>
+				<string>{15, 11}</string>
+				<string>{1, 31}</string>
+				<string>{21, 47}</string>
+				<string>{39, 46}</string>
+				<string>{42, 65}</string>
+				<string>{58, 55}</string>
+				<string>{56, 23}</string>
+				<string>{60, 12}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{697, 305}, {92, 59}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTFish</string>
+			<key>frame</key>
+			<string>{{504, 646}, {92, 59}}</string>
+			<key>image</key>
+			<string>fish_7.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{4, 41}</string>
+				<string>{26, 22}</string>
+				<string>{30, 5}</string>
+				<string>{68, 5}</string>
+				<string>{80, 25}</string>
+				<string>{93, 20}</string>
+				<string>{91, 57}</string>
+				<string>{47, 58}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{649, 290}, {125, 79}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTFish</string>
+			<key>frame</key>
+			<string>{{340, 616}, {125, 79}}</string>
+			<key>image</key>
+			<string>fish_5.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{4, 36}</string>
+				<string>{24, 53}</string>
+				<string>{20, 78}</string>
+				<string>{44, 57}</string>
+				<string>{64, 65}</string>
+				<string>{70, 56}</string>
+				<string>{77, 76}</string>
+				<string>{98, 59}</string>
+				<string>{123, 49}</string>
+				<string>{125, 29}</string>
+				<string>{90, 19}</string>
+				<string>{80, 4}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{649, 290}, {125, 79}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTFish</string>
+			<key>frame</key>
+			<string>{{226, 629}, {125, 79}}</string>
+			<key>image</key>
+			<string>fish_5.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{4, 36}</string>
+				<string>{24, 53}</string>
+				<string>{20, 78}</string>
+				<string>{44, 57}</string>
+				<string>{64, 65}</string>
+				<string>{70, 56}</string>
+				<string>{77, 76}</string>
+				<string>{98, 59}</string>
+				<string>{123, 49}</string>
+				<string>{125, 29}</string>
+				<string>{90, 19}</string>
+				<string>{80, 4}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{679, 315}, {112, 42}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTFish</string>
+			<key>frame</key>
+			<string>{{370, 586}, {112, 42}}</string>
+			<key>image</key>
+			<string>fish_6.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{3, 15}</string>
+				<string>{12, 4}</string>
+				<string>{75, 3}</string>
+				<string>{111, 18}</string>
+				<string>{108, 41}</string>
+				<string>{41, 40}</string>
+				<string>{24, 40}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{679, 315}, {112, 42}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTFish</string>
+			<key>frame</key>
+			<string>{{294, 634}, {112, 42}}</string>
+			<key>image</key>
+			<string>fish_6.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{3, 15}</string>
+				<string>{12, 4}</string>
+				<string>{75, 3}</string>
+				<string>{111, 18}</string>
+				<string>{108, 41}</string>
+				<string>{41, 40}</string>
+				<string>{24, 40}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{679, 315}, {112, 42}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTFish</string>
+			<key>frame</key>
+			<string>{{477, 561}, {112, 42}}</string>
+			<key>image</key>
+			<string>fish_6.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{3, 15}</string>
+				<string>{12, 4}</string>
+				<string>{75, 3}</string>
+				<string>{111, 18}</string>
+				<string>{108, 41}</string>
+				<string>{41, 40}</string>
+				<string>{24, 40}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{697, 305}, {92, 59}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTFish</string>
+			<key>frame</key>
+			<string>{{522, 546}, {92, 59}}</string>
+			<key>image</key>
+			<string>fish_7.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{4, 41}</string>
+				<string>{26, 22}</string>
+				<string>{30, 5}</string>
+				<string>{68, 5}</string>
+				<string>{80, 25}</string>
+				<string>{93, 20}</string>
+				<string>{91, 57}</string>
+				<string>{47, 58}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{697, 305}, {92, 59}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTFish</string>
+			<key>frame</key>
+			<string>{{237, 588}, {92, 59}}</string>
+			<key>image</key>
+			<string>fish_7.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{4, 41}</string>
+				<string>{26, 22}</string>
+				<string>{30, 5}</string>
+				<string>{68, 5}</string>
+				<string>{80, 25}</string>
+				<string>{93, 20}</string>
+				<string>{91, 57}</string>
+				<string>{47, 58}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{697, 305}, {92, 59}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTFish</string>
+			<key>frame</key>
+			<string>{{351, 528}, {92, 59}}</string>
+			<key>image</key>
+			<string>fish_7.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{4, 41}</string>
+				<string>{26, 22}</string>
+				<string>{30, 5}</string>
+				<string>{68, 5}</string>
+				<string>{80, 25}</string>
+				<string>{93, 20}</string>
+				<string>{91, 57}</string>
+				<string>{47, 58}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{688, 324}, {99, 62}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTFish</string>
+			<key>frame</key>
+			<string>{{229, 509}, {99, 62}}</string>
+			<key>image</key>
+			<string>fish_8.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{3, 26}</string>
+				<string>{21, 41}</string>
+				<string>{18, 61}</string>
+				<string>{39, 36}</string>
+				<string>{48, 54}</string>
+				<string>{61, 42}</string>
+				<string>{64, 62}</string>
+				<string>{98, 36}</string>
+				<string>{98, 27}</string>
+				<string>{73, 16}</string>
+				<string>{64, 4}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{688, 324}, {99, 62}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTFish</string>
+			<key>frame</key>
+			<string>{{413, 602}, {99, 62}}</string>
+			<key>image</key>
+			<string>fish_8.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{3, 26}</string>
+				<string>{21, 41}</string>
+				<string>{18, 61}</string>
+				<string>{39, 36}</string>
+				<string>{48, 54}</string>
+				<string>{61, 42}</string>
+				<string>{64, 62}</string>
+				<string>{98, 36}</string>
+				<string>{98, 27}</string>
+				<string>{73, 16}</string>
+				<string>{64, 4}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{703, 343}, {67, 47}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTFish</string>
+			<key>frame</key>
+			<string>{{477, 625}, {67, 47}}</string>
+			<key>image</key>
+			<string>fish_9.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{66, 19}</string>
+				<string>{44, 3}</string>
+				<string>{36, 5}</string>
+				<string>{25, 12}</string>
+				<string>{13, 9}</string>
+				<string>{6, 14}</string>
+				<string>{12, 22}</string>
+				<string>{3, 31}</string>
+				<string>{11, 43}</string>
+				<string>{50, 45}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{703, 343}, {67, 47}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTFish</string>
+			<key>frame</key>
+			<string>{{394, 602}, {67, 47}}</string>
+			<key>image</key>
+			<string>fish_9.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{66, 19}</string>
+				<string>{44, 3}</string>
+				<string>{36, 5}</string>
+				<string>{25, 12}</string>
+				<string>{13, 9}</string>
+				<string>{6, 14}</string>
+				<string>{12, 22}</string>
+				<string>{3, 31}</string>
+				<string>{11, 43}</string>
+				<string>{50, 45}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{723, 357}, {54, 37}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTFish</string>
+			<key>frame</key>
+			<string>{{311, 616}, {54, 37}}</string>
+			<key>image</key>
+			<string>fish_10.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{53, 16}</string>
+				<string>{35, 2}</string>
+				<string>{29, 5}</string>
+				<string>{22, 13}</string>
+				<string>{11, 7}</string>
+				<string>{11, 19}</string>
+				<string>{2, 27}</string>
+				<string>{13, 33}</string>
+				<string>{46, 37}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{723, 357}, {54, 37}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTFish</string>
+			<key>frame</key>
+			<string>{{291, 488}, {54, 37}}</string>
+			<key>image</key>
+			<string>fish_10.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{53, 16}</string>
+				<string>{35, 2}</string>
+				<string>{29, 5}</string>
+				<string>{22, 13}</string>
+				<string>{11, 7}</string>
+				<string>{11, 19}</string>
+				<string>{2, 27}</string>
+				<string>{13, 33}</string>
+				<string>{46, 37}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{723, 357}, {54, 37}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTFish</string>
+			<key>frame</key>
+			<string>{{458, 528}, {54, 37}}</string>
+			<key>image</key>
+			<string>fish_10.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{53, 16}</string>
+				<string>{35, 2}</string>
+				<string>{29, 5}</string>
+				<string>{22, 13}</string>
+				<string>{11, 7}</string>
+				<string>{11, 19}</string>
+				<string>{2, 27}</string>
+				<string>{13, 33}</string>
+				<string>{46, 37}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{700, 337}, {84, 42}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTFish</string>
+			<key>frame</key>
+			<string>{{504, 602}, {84, 42}}</string>
+			<key>image</key>
+			<string>fish_11.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{1, 29}</string>
+				<string>{26, 5}</string>
+				<string>{37, 0}</string>
+				<string>{44, 8}</string>
+				<string>{57, 14}</string>
+				<string>{82, 12}</string>
+				<string>{77, 24}</string>
+				<string>{82, 36}</string>
+				<string>{75, 42}</string>
+				<string>{58, 29}</string>
+				<string>{47, 40}</string>
+				<string>{28, 40}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{700, 337}, {84, 42}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTFish</string>
+			<key>frame</key>
+			<string>{{282, 534}, {84, 42}}</string>
+			<key>image</key>
+			<string>fish_11.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{1, 29}</string>
+				<string>{26, 5}</string>
+				<string>{37, 0}</string>
+				<string>{44, 8}</string>
+				<string>{57, 14}</string>
+				<string>{82, 12}</string>
+				<string>{77, 24}</string>
+				<string>{82, 36}</string>
+				<string>{75, 42}</string>
+				<string>{58, 29}</string>
+				<string>{47, 40}</string>
+				<string>{28, 40}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{703, 320}, {78, 68}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTFish</string>
+			<key>frame</key>
+			<string>{{326, 578}, {78, 68}}</string>
+			<key>image</key>
+			<string>fish_12.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{68, 14}</string>
+				<string>{41, 1}</string>
+				<string>{28, 2}</string>
+				<string>{14, 12}</string>
+				<string>{1, 33}</string>
+				<string>{30, 58}</string>
+				<string>{59, 62}</string>
+				<string>{69, 47}</string>
+				<string>{76, 39}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{703, 320}, {78, 68}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTFish</string>
+			<key>frame</key>
+			<string>{{430, 635}, {78, 68}}</string>
+			<key>image</key>
+			<string>fish_12.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{68, 14}</string>
+				<string>{41, 1}</string>
+				<string>{28, 2}</string>
+				<string>{14, 12}</string>
+				<string>{1, 33}</string>
+				<string>{30, 58}</string>
+				<string>{59, 62}</string>
+				<string>{69, 47}</string>
+				<string>{76, 39}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{707, 322}, {65, 67}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTFish</string>
+			<key>frame</key>
+			<string>{{449, 542}, {65, 67}}</string>
+			<key>image</key>
+			<string>fish_13.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{62, 14}</string>
+				<string>{34, 13}</string>
+				<string>{32, 1}</string>
+				<string>{20, 6}</string>
+				<string>{15, 20}</string>
+				<string>{9, 25}</string>
+				<string>{9, 37}</string>
+				<string>{3, 49}</string>
+				<string>{10, 65}</string>
+				<string>{47, 63}</string>
+				<string>{62, 54}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{707, 322}, {65, 67}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTFish</string>
+			<key>frame</key>
+			<string>{{333, 525}, {65, 67}}</string>
+			<key>image</key>
+			<string>fish_13.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{62, 14}</string>
+				<string>{34, 13}</string>
+				<string>{32, 1}</string>
+				<string>{20, 6}</string>
+				<string>{15, 20}</string>
+				<string>{9, 25}</string>
+				<string>{9, 37}</string>
+				<string>{3, 49}</string>
+				<string>{10, 65}</string>
+				<string>{47, 63}</string>
+				<string>{62, 54}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{676, 293}, {119, 66}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTFish</string>
+			<key>frame</key>
+			<string>{{293, 488}, {119, 66}}</string>
+			<key>image</key>
+			<string>fish_14.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{74, 16}</string>
+				<string>{102, 24}</string>
+				<string>{119, 40}</string>
+				<string>{106, 52}</string>
+				<string>{85, 60}</string>
+				<string>{64, 66}</string>
+				<string>{48, 54}</string>
+				<string>{34, 62}</string>
+				<string>{34, 48}</string>
+				<string>{1, 60}</string>
+				<string>{11, 39}</string>
+				<string>{2, 19}</string>
+				<string>{3, 16}</string>
+				<string>{38, 32}</string>
+				<string>{59, 4}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{707, 322}, {65, 67}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTFish</string>
+			<key>frame</key>
+			<string>{{272, 583}, {65, 67}}</string>
+			<key>image</key>
+			<string>fish_13.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{62, 14}</string>
+				<string>{34, 13}</string>
+				<string>{32, 1}</string>
+				<string>{20, 6}</string>
+				<string>{15, 20}</string>
+				<string>{9, 25}</string>
+				<string>{9, 37}</string>
+				<string>{3, 49}</string>
+				<string>{10, 65}</string>
+				<string>{47, 63}</string>
+				<string>{62, 54}</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

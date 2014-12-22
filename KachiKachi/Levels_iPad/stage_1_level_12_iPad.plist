@@ -1,0 +1,1139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ID</key>
+	<string>12</string>
+	<key>elements</key>
+	<array>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{211, 219}, {49, 183}}</string>
+			<key>image</key>
+			<string>carrot1.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{38, 45}</string>
+				<string>{42, 66}</string>
+				<string>{6, 182}</string>
+				<string>{3, 166}</string>
+				<string>{3, 115}</string>
+				<string>{14, 50}</string>
+				<string>{20, 41}</string>
+				<string>{7, 23}</string>
+				<string>{23, 17}</string>
+				<string>{24, 5}</string>
+				<string>{46, 5}</string>
+				<string>{48, 23}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{95, 294}, {201, 173}}</string>
+			<key>image</key>
+			<string>carrot2.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{74, 45}</string>
+				<string>{59, 75}</string>
+				<string>{82, 85}</string>
+				<string>{87, 98}</string>
+				<string>{193, 171}</string>
+				<string>{199, 159}</string>
+				<string>{154, 117}</string>
+				<string>{150, 101}</string>
+				<string>{116, 70}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{290, 301}, {204, 169}}</string>
+			<key>image</key>
+			<string>carrot3.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{93, 64}</string>
+				<string>{72, 41}</string>
+				<string>{61, 69}</string>
+				<string>{82, 82}</string>
+				<string>{89, 102}</string>
+				<string>{200, 167}</string>
+				<string>{203, 155}</string>
+				<string>{163, 121}</string>
+				<string>{150, 98}</string>
+				<string>{122, 71}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{361, 188}, {114, 253}}</string>
+			<key>image</key>
+			<string>carrot4.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{24, 250}</string>
+				<string>{34, 199}</string>
+				<string>{44, 114}</string>
+				<string>{38, 100}</string>
+				<string>{108, 31}</string>
+				<string>{65, 25}</string>
+				<string>{48, 3}</string>
+				<string>{23, 20}</string>
+				<string>{3, 73}</string>
+				<string>{10, 105}</string>
+				<string>{3, 121}</string>
+				<string>{5, 148}</string>
+				<string>{18, 234}</string>
+				<string>{21, 248}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{589, 175}, {110, 256}}</string>
+			<key>image</key>
+			<string>carrot5.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{69, 6}</string>
+				<string>{63, 140}</string>
+				<string>{73, 157}</string>
+				<string>{52, 195}</string>
+				<string>{4, 230}</string>
+				<string>{48, 235}</string>
+				<string>{71, 253}</string>
+				<string>{100, 229}</string>
+				<string>{108, 184}</string>
+				<string>{99, 153}</string>
+				<string>{107, 133}</string>
+				<string>{77, 10}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{447, 162}, {101, 224}}</string>
+			<key>image</key>
+			<string>carrot6.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{35, 4}</string>
+				<string>{49, 53}</string>
+				<string>{85, 139}</string>
+				<string>{98, 191}</string>
+				<string>{96, 223}</string>
+				<string>{70, 194}</string>
+				<string>{29, 111}</string>
+				<string>{13, 61}</string>
+				<string>{19, 51}</string>
+				<string>{6, 22}</string>
+				<string>{16, 7}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{360, 223}, {169, 186}}</string>
+			<key>image</key>
+			<string>carrot7.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{41, 126}</string>
+				<string>{20, 147}</string>
+				<string>{5, 153}</string>
+				<string>{15, 174}</string>
+				<string>{36, 184}</string>
+				<string>{59, 155}</string>
+				<string>{105, 110}</string>
+				<string>{167, 15}</string>
+				<string>{168, 5}</string>
+				<string>{156, 5}</string>
+				<string>{97, 56}</string>
+				<string>{50, 112}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{589, 245}, {97, 201}}</string>
+			<key>image</key>
+			<string>carrot8.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{4, 21}</string>
+				<string>{39, 6}</string>
+				<string>{48, 55}</string>
+				<string>{57, 64}</string>
+				<string>{96, 185}</string>
+				<string>{91, 199}</string>
+				<string>{23, 74}</string>
+				<string>{27, 58}</string>
+				<string>{5, 41}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{606, 327}, {73, 266}}</string>
+			<key>image</key>
+			<string>carrot10.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{43, 66}</string>
+				<string>{52, 105}</string>
+				<string>{65, 124}</string>
+				<string>{69, 160}</string>
+				<string>{67, 205}</string>
+				<string>{67, 217}</string>
+				<string>{72, 237}</string>
+				<string>{68, 263}</string>
+				<string>{52, 237}</string>
+				<string>{50, 215}</string>
+				<string>{23, 149}</string>
+				<string>{32, 114}</string>
+				<string>{11, 78}</string>
+				<string>{29, 65}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{239, 240}, {85, 203}}</string>
+			<key>image</key>
+			<string>carrot9.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{4, 185}</string>
+				<string>{26, 140}</string>
+				<string>{26, 127}</string>
+				<string>{78, 4}</string>
+				<string>{85, 15}</string>
+				<string>{60, 144}</string>
+				<string>{51, 156}</string>
+				<string>{51, 183}</string>
+				<string>{31, 200}</string>
+				<string>{11, 196}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{226, 387}, {90, 261}}</string>
+			<key>image</key>
+			<string>carrot11.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{5, 4}</string>
+				<string>{28, 44}</string>
+				<string>{32, 60}</string>
+				<string>{61, 131}</string>
+				<string>{55, 152}</string>
+				<string>{78, 186}</string>
+				<string>{45, 207}</string>
+				<string>{34, 159}</string>
+				<string>{17, 136}</string>
+				<string>{10, 101}</string>
+				<string>{13, 65}</string>
+				<string>{4, 40}</string>
+				<string>{3, 14}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{367, 464}, {176, 212}}</string>
+			<key>image</key>
+			<string>carrot12.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{106, 105}</string>
+				<string>{12, 8}</string>
+				<string>{4, 15}</string>
+				<string>{34, 62}</string>
+				<string>{58, 113}</string>
+				<string>{78, 131}</string>
+				<string>{95, 137}</string>
+				<string>{123, 174}</string>
+				<string>{144, 141}</string>
+				<string>{115, 130}</string>
+				<string>{105, 120}</string>
+				<string>{104, 99}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{229, 230}, {127, 143}}</string>
+			<key>image</key>
+			<string>carrot13.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{1, 15}</string>
+				<string>{25, 5}</string>
+				<string>{37, 28}</string>
+				<string>{65, 56}</string>
+				<string>{114, 111}</string>
+				<string>{126, 142}</string>
+				<string>{108, 142}</string>
+				<string>{74, 102}</string>
+				<string>{25, 52}</string>
+				<string>{19, 46}</string>
+				<string>{22, 39}</string>
+				<string>{9, 25}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{130, 303}, {253, 120}}</string>
+			<key>image</key>
+			<string>carrot14.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{89, 10}</string>
+				<string>{76, 35}</string>
+				<string>{87, 66}</string>
+				<string>{106, 66}</string>
+				<string>{199, 109}</string>
+				<string>{253, 115}</string>
+				<string>{163, 52}</string>
+				<string>{120, 33}</string>
+				<string>{94, 7}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{512, 180}, {78, 187}}</string>
+			<key>image</key>
+			<string>carrot15.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{3, 24}</string>
+				<string>{45, 14}</string>
+				<string>{48, 22}</string>
+				<string>{35, 58}</string>
+				<string>{75, 156}</string>
+				<string>{75, 185}</string>
+				<string>{47, 156}</string>
+				<string>{4, 71}</string>
+				<string>{4, 36}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{592, 262}, {245, 200}}</string>
+			<key>image</key>
+			<string>carrot16.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{7, 195}</string>
+				<string>{50, 156}</string>
+				<string>{118, 94}</string>
+				<string>{153, 86}</string>
+				<string>{202, 64}</string>
+				<string>{220, 98}</string>
+				<string>{174, 114}</string>
+				<string>{113, 154}</string>
+				<string>{53, 179}</string>
+				<string>{19, 197}</string>
+				<string>{10, 201}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{368, 352}, {184, 87}}</string>
+			<key>image</key>
+			<string>carrot17.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{14, 39}</string>
+				<string>{12, 85}</string>
+				<string>{52, 86}</string>
+				<string>{102, 67}</string>
+				<string>{174, 21}</string>
+				<string>{184, 5}</string>
+				<string>{169, 4}</string>
+				<string>{100, 25}</string>
+				<string>{59, 56}</string>
+				<string>{24, 42}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{385, 251}, {98, 246}}</string>
+			<key>image</key>
+			<string>carrot18.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{11, 242}</string>
+				<string>{72, 74}</string>
+				<string>{67, 62}</string>
+				<string>{95, 19}</string>
+				<string>{52, 6}</string>
+				<string>{40, 19}</string>
+				<string>{35, 51}</string>
+				<string>{27, 70}</string>
+				<string>{2, 218}</string>
+				<string>{2, 244}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{500, 274}, {161, 197}}</string>
+			<key>image</key>
+			<string>carrot19.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{15, 197}</string>
+				<string>{84, 128}</string>
+				<string>{107, 84}</string>
+				<string>{157, 42}</string>
+				<string>{118, 5}</string>
+				<string>{83, 62}</string>
+				<string>{34, 121}</string>
+				<string>{4, 176}</string>
+				<string>{2, 195}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{483, 384}, {293, 131}}</string>
+			<key>image</key>
+			<string>carrot20.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{5, 124}</string>
+				<string>{151, 59}</string>
+				<string>{183, 64}</string>
+				<string>{232, 57}</string>
+				<string>{249, 98}</string>
+				<string>{193, 91}</string>
+				<string>{184, 103}</string>
+				<string>{117, 119}</string>
+				<string>{77, 119}</string>
+				<string>{33, 130}</string>
+				<string>{3, 130}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{251, 518}, {333, 99}}</string>
+			<key>image</key>
+			<string>carrot21.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{4, 91}</string>
+				<string>{173, 37}</string>
+				<string>{186, 43}</string>
+				<string>{254, 6}</string>
+				<string>{282, 55}</string>
+				<string>{202, 70}</string>
+				<string>{184, 86}</string>
+				<string>{126, 97}</string>
+				<string>{85, 90}</string>
+				<string>{42, 97}</string>
+				<string>{3, 100}</string>
+				<string>{5, 93}</string>
+				<string>{27, 81}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{244, 447}, {333, 99}}</string>
+			<key>image</key>
+			<string>carrot22.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{164, 35}</string>
+				<string>{187, 44}</string>
+				<string>{253, 5}</string>
+				<string>{283, 52}</string>
+				<string>{200, 74}</string>
+				<string>{179, 87}</string>
+				<string>{129, 96}</string>
+				<string>{47, 95}</string>
+				<string>{3, 98}</string>
+				<string>{3, 90}</string>
+				<string>{39, 79}</string>
+				<string>{68, 71}</string>
+				<string>{148, 41}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{396, 226}, {254, 77}}</string>
+			<key>image</key>
+			<string>carrot23.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{16, 3}</string>
+				<string>{5, 40}</string>
+				<string>{50, 53}</string>
+				<string>{77, 75}</string>
+				<string>{252, 76}</string>
+				<string>{252, 61}</string>
+				<string>{177, 49}</string>
+				<string>{139, 33}</string>
+				<string>{72, 20}</string>
+				<string>{56, 27}</string>
+				<string>{35, 12}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{167, 493}, {254, 77}}</string>
+			<key>image</key>
+			<string>carrot24.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{17, 6}</string>
+				<string>{7, 39}</string>
+				<string>{54, 57}</string>
+				<string>{73, 73}</string>
+				<string>{251, 76}</string>
+				<string>{251, 64}</string>
+				<string>{169, 47}</string>
+				<string>{140, 35}</string>
+				<string>{72, 21}</string>
+				<string>{56, 27}</string>
+				<string>{27, 12}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{256, 363}, {113, 242}}</string>
+			<key>image</key>
+			<string>carrot25.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{8, 3}</string>
+				<string>{53, 69}</string>
+				<string>{81, 141}</string>
+				<string>{81, 154}</string>
+				<string>{111, 205}</string>
+				<string>{103, 236}</string>
+				<string>{62, 221}</string>
+				<string>{54, 161}</string>
+				<string>{21, 108}</string>
+				<string>{4, 30}</string>
+				<string>{4, 12}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{408, 515}, {252, 91}}</string>
+			<key>image</key>
+			<string>carrot26.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{34, 5}</string>
+				<string>{18, 23}</string>
+				<string>{6, 23}</string>
+				<string>{28, 64}</string>
+				<string>{88, 66}</string>
+				<string>{186, 90}</string>
+				<string>{251, 87}</string>
+				<string>{237, 72}</string>
+				<string>{152, 43}</string>
+				<string>{95, 35}</string>
+				<string>{61, 17}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{186, 351}, {217, 150}}</string>
+			<key>image</key>
+			<string>carrot27.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{10, 113}</string>
+				<string>{38, 145}</string>
+				<string>{84, 100}</string>
+				<string>{102, 100}</string>
+				<string>{215, 6}</string>
+				<string>{197, 4}</string>
+				<string>{149, 28}</string>
+				<string>{121, 38}</string>
+				<string>{65, 66}</string>
+				<string>{58, 84}</string>
+				<string>{15, 108}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{222, 242}, {217, 150}}</string>
+			<key>image</key>
+			<string>carrot28.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{6, 113}</string>
+				<string>{61, 78}</string>
+				<string>{69, 62}</string>
+				<string>{123, 35}</string>
+				<string>{198, 4}</string>
+				<string>{215, 5}</string>
+				<string>{98, 98}</string>
+				<string>{82, 98}</string>
+				<string>{32, 145}</string>
+				<string>{6, 122}</string>
+				<string>{17, 108}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{247, 443}, {124, 178}}</string>
+			<key>image</key>
+			<string>carrot29.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{5, 162}</string>
+				<string>{108, 5}</string>
+				<string>{122, 8}</string>
+				<string>{123, 24}</string>
+				<string>{54, 148}</string>
+				<string>{25, 173}</string>
+				<string>{13, 168}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{529, 313}, {215, 166}}</string>
+			<key>image</key>
+			<string>carrot30.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{169, 88}</string>
+				<string>{6, 5}</string>
+				<string>{2, 12}</string>
+				<string>{192, 158}</string>
+				<string>{211, 116}</string>
+				<string>{177, 91}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{584, 235}, {156, 226}}</string>
+			<key>image</key>
+			<string>carrot31.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{9, 5}</string>
+				<string>{125, 144}</string>
+				<string>{125, 156}</string>
+				<string>{151, 189}</string>
+				<string>{113, 219}</string>
+				<string>{93, 166}</string>
+				<string>{79, 155}</string>
+				<string>{3, 17}</string>
+				<string>{3, 8}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{348, 344}, {174, 211}}</string>
+			<key>image</key>
+			<string>carrot32.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{4, 23}</string>
+				<string>{41, 10}</string>
+				<string>{54, 51}</string>
+				<string>{69, 54}</string>
+				<string>{112, 109}</string>
+				<string>{138, 155}</string>
+				<string>{172, 197}</string>
+				<string>{166, 207}</string>
+				<string>{31, 95}</string>
+				<string>{29, 68}</string>
+				<string>{8, 41}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{408, 273}, {252, 258}}</string>
+			<key>image</key>
+			<string>carrot33.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{74, 71}</string>
+				<string>{119, 51}</string>
+				<string>{134, 99}</string>
+				<string>{151, 106}</string>
+				<string>{194, 162}</string>
+				<string>{204, 188}</string>
+				<string>{250, 245}</string>
+				<string>{249, 255}</string>
+				<string>{116, 146}</string>
+				<string>{108, 113}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{317, 244}, {134, 233}}</string>
+			<key>image</key>
+			<string>carrot34.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{10, 5}</string>
+				<string>{97, 136}</string>
+				<string>{97, 145}</string>
+				<string>{129, 191}</string>
+				<string>{118, 222}</string>
+				<string>{79, 216}</string>
+				<string>{69, 160}</string>
+				<string>{35, 108}</string>
+				<string>{3, 26}</string>
+				<string>{3, 11}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{438, 503}, {284, 111}}</string>
+			<key>image</key>
+			<string>carrot35.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{3, 4}</string>
+				<string>{58, 7}</string>
+				<string>{217, 27}</string>
+				<string>{232, 17}</string>
+				<string>{282, 69}</string>
+				<string>{262, 107}</string>
+				<string>{176, 72}</string>
+				<string>{9, 15}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{404, 296}, {714, 252}}</string>
+			<key>image</key>
+			<string>carrot36.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{3, 4}</string>
+				<string>{201, 199}</string>
+				<string>{141, 248}</string>
+				<string>{104, 168}</string>
+				<string>{5, 16}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTCarrot</string>
+			<key>frame</key>
+			<string>{{269, 403}, {257, 75}}</string>
+			<key>image</key>
+			<string>carrot37.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{22, 4}</string>
+				<string>{60, 30}</string>
+				<string>{80, 22}</string>
+				<string>{142, 35}</string>
+				<string>{196, 53}</string>
+				<string>{256, 67}</string>
+				<string>{70, 72}</string>
+				<string>{51, 54}</string>
+				<string>{3, 42}</string>
+				<string>{8, 17}</string>
+				<string>{16, 9}</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

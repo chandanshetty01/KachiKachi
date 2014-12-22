@@ -1,0 +1,985 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ID</key>
+	<string>2</string>
+	<key>elements</key>
+	<array>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBalloon</string>
+			<key>frame</key>
+			<string>{{533, 335}, {126, 214}}</string>
+			<key>image</key>
+			<string>balloon1.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{53, 4}</string>
+				<string>{5, 43}</string>
+				<string>{5, 103}</string>
+				<string>{78, 159}</string>
+				<string>{73, 210}</string>
+				<string>{89, 210}</string>
+				<string>{99, 148}</string>
+				<string>{122, 101}</string>
+				<string>{122, 34}</string>
+				<string>{91, 6}</string>
+				<string>{65, 4}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBalloon</string>
+			<key>frame</key>
+			<string>{{492, 302}, {93, 207}}</string>
+			<key>image</key>
+			<string>balloon2.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{30, 2}</string>
+				<string>{3, 37}</string>
+				<string>{5, 92}</string>
+				<string>{43, 136}</string>
+				<string>{65, 204}</string>
+				<string>{81, 203}</string>
+				<string>{59, 132}</string>
+				<string>{89, 85}</string>
+				<string>{92, 30}</string>
+				<string>{64, 4}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBalloon</string>
+			<key>frame</key>
+			<string>{{436, 240}, {71, 121}}</string>
+			<key>image</key>
+			<string>balloon3.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{38, 4}</string>
+				<string>{4, 26}</string>
+				<string>{3, 64}</string>
+				<string>{16, 87}</string>
+				<string>{3, 112}</string>
+				<string>{13, 118}</string>
+				<string>{30, 90}</string>
+				<string>{68, 56}</string>
+				<string>{68, 17}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBalloon</string>
+			<key>frame</key>
+			<string>{{622, 173}, {116, 220}}</string>
+			<key>image</key>
+			<string>balloon4.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{62, 3}</string>
+				<string>{20, 16}</string>
+				<string>{3, 48}</string>
+				<string>{3, 92}</string>
+				<string>{37, 142}</string>
+				<string>{6, 214}</string>
+				<string>{27, 217}</string>
+				<string>{55, 143}</string>
+				<string>{115, 88}</string>
+				<string>{113, 28}</string>
+				<string>{87, 5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBalloon</string>
+			<key>frame</key>
+			<string>{{667, 480}, {63, 77}}</string>
+			<key>image</key>
+			<string>balloon5.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{30, 0}</string>
+				<string>{5, 24}</string>
+				<string>{5, 72}</string>
+				<string>{39, 72}</string>
+				<string>{60, 52}</string>
+				<string>{63, 15}</string>
+				<string>{50, 5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBalloon</string>
+			<key>frame</key>
+			<string>{{388, 305}, {88, 160}}</string>
+			<key>image</key>
+			<string>balloon6.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{39, 3}</string>
+				<string>{5, 24}</string>
+				<string>{5, 81}</string>
+				<string>{51, 115}</string>
+				<string>{75, 158}</string>
+				<string>{86, 147}</string>
+				<string>{63, 107}</string>
+				<string>{86, 71}</string>
+				<string>{83, 19}</string>
+				<string>{66, 4}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBalloon</string>
+			<key>frame</key>
+			<string>{{287, 246}, {155, 300}}</string>
+			<key>image</key>
+			<string>balloon7.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{74, 4}</string>
+				<string>{33, 7}</string>
+				<string>{4, 72}</string>
+				<string>{4, 127}</string>
+				<string>{101, 190}</string>
+				<string>{104, 295}</string>
+				<string>{122, 298}</string>
+				<string>{121, 183}</string>
+				<string>{150, 117}</string>
+				<string>{150, 47}</string>
+				<string>{106, 6}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBalloon</string>
+			<key>frame</key>
+			<string>{{535, 230}, {128, 209}}</string>
+			<key>image</key>
+			<string>balloon8.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{86, 5}</string>
+				<string>{28, 5}</string>
+				<string>{2, 66}</string>
+				<string>{6, 111}</string>
+				<string>{79, 167}</string>
+				<string>{82, 204}</string>
+				<string>{104, 204}</string>
+				<string>{93, 155}</string>
+				<string>{93, 155}</string>
+				<string>{123, 105}</string>
+				<string>{122, 36}</string>
+				<string>{103, 15}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBalloon</string>
+			<key>frame</key>
+			<string>{{395, 381}, {48, 59}}</string>
+			<key>image</key>
+			<string>balloon9.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{25, 1}</string>
+				<string>{5, 10}</string>
+				<string>{5, 50}</string>
+				<string>{36, 58}</string>
+				<string>{46, 45}</string>
+				<string>{47, 6}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBalloon</string>
+			<key>frame</key>
+			<string>{{484, 453}, {74, 90}}</string>
+			<key>image</key>
+			<string>balloon10.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{39, 5}</string>
+				<string>{10, 11}</string>
+				<string>{3, 39}</string>
+				<string>{6, 66}</string>
+				<string>{50, 89}</string>
+				<string>{72, 62}</string>
+				<string>{72, 23}</string>
+				<string>{51, 3}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBalloon</string>
+			<key>frame</key>
+			<string>{{252, 332}, {106, 129}}</string>
+			<key>image</key>
+			<string>balloon11.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{51, 5}</string>
+				<string>{11, 20}</string>
+				<string>{3, 59}</string>
+				<string>{6, 89}</string>
+				<string>{72, 125}</string>
+				<string>{105, 86}</string>
+				<string>{104, 36}</string>
+				<string>{75, 7}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBalloon</string>
+			<key>frame</key>
+			<string>{{455, 500}, {69, 96}}</string>
+			<key>image</key>
+			<string>balloon12.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{20, 6}</string>
+				<string>{2, 33}</string>
+				<string>{4, 75}</string>
+				<string>{52, 94}</string>
+				<string>{66, 69}</string>
+				<string>{68, 22}</string>
+				<string>{46, 5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBalloon</string>
+			<key>frame</key>
+			<string>{{504, 542}, {57, 65}}</string>
+			<key>image</key>
+			<string>balloon13.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{29, 3}</string>
+				<string>{5, 23}</string>
+				<string>{6, 63}</string>
+				<string>{38, 62}</string>
+				<string>{57, 42}</string>
+				<string>{56, 11}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBalloon</string>
+			<key>frame</key>
+			<string>{{605, 394}, {112, 201}}</string>
+			<key>image</key>
+			<string>balloon14.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{47, 4}</string>
+				<string>{4, 35}</string>
+				<string>{5, 88}</string>
+				<string>{69, 139}</string>
+				<string>{63, 198}</string>
+				<string>{80, 198}</string>
+				<string>{81, 134}</string>
+				<string>{108, 90}</string>
+				<string>{108, 36}</string>
+				<string>{75, 3}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBalloon</string>
+			<key>frame</key>
+			<string>{{457, 486}, {76, 93}}</string>
+			<key>image</key>
+			<string>balloon15.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{46, 1}</string>
+				<string>{9, 14}</string>
+				<string>{2, 39}</string>
+				<string>{8, 75}</string>
+				<string>{27, 90}</string>
+				<string>{54, 84}</string>
+				<string>{75, 52}</string>
+				<string>{72, 19}</string>
+				<string>{57, 5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBalloon</string>
+			<key>frame</key>
+			<string>{{361, 172}, {100, 189}}</string>
+			<key>image</key>
+			<string>balloon16.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{51, 5}</string>
+				<string>{4, 36}</string>
+				<string>{3, 82}</string>
+				<string>{40, 125}</string>
+				<string>{27, 187}</string>
+				<string>{39, 187}</string>
+				<string>{54, 123}</string>
+				<string>{86, 98}</string>
+				<string>{98, 76}</string>
+				<string>{98, 35}</string>
+				<string>{74, 6}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBalloon</string>
+			<key>frame</key>
+			<string>{{669, 293}, {103, 181}}</string>
+			<key>image</key>
+			<string>balloon17.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{48, 5}</string>
+				<string>{13, 21}</string>
+				<string>{4, 55}</string>
+				<string>{6, 85}</string>
+				<string>{63, 129}</string>
+				<string>{71, 182}</string>
+				<string>{85, 178}</string>
+				<string>{75, 125}</string>
+				<string>{103, 77}</string>
+				<string>{103, 35}</string>
+				<string>{68, 7}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBalloon</string>
+			<key>frame</key>
+			<string>{{320, 381}, {76, 161}}</string>
+			<key>image</key>
+			<string>balloon18.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{34, 2}</string>
+				<string>{2, 39}</string>
+				<string>{2, 39}</string>
+				<string>{4, 67}</string>
+				<string>{44, 105}</string>
+				<string>{31, 157}</string>
+				<string>{47, 158}</string>
+				<string>{47, 158}</string>
+				<string>{57, 96}</string>
+				<string>{75, 48}</string>
+				<string>{74, 26}</string>
+				<string>{50, 7}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBalloon</string>
+			<key>frame</key>
+			<string>{{391, 448}, {92, 118}}</string>
+			<key>image</key>
+			<string>balloon19.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{44, 3}</string>
+				<string>{9, 18}</string>
+				<string>{3, 59}</string>
+				<string>{17, 97}</string>
+				<string>{61, 118}</string>
+				<string>{89, 74}</string>
+				<string>{90, 31}</string>
+				<string>{62, 6}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBalloon</string>
+			<key>frame</key>
+			<string>{{493, 383}, {73, 150}}</string>
+			<key>image</key>
+			<string>balloon20.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{34, 4}</string>
+				<string>{5, 32}</string>
+				<string>{3, 66}</string>
+				<string>{43, 99}</string>
+				<string>{52, 146}</string>
+				<string>{68, 147}</string>
+				<string>{59, 90}</string>
+				<string>{72, 63}</string>
+				<string>{70, 24}</string>
+				<string>{50, 4}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBalloon</string>
+			<key>frame</key>
+			<string>{{502, 455}, {97, 122}}</string>
+			<key>image</key>
+			<string>balloon21.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{45, 3}</string>
+				<string>{4, 38}</string>
+				<string>{4, 82}</string>
+				<string>{37, 121}</string>
+				<string>{59, 121}</string>
+				<string>{95, 76}</string>
+				<string>{94, 29}</string>
+				<string>{72, 4}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBalloon</string>
+			<key>frame</key>
+			<string>{{603, 250}, {125, 238}}</string>
+			<key>image</key>
+			<string>balloon22.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{58, 5}</string>
+				<string>{27, 9}</string>
+				<string>{3, 56}</string>
+				<string>{7, 102}</string>
+				<string>{89, 154}</string>
+				<string>{102, 235}</string>
+				<string>{119, 235}</string>
+				<string>{103, 141}</string>
+				<string>{124, 97}</string>
+				<string>{121, 38}</string>
+				<string>{81, 6}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBalloon</string>
+			<key>frame</key>
+			<string>{{615, 439}, {59, 117}}</string>
+			<key>image</key>
+			<string>balloon23.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{26, 4}</string>
+				<string>{2, 27}</string>
+				<string>{9, 59}</string>
+				<string>{17, 74}</string>
+				<string>{21, 113}</string>
+				<string>{34, 113}</string>
+				<string>{27, 77}</string>
+				<string>{56, 46}</string>
+				<string>{54, 17}</string>
+				<string>{41, 4}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBalloon</string>
+			<key>frame</key>
+			<string>{{563, 460}, {90, 112}}</string>
+			<key>image</key>
+			<string>balloon24.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{52, 3}</string>
+				<string>{17, 14}</string>
+				<string>{2, 48}</string>
+				<string>{6, 82}</string>
+				<string>{35, 110}</string>
+				<string>{67, 96}</string>
+				<string>{89, 64}</string>
+				<string>{89, 29}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBalloon</string>
+			<key>frame</key>
+			<string>{{645, 366}, {65, 126}}</string>
+			<key>image</key>
+			<string>balloon25.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{41, 4}</string>
+				<string>{3, 29}</string>
+				<string>{10, 75}</string>
+				<string>{3, 121}</string>
+				<string>{13, 122}</string>
+				<string>{22, 79}</string>
+				<string>{62, 48}</string>
+				<string>{62, 13}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBalloon</string>
+			<key>frame</key>
+			<string>{{441, 354}, {65, 126}}</string>
+			<key>image</key>
+			<string>balloon26.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{42, 4}</string>
+				<string>{14, 15}</string>
+				<string>{0, 31}</string>
+				<string>{8, 78}</string>
+				<string>{0, 123}</string>
+				<string>{13, 124}</string>
+				<string>{23, 82}</string>
+				<string>{64, 49}</string>
+				<string>{60, 8}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBalloon</string>
+			<key>frame</key>
+			<string>{{658, 408}, {50, 58}}</string>
+			<key>image</key>
+			<string>balloon27.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{24, 3}</string>
+				<string>{3, 19}</string>
+				<string>{5, 55}</string>
+				<string>{32, 56}</string>
+				<string>{48, 39}</string>
+				<string>{39, 5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBalloon</string>
+			<key>frame</key>
+			<string>{{411, 264}, {43, 53}}</string>
+			<key>image</key>
+			<string>balloon28.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{13, 5}</string>
+				<string>{3, 26}</string>
+				<string>{20, 52}</string>
+				<string>{42, 50}</string>
+				<string>{40, 12}</string>
+				<string>{26, 5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBalloon</string>
+			<key>frame</key>
+			<string>{{623, 352}, {61, 120}}</string>
+			<key>image</key>
+			<string>balloon29.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{33, 3}</string>
+				<string>{9, 11}</string>
+				<string>{3, 35}</string>
+				<string>{3, 55}</string>
+				<string>{20, 75}</string>
+				<string>{23, 117}</string>
+				<string>{33, 117}</string>
+				<string>{28, 78}</string>
+				<string>{59, 49}</string>
+				<string>{59, 21}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBalloon</string>
+			<key>frame</key>
+			<string>{{429, 383}, {91, 169}}</string>
+			<key>image</key>
+			<string>balloon30.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{38, 5}</string>
+				<string>{2, 46}</string>
+				<string>{6, 80}</string>
+				<string>{51, 113}</string>
+				<string>{52, 165}</string>
+				<string>{63, 167}</string>
+				<string>{64, 111}</string>
+				<string>{91, 71}</string>
+				<string>{89, 35}</string>
+				<string>{58, 2}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBalloon</string>
+			<key>frame</key>
+			<string>{{496, 233}, {103, 173}}</string>
+			<key>image</key>
+			<string>balloon31.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{50, 4}</string>
+				<string>{16, 16}</string>
+				<string>{5, 67}</string>
+				<string>{14, 99}</string>
+				<string>{65, 128}</string>
+				<string>{80, 165}</string>
+				<string>{90, 166}</string>
+				<string>{77, 121}</string>
+				<string>{101, 74}</string>
+				<string>{100, 33}</string>
+				<string>{68, 4}</string>
+				<string>{44, 5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBalloon</string>
+			<key>frame</key>
+			<string>{{438, 299}, {91, 169}}</string>
+			<key>image</key>
+			<string>balloon32.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{38, 3}</string>
+				<string>{2, 41}</string>
+				<string>{5, 69}</string>
+				<string>{53, 113}</string>
+				<string>{54, 167}</string>
+				<string>{63, 167}</string>
+				<string>{60, 111}</string>
+				<string>{90, 69}</string>
+				<string>{90, 29}</string>
+				<string>{58, 5}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBalloon</string>
+			<key>frame</key>
+			<string>{{502, 414}, {42, 94}}</string>
+			<key>image</key>
+			<string>balloon33.png</string>
+			<key>touchPoints</key>
+			<array>
+				<string>{19, 4}</string>
+				<string>{37, 9}</string>
+				<string>{40, 43}</string>
+				<string>{30, 62}</string>
+				<string>{37, 91}</string>
+				<string>{29, 91}</string>
+				<string>{19, 62}</string>
+				<string>{3, 37}</string>
+				<string>{3, 16}</string>
+				<string>{18, 3}</string>
+			</array>
+		</dict>
+	</array>
+	<key>baskets</key>
+	<array>
+		<dict>
+			<key>basket1</key>
+			<string>basket.png</string>
+			<key>basket_frame1</key>
+			<string>{600,100}</string>
+		</dict>
+	</array>
+</dict>
+</plist>

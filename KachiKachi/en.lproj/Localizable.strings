@@ -6,8 +6,8 @@
   Copyright (c) 2014 Chanddan. All rights reserved.
 */
 
-"PLAY_NEXT_LEVEL" = "Play next level";
-"PLAY_NEXT_STAGE" = "Play next Stage";
+"PLAY_NEXT_LEVEL" = "Play Next Level";
+"PLAY_NEXT_STAGE" = "Play Next Stage";
 "CONGRATS_STAGE_COMPLETION" = "Congrats you have got %d STARS %@";
 "CONGRATS_LEVEL_COMPLETION" = "Congrats you have got %d STARS %@";
 

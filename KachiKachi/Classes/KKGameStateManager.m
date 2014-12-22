@@ -10,7 +10,6 @@
 #import "KKGameConfigManager.h"
 #import "Utility.h"
 #import "StageModel.h"
-#import "KKLevelModal.h"
 
 @interface KKGameStateManager()
 @property(nonatomic,strong)StageModel *stageModel;
@@ -61,6 +60,16 @@
         [self.levelModel updateWithDictionary:data];
         self.levelModel.score = 0;
     }
+}
+
+-(KKLevelModal*)loadNextLevel
+{
+    NSInteger noOfLevels = [self.stageModel.levels count];
+    if(self.currentLevel <= noOfLevels){
+        self.currentLevel += 1;
+        [self loadLevelData];
+    }
+    return self.levelModel;
 }
 
 -(void)completeLevel

@@ -80,6 +80,72 @@
 		A3335FC51956C96F000AA5B7 /* KKItemModal.m in Sources */ = {isa = PBXBuildFile; fileRef = A3335FC41956C96F000AA5B7 /* KKItemModal.m */; };
 		A33D53D31966758A00D65131 /* TimerObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A33D53D21966758A00D65131 /* TimerObject.m */; };
 		A3429BA819A85826007184DD /* TTMagicStick.m in Sources */ = {isa = PBXBuildFile; fileRef = A3429BA719A85826007184DD /* TTMagicStick.m */; };
+		A3466D211A487DC70072FC98 /* stage_1_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466CDF1A487DC60072FC98 /* stage_1_iPad.plist */; };
+		A3466D221A487DC70072FC98 /* stage_1_level_10_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466CE01A487DC60072FC98 /* stage_1_level_10_iPad.plist */; };
+		A3466D231A487DC70072FC98 /* stage_1_level_11_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466CE11A487DC60072FC98 /* stage_1_level_11_iPad.plist */; };
+		A3466D241A487DC70072FC98 /* stage_1_level_12_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466CE21A487DC70072FC98 /* stage_1_level_12_iPad.plist */; };
+		A3466D251A487DC70072FC98 /* stage_1_level_13_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466CE31A487DC70072FC98 /* stage_1_level_13_iPad.plist */; };
+		A3466D261A487DC70072FC98 /* stage_1_level_14_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466CE41A487DC70072FC98 /* stage_1_level_14_iPad.plist */; };
+		A3466D271A487DC70072FC98 /* stage_1_level_15_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466CE51A487DC70072FC98 /* stage_1_level_15_iPad.plist */; };
+		A3466D281A487DC70072FC98 /* stage_1_level_16_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466CE61A487DC70072FC98 /* stage_1_level_16_iPad.plist */; };
+		A3466D291A487DC70072FC98 /* stage_1_level_17_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466CE71A487DC70072FC98 /* stage_1_level_17_iPad.plist */; };
+		A3466D2A1A487DC70072FC98 /* stage_1_level_18_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466CE81A487DC70072FC98 /* stage_1_level_18_iPad.plist */; };
+		A3466D2B1A487DC70072FC98 /* stage_1_level_19_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466CE91A487DC70072FC98 /* stage_1_level_19_iPad.plist */; };
+		A3466D2C1A487DC70072FC98 /* stage_1_level_1_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466CEA1A487DC70072FC98 /* stage_1_level_1_iPad.plist */; };
+		A3466D2D1A487DC70072FC98 /* stage_1_level_20_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466CEB1A487DC70072FC98 /* stage_1_level_20_iPad.plist */; };
+		A3466D2E1A487DC70072FC98 /* stage_1_level_21_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466CEC1A487DC70072FC98 /* stage_1_level_21_iPad.plist */; };
+		A3466D2F1A487DC70072FC98 /* stage_1_level_2_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466CED1A487DC70072FC98 /* stage_1_level_2_iPad.plist */; };
+		A3466D301A487DC70072FC98 /* stage_1_level_3_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466CEE1A487DC70072FC98 /* stage_1_level_3_iPad.plist */; };
+		A3466D311A487DC70072FC98 /* stage_1_level_4_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466CEF1A487DC70072FC98 /* stage_1_level_4_iPad.plist */; };
+		A3466D321A487DC70072FC98 /* stage_1_level_5_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466CF01A487DC70072FC98 /* stage_1_level_5_iPad.plist */; };
+		A3466D331A487DC70072FC98 /* stage_1_level_6_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466CF11A487DC70072FC98 /* stage_1_level_6_iPad.plist */; };
+		A3466D341A487DC70072FC98 /* stage_1_level_7_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466CF21A487DC70072FC98 /* stage_1_level_7_iPad.plist */; };
+		A3466D351A487DC70072FC98 /* stage_1_level_8_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466CF31A487DC70072FC98 /* stage_1_level_8_iPad.plist */; };
+		A3466D361A487DC70072FC98 /* stage_1_level_9_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466CF41A487DC70072FC98 /* stage_1_level_9_iPad.plist */; };
+		A3466D371A487DC70072FC98 /* stage_2_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466CF51A487DC70072FC98 /* stage_2_iPad.plist */; };
+		A3466D381A487DC70072FC98 /* stage_2_level_10_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466CF61A487DC70072FC98 /* stage_2_level_10_iPad.plist */; };
+		A3466D391A487DC70072FC98 /* stage_2_level_11_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466CF71A487DC70072FC98 /* stage_2_level_11_iPad.plist */; };
+		A3466D3A1A487DC70072FC98 /* stage_2_level_12_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466CF81A487DC70072FC98 /* stage_2_level_12_iPad.plist */; };
+		A3466D3B1A487DC70072FC98 /* stage_2_level_13_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466CF91A487DC70072FC98 /* stage_2_level_13_iPad.plist */; };
+		A3466D3C1A487DC70072FC98 /* stage_2_level_14_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466CFA1A487DC70072FC98 /* stage_2_level_14_iPad.plist */; };
+		A3466D3D1A487DC70072FC98 /* stage_2_level_15_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466CFB1A487DC70072FC98 /* stage_2_level_15_iPad.plist */; };
+		A3466D3E1A487DC70072FC98 /* stage_2_level_16_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466CFC1A487DC70072FC98 /* stage_2_level_16_iPad.plist */; };
+		A3466D3F1A487DC70072FC98 /* stage_2_level_17_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466CFD1A487DC70072FC98 /* stage_2_level_17_iPad.plist */; };
+		A3466D401A487DC70072FC98 /* stage_2_level_18_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466CFE1A487DC70072FC98 /* stage_2_level_18_iPad.plist */; };
+		A3466D411A487DC70072FC98 /* stage_2_level_19_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466CFF1A487DC70072FC98 /* stage_2_level_19_iPad.plist */; };
+		A3466D421A487DC70072FC98 /* stage_2_level_1_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466D001A487DC70072FC98 /* stage_2_level_1_iPad.plist */; };
+		A3466D431A487DC70072FC98 /* stage_2_level_20_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466D011A487DC70072FC98 /* stage_2_level_20_iPad.plist */; };
+		A3466D441A487DC70072FC98 /* stage_2_level_21_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466D021A487DC70072FC98 /* stage_2_level_21_iPad.plist */; };
+		A3466D451A487DC70072FC98 /* stage_2_level_2_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466D031A487DC70072FC98 /* stage_2_level_2_iPad.plist */; };
+		A3466D461A487DC70072FC98 /* stage_2_level_3_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466D041A487DC70072FC98 /* stage_2_level_3_iPad.plist */; };
+		A3466D471A487DC70072FC98 /* stage_2_level_4_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466D051A487DC70072FC98 /* stage_2_level_4_iPad.plist */; };
+		A3466D481A487DC70072FC98 /* stage_2_level_5_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466D061A487DC70072FC98 /* stage_2_level_5_iPad.plist */; };
+		A3466D491A487DC70072FC98 /* stage_2_level_6_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466D071A487DC70072FC98 /* stage_2_level_6_iPad.plist */; };
+		A3466D4A1A487DC70072FC98 /* stage_2_level_7_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466D081A487DC70072FC98 /* stage_2_level_7_iPad.plist */; };
+		A3466D4B1A487DC70072FC98 /* stage_2_level_8_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466D091A487DC70072FC98 /* stage_2_level_8_iPad.plist */; };
+		A3466D4C1A487DC70072FC98 /* stage_2_level_9_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466D0A1A487DC70072FC98 /* stage_2_level_9_iPad.plist */; };
+		A3466D4D1A487DC70072FC98 /* stage_3_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466D0B1A487DC70072FC98 /* stage_3_iPad.plist */; };
+		A3466D4E1A487DC70072FC98 /* stage_3_level_10_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466D0C1A487DC70072FC98 /* stage_3_level_10_iPad.plist */; };
+		A3466D4F1A487DC70072FC98 /* stage_3_level_11_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466D0D1A487DC70072FC98 /* stage_3_level_11_iPad.plist */; };
+		A3466D501A487DC70072FC98 /* stage_3_level_12_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466D0E1A487DC70072FC98 /* stage_3_level_12_iPad.plist */; };
+		A3466D511A487DC70072FC98 /* stage_3_level_13_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466D0F1A487DC70072FC98 /* stage_3_level_13_iPad.plist */; };
+		A3466D521A487DC70072FC98 /* stage_3_level_14_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466D101A487DC70072FC98 /* stage_3_level_14_iPad.plist */; };
+		A3466D531A487DC70072FC98 /* stage_3_level_15_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466D111A487DC70072FC98 /* stage_3_level_15_iPad.plist */; };
+		A3466D541A487DC70072FC98 /* stage_3_level_16_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466D121A487DC70072FC98 /* stage_3_level_16_iPad.plist */; };
+		A3466D551A487DC70072FC98 /* stage_3_level_17_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466D131A487DC70072FC98 /* stage_3_level_17_iPad.plist */; };
+		A3466D561A487DC70072FC98 /* stage_3_level_18_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466D141A487DC70072FC98 /* stage_3_level_18_iPad.plist */; };
+		A3466D571A487DC70072FC98 /* stage_3_level_19_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466D151A487DC70072FC98 /* stage_3_level_19_iPad.plist */; };
+		A3466D581A487DC70072FC98 /* stage_3_level_1_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466D161A487DC70072FC98 /* stage_3_level_1_iPad.plist */; };
+		A3466D591A487DC70072FC98 /* stage_3_level_20_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466D171A487DC70072FC98 /* stage_3_level_20_iPad.plist */; };
+		A3466D5A1A487DC70072FC98 /* stage_3_level_21_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466D181A487DC70072FC98 /* stage_3_level_21_iPad.plist */; };
+		A3466D5B1A487DC70072FC98 /* stage_3_level_2_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466D191A487DC70072FC98 /* stage_3_level_2_iPad.plist */; };
+		A3466D5C1A487DC70072FC98 /* stage_3_level_3_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466D1A1A487DC70072FC98 /* stage_3_level_3_iPad.plist */; };
+		A3466D5D1A487DC70072FC98 /* stage_3_level_4_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466D1B1A487DC70072FC98 /* stage_3_level_4_iPad.plist */; };
+		A3466D5E1A487DC70072FC98 /* stage_3_level_5_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466D1C1A487DC70072FC98 /* stage_3_level_5_iPad.plist */; };
+		A3466D5F1A487DC70072FC98 /* stage_3_level_6_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466D1D1A487DC70072FC98 /* stage_3_level_6_iPad.plist */; };
+		A3466D601A487DC70072FC98 /* stage_3_level_7_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466D1E1A487DC70072FC98 /* stage_3_level_7_iPad.plist */; };
+		A3466D611A487DC70072FC98 /* stage_3_level_8_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466D1F1A487DC70072FC98 /* stage_3_level_8_iPad.plist */; };
+		A3466D621A487DC70072FC98 /* stage_3_level_9_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466D201A487DC70072FC98 /* stage_3_level_9_iPad.plist */; };
 		A34EBB7A1A41D7C300EB4BD4 /* stage_1.plist in Resources */ = {isa = PBXBuildFile; fileRef = A34EBB381A41D7C300EB4BD4 /* stage_1.plist */; };
 		A34EBB7B1A41D7C300EB4BD4 /* stage_1_level_1.plist in Resources */ = {isa = PBXBuildFile; fileRef = A34EBB391A41D7C300EB4BD4 /* stage_1_level_1.plist */; };
 		A34EBB7C1A41D7C300EB4BD4 /* stage_1_level_10.plist in Resources */ = {isa = PBXBuildFile; fileRef = A34EBB3A1A41D7C300EB4BD4 /* stage_1_level_10.plist */; };
@@ -649,6 +715,72 @@
 		A33D53D21966758A00D65131 /* TimerObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerObject.m; sourceTree = "<group>"; };
 		A3429BA619A85826007184DD /* TTMagicStick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTMagicStick.h; sourceTree = "<group>"; };
 		A3429BA719A85826007184DD /* TTMagicStick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTMagicStick.m; sourceTree = "<group>"; };
+		A3466CDF1A487DC60072FC98 /* stage_1_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_1_iPad.plist; sourceTree = "<group>"; };
+		A3466CE01A487DC60072FC98 /* stage_1_level_10_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_1_level_10_iPad.plist; sourceTree = "<group>"; };
+		A3466CE11A487DC60072FC98 /* stage_1_level_11_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_1_level_11_iPad.plist; sourceTree = "<group>"; };
+		A3466CE21A487DC70072FC98 /* stage_1_level_12_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_1_level_12_iPad.plist; sourceTree = "<group>"; };
+		A3466CE31A487DC70072FC98 /* stage_1_level_13_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_1_level_13_iPad.plist; sourceTree = "<group>"; };
+		A3466CE41A487DC70072FC98 /* stage_1_level_14_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_1_level_14_iPad.plist; sourceTree = "<group>"; };
+		A3466CE51A487DC70072FC98 /* stage_1_level_15_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_1_level_15_iPad.plist; sourceTree = "<group>"; };
+		A3466CE61A487DC70072FC98 /* stage_1_level_16_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_1_level_16_iPad.plist; sourceTree = "<group>"; };
+		A3466CE71A487DC70072FC98 /* stage_1_level_17_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_1_level_17_iPad.plist; sourceTree = "<group>"; };
+		A3466CE81A487DC70072FC98 /* stage_1_level_18_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_1_level_18_iPad.plist; sourceTree = "<group>"; };
+		A3466CE91A487DC70072FC98 /* stage_1_level_19_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_1_level_19_iPad.plist; sourceTree = "<group>"; };
+		A3466CEA1A487DC70072FC98 /* stage_1_level_1_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_1_level_1_iPad.plist; sourceTree = "<group>"; };
+		A3466CEB1A487DC70072FC98 /* stage_1_level_20_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_1_level_20_iPad.plist; sourceTree = "<group>"; };
+		A3466CEC1A487DC70072FC98 /* stage_1_level_21_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_1_level_21_iPad.plist; sourceTree = "<group>"; };
+		A3466CED1A487DC70072FC98 /* stage_1_level_2_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_1_level_2_iPad.plist; sourceTree = "<group>"; };
+		A3466CEE1A487DC70072FC98 /* stage_1_level_3_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_1_level_3_iPad.plist; sourceTree = "<group>"; };
+		A3466CEF1A487DC70072FC98 /* stage_1_level_4_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_1_level_4_iPad.plist; sourceTree = "<group>"; };
+		A3466CF01A487DC70072FC98 /* stage_1_level_5_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_1_level_5_iPad.plist; sourceTree = "<group>"; };
+		A3466CF11A487DC70072FC98 /* stage_1_level_6_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_1_level_6_iPad.plist; sourceTree = "<group>"; };
+		A3466CF21A487DC70072FC98 /* stage_1_level_7_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_1_level_7_iPad.plist; sourceTree = "<group>"; };
+		A3466CF31A487DC70072FC98 /* stage_1_level_8_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_1_level_8_iPad.plist; sourceTree = "<group>"; };
+		A3466CF41A487DC70072FC98 /* stage_1_level_9_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_1_level_9_iPad.plist; sourceTree = "<group>"; };
+		A3466CF51A487DC70072FC98 /* stage_2_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_2_iPad.plist; sourceTree = "<group>"; };
+		A3466CF61A487DC70072FC98 /* stage_2_level_10_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_2_level_10_iPad.plist; sourceTree = "<group>"; };
+		A3466CF71A487DC70072FC98 /* stage_2_level_11_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_2_level_11_iPad.plist; sourceTree = "<group>"; };
+		A3466CF81A487DC70072FC98 /* stage_2_level_12_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_2_level_12_iPad.plist; sourceTree = "<group>"; };
+		A3466CF91A487DC70072FC98 /* stage_2_level_13_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_2_level_13_iPad.plist; sourceTree = "<group>"; };
+		A3466CFA1A487DC70072FC98 /* stage_2_level_14_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_2_level_14_iPad.plist; sourceTree = "<group>"; };
+		A3466CFB1A487DC70072FC98 /* stage_2_level_15_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_2_level_15_iPad.plist; sourceTree = "<group>"; };
+		A3466CFC1A487DC70072FC98 /* stage_2_level_16_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_2_level_16_iPad.plist; sourceTree = "<group>"; };
+		A3466CFD1A487DC70072FC98 /* stage_2_level_17_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_2_level_17_iPad.plist; sourceTree = "<group>"; };
+		A3466CFE1A487DC70072FC98 /* stage_2_level_18_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_2_level_18_iPad.plist; sourceTree = "<group>"; };
+		A3466CFF1A487DC70072FC98 /* stage_2_level_19_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_2_level_19_iPad.plist; sourceTree = "<group>"; };
+		A3466D001A487DC70072FC98 /* stage_2_level_1_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_2_level_1_iPad.plist; sourceTree = "<group>"; };
+		A3466D011A487DC70072FC98 /* stage_2_level_20_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_2_level_20_iPad.plist; sourceTree = "<group>"; };
+		A3466D021A487DC70072FC98 /* stage_2_level_21_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_2_level_21_iPad.plist; sourceTree = "<group>"; };
+		A3466D031A487DC70072FC98 /* stage_2_level_2_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_2_level_2_iPad.plist; sourceTree = "<group>"; };
+		A3466D041A487DC70072FC98 /* stage_2_level_3_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_2_level_3_iPad.plist; sourceTree = "<group>"; };
+		A3466D051A487DC70072FC98 /* stage_2_level_4_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_2_level_4_iPad.plist; sourceTree = "<group>"; };
+		A3466D061A487DC70072FC98 /* stage_2_level_5_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_2_level_5_iPad.plist; sourceTree = "<group>"; };
+		A3466D071A487DC70072FC98 /* stage_2_level_6_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_2_level_6_iPad.plist; sourceTree = "<group>"; };
+		A3466D081A487DC70072FC98 /* stage_2_level_7_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_2_level_7_iPad.plist; sourceTree = "<group>"; };
+		A3466D091A487DC70072FC98 /* stage_2_level_8_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_2_level_8_iPad.plist; sourceTree = "<group>"; };
+		A3466D0A1A487DC70072FC98 /* stage_2_level_9_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_2_level_9_iPad.plist; sourceTree = "<group>"; };
+		A3466D0B1A487DC70072FC98 /* stage_3_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_3_iPad.plist; sourceTree = "<group>"; };
+		A3466D0C1A487DC70072FC98 /* stage_3_level_10_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_3_level_10_iPad.plist; sourceTree = "<group>"; };
+		A3466D0D1A487DC70072FC98 /* stage_3_level_11_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_3_level_11_iPad.plist; sourceTree = "<group>"; };
+		A3466D0E1A487DC70072FC98 /* stage_3_level_12_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_3_level_12_iPad.plist; sourceTree = "<group>"; };
+		A3466D0F1A487DC70072FC98 /* stage_3_level_13_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_3_level_13_iPad.plist; sourceTree = "<group>"; };
+		A3466D101A487DC70072FC98 /* stage_3_level_14_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_3_level_14_iPad.plist; sourceTree = "<group>"; };
+		A3466D111A487DC70072FC98 /* stage_3_level_15_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_3_level_15_iPad.plist; sourceTree = "<group>"; };
+		A3466D121A487DC70072FC98 /* stage_3_level_16_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_3_level_16_iPad.plist; sourceTree = "<group>"; };
+		A3466D131A487DC70072FC98 /* stage_3_level_17_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_3_level_17_iPad.plist; sourceTree = "<group>"; };
+		A3466D141A487DC70072FC98 /* stage_3_level_18_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_3_level_18_iPad.plist; sourceTree = "<group>"; };
+		A3466D151A487DC70072FC98 /* stage_3_level_19_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_3_level_19_iPad.plist; sourceTree = "<group>"; };
+		A3466D161A487DC70072FC98 /* stage_3_level_1_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_3_level_1_iPad.plist; sourceTree = "<group>"; };
+		A3466D171A487DC70072FC98 /* stage_3_level_20_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_3_level_20_iPad.plist; sourceTree = "<group>"; };
+		A3466D181A487DC70072FC98 /* stage_3_level_21_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_3_level_21_iPad.plist; sourceTree = "<group>"; };
+		A3466D191A487DC70072FC98 /* stage_3_level_2_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_3_level_2_iPad.plist; sourceTree = "<group>"; };
+		A3466D1A1A487DC70072FC98 /* stage_3_level_3_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_3_level_3_iPad.plist; sourceTree = "<group>"; };
+		A3466D1B1A487DC70072FC98 /* stage_3_level_4_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_3_level_4_iPad.plist; sourceTree = "<group>"; };
+		A3466D1C1A487DC70072FC98 /* stage_3_level_5_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_3_level_5_iPad.plist; sourceTree = "<group>"; };
+		A3466D1D1A487DC70072FC98 /* stage_3_level_6_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_3_level_6_iPad.plist; sourceTree = "<group>"; };
+		A3466D1E1A487DC70072FC98 /* stage_3_level_7_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_3_level_7_iPad.plist; sourceTree = "<group>"; };
+		A3466D1F1A487DC70072FC98 /* stage_3_level_8_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_3_level_8_iPad.plist; sourceTree = "<group>"; };
+		A3466D201A487DC70072FC98 /* stage_3_level_9_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_3_level_9_iPad.plist; sourceTree = "<group>"; };
 		A34EBB381A41D7C300EB4BD4 /* stage_1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_1.plist; sourceTree = "<group>"; };
 		A34EBB391A41D7C300EB4BD4 /* stage_1_level_1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_1_level_1.plist; sourceTree = "<group>"; };
 		A34EBB3A1A41D7C300EB4BD4 /* stage_1_level_10.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_1_level_10.plist; sourceTree = "<group>"; };
@@ -1367,6 +1499,79 @@
 				A33D53D21966758A00D65131 /* TimerObject.m */,
 			);
 			path = Timer;
+			sourceTree = "<group>";
+		};
+		A3466CDE1A487DC60072FC98 /* Levels_iPad */ = {
+			isa = PBXGroup;
+			children = (
+				A3466CDF1A487DC60072FC98 /* stage_1_iPad.plist */,
+				A3466CE01A487DC60072FC98 /* stage_1_level_10_iPad.plist */,
+				A3466CE11A487DC60072FC98 /* stage_1_level_11_iPad.plist */,
+				A3466CE21A487DC70072FC98 /* stage_1_level_12_iPad.plist */,
+				A3466CE31A487DC70072FC98 /* stage_1_level_13_iPad.plist */,
+				A3466CE41A487DC70072FC98 /* stage_1_level_14_iPad.plist */,
+				A3466CE51A487DC70072FC98 /* stage_1_level_15_iPad.plist */,
+				A3466CE61A487DC70072FC98 /* stage_1_level_16_iPad.plist */,
+				A3466CE71A487DC70072FC98 /* stage_1_level_17_iPad.plist */,
+				A3466CE81A487DC70072FC98 /* stage_1_level_18_iPad.plist */,
+				A3466CE91A487DC70072FC98 /* stage_1_level_19_iPad.plist */,
+				A3466CEA1A487DC70072FC98 /* stage_1_level_1_iPad.plist */,
+				A3466CEB1A487DC70072FC98 /* stage_1_level_20_iPad.plist */,
+				A3466CEC1A487DC70072FC98 /* stage_1_level_21_iPad.plist */,
+				A3466CED1A487DC70072FC98 /* stage_1_level_2_iPad.plist */,
+				A3466CEE1A487DC70072FC98 /* stage_1_level_3_iPad.plist */,
+				A3466CEF1A487DC70072FC98 /* stage_1_level_4_iPad.plist */,
+				A3466CF01A487DC70072FC98 /* stage_1_level_5_iPad.plist */,
+				A3466CF11A487DC70072FC98 /* stage_1_level_6_iPad.plist */,
+				A3466CF21A487DC70072FC98 /* stage_1_level_7_iPad.plist */,
+				A3466CF31A487DC70072FC98 /* stage_1_level_8_iPad.plist */,
+				A3466CF41A487DC70072FC98 /* stage_1_level_9_iPad.plist */,
+				A3466CF51A487DC70072FC98 /* stage_2_iPad.plist */,
+				A3466CF61A487DC70072FC98 /* stage_2_level_10_iPad.plist */,
+				A3466CF71A487DC70072FC98 /* stage_2_level_11_iPad.plist */,
+				A3466CF81A487DC70072FC98 /* stage_2_level_12_iPad.plist */,
+				A3466CF91A487DC70072FC98 /* stage_2_level_13_iPad.plist */,
+				A3466CFA1A487DC70072FC98 /* stage_2_level_14_iPad.plist */,
+				A3466CFB1A487DC70072FC98 /* stage_2_level_15_iPad.plist */,
+				A3466CFC1A487DC70072FC98 /* stage_2_level_16_iPad.plist */,
+				A3466CFD1A487DC70072FC98 /* stage_2_level_17_iPad.plist */,
+				A3466CFE1A487DC70072FC98 /* stage_2_level_18_iPad.plist */,
+				A3466CFF1A487DC70072FC98 /* stage_2_level_19_iPad.plist */,
+				A3466D001A487DC70072FC98 /* stage_2_level_1_iPad.plist */,
+				A3466D011A487DC70072FC98 /* stage_2_level_20_iPad.plist */,
+				A3466D021A487DC70072FC98 /* stage_2_level_21_iPad.plist */,
+				A3466D031A487DC70072FC98 /* stage_2_level_2_iPad.plist */,
+				A3466D041A487DC70072FC98 /* stage_2_level_3_iPad.plist */,
+				A3466D051A487DC70072FC98 /* stage_2_level_4_iPad.plist */,
+				A3466D061A487DC70072FC98 /* stage_2_level_5_iPad.plist */,
+				A3466D071A487DC70072FC98 /* stage_2_level_6_iPad.plist */,
+				A3466D081A487DC70072FC98 /* stage_2_level_7_iPad.plist */,
+				A3466D091A487DC70072FC98 /* stage_2_level_8_iPad.plist */,
+				A3466D0A1A487DC70072FC98 /* stage_2_level_9_iPad.plist */,
+				A3466D0B1A487DC70072FC98 /* stage_3_iPad.plist */,
+				A3466D0C1A487DC70072FC98 /* stage_3_level_10_iPad.plist */,
+				A3466D0D1A487DC70072FC98 /* stage_3_level_11_iPad.plist */,
+				A3466D0E1A487DC70072FC98 /* stage_3_level_12_iPad.plist */,
+				A3466D0F1A487DC70072FC98 /* stage_3_level_13_iPad.plist */,
+				A3466D101A487DC70072FC98 /* stage_3_level_14_iPad.plist */,
+				A3466D111A487DC70072FC98 /* stage_3_level_15_iPad.plist */,
+				A3466D121A487DC70072FC98 /* stage_3_level_16_iPad.plist */,
+				A3466D131A487DC70072FC98 /* stage_3_level_17_iPad.plist */,
+				A3466D141A487DC70072FC98 /* stage_3_level_18_iPad.plist */,
+				A3466D151A487DC70072FC98 /* stage_3_level_19_iPad.plist */,
+				A3466D161A487DC70072FC98 /* stage_3_level_1_iPad.plist */,
+				A3466D171A487DC70072FC98 /* stage_3_level_20_iPad.plist */,
+				A3466D181A487DC70072FC98 /* stage_3_level_21_iPad.plist */,
+				A3466D191A487DC70072FC98 /* stage_3_level_2_iPad.plist */,
+				A3466D1A1A487DC70072FC98 /* stage_3_level_3_iPad.plist */,
+				A3466D1B1A487DC70072FC98 /* stage_3_level_4_iPad.plist */,
+				A3466D1C1A487DC70072FC98 /* stage_3_level_5_iPad.plist */,
+				A3466D1D1A487DC70072FC98 /* stage_3_level_6_iPad.plist */,
+				A3466D1E1A487DC70072FC98 /* stage_3_level_7_iPad.plist */,
+				A3466D1F1A487DC70072FC98 /* stage_3_level_8_iPad.plist */,
+				A3466D201A487DC70072FC98 /* stage_3_level_9_iPad.plist */,
+			);
+			path = Levels_iPad;
 			sourceTree = "<group>";
 		};
 		A34EBB371A41D7C300EB4BD4 /* levels */ = {
@@ -2193,6 +2398,7 @@
 		A3A67E7F1902B67700BFAF7B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A3466CDE1A487DC60072FC98 /* Levels_iPad */,
 				A34EBB371A41D7C300EB4BD4 /* levels */,
 				A37365D519BC242F009EC675 /* Images */,
 				48E71B131979A81900A2E7E8 /* sounds */,
@@ -2482,12 +2688,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3466D431A487DC70072FC98 /* stage_2_level_20_iPad.plist in Resources */,
 				A373678E19BC2430009EC675 /* iPh_book13.png in Resources */,
 				A37367B119BC2430009EC675 /* iPh_icecream17.png in Resources */,
 				A34EBBA91A41D7C300EB4BD4 /* stage_3_level_11.plist in Resources */,
 				A373679519BC2430009EC675 /* iPh_book7.png in Resources */,
 				A37367BB19BC2430009EC675 /* iPh_icecreambg.jpg in Resources */,
+				A3466D621A487DC70072FC98 /* stage_3_level_9_iPad.plist in Resources */,
+				A3466D2B1A487DC70072FC98 /* stage_1_level_19_iPad.plist in Resources */,
+				A3466D2A1A487DC70072FC98 /* stage_1_level_18_iPad.plist in Resources */,
 				A34EBB851A41D7C300EB4BD4 /* stage_1_level_19.plist in Resources */,
+				A3466D471A487DC70072FC98 /* stage_2_level_4_iPad.plist in Resources */,
 				A373687619BF5807009EC675 /* iph_cd9.png in Resources */,
 				A373684E19BF3CE3009EC675 /* iPh_Bottle13.png in Resources */,
 				A37367F919BC2430009EC675 /* iPh_umb28.png in Resources */,
@@ -2522,26 +2733,36 @@
 				A373670A19BC2430009EC675 /* iPh_apple10.png in Resources */,
 				A373678319BC2430009EC675 /* iPh_treeleaf19b.png in Resources */,
 				A3EF579F19C1E60500A1AB85 /* iPh_key6.png in Resources */,
+				A3466D3F1A487DC70072FC98 /* stage_2_level_17_iPad.plist in Resources */,
+				A3466D231A487DC70072FC98 /* stage_1_level_11_iPad.plist in Resources */,
 				A373676719BC2430009EC675 /* iPh_pencil 3.png in Resources */,
 				A373681419BC2430009EC675 /* iPh_star6.png in Resources */,
 				A34EBBB71A41D7C300EB4BD4 /* stage_3_level_5.plist in Resources */,
 				A34EBB921A41D7C300EB4BD4 /* stage_2_level_10.plist in Resources */,
 				A373675D19BC2430009EC675 /* iPh_flower4_right.png in Resources */,
+				A3466D221A487DC70072FC98 /* stage_1_level_10_iPad.plist in Resources */,
 				A34EBB821A41D7C300EB4BD4 /* stage_1_level_16.plist in Resources */,
 				A30516BB19C3F047009ABD85 /* iPh_brush1_cup2.png in Resources */,
+				A3466D351A487DC70072FC98 /* stage_1_level_8_iPad.plist in Resources */,
 				A37367AB19BC2430009EC675 /* iPh_icecream11.png in Resources */,
 				A3042F5619C363E100B011E1 /* iPh_ball24.png in Resources */,
 				A373678819BC2430009EC675 /* iPh_treeleaf42a.png in Resources */,
 				A37367FC19BC2430009EC675 /* iPh_umb6.png in Resources */,
 				A37367E419BC2430009EC675 /* iPh_candle5.png in Resources */,
 				A373679B19BC2430009EC675 /* iPh_bucket_front_part.png in Resources */,
+				A3466D291A487DC70072FC98 /* stage_1_level_17_iPad.plist in Resources */,
 				A34EBBA31A41D7C300EB4BD4 /* stage_2_level_7.plist in Resources */,
 				A373675019BC2430009EC675 /* iP_disc2.png in Resources */,
+				A3466D491A487DC70072FC98 /* stage_2_level_6_iPad.plist in Resources */,
 				A37367A219BC2430009EC675 /* iph_fish3.png in Resources */,
+				A3466D4D1A487DC70072FC98 /* stage_3_iPad.plist in Resources */,
+				A3466D4B1A487DC70072FC98 /* stage_2_level_8_iPad.plist in Resources */,
 				A373675A19BC2430009EC675 /* iPh_flower11_left.png in Resources */,
 				A3EF579419C1E60500A1AB85 /* iPh_key10.png in Resources */,
 				A34EBBBA1A41D7C300EB4BD4 /* stage_3_level_8.plist in Resources */,
+				A3466D4E1A487DC70072FC98 /* stage_3_level_10_iPad.plist in Resources */,
 				A37367B219BC2430009EC675 /* iPh_icecream18.png in Resources */,
+				A3466D5A1A487DC70072FC98 /* stage_3_level_21_iPad.plist in Resources */,
 				A373679619BC2430009EC675 /* iPh_book8.png in Resources */,
 				A30516BD19C3F047009ABD85 /* iPh_brush2.png in Resources */,
 				A373674B19BC2430009EC675 /* iPh_carrot8.png in Resources */,
@@ -2552,8 +2773,10 @@
 				A34EBB891A41D7C300EB4BD4 /* stage_1_level_3.plist in Resources */,
 				A373684B19BF3CE3009EC675 /* iPh_Bottle10.png in Resources */,
 				A373677719BC2430009EC675 /* iP_pen_4.png in Resources */,
+				A3466D3E1A487DC70072FC98 /* stage_2_level_16_iPad.plist in Resources */,
 				A3EF579C19C1E60500A1AB85 /* iPh_key3.png in Resources */,
 				A373680719BC2430009EC675 /* iPh_star14.png in Resources */,
+				A3466D251A487DC70072FC98 /* stage_1_level_13_iPad.plist in Resources */,
 				A373679919BC2430009EC675 /* iPh_bucket_babk_part.png in Resources */,
 				A373683119BC8D66009EC675 /* iPh_kite21.png in Resources */,
 				A37367F819BC2430009EC675 /* iPh_umb27.png in Resources */,
@@ -2567,7 +2790,9 @@
 				A373685719BF3CE3009EC675 /* iPh_Bottle7.png in Resources */,
 				A373679C19BC2430009EC675 /* iPh_handel.png in Resources */,
 				A34EBB7E1A41D7C300EB4BD4 /* stage_1_level_12.plist in Resources */,
+				A3466D5F1A487DC70072FC98 /* stage_3_level_6_iPad.plist in Resources */,
 				A373672E19BC2430009EC675 /* iPh_bird15.png in Resources */,
+				A3466D501A487DC70072FC98 /* stage_3_level_12_iPad.plist in Resources */,
 				A373679419BC2430009EC675 /* iPh_book6.png in Resources */,
 				A373675519BC2430009EC675 /* iP_disc7.png in Resources */,
 				A37367FB19BC2430009EC675 /* iPh_umb5.png in Resources */,
@@ -2580,6 +2805,7 @@
 				A3042F5B19C363E100B011E1 /* iPh_ball34.png in Resources */,
 				A373674C19BC2430009EC675 /* iPh_carrot9.png in Resources */,
 				A373677319BC2430009EC675 /* iP_pen_14.png in Resources */,
+				A3466D311A487DC70072FC98 /* stage_1_level_4_iPad.plist in Resources */,
 				A373683519BC8D66009EC675 /* iPh_kite7.png in Resources */,
 				A373671119BC2430009EC675 /* iPh_apple_bg.png in Resources */,
 				A373679219BC2430009EC675 /* iPh_book3.png in Resources */,
@@ -2592,14 +2818,18 @@
 				A373672D19BC2430009EC675 /* iPh_bird1.png in Resources */,
 				A373671819BC2430009EC675 /* iPh_balloon15.png in Resources */,
 				A373671C19BC2430009EC675 /* iPh_balloon19.png in Resources */,
+				A3466D401A487DC70072FC98 /* stage_2_level_18_iPad.plist in Resources */,
 				A3EF579819C1E60500A1AB85 /* iPh_key14.png in Resources */,
 				A34EBB7C1A41D7C300EB4BD4 /* stage_1_level_10.plist in Resources */,
+				A3466D3A1A487DC70072FC98 /* stage_2_level_12_iPad.plist in Resources */,
 				A34EBB8A1A41D7C300EB4BD4 /* stage_1_level_4.plist in Resources */,
+				A3466D531A487DC70072FC98 /* stage_3_level_15_iPad.plist in Resources */,
 				A373680819BC2430009EC675 /* iPh_star15.png in Resources */,
 				A37367F019BC2430009EC675 /* iPh_umb18.png in Resources */,
 				A31B484E1971A81D00EF6BF8 /* uv_heart.png in Resources */,
 				A373685119BF3CE3009EC675 /* iPh_Bottle16.png in Resources */,
 				A373673019BC2430009EC675 /* iPh_bird18.png in Resources */,
+				A3466D461A487DC70072FC98 /* stage_2_level_3_iPad.plist in Resources */,
 				A37367B819BC2430009EC675 /* iPh_icecream6_with_bonus.png in Resources */,
 				A34EBB7F1A41D7C300EB4BD4 /* stage_1_level_13.plist in Resources */,
 				A373686B19BF5807009EC675 /* iph_cd1.png in Resources */,
@@ -2618,6 +2848,7 @@
 				A34EBB881A41D7C300EB4BD4 /* stage_1_level_21.plist in Resources */,
 				A373680D19BC2430009EC675 /* iPh_star25.png in Resources */,
 				A373670C19BC2430009EC675 /* iPh_apple3.png in Resources */,
+				A3466D481A487DC70072FC98 /* stage_2_level_5_iPad.plist in Resources */,
 				A373675919BC2430009EC675 /* iPh_flower10_right.png in Resources */,
 				A373682A19BC8D66009EC675 /* iPh_kite1.png in Resources */,
 				A373679319BC2430009EC675 /* iPh_book5.png in Resources */,
@@ -2633,10 +2864,12 @@
 				A373685919BF3CE3009EC675 /* iPh_Bottle9.png in Resources */,
 				A373673A19BC2430009EC675 /* iPh_bird4.png in Resources */,
 				A373678C19BC2430009EC675 /* iPh_book11.png in Resources */,
+				A3466D5C1A487DC70072FC98 /* stage_3_level_3_iPad.plist in Resources */,
 				A373675819BC2430009EC675 /* iPh_flower.png in Resources */,
 				A37367DC19BC2430009EC675 /* iPh_candle12.png in Resources */,
 				A38222E11974B95200D7A856 /* Localizable.strings in Resources */,
 				A37367A419BC2430009EC675 /* iph_fish6.png in Resources */,
+				A3466D541A487DC70072FC98 /* stage_3_level_16_iPad.plist in Resources */,
 				A37367A719BC2430009EC675 /* iph_fish9.png in Resources */,
 				A373682B19BC8D66009EC675 /* iPh_kite14.png in Resources */,
 				A373680E19BC2430009EC675 /* iPh_star27.png in Resources */,
@@ -2645,12 +2878,16 @@
 				A373672619BC2430009EC675 /* iPh_balloon32.png in Resources */,
 				A373672219BC2430009EC675 /* iPh_balloon26.png in Resources */,
 				A373683319BC8D66009EC675 /* iPh_kite3.png in Resources */,
+				A3466D4F1A487DC70072FC98 /* stage_3_level_11_iPad.plist in Resources */,
 				A37367EA19BC2430009EC675 /* iPh_umb1.png in Resources */,
+				A3466D2C1A487DC70072FC98 /* stage_1_level_1_iPad.plist in Resources */,
+				A3466D3C1A487DC70072FC98 /* stage_2_level_14_iPad.plist in Resources */,
 				A3EF57A219C1E60500A1AB85 /* iPh_key9.png in Resources */,
 				A3EF579D19C1E60500A1AB85 /* iPh_key4.png in Resources */,
 				A37367A119BC2430009EC675 /* iph_fish2.png in Resources */,
 				A373680619BC2430009EC675 /* iPh_umbtable.png in Resources */,
 				A373670B19BC2430009EC675 /* iPh_apple2.png in Resources */,
+				A3466D2D1A487DC70072FC98 /* stage_1_level_20_iPad.plist in Resources */,
 				A373685A19BF3CE3009EC675 /* iPh_Bottlebg.png in Resources */,
 				A360192B19B5FB44005DBD86 /* Images-2.xcassets in Resources */,
 				A37367B619BC2430009EC675 /* iPh_icecream4.png in Resources */,
@@ -2659,11 +2896,13 @@
 				A373674319BC2430009EC675 /* iPh_carrot24.png in Resources */,
 				A34EBB941A41D7C300EB4BD4 /* stage_2_level_12.plist in Resources */,
 				A34EBBB81A41D7C300EB4BD4 /* stage_3_level_6.plist in Resources */,
+				A3466D5E1A487DC70072FC98 /* stage_3_level_5_iPad.plist in Resources */,
 				A373672B19BC2430009EC675 /* iPh_balloon8.png in Resources */,
 				A37367BA19BC2430009EC675 /* iPh_icecream8.png in Resources */,
 				48E71B331979A81900A2E7E8 /* wrong.wav in Resources */,
 				A37367D119BC2430009EC675 /* iPh_candy16.png in Resources */,
 				A30516B919C3F047009ABD85 /* iPh_brush11.png in Resources */,
+				A3466D361A487DC70072FC98 /* stage_1_level_9_iPad.plist in Resources */,
 				A34EBB9A1A41D7C300EB4BD4 /* stage_2_level_18.plist in Resources */,
 				A34EBBB61A41D7C300EB4BD4 /* stage_3_level_4.plist in Resources */,
 				A373680419BC2430009EC675 /* iPh_umbman.png in Resources */,
@@ -2673,31 +2912,40 @@
 				A37367E519BC2430009EC675 /* iPh_candle6.png in Resources */,
 				A373672119BC2430009EC675 /* iPh_balloon24.png in Resources */,
 				A373671D19BC2430009EC675 /* iPh_balloon2.png in Resources */,
+				A3466D511A487DC70072FC98 /* stage_3_level_13_iPad.plist in Resources */,
 				A34EBB911A41D7C300EB4BD4 /* stage_2_level_1.plist in Resources */,
 				A37367EE19BC2430009EC675 /* iPh_umb15.png in Resources */,
 				A373684C19BF3CE3009EC675 /* iPh_Bottle11.png in Resources */,
+				A3466D261A487DC70072FC98 /* stage_1_level_14_iPad.plist in Resources */,
 				A34EBBA81A41D7C300EB4BD4 /* stage_3_level_10.plist in Resources */,
 				A34EBBA01A41D7C300EB4BD4 /* stage_2_level_4.plist in Resources */,
 				48E71B281979A81900A2E7E8 /* disc.wav in Resources */,
 				A37367E119BC2430009EC675 /* iPh_candle21.png in Resources */,
+				A3466D611A487DC70072FC98 /* stage_3_level_8_iPad.plist in Resources */,
+				A3466D601A487DC70072FC98 /* stage_3_level_7_iPad.plist in Resources */,
 				A373673319BC2430009EC675 /* iPh_bird23.png in Resources */,
+				A3466D521A487DC70072FC98 /* stage_3_level_14_iPad.plist in Resources */,
 				A3042F5419C363E100B011E1 /* iPh_ball13.png in Resources */,
 				48E71B2E1979A81900A2E7E8 /* lovesong.mp3 in Resources */,
 				A373677B19BC2430009EC675 /* iP_pen_9.png in Resources */,
 				48E71B2A1979A81900A2E7E8 /* fish.wav in Resources */,
 				48E71B261979A81900A2E7E8 /* bottle.wav in Resources */,
 				A37367EF19BC2430009EC675 /* iPh_umb17.png in Resources */,
+				A3466D301A487DC70072FC98 /* stage_1_level_3_iPad.plist in Resources */,
 				A34EBBAC1A41D7C300EB4BD4 /* stage_3_level_14.plist in Resources */,
+				A3466D411A487DC70072FC98 /* stage_2_level_19_iPad.plist in Resources */,
 				A373672719BC2430009EC675 /* iPh_balloon4.png in Resources */,
 				A373680C19BC2430009EC675 /* iPh_star22.png in Resources */,
 				A3042F5F19C363E100B011E1 /* iPh_ball5.png in Resources */,
 				A34EBBAA1A41D7C300EB4BD4 /* stage_3_level_12.plist in Resources */,
 				A373685619BF3CE3009EC675 /* iPh_Bottle6.png in Resources */,
+				A3466D371A487DC70072FC98 /* stage_2_iPad.plist in Resources */,
 				A373674A19BC2430009EC675 /* iPh_carrot6.png in Resources */,
 				A34EBB981A41D7C300EB4BD4 /* stage_2_level_16.plist in Resources */,
 				A373671719BC2430009EC675 /* iPh_balloon14.png in Resources */,
 				A34EBB841A41D7C300EB4BD4 /* stage_1_level_18.plist in Resources */,
 				A373675619BC2430009EC675 /* iP_disc8.png in Resources */,
+				A3466D381A487DC70072FC98 /* stage_2_level_10_iPad.plist in Resources */,
 				A34EBB871A41D7C300EB4BD4 /* stage_1_level_20.plist in Resources */,
 				A34EBBAD1A41D7C300EB4BD4 /* stage_3_level_15.plist in Resources */,
 				48E71B311979A81900A2E7E8 /* tap.wav in Resources */,
@@ -2733,6 +2981,8 @@
 				A3042F6019C363E100B011E1 /* iPh_ball6.png in Resources */,
 				A37367FD19BC2430009EC675 /* iPh_umb7.png in Resources */,
 				A373687119BF5807009EC675 /* iph_cd4.png in Resources */,
+				A3466D581A487DC70072FC98 /* stage_3_level_1_iPad.plist in Resources */,
+				A3466D5B1A487DC70072FC98 /* stage_3_level_2_iPad.plist in Resources */,
 				A30516BA19C3F047009ABD85 /* iPh_brush1_cup1.png in Resources */,
 				A373682E19BC8D66009EC675 /* iPh_kite19.png in Resources */,
 				A373678619BC2430009EC675 /* iPh_treeleaf26a.png in Resources */,
@@ -2749,6 +2999,7 @@
 				A34EBB9C1A41D7C300EB4BD4 /* stage_2_level_2.plist in Resources */,
 				A373674419BC2430009EC675 /* iPh_carrot25.png in Resources */,
 				A373681019BC2430009EC675 /* iPh_star3.png in Resources */,
+				A3466D3B1A487DC70072FC98 /* stage_2_level_13_iPad.plist in Resources */,
 				A37367CC19BC2430009EC675 /* iPh_candy1.png in Resources */,
 				A30516C419C3F047009ABD85 /* iPh_brush9.png in Resources */,
 				A373678F19BC2430009EC675 /* iPh_book14.png in Resources */,
@@ -2775,6 +3026,7 @@
 				A373670E19BC2430009EC675 /* iPh_apple5.png in Resources */,
 				A3EF579919C1E60500A1AB85 /* iPh_key15.png in Resources */,
 				A35C2EAA19B7728F003FBA1B /* GameData_iPhone.plist in Resources */,
+				A3466D571A487DC70072FC98 /* stage_3_level_19_iPad.plist in Resources */,
 				48E71B251979A81900A2E7E8 /* bird.wav in Resources */,
 				A373679719BC2430009EC675 /* iPh_book9.png in Resources */,
 				A373685519BF3CE3009EC675 /* iPh_Bottle5.png in Resources */,
@@ -2787,14 +3039,18 @@
 				A34EBB8D1A41D7C300EB4BD4 /* stage_1_level_7.plist in Resources */,
 				A373679D19BC2430009EC675 /* iph_fish1.png in Resources */,
 				A373681719BC2430009EC675 /* iPh_star_bg.jpg in Resources */,
+				A3466D4C1A487DC70072FC98 /* stage_2_level_9_iPad.plist in Resources */,
 				A373673B19BC2430009EC675 /* iPh_bird40.png in Resources */,
 				A373672519BC2430009EC675 /* iPh_balloon31.png in Resources */,
 				A3EF579A19C1E60500A1AB85 /* iPh_key16.png in Resources */,
+				A3466D271A487DC70072FC98 /* stage_1_level_15_iPad.plist in Resources */,
 				A373671919BC2430009EC675 /* iPh_balloon16.png in Resources */,
 				A373676219BC2430009EC675 /* iPh_flower9_top.png in Resources */,
 				A373674119BC2430009EC675 /* iPh_carrot19.png in Resources */,
 				A373673619BC2430009EC675 /* iPh_bird33.png in Resources */,
+				A3466D391A487DC70072FC98 /* stage_2_level_11_iPad.plist in Resources */,
 				A373671F19BC2430009EC675 /* iPh_balloon21.png in Resources */,
+				A3466D2E1A487DC70072FC98 /* stage_1_level_21_iPad.plist in Resources */,
 				A31B484D1971A81D00EF6BF8 /* uv_article@2x.png in Resources */,
 				A3042F6719C3682800B011E1 /* iph_birdtree.png in Resources */,
 				A37367D219BC2430009EC675 /* iPh_candy3.png in Resources */,
@@ -2802,18 +3058,24 @@
 				A373675719BC2430009EC675 /* iP_discbg.png in Resources */,
 				A373676F19BC2430009EC675 /* iP_pen_1.png in Resources */,
 				A31B48501971A81D00EF6BF8 /* uv_idea.png in Resources */,
+				A3466D211A487DC70072FC98 /* stage_1_iPad.plist in Resources */,
 				A373682D19BC8D66009EC675 /* iPh_kite18.png in Resources */,
 				A37367D019BC2430009EC675 /* iPh_candy15.png in Resources */,
 				A373671019BC2430009EC675 /* iPh_apple8.png in Resources */,
+				A3466D421A487DC70072FC98 /* stage_2_level_1_iPad.plist in Resources */,
 				A373678719BC2430009EC675 /* iPh_treeleaf26b.png in Resources */,
 				A3EF57A119C1E60500A1AB85 /* iPh_key8.png in Resources */,
 				A373681119BC2430009EC675 /* iPh_star30.png in Resources */,
 				A373671519BC2430009EC675 /* iPh_balloon11.png in Resources */,
 				A31B484F1971A81D00EF6BF8 /* uv_heart@2x.png in Resources */,
+				A3466D591A487DC70072FC98 /* stage_3_level_20_iPad.plist in Resources */,
+				A3466D341A487DC70072FC98 /* stage_1_level_7_iPad.plist in Resources */,
+				A3466D241A487DC70072FC98 /* stage_1_level_12_iPad.plist in Resources */,
 				A373681519BC2430009EC675 /* iPh_star7.png in Resources */,
 				A373672A19BC2430009EC675 /* iPh_balloon7.png in Resources */,
 				A34EBB931A41D7C300EB4BD4 /* stage_2_level_11.plist in Resources */,
 				A34EBB961A41D7C300EB4BD4 /* stage_2_level_14.plist in Resources */,
+				A3466D441A487DC70072FC98 /* stage_2_level_21_iPad.plist in Resources */,
 				A34EBB971A41D7C300EB4BD4 /* stage_2_level_15.plist in Resources */,
 				A37367DF19BC2430009EC675 /* iPh_candle17.png in Resources */,
 				A373687819BF5807009EC675 /* iph_cd_holder2.png in Resources */,
@@ -2821,6 +3083,7 @@
 				A34EBBA11A41D7C300EB4BD4 /* stage_2_level_5.plist in Resources */,
 				A34EBB831A41D7C300EB4BD4 /* stage_1_level_17.plist in Resources */,
 				A373676319BC2430009EC675 /* iPh_pencil 10.png in Resources */,
+				A3466D451A487DC70072FC98 /* stage_2_level_2_iPad.plist in Resources */,
 				A373686F19BF5807009EC675 /* iph_cd2.png in Resources */,
 				A373683019BC8D66009EC675 /* iPh_kite20.png in Resources */,
 				A3042F5819C363E100B011E1 /* iPh_ball27.png in Resources */,
@@ -2835,12 +3098,14 @@
 				A37367EC19BC2430009EC675 /* iPh_umb11.png in Resources */,
 				A37367AA19BC2430009EC675 /* iPh_icecream10.png in Resources */,
 				A373678119BC2430009EC675 /* iPh_treeleaf12b.png in Resources */,
+				A3466D321A487DC70072FC98 /* stage_1_level_5_iPad.plist in Resources */,
 				A3EF579719C1E60500A1AB85 /* iPh_key13.png in Resources */,
 				A37367F319BC2430009EC675 /* iPh_umb22.png in Resources */,
 				A34EBB991A41D7C300EB4BD4 /* stage_2_level_17.plist in Resources */,
 				A373676D19BC2430009EC675 /* iPh_pencil 9.png in Resources */,
 				A373672819BC2430009EC675 /* iPh_balloon5.png in Resources */,
 				A3EF57A019C1E60500A1AB85 /* iPh_key7.png in Resources */,
+				A3466D331A487DC70072FC98 /* stage_1_level_6_iPad.plist in Resources */,
 				A373678919BC2430009EC675 /* iPh_treeleaf42b.png in Resources */,
 				A30516C319C3F047009ABD85 /* iPh_brush8.png in Resources */,
 				A373677019BC2430009EC675 /* iP_pen_10.png in Resources */,
@@ -2849,11 +3114,13 @@
 				A373677219BC2430009EC675 /* iP_pen_13.png in Resources */,
 				A3EF579E19C1E60500A1AB85 /* iPh_key5.png in Resources */,
 				A373686E19BF5807009EC675 /* iph_cd12.png in Resources */,
+				A3466D551A487DC70072FC98 /* stage_3_level_17_iPad.plist in Resources */,
 				A3A67E8C1902B67700BFAF7B /* Main_iPhone.storyboard in Resources */,
 				A373684A19BF3CE3009EC675 /* iPh_Bottle1.png in Resources */,
 				A37367F719BC2430009EC675 /* iPh_umb26.png in Resources */,
 				A34EBBB51A41D7C300EB4BD4 /* stage_3_level_3.plist in Resources */,
 				A37367B319BC2430009EC675 /* iPh_icecream19.png in Resources */,
+				A3466D5D1A487DC70072FC98 /* stage_3_level_4_iPad.plist in Resources */,
 				A373670F19BC2430009EC675 /* iPh_apple6.png in Resources */,
 				A373678D19BC2430009EC675 /* iPh_book12.png in Resources */,
 				A3EF579519C1E60500A1AB85 /* iPh_key11.png in Resources */,
@@ -2864,8 +3131,11 @@
 				A3042F6619C3682800B011E1 /* iph_bird_hunter.png in Resources */,
 				A34EBBBB1A41D7C300EB4BD4 /* stage_3_level_9.plist in Resources */,
 				A373684F19BF3CE3009EC675 /* iPh_Bottle14.png in Resources */,
+				A3466D2F1A487DC70072FC98 /* stage_1_level_2_iPad.plist in Resources */,
+				A3466D281A487DC70072FC98 /* stage_1_level_16_iPad.plist in Resources */,
 				A3B3C4EC1961B52700B62BD4 /* InfoPlist.strings in Resources */,
 				A38222E819756B5E00D7A856 /* iRate.bundle in Resources */,
+				A3466D561A487DC70072FC98 /* stage_3_level_18_iPad.plist in Resources */,
 				A37367E719BC2430009EC675 /* iPh_candle8.png in Resources */,
 				A34EBBA71A41D7C300EB4BD4 /* stage_3_level_1.plist in Resources */,
 				A373678B19BC2430009EC675 /* iPh_treeleaf8a.png in Resources */,
@@ -2887,6 +3157,7 @@
 				A373680A19BC2430009EC675 /* iPh_star2.png in Resources */,
 				A373673419BC2430009EC675 /* iPh_bird26.png in Resources */,
 				A34EBBAE1A41D7C300EB4BD4 /* stage_3_level_16.plist in Resources */,
+				A3466D3D1A487DC70072FC98 /* stage_2_level_15_iPad.plist in Resources */,
 				A373673D19BC2430009EC675 /* iPh_carrot11.png in Resources */,
 				A373676E19BC2430009EC675 /* iPh_pencil.png in Resources */,
 				A373673C19BC2430009EC675 /* iPh_bird6.png in Resources */,
@@ -2900,6 +3171,7 @@
 				A37367E019BC2430009EC675 /* iPh_candle18.png in Resources */,
 				A373682F19BC8D66009EC675 /* iPh_kite2.png in Resources */,
 				A373677519BC2430009EC675 /* iP_pen_2.png in Resources */,
+				A3466D4A1A487DC70072FC98 /* stage_2_level_7_iPad.plist in Resources */,
 				A373674F19BC2430009EC675 /* iP_disc1.png in Resources */,
 				A3EF57A319C1E60500A1AB85 /* iPh_key_bg.png in Resources */,
 				A34EBBAB1A41D7C300EB4BD4 /* stage_3_level_13.plist in Resources */,

@@ -1,0 +1,2437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ID</key>
+	<string>19</string>
+	<key>baskets</key>
+	<array>
+		<dict>
+			<key>basket</key>
+			<string>toothbrush_container2.png</string>
+			<key>basket_frame</key>
+			<string>{655, 250}</string>
+		</dict>
+		<dict>
+			<key>basket</key>
+			<string>toothbrush_container1.png</string>
+			<key>basket_frame</key>
+			<string>{734, 407}</string>
+		</dict>
+		<dict>
+			<key>basket</key>
+			<string>toothbrush_container3.png</string>
+			<key>basket_frame</key>
+			<string>{656, 250}</string>
+		</dict>
+	</array>
+	<key>elements</key>
+	<array>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{758, 231}, {160, 394}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{365, 293}, {160, 394}}</string>
+			<key>image</key>
+			<string>toothbrush_1.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{49, 377}</string>
+				<string>{47, 292}</string>
+				<string>{65, 231}</string>
+				<string>{109, 142}</string>
+				<string>{125, 136}</string>
+				<string>{154, 82}</string>
+				<string>{158, 15}</string>
+				<string>{132, 0}</string>
+				<string>{117, 5}</string>
+				<string>{124, 15}</string>
+				<string>{99, 10}</string>
+				<string>{77, 52}</string>
+				<string>{67, 102}</string>
+				<string>{75, 120}</string>
+				<string>{90, 129}</string>
+				<string>{90, 142}</string>
+				<string>{73, 161}</string>
+				<string>{50, 213}</string>
+				<string>{27, 254}</string>
+				<string>{14, 306}</string>
+				<string>{5, 342}</string>
+				<string>{2, 364}</string>
+				<string>{3, 385}</string>
+				<string>{17, 387}</string>
+				<string>{28, 391}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{812, 287}, {97, 306}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{279, 329}, {97, 306}}</string>
+			<key>image</key>
+			<string>toothbrush_2.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{2, 39}</string>
+				<string>{27, 118}</string>
+				<string>{34, 124}</string>
+				<string>{44, 175}</string>
+				<string>{41, 189}</string>
+				<string>{74, 296}</string>
+				<string>{86, 306}</string>
+				<string>{93, 294}</string>
+				<string>{77, 164}</string>
+				<string>{58, 109}</string>
+				<string>{91, 111}</string>
+				<string>{91, 25}</string>
+				<string>{69, 22}</string>
+				<string>{48, 15}</string>
+				<string>{44, 4}</string>
+				<string>{25, 2}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{747, 187}, {56, 444}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{474, 284}, {56, 444}}</string>
+			<key>image</key>
+			<string>toothbrush_3.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{21, 74}</string>
+				<string>{47, 75}</string>
+				<string>{53, 7}</string>
+				<string>{21, 3}</string>
+				<string>{15, 32}</string>
+				<string>{12, 75}</string>
+				<string>{10, 116}</string>
+				<string>{17, 163}</string>
+				<string>{23, 193}</string>
+				<string>{18, 239}</string>
+				<string>{12, 287}</string>
+				<string>{3, 352}</string>
+				<string>{8, 441}</string>
+				<string>{29, 419}</string>
+				<string>{38, 375}</string>
+				<string>{41, 324}</string>
+				<string>{37, 297}</string>
+				<string>{40, 249}</string>
+				<string>{46, 206}</string>
+				<string>{35, 162}</string>
+				<string>{22, 115}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{676, 270}, {60, 382}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{564, 297}, {60, 382}}</string>
+			<key>image</key>
+			<string>toothbrush_4.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{33, 90}</string>
+				<string>{25, 97}</string>
+				<string>{25, 124}</string>
+				<string>{27, 179}</string>
+				<string>{36, 185}</string>
+				<string>{36, 212}</string>
+				<string>{34, 220}</string>
+				<string>{43, 299}</string>
+				<string>{41, 344}</string>
+				<string>{29, 373}</string>
+				<string>{13, 382}</string>
+				<string>{13, 356}</string>
+				<string>{9, 270}</string>
+				<string>{5, 216}</string>
+				<string>{3, 194}</string>
+				<string>{3, 138}</string>
+				<string>{12, 115}</string>
+				<string>{8, 111}</string>
+				<string>{8, 95}</string>
+				<string>{2, 89}</string>
+				<string>{11, 11}</string>
+				<string>{24, 3}</string>
+				<string>{35, 3}</string>
+				<string>{52, 3}</string>
+				<string>{57, 7}</string>
+				<string>{58, 81}</string>
+				<string>{52, 89}</string>
+				<string>{43, 94}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{655, 309}, {115, 251}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{365, 370}, {115, 251}}</string>
+			<key>image</key>
+			<string>toothbrush_5.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{101, 245}</string>
+				<string>{69, 179}</string>
+				<string>{58, 164}</string>
+				<string>{52, 131}</string>
+				<string>{39, 110}</string>
+				<string>{3, 45}</string>
+				<string>{16, 6}</string>
+				<string>{26, 5}</string>
+				<string>{32, 13}</string>
+				<string>{64, 8}</string>
+				<string>{73, 3}</string>
+				<string>{86, 6}</string>
+				<string>{97, 16}</string>
+				<string>{102, 31}</string>
+				<string>{94, 28}</string>
+				<string>{96, 51}</string>
+				<string>{99, 75}</string>
+				<string>{90, 98}</string>
+				<string>{81, 90}</string>
+				<string>{58, 92}</string>
+				<string>{76, 130}</string>
+				<string>{89, 159}</string>
+				<string>{115, 238}</string>
+				<string>{112, 249}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{700, 279}, {258, 270}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{256, 418}, {258, 270}}</string>
+			<key>image</key>
+			<string>toothbrush_6.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{36, 268}</string>
+				<string>{38, 250}</string>
+				<string>{47, 251}</string>
+				<string>{62, 237}</string>
+				<string>{69, 225}</string>
+				<string>{88, 213}</string>
+				<string>{102, 195}</string>
+				<string>{117, 181}</string>
+				<string>{168, 119}</string>
+				<string>{225, 64}</string>
+				<string>{258, 24}</string>
+				<string>{256, 16}</string>
+				<string>{243, 2}</string>
+				<string>{204, 38}</string>
+				<string>{212, 51}</string>
+				<string>{160, 105}</string>
+				<string>{143, 114}</string>
+				<string>{40, 210}</string>
+				<string>{21, 236}</string>
+				<string>{2, 237}</string>
+				<string>{4, 257}</string>
+				<string>{13, 266}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{766, 227}, {152, 341}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{355, 279}, {152, 341}}</string>
+			<key>image</key>
+			<string>toothbrush_7.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{14, 338}</string>
+				<string>{73, 194}</string>
+				<string>{91, 93}</string>
+				<string>{109, 102}</string>
+				<string>{126, 92}</string>
+				<string>{152, 35}</string>
+				<string>{129, 12}</string>
+				<string>{114, 1}</string>
+				<string>{101, 13}</string>
+				<string>{78, 77}</string>
+				<string>{52, 184}</string>
+				<string>{33, 229}</string>
+				<string>{2, 333}</string>
+				<string>{5, 337}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{772, 123}, {117, 515}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{326, 189}, {117, 515}}</string>
+			<key>image</key>
+			<string>toothbrush_8.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{51, 4}</string>
+				<string>{69, 132}</string>
+				<string>{89, 221}</string>
+				<string>{102, 296}</string>
+				<string>{114, 372}</string>
+				<string>{115, 414}</string>
+				<string>{110, 494}</string>
+				<string>{97, 501}</string>
+				<string>{90, 510}</string>
+				<string>{79, 373}</string>
+				<string>{67, 287}</string>
+				<string>{54, 217}</string>
+				<string>{42, 92}</string>
+				<string>{25, 105}</string>
+				<string>{19, 106}</string>
+				<string>{4, 68}</string>
+				<string>{3, 26}</string>
+				<string>{28, 27}</string>
+				<string>{22, 9}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{697, 219}, {187, 419}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{383, 243}, {187, 419}}</string>
+			<key>image</key>
+			<string>toothbrush_9.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{183, 398}</string>
+				<string>{110, 180}</string>
+				<string>{98, 175}</string>
+				<string>{62, 108}</string>
+				<string>{63, 95}</string>
+				<string>{86, 74}</string>
+				<string>{50, 4}</string>
+				<string>{33, 5}</string>
+				<string>{3, 19}</string>
+				<string>{8, 42}</string>
+				<string>{35, 107}</string>
+				<string>{47, 118}</string>
+				<string>{73, 177}</string>
+				<string>{73, 204}</string>
+				<string>{133, 339}</string>
+				<string>{169, 417}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{693, 311}, {279, 282}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{302, 426}, {279, 282}}</string>
+			<key>image</key>
+			<string>toothbrush_10.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{12, 283}</string>
+				<string>{277, 27}</string>
+				<string>{274, 19}</string>
+				<string>{253, 3}</string>
+				<string>{203, 46}</string>
+				<string>{217, 61}</string>
+				<string>{0, 273}</string>
+				<string>{3, 279}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{611, 226}, {106, 375}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{532, 351}, {106, 375}}</string>
+			<key>image</key>
+			<string>toothbrush_11.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{101, 288}</string>
+				<string>{78, 215}</string>
+				<string>{57, 125}</string>
+				<string>{53, 95}</string>
+				<string>{60, 86}</string>
+				<string>{40, 1}</string>
+				<string>{18, 16}</string>
+				<string>{30, 89}</string>
+				<string>{57, 198}</string>
+				<string>{68, 273}</string>
+				<string>{77, 301}</string>
+				<string>{91, 316}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{700, 294}, {230, 313}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{424, 368}, {230, 313}}</string>
+			<key>image</key>
+			<string>toothbrush_12.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{13, 312}</string>
+				<string>{39, 290}</string>
+				<string>{62, 248}</string>
+				<string>{82, 225}</string>
+				<string>{109, 185}</string>
+				<string>{195, 69}</string>
+				<string>{229, 26}</string>
+				<string>{215, 2}</string>
+				<string>{191, 21}</string>
+				<string>{178, 44}</string>
+				<string>{181, 56}</string>
+				<string>{181, 71}</string>
+				<string>{138, 109}</string>
+				<string>{122, 117}</string>
+				<string>{71, 191}</string>
+				<string>{14, 266}</string>
+				<string>{3, 294}</string>
+				<string>{2, 310}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{571, 285}, {219, 359}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{76, 356}, {219, 359}}</string>
+			<key>image</key>
+			<string>toothbrush_13.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{41, 3}</string>
+				<string>{93, 103}</string>
+				<string>{99, 127}</string>
+				<string>{216, 348}</string>
+				<string>{206, 358}</string>
+				<string>{96, 132}</string>
+				<string>{82, 121}</string>
+				<string>{63, 136}</string>
+				<string>{1, 17}</string>
+				<string>{5, 11}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{660, 303}, {83, 337}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{13, 374}, {83, 337}}</string>
+			<key>image</key>
+			<string>toothbrush_14.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{26, 100}</string>
+				<string>{38, 137}</string>
+				<string>{42, 162}</string>
+				<string>{46, 245}</string>
+				<string>{47, 313}</string>
+				<string>{35, 333}</string>
+				<string>{20, 328}</string>
+				<string>{18, 137}</string>
+				<string>{6, 59}</string>
+				<string>{2, 19}</string>
+				<string>{19, 3}</string>
+				<string>{28, 13}</string>
+				<string>{51, 15}</string>
+				<string>{61, 31}</string>
+				<string>{70, 43}</string>
+				<string>{71, 65}</string>
+				<string>{72, 80}</string>
+				<string>{83, 102}</string>
+				<string>{74, 118}</string>
+				<string>{58, 103}</string>
+				<string>{50, 117}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{702, 184}, {99, 467}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{530, 243}, {99, 467}}</string>
+			<key>image</key>
+			<string>toothbrush_15.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{33, 87}</string>
+				<string>{54, 217}</string>
+				<string>{66, 238}</string>
+				<string>{99, 449}</string>
+				<string>{82, 462}</string>
+				<string>{57, 458}</string>
+				<string>{47, 404}</string>
+				<string>{26, 252}</string>
+				<string>{36, 219}</string>
+				<string>{18, 89}</string>
+				<string>{10, 80}</string>
+				<string>{3, 23}</string>
+				<string>{9, 3}</string>
+				<string>{23, 3}</string>
+				<string>{35, 4}</string>
+				<string>{50, 65}</string>
+				<string>{48, 77}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{752, 252}, {96, 309}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{553, 287}, {96, 309}}</string>
+			<key>image</key>
+			<string>toothbrush_16.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{67, 304}</string>
+				<string>{16, 79}</string>
+				<string>{2, 32}</string>
+				<string>{3, 18}</string>
+				<string>{14, 2}</string>
+				<string>{24, 6}</string>
+				<string>{46, 11}</string>
+				<string>{58, 58}</string>
+				<string>{46, 81}</string>
+				<string>{34, 81}</string>
+				<string>{84, 307}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{749, 335}, {79, 254}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{180, 395}, {79, 254}}</string>
+			<key>image</key>
+			<string>toothbrush_17.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{51, 247}</string>
+				<string>{63, 203}</string>
+				<string>{63, 153}</string>
+				<string>{49, 93}</string>
+				<string>{44, 72}</string>
+				<string>{57, 71}</string>
+				<string>{71, 39}</string>
+				<string>{77, 11}</string>
+				<string>{20, 1}</string>
+				<string>{8, 10}</string>
+				<string>{3, 24}</string>
+				<string>{3, 64}</string>
+				<string>{19, 84}</string>
+				<string>{28, 107}</string>
+				<string>{31, 158}</string>
+				<string>{27, 210}</string>
+				<string>{18, 245}</string>
+				<string>{31, 254}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{782, 277}, {89, 366}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{571, 350}, {89, 366}}</string>
+			<key>image</key>
+			<string>toothbrush_18.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{24, 360}</string>
+				<string>{25, 334}</string>
+				<string>{28, 269}</string>
+				<string>{46, 202}</string>
+				<string>{62, 156}</string>
+				<string>{75, 93}</string>
+				<string>{78, 60}</string>
+				<string>{87, 15}</string>
+				<string>{85, 12}</string>
+				<string>{79, 12}</string>
+				<string>{56, 3}</string>
+				<string>{47, 57}</string>
+				<string>{65, 61}</string>
+				<string>{64, 89}</string>
+				<string>{54, 119}</string>
+				<string>{23, 187}</string>
+				<string>{9, 249}</string>
+				<string>{4, 306}</string>
+				<string>{4, 354}</string>
+				<string>{10, 366}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{571, 285}, {219, 359}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{154, 355}, {219, 359}}</string>
+			<key>image</key>
+			<string>toothbrush_13.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{41, 3}</string>
+				<string>{93, 103}</string>
+				<string>{99, 127}</string>
+				<string>{216, 348}</string>
+				<string>{206, 358}</string>
+				<string>{96, 132}</string>
+				<string>{82, 121}</string>
+				<string>{63, 136}</string>
+				<string>{1, 17}</string>
+				<string>{5, 11}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{772, 123}, {117, 515}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{202, 189}, {117, 515}}</string>
+			<key>image</key>
+			<string>toothbrush_8.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{51, 4}</string>
+				<string>{69, 132}</string>
+				<string>{89, 221}</string>
+				<string>{102, 296}</string>
+				<string>{114, 372}</string>
+				<string>{115, 414}</string>
+				<string>{110, 494}</string>
+				<string>{97, 501}</string>
+				<string>{90, 510}</string>
+				<string>{79, 373}</string>
+				<string>{67, 287}</string>
+				<string>{54, 217}</string>
+				<string>{42, 92}</string>
+				<string>{25, 105}</string>
+				<string>{19, 106}</string>
+				<string>{4, 68}</string>
+				<string>{3, 26}</string>
+				<string>{28, 27}</string>
+				<string>{22, 9}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{758, 231}, {160, 394}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{273, 50}, {160, 394}}</string>
+			<key>image</key>
+			<string>toothbrush_1.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{49, 377}</string>
+				<string>{47, 292}</string>
+				<string>{65, 231}</string>
+				<string>{109, 142}</string>
+				<string>{125, 136}</string>
+				<string>{154, 82}</string>
+				<string>{158, 15}</string>
+				<string>{132, 0}</string>
+				<string>{117, 5}</string>
+				<string>{124, 15}</string>
+				<string>{99, 10}</string>
+				<string>{77, 52}</string>
+				<string>{67, 102}</string>
+				<string>{75, 120}</string>
+				<string>{90, 129}</string>
+				<string>{90, 142}</string>
+				<string>{73, 161}</string>
+				<string>{50, 213}</string>
+				<string>{27, 254}</string>
+				<string>{14, 306}</string>
+				<string>{5, 342}</string>
+				<string>{2, 364}</string>
+				<string>{3, 385}</string>
+				<string>{17, 387}</string>
+				<string>{28, 391}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{766, 227}, {152, 341}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{167, 361}, {152, 341}}</string>
+			<key>image</key>
+			<string>toothbrush_7.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{14, 338}</string>
+				<string>{73, 194}</string>
+				<string>{91, 93}</string>
+				<string>{109, 102}</string>
+				<string>{126, 92}</string>
+				<string>{152, 35}</string>
+				<string>{129, 12}</string>
+				<string>{114, 1}</string>
+				<string>{101, 13}</string>
+				<string>{78, 77}</string>
+				<string>{52, 184}</string>
+				<string>{33, 229}</string>
+				<string>{2, 333}</string>
+				<string>{5, 337}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{611, 226}, {106, 375}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{63, 387}, {106, 375}}</string>
+			<key>image</key>
+			<string>toothbrush_11.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{101, 288}</string>
+				<string>{78, 215}</string>
+				<string>{57, 125}</string>
+				<string>{53, 95}</string>
+				<string>{60, 86}</string>
+				<string>{40, 1}</string>
+				<string>{18, 16}</string>
+				<string>{30, 89}</string>
+				<string>{57, 198}</string>
+				<string>{68, 273}</string>
+				<string>{77, 301}</string>
+				<string>{91, 316}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{700, 279}, {258, 270}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{298, 72}, {258, 270}}</string>
+			<key>image</key>
+			<string>toothbrush_6.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{36, 268}</string>
+				<string>{38, 250}</string>
+				<string>{47, 251}</string>
+				<string>{62, 237}</string>
+				<string>{69, 225}</string>
+				<string>{88, 213}</string>
+				<string>{102, 195}</string>
+				<string>{117, 181}</string>
+				<string>{168, 119}</string>
+				<string>{225, 64}</string>
+				<string>{258, 24}</string>
+				<string>{256, 16}</string>
+				<string>{243, 2}</string>
+				<string>{204, 38}</string>
+				<string>{212, 51}</string>
+				<string>{160, 105}</string>
+				<string>{143, 114}</string>
+				<string>{40, 210}</string>
+				<string>{21, 236}</string>
+				<string>{2, 237}</string>
+				<string>{4, 257}</string>
+				<string>{13, 266}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{571, 285}, {219, 359}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{457, 43}, {219, 359}}</string>
+			<key>image</key>
+			<string>toothbrush_13.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{41, 3}</string>
+				<string>{93, 103}</string>
+				<string>{99, 127}</string>
+				<string>{216, 348}</string>
+				<string>{206, 358}</string>
+				<string>{96, 132}</string>
+				<string>{82, 121}</string>
+				<string>{63, 136}</string>
+				<string>{1, 17}</string>
+				<string>{5, 11}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{702, 184}, {99, 467}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{286, 16}, {99, 467}}</string>
+			<key>image</key>
+			<string>toothbrush_15.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{33, 87}</string>
+				<string>{54, 217}</string>
+				<string>{66, 238}</string>
+				<string>{99, 449}</string>
+				<string>{82, 462}</string>
+				<string>{57, 458}</string>
+				<string>{47, 404}</string>
+				<string>{26, 252}</string>
+				<string>{36, 219}</string>
+				<string>{18, 89}</string>
+				<string>{10, 80}</string>
+				<string>{3, 23}</string>
+				<string>{9, 3}</string>
+				<string>{23, 3}</string>
+				<string>{35, 4}</string>
+				<string>{50, 65}</string>
+				<string>{48, 77}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{697, 219}, {187, 419}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{405, 83}, {187, 419}}</string>
+			<key>image</key>
+			<string>toothbrush_9.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{183, 398}</string>
+				<string>{110, 180}</string>
+				<string>{98, 175}</string>
+				<string>{62, 108}</string>
+				<string>{63, 95}</string>
+				<string>{86, 74}</string>
+				<string>{50, 4}</string>
+				<string>{33, 5}</string>
+				<string>{3, 19}</string>
+				<string>{8, 42}</string>
+				<string>{35, 107}</string>
+				<string>{47, 118}</string>
+				<string>{73, 177}</string>
+				<string>{73, 204}</string>
+				<string>{133, 339}</string>
+				<string>{169, 417}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{571, 285}, {219, 359}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{402, 50}, {219, 359}}</string>
+			<key>image</key>
+			<string>toothbrush_13.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{41, 3}</string>
+				<string>{93, 103}</string>
+				<string>{99, 127}</string>
+				<string>{216, 348}</string>
+				<string>{206, 358}</string>
+				<string>{96, 132}</string>
+				<string>{82, 121}</string>
+				<string>{63, 136}</string>
+				<string>{1, 17}</string>
+				<string>{5, 11}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{655, 309}, {115, 251}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{569, 93}, {115, 251}}</string>
+			<key>image</key>
+			<string>toothbrush_5.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{101, 245}</string>
+				<string>{69, 179}</string>
+				<string>{58, 164}</string>
+				<string>{52, 131}</string>
+				<string>{39, 110}</string>
+				<string>{3, 45}</string>
+				<string>{16, 6}</string>
+				<string>{26, 5}</string>
+				<string>{32, 13}</string>
+				<string>{64, 8}</string>
+				<string>{73, 3}</string>
+				<string>{86, 6}</string>
+				<string>{97, 16}</string>
+				<string>{102, 31}</string>
+				<string>{94, 28}</string>
+				<string>{96, 51}</string>
+				<string>{99, 75}</string>
+				<string>{90, 98}</string>
+				<string>{81, 90}</string>
+				<string>{58, 92}</string>
+				<string>{76, 130}</string>
+				<string>{89, 159}</string>
+				<string>{115, 238}</string>
+				<string>{112, 249}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{700, 279}, {258, 270}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{359, 105}, {258, 270}}</string>
+			<key>image</key>
+			<string>toothbrush_6.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{36, 268}</string>
+				<string>{38, 250}</string>
+				<string>{47, 251}</string>
+				<string>{62, 237}</string>
+				<string>{69, 225}</string>
+				<string>{88, 213}</string>
+				<string>{102, 195}</string>
+				<string>{117, 181}</string>
+				<string>{168, 119}</string>
+				<string>{225, 64}</string>
+				<string>{258, 24}</string>
+				<string>{256, 16}</string>
+				<string>{243, 2}</string>
+				<string>{204, 38}</string>
+				<string>{212, 51}</string>
+				<string>{160, 105}</string>
+				<string>{143, 114}</string>
+				<string>{40, 210}</string>
+				<string>{21, 236}</string>
+				<string>{2, 237}</string>
+				<string>{4, 257}</string>
+				<string>{13, 266}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{571, 285}, {219, 359}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{358, 114}, {219, 359}}</string>
+			<key>image</key>
+			<string>toothbrush_13.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{41, 3}</string>
+				<string>{93, 103}</string>
+				<string>{99, 127}</string>
+				<string>{216, 348}</string>
+				<string>{206, 358}</string>
+				<string>{96, 132}</string>
+				<string>{82, 121}</string>
+				<string>{63, 136}</string>
+				<string>{1, 17}</string>
+				<string>{5, 11}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{758, 231}, {160, 394}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{461, 293}, {160, 394}}</string>
+			<key>image</key>
+			<string>toothbrush_1.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{49, 377}</string>
+				<string>{47, 292}</string>
+				<string>{65, 231}</string>
+				<string>{109, 142}</string>
+				<string>{125, 136}</string>
+				<string>{154, 82}</string>
+				<string>{158, 15}</string>
+				<string>{132, 0}</string>
+				<string>{117, 5}</string>
+				<string>{124, 15}</string>
+				<string>{99, 10}</string>
+				<string>{77, 52}</string>
+				<string>{67, 102}</string>
+				<string>{75, 120}</string>
+				<string>{90, 129}</string>
+				<string>{90, 142}</string>
+				<string>{73, 161}</string>
+				<string>{50, 213}</string>
+				<string>{27, 254}</string>
+				<string>{14, 306}</string>
+				<string>{5, 342}</string>
+				<string>{2, 364}</string>
+				<string>{3, 385}</string>
+				<string>{17, 387}</string>
+				<string>{28, 391}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{812, 287}, {97, 306}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{483, 50}, {97, 306}}</string>
+			<key>image</key>
+			<string>toothbrush_2.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{2, 39}</string>
+				<string>{27, 118}</string>
+				<string>{34, 124}</string>
+				<string>{44, 175}</string>
+				<string>{41, 189}</string>
+				<string>{74, 296}</string>
+				<string>{86, 306}</string>
+				<string>{93, 294}</string>
+				<string>{77, 164}</string>
+				<string>{58, 109}</string>
+				<string>{91, 111}</string>
+				<string>{91, 25}</string>
+				<string>{69, 22}</string>
+				<string>{48, 15}</string>
+				<string>{44, 4}</string>
+				<string>{25, 2}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{700, 279}, {258, 270}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{356, 227}, {258, 270}}</string>
+			<key>image</key>
+			<string>toothbrush_6.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{36, 268}</string>
+				<string>{38, 250}</string>
+				<string>{47, 251}</string>
+				<string>{62, 237}</string>
+				<string>{69, 225}</string>
+				<string>{88, 213}</string>
+				<string>{102, 195}</string>
+				<string>{117, 181}</string>
+				<string>{168, 119}</string>
+				<string>{225, 64}</string>
+				<string>{258, 24}</string>
+				<string>{256, 16}</string>
+				<string>{243, 2}</string>
+				<string>{204, 38}</string>
+				<string>{212, 51}</string>
+				<string>{160, 105}</string>
+				<string>{143, 114}</string>
+				<string>{40, 210}</string>
+				<string>{21, 236}</string>
+				<string>{2, 237}</string>
+				<string>{4, 257}</string>
+				<string>{13, 266}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{766, 227}, {152, 341}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{390, 222}, {152, 341}}</string>
+			<key>image</key>
+			<string>toothbrush_7.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{14, 338}</string>
+				<string>{73, 194}</string>
+				<string>{91, 93}</string>
+				<string>{109, 102}</string>
+				<string>{126, 92}</string>
+				<string>{152, 35}</string>
+				<string>{129, 12}</string>
+				<string>{114, 1}</string>
+				<string>{101, 13}</string>
+				<string>{78, 77}</string>
+				<string>{52, 184}</string>
+				<string>{33, 229}</string>
+				<string>{2, 333}</string>
+				<string>{5, 337}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{571, 285}, {219, 359}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{100, 100}, {219, 359}}</string>
+			<key>image</key>
+			<string>toothbrush_13.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{41, 3}</string>
+				<string>{93, 103}</string>
+				<string>{99, 127}</string>
+				<string>{216, 348}</string>
+				<string>{206, 358}</string>
+				<string>{96, 132}</string>
+				<string>{82, 121}</string>
+				<string>{63, 136}</string>
+				<string>{1, 17}</string>
+				<string>{5, 11}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{766, 227}, {152, 341}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{233, 356}, {152, 341}}</string>
+			<key>image</key>
+			<string>toothbrush_7.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{14, 338}</string>
+				<string>{73, 194}</string>
+				<string>{91, 93}</string>
+				<string>{109, 102}</string>
+				<string>{126, 92}</string>
+				<string>{152, 35}</string>
+				<string>{129, 12}</string>
+				<string>{114, 1}</string>
+				<string>{101, 13}</string>
+				<string>{78, 77}</string>
+				<string>{52, 184}</string>
+				<string>{33, 229}</string>
+				<string>{2, 333}</string>
+				<string>{5, 337}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{611, 226}, {106, 375}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{167, 390}, {106, 375}}</string>
+			<key>image</key>
+			<string>toothbrush_11.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{101, 288}</string>
+				<string>{78, 215}</string>
+				<string>{57, 125}</string>
+				<string>{53, 95}</string>
+				<string>{60, 86}</string>
+				<string>{40, 1}</string>
+				<string>{18, 16}</string>
+				<string>{30, 89}</string>
+				<string>{57, 198}</string>
+				<string>{68, 273}</string>
+				<string>{77, 301}</string>
+				<string>{91, 316}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{766, 227}, {152, 341}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{136, 340}, {152, 341}}</string>
+			<key>image</key>
+			<string>toothbrush_7.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{14, 338}</string>
+				<string>{73, 194}</string>
+				<string>{91, 93}</string>
+				<string>{109, 102}</string>
+				<string>{126, 92}</string>
+				<string>{152, 35}</string>
+				<string>{129, 12}</string>
+				<string>{114, 1}</string>
+				<string>{101, 13}</string>
+				<string>{78, 77}</string>
+				<string>{52, 184}</string>
+				<string>{33, 229}</string>
+				<string>{2, 333}</string>
+				<string>{5, 337}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{812, 287}, {97, 306}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{297, 152}, {97, 306}}</string>
+			<key>image</key>
+			<string>toothbrush_2.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{2, 39}</string>
+				<string>{27, 118}</string>
+				<string>{34, 124}</string>
+				<string>{44, 175}</string>
+				<string>{41, 189}</string>
+				<string>{74, 296}</string>
+				<string>{86, 306}</string>
+				<string>{93, 294}</string>
+				<string>{77, 164}</string>
+				<string>{58, 109}</string>
+				<string>{91, 111}</string>
+				<string>{91, 25}</string>
+				<string>{69, 22}</string>
+				<string>{48, 15}</string>
+				<string>{44, 4}</string>
+				<string>{25, 2}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{758, 231}, {160, 394}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{69, 314}, {160, 394}}</string>
+			<key>image</key>
+			<string>toothbrush_1.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{49, 377}</string>
+				<string>{47, 292}</string>
+				<string>{65, 231}</string>
+				<string>{109, 142}</string>
+				<string>{125, 136}</string>
+				<string>{154, 82}</string>
+				<string>{158, 15}</string>
+				<string>{132, 0}</string>
+				<string>{117, 5}</string>
+				<string>{124, 15}</string>
+				<string>{99, 10}</string>
+				<string>{77, 52}</string>
+				<string>{67, 102}</string>
+				<string>{75, 120}</string>
+				<string>{90, 129}</string>
+				<string>{90, 142}</string>
+				<string>{73, 161}</string>
+				<string>{50, 213}</string>
+				<string>{27, 254}</string>
+				<string>{14, 306}</string>
+				<string>{5, 342}</string>
+				<string>{2, 364}</string>
+				<string>{3, 385}</string>
+				<string>{17, 387}</string>
+				<string>{28, 391}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{752, 252}, {96, 309}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{49, 399}, {96, 309}}</string>
+			<key>image</key>
+			<string>toothbrush_16.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{67, 304}</string>
+				<string>{16, 79}</string>
+				<string>{2, 32}</string>
+				<string>{3, 18}</string>
+				<string>{14, 2}</string>
+				<string>{24, 6}</string>
+				<string>{46, 11}</string>
+				<string>{58, 58}</string>
+				<string>{46, 81}</string>
+				<string>{34, 81}</string>
+				<string>{84, 307}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{702, 184}, {99, 467}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{13, 117}, {99, 467}}</string>
+			<key>image</key>
+			<string>toothbrush_15.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{33, 87}</string>
+				<string>{54, 217}</string>
+				<string>{66, 238}</string>
+				<string>{99, 449}</string>
+				<string>{82, 462}</string>
+				<string>{57, 458}</string>
+				<string>{47, 404}</string>
+				<string>{26, 252}</string>
+				<string>{36, 219}</string>
+				<string>{18, 89}</string>
+				<string>{10, 80}</string>
+				<string>{3, 23}</string>
+				<string>{9, 3}</string>
+				<string>{23, 3}</string>
+				<string>{35, 4}</string>
+				<string>{50, 65}</string>
+				<string>{48, 77}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{611, 226}, {106, 375}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{150, 81}, {106, 375}}</string>
+			<key>image</key>
+			<string>toothbrush_11.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{101, 288}</string>
+				<string>{78, 215}</string>
+				<string>{57, 125}</string>
+				<string>{53, 95}</string>
+				<string>{60, 86}</string>
+				<string>{40, 1}</string>
+				<string>{18, 16}</string>
+				<string>{30, 89}</string>
+				<string>{57, 198}</string>
+				<string>{68, 273}</string>
+				<string>{77, 301}</string>
+				<string>{91, 316}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{766, 227}, {152, 341}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{209, 105}, {152, 341}}</string>
+			<key>image</key>
+			<string>toothbrush_7.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{14, 338}</string>
+				<string>{73, 194}</string>
+				<string>{91, 93}</string>
+				<string>{109, 102}</string>
+				<string>{126, 92}</string>
+				<string>{152, 35}</string>
+				<string>{129, 12}</string>
+				<string>{114, 1}</string>
+				<string>{101, 13}</string>
+				<string>{78, 77}</string>
+				<string>{52, 184}</string>
+				<string>{33, 229}</string>
+				<string>{2, 333}</string>
+				<string>{5, 337}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{702, 184}, {99, 467}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{237, 54}, {99, 467}}</string>
+			<key>image</key>
+			<string>toothbrush_15.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{33, 87}</string>
+				<string>{54, 217}</string>
+				<string>{66, 238}</string>
+				<string>{99, 449}</string>
+				<string>{82, 462}</string>
+				<string>{57, 458}</string>
+				<string>{47, 404}</string>
+				<string>{26, 252}</string>
+				<string>{36, 219}</string>
+				<string>{18, 89}</string>
+				<string>{10, 80}</string>
+				<string>{3, 23}</string>
+				<string>{9, 3}</string>
+				<string>{23, 3}</string>
+				<string>{35, 4}</string>
+				<string>{50, 65}</string>
+				<string>{48, 77}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{700, 294}, {230, 313}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{472, 87}, {230, 313}}</string>
+			<key>image</key>
+			<string>toothbrush_12.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{13, 312}</string>
+				<string>{39, 290}</string>
+				<string>{62, 248}</string>
+				<string>{82, 225}</string>
+				<string>{109, 185}</string>
+				<string>{195, 69}</string>
+				<string>{229, 26}</string>
+				<string>{215, 2}</string>
+				<string>{191, 21}</string>
+				<string>{178, 44}</string>
+				<string>{181, 56}</string>
+				<string>{181, 71}</string>
+				<string>{138, 109}</string>
+				<string>{122, 117}</string>
+				<string>{71, 191}</string>
+				<string>{14, 266}</string>
+				<string>{3, 294}</string>
+				<string>{2, 310}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{700, 294}, {230, 313}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{327, 30}, {230, 313}}</string>
+			<key>image</key>
+			<string>toothbrush_12.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{13, 312}</string>
+				<string>{39, 290}</string>
+				<string>{62, 248}</string>
+				<string>{82, 225}</string>
+				<string>{109, 185}</string>
+				<string>{195, 69}</string>
+				<string>{229, 26}</string>
+				<string>{215, 2}</string>
+				<string>{191, 21}</string>
+				<string>{178, 44}</string>
+				<string>{181, 56}</string>
+				<string>{181, 71}</string>
+				<string>{138, 109}</string>
+				<string>{122, 117}</string>
+				<string>{71, 191}</string>
+				<string>{14, 266}</string>
+				<string>{3, 294}</string>
+				<string>{2, 310}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{766, 227}, {152, 341}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{100, 100}, {152, 341}}</string>
+			<key>image</key>
+			<string>toothbrush_7.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{14, 338}</string>
+				<string>{73, 194}</string>
+				<string>{91, 93}</string>
+				<string>{109, 102}</string>
+				<string>{126, 92}</string>
+				<string>{152, 35}</string>
+				<string>{129, 12}</string>
+				<string>{114, 1}</string>
+				<string>{101, 13}</string>
+				<string>{78, 77}</string>
+				<string>{52, 184}</string>
+				<string>{33, 229}</string>
+				<string>{2, 333}</string>
+				<string>{5, 337}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{655, 309}, {115, 251}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{100, 100}, {115, 251}}</string>
+			<key>image</key>
+			<string>toothbrush_5.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{101, 245}</string>
+				<string>{69, 179}</string>
+				<string>{58, 164}</string>
+				<string>{52, 131}</string>
+				<string>{39, 110}</string>
+				<string>{3, 45}</string>
+				<string>{16, 6}</string>
+				<string>{26, 5}</string>
+				<string>{32, 13}</string>
+				<string>{64, 8}</string>
+				<string>{73, 3}</string>
+				<string>{86, 6}</string>
+				<string>{97, 16}</string>
+				<string>{102, 31}</string>
+				<string>{94, 28}</string>
+				<string>{96, 51}</string>
+				<string>{99, 75}</string>
+				<string>{90, 98}</string>
+				<string>{81, 90}</string>
+				<string>{58, 92}</string>
+				<string>{76, 130}</string>
+				<string>{89, 159}</string>
+				<string>{115, 238}</string>
+				<string>{112, 249}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{749, 335}, {79, 254}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{49, 187}, {79, 254}}</string>
+			<key>image</key>
+			<string>toothbrush_17.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{51, 247}</string>
+				<string>{63, 203}</string>
+				<string>{63, 153}</string>
+				<string>{49, 93}</string>
+				<string>{44, 72}</string>
+				<string>{57, 71}</string>
+				<string>{71, 39}</string>
+				<string>{77, 11}</string>
+				<string>{20, 1}</string>
+				<string>{8, 10}</string>
+				<string>{3, 24}</string>
+				<string>{3, 64}</string>
+				<string>{19, 84}</string>
+				<string>{28, 107}</string>
+				<string>{31, 158}</string>
+				<string>{27, 210}</string>
+				<string>{18, 245}</string>
+				<string>{31, 254}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{700, 279}, {258, 270}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{210, 121}, {258, 270}}</string>
+			<key>image</key>
+			<string>toothbrush_6.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{36, 268}</string>
+				<string>{38, 250}</string>
+				<string>{47, 251}</string>
+				<string>{62, 237}</string>
+				<string>{69, 225}</string>
+				<string>{88, 213}</string>
+				<string>{102, 195}</string>
+				<string>{117, 181}</string>
+				<string>{168, 119}</string>
+				<string>{225, 64}</string>
+				<string>{258, 24}</string>
+				<string>{256, 16}</string>
+				<string>{243, 2}</string>
+				<string>{204, 38}</string>
+				<string>{212, 51}</string>
+				<string>{160, 105}</string>
+				<string>{143, 114}</string>
+				<string>{40, 210}</string>
+				<string>{21, 236}</string>
+				<string>{2, 237}</string>
+				<string>{4, 257}</string>
+				<string>{13, 266}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{752, 252}, {96, 309}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{224, 84}, {96, 309}}</string>
+			<key>image</key>
+			<string>toothbrush_16.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{67, 304}</string>
+				<string>{16, 79}</string>
+				<string>{2, 32}</string>
+				<string>{3, 18}</string>
+				<string>{14, 2}</string>
+				<string>{24, 6}</string>
+				<string>{46, 11}</string>
+				<string>{58, 58}</string>
+				<string>{46, 81}</string>
+				<string>{34, 81}</string>
+				<string>{84, 307}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{812, 287}, {97, 306}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{177, 96}, {97, 306}}</string>
+			<key>image</key>
+			<string>toothbrush_2.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{2, 39}</string>
+				<string>{27, 118}</string>
+				<string>{34, 124}</string>
+				<string>{44, 175}</string>
+				<string>{41, 189}</string>
+				<string>{74, 296}</string>
+				<string>{86, 306}</string>
+				<string>{93, 294}</string>
+				<string>{77, 164}</string>
+				<string>{58, 109}</string>
+				<string>{91, 111}</string>
+				<string>{91, 25}</string>
+				<string>{69, 22}</string>
+				<string>{48, 15}</string>
+				<string>{44, 4}</string>
+				<string>{25, 2}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{766, 227}, {152, 341}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{100, 100}, {152, 341}}</string>
+			<key>image</key>
+			<string>toothbrush_7.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{14, 338}</string>
+				<string>{73, 194}</string>
+				<string>{91, 93}</string>
+				<string>{109, 102}</string>
+				<string>{126, 92}</string>
+				<string>{152, 35}</string>
+				<string>{129, 12}</string>
+				<string>{114, 1}</string>
+				<string>{101, 13}</string>
+				<string>{78, 77}</string>
+				<string>{52, 184}</string>
+				<string>{33, 229}</string>
+				<string>{2, 333}</string>
+				<string>{5, 337}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{812, 287}, {97, 306}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{100, 100}, {97, 306}}</string>
+			<key>image</key>
+			<string>toothbrush_2.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{2, 39}</string>
+				<string>{27, 118}</string>
+				<string>{34, 124}</string>
+				<string>{44, 175}</string>
+				<string>{41, 189}</string>
+				<string>{74, 296}</string>
+				<string>{86, 306}</string>
+				<string>{93, 294}</string>
+				<string>{77, 164}</string>
+				<string>{58, 109}</string>
+				<string>{91, 111}</string>
+				<string>{91, 25}</string>
+				<string>{69, 22}</string>
+				<string>{48, 15}</string>
+				<string>{44, 4}</string>
+				<string>{25, 2}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{660, 303}, {83, 337}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{100, 100}, {83, 337}}</string>
+			<key>image</key>
+			<string>toothbrush_14.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{26, 100}</string>
+				<string>{38, 137}</string>
+				<string>{42, 162}</string>
+				<string>{46, 245}</string>
+				<string>{47, 313}</string>
+				<string>{35, 333}</string>
+				<string>{20, 328}</string>
+				<string>{18, 137}</string>
+				<string>{6, 59}</string>
+				<string>{2, 19}</string>
+				<string>{19, 3}</string>
+				<string>{28, 13}</string>
+				<string>{51, 15}</string>
+				<string>{61, 31}</string>
+				<string>{70, 43}</string>
+				<string>{71, 65}</string>
+				<string>{72, 80}</string>
+				<string>{83, 102}</string>
+				<string>{74, 118}</string>
+				<string>{58, 103}</string>
+				<string>{50, 117}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{700, 279}, {258, 270}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{37, 100}, {258, 270}}</string>
+			<key>image</key>
+			<string>toothbrush_6.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{36, 268}</string>
+				<string>{38, 250}</string>
+				<string>{47, 251}</string>
+				<string>{62, 237}</string>
+				<string>{69, 225}</string>
+				<string>{88, 213}</string>
+				<string>{102, 195}</string>
+				<string>{117, 181}</string>
+				<string>{168, 119}</string>
+				<string>{225, 64}</string>
+				<string>{258, 24}</string>
+				<string>{256, 16}</string>
+				<string>{243, 2}</string>
+				<string>{204, 38}</string>
+				<string>{212, 51}</string>
+				<string>{160, 105}</string>
+				<string>{143, 114}</string>
+				<string>{40, 210}</string>
+				<string>{21, 236}</string>
+				<string>{2, 237}</string>
+				<string>{4, 257}</string>
+				<string>{13, 266}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{660, 303}, {83, 337}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{100, 100}, {83, 337}}</string>
+			<key>image</key>
+			<string>toothbrush_14.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{26, 100}</string>
+				<string>{38, 137}</string>
+				<string>{42, 162}</string>
+				<string>{46, 245}</string>
+				<string>{47, 313}</string>
+				<string>{35, 333}</string>
+				<string>{20, 328}</string>
+				<string>{18, 137}</string>
+				<string>{6, 59}</string>
+				<string>{2, 19}</string>
+				<string>{19, 3}</string>
+				<string>{28, 13}</string>
+				<string>{51, 15}</string>
+				<string>{61, 31}</string>
+				<string>{70, 43}</string>
+				<string>{71, 65}</string>
+				<string>{72, 80}</string>
+				<string>{83, 102}</string>
+				<string>{74, 118}</string>
+				<string>{58, 103}</string>
+				<string>{50, 117}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{693, 311}, {279, 282}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{100, 100}, {279, 282}}</string>
+			<key>image</key>
+			<string>toothbrush_10.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{12, 283}</string>
+				<string>{277, 27}</string>
+				<string>{274, 19}</string>
+				<string>{253, 3}</string>
+				<string>{203, 46}</string>
+				<string>{217, 61}</string>
+				<string>{0, 273}</string>
+				<string>{3, 279}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{702, 184}, {99, 467}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{101, 9}, {99, 467}}</string>
+			<key>image</key>
+			<string>toothbrush_15.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{33, 87}</string>
+				<string>{54, 217}</string>
+				<string>{66, 238}</string>
+				<string>{99, 449}</string>
+				<string>{82, 462}</string>
+				<string>{57, 458}</string>
+				<string>{47, 404}</string>
+				<string>{26, 252}</string>
+				<string>{36, 219}</string>
+				<string>{18, 89}</string>
+				<string>{10, 80}</string>
+				<string>{3, 23}</string>
+				<string>{9, 3}</string>
+				<string>{23, 3}</string>
+				<string>{35, 4}</string>
+				<string>{50, 65}</string>
+				<string>{48, 77}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{752, 252}, {96, 309}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTBrush</string>
+			<key>frame</key>
+			<string>{{47, 71}, {96, 309}}</string>
+			<key>image</key>
+			<string>toothbrush_16.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{67, 304}</string>
+				<string>{16, 79}</string>
+				<string>{2, 32}</string>
+				<string>{3, 18}</string>
+				<string>{14, 2}</string>
+				<string>{24, 6}</string>
+				<string>{46, 11}</string>
+				<string>{58, 58}</string>
+				<string>{46, 81}</string>
+				<string>{34, 81}</string>
+				<string>{84, 307}</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

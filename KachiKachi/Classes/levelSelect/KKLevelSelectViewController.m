@@ -34,10 +34,14 @@
     [self loadLevelsForStage];
 }
 
+-(void)viewWillAppear:(BOOL)animated
+{
+    [self.collectionView reloadData];
+}
+
 -(void)loadLevelsForStage
 {
     self.levels = [[KKGameStateManager sharedManager] levels];
-    [self.collectionView reloadData];
 }
 
 - (IBAction)backButtonAction:(id)sender

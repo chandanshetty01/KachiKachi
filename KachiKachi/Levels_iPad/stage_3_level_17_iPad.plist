@@ -1,0 +1,3800 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ID</key>
+	<string>17</string>
+	<key>baskets</key>
+	<array>
+		<dict>
+			<key>basket</key>
+			<string>cartoon.png</string>
+			<key>basket_frame</key>
+			<string>{0,522}</string>
+		</dict>
+	</array>
+	<key>elements</key>
+	<array>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{709, 229}, {62, 55}}</string>
+			<key>image</key>
+			<string>star_1.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{35, 3}</string>
+				<string>{23, 20}</string>
+				<string>{2, 18}</string>
+				<string>{15, 32}</string>
+				<string>{10, 51}</string>
+				<string>{29, 44}</string>
+				<string>{46, 53}</string>
+				<string>{44, 39}</string>
+				<string>{63, 24}</string>
+				<string>{42, 17}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{688, 116}, {56, 47}}</string>
+			<key>image</key>
+			<string>star_2.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{29, 3}</string>
+				<string>{21, 17}</string>
+				<string>{2, 19}</string>
+				<string>{16, 30}</string>
+				<string>{11, 47}</string>
+				<string>{28, 34}</string>
+				<string>{47, 47}</string>
+				<string>{41, 32}</string>
+				<string>{54, 19}</string>
+				<string>{38, 17}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{633, 364}, {88, 89}}</string>
+			<key>image</key>
+			<string>star_3.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{37, 3}</string>
+				<string>{32, 29}</string>
+				<string>{3, 36}</string>
+				<string>{28, 50}</string>
+				<string>{25, 88}</string>
+				<string>{49, 56}</string>
+				<string>{88, 70}</string>
+				<string>{66, 39}</string>
+				<string>{82, 18}</string>
+				<string>{54, 25}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{737, 239}, {64, 59}}</string>
+			<key>image</key>
+			<string>star_4.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{37, 2}</string>
+				<string>{23, 19}</string>
+				<string>{4, 22}</string>
+				<string>{15, 34}</string>
+				<string>{9, 53}</string>
+				<string>{31, 48}</string>
+				<string>{49, 58}</string>
+				<string>{45, 39}</string>
+				<string>{63, 27}</string>
+				<string>{43, 18}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{107, 211}, {85, 74}}</string>
+			<key>image</key>
+			<string>star_5.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{43, 3}</string>
+				<string>{32, 29}</string>
+				<string>{4, 32}</string>
+				<string>{24, 45}</string>
+				<string>{18, 75}</string>
+				<string>{42, 57}</string>
+				<string>{67, 72}</string>
+				<string>{60, 49}</string>
+				<string>{82, 30}</string>
+				<string>{55, 28}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{652, 371}, {87, 80}}</string>
+			<key>image</key>
+			<string>star_6.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{48, 2}</string>
+				<string>{32, 24}</string>
+				<string>{3, 27}</string>
+				<string>{20, 47}</string>
+				<string>{12, 73}</string>
+				<string>{41, 65}</string>
+				<string>{65, 78}</string>
+				<string>{62, 55}</string>
+				<string>{85, 34}</string>
+				<string>{57, 25}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{550, 245}, {41, 36}}</string>
+			<key>image</key>
+			<string>star_7.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{21, 2}</string>
+				<string>{15, 11}</string>
+				<string>{2, 15}</string>
+				<string>{11, 23}</string>
+				<string>{11, 35}</string>
+				<string>{22, 31}</string>
+				<string>{33, 34}</string>
+				<string>{30, 26}</string>
+				<string>{38, 16}</string>
+				<string>{25, 12}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{429, 292}, {69, 59}}</string>
+			<key>image</key>
+			<string>star_8.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{37, 2}</string>
+				<string>{24, 19}</string>
+				<string>{2, 24}</string>
+				<string>{19, 40}</string>
+				<string>{15, 57}</string>
+				<string>{36, 48}</string>
+				<string>{56, 59}</string>
+				<string>{52, 41}</string>
+				<string>{65, 24}</string>
+				<string>{45, 20}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{176, 370}, {100, 75}}</string>
+			<key>image</key>
+			<string>star_9.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{58, 3}</string>
+				<string>{43, 24}</string>
+				<string>{10, 30}</string>
+				<string>{33, 50}</string>
+				<string>{30, 74}</string>
+				<string>{56, 64}</string>
+				<string>{82, 72}</string>
+				<string>{75, 50}</string>
+				<string>{100, 31}</string>
+				<string>{70, 24}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{724, 194}, {85, 74}}</string>
+			<key>image</key>
+			<string>star_10.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{43, 1}</string>
+				<string>{31, 26}</string>
+				<string>{2, 28}</string>
+				<string>{23, 46}</string>
+				<string>{17, 74}</string>
+				<string>{45, 60}</string>
+				<string>{71, 73}</string>
+				<string>{60, 48}</string>
+				<string>{85, 30}</string>
+				<string>{55, 26}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{595, 305}, {87, 73}}</string>
+			<key>image</key>
+			<string>star_11.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{18, 3}</string>
+				<string>{26, 27}</string>
+				<string>{2, 47}</string>
+				<string>{34, 46}</string>
+				<string>{45, 72}</string>
+				<string>{55, 46}</string>
+				<string>{87, 46}</string>
+				<string>{61, 30}</string>
+				<string>{72, 3}</string>
+				<string>{45, 14}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{680, 287}, {68, 60}}</string>
+			<key>image</key>
+			<string>star_12.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{67, 12}</string>
+				<string>{45, 13}</string>
+				<string>{28, 2}</string>
+				<string>{20, 17}</string>
+				<string>{2, 29}</string>
+				<string>{18, 41}</string>
+				<string>{25, 60}</string>
+				<string>{43, 49}</string>
+				<string>{66, 49}</string>
+				<string>{59, 30}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{317, 182}, {89, 78}}</string>
+			<key>image</key>
+			<string>star_13.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{46, 5}</string>
+				<string>{34, 31}</string>
+				<string>{5, 33}</string>
+				<string>{28, 48}</string>
+				<string>{19, 77}</string>
+				<string>{45, 57}</string>
+				<string>{73, 76}</string>
+				<string>{63, 49}</string>
+				<string>{87, 32}</string>
+				<string>{56, 28}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{501, 412}, {71, 64}}</string>
+			<key>image</key>
+			<string>star_15.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{38, 3}</string>
+				<string>{29, 25}</string>
+				<string>{3, 27}</string>
+				<string>{22, 39}</string>
+				<string>{18, 63}</string>
+				<string>{36, 49}</string>
+				<string>{57, 62}</string>
+				<string>{50, 42}</string>
+				<string>{68, 27}</string>
+				<string>{46, 26}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{367, 419}, {76, 68}}</string>
+			<key>image</key>
+			<string>star_16.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{38, 2}</string>
+				<string>{29, 25}</string>
+				<string>{1, 27}</string>
+				<string>{22, 45}</string>
+				<string>{17, 67}</string>
+				<string>{39, 53}</string>
+				<string>{64, 68}</string>
+				<string>{54, 44}</string>
+				<string>{76, 28}</string>
+				<string>{47, 24}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{199, 146}, {78, 70}}</string>
+			<key>image</key>
+			<string>star_17.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{40, 2}</string>
+				<string>{31, 29}</string>
+				<string>{1, 29}</string>
+				<string>{26, 44}</string>
+				<string>{17, 71}</string>
+				<string>{40, 56}</string>
+				<string>{66, 69}</string>
+				<string>{56, 47}</string>
+				<string>{77, 29}</string>
+				<string>{48, 28}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{492, 306}, {91, 83}}</string>
+			<key>image</key>
+			<string>star_18.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{47, 2}</string>
+				<string>{35, 31}</string>
+				<string>{3, 33}</string>
+				<string>{26, 50}</string>
+				<string>{19, 82}</string>
+				<string>{45, 63}</string>
+				<string>{73, 82}</string>
+				<string>{63, 53}</string>
+				<string>{91, 33}</string>
+				<string>{57, 32}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{167, 295}, {74, 61}}</string>
+			<key>image</key>
+			<string>star_19.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{39, 1}</string>
+				<string>{25, 20}</string>
+				<string>{3, 23}</string>
+				<string>{19, 38}</string>
+				<string>{14, 61}</string>
+				<string>{37, 48}</string>
+				<string>{61, 59}</string>
+				<string>{54, 40}</string>
+				<string>{72, 25}</string>
+				<string>{48, 19}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{754, 138}, {94, 73}}</string>
+			<key>image</key>
+			<string>star_20.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{41, 5}</string>
+				<string>{29, 27}</string>
+				<string>{5, 33}</string>
+				<string>{22, 48}</string>
+				<string>{20, 72}</string>
+				<string>{45, 58}</string>
+				<string>{66, 67}</string>
+				<string>{56, 47}</string>
+				<string>{76, 28}</string>
+				<string>{52, 26}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{507, 105}, {77, 64}}</string>
+			<key>image</key>
+			<string>star_21.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{55, 6}</string>
+				<string>{34, 14}</string>
+				<string>{11, 3}</string>
+				<string>{18, 25}</string>
+				<string>{4, 38}</string>
+				<string>{26, 45}</string>
+				<string>{43, 63}</string>
+				<string>{50, 46}</string>
+				<string>{75, 44}</string>
+				<string>{56, 28}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{615, 190}, {83, 71}}</string>
+			<key>image</key>
+			<string>star_22.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{42, 3}</string>
+				<string>{33, 26}</string>
+				<string>{2, 30}</string>
+				<string>{24, 46}</string>
+				<string>{18, 68}</string>
+				<string>{40, 55}</string>
+				<string>{68, 70}</string>
+				<string>{59, 48}</string>
+				<string>{81, 28}</string>
+				<string>{53, 28}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{311, 86}, {67, 61}}</string>
+			<key>image</key>
+			<string>star_23.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{34, 3}</string>
+				<string>{23, 22}</string>
+				<string>{2, 25}</string>
+				<string>{15, 40}</string>
+				<string>{15, 61}</string>
+				<string>{34, 54}</string>
+				<string>{51, 58}</string>
+				<string>{52, 39}</string>
+				<string>{65, 24}</string>
+				<string>{45, 20}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{449, 170}, {82, 70}}</string>
+			<key>image</key>
+			<string>star_24.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{44, 3}</string>
+				<string>{36, 30}</string>
+				<string>{4, 26}</string>
+				<string>{29, 42}</string>
+				<string>{16, 67}</string>
+				<string>{40, 50}</string>
+				<string>{64, 69}</string>
+				<string>{54, 44}</string>
+				<string>{81, 29}</string>
+				<string>{50, 30}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{624, 81}, {56, 53}}</string>
+			<key>image</key>
+			<string>star_25.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{33, 4}</string>
+				<string>{35, 3}</string>
+				<string>{22, 15}</string>
+				<string>{1, 11}</string>
+				<string>{9, 28}</string>
+				<string>{3, 44}</string>
+				<string>{21, 41}</string>
+				<string>{36, 54}</string>
+				<string>{38, 38}</string>
+				<string>{55, 25}</string>
+				<string>{38, 19}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{294, 297}, {99, 89}}</string>
+			<key>image</key>
+			<string>star_26.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{55, 3}</string>
+				<string>{37, 31}</string>
+				<string>{4, 27}</string>
+				<string>{26, 50}</string>
+				<string>{12, 80}</string>
+				<string>{43, 64}</string>
+				<string>{72, 86}</string>
+				<string>{65, 57}</string>
+				<string>{96, 40}</string>
+				<string>{60, 34}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{620, 365}, {64, 59}}</string>
+			<key>image</key>
+			<string>star_4.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{37, 2}</string>
+				<string>{23, 19}</string>
+				<string>{4, 22}</string>
+				<string>{15, 34}</string>
+				<string>{9, 53}</string>
+				<string>{31, 48}</string>
+				<string>{49, 58}</string>
+				<string>{45, 39}</string>
+				<string>{63, 27}</string>
+				<string>{43, 18}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{564, 368}, {83, 71}}</string>
+			<key>image</key>
+			<string>star_22.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{42, 3}</string>
+				<string>{33, 26}</string>
+				<string>{2, 30}</string>
+				<string>{24, 46}</string>
+				<string>{18, 68}</string>
+				<string>{40, 55}</string>
+				<string>{68, 70}</string>
+				<string>{59, 48}</string>
+				<string>{81, 28}</string>
+				<string>{53, 28}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{667, 291}, {99, 89}}</string>
+			<key>image</key>
+			<string>star_26.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{55, 3}</string>
+				<string>{37, 31}</string>
+				<string>{4, 27}</string>
+				<string>{26, 50}</string>
+				<string>{12, 80}</string>
+				<string>{43, 64}</string>
+				<string>{72, 86}</string>
+				<string>{65, 57}</string>
+				<string>{96, 40}</string>
+				<string>{60, 34}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{618, 312}, {78, 70}}</string>
+			<key>image</key>
+			<string>star_17.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{40, 2}</string>
+				<string>{31, 29}</string>
+				<string>{1, 29}</string>
+				<string>{26, 44}</string>
+				<string>{17, 71}</string>
+				<string>{40, 56}</string>
+				<string>{66, 69}</string>
+				<string>{56, 47}</string>
+				<string>{77, 29}</string>
+				<string>{48, 28}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{712, 269}, {56, 53}}</string>
+			<key>image</key>
+			<string>star_25.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{33, 4}</string>
+				<string>{35, 3}</string>
+				<string>{22, 15}</string>
+				<string>{1, 11}</string>
+				<string>{9, 28}</string>
+				<string>{3, 44}</string>
+				<string>{21, 41}</string>
+				<string>{36, 54}</string>
+				<string>{38, 38}</string>
+				<string>{55, 25}</string>
+				<string>{38, 19}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{617, 264}, {89, 78}}</string>
+			<key>image</key>
+			<string>star_13.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{46, 5}</string>
+				<string>{34, 31}</string>
+				<string>{5, 33}</string>
+				<string>{28, 48}</string>
+				<string>{19, 77}</string>
+				<string>{45, 57}</string>
+				<string>{73, 76}</string>
+				<string>{63, 49}</string>
+				<string>{87, 32}</string>
+				<string>{56, 28}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{574, 284}, {62, 55}}</string>
+			<key>image</key>
+			<string>star_1.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{35, 3}</string>
+				<string>{23, 20}</string>
+				<string>{2, 18}</string>
+				<string>{15, 32}</string>
+				<string>{10, 51}</string>
+				<string>{29, 44}</string>
+				<string>{46, 53}</string>
+				<string>{44, 39}</string>
+				<string>{63, 24}</string>
+				<string>{42, 17}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{554, 349}, {89, 78}}</string>
+			<key>image</key>
+			<string>star_13.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{46, 5}</string>
+				<string>{34, 31}</string>
+				<string>{5, 33}</string>
+				<string>{28, 48}</string>
+				<string>{19, 77}</string>
+				<string>{45, 57}</string>
+				<string>{73, 76}</string>
+				<string>{63, 49}</string>
+				<string>{87, 32}</string>
+				<string>{56, 28}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{528, 375}, {68, 60}}</string>
+			<key>image</key>
+			<string>star_12.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{67, 12}</string>
+				<string>{45, 13}</string>
+				<string>{28, 2}</string>
+				<string>{20, 17}</string>
+				<string>{2, 29}</string>
+				<string>{18, 41}</string>
+				<string>{25, 60}</string>
+				<string>{43, 49}</string>
+				<string>{66, 49}</string>
+				<string>{59, 30}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{584, 326}, {85, 74}}</string>
+			<key>image</key>
+			<string>star_5.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{43, 3}</string>
+				<string>{32, 29}</string>
+				<string>{4, 32}</string>
+				<string>{24, 45}</string>
+				<string>{18, 75}</string>
+				<string>{42, 57}</string>
+				<string>{67, 72}</string>
+				<string>{60, 49}</string>
+				<string>{82, 30}</string>
+				<string>{55, 28}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{696, 143}, {99, 89}}</string>
+			<key>image</key>
+			<string>star_26.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{55, 3}</string>
+				<string>{37, 31}</string>
+				<string>{4, 27}</string>
+				<string>{26, 50}</string>
+				<string>{12, 80}</string>
+				<string>{43, 64}</string>
+				<string>{72, 86}</string>
+				<string>{65, 57}</string>
+				<string>{96, 40}</string>
+				<string>{60, 34}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{549, 334}, {64, 59}}</string>
+			<key>image</key>
+			<string>star_4.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{37, 2}</string>
+				<string>{23, 19}</string>
+				<string>{4, 22}</string>
+				<string>{15, 34}</string>
+				<string>{9, 53}</string>
+				<string>{31, 48}</string>
+				<string>{49, 58}</string>
+				<string>{45, 39}</string>
+				<string>{63, 27}</string>
+				<string>{43, 18}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{577, 268}, {56, 47}}</string>
+			<key>image</key>
+			<string>star_2.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{29, 3}</string>
+				<string>{21, 17}</string>
+				<string>{2, 19}</string>
+				<string>{16, 30}</string>
+				<string>{11, 47}</string>
+				<string>{28, 34}</string>
+				<string>{47, 47}</string>
+				<string>{41, 32}</string>
+				<string>{54, 19}</string>
+				<string>{38, 17}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{697, 157}, {68, 60}}</string>
+			<key>image</key>
+			<string>star_12.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{67, 12}</string>
+				<string>{45, 13}</string>
+				<string>{28, 2}</string>
+				<string>{20, 17}</string>
+				<string>{2, 29}</string>
+				<string>{18, 41}</string>
+				<string>{25, 60}</string>
+				<string>{43, 49}</string>
+				<string>{66, 49}</string>
+				<string>{59, 30}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{704, 196}, {77, 64}}</string>
+			<key>image</key>
+			<string>star_21.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{55, 6}</string>
+				<string>{34, 14}</string>
+				<string>{11, 3}</string>
+				<string>{18, 25}</string>
+				<string>{4, 38}</string>
+				<string>{26, 45}</string>
+				<string>{43, 63}</string>
+				<string>{50, 46}</string>
+				<string>{75, 44}</string>
+				<string>{56, 28}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{643, 247}, {89, 78}}</string>
+			<key>image</key>
+			<string>star_13.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{46, 5}</string>
+				<string>{34, 31}</string>
+				<string>{5, 33}</string>
+				<string>{28, 48}</string>
+				<string>{19, 77}</string>
+				<string>{45, 57}</string>
+				<string>{73, 76}</string>
+				<string>{63, 49}</string>
+				<string>{87, 32}</string>
+				<string>{56, 28}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{644, 200}, {89, 78}}</string>
+			<key>image</key>
+			<string>star_13.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{46, 5}</string>
+				<string>{34, 31}</string>
+				<string>{5, 33}</string>
+				<string>{28, 48}</string>
+				<string>{19, 77}</string>
+				<string>{45, 57}</string>
+				<string>{73, 76}</string>
+				<string>{63, 49}</string>
+				<string>{87, 32}</string>
+				<string>{56, 28}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{649, 168}, {85, 74}}</string>
+			<key>image</key>
+			<string>star_10.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{43, 1}</string>
+				<string>{31, 26}</string>
+				<string>{2, 28}</string>
+				<string>{23, 46}</string>
+				<string>{17, 74}</string>
+				<string>{45, 60}</string>
+				<string>{71, 73}</string>
+				<string>{60, 48}</string>
+				<string>{85, 30}</string>
+				<string>{55, 26}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{623, 143}, {69, 59}}</string>
+			<key>image</key>
+			<string>star_8.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{37, 2}</string>
+				<string>{24, 19}</string>
+				<string>{2, 24}</string>
+				<string>{19, 40}</string>
+				<string>{15, 57}</string>
+				<string>{36, 48}</string>
+				<string>{56, 59}</string>
+				<string>{52, 41}</string>
+				<string>{65, 24}</string>
+				<string>{45, 20}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{651, 120}, {77, 64}}</string>
+			<key>image</key>
+			<string>star_21.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{55, 6}</string>
+				<string>{34, 14}</string>
+				<string>{11, 3}</string>
+				<string>{18, 25}</string>
+				<string>{4, 38}</string>
+				<string>{26, 45}</string>
+				<string>{43, 63}</string>
+				<string>{50, 46}</string>
+				<string>{75, 44}</string>
+				<string>{56, 28}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{629, 133}, {85, 74}}</string>
+			<key>image</key>
+			<string>star_10.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{43, 1}</string>
+				<string>{31, 26}</string>
+				<string>{2, 28}</string>
+				<string>{23, 46}</string>
+				<string>{17, 74}</string>
+				<string>{45, 60}</string>
+				<string>{71, 73}</string>
+				<string>{60, 48}</string>
+				<string>{85, 30}</string>
+				<string>{55, 26}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{246, 111}, {69, 59}}</string>
+			<key>image</key>
+			<string>star_8.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{37, 2}</string>
+				<string>{24, 19}</string>
+				<string>{2, 24}</string>
+				<string>{19, 40}</string>
+				<string>{15, 57}</string>
+				<string>{36, 48}</string>
+				<string>{56, 59}</string>
+				<string>{52, 41}</string>
+				<string>{65, 24}</string>
+				<string>{45, 20}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{264, 104}, {77, 64}}</string>
+			<key>image</key>
+			<string>star_21.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{55, 6}</string>
+				<string>{34, 14}</string>
+				<string>{11, 3}</string>
+				<string>{18, 25}</string>
+				<string>{4, 38}</string>
+				<string>{26, 45}</string>
+				<string>{43, 63}</string>
+				<string>{50, 46}</string>
+				<string>{75, 44}</string>
+				<string>{56, 28}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{586, 163}, {83, 71}}</string>
+			<key>image</key>
+			<string>star_22.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{42, 3}</string>
+				<string>{33, 26}</string>
+				<string>{2, 30}</string>
+				<string>{24, 46}</string>
+				<string>{18, 68}</string>
+				<string>{40, 55}</string>
+				<string>{68, 70}</string>
+				<string>{59, 48}</string>
+				<string>{81, 28}</string>
+				<string>{53, 28}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{602, 111}, {94, 73}}</string>
+			<key>image</key>
+			<string>star_20.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{41, 5}</string>
+				<string>{29, 27}</string>
+				<string>{5, 33}</string>
+				<string>{22, 48}</string>
+				<string>{20, 72}</string>
+				<string>{45, 58}</string>
+				<string>{66, 67}</string>
+				<string>{56, 47}</string>
+				<string>{76, 28}</string>
+				<string>{52, 26}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{550, 105}, {85, 74}}</string>
+			<key>image</key>
+			<string>star_10.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{43, 1}</string>
+				<string>{31, 26}</string>
+				<string>{2, 28}</string>
+				<string>{23, 46}</string>
+				<string>{17, 74}</string>
+				<string>{45, 60}</string>
+				<string>{71, 73}</string>
+				<string>{60, 48}</string>
+				<string>{85, 30}</string>
+				<string>{55, 26}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{556, 130}, {82, 70}}</string>
+			<key>image</key>
+			<string>star_24.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{44, 3}</string>
+				<string>{36, 30}</string>
+				<string>{4, 26}</string>
+				<string>{29, 42}</string>
+				<string>{16, 67}</string>
+				<string>{40, 50}</string>
+				<string>{64, 69}</string>
+				<string>{54, 44}</string>
+				<string>{81, 29}</string>
+				<string>{50, 30}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{598, 245}, {77, 64}}</string>
+			<key>image</key>
+			<string>star_21.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{55, 6}</string>
+				<string>{34, 14}</string>
+				<string>{11, 3}</string>
+				<string>{18, 25}</string>
+				<string>{4, 38}</string>
+				<string>{26, 45}</string>
+				<string>{43, 63}</string>
+				<string>{50, 46}</string>
+				<string>{75, 44}</string>
+				<string>{56, 28}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{489, 372}, {64, 59}}</string>
+			<key>image</key>
+			<string>star_4.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{37, 2}</string>
+				<string>{23, 19}</string>
+				<string>{4, 22}</string>
+				<string>{15, 34}</string>
+				<string>{9, 53}</string>
+				<string>{31, 48}</string>
+				<string>{49, 58}</string>
+				<string>{45, 39}</string>
+				<string>{63, 27}</string>
+				<string>{43, 18}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{448, 369}, {56, 47}}</string>
+			<key>image</key>
+			<string>star_2.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{29, 3}</string>
+				<string>{21, 17}</string>
+				<string>{2, 19}</string>
+				<string>{16, 30}</string>
+				<string>{11, 47}</string>
+				<string>{28, 34}</string>
+				<string>{47, 47}</string>
+				<string>{41, 32}</string>
+				<string>{54, 19}</string>
+				<string>{38, 17}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{513, 365}, {56, 47}}</string>
+			<key>image</key>
+			<string>star_2.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{29, 3}</string>
+				<string>{21, 17}</string>
+				<string>{2, 19}</string>
+				<string>{16, 30}</string>
+				<string>{11, 47}</string>
+				<string>{28, 34}</string>
+				<string>{47, 47}</string>
+				<string>{41, 32}</string>
+				<string>{54, 19}</string>
+				<string>{38, 17}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{462, 320}, {99, 89}}</string>
+			<key>image</key>
+			<string>star_26.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{55, 3}</string>
+				<string>{37, 31}</string>
+				<string>{4, 27}</string>
+				<string>{26, 50}</string>
+				<string>{12, 80}</string>
+				<string>{43, 64}</string>
+				<string>{72, 86}</string>
+				<string>{65, 57}</string>
+				<string>{96, 40}</string>
+				<string>{60, 34}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{383, 396}, {64, 59}}</string>
+			<key>image</key>
+			<string>star_4.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{37, 2}</string>
+				<string>{23, 19}</string>
+				<string>{4, 22}</string>
+				<string>{15, 34}</string>
+				<string>{9, 53}</string>
+				<string>{31, 48}</string>
+				<string>{49, 58}</string>
+				<string>{45, 39}</string>
+				<string>{63, 27}</string>
+				<string>{43, 18}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{396, 363}, {94, 73}}</string>
+			<key>image</key>
+			<string>star_20.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{41, 5}</string>
+				<string>{29, 27}</string>
+				<string>{5, 33}</string>
+				<string>{22, 48}</string>
+				<string>{20, 72}</string>
+				<string>{45, 58}</string>
+				<string>{66, 67}</string>
+				<string>{56, 47}</string>
+				<string>{76, 28}</string>
+				<string>{52, 26}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{547, 305}, {77, 64}}</string>
+			<key>image</key>
+			<string>star_21.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{55, 6}</string>
+				<string>{34, 14}</string>
+				<string>{11, 3}</string>
+				<string>{18, 25}</string>
+				<string>{4, 38}</string>
+				<string>{26, 45}</string>
+				<string>{43, 63}</string>
+				<string>{50, 46}</string>
+				<string>{75, 44}</string>
+				<string>{56, 28}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{558, 259}, {64, 59}}</string>
+			<key>image</key>
+			<string>star_4.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{37, 2}</string>
+				<string>{23, 19}</string>
+				<string>{4, 22}</string>
+				<string>{15, 34}</string>
+				<string>{9, 53}</string>
+				<string>{31, 48}</string>
+				<string>{49, 58}</string>
+				<string>{45, 39}</string>
+				<string>{63, 27}</string>
+				<string>{43, 18}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{441, 112}, {94, 73}}</string>
+			<key>image</key>
+			<string>star_20.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{41, 5}</string>
+				<string>{29, 27}</string>
+				<string>{5, 33}</string>
+				<string>{22, 48}</string>
+				<string>{20, 72}</string>
+				<string>{45, 58}</string>
+				<string>{66, 67}</string>
+				<string>{56, 47}</string>
+				<string>{76, 28}</string>
+				<string>{52, 26}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{257, 132}, {56, 47}}</string>
+			<key>image</key>
+			<string>star_2.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{29, 3}</string>
+				<string>{21, 17}</string>
+				<string>{2, 19}</string>
+				<string>{16, 30}</string>
+				<string>{11, 47}</string>
+				<string>{28, 34}</string>
+				<string>{47, 47}</string>
+				<string>{41, 32}</string>
+				<string>{54, 19}</string>
+				<string>{38, 17}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{164, 215}, {91, 83}}</string>
+			<key>image</key>
+			<string>star_18.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{47, 2}</string>
+				<string>{35, 31}</string>
+				<string>{3, 33}</string>
+				<string>{26, 50}</string>
+				<string>{19, 82}</string>
+				<string>{45, 63}</string>
+				<string>{73, 82}</string>
+				<string>{63, 53}</string>
+				<string>{91, 33}</string>
+				<string>{57, 32}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{151, 269}, {56, 47}}</string>
+			<key>image</key>
+			<string>star_2.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{29, 3}</string>
+				<string>{21, 17}</string>
+				<string>{2, 19}</string>
+				<string>{16, 30}</string>
+				<string>{11, 47}</string>
+				<string>{28, 34}</string>
+				<string>{47, 47}</string>
+				<string>{41, 32}</string>
+				<string>{54, 19}</string>
+				<string>{38, 17}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{497, 268}, {82, 70}}</string>
+			<key>image</key>
+			<string>star_24.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{44, 3}</string>
+				<string>{36, 30}</string>
+				<string>{4, 26}</string>
+				<string>{29, 42}</string>
+				<string>{16, 67}</string>
+				<string>{40, 50}</string>
+				<string>{64, 69}</string>
+				<string>{54, 44}</string>
+				<string>{81, 29}</string>
+				<string>{50, 30}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{491, 234}, {89, 78}}</string>
+			<key>image</key>
+			<string>star_13.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{46, 5}</string>
+				<string>{34, 31}</string>
+				<string>{5, 33}</string>
+				<string>{28, 48}</string>
+				<string>{19, 77}</string>
+				<string>{45, 57}</string>
+				<string>{73, 76}</string>
+				<string>{63, 49}</string>
+				<string>{87, 32}</string>
+				<string>{56, 28}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{460, 262}, {89, 78}}</string>
+			<key>image</key>
+			<string>star_13.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{46, 5}</string>
+				<string>{34, 31}</string>
+				<string>{5, 33}</string>
+				<string>{28, 48}</string>
+				<string>{19, 77}</string>
+				<string>{45, 57}</string>
+				<string>{73, 76}</string>
+				<string>{63, 49}</string>
+				<string>{87, 32}</string>
+				<string>{56, 28}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{224, 208}, {99, 89}}</string>
+			<key>image</key>
+			<string>star_26.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{55, 3}</string>
+				<string>{37, 31}</string>
+				<string>{4, 27}</string>
+				<string>{26, 50}</string>
+				<string>{12, 80}</string>
+				<string>{43, 64}</string>
+				<string>{72, 86}</string>
+				<string>{65, 57}</string>
+				<string>{96, 40}</string>
+				<string>{60, 34}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{282, 225}, {94, 73}}</string>
+			<key>image</key>
+			<string>star_20.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{41, 5}</string>
+				<string>{29, 27}</string>
+				<string>{5, 33}</string>
+				<string>{22, 48}</string>
+				<string>{20, 72}</string>
+				<string>{45, 58}</string>
+				<string>{66, 67}</string>
+				<string>{56, 47}</string>
+				<string>{76, 28}</string>
+				<string>{52, 26}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{421, 334}, {77, 64}}</string>
+			<key>image</key>
+			<string>star_21.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{55, 6}</string>
+				<string>{34, 14}</string>
+				<string>{11, 3}</string>
+				<string>{18, 25}</string>
+				<string>{4, 38}</string>
+				<string>{26, 45}</string>
+				<string>{43, 63}</string>
+				<string>{50, 46}</string>
+				<string>{75, 44}</string>
+				<string>{56, 28}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{368, 312}, {89, 78}}</string>
+			<key>image</key>
+			<string>star_13.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{46, 5}</string>
+				<string>{34, 31}</string>
+				<string>{5, 33}</string>
+				<string>{28, 48}</string>
+				<string>{19, 77}</string>
+				<string>{45, 57}</string>
+				<string>{73, 76}</string>
+				<string>{63, 49}</string>
+				<string>{87, 32}</string>
+				<string>{56, 28}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{252, 309}, {89, 78}}</string>
+			<key>image</key>
+			<string>star_13.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{46, 5}</string>
+				<string>{34, 31}</string>
+				<string>{5, 33}</string>
+				<string>{28, 48}</string>
+				<string>{19, 77}</string>
+				<string>{45, 57}</string>
+				<string>{73, 76}</string>
+				<string>{63, 49}</string>
+				<string>{87, 32}</string>
+				<string>{56, 28}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{384, 342}, {69, 59}}</string>
+			<key>image</key>
+			<string>star_8.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{37, 2}</string>
+				<string>{24, 19}</string>
+				<string>{2, 24}</string>
+				<string>{19, 40}</string>
+				<string>{15, 57}</string>
+				<string>{36, 48}</string>
+				<string>{56, 59}</string>
+				<string>{52, 41}</string>
+				<string>{65, 24}</string>
+				<string>{45, 20}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{337, 337}, {67, 61}}</string>
+			<key>image</key>
+			<string>star_23.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{34, 3}</string>
+				<string>{23, 22}</string>
+				<string>{2, 25}</string>
+				<string>{15, 40}</string>
+				<string>{15, 61}</string>
+				<string>{34, 54}</string>
+				<string>{51, 58}</string>
+				<string>{52, 39}</string>
+				<string>{65, 24}</string>
+				<string>{45, 20}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{370, 276}, {94, 73}}</string>
+			<key>image</key>
+			<string>star_20.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{41, 5}</string>
+				<string>{29, 27}</string>
+				<string>{5, 33}</string>
+				<string>{22, 48}</string>
+				<string>{20, 72}</string>
+				<string>{45, 58}</string>
+				<string>{66, 67}</string>
+				<string>{56, 47}</string>
+				<string>{76, 28}</string>
+				<string>{52, 26}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{293, 344}, {78, 70}}</string>
+			<key>image</key>
+			<string>star_17.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{40, 2}</string>
+				<string>{31, 29}</string>
+				<string>{1, 29}</string>
+				<string>{26, 44}</string>
+				<string>{17, 71}</string>
+				<string>{40, 56}</string>
+				<string>{66, 69}</string>
+				<string>{56, 47}</string>
+				<string>{77, 29}</string>
+				<string>{48, 28}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{350, 377}, {56, 53}}</string>
+			<key>image</key>
+			<string>star_25.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{33, 4}</string>
+				<string>{35, 3}</string>
+				<string>{22, 15}</string>
+				<string>{1, 11}</string>
+				<string>{9, 28}</string>
+				<string>{3, 44}</string>
+				<string>{21, 41}</string>
+				<string>{36, 54}</string>
+				<string>{38, 38}</string>
+				<string>{55, 25}</string>
+				<string>{38, 19}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{232, 339}, {77, 64}}</string>
+			<key>image</key>
+			<string>star_21.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{55, 6}</string>
+				<string>{34, 14}</string>
+				<string>{11, 3}</string>
+				<string>{18, 25}</string>
+				<string>{4, 38}</string>
+				<string>{26, 45}</string>
+				<string>{43, 63}</string>
+				<string>{50, 46}</string>
+				<string>{75, 44}</string>
+				<string>{56, 28}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{348, 103}, {89, 78}}</string>
+			<key>image</key>
+			<string>star_13.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{46, 5}</string>
+				<string>{34, 31}</string>
+				<string>{5, 33}</string>
+				<string>{28, 48}</string>
+				<string>{19, 77}</string>
+				<string>{45, 57}</string>
+				<string>{73, 76}</string>
+				<string>{63, 49}</string>
+				<string>{87, 32}</string>
+				<string>{56, 28}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{549, 150}, {85, 74}}</string>
+			<key>image</key>
+			<string>star_5.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{43, 3}</string>
+				<string>{32, 29}</string>
+				<string>{4, 32}</string>
+				<string>{24, 45}</string>
+				<string>{18, 75}</string>
+				<string>{42, 57}</string>
+				<string>{67, 72}</string>
+				<string>{60, 49}</string>
+				<string>{82, 30}</string>
+				<string>{55, 28}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{546, 207}, {87, 73}}</string>
+			<key>image</key>
+			<string>star_11.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{18, 3}</string>
+				<string>{26, 27}</string>
+				<string>{2, 47}</string>
+				<string>{34, 46}</string>
+				<string>{45, 72}</string>
+				<string>{55, 46}</string>
+				<string>{87, 46}</string>
+				<string>{61, 30}</string>
+				<string>{72, 3}</string>
+				<string>{45, 14}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{526, 141}, {77, 64}}</string>
+			<key>image</key>
+			<string>star_21.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{55, 6}</string>
+				<string>{34, 14}</string>
+				<string>{11, 3}</string>
+				<string>{18, 25}</string>
+				<string>{4, 38}</string>
+				<string>{26, 45}</string>
+				<string>{43, 63}</string>
+				<string>{50, 46}</string>
+				<string>{75, 44}</string>
+				<string>{56, 28}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{501, 191}, {89, 78}}</string>
+			<key>image</key>
+			<string>star_13.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{46, 5}</string>
+				<string>{34, 31}</string>
+				<string>{5, 33}</string>
+				<string>{28, 48}</string>
+				<string>{19, 77}</string>
+				<string>{45, 57}</string>
+				<string>{73, 76}</string>
+				<string>{63, 49}</string>
+				<string>{87, 32}</string>
+				<string>{56, 28}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{453, 207}, {89, 78}}</string>
+			<key>image</key>
+			<string>star_13.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{46, 5}</string>
+				<string>{34, 31}</string>
+				<string>{5, 33}</string>
+				<string>{28, 48}</string>
+				<string>{19, 77}</string>
+				<string>{45, 57}</string>
+				<string>{73, 76}</string>
+				<string>{63, 49}</string>
+				<string>{87, 32}</string>
+				<string>{56, 28}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{424, 220}, {85, 74}}</string>
+			<key>image</key>
+			<string>star_10.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{43, 1}</string>
+				<string>{31, 26}</string>
+				<string>{2, 28}</string>
+				<string>{23, 46}</string>
+				<string>{17, 74}</string>
+				<string>{45, 60}</string>
+				<string>{71, 73}</string>
+				<string>{60, 48}</string>
+				<string>{85, 30}</string>
+				<string>{55, 26}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{501, 172}, {74, 61}}</string>
+			<key>image</key>
+			<string>star_19.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{39, 1}</string>
+				<string>{25, 20}</string>
+				<string>{3, 23}</string>
+				<string>{19, 38}</string>
+				<string>{14, 61}</string>
+				<string>{37, 48}</string>
+				<string>{61, 59}</string>
+				<string>{54, 40}</string>
+				<string>{72, 25}</string>
+				<string>{48, 19}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{434, 210}, {56, 47}}</string>
+			<key>image</key>
+			<string>star_2.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{29, 3}</string>
+				<string>{21, 17}</string>
+				<string>{2, 19}</string>
+				<string>{16, 30}</string>
+				<string>{11, 47}</string>
+				<string>{28, 34}</string>
+				<string>{47, 47}</string>
+				<string>{41, 32}</string>
+				<string>{54, 19}</string>
+				<string>{38, 17}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{476, 138}, {68, 60}}</string>
+			<key>image</key>
+			<string>star_12.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{67, 12}</string>
+				<string>{45, 13}</string>
+				<string>{28, 2}</string>
+				<string>{20, 17}</string>
+				<string>{2, 29}</string>
+				<string>{18, 41}</string>
+				<string>{25, 60}</string>
+				<string>{43, 49}</string>
+				<string>{66, 49}</string>
+				<string>{59, 30}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{445, 137}, {85, 74}}</string>
+			<key>image</key>
+			<string>star_10.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{43, 1}</string>
+				<string>{31, 26}</string>
+				<string>{2, 28}</string>
+				<string>{23, 46}</string>
+				<string>{17, 74}</string>
+				<string>{45, 60}</string>
+				<string>{71, 73}</string>
+				<string>{60, 48}</string>
+				<string>{85, 30}</string>
+				<string>{55, 26}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{441, 169}, {69, 59}}</string>
+			<key>image</key>
+			<string>star_8.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{37, 2}</string>
+				<string>{24, 19}</string>
+				<string>{2, 24}</string>
+				<string>{19, 40}</string>
+				<string>{15, 57}</string>
+				<string>{36, 48}</string>
+				<string>{56, 59}</string>
+				<string>{52, 41}</string>
+				<string>{65, 24}</string>
+				<string>{45, 20}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{387, 165}, {64, 59}}</string>
+			<key>image</key>
+			<string>star_4.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{37, 2}</string>
+				<string>{23, 19}</string>
+				<string>{4, 22}</string>
+				<string>{15, 34}</string>
+				<string>{9, 53}</string>
+				<string>{31, 48}</string>
+				<string>{49, 58}</string>
+				<string>{45, 39}</string>
+				<string>{63, 27}</string>
+				<string>{43, 18}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{346, 316}, {67, 61}}</string>
+			<key>image</key>
+			<string>star_23.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{34, 3}</string>
+				<string>{23, 22}</string>
+				<string>{2, 25}</string>
+				<string>{15, 40}</string>
+				<string>{15, 61}</string>
+				<string>{34, 54}</string>
+				<string>{51, 58}</string>
+				<string>{52, 39}</string>
+				<string>{65, 24}</string>
+				<string>{45, 20}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{353, 233}, {82, 70}}</string>
+			<key>image</key>
+			<string>star_24.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{44, 3}</string>
+				<string>{36, 30}</string>
+				<string>{4, 26}</string>
+				<string>{29, 42}</string>
+				<string>{16, 67}</string>
+				<string>{40, 50}</string>
+				<string>{64, 69}</string>
+				<string>{54, 44}</string>
+				<string>{81, 29}</string>
+				<string>{50, 30}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{379, 245}, {89, 78}}</string>
+			<key>image</key>
+			<string>star_13.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{46, 5}</string>
+				<string>{34, 31}</string>
+				<string>{5, 33}</string>
+				<string>{28, 48}</string>
+				<string>{19, 77}</string>
+				<string>{45, 57}</string>
+				<string>{73, 76}</string>
+				<string>{63, 49}</string>
+				<string>{87, 32}</string>
+				<string>{56, 28}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{333, 218}, {77, 64}}</string>
+			<key>image</key>
+			<string>star_21.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{55, 6}</string>
+				<string>{34, 14}</string>
+				<string>{11, 3}</string>
+				<string>{18, 25}</string>
+				<string>{4, 38}</string>
+				<string>{26, 45}</string>
+				<string>{43, 63}</string>
+				<string>{50, 46}</string>
+				<string>{75, 44}</string>
+				<string>{56, 28}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{233, 250}, {77, 64}}</string>
+			<key>image</key>
+			<string>star_21.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{55, 6}</string>
+				<string>{34, 14}</string>
+				<string>{11, 3}</string>
+				<string>{18, 25}</string>
+				<string>{4, 38}</string>
+				<string>{26, 45}</string>
+				<string>{43, 63}</string>
+				<string>{50, 46}</string>
+				<string>{75, 44}</string>
+				<string>{56, 28}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{291, 239}, {91, 83}}</string>
+			<key>image</key>
+			<string>star_18.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{47, 2}</string>
+				<string>{35, 31}</string>
+				<string>{3, 33}</string>
+				<string>{26, 50}</string>
+				<string>{19, 82}</string>
+				<string>{45, 63}</string>
+				<string>{73, 82}</string>
+				<string>{63, 53}</string>
+				<string>{91, 33}</string>
+				<string>{57, 32}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{267, 284}, {76, 68}}</string>
+			<key>image</key>
+			<string>star_16.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{38, 2}</string>
+				<string>{29, 25}</string>
+				<string>{1, 27}</string>
+				<string>{22, 45}</string>
+				<string>{17, 67}</string>
+				<string>{39, 53}</string>
+				<string>{64, 68}</string>
+				<string>{54, 44}</string>
+				<string>{76, 28}</string>
+				<string>{47, 24}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{310, 253}, {85, 74}}</string>
+			<key>image</key>
+			<string>star_5.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{43, 3}</string>
+				<string>{32, 29}</string>
+				<string>{4, 32}</string>
+				<string>{24, 45}</string>
+				<string>{18, 75}</string>
+				<string>{42, 57}</string>
+				<string>{67, 72}</string>
+				<string>{60, 49}</string>
+				<string>{82, 30}</string>
+				<string>{55, 28}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{336, 245}, {69, 59}}</string>
+			<key>image</key>
+			<string>star_8.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{37, 2}</string>
+				<string>{24, 19}</string>
+				<string>{2, 24}</string>
+				<string>{19, 40}</string>
+				<string>{15, 57}</string>
+				<string>{36, 48}</string>
+				<string>{56, 59}</string>
+				<string>{52, 41}</string>
+				<string>{65, 24}</string>
+				<string>{45, 20}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{290, 227}, {56, 47}}</string>
+			<key>image</key>
+			<string>star_2.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{29, 3}</string>
+				<string>{21, 17}</string>
+				<string>{2, 19}</string>
+				<string>{16, 30}</string>
+				<string>{11, 47}</string>
+				<string>{28, 34}</string>
+				<string>{47, 47}</string>
+				<string>{41, 32}</string>
+				<string>{54, 19}</string>
+				<string>{38, 17}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{413, 129}, {56, 53}}</string>
+			<key>image</key>
+			<string>star_25.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{33, 4}</string>
+				<string>{35, 3}</string>
+				<string>{22, 15}</string>
+				<string>{1, 11}</string>
+				<string>{9, 28}</string>
+				<string>{3, 44}</string>
+				<string>{21, 41}</string>
+				<string>{36, 54}</string>
+				<string>{38, 38}</string>
+				<string>{55, 25}</string>
+				<string>{38, 19}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{343, 138}, {69, 59}}</string>
+			<key>image</key>
+			<string>star_8.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{37, 2}</string>
+				<string>{24, 19}</string>
+				<string>{2, 24}</string>
+				<string>{19, 40}</string>
+				<string>{15, 57}</string>
+				<string>{36, 48}</string>
+				<string>{56, 59}</string>
+				<string>{52, 41}</string>
+				<string>{65, 24}</string>
+				<string>{45, 20}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{199, 164}, {85, 74}}</string>
+			<key>image</key>
+			<string>star_5.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{43, 3}</string>
+				<string>{32, 29}</string>
+				<string>{4, 32}</string>
+				<string>{24, 45}</string>
+				<string>{18, 75}</string>
+				<string>{42, 57}</string>
+				<string>{67, 72}</string>
+				<string>{60, 49}</string>
+				<string>{82, 30}</string>
+				<string>{55, 28}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{193, 223}, {94, 73}}</string>
+			<key>image</key>
+			<string>star_20.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{41, 5}</string>
+				<string>{29, 27}</string>
+				<string>{5, 33}</string>
+				<string>{22, 48}</string>
+				<string>{20, 72}</string>
+				<string>{45, 58}</string>
+				<string>{66, 67}</string>
+				<string>{56, 47}</string>
+				<string>{76, 28}</string>
+				<string>{52, 26}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{238, 216}, {69, 59}}</string>
+			<key>image</key>
+			<string>star_8.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{37, 2}</string>
+				<string>{24, 19}</string>
+				<string>{2, 24}</string>
+				<string>{19, 40}</string>
+				<string>{15, 57}</string>
+				<string>{36, 48}</string>
+				<string>{56, 59}</string>
+				<string>{52, 41}</string>
+				<string>{65, 24}</string>
+				<string>{45, 20}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{153, 206}, {87, 73}}</string>
+			<key>image</key>
+			<string>star_11.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{18, 3}</string>
+				<string>{26, 27}</string>
+				<string>{2, 47}</string>
+				<string>{34, 46}</string>
+				<string>{45, 72}</string>
+				<string>{55, 46}</string>
+				<string>{87, 46}</string>
+				<string>{61, 30}</string>
+				<string>{72, 3}</string>
+				<string>{45, 14}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{200, 275}, {91, 83}}</string>
+			<key>image</key>
+			<string>star_18.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{47, 2}</string>
+				<string>{35, 31}</string>
+				<string>{3, 33}</string>
+				<string>{26, 50}</string>
+				<string>{19, 82}</string>
+				<string>{45, 63}</string>
+				<string>{73, 82}</string>
+				<string>{63, 53}</string>
+				<string>{91, 33}</string>
+				<string>{57, 32}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{331, 142}, {89, 78}}</string>
+			<key>image</key>
+			<string>star_13.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{46, 5}</string>
+				<string>{34, 31}</string>
+				<string>{5, 33}</string>
+				<string>{28, 48}</string>
+				<string>{19, 77}</string>
+				<string>{45, 57}</string>
+				<string>{73, 76}</string>
+				<string>{63, 49}</string>
+				<string>{87, 32}</string>
+				<string>{56, 28}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{384, 185}, {85, 74}}</string>
+			<key>image</key>
+			<string>star_10.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{43, 1}</string>
+				<string>{31, 26}</string>
+				<string>{2, 28}</string>
+				<string>{23, 46}</string>
+				<string>{17, 74}</string>
+				<string>{45, 60}</string>
+				<string>{71, 73}</string>
+				<string>{60, 48}</string>
+				<string>{85, 30}</string>
+				<string>{55, 26}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{311, 163}, {68, 60}}</string>
+			<key>image</key>
+			<string>star_12.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{67, 12}</string>
+				<string>{45, 13}</string>
+				<string>{28, 2}</string>
+				<string>{20, 17}</string>
+				<string>{2, 29}</string>
+				<string>{18, 41}</string>
+				<string>{25, 60}</string>
+				<string>{43, 49}</string>
+				<string>{66, 49}</string>
+				<string>{59, 30}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{305, 126}, {67, 61}}</string>
+			<key>image</key>
+			<string>star_23.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{34, 3}</string>
+				<string>{23, 22}</string>
+				<string>{2, 25}</string>
+				<string>{15, 40}</string>
+				<string>{15, 61}</string>
+				<string>{34, 54}</string>
+				<string>{51, 58}</string>
+				<string>{52, 39}</string>
+				<string>{65, 24}</string>
+				<string>{45, 20}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{225, 159}, {85, 74}}</string>
+			<key>image</key>
+			<string>star_5.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{43, 3}</string>
+				<string>{32, 29}</string>
+				<string>{4, 32}</string>
+				<string>{24, 45}</string>
+				<string>{18, 75}</string>
+				<string>{42, 57}</string>
+				<string>{67, 72}</string>
+				<string>{60, 49}</string>
+				<string>{82, 30}</string>
+				<string>{55, 28}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{265, 174}, {56, 47}}</string>
+			<key>image</key>
+			<string>star_2.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{29, 3}</string>
+				<string>{21, 17}</string>
+				<string>{2, 19}</string>
+				<string>{16, 30}</string>
+				<string>{11, 47}</string>
+				<string>{28, 34}</string>
+				<string>{47, 47}</string>
+				<string>{41, 32}</string>
+				<string>{54, 19}</string>
+				<string>{38, 17}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{277, 146}, {71, 64}}</string>
+			<key>image</key>
+			<string>star_15.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{38, 3}</string>
+				<string>{29, 25}</string>
+				<string>{3, 27}</string>
+				<string>{22, 39}</string>
+				<string>{18, 63}</string>
+				<string>{36, 49}</string>
+				<string>{57, 62}</string>
+				<string>{50, 42}</string>
+				<string>{68, 27}</string>
+				<string>{46, 26}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{262, 179}, {85, 74}}</string>
+			<key>image</key>
+			<string>star_10.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{43, 1}</string>
+				<string>{31, 26}</string>
+				<string>{2, 28}</string>
+				<string>{23, 46}</string>
+				<string>{17, 74}</string>
+				<string>{45, 60}</string>
+				<string>{71, 73}</string>
+				<string>{60, 48}</string>
+				<string>{85, 30}</string>
+				<string>{55, 26}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTStar</string>
+			<key>frame</key>
+			<string>{{349, 198}, {83, 71}}</string>
+			<key>image</key>
+			<string>star_22.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{42, 3}</string>
+				<string>{33, 26}</string>
+				<string>{2, 30}</string>
+				<string>{24, 46}</string>
+				<string>{18, 68}</string>
+				<string>{40, 55}</string>
+				<string>{68, 70}</string>
+				<string>{59, 48}</string>
+				<string>{81, 28}</string>
+				<string>{53, 28}</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

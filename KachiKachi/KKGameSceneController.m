@@ -95,16 +95,9 @@ typedef void (^completionBlk)(BOOL);
     // Do any additional setup after loading the view.
     
     [self loadLevel];
+    [self loadlevelData];
     
-    self.wrongPickCount = 0;
-    _elements = [[NSMutableArray alloc] init];
-    self.basketElements = [[NSMutableArray alloc] init];
-    self.deletedElements = [[NSMutableArray alloc] init];
     [self.homeButton setTitle:NSLocalizedString(@"BACK", "back") forState:UIControlStateNormal];
-    
-    self.currentLevel = [KKGameStateManager sharedManager].currentLevel;
-    self.currentStage = [KKGameStateManager sharedManager].currentStage;
-    [self updatePointsEarned:0];
     
 #ifndef DEVELOPMENT_MODE
     BOOL canRemoveAds = [[GeneralSettings sharedManager] getCanRemoveAds];
@@ -127,17 +120,14 @@ typedef void (^completionBlk)(BOOL);
     }
 #endif
 
-    _isGameFinished = FALSE;
-    self.duration = self.levelModel.duration;
-    
     [self showTutorial:1];
-    [self addElements:NO];
     
 #ifdef DEVELOPMENT_MODE
     _switchBtn.hidden = NO;
     _saveBtn.hidden = NO;
     _mailButton.hidden = NO;
     _addButton.hidden = NO;
+    [_switchBtn setOn:NO];
 #else
     _switchBtn.hidden = YES;
     _saveBtn.hidden = YES;
@@ -145,17 +135,38 @@ typedef void (^completionBlk)(BOOL);
     _addButton.hidden = YES;
 #endif
     
-    [_switchBtn setOn:NO];
-    
     [[SoundManager sharedManager] playMusic:@"lovesong"];
+}
+
+-(void)loadlevelData
+{
+    [self removeAllElements];
+    
+    self.wrongPickCount = 0;
+    self.currentLevel = [KKGameStateManager sharedManager].currentLevel;
+    self.currentStage = [KKGameStateManager sharedManager].currentStage;
+    [self updatePointsEarned:0];
+    
+    _elements = [[NSMutableArray alloc] init];
+    self.basketElements = [[NSMutableArray alloc] init];
+    self.deletedElements = [[NSMutableArray alloc] init];
+    
+    _isGameFinished = FALSE;
+    self.duration = self.levelModel.duration;
+    
     [self updateUI];
+    [self addElements];
+
     self.magicStickCounter = 0;
+    self.isMagicStickMode = NO;
+    self.winningStreak = 0;
+    self.wrongPickCount = 0;
+    self.topObjectSelected = 0;
+    self.oldTimeInterval = 0;
+    testCounter = 0;
     
     [self updateMagicStic];
     [self updateMagicStickBtnPosition];
-    
-    self.oldTimeInterval = 0;
-    testCounter = 0;
 }
 
 -(NSTimeInterval)timeTakenInSeconds
@@ -353,16 +364,14 @@ typedef void (^completionBlk)(BOOL);
     self.timerLabel.text = [NSString stringWithFormat:NSLocalizedString(@"SCORE","score"),self.levelModel.score];
 }
 
--(void)addElements:(BOOL)isRestartMode
+-(void)addElements
 {
     [self.levelModel.items enumerateObjectsUsingBlock:^(KKItemModal *obj, NSUInteger idx, BOOL *stop) {
         [self generateElement:obj];
     }];
     
-    if(!isRestartMode){
-        UIImage *image = [UIImage imageNamed:self.levelModel.backgroundImage];
-        self.background.image = image;
-    }
+    UIImage *image = [UIImage imageNamed:self.levelModel.backgroundImage];
+    self.background.image = image;
     
     [self.levelModel.baskets enumerateObjectsUsingBlock:^(NSDictionary *basket, NSUInteger idx, BOOL *stop) {
         UIImage *image = [UIImage imageNamed:[basket objectForKey:@"basket"]];
@@ -488,13 +497,15 @@ typedef void (^completionBlk)(BOOL);
 - (void)nextLevelAction
 {
     [[KKGameStateManager sharedManager] completeLevel];
+    [self saveGame];
     [self removeGameOverScreen];
+    [self continuePlaying:NO];
 }
 
 - (void)replayAction
 {
     [self removeGameOverScreen];
-    [self replayLevel];
+    [self continuePlaying:YES];
 }
 
 - (void)mainMenuAction
@@ -980,21 +991,23 @@ typedef void (^completionBlk)(BOOL);
     [Flurry logEvent:@"replay" withParameters:levelInfo];
 }
 
--(void)replayLevel
+-(void)setLevelModel:(KKLevelModal *)levelModel
 {
-    [[KKGameStateManager sharedManager] resetLevelData];
-    [self removeAllElements];
-    _isGameFinished = FALSE;
-    [self addElements:YES];
-    [self updateMagicStic];
-    [self updateUI];
-    [self logReplayEvent];
-    self.isMagicStickMode = NO;
-    self.magicStickCounter = 0;
-    self.winningStreak = 0;
-    self.oldTimeInterval = 0;
-    self.wrongPickCount = 0;
-    self.topObjectSelected = 0;
+    _levelModel = levelModel;
+}
+
+-(void)continuePlaying:(BOOL)isRestart
+{
+    if(isRestart){
+        [[KKGameStateManager sharedManager] resetLevelData];
+        [self logReplayEvent];
+    }
+    else{
+        self.levelModel = [[KKGameStateManager sharedManager] loadNextLevel];
+    }
+    
+    self.levelModel.isLevelUnlocked = YES;
+    [self loadlevelData];
 }
 
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex

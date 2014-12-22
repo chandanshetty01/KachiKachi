@@ -14,5 +14,6 @@
 
 -(NSDictionary*)levelWithID:(NSInteger)levelID andStage:(NSInteger)stageID;
 -(NSDictionary*)stageWithID:(NSInteger)stageID;
+
 @end
 

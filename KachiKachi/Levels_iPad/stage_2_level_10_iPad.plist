@@ -1,0 +1,1535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ID</key>
+	<string>10</string>
+	<key>elements</key>
+	<array>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{601, 403}, {99, 167}}</string>
+			<key>image</key>
+			<string>kite_1.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{59, 14}</string>
+				<string>{32, 5}</string>
+				<string>{8, 5}</string>
+				<string>{2, 58}</string>
+				<string>{73, 100}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{435, 387}, {99, 167}}</string>
+			<key>image</key>
+			<string>kite_1.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{59, 14}</string>
+				<string>{32, 5}</string>
+				<string>{8, 5}</string>
+				<string>{2, 58}</string>
+				<string>{73, 100}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{548, 212}, {105, 141}}</string>
+			<key>image</key>
+			<string>kite_2.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{104, 35}</string>
+				<string>{61, 2}</string>
+				<string>{16, 48}</string>
+				<string>{50, 90}</string>
+				<string>{62, 114}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{405, 455}, {105, 141}}</string>
+			<key>image</key>
+			<string>kite_2.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{104, 35}</string>
+				<string>{61, 2}</string>
+				<string>{16, 48}</string>
+				<string>{50, 90}</string>
+				<string>{62, 114}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{370, 299}, {82, 106}}</string>
+			<key>image</key>
+			<string>kite_4.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{75, 5}</string>
+				<string>{16, 4}</string>
+				<string>{6, 35}</string>
+				<string>{2, 59}</string>
+				<string>{81, 85}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{410, 412}, {82, 106}}</string>
+			<key>image</key>
+			<string>kite_4.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{75, 5}</string>
+				<string>{16, 4}</string>
+				<string>{6, 35}</string>
+				<string>{2, 59}</string>
+				<string>{81, 85}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{708, 209}, {108, 152}}</string>
+			<key>image</key>
+			<string>kite_5.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{105, 74}</string>
+				<string>{77, 3}</string>
+				<string>{29, 15}</string>
+				<string>{4, 23}</string>
+				<string>{12, 76}</string>
+				<string>{18, 129}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{374, 360}, {108, 152}}</string>
+			<key>image</key>
+			<string>kite_5.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{105, 74}</string>
+				<string>{77, 3}</string>
+				<string>{29, 15}</string>
+				<string>{4, 23}</string>
+				<string>{12, 76}</string>
+				<string>{18, 129}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{426, 305}, {124, 124}}</string>
+			<key>image</key>
+			<string>kite_6.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{53, 20}</string>
+				<string>{13, 3}</string>
+				<string>{2, 45}</string>
+				<string>{51, 83}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{536, 338}, {212, 213}}</string>
+			<key>image</key>
+			<string>kite_7.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{83, 144}</string>
+				<string>{91, 40}</string>
+				<string>{18, 1}</string>
+				<string>{2, 81}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{506, 505}, {127, 113}}</string>
+			<key>image</key>
+			<string>kite_8.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{3, 40}</string>
+				<string>{37, 19}</string>
+				<string>{62, 14}</string>
+				<string>{94, 4}</string>
+				<string>{109, 34}</string>
+				<string>{128, 85}</string>
+				<string>{104, 76}</string>
+				<string>{96, 60}</string>
+				<string>{74, 69}</string>
+				<string>{59, 62}</string>
+				<string>{50, 41}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{348, 315}, {207, 111}}</string>
+			<key>image</key>
+			<string>kite_9.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{3, 109}</string>
+				<string>{45, 61}</string>
+				<string>{78, 28}</string>
+				<string>{110, 4}</string>
+				<string>{148, 30}</string>
+				<string>{207, 100}</string>
+				<string>{163, 79}</string>
+				<string>{135, 75}</string>
+				<string>{109, 100}</string>
+				<string>{89, 79}</string>
+				<string>{55, 76}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{670, 382}, {90, 179}}</string>
+			<key>image</key>
+			<string>kite_11.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{70, 4}</string>
+				<string>{6, 20}</string>
+				<string>{8, 130}</string>
+				<string>{90, 60}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{811, 348}, {90, 179}}</string>
+			<key>image</key>
+			<string>kite_11.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{70, 4}</string>
+				<string>{6, 20}</string>
+				<string>{8, 130}</string>
+				<string>{90, 60}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{665, 395}, {344, 204}}</string>
+			<key>image</key>
+			<string>kite_15.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{103, 55}</string>
+				<string>{174, 32}</string>
+				<string>{238, 6}</string>
+				<string>{246, 64}</string>
+				<string>{250, 122}</string>
+				<string>{253, 151}</string>
+				<string>{220, 125}</string>
+				<string>{212, 98}</string>
+				<string>{190, 107}</string>
+				<string>{162, 93}</string>
+				<string>{159, 66}</string>
+				<string>{128, 68}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{580, 234}, {158, 120}}</string>
+			<key>image</key>
+			<string>kite_16.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{3, 51}</string>
+				<string>{57, 31}</string>
+				<string>{115, 9}</string>
+				<string>{135, 47}</string>
+				<string>{157, 115}</string>
+				<string>{80, 96}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{423, 316}, {189, 143}}</string>
+			<key>image</key>
+			<string>kite_17.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{186, 5}</string>
+				<string>{75, 5}</string>
+				<string>{47, 30}</string>
+				<string>{47, 75}</string>
+				<string>{51, 139}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{686, 474}, {189, 143}}</string>
+			<key>image</key>
+			<string>kite_17.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{186, 5}</string>
+				<string>{75, 5}</string>
+				<string>{47, 30}</string>
+				<string>{47, 75}</string>
+				<string>{51, 139}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{416, 427}, {196, 171}}</string>
+			<key>image</key>
+			<string>kite_18.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{12, 21}</string>
+				<string>{51, 21}</string>
+				<string>{81, 30}</string>
+				<string>{103, 62}</string>
+				<string>{107, 85}</string>
+				<string>{137, 85}</string>
+				<string>{162, 93}</string>
+				<string>{194, 163}</string>
+				<string>{190, 78}</string>
+				<string>{181, 41}</string>
+				<string>{170, 6}</string>
+				<string>{96, 4}</string>
+				<string>{78, 4}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{433, 504}, {196, 171}}</string>
+			<key>image</key>
+			<string>kite_18.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{12, 21}</string>
+				<string>{51, 21}</string>
+				<string>{81, 30}</string>
+				<string>{103, 62}</string>
+				<string>{107, 85}</string>
+				<string>{137, 85}</string>
+				<string>{162, 93}</string>
+				<string>{194, 163}</string>
+				<string>{190, 78}</string>
+				<string>{181, 41}</string>
+				<string>{170, 6}</string>
+				<string>{96, 4}</string>
+				<string>{78, 4}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{667, 308}, {128, 227}}</string>
+			<key>image</key>
+			<string>kite_19.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{63, 108}</string>
+				<string>{104, 40}</string>
+				<string>{61, 13}</string>
+				<string>{42, 1}</string>
+				<string>{21, 26}</string>
+				<string>{1, 56}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{596, 476}, {127, 106}}</string>
+			<key>image</key>
+			<string>kite_20.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{119, 32}</string>
+				<string>{41, 3}</string>
+				<string>{19, 43}</string>
+				<string>{1, 77}</string>
+				<string>{33, 82}</string>
+				<string>{74, 101}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{595, 332}, {127, 106}}</string>
+			<key>image</key>
+			<string>kite_20.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{119, 32}</string>
+				<string>{41, 3}</string>
+				<string>{19, 43}</string>
+				<string>{1, 77}</string>
+				<string>{33, 82}</string>
+				<string>{74, 101}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{713, 413}, {127, 106}}</string>
+			<key>image</key>
+			<string>kite_20.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{119, 32}</string>
+				<string>{41, 3}</string>
+				<string>{19, 43}</string>
+				<string>{1, 77}</string>
+				<string>{33, 82}</string>
+				<string>{74, 101}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{667, 250}, {110, 175}}</string>
+			<key>image</key>
+			<string>kite_21.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{26, 107}</string>
+				<string>{97, 51}</string>
+				<string>{73, 20}</string>
+				<string>{59, 2}</string>
+				<string>{27, 11}</string>
+				<string>{2, 18}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{793, 321}, {110, 175}}</string>
+			<key>image</key>
+			<string>kite_21.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{26, 107}</string>
+				<string>{97, 51}</string>
+				<string>{73, 20}</string>
+				<string>{59, 2}</string>
+				<string>{27, 11}</string>
+				<string>{2, 18}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{489, 213}, {183, 185}}</string>
+			<key>image</key>
+			<string>kite_22.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{78, 33}</string>
+				<string>{18, 5}</string>
+				<string>{2, 68}</string>
+				<string>{24, 86}</string>
+				<string>{72, 118}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{549, 265}, {109, 124}}</string>
+			<key>image</key>
+			<string>kite_26.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{83, 1}</string>
+				<string>{34, 22}</string>
+				<string>{50, 90}</string>
+				<string>{74, 81}</string>
+				<string>{107, 47}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{710, 335}, {134, 146}}</string>
+			<key>image</key>
+			<string>kite_27.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{133, 81}</string>
+				<string>{94, 91}</string>
+				<string>{74, 96}</string>
+				<string>{53, 105}</string>
+				<string>{26, 117}</string>
+				<string>{28, 101}</string>
+				<string>{34, 81}</string>
+				<string>{40, 53}</string>
+				<string>{50, 3}</string>
+				<string>{81, 2}</string>
+				<string>{110, 4}</string>
+				<string>{119, 42}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{708, 263}, {226, 109}}</string>
+			<key>image</key>
+			<string>kite_29.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{5, 105}</string>
+				<string>{46, 55}</string>
+				<string>{81, 27}</string>
+				<string>{111, 2}</string>
+				<string>{138, 19}</string>
+				<string>{164, 44}</string>
+				<string>{209, 87}</string>
+				<string>{223, 105}</string>
+				<string>{164, 73}</string>
+				<string>{133, 76}</string>
+				<string>{113, 91}</string>
+				<string>{87, 72}</string>
+				<string>{61, 72}</string>
+				<string>{40, 79}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{378, 264}, {226, 109}}</string>
+			<key>image</key>
+			<string>kite_29.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{5, 105}</string>
+				<string>{46, 55}</string>
+				<string>{81, 27}</string>
+				<string>{111, 2}</string>
+				<string>{138, 19}</string>
+				<string>{164, 44}</string>
+				<string>{209, 87}</string>
+				<string>{223, 105}</string>
+				<string>{164, 73}</string>
+				<string>{133, 76}</string>
+				<string>{113, 91}</string>
+				<string>{87, 72}</string>
+				<string>{61, 72}</string>
+				<string>{40, 79}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{384, 213}, {90, 179}}</string>
+			<key>image</key>
+			<string>kite_11.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{70, 4}</string>
+				<string>{6, 20}</string>
+				<string>{8, 130}</string>
+				<string>{90, 60}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{303, 224}, {99, 167}}</string>
+			<key>image</key>
+			<string>kite_1.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{59, 14}</string>
+				<string>{32, 5}</string>
+				<string>{8, 5}</string>
+				<string>{2, 58}</string>
+				<string>{73, 100}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{188, 254}, {99, 167}}</string>
+			<key>image</key>
+			<string>kite_1.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{59, 14}</string>
+				<string>{32, 5}</string>
+				<string>{8, 5}</string>
+				<string>{2, 58}</string>
+				<string>{73, 100}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{92, 296}, {212, 213}}</string>
+			<key>image</key>
+			<string>kite_7.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{83, 144}</string>
+				<string>{91, 40}</string>
+				<string>{18, 1}</string>
+				<string>{2, 81}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{109, 455}, {189, 143}}</string>
+			<key>image</key>
+			<string>kite_17.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{186, 5}</string>
+				<string>{75, 5}</string>
+				<string>{47, 30}</string>
+				<string>{47, 75}</string>
+				<string>{51, 139}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{137, 361}, {90, 179}}</string>
+			<key>image</key>
+			<string>kite_11.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{70, 4}</string>
+				<string>{6, 20}</string>
+				<string>{8, 130}</string>
+				<string>{90, 60}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{215, 263}, {158, 120}}</string>
+			<key>image</key>
+			<string>kite_16.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{3, 51}</string>
+				<string>{57, 31}</string>
+				<string>{115, 9}</string>
+				<string>{135, 47}</string>
+				<string>{157, 115}</string>
+				<string>{80, 96}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{183, 393}, {99, 167}}</string>
+			<key>image</key>
+			<string>kite_1.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{59, 14}</string>
+				<string>{32, 5}</string>
+				<string>{8, 5}</string>
+				<string>{2, 58}</string>
+				<string>{73, 100}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{163, 314}, {82, 106}}</string>
+			<key>image</key>
+			<string>kite_4.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{75, 5}</string>
+				<string>{16, 4}</string>
+				<string>{6, 35}</string>
+				<string>{2, 59}</string>
+				<string>{81, 85}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{222, 522}, {90, 179}}</string>
+			<key>image</key>
+			<string>kite_11.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{70, 4}</string>
+				<string>{6, 20}</string>
+				<string>{8, 130}</string>
+				<string>{90, 60}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{233, 450}, {183, 185}}</string>
+			<key>image</key>
+			<string>kite_22.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{78, 33}</string>
+				<string>{18, 5}</string>
+				<string>{2, 68}</string>
+				<string>{24, 86}</string>
+				<string>{72, 118}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{188, 337}, {105, 141}}</string>
+			<key>image</key>
+			<string>kite_2.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{104, 35}</string>
+				<string>{61, 2}</string>
+				<string>{16, 48}</string>
+				<string>{50, 90}</string>
+				<string>{62, 114}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{236, 467}, {226, 109}}</string>
+			<key>image</key>
+			<string>kite_29.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{5, 105}</string>
+				<string>{46, 55}</string>
+				<string>{81, 27}</string>
+				<string>{111, 2}</string>
+				<string>{138, 19}</string>
+				<string>{164, 44}</string>
+				<string>{209, 87}</string>
+				<string>{223, 105}</string>
+				<string>{164, 73}</string>
+				<string>{133, 76}</string>
+				<string>{113, 91}</string>
+				<string>{87, 72}</string>
+				<string>{61, 72}</string>
+				<string>{40, 79}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{227, 351}, {207, 111}}</string>
+			<key>image</key>
+			<string>kite_9.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{3, 109}</string>
+				<string>{45, 61}</string>
+				<string>{78, 28}</string>
+				<string>{110, 4}</string>
+				<string>{148, 30}</string>
+				<string>{207, 100}</string>
+				<string>{163, 79}</string>
+				<string>{135, 75}</string>
+				<string>{109, 100}</string>
+				<string>{89, 79}</string>
+				<string>{55, 76}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{273, 497}, {344, 204}}</string>
+			<key>image</key>
+			<string>kite_15.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{103, 55}</string>
+				<string>{174, 32}</string>
+				<string>{238, 6}</string>
+				<string>{246, 64}</string>
+				<string>{250, 122}</string>
+				<string>{253, 151}</string>
+				<string>{220, 125}</string>
+				<string>{212, 98}</string>
+				<string>{190, 107}</string>
+				<string>{162, 93}</string>
+				<string>{159, 66}</string>
+				<string>{128, 68}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{330, 273}, {212, 213}}</string>
+			<key>image</key>
+			<string>kite_7.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{83, 144}</string>
+				<string>{91, 40}</string>
+				<string>{18, 1}</string>
+				<string>{2, 81}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{238, 410}, {127, 113}}</string>
+			<key>image</key>
+			<string>kite_8.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{3, 40}</string>
+				<string>{37, 19}</string>
+				<string>{62, 14}</string>
+				<string>{94, 4}</string>
+				<string>{109, 34}</string>
+				<string>{128, 85}</string>
+				<string>{104, 76}</string>
+				<string>{96, 60}</string>
+				<string>{74, 69}</string>
+				<string>{59, 62}</string>
+				<string>{50, 41}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{339, 418}, {212, 213}}</string>
+			<key>image</key>
+			<string>kite_7.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{83, 144}</string>
+				<string>{91, 40}</string>
+				<string>{18, 1}</string>
+				<string>{2, 81}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{94, 502}, {207, 111}}</string>
+			<key>image</key>
+			<string>kite_9.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{3, 109}</string>
+				<string>{45, 61}</string>
+				<string>{78, 28}</string>
+				<string>{110, 4}</string>
+				<string>{148, 30}</string>
+				<string>{207, 100}</string>
+				<string>{163, 79}</string>
+				<string>{135, 75}</string>
+				<string>{109, 100}</string>
+				<string>{89, 79}</string>
+				<string>{55, 76}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{85, 382}, {90, 179}}</string>
+			<key>image</key>
+			<string>kite_11.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{70, 4}</string>
+				<string>{6, 20}</string>
+				<string>{8, 130}</string>
+				<string>{90, 60}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{311, 521}, {99, 167}}</string>
+			<key>image</key>
+			<string>kite_1.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{59, 14}</string>
+				<string>{32, 5}</string>
+				<string>{8, 5}</string>
+				<string>{2, 58}</string>
+				<string>{73, 100}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>animation</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0, 0}, {0, 0}}</string>
+				<key>rotateAngle</key>
+				<string>0.000000</string>
+				<key>scale</key>
+				<string>0.000000</string>
+			</dict>
+			<key>class</key>
+			<string>TTKite</string>
+			<key>frame</key>
+			<string>{{114, 242}, {105, 141}}</string>
+			<key>image</key>
+			<string>kite_2.png</string>
+			<key>isPicked</key>
+			<false/>
+			<key>touchPoints</key>
+			<array>
+				<string>{104, 35}</string>
+				<string>{61, 2}</string>
+				<string>{16, 48}</string>
+				<string>{50, 90}</string>
+				<string>{62, 114}</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
