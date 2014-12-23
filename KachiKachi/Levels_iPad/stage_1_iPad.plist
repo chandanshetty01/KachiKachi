@@ -72,7 +72,7 @@
 			<key>isLevelUnlocked</key>
 			<false/>
 			<key>background</key>
-			<string>balloon_bg.png</string>
+			<string>bottle_bg.png</string>
 			<key>sound</key>
 			<string>bottle.wav</string>
 		</dict>

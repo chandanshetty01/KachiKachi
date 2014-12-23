@@ -457,17 +457,20 @@ typedef void (^completionBlk)(BOOL);
     if(!IS_IPAD){
         name = @"Main_iPhone";
     }
-    self.gameOverController = [[UIStoryboard storyboardWithName:name bundle:nil] instantiateViewControllerWithIdentifier:@"KKGameOverViewController"];
-    [self.view addSubview:self.gameOverController.view];
-    [self.gameOverController updateData:self.levelModel];
-    self.gameOverController.delegate = self;
-    self.gameOverController.view.alpha = 0;
-    [UIView animateWithDuration:0.2f
-                     animations:^{
-                         self.gameOverController.view.alpha = 1;
-                     }
-                     completion:^(BOOL finished) {
-                     }];
+    
+    if(!self.gameOverController){
+        self.gameOverController = [[UIStoryboard storyboardWithName:name bundle:nil] instantiateViewControllerWithIdentifier:@"KKGameOverViewController"];
+        [self.view addSubview:self.gameOverController.view];
+        [self.gameOverController updateData:self.levelModel];
+        self.gameOverController.delegate = self;
+        self.gameOverController.view.alpha = 0;
+        [UIView animateWithDuration:0.2f
+                         animations:^{
+                             self.gameOverController.view.alpha = 1;
+                         }
+                         completion:^(BOOL finished) {
+                         }];
+    }
 }
 
 -(void)removeGameOverScreen
@@ -505,6 +508,7 @@ typedef void (^completionBlk)(BOOL);
     [[KKGameStateManager sharedManager] completeLevel];
     [self saveGame];
     [self removeGameOverScreen];
+    
     [self continuePlaying:NO];
 }
 

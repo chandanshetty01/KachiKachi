@@ -104,7 +104,7 @@
     if(stageNo == 1){
         status =  NO;
     }
-    NSNumber *stage = [[NSUserDefaults standardUserDefaults] objectForKey:[NSString stringWithFormat:@"stage_%ld",stageNo]];
+    NSNumber *stage = [[NSUserDefaults standardUserDefaults] objectForKey:[NSString stringWithFormat:@"stage_%ld",(long)stageNo]];
     if(stage){
         status = [stage boolValue];
     }
@@ -113,7 +113,7 @@
 
 -(void)unlockStage:(NSInteger)stageNo
 {
-    [[NSUserDefaults standardUserDefaults] setObject:[NSNumber numberWithBool:NO] forKey:[NSString stringWithFormat:@"stage_%ld",stageNo]];
+    [[NSUserDefaults standardUserDefaults] setObject:[NSNumber numberWithBool:NO] forKey:[NSString stringWithFormat:@"stage_%ld",(long)stageNo]];
     [[NSUserDefaults standardUserDefaults] synchronize];
 }
 

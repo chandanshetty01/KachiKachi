@@ -17,7 +17,7 @@
 @property(nonatomic,assign)NSInteger currentStage;
 
 +(KKGameStateManager*)sharedManager;
--(void)loadData;
+-(void)loadStage;
 -(void)saveData;
 -(void)loadLevelData;
 -(void)resetLevelData;

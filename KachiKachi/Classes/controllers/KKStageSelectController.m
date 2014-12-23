@@ -264,7 +264,7 @@
 -(void)loadStage:(NSInteger)stageID
 {
     [KKGameStateManager sharedManager].currentStage = stageID;
-    [[KKGameStateManager sharedManager] loadData];
+    [[KKGameStateManager sharedManager] loadStage];
 }
 
 - (BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(UIButton*)sender

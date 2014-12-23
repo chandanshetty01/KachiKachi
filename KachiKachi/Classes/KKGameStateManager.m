@@ -10,6 +10,7 @@
 #import "KKGameConfigManager.h"
 #import "Utility.h"
 #import "StageModel.h"
+#import "GeneralSettings.h"
 
 @interface KKGameStateManager()
 @property(nonatomic,strong)StageModel *stageModel;
@@ -62,16 +63,6 @@
     }
 }
 
--(KKLevelModel*)loadNextLevel
-{
-    NSInteger noOfLevels = [self.stageModel.levels count];
-    if(self.currentLevel <= noOfLevels){
-        self.currentLevel += 1;
-        [self loadLevelData];
-    }
-    return self.levelModel;
-}
-
 -(void)completeLevel
 {
     NSDictionary *data = [[KKGameConfigManager sharedManager] levelWithID:self.currentLevel andStage:self.currentStage];
@@ -91,14 +82,14 @@
     }
     
     if(data){
-        if(self.stageModel.levels.count > 0 && self.currentLevel < self.stageModel.levels.count && self.currentLevel > 0){
+        if(self.stageModel.levels.count > 0 && self.currentLevel <= self.stageModel.levels.count && self.currentLevel > 0){
             self.levelModel = [self.stageModel.levels objectAtIndex:self.currentLevel-1];
             [self.levelModel updateWithDictionary:data];
         }
     }
 }
 
--(void)loadData
+-(void)loadStage
 {
     NSDictionary *data = [Utility loadData:[self stageFileName]];
     if(!data){
@@ -106,6 +97,33 @@
     }
                                             
     self.stageModel = [[StageModel alloc] initWithDictionary:data];
+}
+
+-(void)unlockStage
+{
+    self.stageModel.isLocked = NO;
+    [self saveData];
+    [[GeneralSettings sharedManager] unlockStage:self.currentStage];
+}
+
+-(KKLevelModel*)loadNextLevel
+{
+    NSInteger noOfLevels = [self.stageModel.levels count];
+    if(self.currentLevel>0 && self.currentLevel < noOfLevels){
+        self.currentLevel += 1;
+        [self loadLevelData];
+    }
+    else if(self.currentLevel == noOfLevels){
+        //load Next stage
+        self.currentLevel = 1;
+        if(self.currentStage > 0 && self.currentStage <= 3){
+            self.currentStage += 1;
+            [self loadStage];
+            [self loadLevelData];
+            [self unlockStage];
+        }
+    }
+    return self.levelModel;
 }
 
 -(NSMutableArray*)levels
