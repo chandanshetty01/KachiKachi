@@ -206,16 +206,21 @@ typedef void (^completionBlk)(BOOL);
 -(void)showScore:(NSInteger)score
 {
     if(_currentElement){
-        NSString *msg =[NSString stringWithFormat:@"+%ld",score];
+        NSString *msg =[NSString stringWithFormat:@"+%ld",(long)score];
         if(score< 0){
-            msg =[NSString stringWithFormat:@"%ld",score];
+            msg =[NSString stringWithFormat:@"%ld",(long)score];
+        }
+        
+        UIFont *font = [UIFont boldSystemFontOfSize:20];
+        if(IS_IPAD){
+            font = [UIFont boldSystemFontOfSize:30];
         }
         [[InstantMessageManager sharedManager] showMessage:msg
                                                     inView:self.view
                                                   duration:2
-                                                      rect:CGRectMake(_currentElement.center.x, _currentElement.center.y, 40, 40)
+                                                      rect:CGRectMake(_currentElement.center.x, _currentElement.center.y, 120, 40)
                                                      color:(score>0)?[UIColor blueColor]:[UIColor redColor]
-                                                      font:[UIFont boldSystemFontOfSize:14]];
+                                                      font:font];
     }
 }
 
