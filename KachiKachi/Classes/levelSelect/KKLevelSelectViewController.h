@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "KKLevelModal.h"
+#import "KKLevelModel.h"
 #import "StageModel.h"
 
 @interface KKLevelSelectViewController : UIViewController

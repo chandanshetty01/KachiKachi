@@ -6,10 +6,10 @@
 //  Copyright (c) 2014 Chanddan. All rights reserved.
 //
 
-#import "KKLevelModal.h"
+#import "KKLevelModel.h"
 #import "KKItemModal.h"
 
-@implementation KKLevelModal
+@implementation KKLevelModel
 
 - (instancetype)initWithDictionary:(NSDictionary*)data
 {

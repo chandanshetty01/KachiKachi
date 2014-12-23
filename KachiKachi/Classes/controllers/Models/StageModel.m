@@ -7,7 +7,7 @@
 //
 
 #import "StageModel.h"
-#import "KKLevelModal.h"
+#import "KKLevelModel.h"
 
 @implementation StageModel
 
@@ -19,7 +19,7 @@
         NSMutableArray *levels = [data objectForKey:@"levels"];
         self.levels = [NSMutableArray array];
         [levels enumerateObjectsUsingBlock:^(NSDictionary *data, NSUInteger idx, BOOL *stop) {
-            KKLevelModal *level = [[KKLevelModal alloc] initWithDictionary:data];
+            KKLevelModel *level = [[KKLevelModel alloc] initWithDictionary:data];
             [self.levels addObject:level];
         }];
     }
@@ -29,7 +29,7 @@
 -(NSMutableDictionary*)itemsDictionaryForLevel:(NSInteger)levleID
 {
     __block NSMutableDictionary *data = nil;
-    [self.levels enumerateObjectsUsingBlock:^(KKLevelModal *obj, NSUInteger idx, BOOL *stop) {
+    [self.levels enumerateObjectsUsingBlock:^(KKLevelModel *obj, NSUInteger idx, BOOL *stop) {
         if(obj.levelID == levleID){
            data = [obj itemsData];
             *stop = YES;
@@ -43,7 +43,7 @@
     NSMutableDictionary *data = [NSMutableDictionary dictionary];
     [data setObject:[NSNumber numberWithBool:self.isLocked] forKey:@"locked"] ;
     NSMutableArray *levels = [NSMutableArray array];
-    [self.levels enumerateObjectsUsingBlock:^(KKLevelModal *obj, NSUInteger idx, BOOL *stop) {
+    [self.levels enumerateObjectsUsingBlock:^(KKLevelModel *obj, NSUInteger idx, BOOL *stop) {
         NSMutableDictionary *data = [obj savedDictionary];
         if(data){
             [levels addObject:data];

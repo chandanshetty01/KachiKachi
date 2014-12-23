@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
-#import "KKLevelModal.h"
+#import "KKLevelModel.h"
 #import "TTBase.h"
 #import "TimerObject.h"
 #import "iAdViewController.h"
@@ -16,7 +16,7 @@
 
 @interface KKGameSceneController : UIViewController <iAdViewControllerDelegates>
 
-@property(nonatomic,strong) KKLevelModal *levelModel;
+@property(nonatomic,strong) KKLevelModel *levelModel;
 @property(nonatomic,strong) NSMutableArray *elements;
 @property(nonatomic,weak) TTBase *currentElement;
 @property (weak, nonatomic) IBOutlet UIImageView *background;

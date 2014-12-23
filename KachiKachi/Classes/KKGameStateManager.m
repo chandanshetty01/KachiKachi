@@ -13,7 +13,7 @@
 
 @interface KKGameStateManager()
 @property(nonatomic,strong)StageModel *stageModel;
-@property(nonatomic,strong)KKLevelModal *levelModel;
+@property(nonatomic,strong)KKLevelModel *levelModel;
 @end
 
 @implementation KKGameStateManager
@@ -62,7 +62,7 @@
     }
 }
 
--(KKLevelModal*)loadNextLevel
+-(KKLevelModel*)loadNextLevel
 {
     NSInteger noOfLevels = [self.stageModel.levels count];
     if(self.currentLevel <= noOfLevels){

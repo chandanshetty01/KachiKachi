@@ -76,7 +76,7 @@
 		A32F4E691987F79F009A20F9 /* iAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A32F4E681987F79F009A20F9 /* iAdViewController.m */; };
 		A32F4E6B1987F7F8009A20F9 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A32F4E6A1987F7F8009A20F9 /* iAd.framework */; };
 		A3335FBE1955F09A000AA5B7 /* TTCarrot.m in Sources */ = {isa = PBXBuildFile; fileRef = A3335FBD1955F09A000AA5B7 /* TTCarrot.m */; };
-		A3335FC21956C2D1000AA5B7 /* KKLevelModal.m in Sources */ = {isa = PBXBuildFile; fileRef = A3335FC11956C2D1000AA5B7 /* KKLevelModal.m */; };
+		A3335FC21956C2D1000AA5B7 /* KKLevelModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A3335FC11956C2D1000AA5B7 /* KKLevelModel.m */; };
 		A3335FC51956C96F000AA5B7 /* KKItemModal.m in Sources */ = {isa = PBXBuildFile; fileRef = A3335FC41956C96F000AA5B7 /* KKItemModal.m */; };
 		A33D53D31966758A00D65131 /* TimerObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A33D53D21966758A00D65131 /* TimerObject.m */; };
 		A3429BA819A85826007184DD /* TTMagicStick.m in Sources */ = {isa = PBXBuildFile; fileRef = A3429BA719A85826007184DD /* TTMagicStick.m */; };
@@ -707,8 +707,8 @@
 		A32F4E6A1987F7F8009A20F9 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		A3335FBC1955F09A000AA5B7 /* TTCarrot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTCarrot.h; sourceTree = "<group>"; };
 		A3335FBD1955F09A000AA5B7 /* TTCarrot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTCarrot.m; sourceTree = "<group>"; };
-		A3335FC01956C2D1000AA5B7 /* KKLevelModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKLevelModal.h; sourceTree = "<group>"; };
-		A3335FC11956C2D1000AA5B7 /* KKLevelModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKLevelModal.m; sourceTree = "<group>"; };
+		A3335FC01956C2D1000AA5B7 /* KKLevelModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKLevelModel.h; sourceTree = "<group>"; };
+		A3335FC11956C2D1000AA5B7 /* KKLevelModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKLevelModel.m; sourceTree = "<group>"; };
 		A3335FC31956C96F000AA5B7 /* KKItemModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKItemModal.h; sourceTree = "<group>"; };
 		A3335FC41956C96F000AA5B7 /* KKItemModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKItemModal.m; sourceTree = "<group>"; };
 		A33D53D11966758A00D65131 /* TimerObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerObject.h; sourceTree = "<group>"; };
@@ -1482,8 +1482,8 @@
 		A3335FBF1956C2BD000AA5B7 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				A3335FC01956C2D1000AA5B7 /* KKLevelModal.h */,
-				A3335FC11956C2D1000AA5B7 /* KKLevelModal.m */,
+				A3335FC01956C2D1000AA5B7 /* KKLevelModel.h */,
+				A3335FC11956C2D1000AA5B7 /* KKLevelModel.m */,
 				A3335FC31956C96F000AA5B7 /* KKItemModal.h */,
 				A3335FC41956C96F000AA5B7 /* KKItemModal.m */,
 				A311D5011A35DFD500EEDB3F /* StageModel.h */,
@@ -3255,7 +3255,7 @@
 				A3429BA819A85826007184DD /* TTMagicStick.m in Sources */,
 				A3FF153E195C791E007CE275 /* TTCandle.m in Sources */,
 				A3A67E851902B67700BFAF7B /* main.m in Sources */,
-				A3335FC21956C2D1000AA5B7 /* KKLevelModal.m in Sources */,
+				A3335FC21956C2D1000AA5B7 /* KKLevelModel.m in Sources */,
 				A32F4E691987F79F009A20F9 /* iAdViewController.m in Sources */,
 				A3E9E96E1944BA0A00898279 /* TTBalloon.m in Sources */,
 				A36A12ED1954C090007F6355 /* TTChoc.m in Sources */,

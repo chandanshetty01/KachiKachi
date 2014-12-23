@@ -82,7 +82,7 @@
 			<key>name</key>
 			<string>leaves</string>
 			<key>menuImage</key>
-			<string>leaves_bg.png</string>
+			<string>Menu_1.png</string>
 			<key>isLevelCompleted</key>
 			<false/>
 			<key>isLevelUnlocked</key>

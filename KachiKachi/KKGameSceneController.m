@@ -239,12 +239,12 @@ typedef void (^completionBlk)(BOOL);
         CGRect frame = self.magicStickHolder.frame;
         switch (self.currentLevel) {
             case 4:{
-                frame.origin = CGPointMake(50,self.view.bounds.size.width-frame.size.height-50);
+                frame.origin = CGPointMake(50,self.view.bounds.size.height-frame.size.height-50);
             }
                 break;
                 
             case 5:{
-                frame.origin = CGPointMake(self.view.bounds.size.height-frame.size.width-100,self.view.bounds.size.width-frame.size.height-100);
+                frame.origin = CGPointMake(self.view.bounds.size.width-frame.size.width-100,self.view.bounds.size.height-frame.size.height-100);
             }
                 break;
                 
@@ -254,7 +254,7 @@ typedef void (^completionBlk)(BOOL);
                 break;
                 
             default:{
-                frame.origin = CGPointMake(self.view.bounds.size.height-frame.size.width, 0);
+                frame.origin = CGPointMake(self.view.bounds.size.width-frame.size.width, 0);
             }
                 break;
         }
@@ -459,6 +459,7 @@ typedef void (^completionBlk)(BOOL);
     }
     self.gameOverController = [[UIStoryboard storyboardWithName:name bundle:nil] instantiateViewControllerWithIdentifier:@"KKGameOverViewController"];
     [self.view addSubview:self.gameOverController.view];
+    [self.gameOverController updateData:self.levelModel];
     self.gameOverController.delegate = self;
     self.gameOverController.view.alpha = 0;
     [UIView animateWithDuration:0.2f
@@ -486,12 +487,12 @@ typedef void (^completionBlk)(BOOL);
 
 - (void)facebookAction
 {
-    
+    [self facebookShare];
 }
 
 - (void)twitterAction
 {
-    
+    [self twitterShare];
 }
 
 - (void)gameCenterAction
@@ -622,19 +623,14 @@ typedef void (^completionBlk)(BOOL);
         SLComposeViewControllerCompletionHandler __block completionHandler=^(SLComposeViewControllerResult result){
             
             [fbController dismissViewControllerAnimated:YES completion:nil];
-            
             switch(result){
                 case SLComposeViewControllerResultCancelled:
-                default:
-                {
+                default:{
                     [Flurry logEvent:@"facebook-cancelled"];
-                    [self moveToLevelSelectScene];
                 }
                     break;
-                case SLComposeViewControllerResultDone:
-                {
+                case SLComposeViewControllerResultDone:{
                     [Flurry logEvent:@"facebook-posted"];
-                    [self moveToLevelSelectScene];
                 }
                     break;
             }};
@@ -651,7 +647,6 @@ typedef void (^completionBlk)(BOOL);
                 break;
         }
         NSString *msg = [NSString stringWithFormat:NSLocalizedString(@"FB_SHARE_MSG", nil),self.levelModel.name,mode];
-        //[fbController addImage:[UIImage imageNamed:@"share_icon.png"]];
         [fbController setInitialText:msg];
         [fbController addURL:[NSURL URLWithString:APP_URL]];
         [fbController setCompletionHandler:completionHandler];
@@ -671,26 +666,18 @@ typedef void (^completionBlk)(BOOL);
 -(void)twitterShare
 {
     SLComposeViewController *shareController=[SLComposeViewController composeViewControllerForServiceType:SLServiceTypeTwitter];
-    
     if([SLComposeViewController isAvailableForServiceType:SLServiceTypeTwitter])
     {
         SLComposeViewControllerCompletionHandler __block completionHandler=^(SLComposeViewControllerResult result){
-            
             [shareController dismissViewControllerAnimated:YES completion:nil];
-            
             switch(result){
                 case SLComposeViewControllerResultCancelled:
-                default:
-                {
+                default:{
                     [Flurry logEvent:@"Twitter-cancelled"];
-                    [self moveToLevelSelectScene];
-                    
                 }
                     break;
-                case SLComposeViewControllerResultDone:
-                {
+                case SLComposeViewControllerResultDone:{
                     [Flurry logEvent:@"Twitter-posted"];
-                    [self moveToLevelSelectScene];
                 }
                     break;
             }};
@@ -707,7 +694,6 @@ typedef void (^completionBlk)(BOOL);
                 break;
         }
         NSString *msg = [NSString stringWithFormat:NSLocalizedString(@"TWITTER_SHARE_MSG", nil),self.levelModel.name,mode];
-        //[shareController addImage:[UIImage imageNamed:@"share_icon.png"]];
         [shareController setInitialText:msg];
         [shareController addURL:[NSURL URLWithString:APP_URL]];
         [shareController setCompletionHandler:completionHandler];
@@ -955,12 +941,12 @@ typedef void (^completionBlk)(BOOL);
     [self.navigationController popViewControllerAnimated:YES];
 }
 
--(KKLevelModal*)currentLevelData
+-(KKLevelModel*)currentLevelData
 {
-    KKLevelModal *levelModel = nil;
+    KKLevelModel *levelModel = nil;
     KKGameConfigManager *config = [KKGameConfigManager sharedManager];
     NSDictionary *tLevel = [config levelWithID:self.currentLevel andStage:self.currentStage];
-    levelModel = [[KKLevelModal alloc] initWithDictionary:tLevel];
+    levelModel = [[KKLevelModel alloc] initWithDictionary:tLevel];
     levelModel.levelID = self.currentLevel;
     levelModel.stageID =  self.currentStage;
     return levelModel;
@@ -996,7 +982,7 @@ typedef void (^completionBlk)(BOOL);
     [Flurry logEvent:@"replay" withParameters:levelInfo];
 }
 
--(void)setLevelModel:(KKLevelModal *)levelModel
+-(void)setLevelModel:(KKLevelModel *)levelModel
 {
     _levelModel = levelModel;
 }

@@ -9,7 +9,7 @@
 #import "KKLevelSelectViewController.h"
 #import "KKGameSceneController.h"
 #import "SoundManager.h"
-#import "KKLevelModal.h"
+#import "KKLevelModel.h"
 #import "kkGameStateManager.h"
 #import "KKCollectionViewCell.h"
 
@@ -53,7 +53,7 @@
     [appdelegate.navigationController popViewControllerAnimated:YES];
 }
 
--(KKLevelModal*)currentLevelData:(NSInteger)levelID
+-(KKLevelModel*)currentLevelData:(NSInteger)levelID
 {
     return [self.levels objectAtIndex:levelID];
 }
@@ -66,7 +66,7 @@
     return self.levels.count;
 }
 
--(void)updateStarsView:(KKCollectionViewCell*)cell andModal:(KKLevelModal*)levelModal
+-(void)updateStarsView:(KKCollectionViewCell*)cell andModal:(KKLevelModel*)levelModal
 {
     if(levelModal.noOfStars > 0){
         cell.starDisplayView.hidden = NO;
@@ -99,7 +99,7 @@
     static NSString *identifier = @"collectionViewCell";
     KKCollectionViewCell *cell = [inCollectionView dequeueReusableCellWithReuseIdentifier:identifier forIndexPath:indexPath];
     cell.tag = [indexPath row];
-    KKLevelModal *levelModel = [self currentLevelData:cell.tag];
+    KKLevelModel *levelModel = [self currentLevelData:cell.tag];
     [cell.menuImage setImage:[UIImage imageNamed:levelModel.menuIconImage]];
     cell.menuImage.contentMode = UIViewContentModeScaleAspectFit;
     [self updateStarsView:cell andModal:levelModel];
@@ -124,7 +124,7 @@
     return YES;
 #endif
     UIView *btn = (UIView*)sender;
-    KKLevelModal *modal = [self currentLevelData:btn.tag];
+    KKLevelModel *modal = [self currentLevelData:btn.tag];
     if(modal){
         return modal.isLevelUnlocked;
     }
@@ -138,7 +138,7 @@
 {
     UIView *btn = (UIView*)sender;
     KKGameSceneController *nextVC = (KKGameSceneController *)[segue destinationViewController];
-    KKLevelModal *modal = [self currentLevelData:btn.tag];
+    KKLevelModel *modal = [self currentLevelData:btn.tag];
     if(modal){
         BOOL isLevelUnlocked = modal.isLevelUnlocked;
 #ifdef ENABLE_ALL_LEVELS

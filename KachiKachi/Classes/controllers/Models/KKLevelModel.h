@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface KKLevelModal : NSObject
+@interface KKLevelModel : NSObject
 
 @property(nonatomic,assign)NSInteger levelID;
 @property(nonatomic,assign)NSInteger stageID;

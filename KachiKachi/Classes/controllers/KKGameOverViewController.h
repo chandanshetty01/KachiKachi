@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "KKLevelModel.h"
 
 @interface KKGameOverViewController : UIViewController
 {
@@ -14,6 +15,8 @@
 }
 
 @property(nonatomic,weak) id delegate;
+
+@property (nonatomic,strong) KKLevelModel *levelModel;
 @property (weak, nonatomic) IBOutlet UILabel *scoreTitle;
 @property (weak, nonatomic) IBOutlet UILabel *rankingTitle;
 @property (weak, nonatomic) IBOutlet UILabel *bestScoreTitle;
@@ -27,6 +30,8 @@
 @property (weak, nonatomic) IBOutlet UIButton *nextLevelBtn;
 @property (weak, nonatomic) IBOutlet UIButton *ReplayBtn;
 @property (weak, nonatomic) IBOutlet UIButton *mainMenuBtn;
+
+-(void)updateData:(KKLevelModel*)levelModel;
 
 @end
 

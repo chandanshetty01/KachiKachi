@@ -32,6 +32,19 @@
     [self.mainMenuBtn setTitle:NSLocalizedString(@"MAIN_MENU", ) forState:UIControlStateNormal];
 }
 
+-(void)updateData:(KKLevelModel*)levelModel
+{
+    self.levelModel = levelModel;
+    self.score.text = [NSString stringWithFormat:@"%d",(int)levelModel.score];
+    if(self.levelModel.bestScore > 0){
+        self.bestScore.text = [NSString stringWithFormat:@"%d",(int)levelModel.bestScore];
+    }
+    else{
+        self.bestScore.text = @"-";
+    }
+    self.ranking.text = @"-";
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

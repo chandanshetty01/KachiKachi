@@ -280,7 +280,7 @@
                           delay:0.0f
                         options:UIViewAnimationOptionAutoreverse|UIViewAnimationOptionRepeat|UIViewAnimationOptionAllowUserInteraction|UIViewAnimationOptionCurveEaseInOut
                      animations:^{
-                         self.alpha = 0.5;
+                         self.alpha = 0.8;
                      }
                      completion:nil];
 }

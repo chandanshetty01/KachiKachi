@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "KKLevelModal.h"
+#import "KKLevelModel.h"
 
 @interface KKGameStateManager : NSObject
 {
@@ -22,7 +22,7 @@
 -(void)loadLevelData;
 -(void)resetLevelData;
 -(void)completeLevel;
--(KKLevelModal*)loadNextLevel;
+-(KKLevelModel*)loadNextLevel;
 
 -(NSMutableArray*)levels;
 
