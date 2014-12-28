@@ -21,6 +21,7 @@ typedef enum{
 
 @property(nonatomic,weak) id delegate;
 
+@property (weak, nonatomic) IBOutlet UIView *scoreHolder;
 @property (nonatomic,strong) KKLevelModel *levelModel;
 @property (weak, nonatomic) IBOutlet UILabel *scoreTitle;
 @property (weak, nonatomic) IBOutlet UILabel *rankingTitle;

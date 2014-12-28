@@ -184,11 +184,11 @@
                 <viewController storyboardIdentifier="KKGameOverViewController" id="S9i-9d-X6V" customClass="KKGameOverViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DdB-pc-UF5">
                         <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" id="dA1-qM-ZPj">
                                 <rect key="frame" x="84" y="30" width="400" height="260"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Menu_bg" id="CdG-CL-lqZ">
                                         <rect key="frame" x="0.0" y="0.0" width="400" height="260"/>
@@ -343,6 +343,8 @@
                     </view>
                     <nil key="simulatedStatusBarMetrics"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="568" height="320"/>
                     <connections>
                         <outlet property="ReplayBtn" destination="mVG-tx-arz" id="UhN-oB-Nmt"/>
                         <outlet property="bestScore" destination="Z9f-uW-3zb" id="EgA-PI-a76"/>
@@ -355,6 +357,7 @@
                         <outlet property="ranking" destination="V8O-oa-P9H" id="9YC-P5-NZS"/>
                         <outlet property="rankingTitle" destination="d7T-eK-2hU" id="Su2-Ev-32n"/>
                         <outlet property="score" destination="HmZ-yl-trX" id="c2I-TV-ei7"/>
+                        <outlet property="scoreHolder" destination="dA1-qM-ZPj" id="c6F-at-NRr"/>
                         <outlet property="scoreTitle" destination="btj-sS-ZDI" id="ge4-lY-17t"/>
                         <outlet property="stars" destination="p8A-RY-TTH" id="dEX-4C-P1f"/>
                         <outlet property="starsLabel" destination="hn5-iI-b6m" id="F66-mo-ere"/>
@@ -363,7 +366,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bU2-rm-Z96" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-669" y="723"/>
+            <point key="canvasLocation" x="-781" y="720"/>
         </scene>
         <!--Level Select View Controller-->
         <scene sceneID="ZHd-6j-tF8">
@@ -581,7 +584,7 @@
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </imageView>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SCORE: 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2zb-dZ-0cP">
-                                        <rect key="frame" x="135" y="0.0" width="160" height="30"/>
+                                        <rect key="frame" x="135" y="0.0" width="120" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
@@ -669,7 +672,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LxF-oB-cm7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="12" y="716"/>
+            <point key="canvasLocation" x="-44" y="713"/>
         </scene>
         <!--Custom Alert View Controller-->
         <scene sceneID="Qwt-BW-TQ4">

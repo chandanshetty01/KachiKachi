@@ -32,6 +32,8 @@
     [self.nextLevelBtn setTitle:NSLocalizedString(@"PLAY_NEXT_LEVEL", ) forState:UIControlStateNormal];
     [self.ReplayBtn setTitle:NSLocalizedString(@"REPLAY", ) forState:UIControlStateNormal];
     [self.mainMenuBtn setTitle:NSLocalizedString(@"MAIN_MENU", ) forState:UIControlStateNormal];
+    
+    self.scoreHolder.center = self.view.center;
 }
 
 -(void)updateData:(KKLevelModel*)levelModel
