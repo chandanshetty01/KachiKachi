@@ -72,6 +72,7 @@ static int testCounter = 0;
 @property (weak, nonatomic) IBOutlet UILabel *scoreLabel;
 @property(nonatomic,assign)BOOL topObjectSelected;
 @property(nonatomic,strong)TimerObject *timer;
+
 @end
 
 typedef void (^completionBlk)(BOOL);

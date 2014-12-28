@@ -36,6 +36,8 @@ typedef enum{
 @property (weak, nonatomic) IBOutlet UIButton *ReplayBtn;
 @property (weak, nonatomic) IBOutlet UIButton *mainMenuBtn;
 @property (nonatomic,assign) EGAMECOMPLETIONSTATUS status;
+@property (weak, nonatomic) IBOutlet UILabel *starsLabel;
+@property (weak, nonatomic) IBOutlet UILabel *stars;
 
 -(void)updateData:(KKLevelModel*)levelModel;
 

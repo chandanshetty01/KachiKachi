@@ -18,16 +18,14 @@
 "STAGE_COMPLETE" = "Congrats,Stage %@ Completed!";
 "LEVEL_FAILED" = "You ran out of time, Try again!";
 
-"GAME_OVER_MSG" = "You ran out of LIFE!";
-"GAME_OVER_MSG_TIME" = "You have ran out of TIME!";
-
 "LIFE" = "LIFE: %d";
 "SCORE" = "SCORE: %d";
 "TIME" = "TIME: %d";
 
-"SCORE_TITLE" = "Score:";
-"BEST_SCORE" = "Best Score:";
-"RANKING" = "Ranking:";
+"SCORE_TITLE" = "Score: ";
+"BEST_SCORE" = "Best Score: ";
+"RANKING" = "Ranking: ";
+"STARS" = "Stars: ";
 
 "FB_SHARE_MSG" = "Check out KachiKachi, I have just completed level %@ in %@ mode";
 "FB_NOT_CONFIGURED_TITLE" = "Facebook is not configured";
@@ -49,8 +47,7 @@
 "TELL_A_FRIEND_TITLE" = "Try KACHI KACHI its Awesome!";
 
 "HOW_TO_PLAY" = "How to play!";
-"TUTORIAL_1" = "Pick the Pencil which is on TOP of all other Pencils otherwise you will lose a LIFE!, currently you have 4 LIFE REMAINING";
-"TUTORIAL_2" = "Keep an eye on TIME REMAINING, pick all the objects before TIME ran out";
+"TUTORIAL_1" = "1.Pick the Pencil which is on TOP of all other Pencils \n 2.Pick all the objects before TIME ran out";
 
 "CANCEL" = "Cancel";
 "BUY" = "Buy";
@@ -64,7 +61,6 @@
 "MEDIUM" = "MEDIUM";
 "ADVANCE" = "ADVANCE";
 
-"STARS" = "STARS";
 "POINTSEARNED" = "POINTS: %d";
 
 "REPLAY" = "Retry";

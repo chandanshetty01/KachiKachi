@@ -21,9 +21,11 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    self.scoreTitle.text = NSLocalizedString(@"SCORE_TITLE", );
-    self.rankingTitle.text = NSLocalizedString(@"RANKING", );
-    self.bestScoreTitle.text = NSLocalizedString(@"BEST_SCORE", );
+    self.scoreTitle.text = NSLocalizedString(@"SCORE_TITLE",nil);
+    self.rankingTitle.text = NSLocalizedString(@"RANKING", nil);
+    self.bestScoreTitle.text = NSLocalizedString(@"BEST_SCORE", nil);
+    self.starsLabel.text = NSLocalizedString(@"STARS", nil);
+
     [self.facebookBtn setTitle:NSLocalizedString(@"FACEBOOK_SHARE", ) forState:UIControlStateNormal];
     [self.twitterBtn setTitle:NSLocalizedString(@"TWEET", ) forState:UIControlStateNormal];
     [self.gameCenterBtn setTitle:NSLocalizedString(@"GAME_CENTER", ) forState:UIControlStateNormal];
@@ -36,6 +38,7 @@
 {
     self.levelModel = levelModel;
     self.score.text = [NSString stringWithFormat:@"%d",(int)levelModel.score];
+    self.stars.text = [NSString stringWithFormat:@"%d",(int)levelModel.noOfStars];
     if(self.levelModel.bestScore > 0){
         self.bestScore.text = [NSString stringWithFormat:@"%d",(int)levelModel.bestScore];
     }
@@ -46,6 +49,8 @@
     
     if(self.status == eLevelCompleted){
         self.nextLevelBtn.hidden = NO;
+        self.starsLabel.hidden = NO;
+        self.stars.hidden = NO;
 
         self.gameCompletedTitle.text = [NSString stringWithFormat:NSLocalizedString(@"LEVEL_COMPLETE", ),self.levelModel.levelID];
         if(self.levelModel.levelID == [[KKGameStateManager sharedManager] numberOfLevels]){
@@ -64,6 +69,9 @@
     }
     else{
         self.nextLevelBtn.hidden = YES;
+        self.starsLabel.hidden = YES;
+        self.stars.hidden = YES;
+        
         self.gameCompletedTitle.text = NSLocalizedString(@"LEVEL_FAILED",nil);
     }
 }
