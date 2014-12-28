@@ -8,6 +8,7 @@
 
 #import "KKGameOverViewController.h"
 #import "SoundManager.h"
+#import "KKGameStateManager.h"
 
 @interface KKGameOverViewController ()
 
@@ -23,7 +24,6 @@
     self.scoreTitle.text = NSLocalizedString(@"SCORE_TITLE", );
     self.rankingTitle.text = NSLocalizedString(@"RANKING", );
     self.bestScoreTitle.text = NSLocalizedString(@"BEST_SCORE", );
-    self.gameCompletedTitle.text = NSLocalizedString(@"LEVEL_COMPLETE", );
     [self.facebookBtn setTitle:NSLocalizedString(@"FACEBOOK_SHARE", ) forState:UIControlStateNormal];
     [self.twitterBtn setTitle:NSLocalizedString(@"TWEET", ) forState:UIControlStateNormal];
     [self.gameCenterBtn setTitle:NSLocalizedString(@"GAME_CENTER", ) forState:UIControlStateNormal];
@@ -43,6 +43,29 @@
         self.bestScore.text = @"-";
     }
     self.ranking.text = @"-";
+    
+    if(self.status == eLevelCompleted){
+        self.nextLevelBtn.hidden = NO;
+
+        self.gameCompletedTitle.text = [NSString stringWithFormat:NSLocalizedString(@"LEVEL_COMPLETE", ),self.levelModel.levelID];
+        if(self.levelModel.levelID == [[KKGameStateManager sharedManager] numberOfLevels]){
+            NSString *stageName = nil;
+            if(self.levelModel.stageID == 1){
+                stageName = NSLocalizedString(@"EASY",nil);
+            }
+            else if(self.levelModel.stageID == 2){
+                stageName = NSLocalizedString(@"MEDIUM",nil);
+            }
+            else{
+                stageName = NSLocalizedString(@"ADVANCE",nil);
+            }
+            self.gameCompletedTitle.text = [NSString stringWithFormat:NSLocalizedString(@"STAGE_COMPLETE", ),stageName];
+        }
+    }
+    else{
+        self.nextLevelBtn.hidden = YES;
+        self.gameCompletedTitle.text = NSLocalizedString(@"LEVEL_FAILED",nil);
+    }
 }
 
 - (void)didReceiveMemoryWarning {

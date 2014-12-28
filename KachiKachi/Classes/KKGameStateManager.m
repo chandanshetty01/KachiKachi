@@ -54,12 +54,31 @@
     }
 }
 
+-(void)resetDuration
+{
+    if(self.currentStage == 1){
+        self.levelModel.duration = EASY_MODE_DURATION;
+    }
+    else if(self.currentStage == 2){
+        self.levelModel.duration = MEDIUM_MODE_DURATION;
+    }
+    else{
+        self.levelModel.duration = ADVANCED_MODE_DURATION;
+    }
+}
+
+-(void)resetScores
+{
+    self.levelModel.score = 0;
+    [self resetDuration];
+}
+
 -(void)resetLevelData
 {
     NSDictionary *data = [[KKGameConfigManager sharedManager] levelWithID:self.currentLevel andStage:self.currentStage];
     if(data){
         [self.levelModel updateWithDictionary:data];
-        self.levelModel.score = 0;
+        [self resetScores];
     }
 }
 
@@ -69,9 +88,11 @@
     if(data){
         [self.levelModel updateWithDictionary:data];
     }
-    self.levelModel.bestScore = self.levelModel.score;
+    if(self.levelModel.score > self.levelModel.bestScore){
+        self.levelModel.bestScore = self.levelModel.score;
+    }
     self.levelModel.isLevelCompleted = YES;
-    self.levelModel.score = 0;
+    [self resetScores];
 }
 
 -(void)loadLevelData
@@ -104,6 +125,11 @@
     self.stageModel.isLocked = NO;
     [self saveData];
     [[GeneralSettings sharedManager] unlockStage:self.currentStage];
+}
+
+-(NSInteger)numberOfLevels
+{
+    return [self.stageModel.levels count];
 }
 
 -(KKLevelModel*)loadNextLevel

@@ -20,6 +20,7 @@
 -(id)initWithDuration:(NSTimeInterval)duration fireInterval:(NSTimeInterval)fireInterval;
 -(void)startTimer;
 -(void)pauseTimer;
+-(void)reduceTimer:(NSInteger)duration;
 
 @end
 

@@ -172,7 +172,6 @@ NSString *const SoundDidFinishPlayingNotification = @"SoundDidFinishPlayingNotif
     [_sound setVolume:0.0f];
     [self play];
     [self performSelector:@selector(stop) withObject:nil afterDelay:0.0];
-    
 #endif
     
 }

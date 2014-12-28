@@ -29,7 +29,6 @@
 @property (weak, nonatomic) IBOutlet UIButton *backButton;
 @property (weak, nonatomic) IBOutlet UIView *bottomStrip;
 @property (weak, nonatomic) IBOutlet UIButton *addButton;
-@property (nonatomic,assign) NSInteger duration;
 @property (nonatomic,strong) iAdViewController *adViewController;
 @property(nonatomic,strong)KKGameOverViewController *gameOverController;
 

@@ -22,7 +22,9 @@
 -(void)loadLevelData;
 -(void)resetLevelData;
 -(void)completeLevel;
+-(void)resetDuration;
 -(KKLevelModel*)loadNextLevel;
+-(NSInteger)numberOfLevels;
 
 -(NSMutableArray*)levels;
 

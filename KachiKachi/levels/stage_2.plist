@@ -17,6 +17,14 @@
 			<false/>
 			<key>isLevelUnlocked</key>
 			<true/>
+			<key>background</key>
+			<string>iPh_apple_bg.png</string>
+			<key>life</key>
+			<real>4</real>
+			<key>sound</key>
+			<string>pencil.wav</string>
+			<key>duration</key>
+			<integer>120</integer>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -29,6 +37,14 @@
 			<false/>
 			<key>isLevelUnlocked</key>
 			<false/>
+			<key>background</key>
+			<string>iPh_apple_bg.png</string>
+			<key>life</key>
+			<real>4</real>
+			<key>sound</key>
+			<string>balloon.wav</string>
+			<key>duration</key>
+			<integer>120</integer>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -41,6 +57,14 @@
 			<false/>
 			<key>isLevelUnlocked</key>
 			<false/>
+			<key>background</key>
+			<string>iPh_apple_bg.png</string>
+			<key>life</key>
+			<real>4</real>
+			<key>sound</key>
+			<string>dvd.wav</string>
+			<key>duration</key>
+			<integer>120</integer>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -53,6 +77,12 @@
 			<false/>
 			<key>isLevelUnlocked</key>
 			<false/>
+			<key>background</key>
+			<string>iPh_Bottlebg.png</string>
+			<key>sound</key>
+			<string>bottle.wav</string>
+			<key>duration</key>
+			<integer>120</integer>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -65,6 +95,12 @@
 			<false/>
 			<key>isLevelUnlocked</key>
 			<false/>
+			<key>background</key>
+			<string>iPh_apple_bg.png</string>
+			<key>sound</key>
+			<string>dvd.wav</string>
+			<key>duration</key>
+			<integer>120</integer>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -77,6 +113,12 @@
 			<false/>
 			<key>isLevelUnlocked</key>
 			<false/>
+			<key>background</key>
+			<string>iP_discbg.png</string>
+			<key>sound</key>
+			<string>disc.wav</string>
+			<key>duration</key>
+			<integer>120</integer>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -89,6 +131,12 @@
 			<false/>
 			<key>isLevelUnlocked</key>
 			<false/>
+			<key>background</key>
+			<string>iPh_fishbg.png</string>
+			<key>sound</key>
+			<string>fish.wav</string>
+			<key>duration</key>
+			<integer>120</integer>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -101,6 +149,12 @@
 			<false/>
 			<key>isLevelUnlocked</key>
 			<false/>
+			<key>background</key>
+			<string>iPh_candyBG.png</string>
+			<key>sound</key>
+			<string>dvd.wav</string>
+			<key>duration</key>
+			<integer>120</integer>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -113,6 +167,12 @@
 			<false/>
 			<key>isLevelUnlocked</key>
 			<false/>
+			<key>background</key>
+			<string>iPh_icecreambg.jpg</string>
+			<key>sound</key>
+			<string>dvd.wav</string>
+			<key>duration</key>
+			<integer>120</integer>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -125,6 +185,12 @@
 			<false/>
 			<key>isLevelUnlocked</key>
 			<false/>
+			<key>background</key>
+			<string>iPh_ball_bg.png</string>
+			<key>sound</key>
+			<string>kite.wav</string>
+			<key>duration</key>
+			<integer>120</integer>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -137,6 +203,12 @@
 			<false/>
 			<key>isLevelUnlocked</key>
 			<false/>
+			<key>background</key>
+			<string>iPh_penceilback.png</string>
+			<key>sound</key>
+			<string>pencil.wav</string>
+			<key>duration</key>
+			<integer>120</integer>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -149,6 +221,12 @@
 			<false/>
 			<key>isLevelUnlocked</key>
 			<false/>
+			<key>sound</key>
+			<string>pencil.wav</string>
+			<key>background</key>
+			<string>iPhcarrot_bg.png</string>
+			<key>duration</key>
+			<integer>120</integer>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -161,6 +239,12 @@
 			<false/>
 			<key>isLevelUnlocked</key>
 			<false/>
+			<key>background</key>
+			<string>iPh_ball_bg.png</string>
+			<key>sound</key>
+			<string>bottle.wav</string>
+			<key>duration</key>
+			<integer>120</integer>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -173,6 +257,12 @@
 			<false/>
 			<key>isLevelUnlocked</key>
 			<false/>
+			<key>background</key>
+			<string>iPh_ball_bg.png</string>
+			<key>sound</key>
+			<string>bird.wav</string>
+			<key>duration</key>
+			<integer>120</integer>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -185,6 +275,12 @@
 			<false/>
 			<key>isLevelUnlocked</key>
 			<false/>
+			<key>sound</key>
+			<string>candle.wav</string>
+			<key>background</key>
+			<string>iPh_candle_bg.png</string>
+			<key>duration</key>
+			<integer>120</integer>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -197,6 +293,12 @@
 			<false/>
 			<key>isLevelUnlocked</key>
 			<false/>
+			<key>background</key>
+			<string>iPh_ball_bg.png</string>
+			<key>sound</key>
+			<string>dvd.wav</string>
+			<key>duration</key>
+			<integer>120</integer>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -209,6 +311,12 @@
 			<false/>
 			<key>isLevelUnlocked</key>
 			<false/>
+			<key>sound</key>
+			<string>star.wav</string>
+			<key>background</key>
+			<string>iPh_star_bg.jpg</string>
+			<key>duration</key>
+			<integer>120</integer>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -221,6 +329,12 @@
 			<false/>
 			<key>isLevelUnlocked</key>
 			<false/>
+			<key>sound</key>
+			<string>dvd.wav</string>
+			<key>background</key>
+			<string>iPh_umb_bg.png</string>
+			<key>duration</key>
+			<integer>120</integer>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -233,6 +347,12 @@
 			<false/>
 			<key>isLevelUnlocked</key>
 			<false/>
+			<key>sound</key>
+			<string>dvd.wav</string>
+			<key>background</key>
+			<string>iPh_brush_bg.png</string>
+			<key>duration</key>
+			<integer>120</integer>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -245,6 +365,12 @@
 			<false/>
 			<key>isLevelUnlocked</key>
 			<false/>
+			<key>sound</key>
+			<string>candle.wav</string>
+			<key>background</key>
+			<string>iPh_apple_bg.png</string>
+			<key>duration</key>
+			<integer>120</integer>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -257,6 +383,12 @@
 			<false/>
 			<key>isLevelUnlocked</key>
 			<false/>
+			<key>sound</key>
+			<string>key.wav</string>
+			<key>background</key>
+			<string>iPh_key_bg.png</string>
+			<key>duration</key>
+			<integer>120</integer>
 		</dict>
 	</array>
 </dict>

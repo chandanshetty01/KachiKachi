@@ -9,6 +9,11 @@
 #import <UIKit/UIKit.h>
 #import "KKLevelModel.h"
 
+typedef enum{
+    eLevelCompleted,
+    eLevelFailedTimerRunOut
+}EGAMECOMPLETIONSTATUS;
+
 @interface KKGameOverViewController : UIViewController
 {
     
@@ -30,6 +35,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *nextLevelBtn;
 @property (weak, nonatomic) IBOutlet UIButton *ReplayBtn;
 @property (weak, nonatomic) IBOutlet UIButton *mainMenuBtn;
+@property (nonatomic,assign) EGAMECOMPLETIONSTATUS status;
 
 -(void)updateData:(KKLevelModel*)levelModel;
 

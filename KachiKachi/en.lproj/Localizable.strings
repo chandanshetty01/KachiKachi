@@ -14,12 +14,16 @@
 "FACEBOOK_SHARE" = "Facebook";
 "TWEET" = "Tweet";
 
-"LEVEL_COMPLETE" = "Level Completed";
+"LEVEL_COMPLETE" = "Congrats, Level %d Completed!";
+"STAGE_COMPLETE" = "Congrats,Stage %@ Completed!";
+"LEVEL_FAILED" = "You ran out of time, Try again!";
+
 "GAME_OVER_MSG" = "You ran out of LIFE!";
 "GAME_OVER_MSG_TIME" = "You have ran out of TIME!";
 
 "LIFE" = "LIFE: %d";
 "SCORE" = "SCORE: %d";
+"TIME" = "TIME: %d";
 
 "SCORE_TITLE" = "Score:";
 "BEST_SCORE" = "Best Score:";

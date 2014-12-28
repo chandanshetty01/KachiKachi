@@ -24,6 +24,7 @@
 #import "InstantMessageManager.h"
 #import "GeneralSettings.h"
 #import "KKGameOverViewController.h"
+#import "TimerObject.h"
 
 #define RANDOM_INT(__MIN__, __MAX__) ((__MIN__) + random() % ((__MAX__+1) - (__MIN__)))
 #define RADIANS(degrees) ((degrees * M_PI) / 180.0)
@@ -68,7 +69,9 @@ static int testCounter = 0;
 @property(nonatomic,assign) NSInteger wrongPickCount;
 @property(nonatomic,assign)NSTimeInterval oldTimeInterval;
 @property(nonatomic,assign)NSInteger winningStreak;
+@property (weak, nonatomic) IBOutlet UILabel *scoreLabel;
 @property(nonatomic,assign)BOOL topObjectSelected;
+@property(nonatomic,strong)TimerObject *timer;
 @end
 
 typedef void (^completionBlk)(BOOL);
@@ -152,8 +155,6 @@ typedef void (^completionBlk)(BOOL);
     self.deletedElements = [[NSMutableArray alloc] init];
     
     _isGameFinished = FALSE;
-    self.duration = self.levelModel.duration;
-    
     [self updateUI];
     [self addElements];
 
@@ -165,8 +166,29 @@ typedef void (^completionBlk)(BOOL);
     self.oldTimeInterval = 0;
     testCounter = 0;
     
+    [self.timer pauseTimer];
+    self.timer = [[TimerObject alloc] initWithDuration:self.levelModel.duration fireInterval:1.0];
+    self.timer.delegate = self;
+    [self.timer startTimer];
+    
     [self updateMagicStic];
     [self updateMagicStickBtnPosition];
+}
+
+#pragma mark - Timer delegates -
+
+-(void)timerDidCompleted:(TimerObject*)timer
+{
+    [self saveGame];
+    [[SoundManager sharedManager] playSound:@"wrong" looping:NO];
+    [self showGameCompletionScreen:NO];
+    [self updateUI];
+}
+
+-(void)timerDidTick:(NSTimeInterval)remainingInteval andTimer:(TimerObject*)timer
+{
+    self.levelModel.duration = remainingInteval;
+    [self updateUI];
 }
 
 -(NSTimeInterval)timeTakenInSeconds
@@ -177,51 +199,64 @@ typedef void (^completionBlk)(BOOL);
 
 -(void)updateScore
 {
-    const NSInteger kBaseScore = 5;
+    const NSInteger kBaseScore = 100;
     const NSInteger kMinDuration = 1.5;
+    const NSInteger kScoreIncrement = 10;
+    const NSInteger kScoreDecrementValue = kBaseScore + 50;
     
     NSInteger tScore = kBaseScore;
     CGFloat timeTaken = [self timeTakenInSeconds];
     
     if(self.topObjectSelected){
         if(timeTaken <= kMinDuration && timeTaken > 0){
-            self.winningStreak += 1;
-            self.winningStreak = MIN(self.winningStreak, 7);
+            self.winningStreak += kScoreIncrement;
         }
         tScore += self.winningStreak;
     }
     else{
-        tScore = -2;
+        tScore -= kScoreDecrementValue;
         self.winningStreak = 0;
     }
     
     self.levelModel.score = self.levelModel.score + tScore;
+    if(self.levelModel.score > self.levelModel.bestScore){
+        self.levelModel.bestScore = self.levelModel.score;
+    }
     
     if(_currentElement){
-        [self showScore:tScore];
+        [self showScore:tScore forView:_currentElement];
     }
     [self updateUI];
 }
 
--(void)showScore:(NSInteger)score
+-(void)showScore:(NSInteger)score forView:(UIView*)inView
 {
-    if(_currentElement){
-        NSString *msg =[NSString stringWithFormat:@"+%ld",(long)score];
-        if(score< 0){
-            msg =[NSString stringWithFormat:@"%ld",(long)score];
-        }
-        
-        UIFont *font = [UIFont boldSystemFontOfSize:20];
-        if(IS_IPAD){
-            font = [UIFont boldSystemFontOfSize:30];
-        }
-        [[InstantMessageManager sharedManager] showMessage:msg
-                                                    inView:self.view
-                                                  duration:2
-                                                      rect:CGRectMake(_currentElement.center.x, _currentElement.center.y, 120, 40)
-                                                     color:(score>0)?[UIColor blueColor]:[UIColor redColor]
-                                                      font:font];
+    NSString *msg =[NSString stringWithFormat:@"+%ld",(long)score];
+    if(score< 0){
+        msg =[NSString stringWithFormat:@"%ld",(long)score];
     }
+    UIFont *font = [UIFont boldSystemFontOfSize:20];
+    if(IS_IPAD){
+        font = [UIFont boldSystemFontOfSize:30];
+    }
+    
+    CGPoint point = inView.center;
+    point = [self.view convertPoint:inView.center fromView:inView.superview];
+    if(inView == self.timerLabel){
+        point.x -= 100;
+        if(IS_IPAD){
+            point.y -= 50;
+        }
+        else{
+            point.y -= 20;
+        }
+    }
+    [[InstantMessageManager sharedManager] showMessage:msg
+                                                inView:self.view
+                                              duration:2
+                                                  rect:CGRectMake(point.x, point.y, 200, 40)
+                                                 color:(score>0)?[UIColor blueColor]:[UIColor redColor]
+                                                  font:font];
 }
 
 -(void)setMagicStickCounter:(NSInteger)magicStickCounter
@@ -310,6 +345,8 @@ typedef void (^completionBlk)(BOOL);
     if(self.isMagicStickMode)
         return;
     
+    [self pauseGame];
+    
     NSInteger usageCount = [[GeneralSettings sharedManager] getmagicStickUsageCount];
     NSString *name = @"Main_iPad";
     if(!IS_IPAD){
@@ -331,6 +368,7 @@ typedef void (^completionBlk)(BOOL);
                                    [[GeneralSettings sharedManager] setMagicStickUsageCount:usageCount-1];
                                    self.magicStickCounter = kMagicStickUsageCount;
                                }
+                               [self resumeGame];
                            }];
     }
     else{
@@ -339,7 +377,9 @@ typedef void (^completionBlk)(BOOL);
                               message:NSLocalizedString(@"MAGIC_STICK_NO_POINTS_DESC", nil)
                           buttonTitle:NSLocalizedString(@"OK", nil)
                          inController:self
-                           completion:nil];
+                           completion:^(NSInteger index) {
+                               [self resumeGame];
+                           }];
     }
 }
 
@@ -366,7 +406,8 @@ typedef void (^completionBlk)(BOOL);
 
 -(void)updateUI
 {
-    self.timerLabel.text = [NSString stringWithFormat:NSLocalizedString(@"SCORE","score"),self.levelModel.score];
+    self.timerLabel.text = [NSString stringWithFormat:NSLocalizedString(@"TIME","time"),self.levelModel.duration];
+    self.scoreLabel.text = [NSString stringWithFormat:NSLocalizedString(@"SCORE","score"),self.levelModel.score];
 }
 
 -(void)addElements
@@ -451,16 +492,23 @@ typedef void (^completionBlk)(BOOL);
     }
 }
 
--(void)showGameCompletionScreen
+-(void)showGameCompletionScreen:(BOOL)isLevelCompleted
 {
     NSString *name = @"Main_iPad";
     if(!IS_IPAD){
         name = @"Main_iPhone";
     }
     
+    [self.timer pauseTimer];
     if(!self.gameOverController){
         self.gameOverController = [[UIStoryboard storyboardWithName:name bundle:nil] instantiateViewControllerWithIdentifier:@"KKGameOverViewController"];
         [self.view addSubview:self.gameOverController.view];
+        if(isLevelCompleted){
+            self.gameOverController.status = eLevelCompleted;
+        }
+        else{
+            self.gameOverController.status = eLevelFailedTimerRunOut;
+        }
         [self.gameOverController updateData:self.levelModel];
         self.gameOverController.delegate = self;
         self.gameOverController.view.alpha = 0;
@@ -739,12 +787,10 @@ typedef void (^completionBlk)(BOOL);
 {
     NSInteger wrongObjCount = 3;
     if(self.currentStage == 1){
-        if(self.currentLevel == 1){
-            wrongObjCount = 1;
-        }
-        else if(self.currentLevel == 2){
-            wrongObjCount = 2;
-        }
+        wrongObjCount = 1;
+    }
+    else if(self.currentStage == 2){
+        wrongObjCount = 2;
     }
     
     self.wrongPickCount++;
@@ -754,22 +800,49 @@ typedef void (^completionBlk)(BOOL);
     }
 }
 
+-(void)handleWrongObject
+{
+    [[SoundManager sharedManager] playSound:@"wrong" looping:NO];
+    
+    /*
+    NSInteger wrongObjCount = 3;
+    if(self.currentStage == 1){
+        wrongObjCount = 1;
+    }
+    else{
+        wrongObjCount = 2;
+    }
+    [self.timer reduceTimer:wrongObjCount];
+    
+    [self showScore:-(wrongObjCount+1) forView:self.timerLabel];
+     */
+    
+    [self updateUI];
+}
+
 -(void)validateGamePlay:(completionBlk)block
 {
     if([self isGameOver] && !_isGameFinished)
     {
-        [[SoundManager sharedManager] playSound:@"wrong" looping:NO];
-        [self updateUI];
+        [self handleWrongObject];
         block(YES);
     }
     else if([self isGameWon])
     {
-        //NSInteger starWon = [self getStarWon];
+        [[SoundManager sharedManager] playSound:@"won" looping:NO];
+
+        NSInteger score = self.levelModel.duration*100;
+        [self showScore:score forView:self.timerLabel];
+        self.levelModel.score += score;
+
         NSInteger stars = [self updateStars];
         self.levelModel.noOfStars = stars;
+        
+        self.levelModel.duration = 0;
         [self saveGame];
-        [[SoundManager sharedManager] playSound:@"won" looping:NO];
-        [self showGameCompletionScreen];
+        self.levelModel.isLevelCompleted = YES;
+        [self showGameCompletionScreen:YES];
+        
         block(YES);
     }
     else if(_currentElement != nil)
@@ -806,6 +879,26 @@ typedef void (^completionBlk)(BOOL);
 -(NSInteger)getStarWon
 {
     NSInteger newStar = 1;
+    CGFloat kDuration = ADVANCED_MODE_DURATION;
+    
+    if(self.levelModel.stageID == 1){
+        kDuration = EASY_MODE_DURATION;
+    }
+    else if(self.levelModel.stageID == 2){
+        kDuration = MEDIUM_MODE_DURATION;
+    }
+    
+    CGFloat percentage = (self.levelModel.duration/kDuration)*100;
+    if(percentage >= 50){
+        newStar = 3;
+    }
+    else if(percentage >= 25){
+        newStar = 2;
+    }
+    else{
+        newStar = 1;
+    }
+    
     return newStar;
 }
 
@@ -1097,16 +1190,17 @@ typedef void (^completionBlk)(BOOL);
 
 -(void)pauseGame
 {
-    
+    [self.timer pauseTimer];
 }
 
 -(void)resumeGame
 {
-    
+    [self.timer startTimer];
 }
 
 - (IBAction)handleMailBtn:(id)sender
 {
+    
 }
 
 #pragma - mark iAd delegates -

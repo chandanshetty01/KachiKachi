@@ -41,6 +41,10 @@
 #define IS_IPAD UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad
 #define IS_IPHONE_5 ([[UIScreen mainScreen] bounds].size.height == 568.0)
 
+#define EASY_MODE_DURATION 90
+#define MEDIUM_MODE_DURATION 120
+#define ADVANCED_MODE_DURATION 180
+
 //#define ENABLE_ALL_LEVELS
 //#define DEVELOPMENT_MODE
 

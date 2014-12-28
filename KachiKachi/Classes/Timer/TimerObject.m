@@ -52,6 +52,11 @@
     }
 }
 
+-(void)reduceTimer:(NSInteger)duration
+{
+    self.remainingTime -= duration;
+}
+
 -(void)pauseTimer
 {
     if(self.timer) {
