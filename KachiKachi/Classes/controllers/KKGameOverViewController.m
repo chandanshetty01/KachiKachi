@@ -9,6 +9,7 @@
 #import "KKGameOverViewController.h"
 #import "SoundManager.h"
 #import "KKGameStateManager.h"
+#import "GameCenterManager.h"
 
 @interface KKGameOverViewController ()
 
@@ -32,6 +33,13 @@
     [self.nextLevelBtn setTitle:NSLocalizedString(@"PLAY_NEXT_LEVEL", ) forState:UIControlStateNormal];
     [self.ReplayBtn setTitle:NSLocalizedString(@"REPLAY", ) forState:UIControlStateNormal];
     [self.mainMenuBtn setTitle:NSLocalizedString(@"MAIN_MENU", ) forState:UIControlStateNormal];
+    
+    if([GameCenterManager sharedManager].gameCenterEnabled){
+        self.gameCenterBtn.hidden = NO;
+    }
+    else{
+        self.gameCenterBtn.hidden = YES;
+    }
     
     self.scoreHolder.center = self.view.center;
 }
@@ -104,7 +112,7 @@
 - (IBAction)gameCenterAction:(id)sender
 {
     [[SoundManager sharedManager] playSound:@"tap" looping:NO];
-
+    
     if(self.delegate && [self.delegate respondsToSelector:@selector(gameCenterAction)]){
         [self.delegate gameCenterAction];
     }

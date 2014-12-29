@@ -146,6 +146,8 @@
 		A3466D601A487DC70072FC98 /* stage_3_level_7_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466D1E1A487DC70072FC98 /* stage_3_level_7_iPad.plist */; };
 		A3466D611A487DC70072FC98 /* stage_3_level_8_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466D1F1A487DC70072FC98 /* stage_3_level_8_iPad.plist */; };
 		A3466D621A487DC70072FC98 /* stage_3_level_9_iPad.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3466D201A487DC70072FC98 /* stage_3_level_9_iPad.plist */; };
+		A3466D641A518F460072FC98 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3466D631A518F460072FC98 /* GameKit.framework */; };
+		A3466D671A51948B0072FC98 /* GameCenterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A3466D661A51948B0072FC98 /* GameCenterManager.m */; };
 		A34EBB7A1A41D7C300EB4BD4 /* stage_1.plist in Resources */ = {isa = PBXBuildFile; fileRef = A34EBB381A41D7C300EB4BD4 /* stage_1.plist */; };
 		A34EBB7B1A41D7C300EB4BD4 /* stage_1_level_1.plist in Resources */ = {isa = PBXBuildFile; fileRef = A34EBB391A41D7C300EB4BD4 /* stage_1_level_1.plist */; };
 		A34EBB7C1A41D7C300EB4BD4 /* stage_1_level_10.plist in Resources */ = {isa = PBXBuildFile; fileRef = A34EBB3A1A41D7C300EB4BD4 /* stage_1_level_10.plist */; };
@@ -650,8 +652,8 @@
 		A30516B619C3F047009ABD85 /* iPh_brush_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPh_brush_bg.png; sourceTree = "<group>"; };
 		A30516C719C7497A009ABD85 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
 		A305F2A81945EAB800B62C6C /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
-		A305F2B51945F0DB00B62C6C /* KKGameStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKGameStateManager.h; sourceTree = "<group>"; };
-		A305F2B61945F0DB00B62C6C /* KKGameStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKGameStateManager.m; sourceTree = "<group>"; };
+		A305F2B51945F0DB00B62C6C /* KKGameStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KKGameStateManager.h; path = ../KKGameStateManager.h; sourceTree = "<group>"; };
+		A305F2B61945F0DB00B62C6C /* KKGameStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KKGameStateManager.m; path = ../KKGameStateManager.m; sourceTree = "<group>"; };
 		A30902A619D5E6F800DF2C7A /* libFlurry_5.4.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFlurry_5.4.0.a; path = "../../../../../../../Users/chandanshettysp/Downloads/Flurry iPad SDK viPad 5.4.0/Flurry-iOS-5.4.0/Flurry/libFlurry_5.4.0.a"; sourceTree = "<group>"; };
 		A311D5011A35DFD500EEDB3F /* StageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StageModel.h; sourceTree = "<group>"; };
 		A311D5021A35DFD500EEDB3F /* StageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StageModel.m; sourceTree = "<group>"; };
@@ -781,6 +783,9 @@
 		A3466D1E1A487DC70072FC98 /* stage_3_level_7_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_3_level_7_iPad.plist; sourceTree = "<group>"; };
 		A3466D1F1A487DC70072FC98 /* stage_3_level_8_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_3_level_8_iPad.plist; sourceTree = "<group>"; };
 		A3466D201A487DC70072FC98 /* stage_3_level_9_iPad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_3_level_9_iPad.plist; sourceTree = "<group>"; };
+		A3466D631A518F460072FC98 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		A3466D651A51948A0072FC98 /* GameCenterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameCenterManager.h; sourceTree = "<group>"; };
+		A3466D661A51948B0072FC98 /* GameCenterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameCenterManager.m; sourceTree = "<group>"; };
 		A34EBB381A41D7C300EB4BD4 /* stage_1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_1.plist; sourceTree = "<group>"; };
 		A34EBB391A41D7C300EB4BD4 /* stage_1_level_1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_1_level_1.plist; sourceTree = "<group>"; };
 		A34EBB3A1A41D7C300EB4BD4 /* stage_1_level_10.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage_1_level_10.plist; sourceTree = "<group>"; };
@@ -1196,8 +1201,8 @@
 		A3A67EB51902BE7E00BFAF7B /* KKGameSceneController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KKGameSceneController.h; path = ../../KKGameSceneController.h; sourceTree = "<group>"; };
 		A3A67EB61902BE7E00BFAF7B /* KKGameSceneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KKGameSceneController.m; path = ../../KKGameSceneController.m; sourceTree = "<group>"; };
 		A3A67EB81902C79B00BFAF7B /* GameData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GameData.plist; sourceTree = "<group>"; };
-		A3A67EBD1902C95D00BFAF7B /* KKGameConfigManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KKGameConfigManager.h; path = ../KKGameConfigManager.h; sourceTree = "<group>"; };
-		A3A67EBE1902C95D00BFAF7B /* KKGameConfigManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KKGameConfigManager.m; path = ../KKGameConfigManager.m; sourceTree = "<group>"; };
+		A3A67EBD1902C95D00BFAF7B /* KKGameConfigManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KKGameConfigManager.h; path = ../../KKGameConfigManager.h; sourceTree = "<group>"; };
+		A3A67EBE1902C95D00BFAF7B /* KKGameConfigManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KKGameConfigManager.m; path = ../../KKGameConfigManager.m; sourceTree = "<group>"; };
 		A3A67ECD1902E3D300BFAF7B /* TTBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTBase.h; sourceTree = "<group>"; };
 		A3A67ECE1902E3D300BFAF7B /* TTBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTBase.m; sourceTree = "<group>"; };
 		A3A67ECF1902E3D300BFAF7B /* TTPencil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTPencil.h; sourceTree = "<group>"; };
@@ -1276,6 +1281,7 @@
 				A32F4E6B1987F7F8009A20F9 /* iAd.framework in Frameworks */,
 				A3D79A0819835ED40016DA23 /* StoreKit.framework in Frameworks */,
 				A3B3C4F71961C4C100B62BD4 /* SystemConfiguration.framework in Frameworks */,
+				A3466D641A518F460072FC98 /* GameKit.framework in Frameworks */,
 				A31B47C41971A70B00EF6BF8 /* libUserVoice.a in Frameworks */,
 				A36734C819ACE40B00F2818E /* FacebookSDK.framework in Frameworks */,
 				A3A67E7B1902B67700BFAF7B /* CoreGraphics.framework in Frameworks */,
@@ -1401,10 +1407,6 @@
 				A3A8DFF4199E5279001FF20D /* ILTranslucentView.h */,
 				A3A8DFF5199E5279001FF20D /* ILTranslucentView.m */,
 				A33D53D01966756600D65131 /* Timer */,
-				A3A67EBD1902C95D00BFAF7B /* KKGameConfigManager.h */,
-				A3A67EBE1902C95D00BFAF7B /* KKGameConfigManager.m */,
-				A305F2B51945F0DB00B62C6C /* KKGameStateManager.h */,
-				A305F2B61945F0DB00B62C6C /* KKGameStateManager.m */,
 				A397E6B31A35E681006CB77B /* GeneralSettings.h */,
 				A397E6B41A35E681006CB77B /* GeneralSettings.m */,
 				A3AF0A311A30C09D007AE009 /* InstantMessageView.h */,
@@ -1430,6 +1432,12 @@
 				A36C8E3B199CFE9B0071142B /* KKCustomAlertViewController.m */,
 				A34EBBBC1A4305C100EB4BD4 /* KKGameOverViewController.h */,
 				A34EBBBD1A4305C100EB4BD4 /* KKGameOverViewController.m */,
+				A3466D651A51948A0072FC98 /* GameCenterManager.h */,
+				A3466D661A51948B0072FC98 /* GameCenterManager.m */,
+				A3A67EBD1902C95D00BFAF7B /* KKGameConfigManager.h */,
+				A3A67EBE1902C95D00BFAF7B /* KKGameConfigManager.m */,
+				A305F2B51945F0DB00B62C6C /* KKGameStateManager.h */,
+				A305F2B61945F0DB00B62C6C /* KKGameStateManager.m */,
 			);
 			name = controllers;
 			path = Classes/controllers;
@@ -2356,6 +2364,7 @@
 		A3A67E771902B67700BFAF7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A3466D631A518F460072FC98 /* GameKit.framework */,
 				A32F4E6A1987F7F8009A20F9 /* iAd.framework */,
 				A3D79A0719835ED40016DA23 /* StoreKit.framework */,
 				A3B3C4F91962F96600B62BD4 /* Crashlytics.framework */,
@@ -2617,6 +2626,9 @@
 					A3A67E741902B67700BFAF7B = {
 						DevelopmentTeam = J3X836PV78;
 						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
 							com.apple.InAppPurchase = {
 								enabled = 1;
 							};
@@ -3269,6 +3281,7 @@
 				A35DD6F419644730008D445C /* TTBottle.m in Sources */,
 				A3BE4D7B195329EF00C466ED /* TTLeave.m in Sources */,
 				A33D53D31966758A00D65131 /* TimerObject.m in Sources */,
+				A3466D671A51948B0072FC98 /* GameCenterManager.m in Sources */,
 				A36A12F01955510B007F6355 /* TTFish.m in Sources */,
 				A3A67ED11902E3D300BFAF7B /* TTBase.m in Sources */,
 				A3B97D6B1930F7AD0049DCEB /* SoundManager.m in Sources */,
@@ -3465,8 +3478,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = KachiKachi/KachiKachi.entitlements;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -3485,7 +3498,7 @@
 					"$(PROJECT_DIR)/KachiKachi/ThirdParty/AF-iOS-SDK-v2.5.3.10",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "6c7097a9-9a67-4f89-aada-605f41e3ef8c";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -3497,8 +3510,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = KachiKachi/KachiKachi.entitlements;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -3517,7 +3530,7 @@
 					"$(PROJECT_DIR)/KachiKachi/ThirdParty/AF-iOS-SDK-v2.5.3.10",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "83925f3c-1f03-418a-9144-2d4dc1e2fbed";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};

@@ -78,6 +78,7 @@
     NSDictionary *data = [[KKGameConfigManager sharedManager] levelWithID:self.currentLevel andStage:self.currentStage];
     if(data){
         [self.levelModel updateWithDictionary:data];
+        self.levelModel.stageID = self.currentStage;
         [self resetScores];
     }
 }
@@ -87,6 +88,7 @@
     NSDictionary *data = [[KKGameConfigManager sharedManager] levelWithID:self.currentLevel andStage:self.currentStage];
     if(data){
         [self.levelModel updateWithDictionary:data];
+        self.levelModel.stageID = self.currentStage;
     }
     if(self.levelModel.score > self.levelModel.bestScore){
         self.levelModel.bestScore = self.levelModel.score;
@@ -106,6 +108,7 @@
         if(self.stageModel.levels.count > 0 && self.currentLevel <= self.stageModel.levels.count && self.currentLevel > 0){
             self.levelModel = [self.stageModel.levels objectAtIndex:self.currentLevel-1];
             [self.levelModel updateWithDictionary:data];
+            self.levelModel.stageID = self.currentStage;
         }
     }
 }

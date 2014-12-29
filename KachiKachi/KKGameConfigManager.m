@@ -60,4 +60,9 @@
     return data;
 }
 
+-(NSString*)leaderBoardID:(NSInteger)levelID andStage:(NSInteger)stageID
+{
+    return [NSString stringWithFormat:@"stage%ldlevel%ld",(long)stageID,(long)levelID];
+}
+
 @end

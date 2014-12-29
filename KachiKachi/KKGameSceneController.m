@@ -25,6 +25,7 @@
 #import "GeneralSettings.h"
 #import "KKGameOverViewController.h"
 #import "TimerObject.h"
+#import "GameCenterManager.h"
 
 #define RANDOM_INT(__MIN__, __MAX__) ((__MIN__) + random() % ((__MAX__+1) - (__MIN__)))
 #define RADIANS(degrees) ((degrees * M_PI) / 180.0)
@@ -495,6 +496,8 @@ typedef void (^completionBlk)(BOOL);
 
 -(void)showGameCompletionScreen:(BOOL)isLevelCompleted
 {
+    [[GameCenterManager sharedManager] reportScore:self.levelModel.score identifier:[self leaderboardID]];
+
     NSString *name = @"Main_iPad";
     if(!IS_IPAD){
         name = @"Main_iPhone";
@@ -547,9 +550,14 @@ typedef void (^completionBlk)(BOOL);
     [self twitterShare];
 }
 
+-(NSString*)leaderboardID
+{
+    return [[KKGameConfigManager sharedManager] leaderBoardID:self.levelModel.levelID andStage:self.levelModel.stageID];
+}
+
 - (void)gameCenterAction
 {
-    
+    [[GameCenterManager sharedManager] showLeaderboard:[self leaderboardID] inController:self];
 }
 
 - (void)nextLevelAction
@@ -840,9 +848,11 @@ typedef void (^completionBlk)(BOOL);
         self.levelModel.noOfStars = stars;
         
         self.levelModel.duration = 0;
+        
         [self saveGame];
         self.levelModel.isLevelCompleted = YES;
         [self showGameCompletionScreen:YES];
+        [self updateUI];
         
         block(YES);
     }

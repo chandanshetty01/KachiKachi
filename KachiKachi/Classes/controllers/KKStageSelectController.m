@@ -14,6 +14,7 @@
 #import "KKMailComposerManager.h"
 #import "Utility.h"
 #import "GeneralSettings.h"
+#import "GameCenterManager.h"
 
 @interface KKStageSelectController ()
 
@@ -51,6 +52,8 @@
     [self.soundSwitch setOn:isOn];
     isOn = [[GeneralSettings sharedManager] isMusicEnabled];
     [self.musicSwitch setOn:isOn];
+    
+    [[GameCenterManager sharedManager] authenticateLocalPlayer:self];
 }
 
 -(void)viewDidAppear:(BOOL)animated
