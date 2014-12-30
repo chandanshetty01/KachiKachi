@@ -16,6 +16,8 @@
     self = [super init];
     if(self){
         self.isLocked = [[data objectForKey:@"locked"] boolValue];
+        self.stageID = [[data objectForKey:@"stageID"] integerValue];
+        
         NSMutableArray *levels = [data objectForKey:@"levels"];
         self.levels = [NSMutableArray array];
         [levels enumerateObjectsUsingBlock:^(NSDictionary *data, NSUInteger idx, BOOL *stop) {
@@ -42,6 +44,8 @@
 {
     NSMutableDictionary *data = [NSMutableDictionary dictionary];
     [data setObject:[NSNumber numberWithBool:self.isLocked] forKey:@"locked"] ;
+    [data setObject:[NSNumber numberWithInteger:self.stageID] forKey:@"stageID"];
+    
     NSMutableArray *levels = [NSMutableArray array];
     [self.levels enumerateObjectsUsingBlock:^(KKLevelModel *obj, NSUInteger idx, BOOL *stop) {
         NSMutableDictionary *data = [obj savedDictionary];

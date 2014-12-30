@@ -39,18 +39,33 @@
     return _sharedObject;
 }
 
+-(void)saveData:(KKLevelModel*)levelModel andStage:(StageModel*)stageModel
+{
+    //Save Level
+    NSMutableDictionary *data = [levelModel itemsData];
+    if(data){
+        [Utility saveData:data fileName:[self levelFileName:levelModel.levelID andStage:stageModel.stageID]];
+    }
+    
+    //Save Stage
+    NSMutableDictionary *stageData = [stageModel savedDictionary];
+    if(stageData){
+        [Utility saveData:stageData fileName:[self stageFileName:stageModel.stageID]];
+    }
+}
+
 -(void)saveData
 {
     //Save Level
     NSMutableDictionary *data = [self.stageModel itemsDictionaryForLevel:self.currentLevel];
     if(data){
-        [Utility saveData:data fileName:[self levelFileName]];
+        [Utility saveData:data fileName:[self levelFileName:self.currentLevel andStage:self.currentStage]];
     }
 
     //Save Stage
     NSMutableDictionary *stageData = [self.stageModel savedDictionary];
     if(stageData){
-        [Utility saveData:stageData fileName:[self stageFileName]];   
+        [Utility saveData:stageData fileName:[self stageFileName:self.currentStage]];
     }
 }
 
@@ -97,30 +112,47 @@
     [self resetScores];
 }
 
--(void)loadLevelData
+-(KKLevelModel*)getLevelData:(NSInteger)levelID andStage:(NSInteger)stageID
 {
-    NSDictionary *data = [Utility loadData:[self levelFileName]];
+    KKLevelModel *levelModel = nil;
+    
+    NSDictionary *data = [Utility loadData:[self levelFileName:levelID andStage:stageID]];
     if(!data){
-        data = [[KKGameConfigManager sharedManager] levelWithID:self.currentLevel andStage:self.currentStage];
+        data = [[KKGameConfigManager sharedManager] levelWithID:levelID andStage:stageID];
     }
     
     if(data){
-        if(self.stageModel.levels.count > 0 && self.currentLevel <= self.stageModel.levels.count && self.currentLevel > 0){
-            self.levelModel = [self.stageModel.levels objectAtIndex:self.currentLevel-1];
-            [self.levelModel updateWithDictionary:data];
-            self.levelModel.stageID = self.currentStage;
+        if(self.stageModel.levels.count > 0 && levelID <= self.stageModel.levels.count && levelID > 0){
+            levelModel = [self.stageModel.levels objectAtIndex:levelID-1];
+            [levelModel updateWithDictionary:data];
         }
     }
+    return levelModel;
+}
+
+-(void)loadLevelData
+{
+    KKLevelModel *model = [self getLevelData:self.currentLevel andStage:self.currentStage];
+    self.levelModel = model;
+}
+
+-(StageModel*)getStageModel:(NSInteger)stageID
+{
+    StageModel *model = nil;
+    
+    NSDictionary *data = [Utility loadData:[self stageFileName:stageID]];
+    if(!data){
+        data = [[KKGameConfigManager sharedManager] stageWithID:stageID];
+    }
+    
+    model = [[StageModel alloc] initWithDictionary:data];
+    model.stageID = stageID;
+    return model;
 }
 
 -(void)loadStage
 {
-    NSDictionary *data = [Utility loadData:[self stageFileName]];
-    if(!data){
-        data = [[KKGameConfigManager sharedManager] stageWithID:self.currentStage];
-    }
-                                            
-    self.stageModel = [[StageModel alloc] initWithDictionary:data];
+    self.stageModel = [self getStageModel:self.currentStage];
 }
 
 -(void)unlockStage
@@ -133,6 +165,32 @@
 -(NSInteger)numberOfLevels
 {
     return [self.stageModel.levels count];
+}
+
+-(void)unlockNextLevel
+{
+    NSInteger nextLevel = self.currentLevel;
+    NSInteger nextStage = self.currentStage;
+    
+    NSInteger noOfLevels = [self.stageModel.levels count];
+    if(self.currentLevel>0 && self.currentLevel < noOfLevels){
+        nextLevel = self.currentLevel+1;
+    }
+    else if(self.currentLevel == noOfLevels){
+        //load Next stage
+        nextLevel = 1;
+        if(self.currentStage > 0 && self.currentStage <= 3){
+            nextStage = self.currentStage + 1;
+        }
+    }
+    
+    KKLevelModel *levelModel = [self getLevelData:nextLevel andStage:nextStage];
+    levelModel.isLevelUnlocked = YES;
+    StageModel *stageModel = [self getStageModel:nextStage];
+    stageModel.isLocked = NO;
+    [[GeneralSettings sharedManager] unlockStage:nextStage];
+    
+    [self saveData:levelModel andStage:stageModel];
 }
 
 -(KKLevelModel*)loadNextLevel
@@ -160,29 +218,29 @@
     return self.stageModel.levels;
 }
 
--(NSString*)levelFileName
+-(NSString*)levelFileName:(NSInteger)levelID andStage:(NSInteger)stageID
 {
     if(IS_IPAD){
-        return [NSString stringWithFormat:@"level_%ld_%ld_iPad",(long)self.currentStage,(long)self.currentLevel];
+        return [NSString stringWithFormat:@"stage_%ld_level_%ld_iPad",(long)stageID,(long)levelID];
     }
     else{
-        return [NSString stringWithFormat:@"level_%ld_%ld",(long)self.currentStage,(long)self.currentLevel];
+        return [NSString stringWithFormat:@"stage_%ld_level_%ld",(long)stageID,(long)levelID];
     }
 }
 
--(NSString*)stageFileName
+-(NSString*)stageFileName:(NSInteger)stageID
 {
     if(IS_IPAD){
-        return [NSString stringWithFormat:@"stage_%ld_iPad",(long)self.currentStage];
+        return [NSString stringWithFormat:@"stage_%ld_iPad",(long)stageID];
     }
     else{
-        return [NSString stringWithFormat:@"stage_%ld",(long)self.currentStage];
+        return [NSString stringWithFormat:@"stage_%ld",(long)stageID];
     }
 }
 
 -(NSDictionary*)levelData:(NSInteger)level stage:(NSInteger)stage
 {
-    return [Utility loadData:[self levelFileName]];
+    return [Utility loadData:[self levelFileName:level andStage:stage]];
 }
 
 

@@ -25,6 +25,7 @@
 -(void)resetDuration;
 -(KKLevelModel*)loadNextLevel;
 -(NSInteger)numberOfLevels;
+-(void)unlockNextLevel;
 
 -(NSMutableArray*)levels;
 

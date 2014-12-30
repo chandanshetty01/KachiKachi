@@ -17,6 +17,7 @@
 -(NSMutableDictionary*)itemsDictionaryForLevel:(NSInteger)levleID;
 
 @property(nonatomic,assign)BOOL isLocked;
+@property(nonatomic,assign)NSInteger stageID;
 @property(nonatomic,strong)NSMutableArray *levels;
 
 @end

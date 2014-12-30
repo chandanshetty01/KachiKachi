@@ -84,7 +84,7 @@
 "MAGIC_STICK_NO_POINTS_DESC" = "Complete the level with 3 STAR to use MAGIC STICK";
 
 "MAGIC_STICK_USAGE" = "Do you want to use MAGIC STICK?";
-"MAGIC_STICK_USAGE_DESC" = "Tap on any %d objects to remove without losing a LIFE";
+"MAGIC_STICK_USAGE_DESC" = "Tap on any %d objects to remove without losing time";
 
 "MAGIC_STICK" = "MAGIC STICK: %d";
 

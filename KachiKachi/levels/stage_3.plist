@@ -4,6 +4,8 @@
 <dict>
 	<key>locked</key>
 	<false/>
+	<key>stageID</key>
+	<integer>3</integer>
 	<key>levels</key>
 	<array>
 		<dict>

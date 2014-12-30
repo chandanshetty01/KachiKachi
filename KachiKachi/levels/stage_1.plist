@@ -4,6 +4,8 @@
 <dict>
 	<key>locked</key>
 	<false/>
+	<key>stageID</key>
+	<integer>1</integer>
 	<key>levels</key>
 	<array>
 		<dict>
@@ -24,7 +26,7 @@
 			<key>sound</key>
 			<string>pencil.wav</string>
 			<key>duration</key>
-			<integer>90</integer>
+			<integer>75</integer>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -44,7 +46,7 @@
 			<key>sound</key>
 			<string>balloon.wav</string>
 			<key>duration</key>
-			<integer>90</integer>
+			<integer>75</integer>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -64,7 +66,7 @@
 			<key>sound</key>
 			<string>dvd.wav</string>
 			<key>duration</key>
-			<integer>90</integer>
+			<integer>75</integer>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -82,7 +84,7 @@
 			<key>sound</key>
 			<string>bottle.wav</string>
 			<key>duration</key>
-			<integer>90</integer>
+			<integer>75</integer>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -100,7 +102,7 @@
 			<key>sound</key>
 			<string>dvd.wav</string>
 			<key>duration</key>
-			<integer>90</integer>
+			<integer>75</integer>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -118,7 +120,7 @@
 			<key>sound</key>
 			<string>disc.wav</string>
 			<key>duration</key>
-			<integer>90</integer>
+			<integer>75</integer>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -136,7 +138,7 @@
 			<key>sound</key>
 			<string>fish.wav</string>
 			<key>duration</key>
-			<integer>90</integer>
+			<integer>75</integer>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -154,7 +156,7 @@
 			<key>sound</key>
 			<string>dvd.wav</string>
 			<key>duration</key>
-			<integer>90</integer>
+			<integer>75</integer>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -172,7 +174,7 @@
 			<key>sound</key>
 			<string>dvd.wav</string>
 			<key>duration</key>
-			<integer>90</integer>
+			<integer>75</integer>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -190,7 +192,7 @@
 			<key>sound</key>
 			<string>kite.wav</string>
 			<key>duration</key>
-			<integer>90</integer>
+			<integer>75</integer>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -208,7 +210,7 @@
 			<key>sound</key>
 			<string>pencil.wav</string>
 			<key>duration</key>
-			<integer>90</integer>
+			<integer>75</integer>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -226,7 +228,7 @@
 			<key>background</key>
 			<string>iPhcarrot_bg.png</string>
 			<key>duration</key>
-			<integer>90</integer>
+			<integer>75</integer>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -244,7 +246,7 @@
 			<key>sound</key>
 			<string>bottle.wav</string>
 			<key>duration</key>
-			<integer>90</integer>
+			<integer>75</integer>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -262,7 +264,7 @@
 			<key>sound</key>
 			<string>bird.wav</string>
 			<key>duration</key>
-			<integer>90</integer>
+			<integer>75</integer>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -280,7 +282,7 @@
 			<key>background</key>
 			<string>iPh_candle_bg.png</string>
 			<key>duration</key>
-			<integer>90</integer>
+			<integer>75</integer>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -298,7 +300,7 @@
 			<key>sound</key>
 			<string>dvd.wav</string>
 			<key>duration</key>
-			<integer>90</integer>
+			<integer>75</integer>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -316,7 +318,7 @@
 			<key>background</key>
 			<string>iPh_star_bg.jpg</string>
 			<key>duration</key>
-			<integer>90</integer>
+			<integer>75</integer>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -334,7 +336,7 @@
 			<key>background</key>
 			<string>iPh_umb_bg.png</string>
 			<key>duration</key>
-			<integer>90</integer>
+			<integer>75</integer>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -352,7 +354,7 @@
 			<key>background</key>
 			<string>iPh_brush_bg.png</string>
 			<key>duration</key>
-			<integer>90</integer>
+			<integer>75</integer>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -370,7 +372,7 @@
 			<key>background</key>
 			<string>iPh_apple_bg.png</string>
 			<key>duration</key>
-			<integer>90</integer>
+			<integer>75</integer>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -388,7 +390,7 @@
 			<key>background</key>
 			<string>iPh_key_bg.png</string>
 			<key>duration</key>
-			<integer>90</integer>
+			<integer>75</integer>
 		</dict>
 	</array>
 </dict>

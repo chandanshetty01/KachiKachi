@@ -322,9 +322,11 @@ typedef void (^completionBlk)(BOOL);
     _isMagicStickMode = isMagicStickMode;
     if(isMagicStickMode){
         [self showMagicStickAnimation];
+        [self pauseGame];
     }
     else{
         [self removeMagicStickAnimation];
+        [self resumeGame];
     }
 }
 
@@ -389,13 +391,15 @@ typedef void (^completionBlk)(BOOL);
 {
     BOOL isTutorialShown = [[[NSUserDefaults standardUserDefaults] objectForKey:@"TUTORIAL_1"] boolValue];
     if(!isTutorialShown){
+        [self pauseGame];
         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"HOW_TO_PLAY", nil)
                                                         message:NSLocalizedString(@"TUTORIAL_1", nil)
-                                                       delegate:nil
+                                                       delegate:self
                                               cancelButtonTitle:@"OK"
                                               otherButtonTitles:nil];
-        
+        alert.tag = eTutorialAlertID;
         [alert show];
+        
         [[NSUserDefaults standardUserDefaults] setObject:@YES forKey:@"TUTORIAL_1"];
         [[NSUserDefaults standardUserDefaults] synchronize];
     }
@@ -434,32 +438,36 @@ typedef void (^completionBlk)(BOOL);
         
         if(IS_IPAD){
             //for iPad
-            KKItemModal *item = [self.levelModel.items objectAtIndex:0];
-            if([item.className isEqualToString:@"TTBird"] ||
-               ([item.className isEqualToString:@"TTCandle"] && [[basket objectForKey:@"basket"] isEqualToString:@"candle_basket2.png"]) ||
-               ([item.className isEqualToString:@"TTDvd"] && [[basket objectForKey:@"basket"] isEqualToString:@"cd_basket1.png"]) ||
-               ([item.className isEqualToString:@"TTUmbrella"]) || ([item.className isEqualToString:@"TTKey"]) ||
-               ([item.className isEqualToString:@"TTBrush"] && ([[basket objectForKey:@"basket"] isEqualToString:@"toothbrush_container1.png"] || [[basket objectForKey:@"basket"] isEqualToString:@"toothbrush_container2.png"])))
-            {
-                [self.view insertSubview:basketView aboveSubview:self.background];
-            }
-            else
-            {
-                [self.view addSubview:basketView];
-                [self.view bringSubviewToFront:self.bottomStrip];
+            if(self.levelModel.items.count > 0){
+                KKItemModal *item = [self.levelModel.items objectAtIndex:0];
+                if([item.className isEqualToString:@"TTBird"] ||
+                   ([item.className isEqualToString:@"TTCandle"] && [[basket objectForKey:@"basket"] isEqualToString:@"candle_basket2.png"]) ||
+                   ([item.className isEqualToString:@"TTDvd"] && [[basket objectForKey:@"basket"] isEqualToString:@"cd_basket1.png"]) ||
+                   ([item.className isEqualToString:@"TTUmbrella"]) || ([item.className isEqualToString:@"TTKey"]) ||
+                   ([item.className isEqualToString:@"TTBrush"] && ([[basket objectForKey:@"basket"] isEqualToString:@"toothbrush_container1.png"] || [[basket objectForKey:@"basket"] isEqualToString:@"toothbrush_container2.png"])))
+                {
+                    [self.view insertSubview:basketView aboveSubview:self.background];
+                }
+                else
+                {
+                    [self.view addSubview:basketView];
+                    [self.view bringSubviewToFront:self.bottomStrip];
+                }
             }
         }
         else{
             //iPhone related changes
-            KKItemModal *item = [self.levelModel.items objectAtIndex:0];
-            if(([item.className isEqualToString:@"TTFish"] && !(([[basket objectForKey:@"basket"] isEqualToString:@"iPh_bucket_front_part.png"]) || ([[basket objectForKey:@"basket"] isEqualToString:@"iPh_handel.png"]))) || ([item.className isEqualToString:@"TTChoc"] && [[basket objectForKey:@"basket"] isEqualToString:@"iPh_candy_back_part.png"]) || [item.className isEqualToString:@"TTBird"] || ([item.className isEqualToString:@"TTCandle"] && [[basket objectForKey:@"basket"] isEqualToString:@"iph_candle_stand1.png"]) || ([item.className isEqualToString:@"TTDvd"] && ![[basket objectForKey:@"basket"] isEqualToString:@"iph_cd_holder2.png"]) || ([item.className isEqualToString:@"TTUmbrella"]) || ([item.className isEqualToString:@"TTBrush"] && ([[basket objectForKey:@"basket"] isEqualToString:@"iPh_brush1_cup1.png"] || [[basket objectForKey:@"basket"] isEqualToString:@"iPh_brush1_cup2.png"])) || [item.className isEqualToString:@"TTKey"])
-            {
-                [self.view insertSubview:basketView aboveSubview:self.background];
-            }
-            else
-            {
-                [self.view addSubview:basketView];
-                [self.view bringSubviewToFront:self.bottomStrip];
+            if(self.levelModel.items.count > 0){
+                KKItemModal *item = [self.levelModel.items objectAtIndex:0];
+                if(([item.className isEqualToString:@"TTFish"] && !(([[basket objectForKey:@"basket"] isEqualToString:@"iPh_bucket_front_part.png"]) || ([[basket objectForKey:@"basket"] isEqualToString:@"iPh_handel.png"]))) || ([item.className isEqualToString:@"TTChoc"] && [[basket objectForKey:@"basket"] isEqualToString:@"iPh_candy_back_part.png"]) || [item.className isEqualToString:@"TTBird"] || ([item.className isEqualToString:@"TTCandle"] && [[basket objectForKey:@"basket"] isEqualToString:@"iph_candle_stand1.png"]) || ([item.className isEqualToString:@"TTDvd"] && ![[basket objectForKey:@"basket"] isEqualToString:@"iph_cd_holder2.png"]) || ([item.className isEqualToString:@"TTUmbrella"]) || ([item.className isEqualToString:@"TTBrush"] && ([[basket objectForKey:@"basket"] isEqualToString:@"iPh_brush1_cup1.png"] || [[basket objectForKey:@"basket"] isEqualToString:@"iPh_brush1_cup2.png"])) || [item.className isEqualToString:@"TTKey"])
+                {
+                    [self.view insertSubview:basketView aboveSubview:self.background];
+                }
+                else
+                {
+                    [self.view addSubview:basketView];
+                    [self.view bringSubviewToFront:self.bottomStrip];
+                }
             }
         }
     }];
@@ -513,6 +521,7 @@ typedef void (^completionBlk)(BOOL);
         else{
             self.gameOverController.status = eLevelFailedTimerRunOut;
         }
+        self.levelModel.stageID = self.currentStage;
         [self.gameOverController updateData:self.levelModel];
         self.gameOverController.delegate = self;
         self.gameOverController.view.alpha = 0;
@@ -813,7 +822,6 @@ typedef void (^completionBlk)(BOOL);
 {
     [[SoundManager sharedManager] playSound:@"wrong" looping:NO];
     
-    /*
     NSInteger wrongObjCount = 3;
     if(self.currentStage == 1){
         wrongObjCount = 1;
@@ -822,9 +830,7 @@ typedef void (^completionBlk)(BOOL);
         wrongObjCount = 2;
     }
     [self.timer reduceTimer:wrongObjCount];
-    
     [self showScore:-(wrongObjCount+1) forView:self.timerLabel];
-     */
     
     [self updateUI];
 }
@@ -853,6 +859,7 @@ typedef void (^completionBlk)(BOOL);
         self.levelModel.isLevelCompleted = YES;
         [self showGameCompletionScreen:YES];
         [self updateUI];
+        [[KKGameStateManager sharedManager] unlockNextLevel];
         
         block(YES);
     }
@@ -1138,6 +1145,7 @@ typedef void (^completionBlk)(BOOL);
             
         case eTutorialAlertID:
         {
+            [self resumeGame];
         }
             break;
                         
