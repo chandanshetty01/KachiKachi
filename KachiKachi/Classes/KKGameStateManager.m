@@ -124,6 +124,7 @@
     if(data){
         if(self.stageModel.levels.count > 0 && levelID <= self.stageModel.levels.count && levelID > 0){
             levelModel = [self.stageModel.levels objectAtIndex:levelID-1];
+            levelModel.stageID = stageID;
             [levelModel updateWithDictionary:data];
         }
     }

@@ -849,10 +849,12 @@ typedef void (^completionBlk)(BOOL);
         NSInteger score = self.levelModel.duration*100;
         [self showScore:score forView:self.timerLabel];
         self.levelModel.score += score;
+        if(self.levelModel.score > self.levelModel.bestScore){
+            self.levelModel.bestScore = self.levelModel.score;
+        }
 
         NSInteger stars = [self updateStars];
         self.levelModel.noOfStars = stars;
-        
         self.levelModel.duration = 0;
         
         [self saveGame];

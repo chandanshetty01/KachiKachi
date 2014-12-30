@@ -58,7 +58,12 @@
     self.ranking.text = @"-";
     
     if(self.status == eLevelCompleted){
+        
         self.nextLevelBtn.hidden = NO;
+        if(self.levelModel.stageID == 3 && self.levelModel.levelID == [[KKGameStateManager sharedManager] numberOfLevels]){
+            self.nextLevelBtn.hidden = YES;
+        }
+        
         self.starsLabel.hidden = NO;
         self.stars.hidden = NO;
 
