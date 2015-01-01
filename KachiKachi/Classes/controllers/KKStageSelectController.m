@@ -285,14 +285,12 @@
 - (BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(UIButton*)sender
 {
     [[SoundManager sharedManager] playSound:@"tap" looping:NO];
-
-#ifdef ENABLE_ALL_LEVELS
-    [KKGameStateManager sharedManager].currentStage = sender.tag;
-    return YES;
-#endif
     
     NSInteger stage = sender.tag;
     BOOL isLocked = [[GeneralSettings sharedManager] isStageLocked:sender.tag];
+#ifdef ENABLE_ALL_LEVELS
+    isLocked = NO;
+#endif
     if(!isLocked)
     {
         [Flurry logEvent:[NSString stringWithFormat:@"StageSelect-%ld(Selected)",(long)stage]];

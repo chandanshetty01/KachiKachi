@@ -106,6 +106,9 @@ typedef void (^completionBlk)(BOOL);
     
 #ifndef DEVELOPMENT_MODE
     BOOL canRemoveAds = [[GeneralSettings sharedManager] getCanRemoveAds];
+#ifdef PAID_VERSION
+    canRemoveAds = YES;
+#endif
     if([MKStoreManager isFeaturePurchased:kTimedMode] || [MKStoreManager isFeaturePurchased:kAdvancedMode] || canRemoveAds){
         //If purchased do not show any Ads
     }
@@ -116,7 +119,6 @@ typedef void (^completionBlk)(BOOL);
             name = @"Main_iPhone";
         }
         self.adViewController = [[UIStoryboard storyboardWithName:name bundle:nil] instantiateViewControllerWithIdentifier:@"adViewController"];
-
         [self.view addSubview:self.adViewController.view];
         self.adViewController.delegate = self;
         CGRect frame = self.adViewController.view.frame;
