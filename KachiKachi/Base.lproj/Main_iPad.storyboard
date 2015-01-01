@@ -633,7 +633,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="f8a-DD-8Gr">
-                                        <rect key="frame" x="301" y="129" width="120" height="30"/>
+                                        <rect key="frame" x="301" y="129" width="100" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                         <color key="textColor" red="0.86274516580000005" green="0.60000002379999995" blue="0.13725490870000001" alpha="1" colorSpace="deviceRGB"/>
@@ -677,7 +677,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="H6t-FX-0jn">
-                                        <rect key="frame" x="250" y="204" width="100" height="30"/>
+                                        <rect key="frame" x="321" y="204" width="100" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <state key="normal" title="Twitter">
@@ -688,20 +688,8 @@
                                             <action selector="twitterAction:" destination="WxJ-r3-ZjU" eventType="touchUpInside" id="6gX-71-W9M"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ruF-PU-ICb">
-                                        <rect key="frame" x="390" y="204" width="100" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <state key="normal" title="Game center">
-                                            <color key="titleColor" red="0.031372550870000002" green="0.16862745579999999" blue="0.95294123890000004" alpha="1" colorSpace="deviceRGB"/>
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="gameCenterAction:" destination="WxJ-r3-ZjU" eventType="touchUpInside" id="Uch-QQ-YWq"/>
-                                        </connections>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="57P-mZ-QmZ">
-                                        <rect key="frame" x="108" y="204" width="100" height="30"/>
+                                        <rect key="frame" x="179" y="204" width="100" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <state key="normal" title="Facebook">
@@ -740,6 +728,18 @@
                                         <color key="textColor" red="0.86274516580000005" green="0.60000002379999995" blue="0.13725490870000001" alpha="1" colorSpace="deviceRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ruF-PU-ICb">
+                                        <rect key="frame" x="409" y="129" width="100" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <state key="normal" title="Game center">
+                                            <color key="titleColor" red="0.031372550870000002" green="0.16862745579999999" blue="0.95294123890000004" alpha="1" colorSpace="deviceRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="gameCenterAction:" destination="WxJ-r3-ZjU" eventType="touchUpInside" id="Uch-QQ-YWq"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <userDefinedRuntimeAttributes>

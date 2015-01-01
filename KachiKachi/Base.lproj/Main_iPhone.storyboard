@@ -211,7 +211,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="J7j-wz-HuB">
-                                        <rect key="frame" x="150" y="126" width="100" height="30"/>
+                                        <rect key="frame" x="221" y="126" width="100" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <state key="normal" title="Twitter">
@@ -258,7 +258,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="V8O-oa-P9H">
-                                        <rect key="frame" x="201" y="79" width="120" height="20"/>
+                                        <rect key="frame" x="201" y="79" width="80" height="20"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                         <color key="textColor" red="0.86274516580000005" green="0.60000002379999995" blue="0.13725490870000001" alpha="1" colorSpace="deviceRGB"/>
@@ -301,18 +301,6 @@
                                             <action selector="nextLevelAction:" destination="S9i-9d-X6V" eventType="touchUpInside" id="1TP-N7-HXD"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="GWE-lF-sph">
-                                        <rect key="frame" x="290" y="126" width="100" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <state key="normal" title="Game center">
-                                            <color key="titleColor" red="0.031372550870000002" green="0.16862745579999999" blue="0.95294123890000004" alpha="1" colorSpace="deviceRGB"/>
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="gameCenterAction:" destination="S9i-9d-X6V" eventType="touchUpInside" id="u3d-V9-GcZ"/>
-                                        </connections>
-                                    </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Game Completed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="QbD-19-UPi">
                                         <rect key="frame" x="8" y="0.0" width="384" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -321,7 +309,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="KaQ-hC-g0a">
-                                        <rect key="frame" x="8" y="126" width="100" height="30"/>
+                                        <rect key="frame" x="79" y="126" width="100" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <state key="normal" title="Facebook">
@@ -346,6 +334,18 @@
                                         <color key="textColor" red="0.86274516580000005" green="0.60000002379999995" blue="0.13725490870000001" alpha="1" colorSpace="deviceRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="GWE-lF-sph">
+                                        <rect key="frame" x="289" y="74" width="100" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <state key="normal" title="Game center">
+                                            <color key="titleColor" red="0.031372550870000002" green="0.16862745579999999" blue="0.95294123890000004" alpha="1" colorSpace="deviceRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="gameCenterAction:" destination="S9i-9d-X6V" eventType="touchUpInside" id="u3d-V9-GcZ"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <userDefinedRuntimeAttributes>
@@ -382,7 +382,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bU2-rm-Z96" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-781" y="720"/>
+            <point key="canvasLocation" x="-654" y="661"/>
         </scene>
         <!--Level Select View Controller-->
         <scene sceneID="ZHd-6j-tF8">
