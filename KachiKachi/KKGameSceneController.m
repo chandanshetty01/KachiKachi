@@ -366,13 +366,14 @@ typedef void (^completionBlk)(BOOL);
                           buttonTitle:NSLocalizedString(@"OK", nil)
                          inController:self
                            completion:^(NSInteger index) {
+                               [self resumeGame];
+
                                if(index == 0){
                                    [Flurry logEvent:@"magicstick_used"];
                                    self.isMagicStickMode = YES;
                                    [[GeneralSettings sharedManager] setMagicStickUsageCount:usageCount-1];
                                    self.magicStickCounter = kMagicStickUsageCount;
                                }
-                               [self resumeGame];
                            }];
     }
     else{
