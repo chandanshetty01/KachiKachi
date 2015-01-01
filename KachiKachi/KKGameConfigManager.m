@@ -62,7 +62,7 @@
 
 -(NSString*)leaderBoardID:(NSInteger)levelID andStage:(NSInteger)stageID
 {
-    return [NSString stringWithFormat:@"stage%ldlevel%ld",(long)stageID,(long)levelID];
+    return [NSString stringWithFormat:@"Stage%ldLevel%ld",(long)stageID,(long)levelID];
 }
 
 @end
