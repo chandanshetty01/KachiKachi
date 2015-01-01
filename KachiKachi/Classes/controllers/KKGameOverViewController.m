@@ -38,10 +38,12 @@
     if([GameCenterManager sharedManager].gameCenterEnabled){
         self.gameCenterBtn.hidden = NO;
         self.ranking.hidden = NO;
+        self.rankingTitle.hidden = NO;
     }
     else{
         self.gameCenterBtn.hidden = YES;
         self.ranking.hidden = YES;
+        self.rankingTitle.hidden = YES;
     }
     
     self.scoreHolder.center = self.view.center;
