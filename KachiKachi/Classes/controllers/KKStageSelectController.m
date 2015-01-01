@@ -23,6 +23,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *advancedTitle;
 @property (weak, nonatomic) IBOutlet UIButton *rateusBtn;
 @property (weak, nonatomic) IBOutlet UIButton *howToPlayButton;
+@property (weak, nonatomic) IBOutlet UIButton *gameCenter;
 
 @end
 
@@ -47,6 +48,7 @@
     self.advancedTitle.text = NSLocalizedString(@"ADVANCE", nil);
     [self.rateusBtn setTitle:NSLocalizedString(@"RATE_US", nil) forState:UIControlStateNormal];
     [self.howToPlayButton setTitle:NSLocalizedString(@"HOW_TO_PLAY", nil) forState:UIControlStateNormal];
+    [self.gameCenter setTitle:NSLocalizedString(@"LEADERBOARD", nil) forState:UIControlStateNormal];
     
     BOOL isOn = [[GeneralSettings sharedManager] isSoundEnabled];
     [self.soundSwitch setOn:isOn];
@@ -84,6 +86,16 @@
     [SoundManager sharedManager].allowsBackgroundMusic = YES;
     [[SoundManager sharedManager] prepareToPlay];
     [[SoundManager sharedManager] playMusic:@"FunkGameLoop"];
+}
+
+- (IBAction)gameCenterAction:(id)sender
+{
+    if([GameCenterManager sharedManager].gameCenterEnabled){
+        [[GameCenterManager sharedManager] showLeaderboard:nil inController:self];
+    }
+    else{
+        [[GameCenterManager sharedManager] authenticateLocalPlayer:self];
+    }
 }
 
 -(void)stopMusic

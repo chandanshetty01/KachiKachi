@@ -140,7 +140,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1959" y="-4147"/>
+            <point key="canvasLocation" x="-1952" y="-4038"/>
         </scene>
         <!--I Ad View Controller-->
         <scene sceneID="sv7-qU-T3E">
@@ -157,7 +157,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c9W-cT-cU7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1718" y="-4588"/>
+            <point key="canvasLocation" x="-1498" y="-4640"/>
         </scene>
         <!--Game Scene Controller-->
         <scene sceneID="O3p-qo-ojf">
@@ -462,6 +462,21 @@
                                     <action selector="handleHowToPlay:" destination="ekd-Ri-PZw" eventType="touchUpInside" id="POg-FT-thf"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="GMC-y4-UYJ">
+                                <rect key="frame" x="835" y="698" width="171" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="Leaderboard">
+                                    <color key="titleColor" red="0.30196079609999998" green="0.56862747670000002" blue="0.7607843876" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" red="0.30196079609999998" green="0.56862747670000002" blue="0.7607843876" alpha="0.55000000000000004" colorSpace="deviceRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="gameCenterAction:" destination="ekd-Ri-PZw" eventType="touchUpInside" id="mai-xM-Wzy"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -471,6 +486,7 @@
                     <connections>
                         <outlet property="advancedTitle" destination="aJz-5c-WRt" id="etG-d1-nk4"/>
                         <outlet property="easyTitle" destination="ung-gh-rdL" id="tqA-TX-zGd"/>
+                        <outlet property="gameCenter" destination="GMC-y4-UYJ" id="qEb-1E-nYP"/>
                         <outlet property="howToPlayButton" destination="RUc-3O-cqf" id="IX7-HF-i4u"/>
                         <outlet property="mediumTitle" destination="Uuo-ge-ZQV" id="VV4-dK-5L4"/>
                         <outlet property="musicSwitch" destination="jVv-7C-ksw" id="v2c-Tl-5O7"/>

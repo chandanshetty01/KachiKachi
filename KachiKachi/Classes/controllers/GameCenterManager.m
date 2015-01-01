@@ -7,7 +7,6 @@
 //
 
 #import "GameCenterManager.h"
-#import <GameKit/GameKit.h>
 
 @interface GameCenterManager()<GKGameCenterControllerDelegate>
 
@@ -79,10 +78,35 @@
     gcViewController.gameCenterDelegate = self;
     
     gcViewController.viewState = GKGameCenterViewControllerStateLeaderboards;
-    gcViewController.leaderboardIdentifier = leaderboardIdentifier;
+    if(leaderboardIdentifier){
+        gcViewController.leaderboardIdentifier = leaderboardIdentifier;        
+    }
 
     // Finally present the view controller.
     [presentingController presentViewController:gcViewController animated:YES completion:nil];
+}
+
+-(void)getGameCenterScore:(NSString*)leaderboardIdentifier  completionBlk:(completionBlkWithScore)block
+{
+    if(!_gameCenterEnabled){
+        block(nil);
+    }
+    
+    GKLeaderboard *board = [[GKLeaderboard alloc] init];
+    board.timeScope = GKLeaderboardTimeScopeAllTime;
+    board.playerScope = GKLeaderboardPlayerScopeGlobal; // or GKLeaderboardPlayerScopeFriendsOnly
+    board.range = NSMakeRange(1, 1);
+    board.identifier = leaderboardIdentifier;
+    [board loadScoresWithCompletionHandler: ^(NSArray *scores, NSError *error) {
+        if (error != nil) {
+            // handle the error.
+            block(nil);
+        }
+        if (scores != nil) {
+            GKScore* score = [board localPlayerScore];
+            block(score);
+        }
+    }];
 }
 
 #pragma mark - GKGameCenterControllerDelegate method implementation

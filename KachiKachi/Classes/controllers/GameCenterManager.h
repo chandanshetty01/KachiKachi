@@ -7,6 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <GameKit/GameKit.h>
+
+typedef void(^completionBlkWithScore)(GKScore *score);
 
 @interface GameCenterManager : NSObject
 {
@@ -19,5 +22,6 @@
 -(void)authenticateLocalPlayer:(UIViewController*)presentingController;
 -(void)reportScore:(NSInteger)inScore identifier:(NSString*)leaderboardIdentifier;
 -(void)showLeaderboard:(NSString*)leaderboardIdentifier inController:(UIViewController*)presentingController;
+-(void)getGameCenterScore:(NSString*)leaderboardIdentifier  completionBlk:(completionBlkWithScore)block;
 
 @end

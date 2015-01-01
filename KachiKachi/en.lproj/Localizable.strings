@@ -26,6 +26,7 @@
 "BEST_SCORE" = "Best Score: ";
 "RANKING" = "Ranking: ";
 "STARS" = "Stars: ";
+"LEADERBOARD" = "LEADERBOARD";
 
 "FB_SHARE_MSG" = "Check out KachiKachi, I have just completed level %@ in %@ mode";
 "FB_NOT_CONFIGURED_TITLE" = "Facebook is not configured";
@@ -93,6 +94,6 @@
 "HOW_TO_PLAY" = "HOW TO PLAY";
 "GOT_IT" = "Got it";
 
-"HOW_TO_PLAY_DESC" = "One Golden Rule: Touch the top most object otherwise you will lose a LIFE! \nBonus: Win any level with 3 star and unlock the magic stick, use this magic stick to remove 5 objects you want, without losing LIFE!.";
+"HOW_TO_PLAY_DESC" = "One Golden Rule: Touch the top most object to remove.";
 
 "GAME_CENTER" = "Game Center";

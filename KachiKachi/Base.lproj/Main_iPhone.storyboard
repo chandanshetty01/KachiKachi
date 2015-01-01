@@ -158,6 +158,21 @@
                                 <color key="shadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <size key="shadowOffset" width="0.0" height="1"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="8Cc-mj-Lzb">
+                                <rect key="frame" x="435" y="270" width="122" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                <state key="normal" title="Game Center">
+                                    <color key="titleColor" red="0.30196079609999998" green="0.56862747670000002" blue="0.7607843876" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" red="0.30196079609999998" green="0.56862747670000002" blue="0.7607843876" alpha="0.55000000000000004" colorSpace="deviceRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="gameCenterAction:" destination="riR-s2-9iY" eventType="touchUpInside" id="UZx-Xz-yKf"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -167,6 +182,7 @@
                     <nil key="simulatedBottomBarMetrics"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
+                        <outlet property="gameCenter" destination="8Cc-mj-Lzb" id="PFn-gs-GQA"/>
                         <outlet property="howToPlayButton" destination="1ye-8e-Dxt" id="Oo5-Iq-lhC"/>
                         <outlet property="musicSwitch" destination="FXP-m6-Uk7" id="zOz-oz-0XZ"/>
                         <outlet property="rateusBtn" destination="vhR-cX-dB0" id="e73-W6-C1X"/>

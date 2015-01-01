@@ -10,6 +10,7 @@
 #import "SoundManager.h"
 #import "KKGameStateManager.h"
 #import "GameCenterManager.h"
+#import "KKGameConfigManager.h"
 
 @interface KKGameOverViewController ()
 
@@ -36,12 +37,19 @@
     
     if([GameCenterManager sharedManager].gameCenterEnabled){
         self.gameCenterBtn.hidden = NO;
+        self.ranking.hidden = NO;
     }
     else{
         self.gameCenterBtn.hidden = YES;
+        self.ranking.hidden = YES;
     }
     
     self.scoreHolder.center = self.view.center;
+}
+
+-(NSString*)leaderboardID
+{
+    return [[KKGameConfigManager sharedManager] leaderBoardID:self.levelModel.levelID andStage:self.levelModel.stageID];
 }
 
 -(void)updateData:(KKLevelModel*)levelModel
@@ -89,6 +97,12 @@
         
         self.gameCompletedTitle.text = NSLocalizedString(@"LEVEL_FAILED",nil);
     }
+    
+    [[GameCenterManager sharedManager] getGameCenterScore:[self leaderboardID] completionBlk:^(GKScore *score) {
+        if(score){
+            self.ranking.text = [NSString stringWithFormat:@"%d",(int)score.rank];
+        }
+    }];
 }
 
 - (void)didReceiveMemoryWarning {
