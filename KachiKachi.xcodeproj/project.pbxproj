@@ -3530,7 +3530,7 @@
 					"$(PROJECT_DIR)/KachiKachi/ThirdParty/AF-iOS-SDK-v2.5.3.10",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "6c7fade1-b95e-4a4e-843d-192eb7e228f7";
+				PROVISIONING_PROFILE = "cbec4d85-0fed-41f5-877c-cb083e0ff27f";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};

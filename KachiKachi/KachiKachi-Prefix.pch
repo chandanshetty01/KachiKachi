@@ -47,5 +47,5 @@
 
 //#define ENABLE_ALL_LEVELS
 //#define DEVELOPMENT_MODE
-//#define PAID_VERSION
+#define PAID_VERSION
 
